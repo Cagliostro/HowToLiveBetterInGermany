@@ -1,121 +1,123 @@
-# 结婚划不划算：把一笔糊涂账拆成五笔清楚账
+[← Zurück zum Inhaltsverzeichnis](../README.md)
 
-很多人想问的是一个笼统的问题：结婚到底亏还是赚。这个问题里塞了好几样东西：对方能不能给情绪上的支持，能不能分担家务，能不能挣钱，以及要不要为了应付长辈去结。这几样换算不到一起，放在一起没法回答，所以本文把它拆开算。每一笔账只用官方统计或荟萃分析（把多项研究合起来算）里的数字，算不出来的地方直说算不出来。最后给一张可以自己填的清单，全文不给「该不该结」的结论。
+# Lohnt sich heiraten: eine unklare Rechnung in fünf klare Rechnungen zerlegt
 
-## 一、先把问题拆开
+Viele Menschen stellen eine allgemeine Frage: Verliert man beim Heiraten oder gewinnt man. In dieser Frage steckt mehreres auf einmal: ob der andere dir seelische Unterstützung geben kann, ob er Arbeit im Haushalt mitträgt, ob er Geld verdient, und ob man heiratet, um den Älteren gerecht zu werden. Diese Dinge lassen sich nicht ineinander umrechnen, zusammen kann man die Frage nicht beantworten. Deshalb zerlegt dieser Text sie in getrennte Rechnungen. Jede Rechnung benutzt nur Zahlen aus einer amtlichen Statistik oder einer Metaanalyse, die die Daten mehrerer Studien zusammenrechnet. Wo sich nichts berechnen lässt, steht offen, dass es sich nicht berechnen lässt. Am Ende steht eine Liste zum Selbstausfüllen; der ganze Text zieht keine Schlussfolgerung zur Frage, ob du heiraten sollst.
 
-「结婚划不划算」里至少装着五笔账。这五笔账的单位不一样，算法也不一样，不能加在一起。
+## 1. Zuerst die Frage zerlegen
 
-1. 钱：一是实打实要掏出去的彩礼、婚礼、婚房，二是法律规定的财产归谁。前一项没有官方统计，后一项有明文条款。
-2. 时间：家务、照料家人、为对方的工作让步，这些都是干了活没人给钱的劳动，单位是每天多少分钟。
-3. 健康：结了婚的人和没结婚的人，死亡率差多少。这笔账只能说明两件事同时出现，说明不了这个差距是结婚带来的。
-4. 法律风险：财产怎么分，想退出要走多久，哪些付出可以回头要一笔补偿。这笔账看法律条文怎么写。
-5. 关系质量：对方给不给你情绪上的支持，两个人吵成什么样。这笔账只能用研究里算出来的关联强弱去衡量，换不成钱，也换不成时间。
+In „Lohnt sich heiraten" stecken mindestens fünf Rechnungen. Diese fünf Rechnungen haben verschiedene Einheiten und werden verschieden gerechnet; man kann sie nicht zusammenzählen.
 
-第五笔最难变成数字，但最接近多数人想问的东西。
+1. Geld: erstens der Brautpreis, die Hochzeit und die Ehewohnung, die wirklich bezahlt werden müssen, zweitens die gesetzliche Regel, wem das Vermögen gehört. Für den ersten Punkt gibt es keine amtliche Statistik, für den zweiten gibt es ausdrückliche Vorschriften.
+2. Zeit: Hausarbeit, Pflege von Angehörigen und Zurückstecken für die Arbeit des anderen sind Arbeit, für die niemand Geld zahlt. Die Einheit ist: wie viele Minuten pro Tag.
+3. Gesundheit: wie stark sich die Sterblichkeit von Verheirateten und Nichtverheirateten unterscheidet. Diese Rechnung zeigt nur, dass zwei Dinge zugleich auftreten. Sie zeigt nicht, dass der Unterschied von der Ehe kommt.
+4. Rechtliches Risiko: wie das Vermögen geteilt wird, wie lange ein Ausstieg dauert und für welche Leistungen du nachträglich einen Ausgleich verlangen kannst. Diese Rechnung richtet sich nach dem Wortlaut des Gesetzes.
+5. Beziehungsqualität: ob der andere dir seelische Unterstützung gibt und wie heftig ihr streitet. Diese Rechnung lässt sich nur mit der Stärke des Zusammenhangs messen, die Studien berechnen. Sie lässt sich nicht in Geld und nicht in Zeit umrechnen.
 
-## 二、每笔账的数据与来源
+Die fünfte Rechnung lässt sich am schwersten in Zahlen fassen. Sie kommt aber dem am nächsten, was die meisten fragen wollen.
 
-### 登记数据：结婚率和离婚率是两种粗率
+## 2. Die Daten und Quellen jeder Rechnung
 
-数字来自民政部《2024 年民政事业发展统计公报》。2024 年全国依法办理结婚登记 610.6 万对，比上一年少了 20.5%，结婚率 4.3‰。依法办理离婚手续 351.3 万对，离婚率 2.5‰。这 351.3 万对里，262.2 万对是在民政部门登记离婚的，89.1 万对是由法院判决或者调解离婚的。公报的注释写明了这两个率怎么算：拿当年结婚（离婚）的对数，除以当年的平均总人口数，再乘 1000‰。
+### Registerdaten: Heiratsquote und Scheidungsquote sind zwei grobe Raten
 
-这两个率的分母都是全体人口，所以叫粗率。「粗」指没做任何细分。它回答的是今年每一千人里有多少对去登记了结婚或者离婚，回答不了一段婚姻最后会不会散。要回答后一个问题，得有跟着同一批人长期记录的数据。本文没能在官方原文里找到这样的数据。
+Die Zahlen stammen aus dem Statistikbericht über die Entwicklung der zivilen Angelegenheiten 2024 des Ministeriums für zivile Angelegenheiten. 2024 wurden landesweit 6.106.000 Ehen registriert, 20,5 % weniger als im Vorjahr, die Heiratsquote lag bei 4,3 ‰. Nach dem Gesetz wurden bei 3.513.000 Paaren die Scheidungsformalitäten erledigt, die Scheidungsquote lag bei 2,5 ‰. Von diesen 3.513.000 Paaren wurden 2.622.000 über die Registrierung beim Ministerium für zivile Angelegenheiten geschieden, 891.000 durch Gerichtsurteil oder gerichtliche Einigung. Die Anmerkung des Berichts erklärt, wie die beiden Raten gerechnet werden: die Zahl der Eheschließungen (Scheidungen) des Jahres geteilt durch die durchschnittliche Gesamtbevölkerung des Jahres, dann mal 1000 ‰.
 
-### 健康账：已婚者死亡率更低，但这是相关不是因果
+Bei beiden Raten ist der Nenner die gesamte Bevölkerung, deshalb heißen sie grobe Raten. „Grob" heißt: Es wird keine Unterteilung gemacht. Sie beantworten, wie viele Paare von je 1.000 Menschen in diesem Jahr eine Ehe oder eine Scheidung registriert haben. Sie beantworten nicht, ob eine Ehe am Ende auseinandergeht. Für die zweite Frage bräuchte man Daten, die dieselben Menschen über lange Zeit begleiten. Solche Daten hat dieser Text in den amtlichen Originalen nicht gefunden.
 
-有三项荟萃分析把多篇研究汇总到了一起，给出的量级是一致的。下面说的「全因死亡」，指的是不分病因、所有死亡加在一起。
+### Die Gesundheitsrechnung: Verheiratete haben eine niedrigere Sterblichkeit, aber das ist ein Zusammenhang, keine Ursache
 
-- Manzoli 等 (2007) 汇总了 53 组比较、25 万余名老年人。这里的「没在婚姻里」包括三种人：丧偶的、离异或者分居的、从未结婚的。已婚的人和这三种人比，全因死亡 RR 为 0.88，低约一成二。RR 是两群人的死亡风险之比，小于 1 说明已婚的一方更低。95% CI 0.85–0.91 是这个数字的可信范围。三种人分开看，丧偶 1.11、离异或分居 1.16、未婚 1.11，分别高约一成、一成六和一成。男女分开算、研究做得好坏分开算、欧洲和美洲分开算，结果都不变。用最保守的算法重算一遍，RR 为 0.94，只低约百分之六。
-- Roelfs 等 (2011) 汇总了 95 篇文献、5 亿余人。从未结过婚的人和已婚的人比，全因死亡 HR 为 1.24，高约两成四。HR 和 RR 一样是个倍数，大于 1 说明风险更高。1.19–1.30 是这个数字的可信范围。年纪越大，这个差距越小。研究做得越严谨，算出来的差距也越小。
-- Wang 等 (2020) 汇总了 21 项研究、789 万余人。不在婚姻里，和全因死亡、癌症死亡、心血管死亡都有关联，男女都是如此。其中男性在心血管死亡和全因死亡上的关联更强。从未结婚的男性和从未结婚的女性比，死于卒中（脑中风）的风险高 31%，全因死亡高 9%。
+Drei Metaanalysen haben mehrere Studien zusammengefasst; die Größenordnung ist bei allen gleich. „Tod aus jeglicher Ursache" meint im Folgenden alle Todesfälle zusammen, unabhängig von der Krankheit.
 
-这三项研究都只是跟踪记录人群，没有分组对照。身体好、收入高、社交多的人，本来就更容易结上婚，也本来就更容易活得久。这叫选择效应。Manzoli 那篇还发现有发表偏倚的迹象。发表偏倚的意思是，结果好看的研究更容易被发表出来，汇总的时候就会偏乐观。所以这些数字只能读成已婚的人群里死亡率低一些，不能读成「结了婚你就能少死 12%」。这些研究的样本以欧美人群为主，用在国内只能当个量级参考。
+- Manzoli et al. (2007) fasst 53 Vergleiche und über 250.000 ältere Menschen zusammen. „Nicht in der Ehe" umfasst hier drei Gruppen: Verwitwete, Geschiedene oder Getrenntlebende und nie Verheiratete. Verheiratete gegenüber diesen drei Gruppen ergaben beim Tod aus jeglicher Ursache ein RR von 0,88, also rund 12 % niedriger. RR ist das Verhältnis des Sterberisikos zweier Gruppen; kleiner als 1 heißt, dass die verheiratete Gruppe niedriger liegt. 95 %-KI 0,85–0,91 ist der verlässliche Bereich dieser Zahl. Einzeln betrachtet: Verwitwung 1,11, Geschieden oder getrennt lebend 1,16, nicht verheiratet 1,11, also rund 11 %, 16 % und 11 % höher. Rechnet man Männer und Frauen getrennt, gute und schlechte Studien getrennt, Europa und Amerika getrennt, bleibt das Ergebnis gleich. Mit der konservativsten Rechnung ergibt sich RR 0,94, also nur rund 6 % niedriger.
+- Roelfs et al. (2011) fasst 95 Arbeiten und über 500 Millionen Menschen zusammen. Nie Verheiratete gegenüber Verheirateten ergaben beim Tod aus jeglicher Ursache ein HR von 1,24, also rund 24 % höher. HR ist wie RR ein Vielfaches; größer als 1 heißt, dass das Risiko höher ist. 1,19–1,30 ist der verlässliche Bereich dieser Zahl. Je älter die Menschen, desto kleiner der Unterschied. Je strenger eine Studie gemacht war, desto kleiner fiel der Unterschied aus.
+- Wang et al. (2020) fasst 21 Studien und über 7,89 Millionen Menschen zusammen. Nicht in der Ehe zu leben hängt mit Tod aus jeglicher Ursache, Krebstod und Herz-Kreislauf-Tod zusammen, bei Männern wie bei Frauen. Bei Männern ist der Zusammenhang bei Herz-Kreislauf-Tod und Tod aus jeglicher Ursache stärker. Nie verheiratete Männer haben gegenüber nie verheirateten Frauen ein um 31 % höheres Risiko, an einem Schlaganfall (Hirnschlag) zu sterben, und ein um 9 % höheres Risiko für Tod aus jeglicher Ursache.
 
-### 时间账：无酬劳动的性别差距是一个上限参考
+Diese drei Studien begleiten die Menschen nur und zeichnen auf, sie haben keine Vergleichsgruppe. Wer gesünder ist, mehr verdient und mehr soziale Kontakte hat, heiratet leichter und lebt auch leichter länger. Das nennt man Selektionseffekt. Die Arbeit von Manzoli fand außerdem Hinweise auf Publikationsverzerrung. Publikationsverzerrung heißt: Studien mit schönen Ergebnissen werden leichter veröffentlicht, bei der Zusammenfassung fällt das Ergebnis dann zu optimistisch aus. Diese Zahlen darf man deshalb nur so lesen: Unter Verheirateten ist die Sterblichkeit etwas niedriger. Man darf sie nicht so lesen: „Heiratest du, stirbst du 12 % seltener". Die Stichproben dieser Studien bestehen überwiegend aus europäischen und nordamerikanischen Gruppen; für China taugen sie nur als Größenordnung.
 
-数字来自国家统计局第三次全国时间利用调查，调查时间是 2024 年 5 月。先说清三个词。无酬劳动就是干了活没人给钱的那部分。「参与者」指当天真做了这件事的人。「参与率」指有多少比例的人当天做了这件事。结果是这样：无酬劳动的参与者每天平均花 2 小时 45 分，其中男性 1 小时 52 分、女性 3 小时 29 分。参与率 75.6%，其中男性 67.5%、女性 83.9%。家务劳动单独拿出来看，按全体居民摊平是每天 1 小时 17 分。只算当天真干了的人，是 1 小时 59 分，比 2018 年少 28 分，参与率 64.9%。陪伴照料家人单独拿出来看，按全体居民摊平是 30 分。只算当天真干了的人，是 1 小时 46 分，参与率 28.4%。
+### Die Zeitrechnung: Der Geschlechterunterschied bei unbezahlter Arbeit ist eine Obergrenze
 
-2018 年的第二次调查是这样：家务劳动按全体居民摊平是 1 小时 26 分，其中男性 45 分、女性 2 小时 6 分。参与率男性 40.4%、女性 75.6%。陪伴照料孩子生活按全体居民摊平是 36 分，其中男性 17 分、女性 53 分。参与率男性 12.3%、女性 25.1%。
+Die Zahlen stammen aus der dritten landesweiten Zeitverwendungserhebung des Staatlichen Amtes für Statistik; die Erhebung fand im Mai 2024 statt. Zuerst drei Begriffe. Unbezahlte Arbeit ist der Teil, bei dem jemand arbeitet und niemand dafür zahlt. „Wer sie ausübte" meint die Menschen, die diese Arbeit an dem Tag wirklich verrichtet haben. „Anteil" meint, wie viel Prozent der Menschen diese Arbeit an dem Tag verrichtet haben. Das Ergebnis: Wer unbezahlte Arbeit verrichtete, brauchte dafür täglich durchschnittlich 2 Stunden 45 Minuten, davon Männer 1 Stunde 52 Minuten und Frauen 3 Stunden 29 Minuten. Der Anteil lag bei 75,6 %, davon Männer 67,5 % und Frauen 83,9 %. Die Hausarbeit allein, auf alle Einwohner umgelegt, beträgt täglich 1 Stunde 17 Minuten. Nur für die, die sie an dem Tag wirklich verrichteten, sind es 1 Stunde 59 Minuten, 28 Minuten weniger als 2018, der Anteil liegt bei 64,9 %. Die Betreuung von Angehörigen allein, auf alle Einwohner umgelegt, beträgt 30 Minuten. Nur für die, die sie an dem Tag wirklich verrichteten, sind es 1 Stunde 46 Minuten, der Anteil liegt bei 28,4 %.
 
-这两次调查都只按性别、城乡、年龄分组，没有按结没结婚分组。所以「结婚之后每天要多干多少家务」这个问题，没有官方数字。能拿来用的是男女之间的差距。2024 年无酬劳动的男女差距是 1 小时 37 分。如果家务分工没谈清楚，两个人可能拉开的差距最多就是这么大。
+Die zweite Erhebung 2018 ergab: Hausarbeit, auf alle Einwohner umgelegt, 1 Stunde 26 Minuten, davon Männer 45 Minuten und Frauen 2 Stunden 6 Minuten. Der Anteil lag bei Männern bei 40,4 % und bei Frauen bei 75,6 %. Die Betreuung von Kindern im Alltag, auf alle Einwohner umgelegt, 36 Minuten, davon Männer 17 Minuten und Frauen 53 Minuten. Der Anteil lag bei Männern bei 12,3 % und bei Frauen bei 25,1 %.
 
-### 钱账：默认规则、书面约定和家务补偿
+Beide Erhebungen gruppieren nur nach Geschlecht, Stadt und Land sowie Alter, nicht nach verheiratet oder nicht. Für die Frage, wie viel mehr Hausarbeit eine Ehe täglich bringt, gibt es also keine amtliche Zahl. Brauchbar ist nur der Unterschied zwischen Männern und Frauen. 2024 betrug der Geschlechterunterschied bei unbezahlter Arbeit 1 Stunde 37 Minuten. Ist die Aufteilung der Hausarbeit nicht geklärt, kann der Unterschied, den zwei Menschen auseinandergehen, höchstens so groß werden.
 
-彩礼、婚礼、婚房这几项没有官方统计，本文不写数字。能写清楚的是民法典婚姻家庭编定下的规则。民法典从 2021 年 1 月 1 日起施行。
+### Die Geldrechnung: die Standardregel, die schriftliche Vereinbarung und der Ausgleich für Hausarbeit
 
-- 第一千零六十二条：从结婚那天到离婚那天，这段时间里得到的四样东西，都算两个人的共同财产。一是工资、奖金、劳务报酬。二是做生意和投资的收益。三是知识产权的收益。四是继承来的或者别人赠与的财产。第四样有个例外：遗嘱或者赠与合同里写明只给一个人的，不算共同财产。共同财产两个人有同等的处理权。
-- 第一千零六十三条：有四样算个人财产，离婚的时候不进共同财产。一是结婚前就有的财产。二是身体受伤害拿到的赔偿或者补偿。三是遗嘱或者赠与合同里写明只给一方的财产。四是一方专用的生活用品。
-- 第一千零六十五条：婚前和婚后的财产归谁，两个人可以自己约定。可以约定各归各的，可以约定全部共有，也可以约定一部分各归各、一部分共有。这个约定必须写成书面的，写了就对两个人都有法律约束力。没有约定，或者约定得不清不楚，就按上面两条办。
-- 第一千零八十八条：有一方因为带孩子、照顾老人、帮着另一方工作，比对方多付出了，离婚的时候可以向对方要一笔补偿。补多少，先由两个人自己商量，商量不拢由法院判。
+Für Brautpreis, Hochzeit und Ehewohnung gibt es keine amtliche Statistik; dieser Text nennt dazu keine Zahlen. Klar beschreiben lassen sich die Regeln, die der Ehe- und Familienabschnitt des Zivilgesetzbuchs [民法典] festlegt. Das Zivilgesetzbuch gilt seit dem 1. Januar 2021.
 
-这套规则对两边都有用。挣钱多的那一方，重点看第一千零六十二条和第一千零六十五条。家里干活多的那一方，重点看第一千零八十八条。财产约定只要求写成书面的，法律上不要求去公证处公证。
+- Art. 1062: Die vier Dinge, die von der Eheschließung bis zur Scheidung erworben werden, gehören beiden gemeinsam. Erstens Gehalt, Bonus und Vergütung für Arbeit. Zweitens Erträge aus Betrieb und Kapitalanlage. Drittens Erträge aus geistigem Eigentum. Viertens geerbtes oder geschenktes Vermögen. Beim vierten gibt es eine Ausnahme: Was ein Testament oder ein Schenkungsvertrag ausdrücklich nur einem zuweist, gehört nicht zum gemeinsamen Vermögen. Über gemeinsames Vermögen verfügen beide gleich.
+- Art. 1063: Vier Dinge gelten als persönliches Vermögen und gehen bei der Scheidung nicht ins gemeinsame Vermögen. Erstens Vermögen, das schon vor der Ehe vorhanden war. Zweitens Entschädigung oder Ausgleich für einen Körperschaden. Drittens Vermögen, das ein Testament oder ein Schenkungsvertrag ausdrücklich nur einem zuweist. Viertens Gegenstände des persönlichen Gebrauchs, die nur einer nutzt.
+- Art. 1065: Wem das Vermögen vor und nach der Ehe gehört, können beide selbst vereinbaren. Sie können vereinbaren, dass jedem seines allein gehört, dass alles beiden gemeinsam gehört, oder dass ein Teil jedem allein und ein Teil beiden gemeinsam gehört. Die Vereinbarung muss schriftlich sein; schriftlich bindet sie beide rechtlich. Ohne Vereinbarung, oder wenn die Vereinbarung unklar ist, gelten die beiden Artikel oben.
+- Art. 1088: Hat eine Seite durch Kinderbetreuung, Pflege von Alten oder Unterstützung der Arbeit der anderen Seite mehr geleistet, kann sie bei der Scheidung einen Ausgleich verlangen. Wie hoch der Ausgleich ist, verhandeln zuerst beide selbst; einigen sie sich nicht, entscheidet das Gericht.
 
-### 退出成本：冷静期和诉讼条件
+Diese Regeln nützen beiden Seiten. Wer mehr verdient, liest vor allem Art. 1062 und Art. 1065. Wer im Haushalt mehr arbeitet, liest vor allem Art. 1088. Für eine Vermögensvereinbarung genügt die Schriftform; das Gesetz verlangt keine notarielle Beurkundung.
 
-- 第一千零七十六条：两个人都愿意离婚的，先签一份书面离婚协议，再本人到婚姻登记机关去申请。协议里要写明孩子归谁带，财产和债务怎么处理。这些内容都得是两个人谈拢了的意见。
-- 第一千零七十七条：从登记机关收到申请那天算起的三十天里，任何一方反悔了，都可以把申请撤回来。这三十天就是常说的冷静期。冷静期过完之后的三十天里，两个人要本人去申请领离婚证，没去的就当作撤回申请。
-- 第一千零七十九条：一方想离、另一方不同意的，可以先调解，也可以直接到法院起诉。到了法院，法院也要先调解。法院确认感情确实已经破裂、调解也没用的，应当判离。下面这几种情形，调解无效的应当判离：重婚或者与他人同居，家庭暴力或者虐待遗弃，赌博吸毒等恶习屡教不改，因为感情不和分居满二年。还有一种情形：第一次判了不准离，之后两个人又分居满一年，再起诉的应当判离。
+### Die Ausstiegskosten: die Bedenkzeit und die Bedingungen für die Klage
 
-2024 年离婚的 351.3 万对里，有 89.1 万对是走法院判决或者调解离的。冷静期只管登记离婚，走法院打官司的不适用冷静期。
+- Art. 1076: Wollen beide die Scheidung, unterschreiben sie zuerst eine schriftliche Scheidungsvereinbarung und stellen dann den Antrag persönlich bei der Eheregistrierungsstelle. In der Vereinbarung muss stehen, wer die Kinder nimmt und wie Vermögen und Schulden geregelt werden. Diese Punkte müssen beide ausgehandelt und einverstanden sein.
+- Art. 1077: Innerhalb von 30 Tagen ab dem Tag, an dem die Registrierungsstelle den Antrag erhält, kann jede Seite es sich anders überlegen und den Antrag zurückziehen. Diese 30 Tage sind die sogenannte Bedenkzeit. Innerhalb von 30 Tagen nach Ablauf der Bedenkzeit müssen beide persönlich die Scheidungsurkunde beantragen; wer nicht kommt, gilt als habe den Antrag zurückgezogen.
+- Art. 1079: Will eine Seite die Scheidung und die andere nicht, kann man zuerst schlichten lassen oder direkt beim Gericht klagen. Beim Gericht schlichtet das Gericht ebenfalls zuerst. Ist das Gericht überzeugt, dass die Zuneigung wirklich zerrüttet ist und die Schlichtung nichts nützt, soll es die Scheidung zusprechen. In den folgenden Fällen soll es bei gescheiterter Schlichtung die Scheidung zusprechen: Bigamie oder Zusammenleben mit einem anderen, häusliche Gewalt oder Misshandlung und Aussetzung, Spiel- oder Drogensucht und ähnliche Laster ohne Besserung, und Getrenntleben aus Zerrüttung von zwei vollen Jahren. Dazu ein weiterer Fall: Wird die Scheidung beim ersten Mal abgelehnt und leben beide danach ein weiteres volles Jahr getrennt, soll ein neuer Antrag zugesprochen werden.
 
-### 关系质量：比「有没有结婚」更值得算的一笔
+Von den 3.513.000 Paaren, die 2024 geschieden wurden, wurden 891.000 durch Gerichtsurteil oder gerichtliche Einigung geschieden. Die Bedenkzeit gilt nur für die Scheidungsregistrierung; wer über das Gericht geht, für den gilt die Bedenkzeit nicht.
 
-Robles 等 (2014) 汇总了 126 篇研究、7.2 万余人。结论是：婚姻质量越高，健康越好。这里衡量两件事跟得紧不紧，用的是一个叫效应量 r 的数。r 越接近 0，说明两件事几乎不相干。r 的绝对值越大，说明跟得越紧。r 前面带个负号，表示一个高、另一个就低。这些关联的 r 在 0.07 到 0.21 之间。其中和死亡风险的 r = 0.11。和两人起冲突时的心血管反应，r = −0.13。这些数值都不大。不过吃得好不好这类健康行为和健康之间的关联，也是同一个量级。有一部分结果存在发表偏倚（好看的结果更易发表）。有些研究专门检验过男女差别，基本没发现男女不一样。这些研究多数只是跟踪记录，没有分组对照，所以推不出因果。Dhindsa 等 (2020) 这篇心血管方面的综述也指出，对婚姻满不满意、婚姻质量好不好，对心血管风险有明显影响。
+### Die Beziehungsqualität: eine Rechnung, die sich mehr lohnt als „verheiratet oder nicht"
 
-本文没有找到这样的荟萃分析：直接拿「质量差的婚姻」和「没结婚」比死亡率。所以「坏婚姻还不如不结」目前只是推出来的说法，没有数字撑着。站得住的是：「结没结婚」这个差别里混着选择效应，「婚姻质量好不好」是另外一件独立的事。只看有没有结婚、不看过得怎么样，就会把婚姻质量这笔账整个漏掉。
+Robles et al. (2014) fasst 126 Studien und über 72.000 Menschen zusammen. Das Ergebnis: Je höher die Ehequalität, desto besser die Gesundheit. Wie eng zwei Dinge zusammenhängen, misst hier eine Zahl namens Effektstärke r. Je näher r an 0 liegt, desto weniger hängen die zwei Dinge zusammen. Je größer der Betrag von r, desto enger hängen sie zusammen. Ein Minus vor dem r heißt: Ist das eine hoch, ist das andere niedrig. Diese Zusammenhänge liegen bei r zwischen 0,07 und 0,21. Mit dem Sterberisiko ist r = 0,11. Mit der Herz-Kreislauf-Reaktion beim Streit der beiden ist r = −0,13. Diese Werte sind alle nicht groß. Der Zusammenhang zwischen Gesundheitsverhalten wie gutem oder schlechtem Essen und Gesundheit hat aber dieselbe Größenordnung. Ein Teil der Ergebnisse ist publikationsverzerrt (schöne Ergebnisse werden leichter veröffentlicht). Einige Studien prüften eigens den Unterschied zwischen Männern und Frauen und fanden fast keinen. Die meisten dieser Studien zeichnen nur auf, sie haben keine Vergleichsgruppe, deshalb lässt sich daraus keine Ursache ableiten. Die Übersicht von Dhindsa et al. (2020) zum Herz-Kreislauf-Bereich weist ebenfalls darauf hin: Wie zufrieden man mit der Ehe ist und wie gut die Ehequalität ist, hat einen deutlichen Einfluss auf das Herz-Kreislauf-Risiko.
 
-## 三、怎么给自己算：一张填空清单
+Dieser Text hat keine Metaanalyse gefunden, die Sterblichkeit bei „Ehe mit geringer Qualität" direkt mit „nicht verheiratet" vergleicht. „Eine schlechte Ehe ist schlechter als keine" ist damit bisher nur eine Schlussfolgerung, kein Zahlenbefund. Was hält: Im Unterschied „verheiratet oder nicht" steckt ein Selektionseffekt, und „wie gut die Ehe ist" ist eine andere, davon unabhängige Sache. Wer nur auf verheiratet oder nicht schaut und nicht darauf, wie es läuft, lässt die Rechnung über die Ehequalität ganz weg.
 
-一笔账归一笔账地填。不同笔的数不要加在一起。填不出来的格子就写「不知道」。「不知道」本身也是有用的信息。
+## 3. Wie du für dich selbst rechnest: eine Liste mit Lücken zum Ausfüllen
 
-对方能提供什么（一笔一笔填）
+Füll jede Rechnung für sich aus. Zahlen aus verschiedenen Rechnungen darfst du nicht zusammenzählen. Kannst du ein Feld nicht ausfüllen, schreib „weiß nicht". Auch ein „weiß nicht" ist eine nützliche Information.
 
-- 钱：对方的收入有多少，欠了多少债，婚前有什么财产。婚后的财产，是按法律的默认规则走，还是要写一份书面约定。要写约定的话，约定里写什么。
-- 时间：对方现在每天做多少没人付钱的家务和照料。全国平均数可以拿来对照：当天真干了的人里，男性 1 小时 52 分、女性 3 小时 29 分。结婚以后这些活怎么分。有了孩子、家里老人要人照顾的时候，又怎么分。两个人里谁的工作可以往后放。
-- 关系质量：过去半年两个人起过几次冲突，每次最后是怎么收场的。你生病、失业、情绪低落的时候，对方做了什么。反过来，对方碰上这些事的时候，你做了什么。
-- 情绪价值：和对方待在一起，你是觉得精力变多了，还是被耗掉了。这个要相处几个月才看得出来，光看条件清单看不出来。
+Was der andere beisteuern kann (eine Rechnung nach der anderen ausfüllen)
 
-自己要付出什么（一笔一笔填）
+- Geld: Wie hoch ist das Einkommen des anderen, wie viele Schulden hat er, welches Vermögen hat er vor der Ehe. Beim Vermögen nach der Ehe: die gesetzliche Standardregel oder eine schriftliche Vereinbarung. Soll es eine Vereinbarung geben, was soll darin stehen.
+- Zeit: Wie viel unbezahlte Hausarbeit und Pflege macht der andere heute pro Tag. Zum Vergleich die Landesdurchschnitte: Von denen, die diese Arbeit an dem Tag wirklich verrichteten, Männer 1 Stunde 52 Minuten, Frauen 3 Stunden 29 Minuten. Wie werden diese Arbeiten nach der Ehe verteilt. Wie werden sie verteilt, wenn Kinder da sind oder die Alten in der Familie Pflege brauchen. Wessen Arbeit kann zurückstehen.
+- Beziehungsqualität: Wie oft hattet ihr im letzten halben Jahr Streit, und wie ging jeder Streit aus. Was hat der andere getan, als du krank, arbeitslos oder niedergeschlagen warst. Umgekehrt: Was hast du getan, als der andere so etwas durchgemacht hat.
+- Seelischer Wert: Fühlst du dich in der Zeit mit dem anderen energiegeladener oder verbraucht. Das zeigt sich erst, wenn ihr einige Monate zusammen seid; eine Liste von Bedingungen zeigt es nicht.
 
-- 钱：为结婚这件事本身要掏多少，包括彩礼、婚礼、婚房。这笔钱如果不结婚，会用到哪儿去。
-- 时间：估一下每天要多干多少家务和照料。再估一下每周要多花多少时间在人情往来上。
-- 健康：自己的作息、吃饭、运动，会因为结婚变好还是变坏。这比荟萃分析算出来的那些数字更贴近你自己。
-- 退出成本：走登记离婚，要先等 30 天冷静期，再在接下来的 30 天内去领证。走法院，要满足第一千零七十九条写的那些情形。这段时间自己扛不扛得住。
+Was du selbst einbringen musst (eine Rechnung nach der anderen ausfüllen)
 
-法律上怎么保护自己（两边都适用）
+- Geld: Wie viel musst du für die Heirat selbst auf den Tisch legen, einschließlich Brautpreis, Hochzeit und Ehewohnung. Wofür würde dieses Geld gehen, wenn du nicht heiratest.
+- Zeit: Schätze, wie viel mehr Hausarbeit und Pflege du täglich machst. Schätze dann, wie viel mehr Zeit du wöchentlich für gesellschaftliche Verpflichtungen aufbringst.
+- Gesundheit: Wird dein Tagesrhythmus, dein Essen und deine Bewegung durch die Ehe besser oder schlechter. Das liegt dir näher als die Zahlen aus den Metaanalysen.
+- Ausstiegskosten: Bei der Scheidungsregistrierung wartest du zuerst 30 Tage Bedenkzeit und holst dann innerhalb der nächsten 30 Tage die Urkunde. Über das Gericht musst du die Fälle erfüllen, die in Art. 1079 stehen. Hältst du diese Zeit durch.
 
-- 婚前的财产有没有凭证，比如购房合同、银行流水、赠与合同、遗嘱。这些凭证能不能证明它是「婚前就有的」，或者「写明了只归一方」。
-- 要不要签一份书面的财产约定。这份约定是只管婚前财产，只管婚后挣的，还是两头都管。
-- 婚后是谁家务和照料干得更多。干得多的这一方，知不知道按第一千零八十八条可以要一笔补偿。两个人愿不愿意提前把补偿办法约定好。
-- 债务：婚后以个人名义借的钱，哪些会算成两个人的共同债务。另一方对这笔钱知不知情。
+Wie du dich rechtlich schützt (gilt für beide Seiten)
 
-为长辈结婚这一栏单独填
+- Gibt es für das Vermögen von vor der Ehe Belege, etwa den Kaufvertrag für die Wohnung, den Kontoauszug, den Schenkungsvertrag, das Testament. Können diese Belege beweisen, dass es „schon vor der Ehe vorhanden war" oder „ausdrücklich nur einem zugewiesen ist".
+- Soll eine schriftliche Vermögensvereinbarung unterschrieben werden. Diese Vereinbarung betrifft nur das Vermögen vor der Ehe, nur das in der Ehe Erworbene, oder beides.
+- Wer nach der Ehe mehr Hausarbeit und Pflege leistet. Weiß die Seite, die mehr leistet, dass sie nach Art. 1088 einen Ausgleich verlangen kann. Wollen beide den Ausgleich vorher vereinbaren.
+- Schulden: Welche Schulden, die nach der Ehe im eigenen Namen aufgenommen werden, zählen als gemeinsame Schulden beider. Weiß die andere Seite von diesem Geld.
 
-- 长辈能得到什么：心里踏实，面子上过得去，不用再催婚，将来有人养老。
-- 这几样里哪些真是长辈的好处，哪些其实是自己的好处。
-- 上面三栏的成本，全都由自己承担。长辈得到的那些好处，不会自动变成自己的健康，也不会自动变成自己的关系质量。
-- 这么分开写完，这笔账是重是轻，由填表的人自己判断。
+Die Spalte „Heiraten für die Älteren" füllst du getrennt aus
 
-## 四、常见误区
+- Was die Älteren bekommen: Beruhigung, Ansehen, kein weiteres Drängen auf die Heirat, und später jemand, der sie im Alter versorgt.
+- Welche davon wirklich ein Nutzen für die Älteren sind und welche eigentlich dein eigener Nutzen.
+- Die Kosten der drei Spalten oben trägst du ganz selbst. Der Nutzen, den die Älteren bekommen, wird nicht automatisch deine Gesundheit und nicht automatisch deine Beziehungsqualität.
+- Wenn du so getrennt fertig schreibst, entscheidest du selbst als Ausfüllender, ob diese Rechnung schwer oder leicht wiegt.
 
-把两种离婚率搞混。一种是粗离婚率，算的是每一千人里有多少对离婚，2024 年是 2.5‰。另一种是「离结比」，算的是当年离婚的对数除以当年结婚的对数，351.3 / 610.6 ≈ 57.5%。离结比的分子和分母不是同一批人，今年离婚的这些人，多数是好多年前结的婚。结婚的人一少，这个比值就会自己往上跳，所以它说明不了「一半的婚姻会离」。民政部的公报里也没有这个指标。
+## 4. Häufige Irrtümer
 
-把「同时出现」当成「因为所以」。已婚的人死亡率低 12% 左右，这是把多篇研究合起来算出来的结果。但身体好、收入高、社交多这些条件，本来就同时影响两件事：一个人能不能结上婚，和一个人能不能活得久。这笔账可以算，但要打折看，也不能拿它代替对眼前这段具体关系的判断。
+Zwei Scheidungsquoten verwechseln. Die eine ist die grobe Scheidungsquote; sie rechnet, wie viele Paare von je 1.000 Menschen geschieden werden, 2024 waren es 2,5 ‰. Die andere ist das „Scheidungs-Heirats-Verhältnis"; es rechnet die Zahl der Scheidungen des Jahres geteilt durch die Zahl der Eheschließungen des Jahres, 351,3 / 610,6 ≈ 57,5 %. Zähler und Nenner dieses Verhältnisses sind nicht dieselben Menschen; wer sich dieses Jahr scheiden lässt, hat meist vor vielen Jahren geheiratet. Heiraten weniger, springt dieses Verhältnis von selbst nach oben, deshalb kann es nicht sagen, dass „die Hälfte der Ehen geschieden wird". Im Bericht des Ministeriums für zivile Angelegenheiten gibt es diese Kennzahl auch nicht.
 
-把结婚当成一项要完成的任务。当成任务，就只盯着「结没结」这个状态，不看「过得怎么样」。可是关系质量对健康的影响独立于结没结婚，任务式的决定通常把这笔账整个漏掉。
+Ein gleichzeitiges Auftreten für Ursache und Wirkung halten. Verheiratete haben eine rund 12 % niedrigere Sterblichkeit, das ist das zusammengefasste Ergebnis mehrerer Studien. Aber gute Gesundheit, hohes Einkommen und viele soziale Kontakte beeinflussen von vornherein zwei Dinge zugleich: ob jemand heiraten kann und ob jemand länger lebt. Diese Rechnung kann man aufstellen, aber nur mit Abschlag, und sie ersetzt nicht das Urteil über diese eine konkrete Beziehung vor dir.
 
-把全国平均数当成自己的数。时间利用调查里的男女差距，是全国平均。财产规则是法律给的默认设置，可以用一份书面约定改掉。全国数字只能给你一个量级、一个谈判的起点，给不了结论。
+Die Heirat als eine Aufgabe behandeln, die erledigt werden muss. Behandelst du sie als Aufgabe, schaust du nur auf den Zustand „verheiratet oder nicht" und nicht darauf, „wie es läuft". Die Beziehungsqualität wirkt aber unabhängig davon, ob ihr verheiratet seid, auf die Gesundheit; eine Entscheidung nach Art einer Aufgabe lässt diese Rechnung meist ganz weg.
 
-没有官方数字的地方，别拿民间数字去填。彩礼、婚礼、养孩子的成本都没有官方统计，所以本文空着。自己填自己那份真实的数，比引用任何机构的估算都准。
+Eine Landesdurchschnittszahl für deine eigene Zahl halten. Der Geschlechterunterschied in der Zeitverwendungserhebung ist ein Landesdurchschnitt. Die Vermögensregel ist die Standardeinstellung des Gesetzes; eine schriftliche Vereinbarung kann sie ändern. Landesweite Zahlen geben dir nur eine Größenordnung und einen Ausgangspunkt fürs Verhandeln, kein Ergebnis.
 
-## 来源
+Wo es keine amtlichen Zahlen gibt, füll nicht mit inoffiziellen Zahlen auf. Für Brautpreis, Hochzeit und die Kosten der Kindererziehung gibt es keine amtliche Statistik, deshalb lässt dieser Text sie leer. Deine eigene wahre Zahl zu nehmen ist genauer, als die Schätzung irgendeiner Stelle zu zitieren.
 
-- 民政部 (2025). 2024 年民政事业发展统计公报（五（二）1 婚姻登记服务、注释 5）. <https://www.mca.gov.cn/n1288/n1294/n1554/c1662004999980006190/content.html>（PDF：<https://www.mca.gov.cn/gdnps/n2445/n2451/n2458/n2681/c1662004999980006189/attr/400985.pdf>）
-- 国家统计局 (2024). 第三次全国时间利用调查公报（第一号、第二号、第三号）. <https://www.stats.gov.cn/sj/zxfb/202410/t20241031_1957217.html>、<https://www.stats.gov.cn/sj/zxfb/202410/t20241031_1957216.html>、<https://www.stats.gov.cn/sj/zxfb/202410/t20241031_1957215.html>；国家统计局社科文司负责人答记者问. <https://www.stats.gov.cn/sj/sjjd/202410/t20241031_1957218.html>
-- 国家统计局 (2019). 2018 年全国时间利用调查公报. <https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html>
-- 全国人民代表大会 (2020). 中华人民共和国民法典（第一千零六十二、一千零六十三、一千零六十五、一千零七十六、一千零七十七、一千零七十九、一千零八十八条）. 国家法律法规数据库 <https://flk.npc.gov.cn/detail?title=%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E6%B0%91%E6%B3%95%E5%85%B8&id=ff808081729d1efe01729d50b5c500bf>；条文全文见最高人民法院公报转载 <http://gongbao.court.gov.cn/Details/7f184078694d811fb3314f6af9accf.html>
-- 民政部 (2020). 关于贯彻落实《中华人民共和国民法典》中有关婚姻登记规定的通知（民发〔2020〕116 号）. <https://www.gov.cn/zhengce/zhengceku/2020-12/04/content_5567010.htm>
+## Quellen
+
+- Ministerium für zivile Angelegenheiten (2025). Statistikbericht über die Entwicklung der zivilen Angelegenheiten 2024 (V (II) 1 Eheregistrierungsdienst, Anmerkung 5). <https://www.mca.gov.cn/n1288/n1294/n1554/c1662004999980006190/content.html> (PDF: <https://www.mca.gov.cn/gdnps/n2445/n2451/n2458/n2681/c1662004999980006189/attr/400985.pdf>)
+- Staatliches Amt für Statistik (2024). Dritter landesweiter Bericht zur Zeitverwendungserhebung (Nr. 1, Nr. 2 und Nr. 3). <https://www.stats.gov.cn/sj/zxfb/202410/t20241031_1957217.html>, <https://www.stats.gov.cn/sj/zxfb/202410/t20241031_1957216.html>, <https://www.stats.gov.cn/sj/zxfb/202410/t20241031_1957215.html>; der zuständige Verantwortliche der Abteilung Sozial-, Wissenschafts- und Kulturstatistik des Staatlichen Amtes für Statistik beantwortet Fragen von Journalisten. <https://www.stats.gov.cn/sj/sjjd/202410/t20241031_1957218.html>
+- Staatliches Amt für Statistik (2019). Landesweiter Bericht zur Zeitverwendungserhebung 2018. <https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html>
+- Nationaler Volkskongress (2020). Zivilgesetzbuch der Volksrepublik China (Art. 1062, 1063, 1065, 1076, 1077, 1079 und 1088). Datenbank der staatlichen Gesetze und Vorschriften <https://flk.npc.gov.cn/detail?title=%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E6%B0%91%E6%B3%95%E5%85%B8&id=ff808081729d1efe01729d50b5c500bf>; Volltext der Paragrafen siehe Nachdruck im Amtsblatt des Obersten Volksgerichts <http://gongbao.court.gov.cn/Details/7f184078694d811fb3314f6af9accf.html>
+- Ministerium für zivile Angelegenheiten (2020). Mitteilung zur Umsetzung der Vorschriften des Zivilgesetzbuchs der Volksrepublik China über die Eheregistrierung [关于贯彻落实《中华人民共和国民法典》中有关婚姻登记规定的通知] (Zivile Angelegenheiten, Schreiben Nr. 116 von 2020). <https://www.gov.cn/zhengce/zhengceku/2020-12/04/content_5567010.htm>
 - Manzoli L, Villari P, Pirone GM, Boccia A (2007). Marital status and mortality in the elderly: a systematic review and meta-analysis. Soc Sci Med 64:77–94. <https://doi.org/10.1016/j.socscimed.2006.08.031>
 - Roelfs DJ, Shor E, Kalish R, Yogev T (2011). The rising relative risk of mortality for singles: meta-analysis and meta-regression. Am J Epidemiol 174(4):379–389. <https://doi.org/10.1093/aje/kwr111>
 - Wang Y, Jiao Y, Nie J, et al. (2020). Sex differences in the association between marital status and the risk of cardiovascular, cancer, and all-cause mortality: a systematic review and meta-analysis of 7,881,040 individuals. Glob Health Res Policy 5:4. <https://doi.org/10.1186/s41256-020-00133-8>

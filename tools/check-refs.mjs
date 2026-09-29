@@ -192,6 +192,12 @@ for (const { f, dir, isDoc } of targets) {
     // soll ebenfalls als Nummer geschrieben werden.
     const RELATIVE = /(?<![\wÄÖÜäöüß])(vorige|voriger|voriges|vorherige|vorheriger|nächste|nächster|nächstes|nachfolgende|nachfolgender|letzte|letzter|letztes|obige|obiger|besagte)\s+(Nr\.|Nummer|Punkt|Eintrag|Absatz)|(?<![\wÄÖÜäöüß])(Nr\.|Nummer)\s+(davor|danach|darüber|darunter)\b/gi;
     for (const m of line.matchAll(RELATIVE)) {
+      // «der letzte Absatz dieses Artikels» meint einen Absatz der zitierten Norm, nicht einen
+      // Eintrag dieses Abschnitts: er verschiebt sich nicht, wenn Einträge eingefügt werden, und
+      // ein Anker wäre dort sinnlos. Gebunden ist nur «Absatz» — «Nr.» und «Eintrag» zeigen immer
+      // auf Einträge. Vorbild ist «这一条的末款管的是帮忙的人» in Abschnitt 9, Nr. 21.
+      const bound = /^\s+(?:des|der|dieses|dieser|von)\s+(?:Artikels?|Art\.|§|Gesetzes?|Verordnung|Vorschrift)/.test(line.slice(m.index + m[0].length));
+      if (bound) continue;
       problems.push(`${f}:${i + 1} ${unit} nutzt einen relativen Verweis «${m[0]}» — als «Nr. N (Ankerwort)» schreiben`);
     }
 
@@ -222,7 +228,11 @@ for (const { f, dir, isDoc } of targets) {
       // «Richtlinie Nr. 29». Nur der unmittelbar davorstehende Text zählt, kein Fenster von
       // N Zeichen — Eintragsverweise stehen durchaus am Satzanfang.
       const tail = stripped.slice(0, m.index).replace(/\s+$/, '');
-      const CITE = /(Verordnung|Gesetz|Richtlinie|Satzung|Übereinkommen|Konvention|Erlass|Anordnung|Verfügung|Runderlass|Norm|DIN|EN|ISO|GB|Az\.|Aktenzeichen|Beschluss|Urteil|Rn\.|Rz\.)$/i;
+      // «Dokument» steht für die Aktenzeichen der chinesischen Behörden («〔2025〕22 号»), die in
+      // den deutschen Text als «Dokument Nr. 22 … von 2025» übersetzt sind — dieselbe Klasse wie
+      // «Verordnung Nr. 8». Ohne diesen Eintrag galten sie als Eintragsverweise und die
+      // Bereichsprüfung meldete sie als «vielleicht eine Normstelle».
+      const CITE = /(Verordnung|Gesetz|Dokument(?:s|es|e|en)?|Richtlinie|Satzung|Übereinkommen|Konvention|Erlass|Anordnung|Verfügung|Runderlass|Norm|DIN|EN|ISO|GB|Az\.|Aktenzeichen|Beschluss|Urteil|Rn\.|Rz\.)$/i;
       if (CITE.test(tail)) continue;
       for (const [x, range] of nums(m[1])) {
         const title = self.titles.get(x);

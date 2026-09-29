@@ -1,71 +1,73 @@
-# 做平台要办哪些证：对照表与选服务器的决策表
+[← Zurück zum Inhaltsverzeichnis](../README.md)
 
-这篇长文对应 README 第 26 节。这里只放三张表和几段最容易搞错的说明。条目正文和来源都在 README 里。公司怎么注册、怎么报税，见第 12 节（创业与做生意）。受雇的技术人员别踩的那些线，见第 11 节（程序员和技术人）。
+# Welche Genehmigungen braucht eine Plattform: Zuordnungstabelle und Entscheidungstabelle zur Serverwahl
 
-## 一、先判断你做的是哪种业务
+Dieser Langtext gehört zu Abschnitt 26 des README. Hier stehen nur die drei Tabellen und einige Absätze zu den Punkten, bei denen man sich am leichtesten irrt. Der Text der Einträge und die Quellen stehen im README. Wie du eine Firma registrierst und Steuern erklärst, steht in Abschnitt 12 (Gründen und Geschäft). Die roten Linien, die angestellte Techniker nicht überschreiten dürfen, stehen in Abschnitt 11 (Programmierer und Techniker).
 
-一个站点常常同时沾上好几类业务。沾上几类，就得办几张证，不能只挑一张办。
+## 1. Zuerst bestimmen, welche Art Geschäft du machst
 
-| 你在做的事 | 对应业务类别 | 要什么 | 主要依据 |
+Eine Website berührt oft zugleich mehrere Geschäftsarten. Berührt sie mehrere, brauchst du mehrere Genehmigungen; du kannst nicht nur eine einzige beantragen.
+
+| Was du machst | Zugehörige Geschäftskategorie | Was du brauchst | Wichtigste Grundlage |
 |---|---|---|---|
-| 不收钱的信息站、个人博客、公司官网 | 非经营性互联网信息服务 | ICP 备案。它不是许可证，是开站前向主管部门报个到 | 互联网信息服务管理办法第四条 |
-| 向用户收钱的会员、增值服务、付费内容 | 经营性互联网信息服务 | 增值电信业务经营许可（信息服务业务）。管的是你向用户收钱这件事 | 同上第三、四、七条 |
-| 给买卖双方牵线、处理交易和订单 | 在线数据处理与交易处理业务 | 增值电信业务经营许可（B21）。管的是你替买卖双方处理交易 | 电信业务分类目录（2015 年版）B21 |
-| 有主播出镜的直播、游戏直播 | 网络表演 | 网络文化经营许可证，经营范围含网络表演。没有它，站上不能让主播出镜 | 网络表演经营活动管理办法第四条 |
-| 自己做视频节目，或者把别处的节目汇在一起，或者让用户往站上传视频 | 互联网视听节目服务 | 信息网络传播视听节目许可证。管的是站上播视频节目 | 互联网视听节目服务管理规定第七、八条 |
-| 在直播里带货卖东西 | 网络直播营销 | 该办的证照按上面几行办。另外还要核验商家、留存记录 | 网络直播营销管理办法（试行）第八条 |
-| 做新闻资讯 | 互联网新闻信息服务 | 互联网新闻信息服务许可证。没有它，站上不能发新闻 | 互联网直播服务管理规定第五条 |
-| 自建机房卖主机、卖带宽 | 互联网数据中心业务、互联网接入服务业务 | 增值电信业务经营许可（B11、B14）。管的是你把机房和带宽卖给别人 | 电信业务分类目录（2015 年版）B11、B14 |
+| Eine Informationsseite, die kein Geld nimmt, ein persönlicher Blog, die Firmenwebsite | Nicht gewerblicher Internet-Informationsdienst | ICP-Registrierung. Sie ist keine Lizenz, sondern eine Meldung an die zuständige Behörde vor dem Start der Seite | Verwaltungsmaßnahmen für Internet-Informationsdienste [互联网信息服务管理办法], Art. 4 |
+| Mitgliedschaften, Mehrwertdienste und bezahlte Inhalte, für die du von Nutzern Geld nimmst | Gewerblicher Internet-Informationsdienst | Lizenz für Telekommunikationsmehrwertdienste (Informationsdienste). Sie regelt, dass du von Nutzern Geld nimmst | ebenda, Art. 3, 4 und 7 |
+| Käufer und Verkäufer zusammenbringen, Transaktionen und Bestellungen abwickeln | Online-Datenverarbeitung und Transaktionsverarbeitung | Lizenz für Telekommunikationsmehrwertdienste (B21). Sie regelt, dass du für Käufer und Verkäufer Transaktionen abwickelst | Verzeichnis der Telekommunikationsdienste [电信业务分类目录] (Fassung 2015) B21 |
+| Livestreaming mit auftretenden Moderatoren, Gaming-Livestreaming | Netzaufführung | Lizenz für Online-Kulturangebote, der Geschäftsbereich umfasst die Netzaufführung. Ohne sie darf auf der Seite kein Moderator auftreten | Verwaltungsmaßnahmen für den Betrieb von Netzaufführungen [网络表演经营活动管理办法], Art. 4 |
+| Selbst Videoprogramme machen, Programme von woanders zusammenstellen oder Nutzer Videos auf die Seite hochladen lassen | Internet-Audiovideo-Programmdienst | Lizenz für audiovisuelle Angebote. Sie regelt, dass auf der Seite Videoprogramme laufen | Bestimmungen über die Verwaltung von Internet-Audiovideo-Programmdiensten [互联网视听节目服务管理规定], Art. 7 und 8 |
+| Im Livestream Waren verkaufen | Netz-Livestreaming-Marketing | Die nötigen Genehmigungen richtest du nach den Zeilen oben aus. Außerdem musst du die Händler prüfen und Aufzeichnungen aufbewahren | Verwaltungsmaßnahmen für Netz-Livestreaming-Marketing (Erprobung) [网络直播营销管理办法（试行）], Art. 8 |
+| Nachrichten und Informationen anbieten | Internet-Nachrichteninformationsdienst | Lizenz für Internet-Nachrichteninformationsdienste. Ohne sie darf auf der Seite keine Nachricht erscheinen | Bestimmungen über die Verwaltung von Internet-Livestreaming-Diensten [互联网直播服务管理规定], Art. 5 |
+| Ein eigenes Rechenzentrum betreiben und Hosting und Bandbreite verkaufen | Internet-Datencenter-Dienst, Internet-Zugangsdienst | Lizenz für Telekommunikationsmehrwertdienste (B11, B14). Sie regelt, dass du das Rechenzentrum und die Bandbreite an andere verkaufst | Verzeichnis der Telekommunikationsdienste (Fassung 2015) B11, B14 |
 
-哪种直播对应哪张证，七部门 2021 年那份指导意见说得最直白：「开展经营性网络表演活动的直播平台须持有《网络文化经营许可证》并进行ICP备案；开展网络视听节目服务的直播平台须持有《信息网络传播视听节目许可证》（或在全国网络视听平台信息登记管理系统中完成登记）并进行ICP备案；开展互联网新闻信息服务的直播平台须持有《互联网新闻信息服务许可证》。」
+Welches Livestreaming welche Lizenz braucht, sagt die Leitlinie der sieben Behörden von 2021 am klarsten: „Eine Livestreaming-Plattform, die gewerbliche Netzaufführungen betreibt, muss die Lizenz für Online-Kulturangebote halten und eine ICP-Registrierung durchführen; eine Livestreaming-Plattform, die Internet-Audiovideo-Programmdienste betreibt, muss die Lizenz für audiovisuelle Angebote halten (oder die Registrierung im landesweiten Informationsregistrierungssystem für Netz-Audiovideo-Plattformen abschließen) und eine ICP-Registrierung durchführen; eine Livestreaming-Plattform, die Internet-Nachrichteninformationsdienste betreibt, muss die Lizenz für Internet-Nachrichteninformationsdienste halten."
 
-直播分三种。有主播表演的，办《网络文化经营许可证》。做网络视听节目的，办《信息网络传播视听节目许可证》，或者在全国网络视听平台信息登记管理系统里完成登记。做新闻的，办《互联网新闻信息服务许可证》。前两种还都要做 ICP 备案。
+Livestreaming gibt es in drei Arten. Mit auftretenden Moderatoren: die Lizenz für Online-Kulturangebote beantragen. Mit Netz-Audiovideo-Programmen: die Lizenz für audiovisuelle Angebote beantragen, oder die Registrierung im landesweiten Informationsregistrierungssystem für Netz-Audiovideo-Plattformen abschließen. Mit Nachrichten: die Lizenz für Internet-Nachrichteninformationsdienste beantragen. Die ersten beiden brauchen zusätzlich eine ICP-Registrierung.
 
-### 三个容易搞错的点
+### Drei Punkte, bei denen man sich leicht irrt
 
-**个人身份办不了增值电信许可。** 申请条件第一项就写着「经营者为依法设立的公司」。你得先有一家公司，个人拿身份证去申请办不下来。只在本省经营的，公司注册资本不能低于 100 万元；跨省经营的，不能低于 1000 万元。材料交上去后，审查期限是 60 日，证的有效期 5 年。想做收费的业务，就得先把公司开起来。怎么开公司见第 12 节（创业与做生意）。
+**Als Privatperson bekommst du die Lizenz für Telekommunikationsmehrwertdienste nicht.** Die erste Antragsbedingung lautet: „Der Betreiber ist eine gesetzmäßig errichtete Firma". Du musst zuerst eine Firma haben; als Privatperson mit dem Personalausweis bekommst du sie nicht. Betreibst du das Geschäft nur in der eigenen Provinz, darf das eingetragene Kapital der Firma nicht unter 1 Mio. 元 liegen; betreibst du es über die Provinzgrenzen hinaus, nicht unter 10 Mio. 元. Sind die Unterlagen eingereicht, beträgt die Prüfungsfrist 60 Tage, die Lizenz gilt 5 Jahre. Willst du ein Geschäft mit Gebühren machen, musst du zuerst die Firma gründen. Wie du eine Firma gründest, steht in Abschnitt 12 (Gründen und Geschäft).
 
-**视听节目那张证，民营公司基本拿不到。** 申请条件写的是「具备法人资格，为国有独资或国有控股单位」。意思是这张证只发给国家出资或者国家控股的单位。所以个人创业者做长视频、做自制节目，拿不到这张证。想做直播，要办的是网络文化经营许可证。
+**Die Lizenz für audiovisuelle Angebote bekommt eine private Firma kaum.** Die Antragsbedingung lautet: „Sie besitzt die Rechtsfähigkeit einer juristischen Person und ist eine vollständig staatseigene oder staatlich kontrollierte Einheit". Das heißt, diese Lizenz wird nur an Einheiten vergeben, die vom Staat finanziert oder staatlich kontrolliert sind. Wer als einzelner Gründer lange Videos oder selbst produzierte Programme macht, bekommt diese Lizenz deshalb nicht. Willst du Livestreaming machen, musst du die Lizenz für Online-Kulturangebote beantragen.
 
-**没有哪份官方文件明说「电商平台必须办 EDI」。** EDI 指的就是上表里 B21 那一类许可，正式名称叫在线数据处理与交易处理业务。工信部的办事指南只说一句「按照业务界定申请相应的电信业务经营许可」。工信部还单独答复过两回：网约车平台只需做网站备案，权益类和大宗商品交易平台也只需做网站备案。所以这里只照抄 B21 的定义原文，你这门生意该不该办，要你和当地的通信管理局来判断。动手办之前，先给属地通管局打一次电话问清楚。
+**Kein offizielles Dokument sagt ausdrücklich: „Eine E-Commerce-Plattform muss die EDI-Lizenz haben".** EDI meint genau die Lizenz der Kategorie B21 aus der Tabelle oben, der offizielle Name lautet Online-Datenverarbeitung und Transaktionsverarbeitung. Der Leitfaden des Ministeriums für Industrie und Informationstechnik sagt nur einen Satz: „Je nach Geschäftsdefinition die entsprechende Lizenz für Telekommunikationsdienste beantragen". Das Ministerium für Industrie und Informationstechnik hat außerdem zweimal einzeln geantwortet: Eine Plattform für Fahrtenvermittlung muss nur die Website-Registrierung machen, und Plattformen für Beteiligungen und für Massengüter müssen ebenfalls nur die Website-Registrierung machen. Deshalb steht hier nur der Originalwortlaut der Definition von B21; ob dein Geschäft sie braucht, müssen du und die örtliche Kommunikationsverwaltung beurteilen. Bevor du sie beantragst, ruf einmal bei der zuständigen Kommunikationsverwaltung an und frag genau nach.
 
-## 二、平台自己的日常义务
+## 2. Die täglichen Pflichten der Plattform selbst
 
-拿到证，只是允许你开张。下面这些是开张以后天天要做的事。做不到会罚多少钱，写在第 26 节各条里。
+Eine Lizenz zu bekommen erlaubt dir nur, den Betrieb zu eröffnen. Das Folgende sind die Dinge, die du nach der Eröffnung jeden Tag tun musst. Wie hoch die Geldstrafe ausfällt, wenn du sie nicht erfüllst, steht in den einzelnen Einträgen von Abschnitt 26.
 
-| 义务 | 硬指标 | 出处 |
+| Pflicht | Harte Vorgabe | Fundstelle |
 |---|---|---|
-| 核对并登记在你平台上开店的商家 | 至少每六个月重新核对更新一次 | 网络交易监督管理办法第二十四条 |
-| 把商家的身份信息报上去 | 每年 1 月和 7 月报给市场监管部门 | 同上第二十五条 |
-| 把跟税有关的信息报上去 | 每个季度结束后的下一个月内报给税务机关 | 互联网平台企业涉税信息报送规定第四条 |
-| 留存交易信息 | 从交易完成那天起不少于三年 | 电子商务法第三十一条 |
-| 留存直播内容和日志 | 六十日 | 互联网直播服务管理规定第十六条 |
-| 留存网络表演的视频 | 不少于六十日 | 网络表演经营活动管理办法第十三条 |
-| 留存网络日志 | 不少于六个月 | 网络安全法第二十三条第三项 |
-| 处理侵权通知 | 把商家的声明转给投诉方。转过去满十五日还没有下文，就恢复 | 电子商务法第四十三条 |
-| 设投诉举报入口 | 放在显眼的位置，点起来方便 | 网络信息内容生态治理规定第十六条 |
+| Händler, die auf deiner Plattform einen Laden eröffnen, prüfen und registrieren | Mindestens alle sechs Monate erneut prüfen und aktualisieren | Verwaltungsmaßnahmen zur Aufsicht über den Netzhandel [网络交易监督管理办法], Art. 24 |
+| Die Identitätsangaben der Händler melden | Jedes Jahr im Januar und im Juli an die Marktaufsichtsbehörde melden | ebenda, Art. 25 |
+| Die steuerbezogenen Informationen melden | Innerhalb des Monats nach dem Ende jedes Quartals an die Steuerbehörde melden | Bestimmungen über die Meldung steuerlicher Informationen durch Internetplattform-Unternehmen [互联网平台企业涉税信息报送规定], Art. 4 |
+| Transaktionsinformationen aufbewahren | Ab dem Tag des Abschlusses der Transaktion mindestens drei Jahre | Gesetz über den elektronischen Geschäftsverkehr [电子商务法], Art. 31 |
+| Livestreaming-Inhalte und Logs aufbewahren | 60 Tage | Bestimmungen über die Verwaltung von Internet-Livestreaming-Diensten, Art. 16 |
+| Die Videos der Netzaufführungen aufbewahren | Mindestens 60 Tage | Verwaltungsmaßnahmen für den Betrieb von Netzaufführungen, Art. 13 |
+| Netz-Logs aufbewahren | Mindestens sechs Monate | Gesetz über die Cybersicherheit [网络安全法], Art. 23 Nr. 3 |
+| Auf eine Verletzungsanzeige reagieren | Die Gegendarstellung des Händlers an den Beschwerdeführer weiterleiten. Ist sie 15 Tage nach der Weiterleitung ohne Rückmeldung geblieben, wird wiederhergestellt | Gesetz über den elektronischen Geschäftsverkehr, Art. 43 |
+| Einen Zugang für Beschwerden und Meldungen einrichten | An einer gut sichtbaren Stelle, bequem anzuklicken | Bestimmungen über die ökologische Verwaltung von Netz-Informationsinhalten [网络信息内容生态治理规定], Art. 16 |
 
-留存期限有四套，各算各的。交易信息存三年，直播内容存六十日，网络日志存六个月。平台上商家的身份信息，从他退出平台那天算起存三年。做存储方案时按最长的那条设计，别按最短的。
+Für die Aufbewahrungsfristen gibt es vier Gruppen, jede wird für sich gerechnet. Transaktionsinformationen werden drei Jahre aufbewahrt, Livestreaming-Inhalte 60 Tage, Netz-Logs sechs Monate. Die Identitätsangaben der Händler auf der Plattform werden ab dem Tag aufbewahrt, an dem sie die Plattform verlassen, und zwar drei Jahre. Wenn du ein Speicherkonzept machst, richte es nach der längsten dieser Fristen aus, nicht nach der kürzesten.
 
-## 三、选服务器：三档怎么挑
+## 3. Serverwahl: wie du unter drei Stufen auswählst
 
-先回答下面几个问题，再去比价格。
+Beantworte zuerst die folgenden Fragen, dann vergleiche die Preise.
 
-| 问题 | 如果答案是 | 那就 |
+| Frage | Wenn die Antwort ist | Dann |
 |---|---|---|
-| 站点停一天你受不受得了 | 受得了 | 最便宜的 VPS（虚拟服务器）就够用 |
-| 有没有用户注册、交易、上传 | 有 | 用主流云厂商的云主机。挑能随时备份整机、也能临时加配置的 |
-| 有没有专人管服务器 | 没有 | 别把整台机器托管在机房 |
-| 带宽或硬件是不是最大头的开销 | 是，而且有专人管 | 这时才考虑把整台机器托管在机房 |
+| Hältst du es aus, wenn die Seite einen Tag steht | Ja | Der billigste VPS (virtueller Server) genügt |
+| Gibt es Nutzerregistrierung, Transaktionen, Uploads | Ja | Nimm eine Cloud-Maschine eines großen Cloud-Anbieters. Wähle eine, bei der du jederzeit die ganze Maschine sichern und die Ausstattung vorübergehend erhöhen kannst |
+| Gibt es eine eigene Person, die die Server betreut | Nein | Stelle nicht die ganze Maschine in ein Rechenzentrum |
+| Sind Bandbreite oder Hardware der größte Kostenposten | Ja, und es gibt eine eigene Person dafür | Erst dann ziehst du in Betracht, die ganze Maschine in ein Rechenzentrum zu stellen |
 
-**小服务商不是不能用，是用之前要先查证。** 把机器托管在机房、给别人提供上网接入，这两件事本身就要许可证。它们属于增值电信业务。查法是打开工信部的电信业务市场综合管理信息系统 tsm.miit.gov.cn，按公司全称查一次。查不到证的，直接排除。价格能便宜一半的那种，风险通常是三样：机器卖超了、老板跑路、上游被封。真出了事，服务商有证的，你还能投诉到通信管理局；没证的，你连找谁申诉都不知道。
+**Kleine Anbieter sind nicht unbrauchbar, aber du musst sie vorher prüfen.** Eine Maschine in ein Rechenzentrum zu stellen und anderen einen Internet-Zugang anzubieten, dafür brauchst du selbst eine Lizenz. Beides gehört zu den Telekommunikationsmehrwertdiensten. So prüfst du: Öffne das umfassende Informationssystem des Ministeriums für Industrie und Informationstechnik für den Telekommunikationsmarkt tsm.miit.gov.cn und such einmal nach dem vollständigen Firmennamen. Wer keine Lizenz findet, fällt sofort weg. Bei denen, die den Preis um die Hälfte drücken, sind es meist drei Risiken: Die Maschinen sind überverkauft, der Chef ist verschwunden, der Vorlieferant wurde gesperrt. Kommt es wirklich zu einem Fall, kannst du dich bei einem Anbieter mit Lizenz noch bei der Kommunikationsverwaltung beschweren; hat er keine Lizenz, weißt du nicht einmal, bei wem du dich beschweren sollst.
 
-**放境内还是放境外。** 服务器放在境内，就要做备案。接入商不许给没备案的站点提供接入。放到境外，确实能绕开备案。但你的用户在境内，收的钱也在境内。第 26 节第 5 到第 10 条写的那些平台义务，一条都少不了。放境外还要多担一层数据出境的成本。把境内用户的个人信息传到境外的机器上，这就叫出境。出境要满足个人信息保护法第三十八条列的四项条件之一。还要单独取得本人同意，不能混在一揽子协议里让人一起点了。涉及多少人，按「自当年 1 月 1 日起累计」算。不满 10 万人的，下面三条路都不用走。10 万到 100 万人的，要么签标准合同，要么去做认证。100 万人以上的，要申报安全评估。
+**Inland oder Ausland.** Stellst du den Server im Inland auf, musst du die Registrierung machen. Der Zugangsanbieter darf einem nicht registrierten Standort keinen Zugang anbieten. Stellst du ihn ins Ausland, umgehst du die Registrierung tatsächlich. Aber deine Nutzer sind im Inland, und das eingenommene Geld ist im Inland. Die Plattformpflichten aus Abschnitt 26, Nr. 5 bis 10 fallen nicht eine einzige weg. Im Ausland trägst du zusätzlich eine Ebene Kosten für die Datenausfuhr. Überträgst du die personenbezogenen Daten von Nutzern im Inland auf eine Maschine im Ausland, nennt man das Ausfuhr. Die Ausfuhr muss eine der vier Bedingungen erfüllen, die Art. 38 des Gesetzes über den Schutz personenbezogener Daten [个人信息保护法] aufführt. Außerdem musst du die Einwilligung der Person gesondert einholen; du darfst sie nicht in eine Sammelvereinbarung mischen, die man mit einem Klick zusammen akzeptiert. Bei wie vielen Menschen das gilt, rechnest du „ab dem 1. Januar des laufenden Jahres kumuliert". Unter 100.000 Menschen musst du keinen der drei Wege unten gehen. Von 100.000 bis 1 Mio. Menschen musst du entweder einen Standardvertrag schließen oder eine Zertifizierung machen. Ab 1 Mio. Menschen musst du eine Sicherheitsbewertung anmelden.
 
-**备份。** 备份至少放在两个地方，而且别把两份都放在同一家服务商的同一个区域。这一条没有法规依据，纯属经验。
+**Sicherungskopien.** Leg Sicherungskopien an mindestens zwei Orten ab, und leg nicht beide bei demselben Anbieter in derselben Region ab. Für diesen Punkt gibt es keine gesetzliche Grundlage, er ist reine Erfahrung.
 
-## 四、这份材料的边界
+## 4. Die Grenzen dieses Materials
 
-- 上面写到的所有条款，都以本书 README 第 26 节的来源栏为准。那里有文号、条号和链接。
-- 这类规章改得很快。本节内容是 2026 年 9 月核实的。真要引用之前，请自己再打开一次原文页。尤其要看两处：网络安全法从 2026 年 1 月 1 日起条号有调整；直播打赏的未成年人规则 2026 年 4 月改成按年龄分档。
-- 有几处没能拿到原文，已经在 [核实记录](核实记录/追加-第26节做平台.md) 里一一写明。一处是电商平台到底必不必须办 EDI，官方有没有明文。另一处是把无证经营网络文化或视听服务直接按非法经营罪处理的那份司法解释。
+- Für alle oben genannten Vorschriften gilt die Quellenspalte von Abschnitt 26 dieses Buches im README. Dort stehen Dokumentnummer, Artikelnummer und Link.
+- Solche Vorschriften ändern sich schnell. Der Inhalt dieses Abschnitts wurde im September 2026 geprüft. Bevor du ihn wirklich zitierst, öffne bitte die Originalseite selbst noch einmal. Sieh dir besonders zwei Stellen an: Beim Gesetz über die Cybersicherheit wurden die Artikelnummern ab dem 1. Januar 2026 angepasst; die Regeln zu Geschenken an Minderjährige im Livestreaming wurden im April 2026 auf eine Staffelung nach Alter umgestellt.
+- Einige Stellen ließen sich im Original nicht beschaffen; sie sind einzeln im [Prüfprotokoll](pruefprotokolle/nachtrag-26-plattform-betreiben.md) aufgeführt. Eine Stelle ist die Frage, ob eine E-Commerce-Plattform die EDI-Lizenz unbedingt braucht und ob es dazu eine ausdrückliche amtliche Regelung gibt. Die andere ist die justizielle Auslegung, die den Betrieb von Online-Kultur- oder audiovisuellen Diensten ohne Lizenz direkt als Straftat des illegalen Geschäftsbetriebs behandelt.

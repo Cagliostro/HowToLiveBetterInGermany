@@ -1,113 +1,113 @@
-[← 回总目录](../README.md)
+[← Zurück zum Inhaltsverzeichnis](../README.md)
 
-# 20. 刚出生的孩子怎么带
+# 20. Neugeborene
 
-口径：婴儿死亡率与金钱。这一节只收关系到孩子能不能活下来、或者你要花多少钱的事，而且只收差别足够大、又有硬证据的。怎么哄、怎么带这些育儿细节，本书不写。出生之前和出院当天要办的事，见第 27 节。
+Bezugsgröße: Säuglingssterblichkeit und Geld. Dieser Abschnitt behandelt nur Dinge, bei denen es darum geht, ob das Kind überleben kann oder was du dafür bezahlst. Und nur solche, bei denen der Unterschied groß genug und die Evidenz hart ist. Wie man ein Kind beruhigt und wie man es versorgt, solche Erziehungsdetails schreibt dieses Buch nicht. Was vor der Geburt und am Tag der Entlassung zu erledigen ist, siehe Abschnitt 27.
 
-### 1. 让孩子仰着睡，睡硬的平面，同房不同床，床上不放任何软东西
-<!-- 成本标签: 钱=0 时间=少 毅力=是 收益=大 口径=死亡率 -->
-- 成本：不花钱。床垫要换成硬的，几百元。难在要顶住长辈的说法，一直按这个来
-- 说人话：让孩子脸朝上躺着睡，睡在硬的平面上。大人和孩子睡同一间房，但不睡同一张床。床上不放枕头、被子、床围、毛绒玩具和定型枕。斜着的摇篮和婴儿椅只能坐，不能当床睡。光美国每年就有约 3500 个婴儿死在睡眠里。
-- 收益：美国每年约 3500 名婴儿死于睡眠相关原因。这里面包括婴儿猝死综合征、死因不明和在床上意外憋住。美国儿科学会给的安全睡眠环境是「仰卧位；使用坚实、不倾斜的睡眠表面；同房不同床；避免柔软的寝具和过热」。还有几件事也能降低风险：母乳喂养、别让孩子接触尼古丁和酒精、按时接种疫苗、使用安抚奶嘴
-- 证据等级：A
-- 来源：Moon RY, Carlin RF, Hand I, Task Force on Sudden Infant Death Syndrome and the Committee on Fetus and Newborn (2022). Sleep-Related Infant Deaths: Updated 2022 Recommendations for Reducing Infant Deaths in the Sleep Environment. Pediatrics, 150(1), e2022057990. <https://doi.org/10.1542/peds.2022-057990>
-- 备注：「床上不放任何软东西」是指枕头、被子、床围、毛绒玩具、定型枕全都不放。看起来很安全的哺乳枕也不放。斜着的摇篮和婴儿椅不能当睡觉的地方。这一节里，这件事的差别最大，也最需要顶住长辈的压力
+### 1. Lass das Kind auf dem Rücken schlafen, auf einer harten Fläche, im selben Zimmer, aber in einem eigenen Bett, und leg nichts Weiches ins Bett
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=ja Nutzen=hoch Bezug=Sterblichkeit -->
+- Kosten: kostet nichts. Die Matratze muss durch eine harte ersetzt werden, ein paar hundert 元. Schwierig ist, gegen die Einwände der Älteren standzuhalten und es dauerhaft so zu machen
+- Klartext: Lass das Kind mit dem Gesicht nach oben schlafen, auf einer harten Fläche. Erwachsene und Kind schlafen im selben Zimmer, aber nicht in demselben Bett. Nichts Weiches ins Bett: keine Kissen, keine Decken, keine Bettnestchen, keine Plüschtiere, keine Formkissen. Schräge Wiegen und Babysitze sind nur zum Sitzen da, nicht zum Schlafen. Allein in den USA sterben jedes Jahr etwa 3500 Säuglinge im Schlaf.
+- Nutzen: In den USA sterben jedes Jahr etwa 3500 Säuglinge an schlafbezogenen Ursachen. Dazu gehören der plötzliche Kindstod, unklare Todesursachen und das versehentliche Ersticken im Bett. Die amerikanische Akademie für Kinderheilkunde (AAP) nennt als sichere Schlafumgebung: „Rückenlage. Eine feste, nicht geneigte Schlaffläche. Gleiches Zimmer, anderes Bett. Keine weichen Bettwaren und keine Überhitzung." Ein paar weitere Dinge senken das Risiko: Stillen, das Kind nicht mit Nikotin und Alkohol in Kontakt bringen, Impfungen pünktlich geben lassen und einen Schnuller benutzen
+- Evidenzstufe: A
+- Quellen: Moon RY, Carlin RF, Hand I, Task Force on Sudden Infant Death Syndrome and the Committee on Fetus and Newborn (2022). Sleep-Related Infant Deaths: Updated 2022 Recommendations for Reducing Infant Deaths in the Sleep Environment. Pediatrics, 150(1), e2022057990. <https://doi.org/10.1542/peds.2022-057990>
+- Anmerkung: „Nichts Weiches ins Bett" heißt: keine Kissen, keine Decken, keine Bettnestchen, keine Plüschtiere und keine Formkissen. Auch ein Stillkissen, das sehr sicher aussieht, kommt nicht hinein. Schräge Wiegen und Babysitze dürfen kein Schlafplatz sein. In diesem Abschnitt ist das der Punkt mit dem größten Unterschied, und hier musst du am meisten gegen den Druck der Älteren standhalten
 
-### 2. 出生后 24 小时内打上乙肝疫苗第一针
-<!-- 成本标签: 钱=0 时间=少 毅力=否 收益=大 口径=死亡率 -->
-- 成本：不花钱。乙肝疫苗属于免疫规划疫苗，本来就免费。孩子出生当天在医院就打了，不用另外跑
-- 说人话：孩子出生后 24 小时之内要打上第一针乙肝疫苗。在婴儿期和幼儿期感染乙肝的人里，约有 95% 会转成慢性肝炎。成年以后才感染的，绝大多数能自己好。所以这一针越早打越有用。妈妈乙肝表面抗原是阳性的，孩子还要同时打乙肝免疫球蛋白。
-- 收益：世界卫生组织的说法是：「所有婴儿都应在出生后尽早（24 小时内）接种乙肝疫苗。」原因是「婴儿期和幼儿期感染约有 95% 会发展为慢性肝炎」。成年后感染的绝大多数能自愈（不用治也会好）
-- 证据等级：A
-- 来源：World Health Organization. Hepatitis B fact sheet. <https://www.who.int/news-room/fact-sheets/detail/hepatitis-b>
-- 备注：妈妈的乙肝表面抗原是阳性的，孩子出生后还要同时打一针乙肝免疫球蛋白。这件事产检的时候就要查清楚，别等生完再问。妈妈自己要做的筛查见第 1 节
+### 2. Lass innerhalb von 24 Stunden nach der Geburt die erste Hepatitis-B-Impfung geben
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=nein Nutzen=hoch Bezug=Sterblichkeit -->
+- Kosten: kostet nichts. Die Hepatitis-B-Impfung gehört zum staatlichen Impfplan und ist ohnehin kostenlos. Das Kind bekommt sie am Tag der Geburt schon im Krankenhaus, du musst dafür nicht extra laufen
+- Klartext: Innerhalb von 24 Stunden nach der Geburt muss das Kind die erste Hepatitis-B-Impfung bekommen. Von den Menschen, die sich als Säugling oder Kleinkind mit Hepatitis B anstecken, werden etwa 95 % chronisch krank. Wer sich erst als Erwachsener ansteckt, wird in der großen Mehrheit von selbst wieder gesund. Je früher diese Spritze kommt, desto mehr nützt sie. Ist bei der Mutter das Hepatitis-B-Oberflächenantigen positiv, bekommt das Kind zusätzlich Hepatitis-B-Immunglobulin.
+- Nutzen: Die Weltgesundheitsorganisation (WHO) sagt: „Alle Säuglinge sollten die Hepatitis-B-Impfung so früh wie möglich nach der Geburt bekommen (innerhalb von 24 Stunden)." Der Grund: „Etwa 95 % der Infektionen im Säuglings- und Kleinkindalter entwickeln sich zu einer chronischen Hepatitis." Wer sich erst als Erwachsener ansteckt, wird in der großen Mehrheit von selbst wieder gesund, ohne Behandlung
+- Evidenzstufe: A
+- Quellen: World Health Organization. Hepatitis B fact sheet. <https://www.who.int/news-room/fact-sheets/detail/hepatitis-b>
+- Anmerkung: Ist bei der Mutter das Hepatitis-B-Oberflächenantigen positiv, bekommt das Kind nach der Geburt zusätzlich eine Spritze Hepatitis-B-Immunglobulin. Das muss schon bei den Schwangerschaftsvorsorgeuntersuchungen geklärt werden, frag nicht erst nach der Geburt danach. Welche Untersuchungen die Mutter selbst machen lassen muss, siehe Abschnitt 1
 
-### 3. 按国家免疫规划把该打的疫苗打齐，全程免费，错过了只补没打完的剂次
-<!-- 成本标签: 钱=0 时间=中 毅力=否 收益=大 口径=死亡率 -->
-- 成本：不花钱。法律写明「接种单位接种免疫规划疫苗不得收取任何费用」。要按月龄跑几趟接种门诊。预防接种证收好，别弄丢
-- 说人话：国家免疫规划里的疫苗全程免费，接种单位不能收钱。孩子入托、入学都要查预防接种证，漏打的会被查出来补上。错过了只补没打完的那几剂，不用从头再打，换了厂家也能接着打。湿疹、荨麻疹、过敏性鼻炎、哮喘只要病情稳定，新生儿黄疸也一样，都能正常打。
-- 收益：孩子入托、入学的时候，托幼机构和学校要查验预防接种证。发现没按规定接种免疫规划疫苗的，要报告接种单位，并且配合督促监护人补种。所以漏打的疫苗拖不过去，入学时一定会被查出来。现在执行的是 2026 年版程序。人乳头瘤病毒（HPV）疫苗已经纳入国家免疫规划。百白破疫苗的起始接种年龄从 3 月龄改成 2 月龄，一共 5 剂，分别在 2 月龄、4 月龄、6 月龄、18 月龄和 6 周岁各打 1 剂。西藏、青海、新疆和新疆生产建设兵团的适龄儿童，2026 年 3 月起也常规接种乙脑疫苗。几种疫苗可以同一天打：现阶段国家免疫规划疫苗都可以按免疫程序或补种原则同时接种。两种及以上打针的疫苗要打在不同部位，「严禁将两种或多种疫苗混合吸入同一支注射器内接种」。没在同一天打的，两种及以上打针的减毒活疫苗之间要间隔不小于 28 天。灭活疫苗、口服的减毒活疫苗和其他疫苗之间的间隔不作限制。不满 18 周岁的补种原则是尽早补种，「只需补种未完成的剂次，无需重新开始全程接种」，同一种疫苗换厂家可以接着打（全国，2026 年版程序）
-- 证据等级：A
-- 来源：全国人大常委会 (2019). 疫苗管理法（第四十八、四十九条）. <http://ynswsjkw.yn.gov.cn/html/2019/faguiguizhangxin_0731/6509.html>（云南省卫生健康委员会转载）；国家疾病预防控制局、国家卫生健康委 (2026). 《国家免疫规划疫苗儿童免疫程序及说明（2026 年版）》解读问答. <https://www.ndcpa.gov.cn/jbkzzx/c100013/common/content/content_2073002930292035584.html>
-- 备注：最常见的误会是「孩子体质不好，先别打」。官方说法是：所谓「过敏性体质」、家里人有过敏的病、孩子以前对食物或药物过敏过，都不是不能打的理由。特应性皮炎（湿疹）、荨麻疹、过敏性鼻炎、支气管哮喘，只要病情稳定就能正常打。正在吃抗过敏药，或者在用吸入型激素，也能打。新生儿的生理性黄疸、母乳性黄疸也能正常打。真正不能打的只有两种：以前打同一种疫苗出现过急性的严重过敏反应，或者对疫苗里已知的某种成分严重过敏。有免疫缺陷的孩子，以及正在化疗放疗、正在用免疫抑制剂的孩子，要一个个单独评估，去接种门诊说明情况再定。乙肝第一针见第 2 条。自费的非免疫规划疫苗要另收疫苗费和接种服务费，和这条说的免费无关。
+### 3. Impf nach dem staatlichen Impfplan alles vollständig, es ist durchgehend kostenlos; Verpasstes holst du nur als fehlende Dosis nach
+<!-- Kostenlabel: Geld=0 Zeit=mittel Willenskraft=nein Nutzen=hoch Bezug=Sterblichkeit -->
+- Kosten: kostet nichts. Im Gesetz steht: „Eine Impfstelle darf für eine Impfung des staatlichen Impfplans keine Gebühren erheben." Du musst je nach Alter ein paar Mal zur Impfstelle laufen. Heb den Impfpass gut auf und verlier ihn nicht
+- Klartext: Alle Impfungen des staatlichen Impfplans sind durchgehend kostenlos, die Impfstelle darf kein Geld nehmen. Beim Eintritt in die Kita und in die Schule wird der Impfpass geprüft, Verpasstes wird gefunden und nachgeholt. Verpasstes holst du nur als die fehlende Dosis nach, du fängst nicht von vorn an, und bei einem Herstellerwechsel machst du weiter. Ekzem, Nesselsucht, allergischer Schnupfen und Asthma dürfen bei stabiler Krankheit normal geimpft werden, die Neugeborenen-Gelbsucht ebenso.
+- Nutzen: Wenn das Kind in die Kita oder in die Schule kommt, prüfen Kita und Schule den Impfpass. Wird eine im Impfplan vorgesehene Impfung nicht nach Vorschrift gefunden, wird die Impfstelle informiert, und man hilft mit, die Erziehungsberechtigten zum Nachholen anzuhalten. Verpasste Impfungen lassen sich also nicht aufschieben, beim Schuleintritt werden sie sicher gefunden. Es gilt derzeit das Programm in der Fassung von 2026. Die Impfung gegen humane Papillomviren (HPV) ist in den staatlichen Impfplan aufgenommen. Bei der DTP-Impfung (Diphtherie, Tetanus, Keuchhusten) wurde das Alter für den Beginn von 3 Monaten auf 2 Monate geändert. Insgesamt sind es 5 Dosen. Je 1 Dosis mit 2 Monaten, 4 Monaten, 6 Monaten, 18 Monaten und 6 Jahren. Kinder im passenden Alter in Tibet, Qinghai, Xinjiang und im Produktions- und Aufbaukorps Xinjiang bekommen seit März 2026 auch die Impfung gegen Japanische Enzephalitis routinemäßig. Mehrere Impfungen dürfen am selben Tag gegeben werden: Alle Impfungen des staatlichen Impfplans dürfen nach dem Impfschema oder nach den Nachholregeln gleichzeitig gegeben werden. Zwei oder mehr Spritzimpfungen müssen an verschiedene Stellen gesetzt werden, „es ist streng verboten, zwei oder mehr Impfstoffe in eine Spritze aufzuziehen und so zu verabreichen". Wird nicht am selben Tag geimpft, müssen zwischen zwei oder mehr Spritz-Lebendimpfstoffen mindestens 28 Tage liegen. Zwischen Totimpfstoffen, oralen Lebendimpfstoffen und anderen Impfstoffen gibt es keine Abstandsgrenze. Unter 18 Jahren gilt beim Nachholen: so früh wie möglich, „es müssen nur die nicht abgeschlossenen Dosen nachgeholt werden, die ganze Serie muss nicht neu begonnen werden"; bei demselben Impfstoff darf der Hersteller gewechselt werden und man macht weiter (landesweit, Programm in der Fassung von 2026)
+- Evidenzstufe: A
+- Quellen: Ständiger Ausschuss des Nationalen Volkskongresses (2019). Impfstoffverwaltungsgesetz [疫苗管理法] (Art. 48 und 49). <http://ynswsjkw.yn.gov.cn/html/2019/faguiguizhangxin_0731/6509.html> (wiedergegeben von der Gesundheitskommission der Provinz Yunnan); Staatliche Behörde für Seuchenkontrolle und -prävention, Nationale Gesundheitskommission (2026). Fragen und Antworten zur Auslegung der „Impfprogramme und Erläuterungen für Kinder im staatlichen Impfplan (Fassung 2026)". <https://www.ndcpa.gov.cn/jbkzzx/c100013/common/content/content_2073002930292035584.html>
+- Anmerkung: Das häufigste Missverständnis ist „das Kind ist zu schwach, warte damit". Die offizielle Antwort: Ein angebliches „allergisches Wesen", Allergien in der Familie oder eine frühere Allergie des Kindes auf Essen oder Medikamente sind kein Grund, nicht zu impfen. Atopische Dermatitis (Ekzem), Nesselsucht, allergischer Schnupfen und Bronchialasthma dürfen bei stabiler Krankheit normal geimpft werden. Wer gerade ein Antiallergikum nimmt oder ein inhalierbares Hormon benutzt, darf ebenfalls geimpft werden. Die physiologische Gelbsucht des Neugeborenen und die Muttermilch-Gelbsucht erlauben das auch. Wirklich nicht geimpft werden darf nur in zwei Fällen: bei einer früheren schweren allergischen Reaktion auf denselben Impfstoff, oder bei einer schweren Allergie gegen einen bekannten Bestandteil des Impfstoffs. Kinder mit einem Immundefekt und Kinder, die gerade Chemo- oder Strahlentherapie machen oder Immunsuppressiva nehmen, werden einzeln beurteilt; geh zur Impfstelle, schildere die Lage und lass es dann entscheiden. Die erste Hepatitis-B-Impfung steht in Nr. 2 in diesem Abschnitt. Selbst bezahlte Impfungen außerhalb des staatlichen Impfplans kosten zusätzlich Impfstoff und Impfdienstgebühr, das hat mit der hier genannten Kostenlosigkeit nichts zu tun.
 
-### 4. 前 6 个月只喂母乳，连水都不用喂，6 个月起加辅食并继续母乳
-<!-- 成本标签: 钱=0 时间=多 毅力=是 收益=中 口径=死亡率 -->
-- 成本：不花钱，还省下奶粉钱。费的是时间，喂奶每天都要占掉不少。难在要一直喂下去，前 6 个月不能断
-- 说人话：孩子出生后第一个小时里就开始喂奶。前 6 个月只喂母乳，连水都不用喂。满 6 个月起加辅食，每天要有含铁多的动物性食物，母乳接着喂到 2 岁或更久。母乳不够或者不能喂，就用配方奶，不用自责。喂什么对孩子安危的影响，远没有睡姿大。
-- 收益：世界卫生组织的建议是「在出生后第一个小时内开始母乳喂养」。前 6 个月「纯母乳喂养，即不提供其他任何食物或液体，包括水」。然后「从 6 月龄起开始添加安全充足的辅食，同时继续母乳喂养到 2 岁或以上」。国家卫健委的服务指南也提倡 0 至 6 月龄纯母乳喂养。这份指南还要求满 6 月龄起「每天的辅食必须包含含铁丰富的动物性食物」
-- 证据等级：A
-- 来源：World Health Organization. Breastfeeding. <https://www.who.int/health-topics/breastfeeding>；国家卫生健康委办公厅 (2024). 婴幼儿营养喂养评估服务指南（试行）（国卫办妇幼函〔2024〕452 号）. <https://www.gov.cn/zhengce/zhengceku/202502/content_7002872.htm>
-- 备注：母乳不够，或者身体不允许喂，就用配方奶。喂母乳还是喂配方奶，差距远小于安全睡眠那条。加辅食的次数：6 至 8 月龄每天 1 到 2 次，9 至 12 月龄每天 2 到 3 次。每天吃的东西，至少要覆盖七类里的四类。孩子有重度湿疹或鸡蛋过敏时，花生要不要躲着，见本节第 12 条（别躲着花生）。
+### 4. Füttere in den ersten 6 Monaten nur Muttermilch, nicht einmal Wasser, und gib ab 6 Monaten Beikost, still aber weiter
+<!-- Kostenlabel: Geld=0 Zeit=viel Willenskraft=ja Nutzen=mittel Bezug=Sterblichkeit -->
+- Kosten: kostet nichts und spart sogar das Geld für Milchpulver. Es kostet Zeit, denn Stillen nimmt jeden Tag viel ein. Schwierig ist, dauerhaft weiterzustillen und die ersten 6 Monate nicht zu unterbrechen
+- Klartext: Fang schon in der ersten Stunde nach der Geburt an zu stillen. In den ersten 6 Monaten gibst du nur Muttermilch, nicht einmal Wasser. Ab dem vollendeten 6. Monat kommt Beikost dazu, jeden Tag mit eisenreichen tierischen Lebensmitteln, und du stillst weiter bis zum 2. Lebensjahr oder länger. Reicht die Muttermilch nicht oder kannst du nicht stillen, nimm Säuglingsnahrung, mach dir keine Vorwürfe. Was du fütterst, wirkt auf die Sicherheit des Kindes viel weniger als die Schlafposition.
+- Nutzen: Die Weltgesundheitsorganisation (WHO) empfiehlt: „beginne innerhalb der ersten Stunde nach der Geburt mit dem Stillen". In den ersten 6 Monaten „ausschließliches Stillen, das heißt, es wird keine andere Nahrung und keine andere Flüssigkeit gegeben, auch kein Wasser". Dann „ab dem Alter von 6 Monaten mit sicherer, ausreichender Beikost beginnen und gleichzeitig bis zum 2. Lebensjahr oder länger weiterstillen". Auch der Leitfaden der Nationalen Gesundheitskommission empfiehlt für den Altersbereich 0 bis 6 Monate ausschließliches Stillen. Der Leitfaden verlangt außerdem ab dem vollendeten 6. Monat: „die tägliche Beikost muss eisenreiche tierische Lebensmittel enthalten"
+- Evidenzstufe: A
+- Quellen: World Health Organization. Breastfeeding. <https://www.who.int/health-topics/breastfeeding>; Büro der Nationalen Gesundheitskommission (2024). Leitfaden für die Bewertung der Ernährung und Fütterung von Säuglingen und Kleinkindern (Erprobung) (Amtliches Schreiben Nr. 452 von 2024). <https://www.gov.cn/zhengce/zhengceku/202502/content_7002872.htm>
+- Anmerkung: Reicht die Muttermilch nicht oder erlaubt es dein Körper nicht, nimm Säuglingsnahrung. Der Unterschied zwischen Stillen und Säuglingsnahrung ist viel kleiner als beim sicheren Babyschlaf. Häufigkeit der Beikost: mit 6 bis 8 Monaten 1 bis 2 Mal am Tag, mit 9 bis 12 Monaten 2 bis 3 Mal am Tag. Das tägliche Essen sollte mindestens vier von sieben Gruppen abdecken. Ob du Erdnüsse meiden sollst, wenn das Kind ein schweres Ekzem oder eine Ei-Allergie hat, siehe Nr. 12 in diesem Abschnitt (Erdnüsse nicht meiden).
 
-### 5. 冲奶粉用 70 ℃ 以上的水，冲好放凉再喂，喝剩的倒掉
-<!-- 成本标签: 钱=0 时间=少 毅力=些 收益=大 口径=死亡率 -->
-- 成本：不花钱。每次多等几分钟把奶放凉。难在孩子饿得哭的时候，也要等水温降下来再冲
-- 说人话：奶粉不是无菌的，可能带一种叫阪崎克罗诺杆菌的细菌。新生儿一旦感染，报告的病死率在四成到八成之间。冲的时候先把热水倒进奶瓶，等水温降到约 73.8 ℃ 再放奶粉。这时奶液还在 70 ℃ 以上，能把这种菌杀到原来的十万分之一以下。冲好放凉再喂，喝剩的倒掉。
-- 收益：奶粉不是无菌的，可能带阪崎克罗诺杆菌。新生儿感染后的病死率，报告为 40% 到 80%。实验研究显示：先把热水倒进奶瓶，等水温降到约 73.8 ℃ 再加奶粉，绝大多数情况下奶液温度还在 70 ℃ 以上。这样可以让这种菌减少 5 个对数级以上，降到原来的十万分之一以下
-- 证据等级：A
-- 来源：Beary MA, Daly SE, Baker J, Snyder AB (2025). Assessing Hot Water Reconstitution Instructions and Labeling of Powdered Infant Formula to Ensure Cronobacter spp. Reduction. Journal of Food Protection, 88(9), 100571. <https://doi.org/10.1016/j.jfp.2025.100571>；Sima WG, Legesse T, Girma S, et al. (2025). Emerging microbial risks: Cronobacter sakazakii in powdered infant formula for infants under six months of age in Ethiopia. BMC Microbiology, 26, 307. <https://doi.org/10.1186/s12866-025-04380-y>；World Health Organization & FAO (2007). Safe preparation, storage and handling of powdered infant formula: guidelines. <https://www.who.int/publications/i/item/9789241595414>
-- 备注：70 ℃ 这个门槛来自公共卫生指南。Beary 等人的原话是「针对高危婴儿照护者的公共卫生指南建议用加热到至少 70 ℃（158 ℉）的水冲调配方奶粉以灭活微生物」。早产儿、体重偏低的孩子和不满 2 个月的孩子风险最高。别用保温杯里放了一天的水来冲。也别把冲好的奶搁在室温下，等着下一顿再喂
+### 5. Rühr Milchpulver mit Wasser über 70 ℃ an, lass es abkühlen und füttere dann, schütte Reste weg
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=etwas Nutzen=hoch Bezug=Sterblichkeit -->
+- Kosten: kostet nichts. Du wartest jedes Mal ein paar Minuten, bis die Milch abgekühlt ist. Schwierig ist, auch beim schreienden, hungrigen Kind erst zu warten, bis das Wasser kühler ist, und dann anzurühren
+- Klartext: Milchpulver ist nicht steril und kann das Bakterium Cronobacter sakazakii tragen. Steckt sich ein Neugeborenes an, liegt die berichtete Sterberate zwischen 40 % und 80 %. Gieß beim Anrühren zuerst das heiße Wasser in die Flasche und warte, bis es auf etwa 73,8 ℃ abgekühlt ist, dann gib das Pulver dazu. Dann liegt die Milch noch über 70 ℃ und tötet das Bakterium auf unter ein Hunderttausendstel. Lass die angerührte Milch abkühlen und füttere dann, schütte Reste weg.
+- Nutzen: Milchpulver ist nicht steril und kann Cronobacter sakazakii tragen. Die Sterberate von Neugeborenen nach einer Infektion wird mit 40 % bis 80 % angegeben. Eine experimentelle Studie zeigt: Gießt man zuerst das heiße Wasser in die Flasche und gibt, wenn es auf etwa 73,8 ℃ abgekühlt ist, das Pulver dazu, liegt die Milch in der großen Mehrheit der Fälle noch über 70 ℃. So lässt sich das Bakterium um mehr als 5 Logarithmus-Stufen senken, auf unter ein Hunderttausendstel des Ausgangswerts
+- Evidenzstufe: A
+- Quellen: Beary MA, Daly SE, Baker J, Snyder AB (2025). Assessing Hot Water Reconstitution Instructions and Labeling of Powdered Infant Formula to Ensure Cronobacter spp. Reduction. Journal of Food Protection, 88(9), 100571. <https://doi.org/10.1016/j.jfp.2025.100571>; Sima WG, Legesse T, Girma S, et al. (2025). Emerging microbial risks: Cronobacter sakazakii in powdered infant formula for infants under six months of age in Ethiopia. BMC Microbiology, 26, 307. <https://doi.org/10.1186/s12866-025-04380-y>; World Health Organization & FAO (2007). Safe preparation, storage and handling of powdered infant formula: guidelines. <https://www.who.int/publications/i/item/9789241595414>
+- Anmerkung: Die Grenze von 70 ℃ stammt aus einem Leitfaden für die öffentliche Gesundheit. Beary und Mitarbeiter schreiben wörtlich: „Leitfäden für die öffentliche Gesundheit für Betreuungspersonen von Risikosäuglingen empfehlen, das Milchpulver mit auf mindestens 70 ℃ (158 ℉) erhitztem Wasser anzurühren, um Mikroorganismen abzutöten". Frühgeborene, Kinder mit niedrigem Gewicht und Kinder unter 2 Monaten haben das höchste Risiko. Nimm kein Wasser, das einen Tag in einer Thermoskanne stand. Lass die angerührte Milch auch nicht bei Zimmertemperatur stehen und warte damit auf die nächste Mahlzeit
 
-### 6. 不满 1 岁不喂蜂蜜
-<!-- 成本标签: 钱=0 时间=少 毅力=否 收益=中 口径=死亡率 -->
-- 成本：不花钱
-- 说人话：孩子不满 1 岁，不要喂蜂蜜。蜂蜜水、拌进辅食里的蜂蜜、含蜂蜜的糕点，都算。蜂蜜里可能带有引起肉毒中毒的细菌。大人肚子里的菌群能压住它，婴儿压不住。自家做的腌菜和发酵食品，也是同样的道理。
-- 收益：美国疾控中心的说法是「不要给 1 岁以下的儿童喂蜂蜜」，因为「蜂蜜可能含有引起肉毒中毒的细菌」。成年人的肠道菌群能压住这种芽孢（这种细菌的休眠状态），婴儿压不住
-- 证据等级：A
-- 来源：US CDC. Preventing Botulism. <https://www.cdc.gov/botulism/prevention/index.html>
-- 备注：不能喂的包括蜂蜜水、拌了蜂蜜的辅食、含蜂蜜的糕点。同样的道理，自家做的腌菜和发酵食品，也不要给婴儿吃
+### 6. Gib keinem Kind unter 1 Jahr Honig
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=nein Nutzen=mittel Bezug=Sterblichkeit -->
+- Kosten: kostet nichts
+- Klartext: Ist das Kind unter 1 Jahr, gib ihm keinen Honig. Honigwasser, Honig unter der Beikost und Gebäck mit Honig zählen alle dazu. Honig kann Bakterien enthalten, die Botulismus auslösen. Die Darmflora von Erwachsenen hält sie in Schach, ein Säugling kann das nicht. Für selbst gemachtes Sauergemüse und fermentierte Lebensmittel gilt dasselbe.
+- Nutzen: Die US-amerikanischen Zentren für Krankheitskontrolle und -prävention (CDC) sagen: „Gib Kindern unter 1 Jahr keinen Honig", denn „Honig kann Bakterien enthalten, die Botulismus auslösen". Die Darmflora von Erwachsenen hält diese Sporen in Schach (die Ruheform des Bakteriums), ein Säugling kann das nicht
+- Evidenzstufe: A
+- Quellen: US CDC. Preventing Botulism. <https://www.cdc.gov/botulism/prevention/index.html>
+- Anmerkung: Nicht geben darfst du Honigwasser, Beikost mit Honig und Gebäck mit Honig. Aus demselben Grund gib einem Säugling auch kein selbst gemachtes Sauergemüse und keine fermentierten Lebensmittel
 
-### 7. 出生时的维生素 K 针一定要打
-<!-- 成本标签: 钱=0 时间=少 毅力=否 收益=大 口径=死亡率 -->
-- 成本：0 元到几十元。这笔钱通常已经包含在住院生孩子的费用里，不用另外交
-- 说人话：新生儿身体里存的维生素 K 很少，不补可能出血，晚出现的那种常常是脑子里出血。在没普遍打这一针的地方，每 10 万个新生儿有 478 个出这种血。打了这一针，估计能少掉七成八以上。国内正规医院会常规打，在家生或在不正规机构生的，要主动问一句打了没有。
-- 收益：新生儿体内存的维生素 K 很少。不补充可能出现维生素 K 缺乏性出血，晚出现的那一种常常表现为颅内出血（脑子里出血）。比利时的共识建议是「出生时肌肉注射 1 或 2 毫克维生素 K 一次」。在没有系统提供预防的地区，维生素 K 缺乏性出血的发生率是每 10 万人 478 例，这个数字来自塔什干的 4.2 万名新生儿。作者估计，做了预防可以使发生率下降「高于 78.5%」
-- 证据等级：B
-- 来源：Fiesack S, Smits A, Rayyan M, et al. (2021). Nutrients, 13(11), 4109. <https://doi.org/10.3390/nu13114109>；Tursunov D, Yoshida Y, Yrysov K, et al. (2018). Nagoya Journal of Medical Science, 80(1), 11. <https://doi.org/10.18999/nagjms.80.1.11>
-- 备注：在中国的正规医院生孩子，医院会常规打这一针，不用自己操心。在家生的，或者在不正规机构生的，要主动去确认。口服的效果不如打针，这里说的打针是打进肌肉里
+### 7. Die Vitamin-K-Spritze bei der Geburt muss unbedingt gegeben werden
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=nein Nutzen=hoch Bezug=Sterblichkeit -->
+- Kosten: 0 元 bis ein paar Dutzend 元. Dieses Geld steckt meist schon in den Kosten für die Geburt im Krankenhaus, du zahlst nicht extra
+- Klartext: Neugeborene haben nur wenig Vitamin K im Körper, ohne Ergänzung kann es zu Blutungen kommen, und die spät auftretende Form ist oft eine Blutung im Gehirn. Wo diese Spritze nicht flächendeckend gegeben wird, bekommen 478 von 100.000 Neugeborenen diese Blutung. Mit der Spritze sinkt die Zahl schätzungsweise um über 78 %. In regulären Krankenhäusern in China wird sie routinemäßig gegeben; bei einer Hausgeburt oder in einer nicht zugelassenen Einrichtung frag aktiv nach, ob sie gegeben wurde.
+- Nutzen: Neugeborene haben nur wenig Vitamin K im Körper. Ohne Ergänzung kann eine Vitamin-K-Mangelblutung auftreten, die spät auftretende Form zeigt sich oft als intrakranielle Blutung (Blutung im Gehirn). Eine belgische Konsensusempfehlung lautet: „eine intramuskuläre Injektion von 1 oder 2 Milligramm Vitamin K einmal bei der Geburt". In Gebieten, die keine systematische Vorbeugung anbieten, liegt die Rate der Vitamin-K-Mangelblutung bei 478 Fällen je 100.000 Menschen; diese Zahl stammt aus Taschkent, aus 42.000 Neugeborenen. Der Autor schätzt, dass die Vorbeugung die Rate um „mehr als 78,5 %" senkt
+- Evidenzstufe: B
+- Quellen: Fiesack S, Smits A, Rayyan M, et al. (2021). Nutrients, 13(11), 4109. <https://doi.org/10.3390/nu13114109>; Tursunov D, Yoshida Y, Yrysov K, et al. (2018). Nagoya Journal of Medical Science, 80(1), 11. <https://doi.org/10.18999/nagjms.80.1.11>
+- Anmerkung: Bekommst du dein Kind in einem regulären Krankenhaus in China, gibt die Klinik diese Spritze routinemäßig, du musst dich nicht darum kümmern. Bei einer Hausgeburt oder in einer nicht zugelassenen Einrichtung musst du aktiv nachfragen. Geschluckt wirkt sie schlechter als gespritzt, und mit Spritze ist hier eine Injektion in den Muskel gemeint
 
-### 8. 不满 3 个月的婴儿体温到 38 ℃ 就直接去医院，不在家观察
-<!-- 成本标签: 钱=少 时间=少 毅力=否 收益=大 口径=死亡率 -->
-- 成本：挂号加检查几百元
-- 说人话：孩子不满 3 个月，体温到 38 ℃ 就直接去医院。不要在家观察，也不要先喂退烧药再等等看。这个月龄的孩子就算得的是严重细菌感染，也可能只表现为发热。所以「看着精神还行」不能当成在家等的理由。出生不满 8 天的孩子，连指南都没覆盖，更要马上去。
-- 收益：美国儿科学会为 8 至 60 日龄、看上去状态还可以的足月婴儿制定了专门指南。这份指南把发热定义为「体温 ≥38.0 ℃」。它按 8 至 21 日龄、22 至 28 日龄、29 至 60 日龄分成三档，各给一条处理路径。不满 8 日龄的婴儿甚至不在这份指南的范围里，意思是这个阶段更要立即就医
-- 证据等级：A
-- 来源：Pantell RH, Roberts KB, Adams WG, et al. (2021). Evaluation and Management of Well-Appearing Febrile Infants 8 to 60 Days Old. Pediatrics, 148(2), e2021052228. <https://doi.org/10.1542/peds.2021-052228>
-- 备注：这个月龄的孩子，得了严重细菌感染也可能只表现为发热。所以看着「精神还行」，不能作为在家观察的理由。也别自己先喂退烧药，再等等看
+### 8. Erreicht ein Säugling unter 3 Monaten 38 ℃ Fieber, geh direkt ins Krankenhaus und beobachte nicht zu Hause
+<!-- Kostenlabel: Geld=wenig Zeit=wenig Willenskraft=nein Nutzen=hoch Bezug=Sterblichkeit -->
+- Kosten: Anmeldung und Untersuchung ein paar hundert 元
+- Klartext: Ist das Kind unter 3 Monaten und erreicht das Fieber 38 ℃, geh direkt ins Krankenhaus. Beobachte nicht zu Hause und gib nicht erst ein Fiebermittel und warte dann ab. Ein Kind in diesem Alter zeigt auch bei einer schweren bakteriellen Infektion womöglich nur Fieber. „Es wirkt doch ganz munter" ist also kein Grund, zu Hause zu warten. Kinder unter 8 Lebenstagen deckt nicht einmal der Leitfaden ab, da musst du erst recht sofort hin.
+- Nutzen: Die amerikanische Akademie für Kinderheilkunde (AAP) hat einen eigenen Leitfaden für reif geborene Säuglinge von 8 bis 60 Lebenstagen erstellt, die einen unauffälligen Eindruck machen. Dieser Leitfaden definiert Fieber als „Temperatur ≥38,0 ℃". Er teilt in drei Stufen ein, 8 bis 21 Lebenstage, 22 bis 28 Lebenstage und 29 bis 60 Lebenstage, und gibt jeder Stufe einen eigenen Weg. Säuglinge unter 8 Lebenstagen liegen nicht einmal im Bereich dieses Leitfadens, das heißt, hier musst du erst recht sofort zum Arzt
+- Evidenzstufe: A
+- Quellen: Pantell RH, Roberts KB, Adams WG, et al. (2021). Evaluation and Management of Well-Appearing Febrile Infants 8 to 60 Days Old. Pediatrics, 148(2), e2021052228. <https://doi.org/10.1542/peds.2021-052228>
+- Anmerkung: Ein Kind in diesem Alter zeigt auch bei einer schweren bakteriellen Infektion womöglich nur Fieber. Ein „ganz munterer" Eindruck ist also kein Grund, zu Hause zu beobachten. Gib auch nicht selbst erst ein Fiebermittel und warte dann ab
 
-### 9. 无论多累多气都不要摇晃婴儿
-<!-- 成本标签: 钱=0 时间=少 毅力=是 收益=大 口径=死亡率 -->
-- 成本：不花钱。难在自己太累、太气的时候要停住手
-- 说人话：婴儿的头大，脖子没力气。用力摇晃会让他脑子里、眼睛里出血，可能要了他的命，也可能留下一辈子的残疾。哄睡时轻轻晃不算，危险的是控制不住的猛晃。快压不住火时，把孩子放回婴儿床，人走开几分钟，让他哭一会儿比抱着晃安全。
-- 收益：婴儿头部占比大，颈部肌肉弱。剧烈摇晃会造成颅内出血和视网膜出血（脑子里和眼睛里出血），可能致死，也可能留下终身残疾。哄睡时的轻柔摇动不算，危险的是失控的剧烈晃动。医学上把摇晃、撞击造成的这类伤叫「虐待性头部外伤」。它是 2 岁以下孩子头部外伤致死的首要原因。美国 1999 到 2014 年，它造成近 2250 名 5 岁以下孩子死亡
-- 证据等级：B
-- 来源：Spies EL, Klevens J (2016). Fatal Abusive Head Trauma Among Children Aged <5 Years — United States, 1999–2014. MMWR 65(20):505-509. <https://doi.org/10.15585/mmwr.mm6520a1>；Choudhary AK 等 (2018). Consensus statement on abusive head trauma in infants and young children. Pediatric Radiology 48(8):1048-1065. <https://doi.org/10.1007/s00247-018-4149-1>
-- 备注：真的到了要失控的那一刻，先把孩子放回婴儿床里，人走开几分钟。让他哭一会儿，比抱在手上晃安全得多。一个人带孩子、长期睡不够的人，最要记住这一点。自己的情绪怎么处理，见第 3 节
+### 9. Schüttle ein Baby nie, so müde und wütend du auch bist
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=ja Nutzen=hoch Bezug=Sterblichkeit -->
+- Kosten: kostet nichts. Schwierig ist, die Hand anzuhalten, wenn du selbst völlig erschöpft und wütend bist
+- Klartext: Der Kopf eines Babys ist groß, der Nacken hat keine Kraft. Kräftiges Schütteln lässt es im Gehirn und in den Augen bluten, es kann es töten oder einen lebenslangen Schaden hinterlassen. Sanftes Wiegen beim Einschlafen zählt nicht, gefährlich ist das unkontrollierte heftige Schütteln. Wenn du die Wut kaum noch hältst, leg das Kind zurück ins Babybett und geh ein paar Minuten weg. Es ein wenig weinen zu lassen ist sicherer, als es schüttelnd auf dem Arm zu halten.
+- Nutzen: Der Kopf eines Babys macht einen großen Anteil aus, die Nackenmuskeln sind schwach. Heftiges Schütteln verursacht intrakranielle Blutungen und Netzhautblutungen (Blutungen in Gehirn und Augen), es kann tödlich sein oder einen lebenslangen Schaden hinterlassen. Sanftes Wiegen beim Einschlafen zählt nicht, gefährlich ist das außer Kontrolle geratene heftige Schütteln. Medizinisch heißt diese Art von Verletzung durch Schütteln und Stoßen „misshandlungsbedingtes Kopftrauma". Es ist die häufigste Todesursache bei Kopfverletzungen von Kindern unter 2 Jahren. In den USA verursachte es von 1999 bis 2014 fast 2250 Todesfälle bei Kindern unter 5 Jahren
+- Evidenzstufe: B
+- Quellen: Spies EL, Klevens J (2016). Fatal Abusive Head Trauma Among Children Aged <5 Years — United States, 1999–2014. MMWR 65(20):505-509. <https://doi.org/10.15585/mmwr.mm6520a1>; Choudhary AK et al. (2018). Consensus statement on abusive head trauma in infants and young children. Pediatric Radiology 48(8):1048-1065. <https://doi.org/10.1007/s00247-018-4149-1>
+- Anmerkung: Wenn es wirklich so weit kommt, dass du die Kontrolle verlierst, leg das Kind zuerst ins Babybett und geh ein paar Minuten weg. Es ein wenig weinen zu lassen ist viel sicherer, als es schüttelnd auf dem Arm zu halten. Wer allein ein Kind versorgt und lange zu wenig schläft, muss sich das am meisten merken. Wie du mit deinen eigenen Gefühlen umgehst, siehe Abschnitt 3
 
-### 10. 尿布不看牌子看三件事：合不合身、换得勤不勤、有没有被抽检通报过
-<!-- 成本标签: 钱=少 时间=少 毅力=否 收益=中 口径=金钱 -->
-- 成本：每月两三百到上千元不等，看你用什么档次的
-- 说人话：没有哪个官方机构排过「哪个牌子最好」。能查的只有两样：市场监管总局的产品质量抽检通报，和监管部门对具体事件的调查。贵的不等于安全，进口的不等于合格。先买小包装试一周，看孩子有没有红屁股和勒痕，合适再囤。
-- 收益：没有任何官方机构发布过「哪个牌子最好」的排名，所以本书不给品牌推荐。能核查的信息只有两类。一类是国家市场监督管理总局的产品质量抽检通报。另一类是监管部门对具体事件的调查。2026 年 6 月「婴幼儿纸尿裤甲酰胺问题」引起关注之后，市场监管总局牵头成立了联合调查组去核查
-- 证据等级：C
-- 来源：中国政府网 (2026-06-22). 市场监管总局牵头成立联合调查组核查「婴幼儿纸尿裤甲酰胺问题」. <https://www.gov.cn/zhengce/202606/content_7072931.htm>（该页仅有标题，正文未展示，故本条只引用调查这一事实，不引用任何结论）
-- 备注：TODO（待核实：那次调查的结论，以及市场监管总局的正式通报原文）。实际怎么买：贵的不等于安全，进口的不等于合格。先买小包装试一周，看孩子有没有红屁股和勒痕，合适再囤。红屁股主要是换得不够勤、不透气造成的，和牌子的关系没有想象中大。查抽检通报的方法见第 5 节
+### 10. Bei Windeln zählt nicht die Marke, sondern drei Dinge: ob sie passen, ob du oft genug wechselst und ob die Marke schon in einem Prüfbericht aufgefallen ist
+<!-- Kostenlabel: Geld=wenig Zeit=wenig Willenskraft=nein Nutzen=mittel Bezug=Geld -->
+- Kosten: monatlich zwei- bis dreihundert bis über tausend 元, je nachdem, welche Klasse du nimmst
+- Klartext: Keine offizielle Stelle hat je eine Rangliste „welche Marke ist die beste" veröffentlicht. Prüfen lassen sich nur zwei Dinge: die Bekanntmachungen der staatlichen Marktaufsichtsbehörde zu Qualitätsprüfungen und die Untersuchungen der Aufsichtsbehörden zu einzelnen Vorfällen. Teuer heißt nicht sicher, importiert heißt nicht einwandfrei. Kauf zuerst eine kleine Packung und teste eine Woche, ob das Kind einen wunden Po oder Druckstellen bekommt, und leg erst dann einen Vorrat an.
+- Nutzen: Keine offizielle Stelle hat je eine Rangliste „welche Marke ist die beste" veröffentlicht, deshalb gibt dieses Buch keine Markenempfehlung. Prüfbare Informationen gibt es nur zwei Arten. Die eine sind die Bekanntmachungen der Staatlichen Hauptverwaltung für Marktaufsicht zu Produktqualitätsprüfungen. Die andere sind die Untersuchungen der Aufsichtsbehörden zu einzelnen Vorfällen. Nachdem im Juni 2026 das „Formamid-Problem bei Baby-Wegwerfwindeln" Aufmerksamkeit erregte, bildete die Marktaufsichtsbehörde federführend eine gemeinsame Untersuchungsgruppe und ging der Sache nach
+- Evidenzstufe: C
+- Quellen: Chinesische Regierungswebsite (2026-06-22). Die Marktaufsichtsbehörde bildet federführend eine gemeinsame Untersuchungsgruppe zur Prüfung des „Formamid-Problems bei Baby-Wegwerfwindeln". <https://www.gov.cn/zhengce/202606/content_7072931.htm> (die Seite zeigt nur den Titel, der Text wird nicht angezeigt, daher zitiert dieser Eintrag nur die Tatsache der Untersuchung und keine Schlussfolgerung)
+- Anmerkung: TODO (noch zu prüfen: das Ergebnis jener Untersuchung und der Wortlaut der offiziellen Bekanntmachung der Marktaufsichtsbehörde). Wie du praktisch kaufst: Teuer heißt nicht sicher, importiert heißt nicht einwandfrei. Kauf zuerst eine kleine Packung und teste eine Woche, ob das Kind einen wunden Po oder Druckstellen bekommt, und leg erst dann einen Vorrat an. Ein wunder Po kommt vor allem daher, dass zu selten gewechselt wird und die Windel nicht atmet, mit der Marke hängt er weniger zusammen, als man denkt. Wie du die Prüfungsbekanntmachungen findest, siehe Abschnitt 5
 
-### 11. 大件按「借、买二手、买新」的顺序考虑，别一次性配齐
-<!-- 成本标签: 钱=少 时间=少 毅力=些 收益=中 口径=金钱 -->
-- 成本：不用额外花钱，省下来的钱通常以千元计。难在忍住不一次性把东西配齐
-- 说人话：婴儿车、婴儿床、抱被、玩具用的时间都短，二手货很多。先问人借，借不到买二手，再不行才买新的，通常能省下上千元。安全座椅和床垫别买二手，座椅撞过以后的损伤眼睛看不出来。月子会所、早教课这类大钱，先冷静 24 小时再定。
-- 收益：婴儿车、婴儿床、抱被、玩具的使用期都很短，二手市场上供给远大于需求。真正不能省、也不建议买二手的是两样：安全座椅和床垫。安全座椅撞过之后的结构损伤，肉眼看不出来
-- 证据等级：C
-- 来源：作者经验，无直接文献；安全座椅的证据见第 1 节，冲动消费见第 5 节
-- 备注：月子会所、早教课、婴儿游泳馆这几类，本书不推荐也不否定。但它们都是可花可不花的一笔大钱，适用第 5 节讲的 24 小时冷静期
+### 11. Geh bei großen Anschaffungen in der Reihenfolge „leihen, gebraucht kaufen, neu kaufen" vor und kaufe nicht alles auf einmal
+<!-- Kostenlabel: Geld=wenig Zeit=wenig Willenskraft=etwas Nutzen=mittel Bezug=Geld -->
+- Kosten: kostet nichts extra, das Gesparte liegt meist im Bereich von tausend 元. Schwierig ist, sich zu beherrschen und nicht alles auf einmal anzuschaffen
+- Klartext: Kinderwagen, Babybett, Puckdecken und Spielzeug werden nur kurz gebraucht, gebraucht gibt es davon viel. Frag zuerst jemanden, ob du es leihen kannst, sonst kauf es gebraucht, und erst wenn das nicht geht, kauf es neu; meist sparst du damit über tausend 元. Kindersitz und Matratze kauf nicht gebraucht, den Schaden an einem Sitz nach einem Unfall sieht man mit dem Auge nicht. Bei großen Beträgen wie Wochenbett-Zentren und Frühförderkursen warte erst 24 Stunden und entscheide dann.
+- Nutzen: Kinderwagen, Babybett, Puckdecken und Spielzeug werden alle nur kurz genutzt, auf dem Gebrauchtmarkt ist das Angebot viel größer als die Nachfrage. Was du wirklich nicht weglassen kannst und auch nicht gebraucht kaufen solltest, sind zwei Dinge: Kindersitz und Matratze. Den Schaden an der Struktur eines Kindersitzes nach einem Unfall sieht man mit dem Auge nicht
+- Evidenzstufe: C
+- Quellen: Erfahrung des Autors, keine direkte Literatur; die Evidenz zum Kindersitz siehe Abschnitt 1, zum Impulskauf siehe Abschnitt 5
+- Anmerkung: Wochenbett-Zentren, Frühförderkurse und Baby-Schwimmbäder empfiehlt dieses Buch weder noch lehnt es sie ab. Sie sind aber alle ein großer Betrag, den man ausgeben kann oder auch nicht, und dafür gilt die 24-Stunden-Bedenkpause aus Abschnitt 5
 
-### 12. 孩子有严重湿疹或鸡蛋过敏，别躲着花生，按医生指导早点加上，但绝不能喂整粒
-<!-- 成本标签: 钱=少 时间=少 毅力=否 收益=大 口径=死亡率 -->
-- 成本：一罐花生酱几十元。每周喂几次，顺手就做。加之前要带孩子看一次医生，做个评估。
-- 说人话：有重度湿疹或鸡蛋过敏的婴儿，从 4 到 11 个月起定期吃花生，到 5 岁时花生过敏的只有 1.9%，完全躲开的是 13.7%。皮试已经有点反应的孩子，吃的是 10.6%，躲的是 35.3%。加之前先带孩子看医生。绝不能喂整粒花生，会噎住气管。
-- 收益：英国 LEAP 随机试验。640 名婴儿入组，条件是有重度湿疹、鸡蛋过敏，或者两样都有。入组时 4 到 11 个月大。随机分成两组，一组定期吃花生制品，一组完全回避，到 60 个月大时看花生过敏率。入组时花生皮试阴性的 530 人里，回避组 13.7% 过敏，吃的组 1.9%（P<0.001）。入组时皮试已经弱阳性的 98 人里，回避组 35.3%，吃的组 10.6%（P=0.004）。两组的严重不良事件没有差别。
-- 证据等级：A
-- 来源：Du Toit G, Roberts G, Sayre PH, 等 (2015). Randomized trial of peanut consumption in infants at risk for peanut allergy. New England Journal of Medicine, 372(9), 803-813. <https://doi.org/10.1056/NEJMoa1414850>；国家卫生健康委办公厅 (2020). 婴幼儿喂养健康教育核心信息. <https://www.gov.cn/zhengce/zhengceku/2020-08/01/content_5531915.htm>；Perkin MR 等 (2016). Randomized Trial of Introduction of Allergenic Foods in Breast-Fed Infants. New England Journal of Medicine, 374(18), 1733-1743. <https://doi.org/10.1056/NEJMoa1514210>（备注里那项一般婴儿试验 EAT）
-- 备注：**形式只能是花生酱调稀或者花生粉拌进辅食，绝不能给整粒花生。**卫健委的喂养核心信息写得很明白：「整粒花生、坚果、果冻等食物易吸入气管，引起窒息，婴幼儿应当避免食用」。噎住了怎么办见第 13 节第 26 条（有人噎住说不出话）。适用的只是高危孩子：有重度湿疹，或者已经对鸡蛋过敏的那些。**加之前必须先看医生做评估，不要自己在家试**：LEAP 试验入组前给每个孩子做了皮试，皮试反应大于 4 毫米的孩子被排除在试验之外，没让他们吃。一般孩子的证据弱得多。另一项 1162 名普通母乳喂养婴儿的试验里，按分组算，早引入组食物过敏 5.6%、常规组 7.1%，差别不显著（P=0.32）；只有在真正做到了的那部分孩子里才显著（2.4% 对 7.3%）。这种算法容易把效果说大，作者自己说按分组算没能证出效力，但也说明早引入是安全的。中国的官方喂养文件目前对「该早引入还是该回避易过敏食物」没有说法，所以这条按国际试验证据写。时间点上也要注意：LEAP 从 4 月龄起，而中国是满 6 月龄开始加辅食，见本节第 4 条（前 6 个月只喂母乳）。高危孩子几月龄开始、怎么开始，听医生的。
+### 12. Hat das Kind ein schweres Ekzem oder eine Ei-Allergie, meide Erdnüsse nicht, sondern gib sie nach ärztlicher Anleitung früh dazu, aber niemals eine ganze Nuss
+<!-- Kostenlabel: Geld=wenig Zeit=wenig Willenskraft=nein Nutzen=hoch Bezug=Sterblichkeit -->
+- Kosten: ein Glas Erdnussbutter kostet ein paar Dutzend 元. Ein paar Mal pro Woche füttern ist schnell gemacht. Vor dem Anfang musst du mit dem Kind einmal zum Arzt und es beurteilen lassen.
+- Klartext: Bei Säuglingen mit schwerem Ekzem oder Ei-Allergie, die ab 4 bis 11 Monaten regelmäßig Erdnuss bekommen, haben mit 5 Jahren nur 1,9 % eine Erdnussallergie. Bei denen, die sie ganz meiden, sind es 13,7 %. Bei Kindern, deren Hauttest schon etwas reagiert, sind es beim Essen 10,6 %, beim Meiden 35,3 %. Geh vorher mit dem Kind zum Arzt. Gib niemals eine ganze Erdnuss, sie verstopft die Luftröhre.
+- Nutzen: Die britische LEAP-Studie, randomisiert. 640 Säuglinge wurden aufgenommen, Bedingung war ein schweres Ekzem, eine Ei-Allergie oder beides. Bei der Aufnahme waren sie 4 bis 11 Monate alt. Sie wurden zufällig in zwei Gruppen geteilt, eine aß regelmäßig Erdnussprodukte, eine mied sie ganz, mit 60 Monaten wurde die Erdnussallergie-Rate gemessen. Von den 530 mit negativem Erdnuss-Hauttest bei der Aufnahme waren in der Meidegruppe 13,7 % allergisch, in der Essgruppe 1,9 % (P<0,001). Von den 98 mit schon schwach positivem Hauttest bei der Aufnahme waren es in der Meidegruppe 35,3 %, in der Essgruppe 10,6 % (P=0,004). Bei den schweren unerwünschten Ereignissen gab es zwischen den beiden Gruppen keinen Unterschied.
+- Evidenzstufe: A
+- Quellen: Du Toit G, Roberts G, Sayre PH, et al. (2015). Randomized trial of peanut consumption in infants at risk for peanut allergy. New England Journal of Medicine, 372(9), 803-813. <https://doi.org/10.1056/NEJMoa1414850>; Büro der Nationalen Gesundheitskommission (2020). Kerninformationen zur Ernährung und Fütterung von Säuglingen und Kleinkindern. <https://www.gov.cn/zhengce/zhengceku/2020-08/01/content_5531915.htm>; Perkin MR et al. (2016). Randomized Trial of Introduction of Allergenic Foods in Breast-Fed Infants. New England Journal of Medicine, 374(18), 1733-1743. <https://doi.org/10.1056/NEJMoa1514210> (die allgemeine Säuglingsstudie EAT aus dem Anmerkungstext)
+- Anmerkung: **Die Form darf nur verdünnte Erdnussbutter oder Erdnusspulver unter der Beikost sein, gib niemals eine ganze Erdnuss.** Die Kerninformationen der Gesundheitskommission sagen es ganz klar: „Ganze Erdnüsse, Nüsse, Wackelpudding und ähnliche Lebensmittel werden leicht in die Luftröhre gesogen und lösen Ersticken aus; Säuglinge und Kleinkinder sollen sie nicht essen." Was zu tun ist, wenn sich jemand verschluckt, siehe Abschnitt 13, Nr. 26 (kann nicht mehr sprechen). Es gilt nur für Risikokinder: die mit einem schweren Ekzem oder einer schon bestehenden Ei-Allergie. **Vor dem Anfang musst du erst zum Arzt und es beurteilen lassen, probier es nicht selbst zu Hause**: Vor der Aufnahme in die LEAP-Studie bekam jedes Kind einen Hauttest, Kinder mit einer Hauttest-Reaktion über 4 Millimeter wurden ausgeschlossen und bekamen nichts. Bei normalen Kindern ist die Evidenz viel schwächer. In einer weiteren Studie mit 1162 normal gestillten Säuglingen lag die Lebensmittelallergie nach Gruppenzuteilung in der Früh-Einführungsgruppe bei 5,6 % und in der üblichen Gruppe bei 7,1 %, der Unterschied war nicht signifikant (P=0,32); signifikant war er nur bei dem Teil der Kinder, die es wirklich durchgezogen hatten (2,4 % gegen 7,3 %). Diese Rechnung macht den Effekt leicht zu groß, die Autoren sagen selbst, dass nach Gruppenzuteilung keine Wirksamkeit nachgewiesen werden konnte, sie sagt aber auch, dass die frühe Einführung sicher ist. Die offiziellen chinesischen Ernährungsdokumente sagen derzeit nichts dazu, ob man früh einführen oder meiden soll, deshalb ist dieser Eintrag nach der internationalen Studienlage geschrieben. Auch beim Zeitpunkt ist Vorsicht nötig: LEAP beginnt mit 4 Monaten, in China beginnt die Beikost mit vollendeten 6 Monaten, siehe Nr. 4 in diesem Abschnitt (in den ersten 6 Monaten nur Muttermilch). Wann Risikokinder beginnen sollen und wie, dazu hör auf den Arzt.

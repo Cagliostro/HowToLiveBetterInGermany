@@ -1,0 +1,21 @@
+# Ergänzung zu Abschnitt 2, Nr. 26: Mykotoxine im Tee und Grüntee-Extrakt (2026-09-23)
+
+Aufgabenherkunft: GitHub-Issue #27 (ccpfucker), Titel „Gegen die Ansicht, Teetrinken sei gesundheitsfördernd". Der Originaltext vertritt die Auffassung „trink ruhig etwas Wasser und importierte Vollmilch, gehe seltener Tee trinken", mit der Begründung, Tee könne mit Mykotoxinen belastet sein und hochkonzentrierter Tee-Extrakt sei leberschädigend; die Schlussfolgerung ist, dass „Teetrinken ist gesundheitsfördernd" nicht als allgemeine Aussage gelten könne und Tee als gewöhnliches Getränk anzusehen sei. Es waren drei Arbeiten beigefügt.
+
+## Die drei Arbeiten Stück für Stück geprüft
+
+| URL | Prüfung | Kernpunkte des Abstract-Originals |
+|---|---|---|
+| <https://doi.org/10.1016/j.fct.2020.111830> (Cui P u. a., 2020, Food and Chemical Toxicology; PMID 33127496) | Ja (Europe PMC-Abstract) | 158 inländische Proben nachfermentierten Schwarztees wurden auf 4 Aflatoxine untersucht, „Two out of 158 samples were positive… (occurrence rate 1.27%)". Bei der hoch exponierten Gruppe betrug die obere Expositionsgrenze 9.19 × 10⁻⁶ μg/kg/Tag, „lower than the JECFA acceptable value of 1.0 ng kg⁻¹ day⁻¹ on liver risk"; das 95. Perzentil des karzinogenen Risikos der probabilistischen Bewertung war „equally below the acceptable carcinogenic risk level" |
+| <https://doi.org/10.3390/toxins14070452> (Zhou H u. a., 2022, Toxins; PMID 35878190) | Ja (Europe PMC-Abstract) | 352 inländische Teeproben wurden auf 16 Mykotoxine untersucht, „Average concentrations of almost all mycotoxins in tea samples were below the established regulations, except for ochratoxin A in the dark tea samples". Schlussfolgerung: „there is no dietary risk of exposure to mycotoxins through tea consumption in the Chinese population" |
+| <https://doi.org/10.1016/j.yrtph.2018.03.019> (Hu J u. a., 2018, Regulatory Toxicology and Pharmacology; PMID 29580974) | Ja (Europe PMC-Abstract) | 159 Human-Interventionsstudien: „a limited range of concentrated, catechin-rich green tea preparations resulted in hepatic AEs in a dose-dependent manner when ingested in large bolus doses, but not when consumed as brewed tea or extracts in beverages or as part of food". Die sichere Menge bei einmaligem Verschlucken beträgt 338 mg EGCG/Tag, die in Getränkeform beobachtete sichere Menge 704 mg EGCG/Tag |
+
+## Entscheidung über den Umgang
+
+**Die Schlussfolgerung, die Evidenzstufe und der Titel werden nicht geändert.** Die Schlussfolgerungen der drei Arbeiten selbst lauten alle „bei der üblichen Teetrinkmenge besteht kein Risiko": Bei der ersten liegt die Exposition unter dem akzeptablen Wert der JECFA, die zweite schreibt ausdrücklich, dass für die chinesische Bevölkerung durch Teetrinken kein Ernährungsrisiko besteht, und die dritte schreibt ausdrücklich, dass bei aufgebrühtem Tee keine unerwünschten Leberereignisse auftreten. Sie widerlegen den Sterblichkeitszusammenhang der China-PAR nicht, und die Schlussfolgerung des Issues geht weiter als die von ihm angeführte Evidenz. Der Vorschlag, „importierte Vollmilch" als Ersatz zu nehmen, wurde im Issue ohne Belege vorgebracht und wird nicht übernommen.
+
+**Der übernommene Teil wird in die Anmerkung geschrieben.** Leser könnten tatsächlich verschimmelten Tee befürchten, und tatsächlich nehmen manche Grüntee-Extrakt-Kapseln als Ersatz für „Teetrinken"; beides hatte der Eintrag bisher nicht erwähnt. Daher werden der Anmerkung zwei Absätze ergänzt: die Nachweisbefunde zu Mykotoxinen und die Schlussfolgerung der Risikobewertung sowie der Unterschied zwischen Extrakt und aufgebrühtem Tee; die Stoßrichtung ist „dieser Eintrag zählt nur für aufgebrühten Tee, ersetze ihn nicht durch Extrakte als Nahrungsergänzung". Die drei Arbeiten kommen regelgemäß alle in die Quellenspalte, die Anmerkung enthält keine Links.
+
+**„Verschimmelten, feucht gewordenen Tee nicht trinken" ist ein Hinweis auf Grundlage allgemeiner Lebenserfahrung (Bezugsgröße Stufe C) und hat keine eigene Quelle.** Das Issue erwähnt, dass die Lagerbedingungen die Sicherheit beeinflussen, doch die drei Arbeiten liefern keine Zahlen zur Lagerung, daher wird nur die Handlung und keine Zahl geschrieben.
+
+**Der Anfang „umstritten" bleibt erhalten, die Größenordnung wird nicht angetastet.** Die Nutzenspalte wurde nicht geändert, und der Klartext muss auch nicht geändert werden.

@@ -1,89 +1,91 @@
-# 家庭应急装备清单：买什么、放哪里、多久检查一次
+[← Zurück zum Inhaltsverzeichnis](../README.md)
 
-对应 README 第 1 节第 26 条（备齐灭火器、灭火毯、逃生呼吸面罩和急救包）。这份清单列的是家里该常备哪些东西，不讲怎么用。火场逃生、心肺复苏、大出血、烫伤、一氧化碳中毒当场该做什么，都写在第 13 节。烟雾报警器和一氧化碳报警器怎么选怎么装，见第 1 节第 3 条。燃气软管和灶具见第 1 节第 4 条。
+# Notfallausrüstung für die Familie: Was kaufen, wo aufbewahren, wie oft prüfen
 
-这一节算的是少死人、少受伤这笔账，只管意外造成的伤，不管疾病。买装备本身到底有多大用，证据不硬，理由写在最后一节，往下读之前先看那一段。
+Entspricht Abschnitt 1, Nr. 26 (Feuerlöscher, Löschdecke, Rauchschutzmaske und Verbandkasten bereithalten). Diese Liste sagt, was im Haus ständig vorhanden sein sollte; wie man es benutzt, steht hier nicht. Was bei einem Brand zu tun ist, bei der Wiederbelebung, bei einer starken Blutung, bei einer Verbrennung und bei einer Kohlenmonoxidvergiftung, steht in Abschnitt 13. Wie du Rauchmelder und Kohlenmonoxidmelder auswählst und anbringst, siehe Abschnitt 1, Nr. 3. Gasschlauch und Herd siehe Abschnitt 1, Nr. 4.
 
-## 一、官方清单原文
+Dieser Abschnitt rechnet mit weniger Toten und weniger Verletzten. Er erfasst nur Verletzungen durch Unfälle, keine Krankheiten. Wie viel die Ausrüstung selbst wirklich bringt, ist schwach belegt; die Begründung steht im letzten Abschnitt, sieh sie dir an, bevor du weiterliest.
 
-应急管理部出过一份《全国基础版家庭应急物资储备建议清单》，一共 11 项。下面这张表是原文的说明。
+## 1. Die amtliche Liste im Wortlaut
 
-| 序号 | 物品 | 原文说明 |
+Das Ministerium für Notfallmanagement [应急管理部] hat eine Empfehlungsliste für die Grundausstattung an Notfallvorräten im Haushalt (landesweite Basisversion) [全国基础版家庭应急物资储备建议清单] herausgegeben, insgesamt 11 Positionen. Die folgende Tabelle gibt die Erläuterungen des Originals wieder.
+
+| Nr. | Gegenstand | Erläuterung im Original |
 |---|---|---|
-| 1 | 饮用水 | 保障每人 3 天基本饮水需求，至少 3 升/人 |
-| 2 | 方便食品 | 保障每人 3 天基本食物需求。方便食品体积小、热量高 |
-| 3 | 灭火器和灭火毯 | 用于初起火灾的扑救。灭火毯可披覆在身上逃生 |
-| 4 | 呼吸面罩 | 消防过滤式自救呼吸器，用于火灾逃生使用 |
-| 5 | 手电筒 | 防水防爆手电筒。定期充电或更换电池 |
-| 6 | 多功能小刀 | 有刀锯、螺丝刀、钢钳等组合功能 |
-| 7 | 收音机 | 接收应急广播使用 |
-| 8 | 救生哨子 | 可吹出高频求救信号 |
-| 9 | 外用药品 | 止血粉、止血贴、纱布绷带等，用于处理伤口 |
-| 10 | 消毒湿纸巾 | 用于个人卫生清洁 |
-| 11 | 医用外科口罩 | 病毒防护 |
+| 1 | Trinkwasser | deckt den Grundbedarf an Trinkwasser für 3 Tage pro Person, mindestens 3 Liter pro Person |
+| 2 | Fertignahrung | deckt den Grundbedarf an Nahrung für 3 Tage pro Person. Fertignahrung ist klein im Volumen und energiereich |
+| 3 | Feuerlöscher und Löschdecke | zum Löschen eines Entstehungsbrandes. Die Löschdecke lässt sich zum Entkommen um den Körper legen |
+| 4 | Atemmaske | gefiltertes Brandschutz-Selbstrettungsgerät für die Flucht aus einem Brand |
+| 5 | Taschenlampe | wasserdichte, explosionsgeschützte Taschenlampe. Regelmäßig aufladen oder die Batterien wechseln |
+| 6 | Multifunktionsmesser | mit Säge, Schraubendreher, Zange und weiteren kombinierten Funktionen |
+| 7 | Radio | zum Empfang des Notfall-Rundfunks |
+| 8 | Rettungspfeife | gibt ein hochfrequentes Notsignal ab |
+| 9 | Arzneimittel zur äußeren Anwendung | blutstillendes Pulver, blutstillende Pflaster, Mullbinden usw. zur Wundversorgung |
+| 10 | Desinfizierende Feuchttücher | zur Körperreinigung und Hygiene |
+| 11 | Chirurgischer Mund-Nasen-Schutz | Virenschutz |
 
-来源：应急管理部 (2020). 全国基础版家庭应急物资储备建议清单. <https://www.mem.gov.cn/kp/shaq/202011/t20201129_372149.shtml>
+Quelle: Ministerium für Notfallmanagement (2020). Empfehlungsliste für die Grundausstattung an Notfallvorräten im Haushalt (landesweite Basisversion) [全国基础版家庭应急物资储备建议清单]. <https://www.mem.gov.cn/kp/shaq/202011/t20201129_372149.shtml>
 
-地方的版本列得更细。北京市应急管理局给居民家庭的清单分两档：基础版和扩充版。基础版分成「应急物品、应急工具和应急药物 3 类」。具体东西是这些：能收广播的手摇充电电筒、救生哨、毛巾纸巾或湿纸巾、呼吸面罩、多功能组合剪刀、应急逃生绳、灭火器或防火毯。药和医用材料另算：抗感染类和抗感冒类的药、医用外科口罩、纱布绷带这类医用材料、碘伏棉棒。扩充版分成「食品、个人用品、逃生自救工具、医疗急救用品、重要文件资料 5 类应急物资」。这个局还提了三条建议。一是「选购资质合法、信誉良好的生产经营企业提供的应急物资」。二是「优先储备基础版的应急物资品种」。三是「熟悉掌握应急物资的正确使用方法，定期对应急物资状况进行检查，并及时更换已过保质期的应急物资」。
+Die Listen der lokalen Ebene sind ausführlicher. Das Amt für Notfallmanagement der Stadt Peking hat für Einwohnerhaushalte eine Liste in zwei Stufen: Basisversion und erweiterte Version. Die Basisversion teilt sich in „Notfallgegenstände, Notfallwerkzeuge und Notfallarzneimittel, 3 Gruppen". Die einzelnen Dinge sind: eine Handkurbel-Taschenlampe mit Radioempfang, eine Rettungspfeife, Handtücher, Papiertaschentücher oder Feuchttücher, eine Atemmaske, eine Multifunktionsschere, ein Notfall-Fluchtseil, ein Feuerlöscher oder eine Löschdecke. Arzneimittel und medizinische Materialien zählen extra: Mittel gegen Infektionen und Mittel gegen Erkältung, medizinischer Mund-Nasen-Schutz, medizinische Materialien wie Mullbinden, Jod-Tupferstäbchen. Die erweiterte Version teilt sich in „Nahrung, persönliche Gegenstände, Werkzeuge zur Flucht und Selbstrettung, medizinische Notfallartikel und wichtige Dokumente und Unterlagen, 5 Gruppen von Notfallvorräten". Das Amt nennt außerdem drei Ratschläge. Erstens: „Notfallvorräte bei Herstellern und Händlern mit rechtmäßiger Zulassung und gutem Ruf kaufen". Zweitens: „vorrangig die Arten der Basisversion bevorraten". Drittens: „die richtige Anwendung der Notfallvorräte kennen und beherrschen, den Zustand der Notfallvorräte regelmäßig überprüfen und abgelaufene Notfallvorräte rechtzeitig ersetzen".
 
-来源：北京市应急管理局 (2020). 北京市修订发布居民家庭应急物资储备建议清单. <https://yjglj.beijing.gov.cn/art/2020/12/23/art_6058_664632.html> ；北京市西城区人民政府转载的品种明细. <https://www.bjxch.gov.cn/zt/kpzc/xxxq/pnidpv858729.html>
+Quelle: Amt für Notfallmanagement der Stadt Peking (2020). Die Stadt Peking gibt die überarbeitete Empfehlungsliste für Notfallvorräte der Einwohnerhaushalte bekannt [北京市修订发布居民家庭应急物资储备建议清单]. <https://yjglj.beijing.gov.cn/art/2020/12/23/art_6058_664632.html> ; die von der Volksregierung des Stadtbezirks Xicheng der Stadt Peking übernommene Aufstellung der Arten. <https://www.bjxch.gov.cn/zt/kpzc/xxxq/pnidpv858729.html>
 
-国家层面 2024 年又更新过一次。文件是国家防灾减灾救灾委员会办公室的《关于进一步加强应急抢险救灾物资保障体系和能力建设的指导意见》（国防减救办发〔2024〕13 号，2024 年 9 月 23 日）。它的附件 2 叫《家庭应急物资储备指导目录》。这份目录分成 5 类：应急食品、生活物品、应急工具、应急药品及医用品、重要资料。基础版 16 个品种，扩展版 31 个品种。TODO（待核实：这 16 个和 31 个品种分别叫什么。官方附件是 wps 文件，还有扫描成图片的 PDF，本次没能取到能逐字核对的文本）。
+Auf nationaler Ebene gab es 2024 eine weitere Aktualisierung. Das Dokument ist die Leitlinie des Büros des Nationalen Komitees für Katastrophenvorsorge, -minderung und -hilfe [国家防灾减灾救灾委员会办公室] über die weitere Stärkung des Systems und des Aufbaus von Fähigkeiten für die Materialversorgung bei Notfallrettung und Katastrophenhilfe [关于进一步加强应急抢险救灾物资保障体系和能力建设的指导意见] (Dokument Nr. 13 des Büros für Katastrophenvorsorge, -minderung und -hilfe von 2024, 23. September 2024). Ihr Anhang 2 heißt Leitfaden-Verzeichnis für Notfallvorräte im Haushalt [家庭应急物资储备指导目录]. Dieses Verzeichnis teilt sich in 5 Gruppen: Notfallnahrung, Gegenstände des täglichen Bedarfs, Notfallwerkzeuge, Notfallarzneimittel und medizinische Artikel, wichtige Unterlagen. Die Basisversion hat 16 Arten, die erweiterte Version 31 Arten. TODO (noch zu prüfen: wie diese 16 und 31 Arten heißen. Der amtliche Anhang ist eine wps-Datei, dazu gibt es eine als Bild eingescannte PDF; diesmal ließ sich kein Text beschaffen, mit dem man Wort für Wort abgleichen könnte).
 
-## 二、消防三件套
+## 2. Die drei Brandschutz-Geräte
 
-**灭火器。** 手提式灭火器是国家强制认证的产品。合格的瓶身上会印 CCC 标志。它执行的标准是 GB 4351—2023《手提式灭火器》。瓶里预先充了压的那种（二氧化碳灭火器除外），瓶身上带一个压力表。压力表的指针要停在绿色区域里。指针指到红区或黄区，就说明这瓶已经不能用了。多少年报废按 XF 95 这份标准算：水基型 6 年，干粉 10 年，二氧化碳 12 年。年限从出厂那天算起。出厂日期在瓶身的钢印上能找到。家用一般买 ABC 干粉的。厨房门口放一只，进门玄关放一只。别塞进灶台正上方的柜子。真起火时那里够不着。
+**Feuerlöscher.** Ein tragbarer Feuerlöscher ist ein Produkt mit staatlicher Pflichtzertifizierung. Auf einem einwandfreien Behälter ist das CCC-Zeichen aufgebracht. Er erfüllt die Norm GB 4351—2023 Handfeuerlöscher [手提式灭火器]. Bei der vorgefüllten Bauart (außer Kohlendioxid-Feuerlöschern) sitzt am Behälter ein Manometer. Der Zeiger des Manometers muss im grünen Bereich stehen. Zeigt der Zeiger in den roten oder gelben Bereich, ist dieser Behälter nicht mehr brauchbar. Nach wie vielen Jahren er ausgemustert wird, richtet sich nach der Norm XF 95: Wasserbasis 6 Jahre, Pulver 10 Jahre, Kohlendioxid 12 Jahre. Die Frist zählt ab dem Tag der Herstellung. Das Herstellungsdatum findest du im eingeprägten Stempel am Behälter. Für den Haushalt kauft man meist ABC-Pulver. Einen vor die Küchentür, einen in den Eingangsbereich. Stopf ihn nicht in den Schrank direkt über dem Herd. Im Brandfall kommst du dort nicht heran.
 
-**灭火毯。** 官方清单里，它和灭火器写在同一项。它有两个用处：盖住着火的油锅，或者披在身上往外跑。厨房抽屉里放一块就行。它不占地方，也不会过期。锅着了先关火，再把毯子盖上去。盖好之后别马上掀开。
+**Löschdecke.** In der amtlichen Liste steht sie zusammen mit dem Feuerlöscher in derselben Position. Sie hat zwei Verwendungen: einen brennenden Topf mit Öl abdecken oder sich zum Hinauslaufen umlegen. Ein Stück in der Küchenschublade genügt. Sie braucht wenig Platz und läuft nicht ab. Wenn der Topf brennt, zuerst das Feuer ausmachen, dann die Decke darüberlegen. Nach dem Abdecken die Decke nicht sofort wieder hochheben.
 
-**逃生呼吸面罩。** 它的官方叫法是消防过滤式自救呼吸器。它执行的标准是 GB 21976.7—2012《建筑火灾逃生避难器材 第 7 部分：过滤式消防自救呼吸器》。这是一份现行有效的强制性国家标准。它 2013 年 6 月 1 日开始实施，2023 年复审的结论是继续有效。买的时候认这个标准号，也认 CCC 标志。家里几口人就买几只。放在卧室床头伸手够得着的地方，别锁进储藏室。它靠里面的滤毒罐把烟里的毒气吸住，用一次就作废，而且只能顶标称的那点时间，所以戴上就要往外走。TODO（待核实：这份标准对能用的最低氧气含量和标称防护时间是怎么写的。本次只查到标准的名称、状态和实施日期，没取到条文正文）。
+**Rauchschutzmaske.** Ihre amtliche Bezeichnung lautet gefiltertes Brandschutz-Selbstrettungsgerät. Sie erfüllt die Norm GB 21976.7—2012 Brandschutz-Flucht- und Rettungsgeräte, Teil 7: gefilterte Brandschutz-Selbstrettungsgeräte [建筑火灾逃生避难器材 第 7 部分：过滤式消防自救呼吸器]. Das ist eine gültige verbindliche staatliche Norm. Sie gilt seit dem 1. Juni 2013, und die Überprüfung 2023 ergab, dass sie weiter gilt. Beim Kauf achte auf diese Normnummer und auf das CCC-Zeichen. Kauf so viele, wie Personen im Haus wohnen. Leg sie im Schlafzimmer neben dem Bett an eine Stelle, die du mit der Hand erreichst, und schließ sie nicht in der Abstellkammer ein. Sie hält mit der Filterkartusche im Inneren die Giftgase im Rauch zurück. Einmal benutzt, ist sie verbraucht, und sie hält nur die angegebene Zeit durch. Deshalb musst du beim Aufsetzen nach draußen gehen. TODO (noch zu prüfen: was diese Norm zur nutzbaren Mindestsauerstoffkonzentration und zur angegebenen Schutzzeit sagt. Diesmal ließen sich nur Name, Status und Inkrafttretensdatum der Norm finden, der Wortlaut der Vorschrift nicht).
 
-火灾里最要命的是烟。怎么往外逃（贴地爬、摸门再开门、走楼梯不坐电梯），见第 13 节第 24 条。烟雾报警器见第 1 节第 3 条。这两件事比上面这三件套更该先办。
+Im Brand ist der Rauch das Schlimmste. Wie du nach draußen kommst (flach am Boden kriechen, die Tür fühlen, bevor du sie öffnest, die Treppe statt des Aufzugs nehmen), siehe Abschnitt 13, Nr. 24. Rauchmelder siehe Abschnitt 1, Nr. 3. Diese beiden Dinge solltest du eher erledigen als die drei Geräte oben.
 
-## 三、急救包里放什么
+## 3. Was in den Verbandkasten gehört
 
-官方清单在这一项上只写了一句「外用药品：止血粉、止血贴、纱布绷带等，用于处理伤口」。第 13 节里已经核实过现场该做哪些动作。照着那些动作，家用急救包放下面这些东西是合理的。
+In der amtlichen Liste steht zu dieser Position nur ein Satz: „Arzneimittel zur äußeren Anwendung: blutstillendes Pulver, blutstillende Pflaster, Mullbinden usw. zur Wundversorgung". In Abschnitt 13 ist bereits geprüft, welche Maßnahmen vor Ort zu tun sind. Nach diesen Maßnahmen ist es sinnvoll, dass ein Verbandkasten im Haushalt die folgenden Dinge enthält.
 
-- 止血：旋压式止血带一根，就是带一根转杆、能拧紧的那种。再加无菌纱布和绷带、三角巾、医用胶带。止血带怎么用、什么时候不能用、为什么「不要松开放血」，见第 13 节第 12 条
-- 清创（把伤口弄干净）：碘伏棉棒、生理盐水、创可贴、无菌敷料、一次性手套、剪刀和镊子
-- 烧烫伤：什么药膏都不用，现场只做一件事，拿凉的自来水冲 20 分钟，见第 13 节第 14 条（烫伤后用凉的流动水冲 20 分钟）
-- 记录：准备一张卡片。上面写清家里人的过敏史、慢性病和平时吃的药。急救人员到了，直接把卡片递给他们
+- Blutstillung: ein Tourniquet, also die Bauart mit einem Drehstab, die man fest zuziehen kann. Dazu steriler Mull und Binden, ein Dreieckstuch, medizinisches Klebeband. Wie du ein Tourniquet anlegst, wann du es nicht anlegen darfst und warum du es „nicht lockern darfst, um Blut abzulassen", siehe Abschnitt 13, Nr. 12
+- Wundreinigung (die Wunde sauber machen): Jod-Tupferstäbchen, Kochsalzlösung, Heftpflaster, sterile Wundauflagen, Einweghandschuhe, Schere und Pinzette
+- Verbrennung und Verbrühung: keine Salbe verwenden; vor Ort gibt es nur eines zu tun, nämlich 20 Minuten mit kühlem Wasser aus dem Hahn spülen, siehe Abschnitt 13, Nr. 14 (nach einer Verbrennung 20 Minuten mit kühlem fließendem Wasser spülen)
+- Aufzeichnung: Halte eine Karte bereit. Schreib darauf die Allergien der Familienmitglieder, chronische Krankheiten und die Medikamente, die sie sonst nehmen. Wenn die Rettungskräfte kommen, gib ihnen die Karte direkt
 
-家里有人已经知道自己会严重过敏，那就另外备一支肾上腺素自动注射笔。它是处方药，要找医生开，见第 13 节第 15 条（过敏性休克怎么认、怎么打）。
+Wenn jemand im Haus weiß, dass er stark allergisch reagiert, halte zusätzlich einen Adrenalin-Autoinjektor bereit. Er ist ein verschreibungspflichtiges Arzneimittel, das dir ein Arzt verschreiben muss, siehe Abschnitt 13, Nr. 15 (wie du einen anaphylaktischen Schock erkennst und wie du spritzt).
 
-这份急救包清单是 C 级证据。C 级的意思是凭经验和共识写的，没有直接文献支撑。因为官方文件在这一项上只给了「外用药品」四个字。具体买什么，是照着本书已经核实过的急救动作倒推出来的。
+Diese Liste für den Verbandkasten ist Evidenzstufe C. Stufe C heißt: aus Erfahrung und Konsens geschrieben, ohne direkte Literatur. Denn die amtliche Datei nennt zu dieser Position nur vier Schriftzeichen: „外用药品" [Mittel zur äußerlichen Anwendung]. Was man konkret kauft, ist aus den im Buch bereits geprüften Erste-Hilfe-Maßnahmen rückwärts abgeleitet.
 
-## 四、照明、通信和求救
+## 4. Beleuchtung, Kommunikation und Notsignale
 
-手电筒照官方说明买防水防爆的。隔一阵给它充一次电，或者换一次电池。救生哨是被困住的时候用来一直发信号的。吹哨比扯着嗓子喊省力，声音也更容易穿过嘈杂的环境传出去。收音机用来收应急广播。北京版的清单还列了应急逃生绳和多功能组合剪刀。这一类里最划算的是手机充电宝，多数家庭本来就有一个。
+Die Taschenlampe kaufst du nach der amtlichen Angabe wasserdicht und explosionsgeschützt. Lade sie von Zeit zu Zeit auf oder wechsle die Batterien. Die Rettungspfeife dient dazu, eingeschlossen immer wieder ein Signal zu geben. Pfeifen kostet weniger Kraft als lautes Schreien, und der Ton dringt leichter durch eine laute Umgebung. Das Radio dient dem Empfang des Notfall-Rundfunks. Die Liste der Pekinger Version führt außerdem ein Notfall-Fluchtseil und eine Multifunktionsschere auf. Am rentabelsten in dieser Gruppe ist eine Powerbank fürs Handy; die haben die meisten Haushalte ohnehin.
 
-## 五、每年检查一次，十分钟
+## 5. Einmal im Jahr prüfen, in zehn Minuten
 
-- 灭火器：看压力表指针还在不在绿区。再看瓶身上的出厂日期，算一下到没到报废年限
-- 烟雾报警器和一氧化碳报警器：按一下测试键。电池每年换一次，见第 1 节第 3 条（装烟雾报警器和一氧化碳报警器）
-- 呼吸面罩：看包装有没有破，有没有过标称的保质期
-- 急救包：看药品和敷料有没有过期，止血带的锁扣还锁不锁得住
-- 手电筒和充电宝：看还有没有电
+- Feuerlöscher: Sieh nach, ob der Zeiger des Manometers noch im grünen Bereich steht. Sieh dann auf das Herstellungsdatum am Behälter und rechne nach, ob die Ausmusterungsfrist erreicht ist
+- Rauchmelder und Kohlenmonoxidmelder: Einmal die Testtaste drücken. Die Batterie jedes Jahr wechseln, siehe Abschnitt 1, Nr. 3 (Rauchmelder und Kohlenmonoxidmelder anbringen)
+- Atemmaske: Sieh nach, ob die Verpackung beschädigt ist und ob die angegebene Haltbarkeit überschritten ist
+- Verbandkasten: Sieh nach, ob Arzneimittel und Auflagen abgelaufen sind und ob der Verschluss des Tourniquets noch hält
+- Taschenlampe und Powerbank: Sieh nach, ob sie noch geladen sind
 
-北京市应急管理局的原话是「定期对应急物资状况进行检查，并及时更换已过保质期的应急物资」。可以把这件事定在每年换报警器电池的那一天，几样东西一起看完。
+Wörtlich sagt das Amt für Notfallmanagement der Stadt Peking: „den Zustand der Notfallvorräte regelmäßig überprüfen und abgelaufene Notfallvorräte rechtzeitig ersetzen". Du kannst dir das auf den Tag legen, an dem du jedes Jahr die Batterien der Melder wechselst, und alle Dinge zusammen durchsehen.
 
-## 六、不必买的
+## 6. Was du nicht kaufen musst
 
-- **家用 AED（自动体外除颤仪）。** 一台要上万元。而且没有证据支持家庭自己买一台。心脏骤停时该做的是立刻按压，叫人打 120，同时去最近的公共场所把 AED 取来，见第 13 节第 1 条
-- **没有 CCC 标志的「消防面具」「防毒面罩」。** 消防法第二十四条规定，属于强制性产品认证范围的消防产品，「由具有法定资质的认证机构按照国家标准、行业标准的强制性要求认证合格后，方可生产、销售、使用」。就是说没过认证的不能卖也不能用。另外，工业用的滤毒罐防的是车间里的毒物，和火场的烟不是一回事
-- **成套的「应急礼包」。** 这种包里多半是拿便宜手电和口罩凑数的。灭火器、灭火毯、面罩和急救包分开买更省钱，也更容易一件件核对认证
-- **囤够三天以上的食品和水。** 官方清单按每人 3 天算。多囤的那部分，最后多半是放到过期扔掉，见第 5 节第 24 条（不为大促囤货）
+- **Ein AED (automatisierter externer Defibrillator) für den Haushalt.** Einer kostet über zehntausend 元. Und es gibt keine Belege dafür, dass ein Haushalt selbst einen kaufen sollte. Bei einem Herzstillstand ist zu tun: sofort kräftig auf den Brustkorb drücken, jemanden die 120 anrufen lassen und gleichzeitig einen AED aus der nächsten öffentlichen Einrichtung holen, siehe Abschnitt 13, Nr. 1
+- **„Brandschutzmasken" und „Giftmasken" ohne CCC-Zeichen.** Art. 24 des Brandschutzgesetzes [消防法] bestimmt: Feuerwehrprodukte, die in den Bereich der obligatorischen Produktzertifizierung fallen, dürfen „erst hergestellt, verkauft und verwendet werden, nachdem eine gesetzlich befugte Zertifizierungsstelle sie nach den verbindlichen Anforderungen der staatlichen und der Branchennormen zertifiziert hat". Wer die Zertifizierung nicht hat, darf sie also weder verkaufen noch verwenden. Außerdem wehrt eine industrielle Filterkartusche Giftstoffe in der Werkhalle ab; das ist nicht dasselbe wie der Rauch in einem Brand
+- **Fertige „Notfall-Geschenkpakete".** In solchen Paketen sind meist nur billige Taschenlampen und Masken zusammengerafft. Feuerlöscher, Löschdecke, Atemmaske und Verbandkasten einzeln zu kaufen ist billiger, und man kann die Zertifizierung Stück für Stück leichter prüfen
+- **Nahrung und Wasser für mehr als drei Tage horten.** Die amtliche Liste rechnet mit 3 Tagen pro Person. Der Teil, den du darüber hinaus hortest, landet am Ende meist abgelaufen im Müll, siehe Abschnitt 5, Nr. 24 (nicht im großen Sale auf Vorrat kaufen)
 
-来源：全国人大常委会 (2021). 中华人民共和国消防法（2021 修正，第二十四条）. <https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/202307/t20230726_3207767.html>
+Quelle: Ständiger Ausschuss des Nationalen Volkskongresses (2021). Brandschutzgesetz der Volksrepublik China [中华人民共和国消防法] (Fassung 2021, Art. 24). <https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/202307/t20230726_3207767.html>
 
-## 七、这些装备到底有多大用
+## 7. Wie viel diese Ausrüstung wirklich bringt
 
-这一节的证据比本书第 1 节其他条目弱。
+Die Belege in diesem Abschnitt sind schwächer als bei den übrigen Einträgen von Abschnitt 1 des Buches.
 
-有一份 Cochrane 系统综述，把 98 项研究、2,605,044 人的数据合起来一起算。它评估的是给家庭做安全教育、发安全装备到底有没有用。结果是，这类做法可能让受伤的发生率低一些，IRR 0.89（95% CI 0.78 到 1.01），低约一成。但这个可信范围的上限跨过了 1（1 代表没差别），所以也可能根本没差别。其中上门入户做的那些效果好一点，IRR 0.75（95% CI 0.62 到 0.91），低约两成半。只教不发东西的那些，IRR 0.78（95% CI 0.66 到 0.92），低约两成。起作用的更像是上门教和上门改造，不是发东西这个动作本身。这份综述还有一条结论：没有证据说明这类做法减少了烧烫伤和中毒。
+Es gibt eine systematische Cochrane-Übersichtsarbeit, die 98 Studien mit Daten von 2.605.044 Personen zusammen gerechnet hat. Sie prüft, ob es nützt, Familien eine Sicherheitsschulung zu geben und Sicherheitsausrüstung auszuteilen. Das Ergebnis: Solche Maßnahmen können die Verletzungsrate etwas senken, IRR 0,89 (95 %-KI 0,78 bis 1,01), also um etwa 10 % niedriger. Die Obergrenze dieses Vertrauensbereichs geht aber über die 1 hinaus (1 bedeutet keinen Unterschied), deshalb kann es auch gar keinen Unterschied geben. Die Maßnahmen mit Hausbesuch waren etwas besser, IRR 0,75 (95 %-KI 0,62 bis 0,91), um etwa 25 % niedriger. Die Maßnahmen, die nur schulen und nichts austeilen, IRR 0,78 (95 %-KI 0,66 bis 0,92), um etwa 20 % niedriger. Es wirken also eher die Schulung und die Umgestaltung beim Hausbesuch als das Austeilen selbst. Diese Übersicht hat noch ein Ergebnis: Es gibt keine Belege dafür, dass solche Maßnahmen Verbrennungen und Vergiftungen verringern.
 
-同一份综述里，这类做法确实让人的安全习惯变好了。装了能用的烟雾报警器的家庭更多，OR 1.81（95% CI 1.30 到 2.52），比例高约八成。事先想好了逃生计划的更多，OR 2.01（1.45 到 2.77），高约一倍。药品收放妥当的更多，OR 1.53（1.27 到 1.84），高约五成。楼梯口装了防护门的更多，OR 1.61（1.19 到 2.17），高约六成。
+In derselben Übersicht haben solche Maßnahmen die Sicherheitsgewohnheiten der Menschen tatsächlich verbessert. Mehr Haushalte hatten einen funktionierenden Rauchmelder, OR 1,81 (95 %-KI 1,30 bis 2,52), der Anteil um etwa 80 % höher. Mehr hatten sich vorher einen Fluchtplan überlegt, OR 2,01 (1,45 bis 2,77), etwa doppelt so hoch. Mehr bewahrten Arzneimittel ordentlich auf, OR 1,53 (1,27 bis 1,84), um etwa 50 % höher. Mehr hatten unten an der Treppe eine Schutzgittertür eingebaut, OR 1,61 (1,19 bis 2,17), um etwa 60 % höher.
 
-来源：Kendrick D 等 (2012). Home safety education and provision of safety equipment for injury prevention. Cochrane Database of Systematic Reviews. <https://doi.org/10.1002/14651858.CD005014.pub3>
+Quelle: Kendrick D et al. (2012). Home safety education and provision of safety equipment for injury prevention. Cochrane Database of Systematic Reviews. <https://doi.org/10.1002/14651858.CD005014.pub3>
 
-所以照官方清单一次性买齐，花钱不多，算是合理的准备。但别以为买齐了就安全了。研究反复证明有用的是三件事：装烟雾报警器、事先想好怎么往外跑、把家里容易伤人的东西挪开。这三件事要么根本不在购物清单上，要么只占清单里很小一部分。
+Wenn du also nach der amtlichen Liste alles auf einmal kaufst, kostet das nicht viel und ist eine vernünftige Vorbereitung. Glaube aber nicht, dass du in Sicherheit bist, wenn du alles beisammen hast. Die Forschung zeigt immer wieder, dass drei Dinge nützen: einen Rauchmelder anbringen, sich vorher überlegen, wie du nach draußen kommst, und gefährliche Dinge im Haus wegräumen. Diese drei Dinge stehen entweder gar nicht auf der Einkaufsliste oder machen nur einen sehr kleinen Teil davon aus.

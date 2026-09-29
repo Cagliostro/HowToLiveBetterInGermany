@@ -1,0 +1,28 @@
+name: Inhalt vorschlagen
+description: Ein Thema, das im Buch noch fehlt und das du für ergänzenswert hältst
+labels: ["Neuer Inhalt"]
+body:
+  - type: markdown
+    attributes:
+      value: Dieses Buch nimmt nur Empfehlungen auf, die „was kostet es, was bringt es" beantworten können; als Quellen werden nur Fachaufsätze und amtliche Dokumente angeführt. Übersetzungen bitte im eigenen Fork pflegen und nicht in dieses Repository aufnehmen, oben in der README kann ein Link stehen.
+  - type: input
+    id: topic
+    attributes:
+      label: Thema
+      placeholder: "zum Beispiel: Wie wird ein Berufstitel begutachtet"
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Welche Frage soll das Buch beantworten
+      description: Schreibe es etwas konkreter, zum Beispiel „an welche Stelle muss ich mich wenden, welche Unterlagen muss ich vorbereiten".
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Quellen, die du kennst (optional)
+      description: Links zu Aufsätzen, Vorschriften, amtlichen Dokumenten.
+    validations:
+      required: false

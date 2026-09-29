@@ -1,86 +1,86 @@
-[← 回总目录](../README.md)
+[← Zurück zum Inhaltsverzeichnis](../README.md)
 
-# 14. 账号与信息安全
+# 14. Konten und Informationssicherheit
 
-口径：金钱与个人信息。账号被别人登进去，丢的先是钱。对方还会用你的账号去骗你通讯录里的人。你的身份也等于被人拿走了。
+Bezugsgröße: Geld und persönliche Daten. Wird dein Konto von jemand anderem geöffnet, ist zuerst dein Geld weg. Der Täter nutzt dein Konto außerdem, um die Menschen in deinem Adressbuch zu betrügen. Damit ist auch deine Identität praktisch weg.
 
-### 1. 邮箱、支付、社交账号都开二次验证，优先用手机弹窗确认，其次才是短信验证码
-<!-- 成本标签: 钱=0 时间=少 毅力=否 收益=大 口径=金钱 -->
-- 成本：不花钱。每个账号设置一次，两三分钟就设完。
-- 说人话：二次验证是指登录时除了密码，还要再确认一次是不是本人。用手机上弹个窗、你点一下确认的办法，九成以上的钓鱼盗号都被拦住了。靠回答「上次在哪登的」「备用邮箱是什么」这种老办法，钓鱼盗号只能拦下一成左右。
-- 收益：谷歌统计了 35 万次真实的盗号尝试（也叫账号劫持）。一类是靠设备来验证，比如手机上弹窗让你点确认，或者插一把安全密钥。这一类拦下了「超过 94% 源于钓鱼的劫持尝试和 100% 的自动化劫持尝试」。钓鱼是指骗你在假网站上输密码，自动化是指机器拿泄露的密码批量去试。另一类是靠回答问题来验证，比如问你上次在哪登录、备用邮箱是什么。这一类「只拦下了低至 10% 的钓鱼劫持和 73% 的自动化劫持」
-- 证据等级：A
-- 来源：Doerfler P, Thomas K, Marincenko M, et al. (2019). Evaluating Login Challenges as a Defense Against Account Takeover. The World Wide Web Conference (WWW '19). <https://doi.org/10.1145/3308558.3313481>
-- 备注：同一项研究也发现，这类验证有时会把本人挡在外面。52% 的真用户第一次没登进去，不过最后有 97% 还是进去了。先给邮箱开这个功能，因为别的账号大多能用邮箱找回密码
+### 1. Für E-Mail-, Bezahl- und Social-Media-Konten die Zwei-Faktor-Authentifizierung einschalten, am besten per Pop-up-Bestätigung am Handy, erst danach per SMS-Code
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=nein Nutzen=hoch Bezug=Geld -->
+- Kosten: kostet nichts. Einmal je Konto einrichten, in zwei, drei Minuten ist es erledigt.
+- Klartext: Zwei-Faktor-Authentifizierung heißt: Beim Anmelden kommt zum Passwort eine zweite Bestätigung dazu, dass du es wirklich bist. Mit einem Pop-up am Handy, das du antippst, werden über neunzig Prozent der Phishing-Angriffe gestoppt. Beim alten Weg über Fragen wie „Wo hast du dich zuletzt angemeldet?" werden nur etwa zehn Prozent gestoppt.
+- Nutzen: Google hat 350.000 echte Versuche des Kontoklaus untersucht, auch Kontoübernahme genannt. Eine Art prüft über das Gerät, etwa ein Pop-up am Handy zum Bestätigen oder ein eingesteckter Sicherheitsschlüssel. Sie stoppte „über 94 % der auf Phishing zurückgehenden Übernahmeversuche und 100 % der automatisierten Übernahmeversuche". Phishing heißt, man lässt dich auf einer gefälschten Seite ein Passwort eingeben. Automatisiert heißt, ein Rechner probiert gestohlene Passwörter in Massen durch. Die andere Art prüft über Fragen, etwa wo du dich zuletzt angemeldet hast oder wie die Ersatz-E-Mail lautet. Sie „stoppte nur bis zu 10 % der Phishing-Übernahmen und 73 % der automatisierten Übernahmen"
+- Evidenzstufe: A
+- Quellen: Doerfler P, Thomas K, Marincenko M, et al. (2019). Evaluating Login Challenges as a Defense Against Account Takeover. The World Wide Web Conference (WWW '19). <https://doi.org/10.1145/3308558.3313481>
+- Anmerkung: Dieselbe Studie fand auch, dass diese Prüfung manchmal den echten Nutzer aussperrt. 52 % der echten Nutzer kamen beim ersten Mal nicht hinein, am Ende aber 97 % doch. Schalte die Funktion zuerst für die E-Mail ein, denn die meisten anderen Konten lassen sich per E-Mail zurücksetzen
 
-### 2. 邮箱密码单独一个，不和任何网站重复
-<!-- 成本标签: 钱=0 时间=少 毅力=些 收益=大 口径=金钱 -->
-- 成本：不花钱。用密码管理器存着就不用自己记。难的是要改掉一个密码到处用的老习惯。
-- 说人话：别的网站被偷走的密码，会被人拿来直接登你的邮箱。邮箱一旦被人登进去，凡是能用邮箱找回密码的账号，都跟着一起丢。所以邮箱的密码要单独一个，别的地方一律不用。
-- 收益：把别处泄露的账号和密码挨个拿来试着登，这叫撞库，是最省事的攻击方式，你的邮箱也会被这样试。邮箱一旦被人登进去，所有用它找回密码的账号一起丢。美国网络安全和基础设施安全局的建议是：每个账号用一个不同的强密码，至少 16 位，交给密码管理器存
-- 证据等级：C
-- 来源：US CISA. Use Strong Passwords. <https://www.cisa.gov/secure-our-world/use-strong-passwords>
-- 备注：记不住就用浏览器自带的密码管理器。它替你记住每个网站的密码，比到处用同一个密码强得多。别把密码存在微信收藏或者备忘录里
+### 2. Für die E-Mail ein eigenes Passwort, das auf keiner anderen Website verwendet wird
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=etwas Nutzen=hoch Bezug=Geld -->
+- Kosten: kostet nichts. Mit einem Passwort-Manager musst du es dir nicht merken. Schwierig ist, die alte Gewohnheit aufzugeben, ein einziges Passwort überall zu verwenden.
+- Klartext: Gestohlene Passwörter von anderen Websites werden benutzt, um direkt in deine E-Mail zu kommen. Ist die E-Mail erst offen, gehen alle Konten mit verloren, deren Passwort man per E-Mail zurücksetzen kann. Deshalb bekommt die E-Mail ein eigenes Passwort, das du nirgends sonst verwendest.
+- Nutzen: Gestohlene Zugangsdaten von anderen Seiten der Reihe nach durchzuprobieren, das heißt Credential Stuffing. Es ist die bequemste Angriffsart, und deine E-Mail wird so ebenfalls durchprobiert. Ist die E-Mail erst offen, gehen alle Konten verloren, die ihr Passwort per E-Mail zurücksetzen. Die Empfehlung der US-Behörde für Cybersicherheit und Infrastruktursicherheit (CISA) ist: je Konto ein eigenes starkes Passwort, mindestens 16 Zeichen, verwaltet im Passwort-Manager
+- Evidenzstufe: C
+- Quellen: US CISA. Use Strong Passwords. <https://www.cisa.gov/secure-our-world/use-strong-passwords>
+- Anmerkung: Kannst du sie dir nicht merken, nimm den Passwort-Manager des Browsers. Er merkt sich die Passwörter für dich, das ist viel besser, als überall dasselbe Passwort zu nehmen. Speichere Passwörter nicht in den WeChat-Favoriten oder in einer Notiz-App
 
-### 3. 手机设锁屏密码，SIM 卡设 PIN 码
-<!-- 成本标签: 钱=0 时间=少 毅力=否 收益=大 口径=金钱 -->
-- 成本：不花钱。锁屏密码和 PIN 码各设一次就行。
-- 说人话：SIM 卡就是手机里那张小卡片，短信验证码靠它来收。手机丢了，捡到的人会把这张卡拔下来，插进别的手机收验证码，再挨个重置你的账号。给卡设一个 PIN 码，卡换到别的手机上，一开机就要先输这个码，这条路就断了。
-- 收益：手机丢了以后，捡到的人最快的一条路是把 SIM 卡插到别的手机上，收你的短信验证码。有了验证码，他就能一个个重置你的账号。SIM 卡设了 PIN 码，换到别的手机上开机就要先输密码，捡到的人就没法拿它收验证码
-- 证据等级：C
-- 来源：作者经验，无直接文献
-- 备注：PIN 码在手机设置里的「SIM 卡锁」那一项里设。出厂时的初始码一般是 1234 或者 0000。连着输错三次，就要用运营商给的 PUK 码才能解开。所以设完先把这个码记在纸上
+### 3. Auf dem Handy einen Sperrcode einrichten, auf der SIM-Karte eine PIN
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=nein Nutzen=hoch Bezug=Geld -->
+- Kosten: kostet nichts. Sperrcode und PIN stellst du je einmal ein.
+- Klartext: Die SIM-Karte ist die kleine Karte im Handy, über sie kommen die Bestätigungscodes per SMS. Geht das Handy verloren, zieht der Finder die Karte heraus, steckt sie in ein anderes Handy und holt damit die Codes. Dann setzt er deine Konten eins nach dem anderen zurück. Mit einer PIN auf der Karte muss beim Start zuerst dieser Code eingegeben werden, und dieser Weg ist zu.
+- Nutzen: Nach einem Handyverlust ist der schnellste Weg für den Finder, die SIM-Karte in ein anderes Handy zu stecken und deine SMS-Codes zu empfangen. Mit diesen Codes kann er deine Konten eins nach dem anderen zurücksetzen. Ist auf der SIM-Karte eine PIN, muss er beim Start im anderen Handy zuerst diesen Code eingeben und kann die Codes so nicht empfangen
+- Evidenzstufe: C
+- Quellen: Erfahrung des Autors, keine direkte Literatur
+- Anmerkung: Die PIN stellst du in den Handy-Einstellungen unter „SIM-Kartensperre" ein. Der ab Werk voreingestellte Code ist meist 1234 oder 0000. Nach drei Fehleingaben in Folge lässt sich die Karte nur noch mit dem PUK des Anbieters entsperren. Notiere diesen Code deshalb gleich nach dem Einrichten auf Papier
 
-### 4. 手机丢了按这个顺序做：挂失 SIM 卡、远程锁定、改密码、报警、冻结银行卡
-<!-- 成本标签: 钱=0 时间=少 毅力=否 收益=大 口径=金钱 -->
-- 成本：不花钱。整套做下来十几分钟。
-- 说人话：顺序比手快更重要。第一步挂失 SIM 卡，验证码这条命脉就断了。接着远程锁住手机，再用电脑改邮箱和支付密码，然后报警拿回执，最后看情况冻结银行卡。手机不在身上，借别人的手机打运营商客服也能挂失。
-- 收益：顺序比速度更重要。第一步，挂失 SIM 卡，别人就收不到你的验证码了。第二步，远程锁定手机，并清空手机里的内容。第三步，从电脑上改邮箱和支付密码。第四步，报警，拿回执。最后按需要冻结银行卡。美国联邦通信委员会的提示也是：就算觉得只是弄丢了，也要远程锁住。被偷了马上报警，报上型号和 IMEI 串号（手机的身份编号），并马上告诉运营商
-- 证据等级：C
-- 来源：US FCC. Protect Your Smart Device. <https://www.fcc.gov/consumers/guides/protect-your-mobile-device>；步骤顺序是作者经验；补办身份证见第 7 节，冒名贷款见第 8 节关于征信的一条
-- 备注：提前把三家运营商的客服号记下来：移动 10086，联通 10010，电信 10000。自己的手机号是在哪个城市办的，也记一下，客服会问。用别人的手机一样能打客服挂失
+### 4. Wenn das Handy weg ist, in dieser Reihenfolge vorgehen: SIM-Karte sperren lassen, aus der Ferne sperren, Passwörter ändern, Anzeige erstatten, Bankkarte einfrieren
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=nein Nutzen=hoch Bezug=Geld -->
+- Kosten: kostet nichts. Die ganze Reihenfolge dauert gut zehn Minuten.
+- Klartext: Die Reihenfolge zählt mehr als schnelles Handeln. Zuerst die SIM-Karte sperren lassen, damit ist der Weg zu den Codes gekappt. Dann das Handy aus der Ferne sperren und mit dem Computer die Passwörter von E-Mail und Bezahlung ändern. Danach Anzeige erstatten und die Eingangsbestätigung holen, zuletzt je nach Fall die Bankkarten einfrieren. Ohne Handy kannst du auch mit einem geliehenen Handy den Anbieter anrufen und sperren lassen.
+- Nutzen: Die Reihenfolge ist wichtiger als die Geschwindigkeit. Schritt eins: die SIM-Karte sperren lassen, dann bekommt niemand mehr deine Codes. Schritt zwei: das Handy aus der Ferne sperren und den Inhalt löschen. Schritt drei: vom Computer aus die Passwörter von E-Mail und Bezahlung ändern. Schritt vier: Anzeige erstatten und die Eingangsbestätigung holen. Zuletzt je nach Bedarf die Bankkarten einfrieren. Die US-Kommunikationsbehörde (FCC) rät ebenfalls: Auch wenn du das Handy nur verloren glaubst, sperre es aus der Ferne. Bei Diebstahl sofort Anzeige erstatten, Modell und IMEI-Nummer angeben (die Identifikationsnummer des Handys), und sofort den Anbieter informieren
+- Evidenzstufe: C
+- Quellen: US FCC. Protect Your Smart Device. <https://www.fcc.gov/consumers/guides/protect-your-mobile-device>; die Reihenfolge der Schritte ist Erfahrung des Autors; siehe Abschnitt 7 zum Ersatz des Personalausweises, siehe den Eintrag zur Kreditwürdigkeit in Abschnitt 8 zum Kredit unter fremdem Namen
+- Anmerkung: Notiere dir vorher die Servicenummern der drei Anbieter: China Mobile 10086, China Unicom 10010, China Telecom 10000. Notiere auch, in welcher Stadt deine Nummer angemeldet ist, danach fragt der Kundenservice. Auch mit einem fremden Handy kannst du den Service anrufen und sperren lassen
 
-### 5. 卡被盗刷先挂失冻结再报警，然后要求银行赔：证明「是你自己刷的」是银行的责任
-<!-- 成本标签: 钱=0 时间=少 毅力=些 收益=大 口径=金钱 -->
-- 成本：不花钱。发现卡上有不对劲的动静，立刻挂失或者冻结。把报警记录、挂失记录、银行发来的交易通知都留着。卡还在自己身上的，就近做一笔小额查询或者存取，留下记录证明出事的时候真卡在你手上。难的是要忍住别先跟客服争论，先挂失。
-- 说人话：卡被人盗刷，不用你去证明「这不是我刷的」。反过来，是银行要拿出证据证明这笔是你本人刷的，拿不出就得赔你。前提是你一发现就挂失冻结。拖着不挂失，后面多出来的损失要自己承担。
-- 收益：最高法的规定把「谁来拿证据」分开了。你说这是伪卡盗刷或者网络盗刷，要先拿证据。伪卡盗刷就是卡被人复制了一张去刷。这些都能用来证明：已经生效的法律文书、银行卡交易时真卡在哪里、交易发生在哪里。还有账户交易明细、交易通知、报警记录、挂失记录等等。**反过来，发卡银行、非银行支付机构（第三方支付）说这笔是持卡人本人刷的、或者是经他授权刷的，要由它们拿出证据**。你告知银行之后，银行没及时核实，或者没及时提供、保存交易单据和监控录像，证据因此拿不到的，拿不出证据的后果由银行承担。认定成立以后：借记卡（储蓄卡）持卡人，可以要求发卡银行把被盗刷的存款本息付给你，并赔偿损失。信用卡持卡人，可以要求退回被扣走的透支款本息和违约金，并赔偿损失；银行反过来要你还这笔透支款的，法院不予支持。你还可以要求发卡银行及时撤销相应的不良征信记录（全国，2021 年 5 月 25 日起施行）
-- 证据等级：A
-- 来源：最高人民法院 (2021). 关于审理银行卡民事纠纷案件若干问题的规定（第四、五、七、十四、十五条）. <https://www.court.gov.cn/fabu/xiangqing/304771.html>
-- 备注：有两种情形要你自己担责。一是银行卡、密码、验证码这些东西你没保管好，自己有过错（原文是「未尽妥善保管义务具有过错」），错多少担多少。所以密码不告诉别人，验证码不转发给别人（见第 1 条，二次验证优先用手机弹窗确认）。二是没及时挂失，让损失接着扩大，多出来那部分自己承担。所以第一步永远是挂失冻结，别先打客服争论。第三方支付机构也适用这套规则。它的宣传资料里写了「先行赔付」，而且承诺得具体明确的，可以照着要求它先赔。钱是你被人骗着自己转出去的，要走另一套办法，见第 8 节第 2 条（发现被骗立刻打 110 或 96110 要求止付）。
+### 5. Bei Kartenmissbrauch erst sperren und einfrieren, dann Anzeige erstatten, dann Ersatz von der Bank verlangen: Den Beweis, dass du selbst gezahlt hast, schuldet die Bank
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=etwas Nutzen=hoch Bezug=Geld -->
+- Kosten: kostet nichts. Wenn du eine verdächtige Bewegung auf der Karte bemerkst, sperre oder friere sie sofort. Heb die Anzeige, den Sperrvermerk und die Transaktionsmitteilungen der Bank auf. Ist die Karte noch bei dir, mach in der Nähe eine kleine Abfrage oder Ein- und Auszahlung. Das belegt, dass die echte Karte damals bei dir war. Schwierig ist, sich zu beherrschen und zuerst zu sperren, statt mit dem Kundenservice zu streiten.
+- Klartext: Bei Kartenmissbrauch musst nicht du beweisen, dass die Zahlung nicht von dir war. Umgekehrt muss die Bank belegen, dass du selbst gezahlt hast. Kann sie das nicht, muss sie zahlen. Voraussetzung ist, dass du sofort sperrst, wenn du es merkst. Wer die Sperre hinauszögert, trägt den zusätzlichen Schaden selbst.
+- Nutzen: Die Regelung des Obersten Volksgerichts verteilt, wer den Beweis liefern muss. Behauptest du, es sei Betrug mit einer gefälschten Karte oder im Netz gewesen, musst zuerst du Beweise vorlegen. Betrug mit einer gefälschten Karte heißt, die Karte wurde kopiert und damit gezahlt. Als Beweis dienen: ein bereits wirksames Gerichtsdokument, wo die echte Karte zur Zeit der Transaktion war und wo die Transaktion stattfand. Dazu kommen Kontoauszüge, Transaktionsmitteilungen, die Anzeige und der Sperrvermerk. **Umgekehrt müssen die kartenausgebende Bank und der Nichtbank-Zahlungsdienstleister (Drittanbieter-Zahlung), die behaupten, der Karteninhaber habe selbst oder mit seiner Erlaubnis gezahlt, den Beweis dafür liefern**. Hast du die Bank informiert und sie prüft nicht rechtzeitig nach oder legt Belege und Überwachungsaufnahmen nicht rechtzeitig vor oder bewahrt sie nicht auf, sodass die Beweise fehlen, trägt die Bank die Folgen der fehlenden Beweise. Steht der Fall fest: Inhaber einer Debitkarte (Sparkarte) können von der Bank verlangen, dass sie das missbrauchte Guthaben samt Zinsen auszahlt und den Schaden ersetzt. Inhaber einer Kreditkarte können verlangen, dass die abgebuchten Überziehungssummen samt Zinsen und Vertragsstrafe zurückerstattet werden, und dazu Schadenersatz. Verlangt die Bank umgekehrt, dass du die Überziehung zurückzahlst, stützt das Gericht das nicht. Du kannst von der Bank außerdem verlangen, den entsprechenden negativen Eintrag zur Kreditwürdigkeit rechtzeitig zu löschen (landesweit, in Kraft seit 25. Mai 2021)
+- Evidenzstufe: A
+- Quellen: Oberstes Volksgericht (2021). Bestimmungen über mehrere Fragen bei der Behandlung von Zivilstreitigkeiten über Bankkarten [关于审理银行卡民事纠纷案件若干问题的规定] (Art. 4, 5, 7, 14 und 15). <https://www.court.gov.cn/fabu/xiangqing/304771.html>
+- Anmerkung: In zwei Fällen haftest du selbst. Erstens, wenn du Bankkarte, Passwort oder Bestätigungscode nicht gut verwahrt hast, also ein eigenes Verschulden vorliegt (im Wortlaut: „hat die Pflicht zur sorgfältigen Aufbewahrung nicht erfüllt und ist damit schuldhaft"). Du trägst dann so viel, wie dich die Schuld trifft. Gib deshalb das Passwort nicht weiter und leite den Bestätigungscode nicht an andere weiter. Siehe Nr. 1 (Zwei-Faktor-Authentifizierung, am besten per Pop-up-Bestätigung am Handy). Zweitens, wenn du nicht rechtzeitig sperrst und der Schaden weiter wächst, trägst du den zusätzlichen Teil selbst. Der erste Schritt ist deshalb immer Sperren und Einfrieren, statt zuerst mit dem Kundenservice zu streiten. Für Drittanbieter-Zahlungsdienste gilt dieselbe Regel. Steht in ihren Werbematerialien eine „Vorab-Erstattung" und ist sie konkret zugesagt, kannst du verlangen, dass sie zuerst zahlt. Hast du das Geld selbst auf Betrug hin überwiesen, gilt ein anderer Weg. Siehe Abschnitt 8, Nr. 2 (bei Betrug sofort 110 oder 96110 anrufen und die Zahlung stoppen lassen).
 
-### 6. 每隔一段时间看一次账号的登录设备和已授权应用，不用的清掉
-<!-- 成本标签: 钱=0 时间=少 毅力=些 收益=中 口径=金钱 -->
-- 成本：不花钱。每次看几分钟。难的是没人提醒，要自己记得去看。
-- 说人话：「登录设备」是指现在还能用你账号的那些手机和电脑。盗号的人常常先潜伏一阵再动手。列表里冒出你不认识的设备，或者早就不用的软件还连着你的账号，看到就退出全部登录，再改密码。
-- 收益：被盗号往往不是当场就动手，对方会先潜伏一阵。账号里的登录设备列表，记着现在还能用这个账号的手机和电脑。已授权应用列表，记着你准许它用这个账号登录的别家软件。列表里的陌生设备，和早就不用的第三方软件，是最容易发现的痕迹
-- 证据等级：C
-- 来源：作者经验，无直接文献
-- 备注：微信、支付宝、邮箱、苹果账号和安卓账号里都有这个入口。发现不认识的设备，就点退出全部登录，再改密码
+### 6. Sieh dir in Abständen die angemeldeten Geräte und autorisierten Apps des Kontos an und entferne, was du nicht nutzt
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=etwas Nutzen=mittel Bezug=Geld -->
+- Kosten: kostet nichts. Jedes Mal ein paar Minuten. Schwierig ist, selbst daran zu denken, denn niemand erinnert dich.
+- Klartext: „Angemeldete Geräte" sind die Handys und Computer, die dein Konto noch nutzen können. Wer ein Konto übernimmt, wartet oft eine Weile, bevor er zuschlägt. Taucht in der Liste ein unbekanntes Gerät auf oder hängt eine längst ungenutzte App am Konto, melde alle Geräte ab und ändere das Passwort.
+- Nutzen: Wer ein Konto übernimmt, schlägt nicht sofort zu, sondern wartet oft eine Weile. Die Liste der angemeldeten Geräte im Konto führt die Handys und Computer auf, die dieses Konto noch nutzen können. Die Liste der autorisierten Apps führt fremde Programme auf, denen du erlaubt hast, sich mit diesem Konto anzumelden. Unbekannte Geräte in der Liste und längst ungenutzte Drittanbieter-Programme sind die am leichtesten zu findenden Spuren
+- Evidenzstufe: C
+- Quellen: Erfahrung des Autors, keine direkte Literatur
+- Anmerkung: Diesen Zugang gibt es in WeChat, Alipay, in der E-Mail sowie in Apple- und Android-Konten. Entdeckst du ein unbekanntes Gerät, melde alle Sitzungen ab und ändere das Passwort
 
-### 7. 别为了用 App 点「全部同意」：不是必需的信息，你不同意也不能拒绝给你服务
-<!-- 成本标签: 钱=0 时间=少 毅力=些 收益=中 口径=自由 -->
-- 成本：不花钱。难的是要忍住不点「全部同意」。
-- 说人话：App 要你的信息，如果不是提供这项服务必须用的，你不同意给，它不能因此不让你用。它能收的，也只限于用得着的那些。地图要你的位置是必须的，手电筒要你的通讯录就不是。
-- 收益：法律明写了两条。一是不得以个人不同意、或者撤回同意为由，拒绝提供产品或者服务；处理这些信息属于提供服务所必需的除外。二是收集应当限于实现处理目的的最小范围，只能收用得着的那些
-- 证据等级：A
-- 来源：全国人大常委会 (2021). 个人信息保护法. 中国人大网. <http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html>：第六条「收集个人信息，应当限于实现处理目的的最小范围，不得过度收集个人信息」；第十六条「个人信息处理者不得以个人不同意处理其个人信息或者撤回同意为由，拒绝提供产品或者服务；处理个人信息属于提供产品或者服务所必需的除外」；第十五条「基于个人同意处理个人信息的，个人有权撤回其同意。个人信息处理者应当提供便捷的撤回同意的方式」
-- 备注：判断标准是这项信息是不是提供这个服务所必需的。地图要位置是必需的，手电筒要通讯录不是。App 装完，先到手机设置里的应用权限页，把不必需的权限关掉。等真用到的时候，再选只这一次允许。
+### 7. Klick bei einer App nicht auf „Alle zustimmen": Bei nicht notwendigen Angaben darf dir der Dienst auch bei Ablehnung nicht verweigert werden
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=etwas Nutzen=mittel Bezug=Freiheit -->
+- Kosten: kostet nichts. Schwierig ist, sich zu beherrschen und nicht auf „Alle zustimmen" zu klicken.
+- Klartext: Verlangt eine App Angaben von dir, die für den Dienst nicht nötig sind, darf sie dich bei Ablehnung nicht aussperren. Sie darf auch nur erheben, was sie wirklich braucht. Eine Karten-App braucht deinen Standort, eine Taschenlampe deine Kontakte nicht.
+- Nutzen: Das Gesetz nennt zwei Punkte ausdrücklich. Erstens darf der Anbieter die Leistung nicht deshalb verweigern, weil du nicht zustimmst oder deine Zustimmung zurückziehst, außer die Verarbeitung ist für die Leistung unerlässlich. Zweitens muss die Erhebung auf das für den Zweck nötige Minimum begrenzt bleiben, es dürfen nur die wirklich gebrauchten Angaben erhoben werden
+- Evidenzstufe: A
+- Quellen: Ständiger Ausschuss des Nationalen Volkskongresses (2021). Gesetz über den Schutz personenbezogener Daten [个人信息保护法]. Website des Nationalen Volkskongresses. <http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html>: Art. 6 „Bei der Erhebung personenbezogener Daten ist der für die Erreichung des Verarbeitungszwecks erforderliche Mindestumfang einzuhalten; personenbezogene Daten dürfen nicht übermäßig erhoben werden"; Art. 16 „Der Verarbeiter personenbezogener Daten darf die Bereitstellung von Produkten oder Dienstleistungen nicht deshalb verweigern, weil die betroffene Person in die Verarbeitung ihrer personenbezogenen Daten nicht einwilligt oder ihre Einwilligung widerruft; dies gilt nicht, wenn die Verarbeitung für die Bereitstellung der Produkte oder Dienstleistungen erforderlich ist"; Art. 15 „Beruht die Verarbeitung personenbezogener Daten auf der Einwilligung der betroffenen Person, so hat sie das Recht, ihre Einwilligung zu widerrufen. Der Verarbeiter personenbezogener Daten hat einen einfachen Weg für den Widerruf der Einwilligung bereitzustellen"
+- Anmerkung: Der Maßstab ist, ob die Angabe für diesen Dienst unerlässlich ist. Der Standort ist für eine Karten-App unerlässlich, die Kontakte für eine Taschenlampe nicht. Geh nach der Installation einer App in den Handy-Einstellungen auf die Seite der App-Berechtigungen und schalte die nicht nötigen ab. Wenn du sie wirklich brauchst, wähle dann „nur diesmal erlauben".
 
-### 8. 你有权查看、复制、更正和删除自己的个人信息，被拒绝可以起诉
-<!-- 成本标签: 钱=0 时间=少 毅力=些 收益=中 口径=自由 -->
-- 成本：不花钱。只有对方拖着不办，才需要去投诉或者起诉。真打官司就是几个月起步，律师费还要自己出，所以先投诉更划算。难的是对方拖着的时候得反复去催。
-- 说人话：你有权要求企业让你查看、复制、更正和删除自己的信息。服务停了、保存期限到了、你撤回同意的，企业本来就该自己删掉。它拒绝你，必须说明理由；不办，你可以直接去法院告它。注销账号和删除信息是两件事，注销之后还要另外提删除。
-- 收益：有几种情形企业应当主动删除：服务停了、约定的保存期限到了、你撤回同意、当初收集的目的已经达到等等。它没删，你可以要求它删。它拒绝你行使这些权利的，必须说明理由。你可以直接向法院起诉
-- 证据等级：A
-- 来源：全国人大常委会 (2021). 个人信息保护法. 中国人大网. <http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html>：第四十五条「个人有权向个人信息处理者查阅、复制其个人信息……个人请求查阅、复制其个人信息的，个人信息处理者应当及时提供」；第四十六条更正、补充权；第四十七条列了五种应当主动删除的情形，含「（一）处理目的已实现、无法实现或者为实现处理目的不再必要」「（二）个人信息处理者停止提供产品或者服务，或者保存期限已届满」「（三）个人撤回同意」，「个人信息处理者未删除的，个人有权请求删除」；第五十条「个人信息处理者应当建立便捷的个人行使权利的申请受理和处理机制。拒绝个人行使权利的请求的，应当说明理由」「个人可以依法向人民法院提起诉讼」
-- 备注：注销账号和删除个人信息是两件事，注销之后还要单独提出删除。换手机或者卖旧手机之前，先在旧手机上把所有账号退出、解除绑定，再恢复出厂设置。法律给你的是事后的删除权，它不能替你把已经泄露出去的东西收回来。
+### 8. Du hast das Recht, deine personenbezogenen Daten einzusehen, zu kopieren, zu berichtigen und zu löschen, und kannst bei Ablehnung klagen
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=etwas Nutzen=mittel Bezug=Freiheit -->
+- Kosten: kostet nichts. Nur wenn sich die Gegenseite Zeit lässt, musst du dich beschweren oder klagen. Ein echter Prozess dauert mindestens mehrere Monate, und die Anwaltskosten trägst du selbst, eine Beschwerde ist deshalb günstiger. Schwierig ist, die Gegenseite wiederholt mahnen zu müssen, solange sie es hinauszögert.
+- Klartext: Du hast das Recht, von einem Unternehmen Einsicht, Kopien, Berichtigung und Löschung deiner Daten zu verlangen. Wird der Dienst eingestellt, läuft die Frist ab oder widerrufst du deine Einwilligung, muss das Unternehmen von sich aus löschen. Lehnt es ab, muss es die Gründe nennen. Tut es nichts, kannst du direkt vor Gericht klagen. Kontolöschung und Datenlöschung sind zwei Dinge. Nach der Kontolöschung musst du die Löschung gesondert verlangen.
+- Nutzen: In mehreren Fällen muss das Unternehmen von sich aus löschen: wenn der Dienst eingestellt wird, die vereinbarte Speicherfrist abläuft, du die Einwilligung widerrufst oder der ursprüngliche Erhebungszweck erreicht ist. Löscht es nicht, kannst du die Löschung verlangen. Verweigert es dir diese Rechte, muss es die Gründe nennen. Du kannst direkt vor Gericht klagen
+- Evidenzstufe: A
+- Quellen: Ständiger Ausschuss des Nationalen Volkskongresses (2021). Gesetz über den Schutz personenbezogener Daten. Website des Nationalen Volkskongresses. <http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html>: Art. 45 „Die betroffene Person hat das Recht, vom Verarbeiter personenbezogener Daten Einsicht in ihre personenbezogenen Daten zu nehmen und Kopien zu verlangen … Verlangt die betroffene Person Einsicht oder Kopien, hat der Verarbeiter personenbezogener Daten sie unverzüglich bereitzustellen"; Art. 46 Recht auf Berichtigung und Ergänzung; Art. 47 listet fünf Fälle, in denen von sich aus gelöscht werden muss, darunter „(1) der Verarbeitungszweck ist erreicht, nicht erreichbar oder für den Verarbeitungszweck nicht mehr notwendig", „(2) der Verarbeiter personenbezogener Daten stellt die Produkte oder Dienstleistungen ein oder die Speicherfrist ist abgelaufen", „(3) die betroffene Person widerruft die Einwilligung", „hat der Verarbeiter personenbezogener Daten nicht gelöscht, hat die betroffene Person das Recht, die Löschung zu verlangen"; Art. 50 „Der Verarbeiter personenbezogener Daten hat einen einfachen Mechanismus für Antrag, Annahme und Bearbeitung der Ausübung der Rechte der betroffenen Person einzurichten. Wird die Ausübung der Rechte verweigert, sind die Gründe zu nennen", „die betroffene Person kann nach dem Gesetz vor einem Volksgericht klagen"
+- Anmerkung: Kontolöschung und Löschung personenbezogener Daten sind zwei Dinge, nach der Kontolöschung musst du die Löschung gesondert verlangen. Bevor du das Handy wechselst oder ein altes verkaufst, melde auf dem alten Handy alle Konten ab, löse die Verknüpfungen und setze es dann auf die Werkseinstellungen zurück. Das Gesetz gibt dir ein nachträgliches Löschrecht. Was schon nach außen gelangt ist, kann es nicht für dich zurückholen.
 
-### 9. 刷脸不是必须答应的：有别的办法就不能只让你刷脸，你不同意得给你其他方式
-<!-- 成本标签: 钱=0 时间=少 毅力=些 收益=中 口径=金钱 -->
-- 成本：不花钱。被要求刷脸时，问一句「有没有别的验证方式」。对方说没有，就要求它提供一个。难的是要当面开口问。
-- 说人话：只要还有别的办法能办成同一件事，对方就不能只让你刷脸。你不同意刷脸，它得给你刷卡、密码或者身份证这类别的办法，也不许拿「那就办不了业务」来逼你。宾馆客房、公共浴室、更衣室、卫生间这些地方，谁都不许装人脸识别设备。
-- 收益：人脸识别技术应用安全管理办法写明：「实现相同目的或者达到同等业务要求，存在其他非人脸识别技术方式的，不得将人脸识别技术作为唯一验证方式。个人不同意通过人脸信息进行身份验证的，应当提供其他合理、便捷的方式。」办法还写明：「任何组织和个人不得以办理业务、提升服务质量等为由，误导、欺诈、胁迫个人接受人脸识别技术验证个人身份。」要是按你同意来处理人脸信息，得取得「在充分知情的前提下自愿、明确作出的单独同意」：单独就这一件事问你，你单独点头才算。你有权撤回同意，处理者要提供便捷的撤回方式。处理不满十四周岁未成年人的人脸信息，应当取得父母或者其他监护人的同意。公共场所安装人脸识别设备，「应当为维护公共安全所必需」，并设置显著提示标识。宾馆客房、公共浴室、公共更衣室、公共卫生间等公共场所中的私密空间内部，任何组织和个人不得安装。人脸信息应当存储于人脸识别设备内，不得通过互联网对外传输。两种情况例外：法律、行政法规另有规定，或者取得了单独同意（全国，2025 年 6 月 1 日起施行）
-- 证据等级：A
-- 来源：国家互联网信息办公室、公安部 (2025). 人脸识别技术应用安全管理办法（第 19 号令，第十条、十二条、十三条，2025 年 6 月 1 日起施行）. <https://www.cac.gov.cn/2025-03/21/c_1744174262156096.htm>
-- 备注：最常遇到的是小区门禁、租房平台、健身房、酒店要你录人脸。对方说「系统只支持刷脸」的时候，把办法的原话念给他听。原话是：「实现相同目的或者达到同等业务要求，存在其他非人脸识别技术方式的，不得将人脸识别技术作为唯一验证方式」。然后要求它提供刷卡、密码或者身份证这类别的方式。还是不给的，向当地网信部门反映。国家对刷脸验证身份另有规定的，比如一部分金融和政务场景，按那些规定办。人脸和密码最大的区别是泄露之后改不掉，所以它值得比密码更谨慎。存了 10 万人以上人脸信息的单位，要在 30 个工作日内向省级以上网信部门备案，这也是判断对方正不正规的一个问法。查阅、更正、删除自己个人信息的权利见第 8 条。
+### 9. Gesichtserkennung musst du nicht zustimmen: Gibt es einen anderen Weg, darf sie nicht die einzige sein, und stimmst du nicht zu, muss man dir eine Alternative bieten
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=etwas Nutzen=mittel Bezug=Geld -->
+- Kosten: kostet nichts. Wenn Gesichtserkennung verlangt wird, frag nach einem anderen Prüfverfahren. Sagt die Gegenseite, es gebe keines, verlange, dass sie eines anbietet. Schwierig ist, das persönlich anzusprechen.
+- Klartext: Solange es einen anderen Weg für dieselbe Sache gibt, darf die Gegenseite dich nicht auf Gesichtserkennung festlegen. Stimmst du nicht zu, muss sie dir eine andere Möglichkeit geben, etwa Karte, Passwort oder Ausweis, und darf dich nicht mit „dann geht es eben nicht" unter Druck setzen. In Hotelzimmern, öffentlichen Bädern, Umkleiden und Toiletten darf niemand ein Gesichtserkennungsgerät anbringen.
+- Nutzen: Die Verwaltungsmaßnahmen für die sichere Anwendung von Gesichtserkennungstechnik [人脸识别技术应用安全管理办法] halten fest: „Dient dasselbe Ziel oder dieselbe fachliche Anforderung, und gibt es ein anderes Verfahren ohne Gesichtserkennung, darf die Gesichtserkennung nicht das einzige Prüfverfahren sein. Stimmt die betroffene Person einer Identitätsprüfung über Gesichtsdaten nicht zu, sind andere zumutbare und bequeme Wege anzubieten." Die Maßnahmen halten außerdem fest: „Keine Organisation und keine Person darf einen Menschen mit dem Vorwand der Geschäftsabwicklung oder der Qualitätsverbesserung dazu verleiten, täuschen oder zwingen, die eigene Identität durch Gesichtserkennung prüfen zu lassen." Soll über deine Einwilligung verfügt werden, braucht es eine „freiwillige, ausdrückliche und gesonderte Einwilligung auf Grundlage vollständiger Information", du wirst also nur zu dieser einen Sache gefragt, und nur dein gesondertes Einverständnis zählt. Du hast das Recht, die Einwilligung zu widerrufen, der Verarbeiter muss einen einfachen Weg dafür bereitstellen. Für Gesichtsdaten von Minderjährigen unter vierzehn Jahren braucht es die Einwilligung der Eltern oder anderer Erziehungsberechtigter. Gesichtserkennungsgeräte an öffentlichen Orten „sind nur zulässig, soweit es die öffentliche Sicherheit erfordert", und es ist ein deutliches Hinweisschild anzubringen. In Hotelzimmern, öffentlichen Bädern, öffentlichen Umkleiden, öffentlichen Toiletten und ähnlichen privaten Räumen innerhalb öffentlicher Orte darf keine Organisation und keine Person Geräte anbringen. Gesichtsdaten sollen im Gesichtserkennungsgerät gespeichert und nicht über das Internet übertragen werden. Zwei Fälle sind ausgenommen: eine andere Regelung durch Gesetz oder Rechtsverordnung, oder eine gesonderte Einwilligung (landesweit, in Kraft seit 1. Juni 2025)
+- Evidenzstufe: A
+- Quellen: Staatliches Büro für Internetinformationen, Ministerium für öffentliche Sicherheit (2025). Verwaltungsmaßnahmen für die sichere Anwendung von Gesichtserkennungstechnik (Verordnung Nr. 19, Art. 10, 12 und 13, in Kraft seit 1. Juni 2025). <https://www.cac.gov.cn/2025-03/21/c_1744174262156096.htm>
+- Anmerkung: Am häufigsten verlangen Wohnanlagen-Zugangskontrollen, Mietplattformen, Fitnessstudios und Hotels ein Gesichtsbild von dir. Wenn die Gegenseite sagt, „das System unterstützt nur die Gesichtserkennung", lies ihr den Wortlaut der Maßnahmen vor. Der Wortlaut ist: „Dient dasselbe Ziel oder dieselbe fachliche Anforderung, und gibt es ein anderes Verfahren ohne Gesichtserkennung, darf die Gesichtserkennung nicht das einzige Prüfverfahren sein". Verlange dann, dass sie einen anderen Weg anbietet, etwa Karte, Passwort oder Ausweis. Gibt sie auch dann nichts, wende dich an die örtliche Internetaufsichtsbehörde. Gibt es staatliche Sonderregeln für die Identitätsprüfung per Gesicht, etwa in manchen Finanz- und Verwaltungsfällen, gilt jene Regelung. Der größte Unterschied zwischen Gesicht und Passwort ist: Ist es einmal durchgesickert, lässt es sich nicht ändern, es verdient deshalb mehr Vorsicht als ein Passwort. Speichert eine Stelle Gesichtsdaten von mehr als 100.000 Menschen, muss sie sich binnen 30 Werktagen bei der Internetaufsichtsbehörde ab Provinzebene registrieren lassen, auch das ist eine Frage, an der du erkennst, ob eine Gegenseite seriös ist. Das Recht, eigene personenbezogene Daten einzusehen, zu berichtigen und zu löschen, steht in Nr. 8.

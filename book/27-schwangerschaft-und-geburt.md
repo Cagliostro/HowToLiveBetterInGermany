@@ -1,151 +1,151 @@
-[← 回总目录](../README.md)
+[← Zurück zum Inhaltsverzeichnis](../README.md)
 
-# 27. 怀孕和生产：从发现怀孕到出院办证
+# 27. Schwangerschaft und Geburt
 
-这一节前半段算的是孕妇和胎儿的死亡风险。后半段算的是钱和跑腿时间。两种账不放在一起换算。内容只讲「什么时候做什么」。孕期营养、胎教这类没有硬证据、或者作用很小的事，这里不写。生育津贴、产假和养孩子的钱账见第 18 节，孩子出生之后怎么带见第 20 节，急症见第 13 节。
+Bezugsgröße: Die erste Hälfte hat die Bezugsgröße Sterblichkeit, die zweite Geld und Zeit für Formalitäten. Die erste Hälfte rechnet das Sterberisiko von Schwangeren und Feten. Die zweite Hälfte rechnet Geld und Laufwege für Formalitäten. Die beiden Rechnungen werden nicht ineinander umgerechnet. Es geht nur um die Frage, wann du was tun musst. Ernährung in der Schwangerschaft, vorgeburtliche Förderung und Ähnliches ohne harte Evidenz oder mit sehr kleiner Wirkung stehen hier nicht. Geld für Mutterschaftsgeld, Mutterschaftsurlaub und Kinderaufziehen siehe Abschnitt 18, wie du das Kind nach der Geburt versorgst siehe Abschnitt 20, Notfälle siehe Abschnitt 13.
 
-世界卫生组织给的数字：2023 年，全球约有 26 万名女性死于怀孕和生产。其中约 75% 死于这五类原因：产后大出血、感染、妊娠期高血压疾病（怀孕后血压升高的一类病，包括子痫前期和子痫）、分娩时的并发症、不安全的人工流产。世界卫生组织同时说，「大多数孕产妇死亡是可以预防的，因为预防和处理并发症的医疗手段都是已知的」。这一节里作用最大的几条，就是把这几类问题提前拦下来。
+Die Zahlen der Weltgesundheitsorganisation: 2023 starben weltweit etwa 260.000 Frauen an Schwangerschaft und Geburt. Davon starben etwa 75 % an diesen fünf Ursachen: starke Blutung nach der Geburt, Infektionen, Bluthochdruckerkrankungen der Schwangerschaft (eine Gruppe von Krankheiten mit erhöhtem Blutdruck nach Eintritt der Schwangerschaft, einschließlich Präeklampsie und Eklampsie), Komplikationen bei der Geburt und unsichere Abtreibungen. Die Weltgesundheitsorganisation sagt zugleich: „Die meisten Müttersterbefälle sind vermeidbar, weil die medizinischen Mittel zur Vorbeugung und Behandlung von Komplikationen bekannt sind." Die wirksamsten Einträge in diesem Abschnitt fangen genau diese Probleme vorher ab.
 
-### 1. 准备怀孕就开始每天补 0.4 毫克叶酸，一直吃到孕早期满 3 个月
-<!-- 成本标签: 钱=0 时间=少 毅力=些 收益=大 口径=死亡率 -->
-- 成本：几十元一瓶。农村妇女不用花钱，国家的免费增补叶酸项目会发。每天吃一粒，难在天天记得住
-- 说人话：怀孕前后每天吃一粒叶酸，孩子出现神经管缺陷的概率大约能降七成。神经管缺陷就是无脑儿、脊柱裂这一类的出生缺陷。已经生过一个这样的孩子的人，再生一个还出问题的概率，大约降到原来的三分之一。
-- 收益：Cochrane 系统综述把 5 项试验、6708 例分娩合起来一起算，证据质量评为高。怀孕前后每天补叶酸，胎儿神经管缺陷的风险 RR 0.31（95% CI 0.17 至 0.58，可信范围），约降低七成。已经生过神经管缺陷孩子的人，再生一个又出问题的风险 RR 0.34（95% CI 0.18 至 0.64），降到原来的三分之一左右。按人群分组来看，0.4 毫克和更高的剂量效果没有差别。单独吃叶酸和吃复合维生素，效果也没有差别
-- 证据等级：A
-- 来源：De-Regil LM, Peña-Rosas JP, Fernández-Gaxiola AC, Rayco-Solon P (2015). Effects and safety of periconceptional oral folate supplementation for preventing birth defects. Cochrane Database of Systematic Reviews, (12), CD007950. <https://doi.org/10.1002/14651858.CD007950.pub3>
-- 备注：关键是「怀孕前就开始吃」。胎儿的神经管在受孕后 28 天内就长合了。等你测出怀孕再吃，这段时间已经过去大半。所以打算要孩子，就提前 3 个月开始吃。同一篇汇总研究里，叶酸对唇腭裂、先天性心脏病、流产都没有明确效果，别指望它治别的
+### 1. Nimm ab dem Kinderwunsch jeden Tag 0,4 Milligramm Folsäure, bis die ersten drei Monate der Schwangerschaft voll sind
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=etwas Nutzen=hoch Bezug=Sterblichkeit -->
+- Kosten: Ein paar Dutzend 元 pro Flasche. Frauen auf dem Land zahlen nichts, das staatliche Programm zur kostenlosen Folsäuregabe gibt sie aus. Eine Tablette pro Tag, schwierig ist, sie jeden Tag zu nehmen
+- Klartext: Nimmst du um die Empfängnis herum jeden Tag eine Tablette Folsäure, sinkt die Wahrscheinlichkeit für einen Neuralrohrdefekt beim Kind um etwa siebzig Prozent. Neuralrohrdefekte sind Geburtsfehler wie Anenzephalie und offener Rücken. Wer schon ein solches Kind geboren hat, senkt sein Risiko für ein weiteres betroffenes Kind auf etwa ein Drittel.
+- Nutzen: Eine systematische Cochrane-Übersichtsarbeit rechnete 5 Studien mit 6708 Geburten zusammen; die Evidenzqualität wurde als hoch bewertet. Nimmst du um die Empfängnis herum täglich Folsäure, sinkt das Risiko für einen Neuralrohrdefekt des Fetus auf RR 0,31 (95 %-KI 0,17 bis 0,58, der Vertrauensbereich), also um etwa siebzig Prozent. Wer schon ein Kind mit Neuralrohrdefekt geboren hat, hat für ein weiteres betroffenes Kind ein Risiko von RR 0,34 (95 %-KI 0,18 bis 0,64), also etwa ein Drittel. Nach Bevölkerungsgruppen gab es keinen Unterschied zwischen 0,4 Milligramm und höheren Dosen. Auch zwischen reiner Folsäure und einem Multivitaminpräparat gab es keinen Unterschied
+- Evidenzstufe: A
+- Quellen: De-Regil LM, Peña-Rosas JP, Fernández-Gaxiola AC, Rayco-Solon P (2015). Effects and safety of periconceptional oral folate supplementation for preventing birth defects. Cochrane Database of Systematic Reviews, (12), CD007950. <https://doi.org/10.1002/14651858.CD007950.pub3>
+- Anmerkung: Der entscheidende Punkt ist, schon vor der Schwangerschaft damit anzufangen. Das Neuralrohr des Fetus schließt sich in den ersten 28 Tagen nach der Empfängnis. Fängst du erst an, wenn der Test die Schwangerschaft zeigt, ist diese Zeit größtenteils vorbei. Willst du ein Kind, fang also 3 Monate vorher an. In derselben Übersichtsarbeit hatte Folsäure auf Lippen- und Gaumenspalten, angeborene Herzfehler und Fehlgeburten keine klare Wirkung; erwarte nicht, dass sie anderes heilt
 
-### 2. 孕 13 周前去社区卫生服务中心建《母子健康手册》，把免费产检额度用掉
-<!-- 成本标签: 钱=0 时间=中 毅力=否 收益=中 口径=死亡率 -->
-- 成本：不花钱，这属于国家基本公共卫生服务项目。要按孕周跑几趟
-- 说人话：孕期至少五次产检，加上产后上门访视和产后 42 天检查，这些钱国家出。领的办法是怀孕 13 周以前去社区建一本《母子健康手册》。不去建，这几次免费的就白白错过。
-- 收益：《国家基本公共卫生服务规范（第三版）》里有孕产妇健康管理服务。辖区内的常住孕产妇可以做这些。孕早期健康检查 1 次，孕中期 2 次，孕晚期 2 次，产后访视 1 次，产后 42 天健康检查 1 次。孕 13 周前要去建册，同时做第 1 次产前检查。孕中期那两次分别在孕 16 至 20 周、孕 21 至 24 周。孕晚期那两次分别在孕 28 至 36 周、孕 37 至 40 周。地方公开的服务清单里，还包含第一次的一整套化验和产后抑郁筛查
-- 证据等级：A
-- 来源：国家卫生计生委 (2017). 国家基本公共卫生服务规范（第三版）. <https://www.nhc.gov.cn/ewebeditor/uploadfile/2017/04/20170417104506514.pdf>；靖江市人民政府. 国家基本公共卫生服务项目——孕产妇健康管理服务（地方服务清单公开）. <https://www.jingjiang.gov.cn/xxgk/zdlyxxgk/wsjk/art/2023/art_383017a2e7794892bc772bfbe042f379.html>
-- 备注：这 5 次是免费的下限，不是产检的全部。医院会按情况加做超声、血糖、胎心监护，这些要自己掏钱。建册越早，妊娠风险分级越早做出来。妊娠风险分级就是按风险高低给孕妇分档，查出是高危的，才能早点转到接得住的医院。人住在外区的，按现在住的地方建册，不用回户籍地
+### 2. Leg vor der 13. Schwangerschaftswoche im Gemeindegesundheitszentrum das Mutter-Kind-Gesundheitsheft an und nutze die kostenlosen Vorsorgeuntersuchungen
+<!-- Kostenlabel: Geld=0 Zeit=mittel Willenskraft=nein Nutzen=mittel Bezug=Sterblichkeit -->
+- Kosten: Kostet nichts, das gehört zum staatlichen Grundprogramm der öffentlichen Gesundheitsdienste. Je nach Schwangerschaftswoche sind mehrere Termine nötig
+- Klartext: Mindestens fünf Vorsorgeuntersuchungen in der Schwangerschaft, dazu der Hausbesuch nach der Geburt und die Kontrolle 42 Tage nach der Geburt, diese Kosten trägt der Staat. Wie du sie bekommst: Leg vor der 13. Schwangerschaftswoche im Gemeindegesundheitszentrum ein Mutter-Kind-Gesundheitsheft an. Legst du es nicht an, verpasst du diese kostenlosen Termine.
+- Nutzen: Die „Normen für die grundlegenden öffentlichen Gesundheitsdienste des Staates (dritte Fassung)" [国家基本公共卫生服务规范（第三版）] enthalten den Gesundheitsmanagementdienst für Schwangere und Wöchnerinnen. Alle dort gemeldeten Schwangeren und Wöchnerinnen im Zuständigkeitsbereich können diese Leistungen nutzen. Gesundheitsuntersuchung im ersten Schwangerschaftsdrittel 1-mal, im zweiten Drittel 2-mal, im dritten Drittel 2-mal, Hausbesuch nach der Geburt 1-mal, Gesundheitskontrolle 42 Tage nach der Geburt 1-mal. Vor der 13. Schwangerschaftswoche musst du das Heft anlegen und zugleich die erste Vorsorgeuntersuchung machen lassen. Die beiden Termine im zweiten Drittel liegen in der 16. bis 20. und der 21. bis 24. Schwangerschaftswoche. Die beiden im dritten Drittel in der 28. bis 36. und der 37. bis 40. Schwangerschaftswoche. Die öffentlich einsehbaren Leistungslisten der Kommunen enthalten außerdem beim ersten Termin ein ganzes Laborpaket und das Depressionsscreening nach der Geburt
+- Evidenzstufe: A
+- Quellen: Nationale Gesundheits- und Familienplanungskommission (2017). Normen für die grundlegenden öffentlichen Gesundheitsdienste des Staates (dritte Fassung) [国家基本公共卫生服务规范（第三版）]. <https://www.nhc.gov.cn/ewebeditor/uploadfile/2017/04/20170417104506514.pdf>; Volksregierung der Stadt Jingjiang. Staatliches Programm der grundlegenden öffentlichen Gesundheitsdienste – Gesundheitsmanagementdienst für Schwangere und Wöchnerinnen (veröffentlichte kommunale Leistungsliste). <https://www.jingjiang.gov.cn/xxgk/zdlyxxgk/wsjk/art/2023/art_383017a2e7794892bc772bfbe042f379.html>
+- Anmerkung: Diese 5 Termine sind die kostenlose Untergrenze, nicht die ganze Vorsorge. Die Klinik macht je nach Lage zusätzlich Ultraschall, Blutzucker und Herztonüberwachung des Kindes, und die zahlst du selbst. Je früher du das Heft anlegst, desto früher wird die Risikoeinstufung der Schwangerschaft gemacht. Die Risikoeinstufung ordnet Schwangere nach der Höhe des Risikos ein; nur so kommst du als Hochrisikofall früh genug in eine Klinik, die das auffangen kann. Wohnst du in einem anderen Bezirk, legst du das Heft an deinem jetzigen Wohnort an und musst nicht in den Ort deiner Haushaltsregistrierung zurück
 
-### 3. 第一次产检就把艾滋病、梅毒、乙肝三项查掉，查出来也有免费的阻断
-<!-- 成本标签: 钱=0 时间=少 毅力=否 收益=大 口径=死亡率 -->
-- 成本：不花钱，预防母婴传播项目提供免费检测
-- 说人话：第一次产检就把艾滋病、梅毒、乙肝这三样查掉，检测不用自己掏钱。真查出来也不是绝路。国家免费给药、给方案，挡住病从母亲传给孩子的那条路，这叫母婴阻断。
-- 收益：母婴传播就是病从母亲传给孩子。《预防艾滋病、梅毒和乙肝母婴传播工作规范（2020 年版）》有要求。在孕早期或者第一次产前检查的时候，医院要告知相关信息，并「提供适宜、规范的免费检测」，这三项检测不用自己掏钱。再根据结果提供检测后咨询或者转诊。查出阳性也不是绝路。《艾滋病防治条例》第四十四条规定，向感染艾滋病病毒的孕产妇「免费提供预防艾滋病母婴传播的治疗和咨询」。第四十三条要求提供阻断（不让病传给孩子）、治疗、产后访视、婴儿随访和检测等服务。母亲乙肝表面抗原阳性的，新生儿出生时要同时打乙肝疫苗和乙肝免疫球蛋白（见第 20 节第 2 条）
-- 证据等级：A
-- 来源：国家卫生健康委办公厅 (2020). 预防艾滋病、梅毒和乙肝母婴传播工作规范（2020 年版）. <https://wjw.xinjiang.gov.cn/hfpc/zhgl6/202012/08b7de496f0b40e586d4b99d00cf79c4.shtml>（新疆维吾尔自治区卫生健康委员会转载）；国务院 (2006). 艾滋病防治条例（第四十三、四十四条）. <https://wjw.beijing.gov.cn/zwgk_20040/zcwj2022/flfg/202304/t20230408_2992986.html>（北京市卫生健康委员会转载）
-- 备注：这三项越早查越有用，因为阻断和治疗都需要时间。艾滋病防治条例第三条还写明「任何单位和个人不得歧视艾滋病病毒感染者、艾滋病病人及其家属」，结婚、找工作、看病、上学这些合法权益受法律保护。日常的预防和检测见第 1 节。发生高危行为之后的暴露后阻断见第 13 节
+### 3. Lass bei der ersten Vorsorgeuntersuchung gleich auf HIV, Syphilis und Hepatitis B testen, eine Mutter-Kind-Blockade ist auch bei einem Befund kostenlos
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=nein Nutzen=hoch Bezug=Sterblichkeit -->
+- Kosten: Kostet nichts, das Programm zur Vorbeugung der Mutter-Kind-Übertragung bietet kostenlose Tests
+- Klartext: Lass bei der ersten Vorsorgeuntersuchung gleich auf HIV, Syphilis und Hepatitis B testen, die Tests zahlst du nicht selbst. Wird etwas gefunden, ist das kein auswegloses Ende. Der Staat gibt Medikamente und einen Plan kostenlos und blockiert den Weg, auf dem die Krankheit von der Mutter auf das Kind geht; das heißt Mutter-Kind-Blockade.
+- Nutzen: Mutter-Kind-Übertragung heißt, dass die Krankheit von der Mutter auf das Kind geht. Die „Arbeitsnormen zur Vorbeugung der Mutter-Kind-Übertragung von HIV, Syphilis und Hepatitis B (Fassung 2020)" [预防艾滋病、梅毒和乙肝母婴传播工作规范（2020 年版）] stellen Anforderungen. Im ersten Schwangerschaftsdrittel oder bei der ersten Vorsorgeuntersuchung muss die Klinik die Informationen mitteilen und „geeignete, normgerechte kostenlose Tests" anbieten; diese drei Tests zahlst du nicht selbst. Je nach Ergebnis folgt eine Beratung nach dem Test oder eine Überweisung. Auch ein positiver Befund ist kein auswegloses Ende. Art. 44 der „Verordnung zur Vorbeugung und Bekämpfung von HIV/Aids" [艾滋病防治条例] bestimmt, dass Schwangeren und Wöchnerinnen mit HIV „die Behandlung und Beratung zur Vorbeugung der Mutter-Kind-Übertragung von HIV kostenlos angeboten wird". Art. 43 verlangt Leistungen wie Blockade (damit die Krankheit nicht auf das Kind geht), Behandlung, Hausbesuch nach der Geburt, Nachsorge für das Kind und Tests. Ist die Mutter Hepatitis-B-Oberflächenantigen-positiv, muss das Neugeborene bei der Geburt gleichzeitig die Hepatitis-B-Impfung und das Hepatitis-B-Immunglobulin bekommen (siehe Abschnitt 20, Nr. 2)
+- Evidenzstufe: A
+- Quellen: Büro der Nationalen Gesundheitskommission (2020). Arbeitsnormen zur Vorbeugung der Mutter-Kind-Übertragung von HIV, Syphilis und Hepatitis B (Fassung 2020) [预防艾滋病、梅毒和乙肝母婴传播工作规范（2020 年版）]. <https://wjw.xinjiang.gov.cn/hfpc/zhgl6/202012/08b7de496f0b40e586d4b99d00cf79c4.shtml> (weitergeleitet von der Gesundheitskommission des Autonomen Gebiets Xinjiang); Staatsrat (2006). Verordnung zur Vorbeugung und Bekämpfung von HIV/Aids [艾滋病防治条例] (Art. 43, 44). <https://wjw.beijing.gov.cn/zwgk_20040/zcwj2022/flfg/202304/t20230408_2992986.html> (weitergeleitet von der Gesundheitskommission der Stadt Peking)
+- Anmerkung: Diese drei Tests nützen umso mehr, je früher sie gemacht werden, denn Blockade und Behandlung brauchen Zeit. Art. 3 der Verordnung zur Vorbeugung und Bekämpfung von HIV/Aids schreibt außerdem fest: „Keine Einheit und keine Person darf Menschen mit HIV, Aidskranke und ihre Angehörigen diskriminieren"; Heiraten, Arbeitssuche, Arztbesuch und Schule fallen unter diesen gesetzlichen Schutz. Alltägliche Vorbeugung und Tests siehe Abschnitt 1. Die Postexpositionsprophylaxe nach einer Risikohandlung siehe Abschnitt 13
 
-### 4. 整个孕期一支烟一口酒都不要，家里人也别在屋里抽
-<!-- 成本标签: 钱=0 时间=少 毅力=是 收益=大 口径=死亡率 -->
-- 成本：不花钱，还能省下烟酒钱。难在让同住的人跟着一起戒
-- 说人话：孕期抽烟，孩子早产、生下来太小、唇腭裂的概率都往上走。孕期和生产时异常出血的风险直接翻一倍。婴儿猝死的风险也更高。家里人在屋里抽，一样算。什么时候戒都还来得及。
-- 收益：美国疾病控制与预防中心的口径：孕期吸烟会让孩子「足月出生也可能过小」「可能早产」。它会「使孕期和分娩期异常出血的风险翻倍」。它会提高唇裂、腭裂等出生缺陷的风险。它还会「损害胎儿正在发育的肺和大脑，损害可持续到儿童期」。孕期吸烟的母亲生的婴儿，以及出生后接触烟雾的婴儿，婴儿猝死综合征的风险更高。官方建议是「最好在怀孕前就戒烟，但如果已经怀孕，戒了仍然有用」「什么时候戒都不晚」
-- 证据等级：A
-- 来源：Centers for Disease Control and Prevention. Smoking During Pregnancy. <https://www.cdc.gov/tobacco/campaign/tips/diseases/pregnancy.html>
-- 备注：别人在屋里抽，孕妇吸到的二手烟对胎儿一样算数。所以同住的家人也别在屋里抽。酒也一样：没有哪个喝酒的量是已知安全的，孕期最省事的做法就是一口不喝。烟酒对成年人自己的账见第 2 节
+### 4. In der ganzen Schwangerschaft keine einzige Zigarette und keinen Schluck Alkohol, und die Familie raucht nicht in der Wohnung
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=ja Nutzen=hoch Bezug=Sterblichkeit -->
+- Kosten: Kostet nichts, spart sogar das Geld für Zigaretten und Alkohol. Schwierig ist, die Mitbewohner zum Mit-Aufhören zu bringen
+- Klartext: In der Schwangerschaft steigen die Wahrscheinlichkeiten für Frühgeburt, zu kleines Geburtsgewicht und Lippen-Kiefer-Gaumenspalte. Das Risiko für starke Blutungen in Schwangerschaft und Geburt verdoppelt sich direkt. Das Risiko für plötzlichen Kindstod ist ebenfalls höher. Raucht jemand aus der Familie in der Wohnung, zählt das genauso. Aufzuhören ist nie zu spät.
+- Nutzen: Nach den Angaben der US-amerikanischen Centers for Disease Control and Prevention (CDC): Rauchen in der Schwangerschaft kann das Kind „auch bei termingerechter Geburt zu klein" und „möglicherweise zu früh geboren" machen. Es „verdoppelt das Risiko für auffällige Blutungen in Schwangerschaft und Geburt". Es erhöht das Risiko für Geburtsfehler wie Lippen- und Gaumenspalten. Es „schädigt die sich entwickelnde Lunge und das Gehirn des Fetus, und der Schaden kann bis ins Kindesalter reichen". Bei Kindern von Müttern, die in der Schwangerschaft rauchen, und bei Kindern, die nach der Geburt Rauch ausgesetzt sind, ist das Risiko für plötzlichen Kindstod höher. Die offizielle Empfehlung lautet: „Am besten hört man schon vor der Schwangerschaft mit dem Rauchen auf, aber wer bereits schwanger ist, dem nützt das Aufhören trotzdem" und „Aufhören ist nie zu spät"
+- Evidenzstufe: A
+- Quellen: Centers for Disease Control and Prevention. Smoking During Pregnancy. <https://www.cdc.gov/tobacco/campaign/tips/diseases/pregnancy.html>
+- Anmerkung: Raucht ein anderer in der Wohnung, zählt der Passivrauch, den die Schwangere einatmet, für den Fetus genauso. Deshalb soll auch die im Haushalt lebende Familie nicht in der Wohnung rauchen. Beim Alkohol ist es dasselbe: Keine Trinkmenge ist als sicher bekannt, in der Schwangerschaft ist ein Schluck zu verzichten das Einfachste. Was Rauchen und Alkohol dem Erwachsenen selbst kosten, siehe Abschnitt 2
 
-### 5. 有子痫前期高危因素的，孕 12 周后开始每天一片小剂量阿司匹林
-<!-- 成本标签: 钱=少 时间=少 毅力=些 收益=中 口径=死亡率 -->
-- 成本：几十元。每天一片，要一直吃到生。难在天天不忘
-- 说人话：子痫前期是孕期的一种高血压病。上一胎得过、怀多胎、有慢性高血压、孕前有糖尿病、有肾病或自身免疫病的人算高危。高危的人从孕 12 周起每天一片小剂量阿司匹林，子痫前期低约一成半，早产和孩子在生产前后死亡都低约两成。其他人别自己吃。
-- 收益：美国预防服务工作组给的是 B 级推荐：对子痫前期高危的人，在孕 12 周之后开始吃小剂量阿司匹林（81 毫克/天）来预防。子痫前期是孕期的一种高血压疾病。把多项研究合起来算，结果如下，95% CI 是可信范围。子痫前期 RR 0.85（95% CI 0.75 至 0.95，16 项研究），低约 15%。早产 RR 0.80（95% CI 0.67 至 0.95，13 项研究），低约 20%。围产期死亡 RR 0.79（95% CI 0.66 至 0.96，11 项研究），低约 21%；围产期死亡就是生产前后这段时间里的死亡。小于胎龄儿／宫内生长受限 RR 0.82（95% CI 0.68 至 0.99，16 项研究），低约 18%；说的是胎儿长得比同孕周的偏小
-- 证据等级：A
-- 来源：US Preventive Services Task Force (2021). Aspirin Use to Prevent Preeclampsia and Related Morbidity and Mortality: Preventive Medication. <https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/low-dose-aspirin-use-for-the-prevention-of-morbidity-and-mortality-from-preeclampsia-preventive-medication>
-- 备注：算高危的有：上一胎得过子痫前期、怀的是双胎或者多胎、有慢性高血压。还有怀孕前就有 1 型或者 2 型糖尿病、有肾病，以及有系统性红斑狼疮、抗磷脂综合征这类自身免疫病。不在这几类里的不要自己吃。这个药要医生开处方，产检的时候把病史说清楚，让医生判断。国内卖的多是 100 毫克的肠溶片，按医嘱吃
+### 5. Nimm bei hohem Präeklampsie-Risiko ab der 12. Schwangerschaftswoche täglich eine Tablette niedrig dosiertes Aspirin
+<!-- Kostenlabel: Geld=wenig Zeit=wenig Willenskraft=etwas Nutzen=mittel Bezug=Sterblichkeit -->
+- Kosten: Ein paar Dutzend 元. Eine Tablette pro Tag, bis zur Geburt. Schwierig ist, sie täglich nicht zu vergessen
+- Klartext: Präeklampsie ist eine Bluthochdruckerkrankung der Schwangerschaft. Als Risiko zählen: frühere Präeklampsie, Mehrlinge, chronischer Bluthochdruck, Diabetes vor der Schwangerschaft, Nierenerkrankung oder Autoimmunerkrankung. Wer ein Risiko hat, nimmt ab der 12. Schwangerschaftswoche täglich eine niedrig dosierte Aspirintablette. Präeklampsie sinkt dadurch um etwa 15 %, Frühgeburt und Tod des Kindes um die Geburt um etwa 20 %. Alle anderen sollen sie nicht selbst nehmen.
+- Nutzen: Die US Preventive Services Task Force gibt eine Empfehlung der Stufe B: Bei Menschen mit hohem Präeklampsie-Risiko ab der 12. Schwangerschaftswoche niedrig dosiertes Aspirin (81 Milligramm pro Tag) zur Vorbeugung einnehmen. Präeklampsie ist eine Bluthochdruckerkrankung der Schwangerschaft. Rechnet man mehrere Studien zusammen, ergibt sich Folgendes; die 95 %-KI ist der Vertrauensbereich. Präeklampsie RR 0,85 (95 %-KI 0,75 bis 0,95, 16 Studien), etwa 15 % niedriger. Frühgeburt RR 0,80 (95 %-KI 0,67 bis 0,95, 13 Studien), etwa 20 % niedriger. Perinatale Sterblichkeit RR 0,79 (95 %-KI 0,66 bis 0,96, 11 Studien), etwa 21 % niedriger; perinatale Sterblichkeit ist der Tod rund um die Geburt. Zu klein für das Gestationsalter oder intrauterine Wachstumsrestriktion RR 0,82 (95 %-KI 0,68 bis 0,99, 16 Studien), etwa 18 % niedriger; gemeint ist, dass der Fetus kleiner ist als für dieselbe Schwangerschaftswoche üblich
+- Evidenzstufe: A
+- Quellen: US Preventive Services Task Force (2021). Aspirin Use to Prevent Preeclampsia and Related Morbidity and Mortality: Preventive Medication. <https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/low-dose-aspirin-use-for-the-prevention-of-morbidity-and-mortality-from-preeclampsia-preventive-medication>
+- Anmerkung: Zu den Risikofällen zählen: frühere Präeklampsie, Zwillinge oder Mehrlinge, chronischer Bluthochdruck. Dazu Diabetes Typ 1 oder Typ 2 vor der Schwangerschaft, Nierenerkrankung sowie Autoimmunerkrankungen wie systemischer Lupus erythematodes und Antiphospholipid-Syndrom. Wer in keine dieser Gruppen fällt, soll es nicht selbst einnehmen. Das Medikament braucht ein Rezept; sprich bei der Vorsorge deine Krankengeschichte offen an, damit der Arzt es beurteilt. In China wird meist eine magensaftresistente Tablette mit 100 Milligramm verkauft; nimm sie nach ärztlicher Anweisung
 
-### 6. 孕 24 周及以后做一次妊娠期糖尿病筛查，别嫌喝糖水麻烦
-<!-- 成本标签: 钱=少 时间=少 毅力=否 收益=中 口径=死亡率 -->
-- 成本：几十到一百多元。要空腹去，抽几次血，占掉半个上午
-- 说人话：妊娠期糖尿病就是怀孕之后才出现的血糖高。孕 24 周以后花半个上午，喝一次糖水、抽几次血，就能查出来。不查也不管，胎儿长得过大、难产、挨一刀、子痫前期和新生儿低血糖的风险都会往上走。
-- 收益：美国预防服务工作组的 B 级推荐：对没有症状（自己没觉出不舒服）的孕妇，在孕 24 周及以后筛查妊娠期糖尿病。妊娠期糖尿病就是怀孕之后才出现的血糖高。只做一次筛查的，这一次要放在孕 24 周及以后。孕 24 周之前就筛查好不好，工作组的结论是现有证据不足以判断好处和坏处（I 级）。妊娠期糖尿病不管，会推高这几样的风险：巨大儿（胎儿长得过大）、难产、剖宫产、子痫前期和新生儿低血糖
-- 证据等级：A
-- 来源：US Preventive Services Task Force (2021). Gestational Diabetes: Screening. <https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/gestational-diabetes-screening>
-- 备注：查出来的人里，大多数靠调饮食和运动就能把血糖控住，需要打胰岛素的是少数。别因为怕查出来要打针，就跳过这一次。生完之后还要复查血糖：得过妊娠期糖尿病的人，以后得 2 型糖尿病的风险明显更高
+### 6. Mach ab der 24. Schwangerschaftswoche einmal den Test auf Schwangerschaftsdiabetes, sei nicht zu bequem für das Zuckerwasser
+<!-- Kostenlabel: Geld=wenig Zeit=wenig Willenskraft=nein Nutzen=mittel Bezug=Sterblichkeit -->
+- Kosten: Ein paar Dutzend bis über hundert 元. Du musst nüchtern kommen, mehrmals Blut abgeben, das kostet einen halben Vormittag
+- Klartext: Schwangerschaftsdiabetes ist ein erhöhter Blutzucker, der erst in der Schwangerschaft auftritt. Ab der 24. Schwangerschaftswoche kannst du mit einem halben Vormittag, einem Zuckerwasser und ein paar Blutentnahmen feststellen, ob du ihn hast. Untersucht du nicht und behandelst nicht, steigen die Risiken für ein übermäßig großes Kind, eine schwere Geburt, einen Kaiserschnitt, Präeklampsie und Unterzuckerung des Neugeborenen.
+- Nutzen: Die US Preventive Services Task Force empfiehlt in Stufe B: bei Schwangeren ohne Symptome (die selbst keine Beschwerden spüren) ab der 24. Schwangerschaftswoche auf Schwangerschaftsdiabetes testen. Schwangerschaftsdiabetes ist ein erhöhter Blutzucker, der erst in der Schwangerschaft auftritt. Wird nur einmal getestet, muss dieser Termin ab der 24. Schwangerschaftswoche liegen. Ob ein Test vor der 24. Schwangerschaftswoche nützt, dazu kommt die Task Force zu dem Ergebnis, dass die vorhandene Evidenz für eine Beurteilung von Nutzen und Schaden nicht ausreicht (Stufe I). Behandelst du Schwangerschaftsdiabetes nicht, steigen die Risiken für: Makrosomie (übermäßig großes Kind), schwere Geburt, Kaiserschnitt, Präeklampsie und Unterzuckerung des Neugeborenen
+- Evidenzstufe: A
+- Quellen: US Preventive Services Task Force (2021). Gestational Diabetes: Screening. <https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/gestational-diabetes-screening>
+- Anmerkung: Von denen, bei denen es gefunden wird, kann die Mehrheit den Blutzucker mit angepasster Ernährung und Bewegung im Griff halten; nur wenige brauchen Insulin. Spring über diesen Termin nicht hinweg aus Angst, dass bei einem Befund gespritzt werden muss. Nach der Geburt wird der Blutzucker noch einmal kontrolliert: Wer Schwangerschaftsdiabetes hatte, hat später ein deutlich höheres Risiko für Diabetes Typ 2
 
-### 7. 背下这张「立刻去医院」的清单，孕期和产后一年内都算数
-<!-- 成本标签: 钱=0 时间=少 毅力=否 收益=大 口径=死亡率 -->
-- 成本：不花钱。花五分钟记住，最好也让同住的人知道
-- 说人话：任何一条出现，当天就去医院，别在家等一晚。头痛不好或越来越重、看东西变样、发烧到 38 ℃。手或脸肿得厉害、喘不上气、胸痛或心跳快。肚子剧痛不缓解、胎动停了或明显变少、阴道出血或流液。一条胳膊或腿又肿又痛、想伤害自己或孩子。产后一年内也算。
-- 收益：美国疾病控制与预防中心列出的孕产期紧急预警信号有这些：头痛一直不好或者越来越重、头晕或者晕过去、看东西变样、体温达到 38 ℃ 或更高；手或者脸肿得厉害、有伤害自己或者伤害孩子的念头、呼吸困难、胸痛或者心跳过快；恶心呕吐很厉害、肚子剧烈疼痛一直不缓解、孕期胎动停止或者明显减少；孕期阴道出血或者流出液体、产后阴道出血或者分泌物不正常；一条胳膊或者一条腿严重肿胀、发红或者疼痛。这些问题在产后一年内都可能发生，不是「出了月子就没事」
-- 证据等级：A
-- 来源：Centers for Disease Control and Prevention. Hear Her — Urgent Maternal Warning Signs. <https://www.cdc.gov/hearher/maternal-warning-signs/index.html>；World Health Organization. Maternal mortality fact sheet. <https://www.who.int/news-room/fact-sheets/detail/maternal-mortality>
-- 备注：这张清单的用处，是把「再忍忍」和「必须马上走」分开。头痛加上看东西发花，再加上上腹部疼，指向的是子痫前期（孕期的高血压疾病）。一条小腿又肿又痛，指向的是深静脉血栓（见第 13 节）。产后大出血按世界卫生组织的说法，可以在几小时内夺走一个健康女性的生命。任何一条出现就直接去医院，不要先在家等一晚
+### 7. Lern diese Liste „sofort ins Krankenhaus" auswendig, sie gilt in der Schwangerschaft und im ganzen Jahr nach der Geburt
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=nein Nutzen=hoch Bezug=Sterblichkeit -->
+- Kosten: Kostet nichts. Fünf Minuten zum Einprägen, am besten weiß es auch die Person, die mit dir wohnt
+- Klartext: Tritt ein Punkt auf, geh am selben Tag ins Krankenhaus, warte nicht eine Nacht ab. Kopfschmerzen, die bleiben oder zunehmen, verändertes Sehen, Fieber bis 38 °C. Stark geschwollene Hände oder Gesicht, Atemnot, Brustschmerz, Herzrasen. Bauchschmerzen, stark und ohne Nachlassen, Kindsbewegungen, die aufhören oder deutlich weniger werden, Scheidenblutung oder Fruchtwasserabgang. Ein Arm oder Bein geschwollen und schmerzhaft, Gedanken, sich selbst oder dem Kind etwas anzutun. Die Liste gilt auch im Jahr nach der Geburt.
+- Nutzen: Die US-amerikanischen Centers for Disease Control and Prevention listen diese dringenden Warnzeichen in Schwangerschaft und Wochenbett auf: Kopfschmerzen, die bleiben oder schlimmer werden, Schwindel oder Ohnmacht, verändertes Sehen, Körpertemperatur ab 38 °C; stark geschwollene Hände oder ein geschwollenes Gesicht, Gedanken, sich selbst oder dem Kind etwas anzutun, Atemnot, Brustschmerz oder zu schneller Herzschlag; starke Übelkeit und Erbrechen, heftige Bauchschmerzen, die nicht nachlassen, Kindsbewegungen, die aufhören oder deutlich weniger werden; Scheidenblutung oder Abgang von Flüssigkeit in der Schwangerschaft, Scheidenblutung oder auffälliger Ausfluss nach der Geburt; ein Arm oder ein Bein stark geschwollen, gerötet oder schmerzhaft. Diese Probleme können im ganzen Jahr nach der Geburt auftreten; es ist nicht so, dass „nach dem Wochenbett nichts mehr passiert"
+- Evidenzstufe: A
+- Quellen: Centers for Disease Control and Prevention. Hear Her — Urgent Maternal Warning Signs. <https://www.cdc.gov/hearher/maternal-warning-signs/index.html>; World Health Organization. Maternal mortality fact sheet. <https://www.who.int/news-room/fact-sheets/detail/maternal-mortality>
+- Anmerkung: Diese Liste trennt „noch aushalten" von „muss sofort los". Kopfschmerzen zusammen mit verschwommenem Sehen und Schmerzen im Oberbauch deuten auf Präeklampsie (die Bluthochdruckerkrankung der Schwangerschaft). Eine geschwollene und schmerzende Wade deutet auf eine tiefe Venenthrombose (siehe Abschnitt 13). Starke Blutung nach der Geburt kann nach Angaben der Weltgesundheitsorganisation eine gesunde Frau innerhalb von Stunden töten. Tritt ein Punkt auf, geh direkt ins Krankenhaus und warte nicht erst eine Nacht zu Hause ab
 
-### 8. 破水了就地平躺、垫高臀部、打 120，不要走动也不要洗澡
-<!-- 成本标签: 钱=0 时间=少 毅力=否 收益=大 口径=死亡率 -->
-- 成本：不花钱
-- 说人话：破水了不是慢慢收拾东西再出发。正确做法是就地躺下、把屁股垫高、打 120。站着走动，羊水流得更快，脐带可能跟着被冲下来。那是能要孩子命的急症。
-- 收益：北京市卫生健康委员会给的处置办法：发现破水后「马上找个地方平躺下来，防止羊水流出来」「不要随意走动」，并且「立即拨打 120 急救电话」。等车的时候通知家里人带东西到医院会合。医疗机构的科普进一步说明了为什么：人站着的时候羊水流失更快，胎儿的脐带可能跟着掉出来，这叫脐带脱垂，是危及胎儿的急症。所以要躺下，把臀部垫高，可以取左侧卧位
-- 证据等级：B
-- 来源：北京市卫生健康委员会. 每周急救话题：准妈妈羊水早破怎样办？ <https://wjw.beijing.gov.cn/bmfw_20143/jkzs/jzjj/202001/t20200115_1575632.html>；北京市顺义区妇幼保健院. 孕晚期在家破水怎么办？ <https://www.bch-syfy.cn/Html/News/Articles/9453.html>
-- 备注：快生的三个征兆是规律宫缩、见红、破水。前两个都可以从容收拾东西，破水是唯一一个「当场躺下叫车」的。破水后洗澡、蹲厕所、自己开车，都是典型的错误做法。记下破水的时间和羊水的颜色，告诉医生。羊水发黄绿色，或者带着胎粪颗粒，提示胎儿窘迫（胎儿在子宫里缺氧）。同时还有规律宫缩、胎动明显减少、发热打寒战的，更要跟医生强调这是急诊
+### 8. Leg dich bei Fruchtwasserabgang sofort flach hin, erhöhe das Gesäß und ruf die 120, geh nicht umher und dusch nicht
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=nein Nutzen=hoch Bezug=Sterblichkeit -->
+- Kosten: Kostet nichts
+- Klartext: Bei Fruchtwasserabgang packst du nicht erst in Ruhe deine Sachen. Richtig ist: sofort hinlegen, das Gesäß erhöhen, die 120 anrufen. Stehst du auf und gehst umher, fließt das Fruchtwasser schneller ab und die Nabelschnur kann mitgespült werden. Das ist ein Notfall, der dem Kind das Leben kosten kann.
+- Nutzen: Die Gesundheitskommission der Stadt Peking gibt dieses Vorgehen: Nach dem Fruchtwasserabgang „sofort einen Platz zum Flachliegen suchen, damit das Fruchtwasser nicht abfließt", „nicht wahllos umhergehen" und „sofort den Notruf 120 wählen". Warte auf das Auto und lass die Familie die Sachen mitbringen und im Krankenhaus treffen. Eine Aufklärung einer medizinischen Einrichtung erklärt warum: Steht die Frau, fließt das Fruchtwasser schneller ab und die Nabelschnur des Fetus kann herausfallen; das heißt Nabelschnurvorfall und ist ein Notfall, der den Fetus gefährdet. Also hinlegen, das Gesäß erhöhen, möglichst auf die linke Seite
+- Evidenzstufe: B
+- Quellen: Gesundheitskommission der Stadt Peking. Wöchentliches Erste-Hilfe-Thema: Was tun, wenn bei der werdenden Mutter das Fruchtwasser zu früh abgeht? <https://wjw.beijing.gov.cn/bmfw_20143/jkzs/jzjj/202001/t20200115_1575632.html>; Frauen- und Kinderklinik des Bezirks Shunyi der Stadt Peking. Was tun, wenn zu Hause im letzten Schwangerschaftsdrittel das Fruchtwasser abgeht? <https://www.bch-syfy.cn/Html/News/Articles/9453.html>
+- Anmerkung: Die drei Anzeichen der nahenden Geburt sind regelmäßige Wehen, Zeichnungsblutung und Fruchtwasserabgang. Bei den ersten beiden kannst du in Ruhe packen; der Fruchtwasserabgang ist das einzige, bei dem du sofort liegen und ein Auto rufen musst. Duschen, auf die Toilette hocken oder selbst Auto fahren ist nach dem Fruchtwasserabgang typisch falsch. Notier dir den Zeitpunkt des Abgangs und die Farbe des Fruchtwassers und sag es dem Arzt. Ist es gelbgrün oder enthält es Mekoniumkrümel, deutet das auf eine Notlage des Kindes (Sauerstoffmangel im Mutterleib). Kommen regelmäßige Wehen, deutlich weniger Kindsbewegungen, Fieber und Schüttelfrost dazu, betone beim Arzt erst recht, dass es ein Notfall ist
 
-### 9. 想要无痛分娩就直接说，它不增加剖宫产的风险
-<!-- 成本标签: 钱=少 时间=少 毅力=些 收益=中 口径=时间 -->
-- 成本：几百到一千多元，各地价格不一样。要提前问医院和麻醉科能不能做。难在得自己开口提
-- 说人话：无痛分娩就是在腰上打一针麻药，把生孩子的疼压下去。它比别的止疼办法更管用，也不会让你更可能挨一刀。「打了无痛腰疼一辈子」同样没有依据。现在它有了单独的收费项目，医院也更愿意做。
-- 收益：Cochrane 系统综述的结论是：硬膜外镇痛在减轻产痛、提高产妇对镇痛的满意度上，比不用硬膜外的办法更有效。无痛分娩用的就是硬膜外镇痛。同一篇还说，「硬膜外镇痛对剖宫产风险和长期腰痛没有影响」。器械助产（用器械把孩子接出来）增加的现象，在 2005 年以后的研究中已经看不到。2024 年起，国家医保局的产科类医疗服务价格项目立项指南，把「分娩镇痛」「导乐分娩」「亲情陪产」单独立了项。理由正是原先没有独立的价格项目，医院提供分娩镇痛的积极性被压低
-- 证据等级：A
-- 来源：Anim-Somuah M, Smyth RMD, Cyna AM, Cuthbert A (2018). Epidural versus non-epidural or no analgesia for pain management in labour. Cochrane Database of Systematic Reviews, (5), CD000331. <https://doi.org/10.1002/14651858.CD000331.pub4>；国家医疗保障局 (2024). 重构产科服务价格项目 助力构建生育友好型社会. <https://www.gov.cn/zhengce/202406/content_6957553.htm>
-- 备注：「打无痛会腰疼一辈子」和「打无痛会难产要挨刀」这两条流传最广的说法都没有依据。Cochrane 把硬膜外镇痛和别的镇痛办法放在一起汇总，结论是它对剖宫产风险和长期腰痛都没有影响。真实的副作用是这些：血压偏低、发热、腿发软、尿不出来，以及第一、第二产程变长、更可能要用缩宫素。做不做自己定，但别因为传言放弃。能不能做还要看医院有没有 24 小时在场的麻醉医生，产检的时候就问清楚
+### 9. Sag direkt, dass du eine schmerzfreie Geburt willst, sie erhöht das Kaiserschnittrisiko nicht
+<!-- Kostenlabel: Geld=wenig Zeit=wenig Willenskraft=etwas Nutzen=mittel Bezug=Zeit -->
+- Kosten: Ein paar Hundert bis über tausend 元, je nach Ort unterschiedlich. Frag vorher in der Klinik und bei der Anästhesieabteilung, ob es möglich ist. Schwierig ist, dass du es selbst ansprechen musst
+- Klartext: Bei der schmerzfreien Geburt wird eine Betäubung in den Rücken gesetzt, die den Geburtsschmerz nimmt. Sie hilft besser als andere Schmerzmittel und macht einen Kaiserschnitt nicht wahrscheinlicher. Eine Betäubung in den Rücken macht auch keine lebenslangen Rückenschmerzen. Inzwischen gibt es dafür einen eigenen Abrechnungsposten, und Kliniken machen es eher.
+- Nutzen: Die systematische Cochrane-Übersichtsarbeit kommt zu dem Ergebnis: Eine Periduralanästhesie lindert den Geburtsschmerz und erhöht die Zufriedenheit der Gebärenden mit der Schmerzlinderung besser als Verfahren ohne Periduralanästhesie. Bei der schmerzfreien Geburt wird genau diese Periduralanästhesie verwendet. Dieselbe Arbeit sagt weiter: „Die Periduralanästhesie hat keinen Einfluss auf das Kaiserschnittrisiko und auf langfristige Rückenschmerzen." Der früher beobachtete Anstieg instrumenteller Entbindungen (das Kind mit Instrumenten herausziehen) zeigt sich in Studien nach 2005 nicht mehr. Ab 2024 hat die Staatliche Krankenversicherungsbehörde in ihren Leitlinien für die Preisposten der geburtshilflichen Leistungen „Geburtsschmerzlinderung", „Doula-Geburt" und „Begleitgeburt durch Angehörige" als eigene Posten geführt. Der Grund ist genau, dass es vorher keine eigenen Preisposten gab und die Bereitschaft der Kliniken, Geburtsschmerzlinderung anzubieten, gedrückt wurde
+- Evidenzstufe: A
+- Quellen: Anim-Somuah M, Smyth RMD, Cyna AM, Cuthbert A (2018). Epidural versus non-epidural or no analgesia for pain management in labour. Cochrane Database of Systematic Reviews, (5), CD000331. <https://doi.org/10.1002/14651858.CD000331.pub4>; Staatliche Krankenversicherungsbehörde (2024). Die Preisposten der geburtshilflichen Leistungen neu ordnen und eine geburtenfreundliche Gesellschaft mitgestalten [重构产科服务价格项目 助力构建生育友好型社会]. <https://www.gov.cn/zhengce/202406/content_6957553.htm>
+- Anmerkung: Die zwei verbreitetsten Behauptungen, „die Betäubung macht lebenslang Rückenschmerzen" und „die Betäubung führt zur schweren Geburt und zum Kaiserschnitt", haben keine Grundlage. Cochrane hat Periduralanästhesie und andere Schmerzlinderungen zusammengefasst; das Ergebnis ist, dass sie weder das Kaiserschnittrisiko noch langfristige Rückenschmerzen beeinflusst. Die echten Nebenwirkungen sind: niedriger Blutdruck, Fieber, weiche Beine, Harnverhalt sowie eine längere erste und zweite Geburtsphase und ein häufigeres Bedürfnis nach Wehenmitteln. Ob du sie nimmst, entscheidest du selbst, aber gib sie nicht wegen eines Gerüchts auf. Ob sie möglich ist, hängt auch davon ab, ob die Klinik rund um die Uhr einen Anästhesisten vor Ort hat; frag das schon bei der Vorsorge
 
-### 10. 没有医学指征就别主动要求剖宫产，也别为了挑日子开刀
-<!-- 成本标签: 钱=0 时间=少 毅力=些 收益=中 口径=死亡率 -->
-- 成本：不花钱。难在顶住家里人的说法
-- 说人话：世界卫生组织的说法是，一个地方的剖宫产比例超过 10% 以后，母亲和新生儿的死亡就不再继续下降。该剖的一定要剖。为了挑日子、怕疼去剖，只是白挨一次腹部大手术。
-- 收益：世界卫生组织 2015 年的声明：一个人群里的剖宫产率上升到约 10% 时，孕产妇和新生儿的死亡数会下降。超过 10% 之后，没有证据显示死亡率还能进一步改善。世界卫生组织同时强调，应当尽一切努力，为有需要的产妇提供剖宫产，而不是为了凑某个特定的比率
-- 证据等级：A
-- 来源：World Health Organization (2015). WHO Statement on Caesarean Section Rates（WHO/RHR/15.02）. <https://www.who.int/publications/i/item/WHO-RHR-15.02>
-- 备注：医学上确实需要的时候，剖宫产是救命手术，该做就做，别硬扛。要避免的是医学上并不需要还去开刀，比如怕疼、挑吉时、算孩子上学的年龄。剖宫产是腹部大手术，恢复更慢，下一胎出现前置胎盘、胎盘植入和子宫破裂的风险更高。这直接影响你还想不想生第二个
+### 10. Verlange ohne medizinische Indikation keinen Kaiserschnitt, und lass dich nicht operieren, um einen Termin auszuwählen
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=etwas Nutzen=mittel Bezug=Sterblichkeit -->
+- Kosten: Kostet nichts. Schwierig ist, sich gegen die Meinung der Familie durchzusetzen
+- Klartext: Nach Angaben der Weltgesundheitsorganisation sinken die Sterbefälle von Mutter und Neugeborenem nicht weiter, wenn die Kaiserschnittrate eines Ortes über 10 % steigt. Ein nötiger Kaiserschnitt muss sein. Wer ihn nur zur Terminwahl oder aus Angst vor Schmerz macht, bekommt ohne Grund eine große Bauchoperation.
+- Nutzen: Eine Erklärung der Weltgesundheitsorganisation von 2015: Steigt die Kaiserschnittrate in einer Bevölkerung auf etwa 10 %, sinken die Sterbefälle von Müttern und Neugeborenen. Über 10 % hinaus gibt es keine Evidenz, dass die Sterblichkeit weiter sinkt. Die Weltgesundheitsorganisation betont zugleich, dass alles getan werden sollte, um Gebärenden, die einen Kaiserschnitt brauchen, diesen anzubieten und nicht, um eine bestimmte Rate zu erreichen
+- Evidenzstufe: A
+- Quellen: World Health Organization (2015). WHO Statement on Caesarean Section Rates（WHO/RHR/15.02）. <https://www.who.int/publications/i/item/WHO-RHR-15.02>
+- Anmerkung: Wenn es medizinisch wirklich nötig ist, ist der Kaiserschnitt eine lebensrettende Operation; mach ihn dann, statt es auszuhalten. Zu vermeiden ist die Operation ohne medizinische Notwendigkeit, etwa aus Angst vor Schmerz, zur Wahl eines glückverheißenden Termins oder um das Einschulungsalter des Kindes zu berechnen. Der Kaiserschnitt ist eine große Bauchoperation, die Erholung dauert länger, und beim nächsten Kind ist das Risiko für Placenta praevia, Placenta accreta und Gebärmutterriss höher. Das wirkt direkt darauf, ob du ein zweites Kind willst
 
-### 11. 怀孕前就确认生育保险的参保状态，未就业的配偶也能报生育医疗费用
-<!-- 成本标签: 钱=0 时间=少 毅力=否 收益=中 口径=金钱 -->
-- 成本：不花钱。打一次社保或者医保的咨询电话
-- 说人话：单位交了生育保险，生孩子的医疗费和产假期间的津贴都从这笔基金里出。配偶没工作的，医疗费这一块也能报。参保月数够不够、在外地生要不要先备案，都得提前问，事后补不了。
-- 收益：《社会保险法》第五十四条：用人单位已经缴纳生育保险费的，其职工享受生育保险待遇。职工没有工作的配偶，按照国家规定享受生育医疗费用待遇，所需资金从生育保险基金中支付。说白了，单位交了生育保险，职工本人能享受待遇，职工那位没工作的配偶生孩子的医疗费，也能从这笔基金里出。生育保险待遇分两块：一块是生育医疗费用，就是生孩子这件事本身的医疗费；另一块是生育津贴，就是产假期间发给你的那笔钱。第五十六条列明了能领生育津贴的三种情形：女职工生育享受产假、享受计划生育手术休假、法律法规规定的其他情形。生育津贴「按照职工所在用人单位上年度职工月平均工资计发」，算的是你所在单位去年的职工月平均工资，不是你自己的工资
-- 证据等级：A
-- 来源：全国人大常委会 (2010). 中华人民共和国社会保险法（第五十四、五十六条）. <https://guangdong.chinatax.gov.cn/gdsw/qysw_gkwj/2020-02/12/content_8e8c485d0db34b989531f3ba57cec5a9.shtml>（国家税务总局广东省税务局转载）
-- 备注：两件事要提前问清楚，因为事后补不了。一是连续参保的月数够不够：各地都定了最低月数，不够就享受不了。二是不在参保地生的，要不要先办异地生育备案：没备案的可能只能自己先垫钱，回来再手工报销，甚至报不了。产假天数和生育津贴怎么算见第 18 节第 2 条
+### 11. Kläre schon vor der Schwangerschaft deinen Versicherungsstatus in der Mutterschutzversicherung, auch der nicht erwerbstätige Ehepartner kann Geburtskosten erstattet bekommen
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=nein Nutzen=mittel Bezug=Geld -->
+- Kosten: Kostet nichts. Ein Anruf bei der Sozial- oder Krankenversicherung zur Beratung
+- Klartext: Zahlt dein Betrieb in die Mutterschutzversicherung ein, kommen die medizinischen Kosten der Geburt und das Mutterschaftsgeld während des Mutterschaftsurlaubs aus diesem Fonds. Ist der Ehepartner nicht erwerbstätig, lässt sich auch der medizinische Kostenblock erstatten. Ob die Beitragsmonate reichen und ob du bei einer Geburt außerhalb des Wohnorts vorher eine Meldung machen musst, klärst du vorher; später lässt sich das nicht nachholen.
+- Nutzen: Art. 54 des „Sozialversicherungsgesetzes" [社会保险法]: Hat der Arbeitgeber Mutterschutzbeiträge gezahlt, genießen seine Beschäftigten die Leistungen der Mutterschutzversicherung. Der nicht erwerbstätige Ehepartner eines Beschäftigten genießt nach staatlicher Regelung die Leistung für die medizinischen Geburtskosten, und die nötigen Mittel werden aus dem Fonds der Mutterschutzversicherung gezahlt. Anders gesagt: Zahlt der Betrieb in die Mutterschutzversicherung ein, genießen die Beschäftigten selbst die Leistungen, und auch die medizinischen Kosten der Geburt des nicht erwerbstätigen Ehepartners können aus diesem Fonds kommen. Die Leistungen der Mutterschutzversicherung zerfallen in zwei Teile: einen für die medizinischen Geburtskosten, also die medizinischen Kosten der Geburt selbst; den anderen für das Mutterschaftsgeld, also das Geld, das du während des Mutterschaftsurlaubs bekommst. Art. 56 zählt drei Fälle auf, in denen es Mutterschaftsgeld gibt: Eine Arbeitnehmerin nimmt Mutterschaftsurlaub, nimmt Urlaub für einen Familienplanungseingriff oder es liegt ein anderer gesetzlich geregelter Fall vor. Das Mutterschaftsgeld wird „nach dem durchschnittlichen Monatslohn der Beschäftigten des Betriebs, in dem die Beschäftigte arbeitet, im Vorjahr berechnet"; gerechnet wird der durchschnittliche Monatslohn der Beschäftigten deines Betriebs im letzten Jahr, nicht dein eigener Lohn
+- Evidenzstufe: A
+- Quellen: Ständiger Ausschuss des Nationalen Volkskongresses (2010). Sozialversicherungsgesetz der Volksrepublik China [中华人民共和国社会保险法] (Art. 54, 56). <https://guangdong.chinatax.gov.cn/gdsw/qysw_gkwj/2020-02/12/content_8e8c485d0db34b989531f3ba57cec5a9.shtml> (weitergeleitet vom Steueramt der Provinz Guangdong der Staatlichen Steuerverwaltung)
+- Anmerkung: Zwei Dinge musst du vorher klären, weil sie sich später nicht nachholen lassen. Erstens, ob die Zahl der Beitragsmonate ohne Lücke reicht: Jeder Ort setzt eine Mindestzahl fest, und darunter gibt es keine Leistung. Zweitens, ob du bei einer Geburt außerhalb des Versicherungsorts vorher eine Meldung für die Geburt außerhalb des Wohnorts machen musst: Ohne Meldung musst du möglicherweise erst selbst vorstrecken und hinterher manuell erstatten lassen, oder es wird gar nicht erstattet. Wie die Zahl der Tage des Mutterschaftsurlaubs und das Mutterschaftsgeld berechnet werden, siehe Abschnitt 18, Nr. 2
 
-### 12. 出院前把《出生医学证明》办掉，名字提前想好、别写错字
-<!-- 成本标签: 钱=0 时间=少 毅力=否 收益=中 口径=时间 -->
-- 成本：不花钱。办出院手续的时候顺手就办了
-- 说人话：这张证是上户口、参保、上学的前置件，而且只有接生的那家机构能第一次开。出了院再回头补，要另走一套流程、多交材料。名字里的字，先确认户籍系统打得出来。
-- 收益：《母婴保健法》第二十三条：医疗保健机构和从事家庭接生的人员，按照国务院卫生行政部门的规定，出具统一制发的新生儿出生医学证明。这张证是后面所有事的前置条件：上户口、参保、办医保卡、入园入学都要它。而且第一次签发只能由接生的机构办。出了院再回头补办，要走另一套流程，还需要额外的证明材料
-- 证据等级：A
-- 来源：全国人大常委会 (1994, 2017 修正). 中华人民共和国母婴保健法（第二十三条）. <https://www.gov.cn/guoqing/2021-10/29/content_5647619.htm>
-- 备注：填之前把父母姓名、身份证号和孩子姓名逐字核对一遍。姓名用字要能在户籍系统里打得出来，生僻字以后办事会很麻烦。改名和改证都要走补发或者换发，比当场核对麻烦得多。证拿到手就单独收好，和户口本、身份证一样要紧
+### 12. Lass die Geburtsbescheinigung noch vor der Entlassung ausstellen, überleg den Namen vorher und schreib ihn richtig
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=nein Nutzen=mittel Bezug=Zeit -->
+- Kosten: Kostet nichts. Bei der Entlassung erledigst du sie gleich mit
+- Klartext: Diese Bescheinigung ist die Voraussetzung für die Haushaltsregistrierung, die Versicherung und die Schule, und nur die Klinik, in der du entbunden hast, stellt sie zum ersten Mal aus. Lässt du sie erst nach der Entlassung nachholen, brauchst du einen anderen Ablauf und mehr Unterlagen. Prüfe vorher, ob das Registrierungssystem die Schriftzeichen des Namens ausgeben kann.
+- Nutzen: Art. 23 des „Gesetzes zum Schutz von Mutter und Kind" [母婴保健法]: Medizinische Einrichtungen und Personen, die Hausgeburten durchführen, stellen nach den Vorschriften der Gesundheitsverwaltungsbehörde des Staatsrats die einheitlich ausgegebene Geburtsbescheinigung des Neugeborenen aus. Diese Bescheinigung ist die Voraussetzung für alles Weitere: Haushaltsregistrierung, Versicherungsbeitritt, Krankenversicherungskarte, Kindergarten und Schule. Und die erste Ausstellung kann nur die Einrichtung machen, in der entbunden wurde. Holst du sie erst nach der Entlassung nach, brauchst du einen anderen Ablauf und zusätzliche Nachweise
+- Evidenzstufe: A
+- Quellen: Ständiger Ausschuss des Nationalen Volkskongresses (1994, 2017 geändert). Gesetz zum Schutz von Mutter und Kind der Volksrepublik China [中华人民共和国母婴保健法] (Art. 23). <https://www.gov.cn/guoqing/2021-10/29/content_5647619.htm>
+- Anmerkung: Vergleiche vor dem Ausfüllen die Namen der Eltern, die Ausweisnummern und den Namen des Kindes Zeichen für Zeichen. Die Schriftzeichen des Namens müssen im Haushaltsregistrierungssystem eingegeben werden können; seltene Zeichen machen später jede Amtshandlung mühsam. Eine Namensänderung oder eine neue Bescheinigung läuft über eine Neuausstellung und ist viel mühsamer als die Prüfung vor Ort. Leg die Bescheinigung nach Erhalt gesondert ab; sie ist so wichtig wie das Haushaltsbuch und der Ausweis
 
-### 13. 新生儿足跟血筛查和听力筛查都别拒绝
-<!-- 成本标签: 钱=少 时间=少 毅力=否 收益=大 口径=死亡率 -->
-- 成本：多数地区免费，或者几十元。有些扩展项目要自己掏钱。孩子出生后扎一次足跟
-- 说人话：扎一次足跟血、做一次听力测试，能在孩子看起来完全正常的时候，查出甲减、苯丙酮尿症和听力障碍。等症状显出来，智力上的损害已经补不回来了。
-- 收益：《新生儿疾病筛查管理办法》第三条：「全国新生儿疾病筛查病种包括先天性甲状腺功能减低症、苯丙酮尿症等新生儿遗传代谢病和听力障碍。」这两类病有个共同点：早期完全看不出异常，等到症状明显的时候，智力损害已经不可逆了。而早发现早干预效果很好，办法是补充甲状腺素、喝特殊配方奶、戴助听器或者装人工耳蜗。第十条规定，筛查结果是阳性的，机构应当及时通知监护人去确诊
-- 证据等级：A
-- 来源：卫生部 (2009). 新生儿疾病筛查管理办法（卫生部令第 64 号，第三、十、十一条）. <http://www.gov.cn/gongbao/content/2009/content_1371363.htm>
-- 备注：办法第十一条要求，筛查前要把项目、条件、方式、灵敏度（能查出多少）和费用如实告诉监护人，并签字同意。所以你会拿到一张知情同意书。签之前看清楚：哪些是国家规定的病种，哪些是自费的加项。初筛阳性不等于确诊，绝大多数复查一次就排除了，别在这一步先崩溃。听力初筛没过的要按通知去复筛，别自己判断「孩子听得见就算了」
+### 13. Lehn das Neugeborenen-Screening aus Fersenblut und das Hörscreening nicht ab
+<!-- Kostenlabel: Geld=wenig Zeit=wenig Willenskraft=nein Nutzen=hoch Bezug=Sterblichkeit -->
+- Kosten: In den meisten Gegenden kostenlos oder ein paar Dutzend 元. Manche erweiterten Tests zahlst du selbst. Nach der Geburt ein Stich in die Ferse
+- Klartext: Ein Stich in die Ferse und ein Hörtest können, solange das Kind völlig gesund aussieht, Schilddrüsenunterfunktion, Phenylketonurie und Hörstörungen finden. Zeigen sich erst die Symptome, lässt sich der Schaden an der geistigen Entwicklung nicht mehr aufholen.
+- Nutzen: Art. 3 der „Verwaltungsbestimmungen über das Neugeborenen-Screening" [新生儿疾病筛查管理办法]: „Zu den landesweit gescreenten Neugeborenen-Krankheiten gehören angeborene Schilddrüsenunterfunktion, Phenylketonurie und andere erbliche Stoffwechselkrankheiten des Neugeborenen sowie Hörstörungen." Diese beiden Krankheitsgruppen haben eines gemeinsam: In der Frühphase sieht man keine Auffälligkeit, und wenn die Symptome deutlich werden, ist der Schaden an der geistigen Entwicklung bereits unumkehrbar. Werden sie früh entdeckt und früh behandelt, ist die Wirkung sehr gut; die Mittel sind Schilddrüsenhormonergänzung, spezielle Säuglingsnahrung, ein Hörgerät oder ein Cochlea-Implantat. Art. 10 bestimmt, dass die Einrichtung bei einem positiven Screening-Ergebnis den Vormund unverzüglich zur Abklärung benachrichtigen muss
+- Evidenzstufe: A
+- Quellen: Gesundheitsministerium (2009). Verwaltungsbestimmungen über das Neugeborenen-Screening [新生儿疾病筛查管理办法] (Anordnung Nr. 64 des Gesundheitsministeriums, Art. 3, 10, 11). <http://www.gov.cn/gongbao/content/2009/content_1371363.htm>
+- Anmerkung: Art. 11 der Bestimmungen verlangt, vor dem Screening dem Vormund Umfang, Bedingungen, Verfahren, Empfindlichkeit (wie viel sich finden lässt) und Kosten wahrheitsgemäß mitzuteilen und die Zustimmung unterschreiben zu lassen. Du bekommst also eine Einwilligungserklärung. Lies vor dem Unterschreiben genau: Welche Krankheiten sind staatlich festgelegt, welche sind kostenpflichtige Zusatzposten? Ein positiver Erstbefund ist keine Diagnose; die große Mehrheit wird bei einer Wiederholung ausgeschlossen, brich an dieser Stelle nicht gleich zusammen. Wer das Hörscreening nicht besteht, geht nach der Aufforderung zur Wiederholung und entscheidet nicht selbst „das Kind hört ja, dann reicht es"
 
-### 14. 拿到出生医学证明就给孩子办居民医保，别等落完户
-<!-- 成本标签: 钱=少 时间=少 毅力=否 收益=中 口径=金钱 -->
-- 成本：一年交一次居民医保保费，几百元
-- 说人话：拿到出生证就能在网上给孩子参保，不用等落户。参上了，出院时的住院费当场就能报。新生儿的住院费不低，参保和没参保差别很大。
-- 收益：中国政府网 2024 年的口径：「新生儿凭出生医学证明就可以在线上参保」，不必先落户。「新生儿出院以后就能够直接报销医药费用」。以前的做法是落了户才能参保，住院费得先全额垫付，再回头报销。参保缴费的平均办理时长，也从年初的 28.7 个工作日压减到 6.4 个工作日
-- 证据等级：A
-- 来源：中国政府网 (2024). 健全基本医疗保险参保长效机制国务院政策例行吹风会. <https://www.gov.cn/zhengce/202409/content_6973567.htm>
-- 备注：早产、黄疸照蓝光、新生儿肺炎，这些是新生儿住院的常见原因，动辄上万元，参保和不参保差别很大。各地对「出生后多少天内参保，可以从出生那天起享受待遇」的规定不完全一样。具体怎么执行，以当地医保部门说的为准。出院前打 12393 问一句最省事
+### 14. Melde das Kind gleich nach Erhalt der Geburtsbescheinigung zur Einwohner-Krankenversicherung an, warte nicht auf die Haushaltsregistrierung
+<!-- Kostenlabel: Geld=wenig Zeit=wenig Willenskraft=nein Nutzen=mittel Bezug=Geld -->
+- Kosten: Einmal im Jahr Beitrag zur Einwohner-Krankenversicherung, ein paar Hundert 元
+- Klartext: Mit der Geburtsbescheinigung kannst du das Kind online versichern, ohne auf die Haushaltsregistrierung zu warten. Ist es versichert, werden die stationären Kosten bei der Entlassung sofort erstattet. Die stationären Kosten für Neugeborene sind nicht niedrig, versichert und unversichert macht einen großen Unterschied.
+- Nutzen: Nach Angaben des Regierungsportals Chinas von 2024: „Neugeborene können mit der Geburtsbescheinigung online versichert werden", ohne vorherige Haushaltsregistrierung. „Nach der Entlassung des Neugeborenen können die medizinischen Kosten direkt erstattet werden." Früher konnte man erst nach der Haushaltsregistrierung versichern, und die stationären Kosten musste man erst voll vorstrecken und hinterher erstatten lassen. Die durchschnittliche Bearbeitungszeit für die Anmeldung und Beitragszahlung sank von 28,7 Arbeitstagen zu Jahresbeginn auf 6,4 Arbeitstage
+- Evidenzstufe: A
+- Quellen: Regierungsportal Chinas (2024). Pressegespräch des Staatsrats zur routinemäßigen Politik der Verbesserung des langfristigen Mechanismus der Teilnahme an der grundlegenden Krankenversicherung [健全基本医疗保险参保长效机制国务院政策例行吹风会]. <https://www.gov.cn/zhengce/202409/content_6973567.htm>
+- Anmerkung: Frühgeburt, Gelbsucht mit Blaulichtbehandlung und Neugeborenen-Lungenentzündung sind häufige Gründe für einen stationären Aufenthalt von Neugeborenen; schnell kommt ein Betrag von über 10.000 元 zusammen, und versichert oder nicht macht einen großen Unterschied. Wie viele Tage nach der Geburt die Anmeldung spätestens erfolgen muss, damit die Leistung ab dem Geburtstag gilt, regeln die Orte unterschiedlich. Wie es konkret gehandhabt wird, gilt das, was die örtliche Krankenversicherungsbehörde sagt. Am einfachsten rufst du vor der Entlassung die 12393 an und fragst
 
-### 15. 孩子出生后一个月以内去派出所申报出生登记
-<!-- 成本标签: 钱=0 时间=少 毅力=否 收益=小 口径=自由 -->
-- 成本：不花钱。跑一趟派出所的户籍窗口
-- 说人话：法律给的是一个月，不是「有空再说」。落户卡着后面的打疫苗、入园、入学和办身份证。越往后拖，要补的材料越多。
-- 收益：《户口登记条例》第七条：「婴儿出生后一个月以内，由户主、亲属、抚养人或者邻居向婴儿常住地户口登记机关申报出生登记。」这是法律定的时限，不是建议。落户是后面这些事的前置条件：打疫苗、入园、入学、办身份证。越往后拖，需要补的材料越多
-- 证据等级：A
-- 来源：国务院 (1958). 中华人民共和国户口登记条例（第七条）. <http://www.gd.gov.cn/zwgk/wjk/zcfgk/content/post_2531969.html>（广东省人民政府转载）
-- 备注：带齐这些：出生医学证明、父母双方的身份证和户口本、结婚证。跟父亲落户还是跟母亲落户可以自己选，但两个地方的政策不一样，学区和参保地都受影响。去之前想清楚，改起来麻烦。没结婚生的孩子，同样可以申报出生登记
+### 15. Melde das Kind innerhalb eines Monats nach der Geburt bei der Polizeistation zur Geburtsregistrierung an
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=nein Nutzen=niedrig Bezug=Freiheit -->
+- Kosten: Kostet nichts. Ein Gang zum Haushaltsregistrierungsschalter der Polizeistation
+- Klartext: Das Gesetz gibt einen Monat, nicht „wenn ich mal Zeit habe". Die Haushaltsregistrierung blockiert später Impfungen, Kindergarten, Schule und die Ausstellung des Personalausweises. Je länger du wartest, desto mehr Unterlagen musst du nachreichen.
+- Nutzen: Art. 7 der „Verordnung über die Haushaltsregistrierung" [户口登记条例]: „Innerhalb eines Monats nach der Geburt des Säuglings melden der Haushaltsvorstand, Angehörige, der Erziehungsberechtigte oder Nachbarn die Geburt bei der Haushaltsregistrierungsbehörde des gewöhnlichen Aufenthaltsorts des Säuglings an." Das ist eine gesetzliche Frist, keine Empfehlung. Die Haushaltsregistrierung ist die Voraussetzung für das Weitere: Impfungen, Kindergarten, Schule, Ausstellung des Personalausweises. Je länger du wartest, desto mehr Unterlagen musst du nachreichen
+- Evidenzstufe: A
+- Quellen: Staatsrat (1958). Verordnung über die Haushaltsregistrierung der Volksrepublik China [中华人民共和国户口登记条例] (Art. 7). <http://www.gd.gov.cn/zwgk/wjk/zcfgk/content/post_2531969.html> (weitergeleitet von der Volksregierung der Provinz Guangdong)
+- Anmerkung: Bring diese mit: Geburtsbescheinigung, die Ausweise und Haushaltsbücher beider Eltern, die Heiratsurkunde. Ob du das Kind beim Vater oder bei der Mutter registrierst, kannst du wählen, aber die Regelungen der beiden Orte sind unterschiedlich, und Schulbezirk und Versicherungsort hängen davon ab. Überleg es dir vorher, denn eine Änderung ist mühsam. Auch ein Kind, das außerhalb einer Ehe geboren wurde, kann zur Geburtsregistrierung angemeldet werden
 
-### 16. 产后 42 天那次复查别跳过，它同时是产后抑郁的筛查
-<!-- 成本标签: 钱=0 时间=少 毅力=些 收益=中 口径=死亡率 -->
-- 成本：不花钱，属于基本公共卫生服务。占半天时间。难在刚出月子懒得动
-- 说人话：这次复查不花钱，含血常规、白带常规，还包含一次产后抑郁筛查。产后一年内都可能出大问题，别觉得出了月子就安全了。
-- 收益：《国家基本公共卫生服务规范（第三版）》的孕产妇健康管理里，产后有 1 次产后访视和 1 次产后 42 天健康检查。地方公开的服务清单里，这一次含化验（血常规、白带常规）和 1 次产后抑郁筛查。产后一年内都可能出现严重并发症。第 7 条那张「立刻去医院」的清单里，「有伤害自己或伤害孩子的念头」「产后阴道出血或异常分泌物」「一侧肢体严重肿痛」都属于产后
-- 证据等级：A
-- 来源：国家卫生计生委 (2017). 国家基本公共卫生服务规范（第三版）. <https://www.nhc.gov.cn/ewebeditor/uploadfile/2017/04/20170417104506514.pdf>；靖江市人民政府. 国家基本公共卫生服务项目——孕产妇健康管理服务（地方服务清单公开）. <https://www.jingjiang.gov.cn/xxgk/zdlyxxgk/wsjk/art/2023/art_383017a2e7794892bc772bfbe042f379.html>
-- 备注：产后抑郁不是矫情，靠家里人劝一句「想开点」也解决不了。它有专门的筛查问卷，有治疗，可以恢复。有自杀念头时的处置见第 1 节。孩子生下来确实养不了时的合法出路见第 9 节第 20 条。这次复查还会看伤口长得怎么样、子宫恢复得怎么样、盆底功能好不好。避孕方案也在这次谈：产后不来月经，不等于不会怀孕
+### 16. Überspring die Kontrolle 42 Tage nach der Geburt nicht, sie ist zugleich das Screening auf postpartale Depression
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=etwas Nutzen=mittel Bezug=Sterblichkeit -->
+- Kosten: Kostet nichts, gehört zu den grundlegenden öffentlichen Gesundheitsdiensten. Kostet einen halben Tag. Schwierig ist, dass du direkt nach dem Wochenbett nicht in Bewegung kommst
+- Klartext: Diese Kontrolle kostet nichts, sie enthält ein Blutbild, einen Abstrich und ein Screening auf postpartale Depression. Im ganzen Jahr nach der Geburt können noch schwere Probleme auftreten; denk nicht, mit dem Ende des Wochenbetts sei alles vorbei.
+- Nutzen: Im Gesundheitsmanagement für Schwangere und Wöchnerinnen der „Normen für die grundlegenden öffentlichen Gesundheitsdienste des Staates (dritte Fassung)" gibt es nach der Geburt einen Hausbesuch und eine Gesundheitskontrolle 42 Tage nach der Geburt. Die öffentlich einsehbaren Leistungslisten der Kommunen führen für diesen Termin ein Laborpaket (Blutbild, Abstrich) und ein Depressionsscreening nach der Geburt. Im ganzen Jahr nach der Geburt können schwere Folgeerkrankungen auftreten. In der Liste „sofort ins Krankenhaus" aus Nr. 7 in diesem Abschnitt gehören „Gedanken, sich selbst oder dem Kind etwas anzutun", „Scheidenblutung oder auffälliger Ausfluss nach der Geburt" und „einseitig stark geschwollene und schmerzende Gliedmaßen" zur Zeit nach der Geburt
+- Evidenzstufe: A
+- Quellen: Nationale Gesundheits- und Familienplanungskommission (2017). Normen für die grundlegenden öffentlichen Gesundheitsdienste des Staates (dritte Fassung) [国家基本公共卫生服务规范（第三版）]. <https://www.nhc.gov.cn/ewebeditor/uploadfile/2017/04/20170417104506514.pdf>; Volksregierung der Stadt Jingjiang. Staatliches Programm der grundlegenden öffentlichen Gesundheitsdienste – Gesundheitsmanagementdienst für Schwangere und Wöchnerinnen (veröffentlichte kommunale Leistungsliste). <https://www.jingjiang.gov.cn/xxgk/zdlyxxgk/wsjk/art/2023/art_383017a2e7794892bc772bfbe042f379.html>
+- Anmerkung: Postpartale Depression ist keine Empfindlichkeit, und ein „sei nicht so" der Familie löst sie nicht. Es gibt einen eigenen Screening-Fragebogen, eine Behandlung, und sie lässt sich überwinden. Bei Suizidgedanken siehe Abschnitt 1. Ist das Kind geboren und kannst du es wirklich nicht großziehen, steht der legale Weg in Abschnitt 9, Nr. 20. Bei dieser Kontrolle wird auch geschaut, wie die Wunde heilt, wie sich die Gebärmutter erholt und wie es um den Beckenboden steht. Auch die Verhütung wird hier besprochen: Nach der Geburt keine Regelblutung zu haben heißt nicht, dass du nicht schwanger werden kannst
