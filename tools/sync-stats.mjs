@@ -1,25 +1,29 @@
-// 统计对齐：改完条目跑一次。按顺序做四件事：
-// ① 重算全书的统计数字，回写 README.md、index.html、tools/og.html；
-// ② 调 check-refs.mjs 重算 docs/引用对照.md；
-// ③ 调 check-plain.mjs 查说人话，不合格只提示不中断；
-// ④ 用无头 Chrome 把 tools/og.html 重新截成 og.png。
+// Statistik-Abgleich: nach jeder Änderung an Einträgen einmal laufen lassen. Vier Schritte:
+// ① alle Kennzahlen des Buchs neu rechnen und in README.md, index.html und tools/og.html zurückschreiben;
+// ② tools/check-refs.mjs aufrufen, damit docs/verweis-abgleich.md neu entsteht;
+// ③ tools/check-plain.mjs aufrufen, um die Klartext-Zeilen zu prüfen; ein Fund bricht nicht ab;
+// ④ tools/og.html mit einem kopflosen Chrome neu zu og.png rendern.
 //
-//   node tools/sync-stats.mjs                   # 全做
-//   node tools/sync-stats.mjs --no-screenshot   # 不截图
-//   node tools/sync-stats.mjs --check           # 只比对 ① 不写，有过时的数字则退出码 1（CI 用）
+//   node tools/sync-stats.mjs                   # alles
+//   node tools/sync-stats.mjs --no-screenshot   # ohne Screenshot
+//   node tools/sync-stats.mjs --check           # nur ① vergleichen, nichts schreiben, Exit 1 bei veralteten Zahlen (CI)
 //
-// Chrome 按常见安装位置找，装在别处就设环境变量 CHROME 指到可执行文件。
-// og.html 用的是微软雅黑，Linux 上没有就会换成别的字体，截出来的图和 Windows 上不一样；
-// CI 只跑 --check 不截图，也是这个原因。
+// Chrome wird an den üblichen Installationsorten gesucht; liegt es woanders, die Umgebungsvariable
+// CHROME auf die ausführbare Datei setzen.
+// og.html hatte ursprünglich „Microsoft YaHei" gesetzt; auf Linux fehlt die Schrift und der
+// Screenshot weicht von Windows ab. Seit der Portierung steht dort eine Schriftkette ohne
+// CJK-Abhängigkeit, deshalb kann ④ jetzt überall laufen. CI fährt trotzdem nur --check.
 //
-// 2026-09-29 从 sync-stats.ps1 移植过来，ps1 已删：它只在 Windows 上跑，
-// 网页上直接合并的外部 PR 完全经过不了它，数字过时了也没有任何检查会红。
-// ① 只替换数字本身，不动任何其他文字。
-// 数字口径：条目数 = book/*.md 里的 ### 标题数；节数 = book/*.md 的文件数；
-// A/B/C = 证据等级行的首字母（带（争议）后缀的照样算）；争议 = 备注以「争议」开头的条数；
-// TODO = 正文里含「待核实」或「TODO」的行数；链接 = 「- 来源：」和「- 备注：」行里的 http(s) 总数；
-// 性价比三档的规则抄自 index.html。
-// 切行用 /\r?\n/，理由见 check-refs.mjs 文件头。
+// 2026-09-29 aus sync-stats.ps1 portiert, ps1 ist gelöscht: es lief nur unter Windows, und
+// PRs, die direkt auf der Weboberfläche gemergt wurden, kamen gar nicht daran vorbei — veraltete
+// Zahlen fielen nirgends auf.
+// ① ersetzt ausschließlich die Ziffern selbst, keinen anderen Text.
+// Zählweise: Einträge = Zahl der ###-Überschriften in book/*.md; Abschnitte = Zahl der
+// book/*.md-Dateien; A/B/C = erster Buchstabe der Evidenzstufe (der Zusatz „Streitfall" ändert
+// nichts); Streitfälle = Anmerkungen, die mit „Streitfall" beginnen; TODO = Zeilen mit
+// „noch zu prüfen" oder „TODO"; Links = Zahl aller http(s) in den „- Quellen:"- und
+// „- Anmerkung:"-Zeilen; die Regeln der drei Kosten-Nutzen-Stufen sind aus index.html abgeschrieben.
+// Zeilen werden mit /\r?\n/ getrennt, Begründung im Kopf von check-refs.mjs.
 import { readFileSync, writeFileSync, readdirSync, existsSync, mkdtempSync, rmSync, statSync } from 'node:fs';
 import { resolve, dirname, join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
@@ -30,50 +34,52 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const CHECK = process.argv.includes('--check');
 const read = f => readFileSync(join(ROOT, f), 'utf8');
 
-// 档位规则和 index.html 的 COST_W、e.ratio 两行一致；那两行改了这里必须跟着改，所以先比对一次
+// Die Stufenregeln stehen in index.html in den Zeilen COST_W und e.ratio. Ändert sich dort etwas,
+// muss es hier mitgeändert werden — deshalb wird zuerst verglichen und bei Abweichung abgebrochen.
 const indexText = read('index.html');
-const COST_W_LINE = "const COST_W = { money:{'0':0,'少':1,'多':2}, time:{'少':0,'中':1,'多':2}, will:{'否':0,'些':1,'是':2} };";
-const RATIO_LINE = "e.ratio = e.level === '大' ? (e.cs === 0 ? '极高' : (e.cs <= 2 ? '高' : '一般'))";
-if (!indexText.includes(COST_W_LINE)) throw new Error('index.html 的 COST_W 行变了，请同步本脚本里的成本权重');
-if (!indexText.includes(RATIO_LINE)) throw new Error('index.html 的 e.ratio 行变了，请同步本脚本里的档位规则');
+const COST_W_LINE = "const COST_W = { money:{'0':0,'wenig':1,'viel':2}, time:{'wenig':0,'mittel':1,'viel':2}, will:{'nein':0,'etwas':1,'ja':2} };";
+const RATIO_LINE = "e.ratio = e.level === 'hoch' ? (e.cs === 0 ? 'sehr hoch' : (e.cs <= 2 ? 'hoch' : 'mittel'))";
+if (!indexText.includes(COST_W_LINE)) throw new Error('Die COST_W-Zeile in index.html hat sich geändert — die Kosten-Gewichte in diesem Skript nachziehen');
+if (!indexText.includes(RATIO_LINE)) throw new Error('Die e.ratio-Zeile in index.html hat sich geändert — die Stufenregel in diesem Skript nachziehen');
 
 const W = {
-  money: { '0': 0, '少': 1, '多': 2 },
-  time: { '少': 0, '中': 1, '多': 2 },
-  will: { '否': 0, '些': 1, '是': 2 },
+  money: { '0': 0, 'wenig': 1, 'viel': 2 },
+  time: { 'wenig': 0, 'mittel': 1, 'viel': 2 },
+  will: { 'nein': 0, 'etwas': 1, 'ja': 2 },
 };
 
 function ratioOf(cost, level) {
-  if (level === '大') return cost === 0 ? '极高' : cost <= 2 ? '高' : '一般';
-  return level === '中' && cost === 0 ? '高' : '一般';
+  if (level === 'hoch') return cost === 0 ? 'sehr hoch' : cost <= 2 ? 'hoch' : 'mittel';
+  return level === 'mittel' && cost === 0 ? 'hoch' : 'mittel';
 }
 
 const bookFiles = readdirSync(join(ROOT, 'book')).filter(f => f.endsWith('.md')).sort();
 const sections = bookFiles.length;
 let entries = 0, dispute = 0, todo = 0, links = 0;
 const grade = { A: 0, B: 0, C: 0 };
-const ratio = { '极高': 0, '高': 0, '一般': 0 };
+const ratio = { 'sehr hoch': 0, 'hoch': 0, 'mittel': 0 };
 
 for (const f of bookFiles) {
   for (const line of read(join('book', f)).split(/\r?\n/)) {
     if (line.startsWith('### ')) entries++;
-    const g = line.match(/^- 证据等级：([ABC])/);
+    const g = line.match(/^- Evidenzstufe: ([ABC])/);
     if (g) grade[g[1]]++;
-    if (line.startsWith('- 备注：争议')) dispute++;
-    if (/待核实|TODO/.test(line)) todo++;
-    if (/^- (来源|备注)：/.test(line)) links += (line.match(/https?:\/\//g) ?? []).length;
-    const t = line.match(/<!--\s*成本标签:\s*钱=(\S+)\s+时间=(\S+)\s+毅力=(\S+)\s+收益=(\S+)\s+口径=/);
+    if (line.startsWith('- Anmerkung: Streitfall')) dispute++;
+    if (/noch zu prüfen|TODO/.test(line)) todo++;
+    if (/^- (Quellen|Anmerkung): /.test(line)) links += (line.match(/https?:\/\//g) ?? []).length;
+    const t = line.match(/<!--\s*Kostenlabel:\s*Geld=(\S+)\s+Zeit=(\S+)\s+Willenskraft=(\S+)\s+Nutzen=(\S+)\s+Bezug=/);
     if (t) ratio[ratioOf(W.money[t[1]] + W.time[t[2]] + W.will[t[3]], t[4])]++;
   }
 }
 
-const tagged = ratio['极高'] + ratio['高'] + ratio['一般'];
-if (tagged !== entries) console.warn(`警告：有 ${entries - tagged} 条缺成本标签，性价比三档对不上条目数`);
-if (grade.A + grade.B + grade.C !== entries) console.warn('警告：证据等级行数和条目数对不上，检查有没有条目漏写证据等级');
+const tagged = ratio['sehr hoch'] + ratio['hoch'] + ratio['mittel'];
+if (tagged !== entries) console.warn(`Warnung: ${entries - tagged} Einträge ohne Kostenlabel — die drei Stufen ergeben nicht die Eintragszahl`);
+if (grade.A + grade.B + grade.C !== entries) console.warn('Warnung: Evidenzstufen und Eintragszahl passen nicht zusammen — prüfen, ob ein Eintrag keine Evidenzstufe hat');
 
-// 三档百分比用最大余数法分配：先向下取整，剩下的百分点按小数部分从大到小补。
-// 三个数各自四舍五入会凑出 99 或者 101（2026-09-21 加第 33 节时碰到过），这里保证加起来正好 100。
-const ORDER = ['极高', '高', '一般'];
+// Die drei Prozentsätze werden nach dem größten Rest verteilt: erst abrunden, dann die übrigen
+// Prozentpunkte nach der Größe des Restes auffüllen. Einzelnes Runden ergibt 99 oder 101
+// (am 2026-09-21 beim Anlegen von Abschnitt 33 passiert), hier summieren sie sich immer auf 100.
+const ORDER = ['sehr hoch', 'hoch', 'mittel'];
 const pct = {}, rem = {};
 for (const k of ORDER) {
   const exact = ratio[k] * 100 / entries;
@@ -83,29 +89,31 @@ for (const k of ORDER) {
 const short = 100 - ORDER.reduce((s, k) => s + pct[k], 0);
 for (const k of [...ORDER].sort((a, b) => rem[b] - rem[a]).slice(0, Math.max(short, 0))) pct[k]++;
 
-console.log(`条目 ${entries} ｜ 节 ${sections} ｜ A ${grade.A} B ${grade.B} C ${grade.C} ｜ 争议 ${dispute} ｜ TODO ${todo} ｜ 链接 ${links}`);
-console.log(`性价比 极高 ${ratio['极高']}（${pct['极高']}%） 高 ${ratio['高']}（${pct['高']}%） 一般 ${ratio['一般']}（${pct['一般']}%）`);
+console.log(`Einträge ${entries} ｜ Abschnitte ${sections} ｜ A ${grade.A} B ${grade.B} C ${grade.C} ｜ Streitfälle ${dispute} ｜ TODO ${todo} ｜ Links ${links}`);
+console.log(`Kosten-Nutzen: sehr hoch ${ratio['sehr hoch']} (${pct['sehr hoch']} %), hoch ${ratio['hoch']} (${pct['hoch']} %), mittel ${ratio['mittel']} (${pct['mittel']} %)`);
 console.log('');
 
 const EDITS = [
-  ['README.md', '首屏条目数', /(\d+) 条建议/g, `${entries} 条建议`],
-  ['README.md', '条目徽章', /%E6%9D%A1%E7%9B%AE-(\d+)%20%E6%9D%A1/g, `%E6%9D%A1%E7%9B%AE-${entries}%20%E6%9D%A1`],
-  ['README.md', '证据分级徽章', /A%20(\d+)%20%C2%B7%20B%20\d+%20%C2%B7%20C%20\d+/g, `A%20${grade.A}%20%C2%B7%20B%20${grade.B}%20%C2%B7%20C%20${grade.C}`],
-  ['README.md', '文献链接徽章', /-(\d+)%20%E6%9D%A1%E9%93%BE%E6%8E%A5/g, `-${links}%20%E6%9D%A1%E9%93%BE%E6%8E%A5`],
-  ['README.md', '怎么读里的 A 级数', /大型试验的 (\d+) 条/g, `大型试验的 ${grade.A} 条`],
-  ['README.md', '怎么读里的极高条数', /勾选性价比「极高」，得到 (\d+) 条/g, `勾选性价比「极高」，得到 ${ratio['极高']} 条`],
-  ['README.md', '证据分级段', /全书 (\d+) 条中 A 级 \d+ 条、B 级 \d+ 条、C 级 \d+ 条，另有 \d+ 条标注了争议、\d+ 处/g,
-    `全书 ${entries} 条中 A 级 ${grade.A} 条、B 级 ${grade.B} 条、C 级 ${grade.C} 条，另有 ${dispute} 条标注了争议、${todo} 处`],
-  ['README.md', '性价比段', /全书 (\d+) 条中性价比极高 \d+ 条（\d+%）、高 \d+ 条（\d+%）、一般 \d+ 条（\d+%）/g,
-    `全书 ${entries} 条中性价比极高 ${ratio['极高']} 条（${pct['极高']}%）、高 ${ratio['高']} 条（${pct['高']}%）、一般 ${ratio['一般']} 条（${pct['一般']}%）`],
-  ['README.md', '正文文件数', /正文按节拆成 (\d+) 个文件/g, `正文按节拆成 ${sections} 个文件`],
-  ['index.html', '五处描述', /(\d+) 条建议/g, `${entries} 条建议`],
-  ['index.html', 'numberOfPages', /numberOfPages":(\d+)/g, `numberOfPages":${entries}`],
-  ['index.html', '页头条目数', /\d+ 节 (\d+) 条/g, `${sections} 节 ${entries} 条`],
-  ['index.html', '页脚文件数', /下的 (\d+) 个文件/g, `下的 ${sections} 个文件`],
-  ['tools/og.html', 'og 条目数', /<b>(\d+)<\/b> 条建议/g, `<b>${entries}</b> 条建议`],
-  ['tools/og.html', 'og A 级数', /A 级证据 <b>(\d+)<\/b> 条/g, `A 级证据 <b>${grade.A}</b> 条`],
-  ['tools/og.html', 'og 链接数', /<b>(\d+)<\/b> 条原始文献链接/g, `<b>${links}</b> 条原始文献链接`],
+  ['README.md', 'Empfehlungen im Text', /(\d+) Empfehlungen/g, `${entries} Empfehlungen`],
+  ['README.md', 'Empfehlungen-Badge', /Empfehlungen-\d+/g, `Empfehlungen-${entries}`],
+  ['README.md', 'Evidenz-Badge', /Evidenzstufen-A%20\d+%20%C2%B7%20B%20\d+%20%C2%B7%20C%20\d+/g,
+    `Evidenzstufen-A%20${grade.A}%20%C2%B7%20B%20${grade.B}%20%C2%B7%20C%20${grade.C}`],
+  ['README.md', 'Quellen-Badge', /Quellen-\d+%20Links/g, `Quellen-${links}%20Links`],
+  ['README.md', 'A-Stufe im Leseteil', /(\d+) Einträge mit konkreten Zahlen/g, `${grade.A} Einträge mit konkreten Zahlen`],
+  ['README.md', 'Stufe sehr hoch im Leseteil', /(\d+) Einträge, die kein Geld kosten/g, `${ratio['sehr hoch']} Einträge, die kein Geld kosten`],
+  ['README.md', 'Evidenzabsatz', /haben \d+ die Stufe A, \d+ die Stufe B und \d+ die Stufe C\. Weitere \d+ sind als Streitfall markiert, \d+ Stellen als TODO noch zu prüfen\./g,
+    `haben ${grade.A} die Stufe A, ${grade.B} die Stufe B und ${grade.C} die Stufe C. Weitere ${dispute} sind als Streitfall markiert, ${todo} Stellen als TODO noch zu prüfen.`],
+  ['README.md', 'Kosten-Nutzen-Absatz', /haben \d+ ein sehr hohes Kosten-Nutzen-Verhältnis \(\d+ %\), \d+ ein hohes \(\d+ %\) und \d+ ein mittleres \(\d+ %\)/g,
+    `haben ${ratio['sehr hoch']} ein sehr hohes Kosten-Nutzen-Verhältnis (${pct['sehr hoch']} %), ${ratio['hoch']} ein hohes (${pct['hoch']} %) und ${ratio['mittel']} ein mittleres (${pct['mittel']} %)`],
+  ['README.md', 'Dateizahl', /in \d+ Dateien aufgeteilt/g, `in ${sections} Dateien aufgeteilt`],
+  ['tools/lib/book.mjs', 'Zahl im Buchtitel', /Lebe besser: \d+ Empfehlungen/g, `Lebe besser: ${entries} Empfehlungen`],
+  ['index.html', 'Kopfzeile', /(\d+) Abschnitte mit (\d+) Empfehlungen/g, `${sections} Abschnitte mit ${entries} Empfehlungen`],
+  ['index.html', 'Beschreibungen', /(\d+) Empfehlungen/g, `${entries} Empfehlungen`],
+  ['index.html', 'numberOfPages', /numberOfPages":\d+/g, `numberOfPages":${entries}`],
+  ['index.html', 'Dateizahl im Fuß', /aus den \d+ Dateien/g, `aus den ${sections} Dateien`],
+  ['tools/og.html', 'og Empfehlungen', /<b>\d+<\/b> Empfehlungen/g, `<b>${entries}</b> Empfehlungen`],
+  ['tools/og.html', 'og A-Stufe', /A-Evidenz <b>\d+<\/b>/g, `A-Evidenz <b>${grade.A}</b>`],
+  ['tools/og.html', 'og Quellenlinks', /<b>\d+<\/b> Quellenlinks/g, `<b>${links}</b> Quellenlinks`],
 ];
 
 const texts = new Map();
@@ -113,45 +121,47 @@ const stale = [];
 for (const [file, label, pattern, repl] of EDITS) {
   const text = texts.get(file) ?? read(file);
   const found = [...text.matchAll(pattern)];
-  if (found.length === 0) throw new Error(`${file} 里找不到「${label}」，模式：${pattern}`);
-  const old = found[0][1];
-  // 用函数做替换值，免得替换串里的 $ 被当成分组引用
+  if (found.length === 0) throw new Error(`In ${file} wurde „${label}" nicht gefunden, Muster: ${pattern}`);
+  const old = found[0][1] ?? found[0][0];
+  // Das Ersetzungsziel als Funktion, damit ein $ in der Zeichenkette nicht als Gruppenreferenz gilt
   const updated = text.replace(pattern, () => repl);
   texts.set(file, updated);
   if (updated === text) {
-    console.log(`  ${file} ${label}：${old}（未变）`);
+    console.log(`  ${file} ${label}: ${old} (unverändert)`);
     continue;
   }
   stale.push(`${file} ${label}`);
-  console.log(`  ${file} ${label}：${old} -> ${CHECK ? '过时' : `已更新（${found.length} 处）`}`);
+  console.log(`  ${file} ${label}: ${old} -> ${CHECK ? 'veraltet' : `aktualisiert (${found.length} Stellen)`}`);
 }
 
 if (CHECK) {
   if (stale.length === 0) {
-    console.log('\n统计数字检查通过');
+    console.log('\nPrüfung der Statistikzahlen bestanden');
     process.exit(0);
   }
-  console.log(`\n有 ${stale.length} 处统计数字过时。本地跑 node tools/sync-stats.mjs（顺带重出 og.png），然后提交。`);
+  console.log(`\n${stale.length} Stellen mit veralteten Zahlen. Lokal node tools/sync-stats.mjs laufen lassen (erzeugt auch og.png neu) und dann committen.`);
   process.exit(1);
 }
 
 for (const [file, text] of texts) if (text !== read(file)) writeFileSync(join(ROOT, file), text);
 
-// ② 重算交叉引用对照表：插入或删除条目会让后面的「第 X 条」集体错位，而错位后的条号
-// 往往仍在范围内（2026-09-19 第 7 节那 6 处就是），只有把「引用 → 目标标题」摊开入库，
-// diff 才看得见。放在截图之前，--no-screenshot 也要跑到
+// ② Verweistabelle neu rechnen: Ein eingefügter oder gelöschter Eintrag verschiebt alle folgenden
+// „Nr. X" — und die verschobenen Nummern liegen meist noch im gültigen Bereich (2026-09-19 waren es
+// sechs Stellen in Abschnitt 7). Nur wenn „Verweis → Zielüberschrift" in einer Datei steht, ist die
+// Verschiebung im Diff zu sehen. Läuft vor dem Screenshot, damit --no-screenshot es auch erreicht.
 const runTool = name => spawnSync(process.execPath, [join(ROOT, 'tools', name)], { stdio: 'inherit' }).status;
 console.log('');
-if (runTool('check-refs.mjs') !== 0) throw new Error('check-refs.mjs 失败');
-console.log('提交前扫一眼 docs/引用对照.md 的 diff：条号没动而「指向的条目」变了，就是被顺延撞歪的引用。');
+if (runTool('check-refs.mjs') !== 0) throw new Error('check-refs.mjs ist fehlgeschlagen');
+console.log('Vor dem Commit einen Blick auf den Diff von docs/verweis-abgleich.md werfen: Steht die Nummer unverändert da, aber die „Ziel"-Spalte hat sich geändert, ist der Verweis verschoben worden.');
 
-// ③ 说人话检查只提示不中断：数字已经同步完了，卡在这里反而让人以为统计没更新。CI 里它会红
+// ③ Die Klartext-Prüfung meldet nur, sie bricht nicht ab: Die Zahlen sind schon abgeglichen, ein
+// Abbruch hier ließe vermuten, die Statistik sei nicht aktualisiert. In der CI wird sie rot.
 console.log('');
-if (runTool('check-plain.mjs') !== 0) console.log('上面列出的说人话不合格，提交前改掉（规则见 tools/check-plain.mjs 文件头）。');
+if (runTool('check-plain.mjs') !== 0) console.log('Die oben aufgeführten Klartext-Zeilen vor dem Commit ändern (Regeln im Kopf von tools/check-plain.mjs).');
 
 if (process.argv.includes('--no-screenshot')) process.exit(0);
 
-// ④ 截 og.png
+// ④ og.png rendern
 const CHROME_PATHS = [
   process.env.CHROME,
   'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
@@ -163,14 +173,15 @@ const CHROME_PATHS = [
   '/usr/bin/chromium-browser',
 ];
 const chrome = CHROME_PATHS.find(p => p && existsSync(p));
-if (!chrome) throw new Error('找不到 Chrome，设环境变量 CHROME 指到它，或者加 --no-screenshot 跳过截图');
+if (!chrome) throw new Error('Chrome nicht gefunden — die Umgebungsvariable CHROME auf die ausführbare Datei setzen oder mit --no-screenshot den Screenshot überspringen');
 
-// 每次用全新的 user-data-dir：否则 Chrome 会拿缓存里的旧 og.html 渲染，截出来还是旧数字。
-// --screenshot 必须给绝对路径：给相对路径 Chrome 什么都不写，还照样返回 0
+// Jedes Mal ein frisches user-data-dir: sonst rendert Chrome das alte og.html aus dem Cache und der
+// Screenshot zeigt weiter die alten Zahlen. --screenshot braucht einen absoluten Pfad: mit einem
+// relativen Pfad schreibt Chrome nichts und meldet trotzdem 0.
 const profile = mkdtempSync(join(tmpdir(), 'og-shot-'));
 const target = join(ROOT, 'og.png');
 const startedAt = Date.now();
-// Chrome 把「xxx bytes written」这类信息写在 stderr 上，不是报错，直接丢掉
+// Chrome schreibt Hinweise wie „xxx bytes written" auf stderr, das ist kein Fehler und wird verworfen
 spawnSync(chrome, [
   '--headless', '--disable-gpu', '--hide-scrollbars', '--force-device-scale-factor=1',
   '--window-size=1200,630', `--user-data-dir=${profile}`, `--screenshot=${target}`,
@@ -178,8 +189,9 @@ spawnSync(chrome, [
 ], { stdio: 'ignore' });
 rmSync(profile, { recursive: true, force: true });
 
-// 自检：文件是这次写的、大小在正常区间。过了这两关就不必再打开图看，省一次读图的开销
+// Selbstprüfung: Die Datei stammt aus diesem Lauf und ihre Größe liegt im normalen Bereich. Sind
+// beide Bedingungen erfüllt, muss das Bild nicht mehr geöffnet werden — das spart einen Bildaufruf.
 const png = statSync(target);
-if (png.mtimeMs < startedAt - 1000) throw new Error('og.png 没有被这次运行写入，截图失败了');
-if (png.size < 120 * 1024 || png.size > 400 * 1024) throw new Error(`og.png 大小异常（${png.size} 字节），正常在 120KB 到 400KB，打开看一眼是不是渲染坏了`);
-console.log(`\nog.png 已重出：${png.size} 字节，自检通过。改过 tools/og.html 的版式才需要打开图确认。`);
+if (png.mtimeMs < startedAt - 1000) throw new Error('og.png wurde in diesem Lauf nicht geschrieben, der Screenshot ist fehlgeschlagen');
+if (png.size < 120 * 1024 || png.size > 400 * 1024) throw new Error(`og.png hat eine ungewöhnliche Größe (${png.size} Bytes), normal sind 120 KB bis 400 KB — öffnen und prüfen, ob das Rendering kaputt ist`);
+console.log(`\nog.png neu erzeugt: ${png.size} Bytes, Selbstprüfung bestanden. Nur nach einer Änderung am Layout von tools/og.html lohnt ein Blick auf das Bild.`);

@@ -1,310 +1,302 @@
 <div align="center">
 
-<img src="og.png" alt="高性价比人生指南 —— 用最少的钱、时间和精力，换回最多的寿命、金钱和人身自由" width="820">
+<img src="og.png" alt="Lebe besser: 630 Empfehlungen nach Kosten und Nutzen — mit wenig Geld, Zeit und Kraft das Meiste an Lebenszeit, Geld und Freiheit herausholen" width="820">
 
-# 高性价比人生指南
+# Lebe besser: 630 Empfehlungen nach Kosten und Nutzen
 
-讲怎么活得久、怎么少生病，出了意外怎么救。讲怎么少花冤枉钱，哪些事会让人被骗、摊上官司。讲没工作没钱时能去领什么，开店、开公司、做网站要办什么手续。也讲恋爱结婚生孩子、出国和学手艺。<br>
-630 条建议，每条写明花掉什么、换回什么、证据有多硬，来源只引期刊论文和官方文件。
+Wie du länger lebst und seltener krank wirst, und was bei einem Notfall zuerst zu tun ist. Wie du kein Geld unnötig ausgibst, und welche Dinge dich in einen Betrug oder einen Rechtsstreit bringen. Was du beantragen kannst, wenn du keine Arbeit und kein Geld hast, und welche Formalitäten ein Laden, eine Firma oder eine Website braucht. Auch um Liebe, Heirat, Kinder, Auslandsaufenthalte und Handwerk geht es.<br>
+630 Empfehlungen. Bei jeder steht, was sie kostet, was sie bringt und wie belastbar die Belege sind. Als Quellen sind nur Fachaufsätze und amtliche Dokumente angegeben.
 
-不用全做：这是按性价比排好的备选单，不是任务清单——挑走一两条就算数，作者自己也没做到其中大部分。
+Du musst nicht alles umsetzen: Das hier ist eine nach Kosten und Nutzen sortierte Vorschlagsliste, keine Aufgabenliste. Ein oder zwei Punkte herauszunehmen zählt schon. Der Autor selbst befolgt die meisten davon nicht.
 
-[![在线检索](https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E6%A3%80%E7%B4%A2-%E7%82%B9%E8%BF%99%E9%87%8C%E6%89%93%E5%BC%80-3451b2?style=flat-square)](https://eternity4719.github.io/HowToLiveBetter/)
-[![条目](https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-630%20%E6%9D%A1-18794e?style=flat-square)](#目录)
-[![证据分级](https://img.shields.io/badge/%E8%AF%81%E6%8D%AE%E5%88%86%E7%BA%A7-A%20420%20%C2%B7%20B%20159%20%C2%B7%20C%2051-915930?style=flat-square)](#证据分级)
-[![原始文献](https://img.shields.io/badge/%E5%8E%9F%E5%A7%8B%E6%96%87%E7%8C%AE-1341%20%E6%9D%A1%E9%93%BE%E6%8E%A5-565a5f?style=flat-square)](docs/核实记录/)
-[![许可](https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF-CC%20BY%204.0-565a5f?style=flat-square)](#许可)
+[![Online-Suche](https://img.shields.io/badge/Online--Suche-hier%20%C3%B6ffnen-3451b2?style=flat-square)](https://cagliostro.github.io/HowToLiveBetterInGermany/)
+[![Empfehlungen](https://img.shields.io/badge/Empfehlungen-630-18794e?style=flat-square)](#inhalt)
+[![Evidenzstufen](https://img.shields.io/badge/Evidenzstufen-A%20420%20%C2%B7%20B%20159%20%C2%B7%20C%2051-915930?style=flat-square)](#evidenzstufen)
+[![Quellen](https://img.shields.io/badge/Quellen-1341%20Links-565a5f?style=flat-square)](docs/pruefprotokolle/)
+[![Lizenz](https://img.shields.io/badge/Lizenz-CC%20BY%204.0-565a5f?style=flat-square)](#lizenz)
 
-### [打开在线检索页](https://eternity4719.github.io/HowToLiveBetter/) · [让 AI 照书回答（skill）](skills/life-decision-guide/README.md)
+### [Zur Online-Suche](https://cagliostro.github.io/HowToLiveBetterInGermany/) · [Die KI antwortet nach dem Buch (Skill)](skills/lebensentscheidungen/README.md)
 
-AI 助手 skill 支持 Claude Code 和 Codex。装上后直接问「替朋友担保签不签」，它先查书里的条目再回答，并注明出自第几节第几条。
+Der Skill für KI-Assistenten läuft in Claude Code und Codex. Nach der Installation fragst du direkt: „Soll ich für einen Freund bürgen?" Er sucht zuerst die passenden Einträge im Buch und antwortet dann, mit der Angabe, aus welchem Abschnitt und welcher Nummer er sie hat.
 
 <table>
-<tr><td align="right"><b>下载</b></td><td align="left">
+<tr><td align="right"><b>Download</b></td><td align="left">
 
-[PDF](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.pdf) · [EPUB](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.epub) · [离线单文件（HTML）](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.html)
-
-</td></tr>
-<tr><td align="right"><b>查阅</b></td><td align="left">
-
-[目录](#目录) · [术语表](#读懂数字术语表) · [核实记录](docs/核实记录/)
+[PDF](https://github.com/Cagliostro/HowToLiveBetterInGermany/releases/download/epub-latest/LebeBesser.pdf) · [EPUB](https://github.com/Cagliostro/HowToLiveBetterInGermany/releases/download/epub-latest/LebeBesser.epub) · [Einzeldatei für offline (HTML)](https://github.com/Cagliostro/HowToLiveBetterInGermany/releases/download/epub-latest/LebeBesser.html)
 
 </td></tr>
-<tr><td align="right"><b>长文</b></td><td align="left">
+<tr><td align="right"><b>Nachschlagen</b></td><td align="left">
 
-[结婚划不划算](docs/结婚划不划算.md) · [家庭应急装备清单](docs/家庭应急装备清单.md) · [遇到陌生人出事该不该停](docs/遇到陌生人出事该不该停.md) · [做平台要办哪些证](docs/做平台要办哪些证.md) · [生物钟和夜班](docs/生物钟和夜班.md)
-
-</td></tr>
-<tr><td align="right"><b>其他语言</b></td><td align="left">
-
-[English](https://dlgrv.github.io/HowToLiveBetter/en/) · [Русский](https://dlgrv.github.io/HowToLiveBetter/ru/) · [Español](https://dlgrv.github.io/HowToLiveBetter/es/)，[dlgrv](https://github.com/dlgrv) 维护的翻译（[仓库](https://github.com/dlgrv/HowToLiveBetter)）
+[Inhalt](#inhalt) · [Glossar](#die-zahlen-verstehen-glossar) · [Prüfprotokolle](docs/pruefprotokolle/)
 
 </td></tr>
-<tr><td align="right"><b>衍生工具</b></td><td align="left">
+<tr><td align="right"><b>Langtexte</b></td><td align="left">
 
-[howtolivebetter.net](https://howtolivebetter.net/)，[littleben](https://github.com/littleben) 做的打勾清单：加待办、标记做到没有、收藏
+[Lohnt sich heiraten](docs/lohnt-sich-heiraten.md) · [Notfallausrüstung für die Familie](docs/notfallausruestung.md) · [Bei einem Notfall mit Fremden anhalten?](docs/anhalten-bei-fremdem-notfall.md) · [Welche Genehmigungen braucht eine Plattform](docs/welche-lizenzen-fuer-eine-plattform.md) · [Innere Uhr und Nachtschicht](docs/innere-uhr-und-nachtschicht.md)
+
+</td></tr>
+<tr><td align="right"><b>Andere Sprachen</b></td><td align="left">
+
+[中文 (Original)](https://github.com/eternity4719/HowToLiveBetter) · [English](https://dlgrv.github.io/HowToLiveBetter/en/) · [Русский](https://dlgrv.github.io/HowToLiveBetter/ru/) · [Español](https://dlgrv.github.io/HowToLiveBetter/es/) — die Übersetzungen stammen von [dlgrv](https://github.com/dlgrv) ([Repository](https://github.com/dlgrv/HowToLiveBetter))
+
+</td></tr>
+<tr><td align="right"><b>Zusatzwerkzeuge</b></td><td align="left">
+
+[howtolivebetter.net](https://howtolivebetter.net/) — eine Abhakliste von [littleben](https://github.com/littleben): Aufgaben hinzufügen, als erledigt markieren, merken
 
 </td></tr>
 </table>
 
-<sub>其他语言和衍生工具由他人维护，内容可能落后，以本仓库中文原文为准。</sub>
+<sub>Andere Sprachen und Zusatzwerkzeuge werden von anderen gepflegt und können hinterherhinken. Maßgeblich ist der chinesische Originaltext in seinem Repository.</sub>
 
 </div>
 
 ---
 
-## 这本书想回答的问题
+## Fragen, die dieses Buch beantwortet
 
-| 问题 | 去哪看 |
+| Frage | Wo du nachschaust |
 | --- | --- |
-| 几乎不花钱，就能明显降低早死概率的事有哪些？ | [1. 不要早死](book/01-不要早死.md) |
-| 抽烟、喝酒、久坐、熬夜到底折寿多少，烟和酒具体怎么戒，家常食用油怎么选怎么用？ | [2. 不要慢慢死](book/02-不要慢慢死.md) |
-| 每天精力不够用、总被打断，怎么改？ | [3. 不要浪费精力](book/03-不要浪费精力.md) |
-| 时间都花哪去了，怎么少做无收益的事，拖延怎么治？ | [4. 不要浪费时间](book/04-不要浪费时间.md) |
-| 攒下的钱该怎么放，才不被利息、费率和骗局吃掉？ | [5. 不要浪费钱](book/05-不要浪费钱.md) |
-| 哪些保健品、体检套餐、智商税可以直接不买？ | [6. 反面清单](book/06-反面清单.md) |
-| 失业了、被欠薪了、身上没钱了，能领什么、去哪求助？ | [7. 没钱的时候怎么活](book/07-没钱的时候怎么活.md) |
-| 彩礼、婚前房产、恋爱期间的大额转账算谁的，被人报案指控或捏造事实举报时第一步做什么，自己惹了事主动去说能减多少刑，事后能不能追究和索赔？ | [8. 法律与财产安全](book/08-别把自己搭进去.md) |
-| 哪些「兼职」和顺手的小事会让普通人变成刑事被告？ | [9. 普通人容易踩的法律红线](book/09-普通人容易踩的法律红线.md) |
-| 追人该广撒网还是死磕一个，异地恋能不能成，领证要带什么？ | [10. 恋爱和结婚划不划算](book/10-恋爱和结婚划不划算.md) |
-| 写哪些代码、接哪些单会被判刑？ | [11. 程序员和技术人容易踩的红线](book/11-程序员和技术人容易踩的红线.md) |
-| 借钱开店、开公司之前最该先想清楚什么？ | [12. 创业与做生意](book/12-创业与做生意.md) |
-| 有人倒地没了呼吸、大出血、火灾、迷路，先做什么？ | [13. 紧急情况：先做什么](book/13-紧急情况.md) |
-| 账号被盗、手机丢了，第一步做什么？ | [14. 账号与信息安全](book/14-账号与信息安全.md) |
-| 押金被扣、房东赶人、长租公寓暴雷怎么办？ | [15. 租房与买房](book/15-租房与买房.md) |
-| 确诊慢性病之后，长期该怎么管、怎么少花钱？ | [16. 得了慢性病之后怎么活](book/16-得了慢性病之后怎么活.md) |
-| 老人的监护、遗嘱和钱该怎么提前安排？ | [17. 家里有老人](book/17-家里有老人.md) |
-| 生孩子能领什么、要占掉多少时间和钱？ | [18. 养孩子划不划算](book/18-养孩子划不划算.md) |
-| 加班费、年休假该怎么算，被裁该拿多少补偿，上班受了伤怎么认定和拿钱？ | [19. 在职、离职和工伤](book/19-在职离职和工伤.md) |
-| 孩子刚出生，最要紧的几件事是什么？ | [20. 刚出生的孩子怎么带](book/20-刚出生的孩子怎么带.md) |
-| 哪些国家现在别去，出事了使领馆管到哪一步？ | [21. 出国、旅行与境外安全](book/21-出国旅行与境外安全.md) |
-| 去 KTV、网吧、密室怎么不踩坑，压力大时做什么最有用？ | [22. 怎么放松：娱乐场所和减压](book/22-怎么放松.md) |
-| 学电焊、学英语、考证，哪些真的回本，怎么学才省时间，职称从哪里报、值不值？ | [23. 学什么技能划算](book/23-学什么技能划算.md) |
-| 同一个病在社区看和在三级医院看差多少钱，伤得很重时是挂号排队还是找急诊分诊台，治完要不要做伤残鉴定、办残疾人证？ | [24. 看病：怎么少花钱少走弯路](book/24-看病.md) |
-| 家里人走了，当时先做什么、哪些钱能取回来、哪些费用可以不交？ | [25. 人走了以后要办什么](book/25-人走了以后要办什么.md) |
-| 做个网站或平台收钱，要办哪些证、服务器放哪？ | [26. 做一个网站或平台](book/26-做一个网站或平台.md) |
-| 怀孕了、要生了，什么时候做什么，出院前要办哪些证？ | [27. 怀孕和生产](book/27-怀孕和生产.md) |
-| 想减肥、想变好看，哪些做法会把身体搞坏？ | [28. 别为了外形把身体搞坏](book/28-别为了外形把身体搞坏.md) |
-| 亲人走了、被裁了、拿到重病诊断，头几个月最要紧的是什么？ | [29. 遭遇重大打击之后](book/29-遭遇重大打击之后.md) |
-| 孩子上学以后，哪些身体和心理的事不能等到考完再说？ | [30. 上学以后的孩子](book/30-上学以后的孩子.md) |
-| 十八岁之后除了读书和打工还有哪几条路，各自的门槛是什么？ | [31. 十八岁之后有哪几条路](book/31-十八岁之后有哪几条路.md) |
-| 出国留学，签证身份怎么才算没断，回国这张文凭认不认？ | [32. 出国留学：身份、打工、保险和回国认证](book/32-出国留学.md) |
-| 自己或者家人残疾了，先防住哪些并发症，能申请哪些补贴，上学就业和监护怎么办？ | [33. 残疾之后怎么活](book/33-残疾之后怎么活.md) |
-| 感冒药、退烧药、胃药自己买来吃，哪些不能一起吃，孩子、孕妇和老人要避开哪些？ | [34. 家里的常备药别吃出事](book/34-家里的常备药别吃出事.md) |
+| Welche Dinge senken die Wahrscheinlichkeit eines frühen Todes deutlich und kosten fast nichts? | [1. Nicht früh sterben](book/01-nicht-frueh-sterben.md) |
+| Wie viel Lebenszeit kosten Rauchen, Alkohol, langes Sitzen und späte Nächte wirklich, wie entwöhnst du dich konkret vom Rauchen und vom Alkohol, und welches Speiseöl nimmst du zu Hause und wie verwendest du es? | [2. Nicht langsam sterben](book/02-nicht-langsam-sterben.md) |
+| Dir geht jeden Tag die Kraft aus und du wirst ständig unterbrochen — was hilft? | [3. Keine Energie verschwenden](book/03-keine-energie-verschwenden.md) |
+| Wohin geht deine Zeit, wie machst du weniger Dinge ohne Ertrag, und was hilft gegen Aufschieben? | [4. Keine Zeit verschwenden](book/04-keine-zeit-verschwenden.md) |
+| Wie legst du dein Erspartes an, ohne dass Zinsen, Gebühren und Betrug es auffressen? | [5. Kein Geld verschwenden](book/05-kein-geld-verschwenden.md) |
+| Welche Nahrungsergänzungsmittel, Gesundheits-Checks und Abzockereien kannst du dir direkt sparen? | [6. Die Negativliste](book/06-die-negativliste.md) |
+| Arbeitslos, Lohn nicht gezahlt, kein Geld mehr — was steht dir zu, und wo bekommst du Hilfe? | [7. Leben ohne Geld](book/07-leben-ohne-geld.md) |
+| Wem gehört der Brautpreis, wem das vor der Ehe gekaufte Haus, wem eine große Überweisung während der Beziehung? Was tust du als Erstes, wenn jemand dich anzeigt oder dich mit erfundenen Tatsachen denunziert? Wie viel Strafminderung bringt es, wenn du nach einer eigenen Tat von selbst zur Polizei gehst? Und kannst du danach noch vorgehen und Schadenersatz verlangen? | [8. Lass dich nicht hereinziehen](book/08-lass-dich-nicht-hereinziehen.md) |
+| Welche „Nebenjobs" und beiläufigen Gefälligkeiten machen aus einem normalen Menschen einen Strafangeklagten? | [9. Rechtliche rote Linien](book/09-rechtliche-rote-linien.md) |
+| Beim Werben lieber breit streuen oder auf einen einzigen setzen? Kann eine Fernbeziehung halten? Und was bringst du zur Anmeldung der Ehe mit? | [10. Liebe und Heirat](book/10-liebe-und-ehe.md) |
+| Welcher Code und welche Aufträge bringen dich ins Gefängnis? | [11. Rote Linien für Techniker](book/11-rote-linien-fuer-techniker.md) |
+| Was musst du vor einem Kredit für einen Laden oder eine Firma zuerst klären? | [12. Gründen und Geschäft](book/12-gruenden-und-geschaeft.md) |
+| Jemand liegt ohne Atmung am Boden, starke Blutung, Feuer, verlaufen — was machst du zuerst? | [13. Notfälle](book/13-notfaelle.md) |
+| Konto gehackt, Handy verloren — was ist der erste Schritt? | [14. Konten und Informationssicherheit](book/14-konten-und-informationssicherheit.md) |
+| Kaution einbehalten, Vermieter wirft dich hinaus, der Anbieter von Langzeitmietwohnungen ist pleite — was nun? | [15. Mieten und Kaufen](book/15-mieten-und-kaufen.md) |
+| Nach der Diagnose einer chronischen Krankheit: Wie führst du sie langfristig, und wie gibst du weniger Geld aus? | [16. Leben mit chronischer Krankheit](book/16-leben-mit-chronischer-krankheit.md) |
+| Wie regelst du Vorsorgevollmacht, Testament und Geld für alte Menschen rechtzeitig? | [17. Alte Menschen in der Familie](book/17-alte-menschen-in-der-familie.md) |
+| Was steht dir bei einem Kind zu, und wie viel Zeit und Geld kostet es? | [18. Kinder großziehen](book/18-kinder-grossziehen.md) |
+| Wie werden Überstundenvergütung und Jahresurlaub berechnet, wie viel Abfindung bekommst du bei einer Kündigung, und wie wird ein Arbeitsunfall anerkannt und bezahlt? | [19. Arbeitsverhältnis und Arbeitsunfall](book/19-arbeitsverhaeltnis-und-arbeitsunfall.md) |
+| Ein Kind ist gerade geboren — was sind die wichtigsten Dinge? | [20. Neugeborene](book/20-neugeborene.md) |
+| Welche Länder solltest du derzeit meiden, und wie weit hilft dir die Botschaft, wenn etwas passiert? | [21. Ausland und Reisen](book/21-ausland-und-reisen.md) |
+| Wie gehst du in Karaoke-Bar, Internetcafé und Escape-Room nicht in die Falle, und was hilft am besten gegen Stress? | [22. Entspannen](book/22-entspannen.md) |
+| Schweißen lernen, Englisch lernen, Zertifikate machen — was bringt das Geld wirklich zurück, wie lernst du zeitsparend, und wo beantragst du einen Berufstitel und lohnt er sich? | [23. Welche Fähigkeiten sich lohnen](book/23-welche-faehigkeiten-sich-lohnen.md) |
+| Wie viel kostet dieselbe Krankheit in der Gemeindepraxis und im Klinikum der dritten Stufe? Bei einer schweren Verletzung: anstellen und Termin holen oder direkt zur Notaufnahme? Und brauchst du danach ein Behinderungsgutachten und einen Schwerbehindertenausweis? | [24. Arztbesuche](book/24-arztbesuche.md) |
+| Ein Angehöriger ist gestorben — was machst du zuerst, welches Geld kannst du abrufen, und welche Kosten musst du nicht zahlen? | [25. Nach dem Tod](book/25-nach-dem-tod.md) |
+| Eine Website oder Plattform, die Geld einnimmt: Welche Genehmigungen brauchst du, und wo steht der Server? | [26. Website oder Plattform](book/26-website-oder-plattform.md) |
+| Schwanger, kurz vor der Geburt — was ist wann zu tun, und welche Papiere brauchst du vor der Entlassung? | [27. Schwangerschaft und Geburt](book/27-schwangerschaft-und-geburt.md) |
+| Abnehmen oder besser aussehen — welche Methoden richten deinen Körper zugrunde? | [28. Nicht fürs Aussehen ruinieren](book/28-nicht-fuers-aussehen-ruinieren.md) |
+| Ein Angehöriger gestorben, entlassen worden, eine schwere Diagnose bekommen — was zählt in den ersten Monaten? | [29. Nach einem schweren Schlag](book/29-nach-einem-schweren-schlag.md) |
+| Was am Körper und an der Psyche eines Schulkindes darf nicht bis nach den Prüfungen warten? | [30. Schulkinder](book/30-schulkinder.md) |
+| Welche Wege gibt es nach achtzehn außer Studium und Arbeit, und welche Hürde hat jeder? | [31. Wege nach achtzehn](book/31-wege-nach-achtzehn.md) |
+| Auslandsstudium: Wann gilt dein Aufenthaltsstatus als unterbrochen, und wird der Abschluss zu Hause anerkannt? | [32. Studium im Ausland](book/32-studium-im-ausland.md) |
+| Du oder ein Angehöriger ist behindert — welche Folgeerkrankungen gilt es zuerst zu verhindern, welche Leistungen kannst du beantragen, und wie steht es mit Schule, Arbeit und Betreuung? | [33. Leben mit Behinderung](book/33-leben-mit-behinderung.md) |
+| Erkältungs-, Fieber- und Magenmittel selbst gekauft: Was darf nicht zusammen eingenommen werden, und was müssen Kinder, Schwangere und alte Menschen meiden? | [34. Hausapotheke](book/34-hausapotheke.md) |
 
-## 怎么读
+## Wie du dieses Buch liest
 
-- **不用全做**：这是一份按性价比排好的备选单，不是任务清单。挑走一两条就算数，剩下的放着，需要时再回来查。「说着容易做着难」这个评价是对的——作者自己也没做到其中大部分，写下来是为了要用的时候找得到。想挑省力的，看下面「只想看最值得做的」那条。
-- **想让 AI 帮你查**：仓库里带了一个中文 skill（[skills/life-decision-guide](skills/life-decision-guide/)），Claude Code 和 Codex 都能装。装上以后直接问「替朋友担保签不签」「每天通勤两小时值不值」。它会先把相关条目从正文里查出来，再照书里的算账方式排序回答，并注明出自第几节第几条。查不到就说查不到，不自己编数字。装法见 [那个目录的说明](skills/life-decision-guide/README.md)。
-- **想按条件挑**：打开[在线检索页](https://eternity4719.github.io/HowToLiveBetter/)，可以按关键词、章节、证据等级来筛，也可以按「花不花钱、花多少时间、要不要毅力」这三样筛，几个条件能叠着用。页面上的内容直接取自 book/ 目录里的正文，正文一改，页面跟着改。
-- **条目之间会互相指路**（「见第 8 节第 17 条」这种）：在检索页里，这种指路带一条虚线。点一下，就地显示被指的那条的标题和「说人话」。想真的翻过去，再按「跳过去」。那一条正好被筛选条件藏起来了，页面会自动把筛选清掉。在 GitHub 上直接读正文点不动，但每处指路后面都写着指向什么（「见第 18 条（借钱写清借条）」）。不翻过去也知道说的是哪条。
-- **想按顺序读**：每节内的条目按性价比从高到低排列，从每节前几条开始看就行。
-- **想离线看、想发给别人**：下载 [离线单文件 HTML](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.html)，整本书连同检索和筛选都在这一个文件里，双击就开，不用服务器也不用联网，微信里也能直接传。
-- **想打印或在手机上翻**：下载 [PDF](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.pdf)，A4 排版、两百多页，带目录页码和书签，每节另起一页。
-- **想在 Kindle 或其他阅读器上读**：下载 [EPUB 电子书](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.epub)，Kindle 用 Send to Kindle 发过去即可。
-- **三样都是正文每次更新后自动重新生成的**，下载链接固定不变；转发出去的那一份不会跟着更新，以在线版为准。
-- **看不懂那串数字**：每条都有一行「说人话」。它把「收益」栏里那些研究里的写法，翻成「同期死亡的概率低约两成」「拘留几日、罚多少钱」这样的日常说法。它只用「收益」栏已经写到的内容，不添新数字。只看这一行就够拿主意。「收益」栏里原样留着全部数字，想自己核对就看那一栏。
-- **只想看结论最硬的**：在检索页里勾选证据等级 A，只留下有具体数字、来自荟萃分析或大型试验的 420 条。
-- **只想看最值得做的**：勾选性价比「极高」，得到 108 条既不花钱、不花时间、不需要毅力，收益又落在最大一档的条目。再叠加一个「换回什么」，就是该口径下的优先清单。
-- **看到「不要」开头的节标题不用紧张**：节标题说的是这一节想防住的事（不要早死、不要浪费时间），不是说底下每条都在让你别干什么。真正要做的动作写在条目标题里，一律动词开头，自己就写清了是「做什么」还是「别做什么」。同一节里两种都有：第 4 节既有「把『打算做』写成『几点、在哪、遇到什么就做什么』」，也有「不看电视和滚动新闻」。按条目标题读，不用往节标题的语气上套。
+- **Du musst nicht alles umsetzen**: Das hier ist eine nach Kosten und Nutzen sortierte Vorschlagsliste, keine Aufgabenliste. Ein oder zwei Punkte herauszunehmen zählt schon, den Rest lässt du liegen und kommst zurück, wenn du ihn brauchst. Der Satz „leicht gesagt, schwer getan" stimmt — der Autor selbst befolgt die meisten davon nicht, aufgeschrieben ist es, damit du es findest, wenn du es brauchst. Wenn du wenig Kraft aufwenden willst, nimm den Punkt „Nur das, was sich am meisten lohnt" weiter unten.
+- **Die KI für dich nachschlagen lassen**: Im Repository liegt ein Skill ([skills/lebensentscheidungen](skills/lebensentscheidungen/)), er läuft in Claude Code und Codex. Danach fragst du direkt: „Soll ich für einen Freund bürgen?", „Lohnen sich zwei Stunden Pendeln am Tag?". Er sucht zuerst die passenden Einträge aus dem Text heraus, ordnet sie dann nach der Rechenweise des Buchs und sagt, aus welchem Abschnitt und welcher Nummer er sie hat. Findet er nichts, sagt er das, statt Zahlen zu erfinden. Die Installation steht in der [Anleitung in diesem Verzeichnis](skills/lebensentscheidungen/README.md).
+- **Nach Bedingungen auswählen**: Öffne die [Online-Suche](https://cagliostro.github.io/HowToLiveBetterInGermany/). Du kannst nach Stichwort, Abschnitt und Evidenzstufe filtern und ebenso nach „kostet es Geld, kostet es Zeit, braucht es Willenskraft". Mehrere Bedingungen lassen sich kombinieren. Die Inhalte der Seite kommen direkt aus dem Text im Verzeichnis book/, ändert sich der Text, ändert sich die Seite mit.
+- **Einträge verweisen aufeinander** („siehe Abschnitt 8, Nr. 17"): In der Suchseite hat so ein Verweis eine gestrichelte Linie. Ein Klick zeigt an Ort und Stelle den Titel des gemeinten Eintrags und seinen „Klartext". Willst du wirklich dorthin springen, drück auf „Dorthin springen". Ist der Eintrag gerade durch einen Filter verborgen, räumt die Seite den Filter selbst weg. Wenn du den Text direkt auf GitHub liest, lässt sich nichts anklicken, aber hinter jedem Verweis steht, worauf er zeigt („siehe Nr. 18 (Schuldschein beim Leihen ausfüllen)"). Du weißt also auch ohne Sprung, welcher Eintrag gemeint ist.
+- **Der Reihe nach lesen**: Innerhalb eines Abschnitts sind die Einträge vom besten Kosten-Nutzen-Verhältnis zum schwächsten sortiert. Fang mit den ersten paar Einträgen jedes Abschnitts an.
+- **Offline lesen oder weitergeben**: Lade die [Einzeldatei für offline (HTML)](https://github.com/Cagliostro/HowToLiveBetterInGermany/releases/download/epub-latest/LebeBesser.html). Das ganze Buch samt Suche und Filtern steckt in dieser einen Datei, ein Doppelklick öffnet sie, ohne Server und ohne Internet.
+- **Zum Drucken oder fürs Handy**: Lade das [PDF](https://github.com/Cagliostro/HowToLiveBetterInGermany/releases/download/epub-latest/LebeBesser.pdf). A4-Satz, über zweihundert Seiten, mit Seitenzahlen im Inhaltsverzeichnis und Lesezeichen, jeder Abschnitt beginnt auf einer neuen Seite.
+- **Auf dem Kindle oder einem anderen Lesegerät**: Lade das [EPUB](https://github.com/Cagliostro/HowToLiveBetterInGermany/releases/download/epub-latest/LebeBesser.epub). Beim Kindle schickst du es mit Send to Kindle hinüber.
+- **Alle drei werden nach jeder Textänderung automatisch neu erzeugt**, die Download-Links bleiben gleich. Eine weitergegebene Kopie wird aber nicht mit aktualisiert; maßgeblich ist die Online-Fassung.
+- **Die Zahlen verstehst du nicht**: Jeder Eintrag hat eine Zeile „Klartext". Sie übersetzt die Schreibweise der Forschung aus der Zeile „Nutzen" in Alltagssprache, in Sätze wie „die Wahrscheinlichkeit zu sterben war im gleichen Zeitraum um etwa ein Fünftel niedriger" oder „ein paar Tage Haft, eine Geldstrafe von so und so viel". Sie benutzt nur, was schon in der Zeile „Nutzen" steht, und erfindet keine Zahl dazu. Diese eine Zeile genügt für eine Entscheidung. Alle Zahlen bleiben unverändert in der Zeile „Nutzen" stehen, wenn du selbst nachrechnen willst.
+- **Nur die härtesten Belege**: Setz in der Suchseite den Haken bei Evidenzstufe A. Übrig bleiben die 420 Einträge mit konkreten Zahlen aus einer Metaanalyse oder einer großen Studie.
+- **Nur das, was sich am meisten lohnt**: Setz den Haken beim Kosten-Nutzen-Verhältnis „sehr hoch". Du bekommst die 108 Einträge, die kein Geld kosten, keine Zeit kosten, keine Willenskraft brauchen und deren Nutzen in der höchsten Stufe liegt. Kombinier das mit einer Bezugsgröße, und du hast die Vorrangliste für diese Bezugsgröße.
+- **Abschnittsüberschriften, die mit „Nicht" beginnen, sind kein Grund zur Sorge**: Die Überschrift nennt, was der Abschnitt verhindern will (nicht früh sterben, keine Zeit verschwenden), nicht, dass jeder Eintrag darunter dir etwas verbietet. Was tatsächlich zu tun ist, steht im Titel des Eintrags, der beginnt immer mit einem Verb und sagt selbst, ob du etwas tun oder lassen sollst. In einem Abschnitt kommt beides vor: Abschnitt 4 enthält „Aus ‚habe ich vor' wird ‚um welche Uhrzeit, wo, und was tue ich, wenn etwas dazwischenkommt'" und ebenso „Fernsehen und Nachrichten-Ticker weglassen". Lies nach dem Titel des Eintrags, nicht nach dem Ton der Abschnittsüberschrift.
 
-每条建议长这样：
+Jede Empfehlung sieht so aus:
 
 ```markdown
-### 5. 把家里的食盐换成低钠盐（钾盐）
-- 成本：一袋比普通盐贵几元。买的时候顺手换，不额外占时间。口味几乎不变。
-- 说人话：两万人的随机试验里，把家里的盐换成低钠盐的人，五年内死亡的概率低约 12%，中风低约 14%。这是随机分成两组比出来的，比只跟踪记录得到的数字更可信。
-- 收益：一项把人随机分成两组的试验，在中国农村做的，20995 人，都是得过卒中的人或者 60 岁以上的高血压病人，跟踪了 4.74 年。结果：用低钠盐的那组比用普通盐的那组，死亡风险低约 12%（RR 0.88）。卒中低约 14%（RR 0.86）。主要心血管事件低约 13%（RR 0.87）。
-- 证据等级：A
-- 来源：Neal B 等 (2021). Effect of Salt Substitution on Cardiovascular Events and Death. NEJM. https://doi.org/10.1056/NEJMoa2105675
-- 备注：争议。试验对象是高危老人，健康年轻人换盐得到的好处要小得多。肾功能不全的人，或者正在吃保钾类药物的人，换盐前先问医生。
+### 5. Das Speisesalz zu Hause durch natriumreduziertes Salz ersetzen (Kaliumsalz)
+- Kosten: Ein Paket kostet ein paar 元 mehr als normales Salz. Beim Einkauf nebenbei mitnehmen, es kostet keine zusätzliche Zeit. Der Geschmack ändert sich kaum.
+- Klartext: In einer randomisierten Studie mit zwanzigtausend Menschen war bei denen, die das Salz zu Hause umgestellt hatten, die Wahrscheinlichkeit zu sterben binnen fünf Jahren um etwa 12 % niedriger und die Wahrscheinlichkeit eines Schlaganfalls um etwa 14 %. Das ist ein Vergleich zweier per Los geteilter Gruppen und damit verlässlicher als eine reine Beobachtung.
+- Nutzen: Eine Studie, die Menschen per Los in zwei Gruppen teilte, durchgeführt im ländlichen China, 20995 Menschen, alle hatten schon einen Schlaganfall erlitten oder waren über 60 mit Bluthochdruck, beobachtet über 4,74 Jahre. Ergebnis: Die Gruppe mit dem natriumreduzierten Salz hatte ein um etwa 12 % niedrigeres Sterberisiko (RR 0,88). Schlaganfall etwa 14 % niedriger (RR 0,86). Schwere Herz-Kreislauf-Ereignisse etwa 13 % niedriger (RR 0,87).
+- Evidenzstufe: A
+- Quellen: Neal B et al. (2021). Effect of Salt Substitution on Cardiovascular Events and Death. NEJM. https://doi.org/10.1056/NEJMoa2105675
+- Anmerkung: Streitfall. Die Studienteilnehmer waren ältere Menschen mit hohem Risiko, bei gesunden jüngeren Menschen fällt der Nutzen des Salzwechsels viel kleiner aus. Wer eine eingeschränkte Nierenfunktion hat oder kaliumsparende Medikamente nimmt, fragt vor dem Salzwechsel den Arzt.
 ```
 
-## 自己跑一份
+## Selbst betreiben
 
-多数人用不着部署：[在线检索页](https://eternity4719.github.io/HowToLiveBetter/)是现成的，要离线就下[离线单文件 HTML](https://github.com/eternity4719/HowToLiveBetter/releases/download/epub-latest/HowToLiveBetter.html)，双击就开。
+Die meisten brauchen keine eigene Installation: Die [Online-Suche](https://cagliostro.github.io/HowToLiveBetterInGermany/) ist fertig, für offline lädst du die [Einzeldatei (HTML)](https://github.com/Cagliostro/HowToLiveBetterInGermany/releases/download/epub-latest/LebeBesser.html), ein Doppelklick öffnet sie.
 
-真要在自己电脑或服务器上跑：
+Wenn du es wirklich auf dem eigenen Rechner oder Server laufen lassen willst:
 
 ```bash
-git clone https://github.com/eternity4719/HowToLiveBetter.git
-cd HowToLiveBetter
+git clone https://github.com/Cagliostro/HowToLiveBetterInGermany.git
+cd HowToLiveBetterInGermany
 python -m http.server 8000
 ```
 
-然后浏览器开 `http://localhost:8000/`。检索页是纯静态的，`README.md` 和 `book/` 就是它的数据，没有后端、没有数据库、不用装依赖；把整个目录丢给任何静态服务器（Nginx、GitHub Pages、对象存储）效果一样。注意 `index.html` 必须经 http 打开，直接双击本地文件会空白——浏览器不许网页读本地文件，那种场景请用上面的离线单文件版。
+Dann öffne im Browser `http://localhost:8000/`. Die Suchseite ist rein statisch, `README.md` und `book/` sind ihre Daten, es gibt kein Backend, keine Datenbank und keine Abhängigkeiten zum Installieren. Wirfst du das ganze Verzeichnis auf einen beliebigen statischen Server (Nginx, GitHub Pages, Objektspeicher), ist der Effekt derselbe. Achtung: `index.html` muss über http geöffnet werden, ein Doppelklick auf die lokale Datei bleibt weiß — der Browser erlaubt einer Seite nicht, lokale Dateien zu lesen. Nimm für diesen Fall die Einzeldatei für offline.
 
-想自己生成三样电子版（平时用不着，Release 里的就是自动生成的）：
+Wenn du die drei elektronischen Fassungen selbst erzeugen willst (normalerweise nicht nötig, im Release liegen sie fertig):
 
 ```bash
 cd tools/epub && npm ci && npm run build   # EPUB
-node tools/offline/build.mjs               # 离线单文件 HTML
-node tools/pdf/build.mjs                   # PDF，另需 pandoc ≥ 3.1 和 typst ≥ 0.13
+node tools/offline/build.mjs               # Einzeldatei für offline (HTML)
+node tools/pdf/build.mjs                   # PDF, zusätzlich pandoc ≥ 3.1 und typst ≥ 0.13 nötig
 ```
 
-产物都在 `dist/`。
+Die Ergebnisse landen in `dist/`.
 
-## 四种资源
+## Vier Ressourcen
 
-这本书想帮你多留住的不只是寿命，一共四样东西：
+Dieses Buch will dir nicht nur Lebenszeit erhalten, sondern insgesamt vier Dinge:
 
-- **寿命**：活得更久，少死于本来可以避免的事
-- **时间与精力**：活着的时间不花在没有回报的事上，每天的注意力和体力少被白白耗掉
-- **金钱**：少花冤枉钱，把钱花在收益确定的地方
-- **人身自由**：不因为不知道一条红线，把自己送进拘留所或者看守所
+- **Lebenszeit**: länger leben, seltener an etwas sterben, das sich vermeiden ließ
+- **Zeit und Kraft**: die Lebenszeit nicht für Dinge ohne Ertrag verbrauchen, Aufmerksamkeit und Kraft des Tages nicht nutzlos verpuffen lassen
+- **Geld**: kein Geld unnötig ausgeben, es dort einsetzen, wo der Ertrag sicher ist
+- **Persönliche Freiheit**: sich nicht wegen einer roten Linie, die du nicht kanntest, in einer Ausnüchterungszelle oder Untersuchungshaft wiederfinden
 
-每一条建议都回答两个问题：要花掉什么（钱/时间/精力/毅力），能换回什么（总死亡率变化 / 特定死因下降 / 时间与精力节省 / 金钱节省 / 保障与人身自由）。条目按性价比排，不按类别排：几乎不花什么成本、换回的好处又大的，放在最前面。
+Jede Empfehlung beantwortet zwei Fragen: Was kostet sie (Geld, Zeit, Kraft, Willenskraft), und was bringt sie (Veränderung der Gesamtsterblichkeit, Rückgang einer bestimmten Todesursache, gesparte Zeit und Kraft, gespartes Geld, Absicherung und persönliche Freiheit). Die Einträge sind nach Kosten-Nutzen-Verhältnis geordnet, nicht nach Kategorie: Was fast nichts kostet und viel bringt, steht vorn.
 
-**一条建议的好处落在谁身上，是分档的。** 按「这份好处将来有多大可能回到你自己身上」从高到低：① **你自己**；② **配偶和直系亲属**（父母、子女、祖父母外祖父母、孙子女外孙子女）；③ **朋友、同事和其他亲属**——互惠关系，帮出去的将来可能回来；④ **陌生人**——最低一档，但不是零：回报的概率小，而且你不了解对方性格，还有被讹、被反咬、被报复的一面。不同档不合并计算，写到第 ④ 档时好处和风险一起写。
+**Wem der Nutzen einer Empfehlung zugutekommt, ist in Stufen geteilt.** Nach der Frage „wie wahrscheinlich fällt dieser Nutzen später auf dich selbst zurück", von hoch nach niedrig: ① **dir selbst**; ② **Ehepartner und direkte Angehörige** (Eltern, Kinder, Großeltern, Enkel); ③ **Freunde, Kollegen und übrige Verwandte** — eine Wechselbeziehung, was du gibst, kann zurückkommen; ④ **Fremde** — die niedrigste Stufe, aber nicht null: die Wahrscheinlichkeit einer Gegenleistung ist klein, du kennst den Charakter des anderen nicht, und es gibt die Kehrseite, hereingelegt, beschuldigt oder bedroht zu werden. Die Stufen werden nicht zusammengerechnet; bei Stufe ④ stehen Nutzen und Risiko zusammen.
 
-急救那一节照这个读：中国 38,227 例院外心脏骤停里 79.2% 发生在家里，学按压首先是为了按在自家人身上；「看到有人溺水自己不下水」「撞见斗殴别上手拉架」这类规则本身就是自保规则，防的是你从旁观者变成第二个伤者。对陌生人要不要出手是你自己的权衡，条目会把免责条款、自保动作和风险面都写清楚，不替你把它算成非做不可的理由。
+Den Abschnitt über Erste Hilfe liest du nach dieser Regel: Von 38.227 Herzstillständen außerhalb des Krankenhauses in China ereigneten sich 79,2 % zu Hause. Herzdruckmassage lernst du zuerst, um sie an den eigenen Leuten anzuwenden. Regeln wie „spring nicht selbst hinterher, wenn jemand ertrinkt" und „geh nicht dazwischen, wenn du auf eine Schlägerei stößt" sind selbst Regeln der Selbstsicherung: Sie verhindern, dass du vom Zuschauer zum zweiten Verletzten wirst. Ob du bei Fremden eingreifst, wägst du selbst ab; die Einträge schreiben Haftungsausschlüsse, Selbstschutz und die Risikoseite aus, statt dir daraus eine Pflicht zu rechnen.
 
-死亡率的数字、时间精力的数字、金钱的数字和法律后果，各算各的，不互相折算。这四样对应检索页上那四个「换回什么」，彼此之间不比大小。
+Die Zahlen zur Sterblichkeit, die Zahlen zu Zeit und Kraft, die Zahlen zum Geld und die rechtlichen Folgen werden getrennt gerechnet und nicht ineinander umgerechnet. Sie entsprechen den vier Bezugsgrößen in der Suchseite, und keine ist größer als die andere.
 
-## 证据分级
+## Evidenzstufen
 
-每条建议都标注证据等级：
+Jede Empfehlung trägt eine Evidenzstufe:
 
-| 等级 | 含义 |
+| Stufe | Bedeutung |
 | --- | --- |
-| A | 有具体数字可查，出处是多项研究合并起来的荟萃分析、跟踪很多人很多年的大型队列，或者随机分组的试验（RCT），能说出降了多少（HR、RR、下降百分比） |
-| B | 有研究支持，但说不出一个确切数字；或者只有小样本、单独一项研究撑着 |
-| C | 作者自己的经验，或者大家公认的做法，没有直接的研究文献 |
+| A | Es gibt eine konkrete Zahl zum Nachschlagen, die Quelle ist eine Metaanalyse mehrerer zusammengefasster Studien, eine große Kohorte über viele Jahre oder eine randomisierte kontrollierte Studie (RCT), und es lässt sich sagen, um wie viel gesenkt wurde (HR, RR, Prozentangabe) |
+| B | Es gibt Studien, aber keine genaue Zahl; oder es trägt nur eine kleine Stichprobe bzw. eine einzelne Studie |
+| C | Die Erfahrung des Autors oder eine allgemein anerkannte Praxis, ohne direkte Fachliteratur |
 
-全书 630 条中 A 级 420 条、B 级 159 条、C 级 51 条，另有 58 条标注了争议、35 处标注了 TODO 待核实。有争议的 A/B 级条目会标注「争议」并列出反方证据。所有来源只引原始文献（期刊论文附 DOI 或 PubMed 链接，或 WHO/CDC/国家统计局等官方机构报告），不引二手转述。不确定的数字标「待核实」。
+Von den 630 Empfehlungen des Buchs haben 420 die Stufe A, 159 die Stufe B und 51 die Stufe C. Weitere 58 sind als Streitfall markiert, 35 Stellen als TODO noch zu prüfen. Streitige A- und B-Einträge sind mit „Streitfall" markiert und führen die Gegenevidenz auf. Alle Quellen sind Originalarbeiten (Fachaufsätze mit DOI- oder PubMed-Link, oder Berichte amtlicher Stellen wie WHO, CDC, Staatliches Statistikamt), keine Wiedergabe aus zweiter Hand. Unsichere Zahlen sind mit „noch zu prüfen" markiert.
 
-## 性价比档
+## Kosten-Nutzen-Stufen
 
-证据等级只回答「这个数字可不可信」，不回答「这件事值不值得做」。所以每条还另外标了两样：收益量级（好处有多大）和口径（换回的是哪一类东西）。检索页拿这两样加上三项成本，合出一个性价比档：
+Die Evidenzstufe beantwortet nur „ist diese Zahl glaubwürdig", nicht „lohnt sich diese Sache". Deshalb trägt jeder Eintrag zusätzlich zwei Angaben: die Höhe des Nutzens (wie groß der Vorteil ist) und die Bezugsgröße (welche Art von Sache zurückkommt). Die Suchseite fügt beide mit den drei Kostenangaben zu einer Kosten-Nutzen-Stufe zusammen:
 
-| 维度 | 取值 | 怎么定的 |
+| Dimension | Werte | Wie sie festgelegt wird |
 | --- | --- | --- |
-| 口径 | 换寿命 / 换钱 / 换时间精力 / 换人身自由 | 看这条主要换回的是什么。**不同口径之间不做比较**，「总死亡率降 12%」和「每年省 500 元」不在一把尺子上，没法分高下 |
-| 收益量级 | 大 / 中 / 小 | 尽量照着条目自己的「收益」栏，按事先定好的界线套，不凭感觉：换寿命看降了百分之几（≥20% 为大，10–20% 为中，<10%、或者只量到中间指标而没量到最终结果的为小）；换钱看金额（万元级为大，数百到数千为中，几十元为小）；换人身自由看后果（避免刑事责任为大，避免拘留或行政处罚为中，避免民事纠纷为小）；换时间精力看省下多少（每天省出小时级为大，每周小时级为中，只省一次的为小） |
-| 性价比 | 极高 / 高 / 一般 | 好处大、三项成本又全是零 = 极高；好处大、成本不高，或者好处中等、成本为零 = 高；剩下的 = 一般 |
+| Bezugsgröße | Lebenszeit / Geld / Zeit und Kraft / persönliche Freiheit | Wonach der Eintrag hauptsächlich zurückzahlt. **Verschiedene Bezugsgrößen werden nicht verglichen**, „Gesamtsterblichkeit 12 % niedriger" und „500 元 im Jahr gespart" liegen nicht auf demselben Lineal und lassen sich nicht gegeneinander aufrechnen |
+| Höhe des Nutzens | hoch / mittel / niedrig | Möglichst nach der Zeile „Nutzen" des Eintrags selbst, nach vorher festgelegten Grenzen, nicht nach Gefühl: bei Lebenszeit der Rückgang in Prozent (≥20 % hoch, 10–20 % mittel, <10 % oder nur ein Zwischenwert statt des Endergebnisses niedrig); bei Geld der Betrag (zehntausend 元 hoch, einige hundert bis einige tausend 元 mittel, einige zehn 元 niedrig); bei persönlicher Freiheit die Folge (Strafrecht vermieden hoch, Haft oder Verwaltungsstrafe vermieden mittel, Zivilstreit vermieden niedrig); bei Zeit und Kraft das Gesparte (stundenweise pro Tag hoch, stundenweise pro Woche mittel, nur einmalig niedrig) |
+| Kosten-Nutzen-Verhältnis | sehr hoch / hoch / mittel | großer Nutzen und alle drei Kosten auf null = sehr hoch; großer Nutzen und niedrige Kosten, oder mittlerer Nutzen und Kosten null = hoch; der Rest = mittel |
 
-全书 630 条中性价比极高 108 条（17%）、高 288 条（46%）、一般 234 条（37%）。中间那档条数多是有意的：底下的收益量级本来就只分大、中、小三级，再往细里切就是装出来的精确。
+Von den 630 Empfehlungen des Buchs haben 108 ein sehr hohes Kosten-Nutzen-Verhältnis (17 %), 288 ein hohes (46 %) und 234 ein mittleres (37 %). Dass die mittlere Stufe so viele Einträge hat, ist Absicht: Die Höhe des Nutzens darunter ist ohnehin nur in hoch, mittel und niedrig geteilt, feiner zu unterteilen wäre vorgetäuschte Genauigkeit.
 
-**这一档是作者自己的判断，不是证据**，按本书的标准它本身只算 C 级；它和证据等级是两回事，谁也不影响谁。一条可以证据是 A 级、性价比却只算一般（带状疱疹疫苗有 97.2% 效力的三期 RCT，但两针三四千元、带状疱疹很少致命），也可以证据只有 C 级、性价比却极高（出境前把行程发给家人）。「一般」不等于不该做——全书的条目都是建议做的，只是这一档得你自己掂量那笔花销值不值。
+**Diese Stufe ist die Einschätzung des Autors, keine Evidenz**, nach den Maßstäben des Buchs zählt sie selbst nur als Stufe C. Sie und die Evidenzstufe sind zwei verschiedene Dinge, und keine beeinflusst die andere. Ein Eintrag kann Evidenzstufe A haben und das Kosten-Nutzen-Verhältnis trotzdem nur mittel (die Gürtelrose-Impfung hat eine Phase-III-RCT mit 97,2 % Wirksamkeit, aber zwei Spritzen kosten drei- bis viertausend 元 und Gürtelrose ist selten tödlich). Ebenso kann ein Eintrag nur Stufe C haben und das Verhältnis sehr hoch (die Reiseroute vor der Ausreise an die Familie schicken). „Mittel" heißt nicht, dass du es nicht tun solltest — alle Einträge des Buchs sind zur Umsetzung gedacht, nur diese Stufe heißt, dass du selbst abwägen musst, ob der Aufwand es wert ist.
 
-## 读懂数字（术语表）
+## Die Zahlen verstehen (Glossar)
 
-正文尽量用日常说法，但引用研究的时候免不了出现几个统计名词。看不懂就查这张表；在线检索页里，把鼠标停在带虚线的词上（手机上点一下）也会弹出解释。
+Der Text verwendet möglichst Alltagssprache, aber beim Zitieren von Studien kommen ein paar statistische Begriffe vor. Wenn du sie nicht verstehst, schlag in dieser Tabelle nach. In der Online-Suche zeigt ein Verweilen über einem gestrichelten Wort (auf dem Handy ein Tippen) die Erklärung an.
 
 <details>
-<summary>展开 41 条术语（总死亡率、HR、RR、95% CI、荟萃分析、BMI、LPR、定金与订金……）</summary>
+<summary>41 Begriffe aufklappen (Gesamtsterblichkeit, HR, RR, 95 %-KI, Metaanalyse, BMI, LPR, Anzahlung und Draufgabe …)</summary>
 
-| 术语 | 意思 |
+| Begriff | Bedeutung |
 | --- | --- |
-| 总死亡率 | 一段时间里，一群人当中死掉的人占多大比例，不管死于什么原因。本书用它衡量「活得久不久」。研究原文里叫全因死亡率，英文缩写 ACM |
-| HR | 风险比。同样一段时间里，做了某件事的那组人出事（死亡、得病）的快慢，除以没做的那组。HR 0.87 就是比没做的那组低 13%，HR 1.21 就是高 21% |
-| RR | 相对风险。两组人出事的可能性之比，数字怎么读和 HR 一样 |
-| OR | 比值比。也是两组的对比，只是算法和 RR 略有不同：要比的那件事很少见时，它和 RR 差不多；那件事很常见时，它会把差距说得比实际大 |
-| IRR | 发病率之比。发病率是一段时间里新得这个病的人占多大比例，两组相除，读法同 RR |
-| RaR | 发生次数之比。比的是事情发生了多少次（比如摔了多少跤），不是多少人出事，读法同 RR |
-| 标准化死亡比 | 英文缩写 SMR。这群人实际死了多少人，除以「同样年龄的普通人本该死多少人」。5.86 就是死的人数是同龄人的 5.86 倍 |
-| 风险差 | 两组出事的概率相减，直接得出「每一千人里多出几个」。倍数只说翻了几倍，风险差说的是实实在在多了多少人 |
-| 95% CI | 95% 置信区间。研究算出的数字总有误差，这是真实情况很可能落在的范围。倍数类的数字，范围跨过了 1；加减类的数字，范围跨过了 0，就说明两组的差别可能只是碰巧，文中会写「无统计学意义」 |
-| RCT | 随机对照试验。用抽签一样的办法把人分成两组，一组做这件事，一组不做，过后比结果差多少。要证明「是这件事起了作用」，这种做法最有说服力 |
-| 荟萃分析 | 把很多项研究的结果凑到一起重新算，得出一个总的数字。也叫 meta 分析 |
-| 队列 | 队列研究。挑一大群人跟踪很多年，记录谁出了事。能看出两件事常一起出现，但不足以证明是前一件造成了后一件 |
-| 观察性 | 观察性研究。研究者只在旁边记录，不安排谁做、谁不做。结果容易被别的因素带偏（见本表的混杂、反向因果两条），数字要打点折看 |
-| 混杂 | 有第三个因素同时牵动着前因和后果，让两件事看起来像有因果。比如爱吃菜的人往往也更爱运动，分不清是哪一样在起作用 |
-| 反向因果 | 因果的方向弄反了：看着像前一件引起后一件，其实是后一件引起前一件。不是睡得多让人早死，而是病重的人睡得多 |
-| d、g | 效应量，表示两组的差距有多大。把差距换算成「相当于几倍的常见波动幅度」：0.2 算小，0.5 中等，0.8 大 |
-| r | 相关系数。两件事跟着一起变的紧密程度，取值从 -1 到 1，0.1 算弱、0.3 中等、0.5 算强 |
-| MET | 运动强度的单位。安静坐着是 1 MET，快走约 3 到 4 MET。写成 MET·h，就是强度乘以做了几小时，表示一共动了多少 |
-| GRADE | 国际上通用的一套打分办法，给一项证据有多可靠评级，分高、中、低、极低四档 |
-| 意向筛查分析 | 算效果时按「通知了谁去做筛查」算，不按「谁真的去做了」算。被通知的人里总有没去的，所以这种算法会把筛查对真去做的人的好处算低 |
-| 包年 | 统计一个人一共抽了多少烟的单位。每天抽几包乘以抽了几年，30 包年就是每天一包抽了 30 年 |
-| BMI | 体重指数，看胖瘦常用的一个数：体重的公斤数，除以身高米数的平方 |
-| LDL | 低密度脂蛋白胆固醇，俗称坏胆固醇 |
-| eGFR | 估算肾小球滤过率，衡量肾脏过滤能力的一项指标，单位 mL/min/1.73 m²。数越低说明肾功能越差，慢性肾病分几期就按它定 |
-| HBsAg | 乙肝表面抗原，化验单上的一项。结果是阳性，表示已经感染了乙肝病毒 |
-| HPV | 人乳头瘤病毒。它分很多型，其中一部分型长期感染会导致宫颈癌 |
-| LDCT | 低剂量胸部 CT，辐射量约为普通 CT 的五分之一到十分之一 |
-| PM2.5 | 飘在空气里的细颗粒物，直径在 2.5 微米以下 |
-| NOVA | 一种给食品分类的办法，按加工得有多厉害分成四类，「超加工食品」就是其中的第四类 |
-| LPR | 贷款市场报价利率。国内贷款利率的基准，每月 20 日公布一次，房贷利率和民间借贷的利息上限都照着它算 |
-| 一裁终局 | 劳动仲裁的结果下来就直接生效，单位不能再拿这件事去法院起诉 |
-| 粗结婚率、粗离婚率 | 每一千人里，当年登记结婚、登记离婚的对数。另外还有个数叫离结比，是当年离婚对数除以结婚对数，和这两个不是一回事，别混着看 |
-| AED | 自动体外除颤器。公共场所常见的红色或黄色急救箱，开机以后跟着语音提示做就行，要不要电击由它自己判断 |
-| CPR | 心肺复苏。心脏骤停时用力按压胸口，让血继续流动 |
-| 3C 认证 | 中国强制性产品认证。列进目录的那些产品，没印这个标志就不准出厂、不准卖 |
-| ICP 备案 | 网站或 App 正式上线之前，到工信部的系统里登记一道手续 |
-| 等级保护 | 网络安全等级保护制度。按一套系统有多重要分成几个级别，级别越高，要做的安全措施越多 |
-| GPL | 一种开源许可证。用了这类代码做出来的东西，往外发的时候通常也得把自己的代码一起公开 |
-| 竞业限制 | 和公司签的一种约定：离职后一段时间内不去同行的对手那里上班。这段时间公司要按月给你补偿，最长 2 年 |
-| 认缴出资 | 注册公司时承诺要投进去的钱。承诺了就得在法律定的期限内真掏出来，不是写个数字好看 |
-| 定金与订金 | 两个词只差一个字，效力差很多：定金有罚则，收钱的一方反悔要双倍退还，金额最多为合同额的 20%；订金只是提前付的钱，反悔没有这个罚则 |
+| Gesamtsterblichkeit | Der Anteil der Menschen, die in einem Zeitraum aus einer Gruppe sterben, unabhängig von der Todesursache. Das Buch misst damit „wie lange du lebst". In der Fachliteratur heißt sie All-Cause-Mortality, Abkürzung ACM |
+| HR | Hazard Ratio, Risikoverhältnis. Wie schnell die Gruppe, die etwas getan hat, im selben Zeitraum ein Ereignis erleidet (Tod, Krankheit), geteilt durch die Gruppe, die es nicht getan hat. HR 0,87 heißt 13 % niedriger als die andere Gruppe, HR 1,21 heißt 21 % höher |
+| RR | Relatives Risiko. Das Verhältnis der Ereigniswahrscheinlichkeit zweier Gruppen, die Zahl liest sich wie beim HR |
+| OR | Odds Ratio, Quotenverhältnis. Ebenfalls ein Vergleich zweier Gruppen, nur anders gerechnet als das RR: Ist das untersuchte Ereignis selten, liegt es nahe beim RR; ist es häufig, übertreibt es den Unterschied |
+| IRR | Inzidenzraten-Verhältnis. Die Inzidenzrate ist der Anteil neu Erkrankter in einem Zeitraum, zwei davon geteilt, liest sich wie das RR |
+| RaR | Ratenverhältnis. Verglichen wird, wie oft etwas passiert ist (etwa wie oft jemand gestürzt ist), nicht wie viele Menschen betroffen waren. Liest sich wie das RR |
+| SMR | Standardisierte Mortalitätsratio. Wie viele Menschen dieser Gruppe tatsächlich starben, geteilt durch „wie viele gleichaltrige Durchschnittsmenschen hätten sterben müssen". 5,86 heißt, es starben 5,86-mal so viele wie unter Gleichaltrigen |
+| Risikodifferenz | Die Ereigniswahrscheinlichkeiten zweier Gruppen voneinander abgezogen, das ergibt direkt „wie viele mehr pro tausend Menschen". Ein Faktor sagt nur, um wie viel mal mehr, die Risikodifferenz sagt, wie viele Menschen es konkret mehr sind |
+| 95 %-KI | Das 95-%-Konfidenzintervall. Eine errechnete Zahl hat immer einen Fehler, das ist der Bereich, in dem die wahre Lage sehr wahrscheinlich liegt. Bei Verhältniszahlen, deren Bereich die 1 einschließt, bei additiven Zahlen, deren Bereich die 0 einschließt, kann der Unterschied zwischen den Gruppen auch nur Zufall sein; der Text schreibt dann „nicht statistisch signifikant" |
+| RCT | Randomisierte kontrollierte Studie. Die Menschen werden wie durch Los in zwei Gruppen geteilt, eine tut die Sache, die andere nicht, danach wird der Unterschied der Ergebnisse verglichen. Um zu belegen, „dass diese Sache gewirkt hat", ist das die überzeugendste Methode |
+| Metaanalyse | Die Ergebnisse vieler Studien werden zusammengeführt und neu gerechnet, das ergibt eine Gesamtzahl. Auch meta-Analyse genannt |
+| Kohorte | Kohortenstudie. Eine große Gruppe wird über viele Jahre begleitet und festgehalten, wer ein Ereignis erleidet. Man sieht, dass zwei Dinge oft zusammen auftreten, aber es beweist nicht, dass das eine das andere verursacht hat |
+| Beobachtungsstudie | Die Forscher schreiben nur mit, sie legen nicht fest, wer etwas tut und wer nicht. Das Ergebnis wird leicht von anderen Faktoren verzerrt (siehe die Einträge Störfaktor und umgekehrte Kausalität in dieser Tabelle), die Zahl ist mit Abzug zu lesen |
+| Störfaktor | Ein dritter Faktor bewegt Ursache und Folge zugleich und lässt zwei Dinge wie Ursache und Wirkung aussehen. Wer gern Gemüse isst, bewegt sich oft auch mehr, und man kann nicht trennen, was gewirkt hat |
+| Umgekehrte Kausalität | Die Richtung der Ursache ist vertauscht: Es sieht aus, als hätte das eine das andere ausgelöst, in Wahrheit war es umgekehrt. Nicht viel Schlaf lässt Menschen früh sterben, sondern schwer kranke Menschen schlafen viel |
+| d, g | Effektstärke, sie gibt an, wie groß der Abstand zweier Gruppen ist. Umgerechnet in „wie viele übliche Schwankungsbreiten ist der Abstand": 0,2 gilt als klein, 0,5 als mittel, 0,8 als groß |
+| r | Korrelationskoeffizient. Wie eng zwei Dinge sich gemeinsam verändern, von -1 bis 1; 0,1 gilt als schwach, 0,3 als mittel, 0,5 als stark |
+| MET | Einheit der Bewegungsintensität. Ruhiges Sitzen ist 1 MET, zügiges Gehen etwa 3 bis 4 MET. Als MET·h geschrieben ist es die Intensität mal die Stunden, also wie viel Bewegung es insgesamt war |
+| GRADE | Ein international verbreitetes Bewertungsschema, das einer Evidenz eine Zuverlässigkeit gibt, in den vier Stufen hoch, mittel, niedrig, sehr niedrig |
+| Intention-to-Screen-Analyse | Die Wirkung wird danach gerechnet, „wen man zur Untersuchung eingeladen hat", nicht danach, „wer wirklich hingegangen ist". Unter den Eingeladenen sind immer welche, die nicht gingen, deshalb rechnet diese Methode den Nutzen der Untersuchung für die tatsächlich Gegangenen zu niedrig |
+| Packungsjahre | Eine Einheit dafür, wie viel jemand insgesamt geraucht hat. Packungen pro Tag mal die Jahre: 30 Packungsjahre heißt eine Packung am Tag über 30 Jahre |
+| BMI | Body-Mass-Index, die gebräuchliche Zahl für Über- und Untergewicht: das Gewicht in Kilogramm geteilt durch die Körpergröße in Metern zum Quadrat |
+| LDL | Lipoprotein niedriger Dichte, umgangssprachlich das schlechte Cholesterin |
+| eGFR | Geschätzte glomeruläre Filtrationsrate, ein Maß für die Filterleistung der Niere, Einheit mL/min/1,73 m². Je niedriger, desto schlechter die Nierenfunktion; nach ihr wird die chronische Nierenerkrankung in Stadien eingeteilt |
+| HBsAg | Hepatitis-B-Oberflächenantigen, ein Wert auf dem Laborblatt. Ein positives Ergebnis heißt, das Hepatitis-B-Virus ist vorhanden |
+| HPV | Humane Papillomviren. Es gibt viele Typen, ein Teil davon führt bei lange andauernder Infektion zu Gebärmutterhalskrebs |
+| LDCT | Niedrigdosis-CT der Lunge, die Strahlendosis liegt bei etwa einem Fünftel bis einem Zehntel eines normalen CT |
+| PM2.5 | Feine Schwebeteilchen in der Luft mit einem Durchmesser unter 2,5 Mikrometern |
+| NOVA | Ein Verfahren, Lebensmittel einzuteilen, nach dem Grad der Verarbeitung in vier Gruppen; „hochverarbeitete Lebensmittel" sind die vierte davon |
+| LPR | Loan Prime Rate, der Referenzzinssatz für Kredite in China. Er wird am 20. jedes Monats bekanntgegeben; der Hypothekenzins und die Obergrenze für Zinsen privater Darlehen richten sich nach ihm |
+| Endgültigkeit nach einer Schlichtung | Das Ergebnis der arbeitsrechtlichen Schlichtung gilt sofort, die Gegenseite kann in dieser Sache nicht mehr vor Gericht ziehen |
+| Rohe Heiratsziffer, rohe Scheidungsziffer | Wie viele Ehen pro tausend Menschen im Jahr geschlossen und geschieden wurden. Es gibt außerdem eine Zahl namens Scheidungs-Heirats-Verhältnis, die geschiedenen geteilt durch die geschlossenen Ehen des Jahres; das ist etwas anderes, verwechsle es nicht damit |
+| AED | Automatisierter externer Defibrillator. Der rote oder gelbe Notfallkasten an öffentlichen Orten; nach dem Einschalten folgst du einfach den Sprachansagen, ob ein Schock nötig ist, entscheidet er selbst |
+| CPR | Herz-Lungen-Wiederbelebung. Bei einem Herzstillstand wird der Brustkorb kräftig gedrückt, damit das Blut weiterfließt |
+| 3C-Zertifizierung | Die chinesische Pflichtzertifizierung für Produkte. Was im Verzeichnis steht, darf ohne dieses Zeichen nicht das Werk verlassen und nicht verkauft werden |
+| ICP-Registrierung | Eine Registrierung im System des Ministeriums für Industrie und Informationstechnik, bevor eine Website oder App offiziell startet |
+| Cybersicherheitseinstufung | Das System der Einstufung und Absicherung von Netzwerksicherheit. Ein System wird nach Bedeutung in Stufen geteilt, je höher die Stufe, desto mehr Sicherheitsmaßnahmen sind nötig |
+| GPL | Eine Open-Source-Lizenz. Wer Code dieser Art verwendet, muss beim Weitergeben meist auch den eigenen Code offenlegen |
+| Wettbewerbsverbot | Eine Absprache mit der Firma: Eine Zeit nach dem Ausscheiden nicht zum Konkurrenten gehen. In dieser Zeit zahlt die Firma monatlich eine Entschädigung, höchstens 2 Jahre lang |
+| Gezeichnetes Kapital | Das Geld, das du bei der Gründung einer Firma versprichst einzuzahlen. Was du versprichst, musst du innerhalb der gesetzlichen Frist wirklich einzahlen, es ist keine Zahl zum Gutaussehen |
+| Anzahlung und Draufgabe | Die beiden Wörter unterscheiden sich um einen Buchstaben, die Wirkung ist sehr verschieden: Die Anzahlung hat eine Vertragsstrafe, die Seite, die das Geld genommen hat, muss bei Rücktritt das Doppelte zurückzahlen, höchstens 20 % des Vertragswerts; die Draufgabe ist nur vorab bezahltes Geld, bei Rücktritt gibt es diese Strafe nicht |
 
 </details>
 
-## 目录
+## Inhalt
 
-1. [不要早死](book/01-不要早死.md)：外因死亡、燃气与中毒、疫苗、筛查、心理危机与自杀念头的时间尺度、被救回来之后留下什么、坠落重伤之后的那一年、卖掉一个肾之后剩下那个肾的账、家庭应急装备、肉眼血尿等该去查的信号。口径：总死亡率 或特定死因。
-2. [不要慢慢死](book/02-不要慢慢死.md)：烟酒、运动、睡眠、饮食（低钠盐、坚果、全谷物、加工肉、散装自榨花生油、植物油代替猪油）、久坐，以及戒烟戒酒的具体办法（戒烟药、戒烟日、戒烟门诊与热线、电子烟、酒精戒断不能自己硬扛）、午睡时长、熬夜之后怎么补、上夜班的年数账。口径：总死亡率 或特定死因。长文见 [docs/生物钟和夜班.md](docs/生物钟和夜班.md)。
-3. [不要浪费精力](book/03-不要浪费精力.md)：睡眠、打断、多任务、决策疲劳、人际负债、和机构打交道时该有的预期。口径：精力/时间。
-4. [不要浪费时间](book/04-不要浪费时间.md)：无收益项目、沉没成本、拖延（情绪解释、改环境、承诺装置、习惯要多久、自助材料）、会议、通勤。口径：时间。
-5. [不要浪费钱](book/05-不要浪费钱.md)：订阅、彩票、利息、保险、基金费率、个人养老金、车险、预付款、直播带货、医保个人账户、孩子被骗与充值退款、手串名表潮玩不按投资算、珠宝玉石的检测报告怎么核、盲盒抽卡、想买海外资产走哪条合法渠道，节末六条讲保险：只给扛不住的损失买、挣钱的人先买定期寿险、犹豫期退保、银行柜台别把保险当存款、别找代理退保、受益人和理赔时效。口径：金钱。
-6. [反面清单](book/06-反面清单.md)：看起来性价比高但其实不高的东西，含「意志力会用完」这个说法。
-7. [没钱的时候怎么活](book/07-没钱的时候怎么活.md)：救助、补贴、找活、住宿吃饭、医疗、欠薪维权、避坑。口径：金钱/保障。
-8. [别把自己搭进去：法律与财产安全](book/08-别把自己搭进去.md)：交通事故、被骗止付、AI 换脸拟声、自首和如实供述能减多少刑与「躲过追诉期」这条路为什么不通、被指控和被人捏造事实举报之后能走哪些路、拿举报要挟对方掏钱和自己正常索赔的分界、冲突与泄愤式极端暴力、伤人冲动与身边人的送诊权、给家人投保后动手的四道法律门、被网暴之后走平台与禁令、彩礼、婚前财产、担保、反诈、诉讼时效、被执行与失信名单、养犬责任、报警之后的受案回执与不立案救济、送钱摆平就是行贿罪。口径：金钱/人身自由。
-9. [普通人容易踩的法律红线](book/09-普通人容易踩的法律红线.md)：谣言、侮辱英烈、境外内容只看不转、传播色情、兼职洗钱、伪造材料骗贷、伪造事故骗理赔、高空抛物、仿真枪、无人机、偷拍、养不了孩子时的合法送养与拐卖遗弃的界线、赌博、野味、卖器官与帮人找供体。口径：人身自由/金钱。
-10. [恋爱和结婚划不划算](book/10-恋爱和结婚划不划算.md)：择偶策略、纠缠的红线、兴趣信号、关系质量、异地恋、登记流程、婚检、健康账、时间账、钱账、父母出资买房与夫妻共同债务、退出成本。长文见 [docs/结婚划不划算.md](docs/结婚划不划算.md)。
-11. [程序员和技术人容易踩的红线](book/11-程序员和技术人容易踩的红线.md)：外挂、爬虫、抢票脚本、删库、带走源码、接单开发、竞业、开源许可、备案。口径：人身自由/金钱。
-12. [创业与做生意：别把家底赔进去](book/12-创业与做生意.md)：本钱、担保、主体选择、注册登记、许可证、纳税申报、发票、涉税诈骗、合同、用人、量产、进货与用图的知识产权红线、退场。口径：金钱/法律责任。
-13. [紧急情况：先做什么](book/13-紧急情况.md)：心脏骤停、卒中与后循环卒中、眼中风、心梗、主动脉夹层、霹雳样头痛、慢性硬膜下血肿、肺栓塞、大出血、咬伤、烧烫伤、过敏性休克、癫痫、低血糖、触电、一氧化碳、误服与化学品灼伤、扎进身体的异物、骨折固定、骗局、隐私威胁、中暑、火灾、溺水、迷路、失温、蛇咬、地震、野兽、雷击、高原病、蜱虫、野外饮水；还有救不救得起：老人摔倒怎么扶、撞见斗殴怎么办、救人受伤之后的钱找谁。口径：存活率与金钱，末几条兼及人身自由。
-14. [账号与信息安全](book/14-账号与信息安全.md)：二次验证、密码、SIM 卡、手机丢失、银行卡盗刷、登录设备、App 权限、人脸识别、查阅与删除权。口径：金钱/个人信息。
-15. [租房与买房](book/15-租房与买房.md)：押金、暴力腾退、中介代收、资金监管、买卖不破租赁、产权核对、交易资金专户、隔断房。口径：金钱。
-16. [得了慢性病之后怎么活](book/16-得了慢性病之后怎么活.md)：服药依从、门诊慢特病跨省结算、复查记录、别停药试偏方、长期处方、家庭医生签约、并发症筛查、肾结石复发预防、痛风的达标治疗。口径：总死亡率/金钱。
-17. [家里有老人](book/17-家里有老人.md)：意定监护、遗嘱形式、账户与话术、投资养老与以房养老骗局、长期护理保险、长期卧床的压疮防护。口径：金钱/人身自由，压疮那条为死亡率。
-18. [养孩子划不划算](book/18-养孩子划不划算.md)：育儿补贴、产假与生育津贴、三期保护、时间账、钱账。口径：金钱/时间。
-19. [在职、离职和工伤](book/19-在职离职和工伤.md)：加班费、年休假、试用期；职业病危害告知与三次体检、粉尘噪声防护；N、代通知金、2N、别签主动辞职、留证；工伤认定时限、单位未参保、劳动能力鉴定、工亡待遇。口径：金钱。
-20. [刚出生的孩子怎么带](book/20-刚出生的孩子怎么带.md)：安全睡眠、乙肝首针、免疫规划疫苗、母乳与辅食、冲奶水温、蜂蜜、维生素 K、发热就医红线、不摇晃、尿布与大件采购、高危孩子早引入花生防过敏。口径：婴儿死亡率/金钱。
-21. [出国、旅行与境外安全](book/21-出国旅行与境外安全.md)：安全提醒级别、12308、领事保护的边界、境外医疗保险、境外高薪招聘骗局、境外取现的年度额度、证件丢失、境外驾照、中介备案。口径：金钱/人身自由。
-22. [怎么放松：娱乐场所和减压](book/22-怎么放松.md)：安全出口、明码标价、涉毒红线、别人递的东西、网吧实名、剧本杀选址；运动、正念、呼吸、社交、绿地。口径：金钱/人身自由，以及精力/总死亡率。
-23. [学什么技能划算](book/23-学什么技能划算.md)：读书还是打工（童工年龄线、教育与死亡率、全国学历结构、免学费与助学金助学贷款、中职升学通道、怎么自己算这笔账）、教育回报率、山寨证书、培训补贴、哪些本事不容易被机器取代、技能等级、紧缺职业怎么查，以及定下来学什么之后怎么学（自测、分散练习、别靠划重点、交错练习、学习风格没有证据），最后是职称（申报渠道、以考代评、代评造假的后果、评上不等于聘上）。口径：金钱/时间，其中一条为死亡率。
-24. [看病：怎么少花钱少走弯路](book/24-看病.md)：分级诊疗与转诊、起付线连续计算、报销比例差、预留号源、异地就医必要性评估、病历留存与封存、急诊预检分诊的四级顺序、无力支付时的疾病应急救助、伤残鉴定的时机、残疾人证怎么办、不用给医生送红包。口径：金钱/时间。
-25. [人走了以后要办什么](book/25-人走了以后要办什么.md)：报警与死亡证明、遗体接运与火化、死因异议与尸检、注销户口、殡葬基础项目清单、价格违法、中介备案、公积金余额与社保待遇、死者个人信息权利。口径：金钱。
-26. [做一个网站或平台：资质、备案和服务器](book/26-做一个网站或平台.md)：支付结算红线、ICP 许可与备案、直播与视听资质、平台核验与涉税报送、内容治理、实名、未成年人、通知删除、数据出境、服务器选型。口径：人身自由/金钱。长文见 [docs/做平台要办哪些证.md](docs/做平台要办哪些证.md)。
-27. [怀孕和生产：从发现怀孕到出院办证](book/27-怀孕和生产.md)：叶酸、建册与免费产检、三病筛查与母婴阻断、孕期烟酒、阿司匹林与妊娠期糖尿病、立刻去医院的信号、破水处置、无痛分娩、剖宫产指征、生育保险、出生医学证明、新生儿筛查、参保与落户、产后 42 天复查。口径：死亡率与金钱。
-28. [别为了外形把身体搞坏](book/28-别为了外形把身体搞坏.md)：极端节食与进食障碍、医美机构与主诊医师两证、面部填充的失明部位、违法添加西布曲明的减肥产品、合成代谢类固醇、减肥药与性激素的处方和复查、体像评估。口径：死亡率（健康终点），医美两条兼及人身自由。
-29. [遭遇重大打击之后](book/29-遭遇重大打击之后.md)：丧亲头一个月的心血管窗口、重病诊断的第一周、失业、丧偶后的半年、因自杀丧亲、没有亲人也没有朋友时怎么替代那个人、家长去世的孩子、哀伤卡住了去哪挂号、离婚、12356 与 12355、别在应激期做不可逆的决定、用死还债这条路不通。口径：总死亡率，谈花钱与待遇的四条为金钱。
-30. [上学以后的孩子](book/30-上学以后的孩子.md)：按小时算的急症、别为了考试推迟治疗、被欺凌怎么办、每天户外 2 小时、学生体检报告单、青少年抑郁筛查、治愈近视的产品、睡眠与作业的硬规定、休学保留学籍、散瞳验光与复查、窝沟封闭。口径：死亡率与健康终点，另有金钱和时间各一到两条。
-31. [十八岁之后有哪几条路](book/31-十八岁之后有哪几条路.md)：十二条路的法定门槛；当兵（兵役登记、义务兵两年、拒服兵役的联合惩戒、学费补偿与升学、安置与 30 日报到、退役金与工龄税收）；基层服务项目的定向考录；特岗教师期满入编；消防员与军队文职；自考、成人高考与开放大学；公费师范生与定向医学生的 6 年履约；出国打工找什么样的公司；在家给境外公司远程干活的个税与收汇；创业担保贷款；灵活就业的社保；骑手的职业伤害保障。口径：金钱/时间，拒服兵役那条兼及人身自由。
-32. [出国留学：身份、打工、保险和回国认证](book/32-出国留学.md)：交学费前查认证院校名单；美国 F-1「最长四年、读完 30 天内走」的新规被法院暂停，眼下仍是读完为止与 60 天宽限期；美加英澳四国的打工时数上限；全日制在读是身份的根；搬家 10 日内报备；教育部留学预警；澳大利亚 OSHC 不能断；英国医疗附加费；留服认证的 10 到 20 个工作日；被加强审查的院校名单。口径：金钱/人身自由。
-33. [残疾之后怎么活](book/33-残疾之后怎么活.md)：自主神经反射异常的现场三步、致残后十年的自杀窗口、精神障碍住院的自愿原则与两种例外、照护者自己的死亡风险、轮椅减压坐垫、治愈系骗局、办证之后该问全的六项待遇、长期护理保险不只给老人、0—6 岁康复救助、家庭无障碍改造补贴、按比例就业与残保金、个税减征、导盲犬与免费乘车、高考合理便利、学校不得拒收与送教上门、C5 驾照、康复机构怎么挑、助听器、行为能力认定与监护。口径：死亡率/金钱/时间/人身自由。
-34. [家里的常备药别吃出事](book/34-家里的常备药别吃出事.md)：对乙酰氨基酚别吃重复、孩子退烧不用阿司匹林尼美舒利安乃近、布洛芬伤胃的高危人群、2 岁以下不自己喂复方感冒药、怀孕 20 周后不自己吃布洛芬、奥美拉唑自己吃最多 7 天、感冒不要抗生素、腹泻先补液与孩子不给止泻药、止痛药吃多了反而头痛。口径：死亡率。
+1. [Nicht früh sterben](book/01-nicht-frueh-sterben.md): Tod durch äußere Ursachen, Gas und Vergiftungen, Impfungen, Screening, der Zeitverlauf einer psychischen Krise und von Suizidgedanken, was nach einer Rettung bleibt, das Jahr nach einem schweren Sturz, die Rechnung der verbliebenen Niere nach dem Verkauf einer Niere, die Notfallausrüstung der Familie, sichtbares Blut im Urin und andere Signale, die abgeklärt gehören. Bezugsgröße: Gesamtsterblichkeit oder eine bestimmte Todesursache.
+2. [Nicht langsam sterben](book/02-nicht-langsam-sterben.md): Rauchen und Alkohol, Bewegung, Schlaf, Ernährung (natriumreduziertes Salz, Nüsse, Vollkorn, verarbeitetes Fleisch, loses selbstgepresstes Erdnussöl, Pflanzenöl statt Schweineschmalz), langes Sitzen, dazu konkrete Wege aus dem Rauchen und dem Alkohol (Raucherentwöhnungsmittel, der Tag des Aufhörens, Entwöhnungsambulanz und Hotline, E-Zigarette, Alkoholentzug nie allein durchstehen), die Länge des Mittagsschlafs, wie du nach zu wenig Schlaf aufholst, die Rechnung der Nachtschichtjahre. Bezugsgröße: Gesamtsterblichkeit oder eine bestimmte Todesursache. Langtext: [Innere Uhr und Nachtschicht](docs/innere-uhr-und-nachtschicht.md).
+3. [Keine Energie verschwenden](book/03-keine-energie-verschwenden.md): Schlaf, Unterbrechungen, Multitasking, Entscheidungsmüdigkeit, Schulden gegenüber anderen, welche Erwartung du mitbringen solltest, wenn du mit Behörden zu tun hast. Bezugsgröße: Kraft und Zeit.
+4. [Keine Zeit verschwenden](book/04-keine-zeit-verschwenden.md): Dinge ohne Ertrag, versunkene Kosten, Aufschieben (die Erklärung über das Gefühl, die Umgebung ändern, Verpflichtungsvorrichtungen, wie lange eine Gewohnheit braucht, Selbsthilfematerial), Besprechungen, Pendeln. Bezugsgröße: Zeit.
+5. [Kein Geld verschwenden](book/05-kein-geld-verschwenden.md): Abos, Lotterie, Zinsen, Versicherungen, Fondskosten, private Altersvorsorge, Kfz-Versicherung, Vorauszahlungen, Live-Commerce-Verkauf, das persönliche Konto der Krankenversicherung, Betrügereien an Kindern und Rückerstattung von In-App-Käufen, Armbandperlen, Markenuhren und Trendspielzeug zählen nicht als Geldanlage, wie du ein Prüfbericht zu Schmuck und Jade prüfst, Blindboxen und Kartenziehen, über welchen legalen Weg du Auslandsvermögen kaufst; am Ende des Abschnitts sechs Einträge zur Versicherung: nur für Schäden versichern, die du nicht tragen kannst, zuerst eine Risikolebensversicherung für den, der das Geld verdient, Rücktritt in der Widerrufsfrist, am Bankschalter eine Versicherung nicht für ein Sparguthaben halten, keinen Vermittler mit der Rückabwicklung beauftragen, Bezugsberechtigter und Fristen der Schadensregulierung. Bezugsgröße: Geld.
+6. [Die Negativliste](book/06-die-negativliste.md): Dinge, die nach gutem Kosten-Nutzen-Verhältnis aussehen, aber keines haben, darunter die Behauptung „Willenskraft geht aus". Bezugsgröße: gemischt.
+7. [Leben ohne Geld](book/07-leben-ohne-geld.md): Beihilfen, Zuschüsse, Arbeit finden, Unterkunft und Essen, medizinische Versorgung, Lohn ausstehend einklagen, Fallen vermeiden. Bezugsgröße: Geld und Absicherung.
+8. [Lass dich nicht hereinziehen](book/08-lass-dich-nicht-hereinziehen.md): Recht und Vermögen: Verkehrsunfall, nach einem Betrug die Zahlung stoppen, Gesicht und Stimme mit KI nachgeahmt, wie viel Strafminderung Selbstanzeige und wahrheitsgemäßes Geständnis bringen und warum der Weg „an der Verfolgungsverjährung vorbeikommen" nicht funktioniert, welche Wege nach einer Anschuldigung und nach einer Denunziation mit erfundenen Tatsachen offenstehen, die Grenze zwischen dem Geldabpressen mit einer Anzeige als Druckmittel und dem eigenen berechtigten Schadenersatz, Konflikt und Extremgewalt aus Wut, der Impuls zuzuschlagen und das Recht der Angehörigen auf Einweisung, die vier rechtlichen Türen, wenn du einen Angehörigen versicherst und dann Hand anlegst, nach einem Shitstorm über die Plattform und über eine Anordnung vorgehen, Brautpreis, voreheliches Vermögen, Bürgschaft, Betrugsabwehr, Verjährung, Zwangsvollstreckung und die Liste der Vertrauensunwürdigen, Haftung der Hundehaltung, Eingangsbestätigung nach einer Anzeige und Rechtsbehelf bei Ablehnung der Verfahrenseröffnung, Geld zum Stillhalten zu zahlen ist Bestechung. Bezugsgröße: Geld und persönliche Freiheit.
+9. [Rechtliche rote Linien](book/09-rechtliche-rote-linien.md): Gerüchte, Beleidigung von Märtyrern, ausländische Inhalte nur ansehen statt weiterleiten, Verbreitung von Pornografie, Geldwäsche im Nebenjob, Kreditbetrug mit gefälschten Unterlagen, Versicherungsbetrug mit erfundenem Unfall, Herabwerfen von Gegenständen, Anscheinswaffen, Drohnen, heimliches Fotografieren, die Grenze zwischen legaler Adoption und Menschenhandel und Aussetzung, wenn du ein Kind nicht großziehen kannst, Glücksspiel, Wildtiere als Speise, Organverkauf und das Besorgen von Spendern. Bezugsgröße: persönliche Freiheit und Geld.
+10. [Liebe und Heirat](book/10-liebe-und-ehe.md): Strategie bei der Partnersuche, die rote Linie des Nachstellens, Interessenssignale, Qualität der Beziehung, Fernbeziehung, Ablauf der Anmeldung, Untersuchung vor der Ehe, die Rechnung über Gesundheit, über Zeit und über Geld, Eltern finanzieren den Hauskauf und gemeinsame Schulden der Ehepartner, Kosten des Ausstiegs. Langtext: [Lohnt sich heiraten](docs/lohnt-sich-heiraten.md).
+11. [Rote Linien für Techniker](book/11-rote-linien-fuer-techniker.md): Cheats, Crawler, Skripte zum Ticketkauf, Datenbank löschen, Quellcode mitnehmen, Auftragsprogrammierung, Wettbewerbsverbot, Open-Source-Lizenzen, Registrierung. Bezugsgröße: persönliche Freiheit und Geld.
+12. [Gründen und Geschäft](book/12-gruenden-und-geschaeft.md): Verlier nicht dein Erspartes: Eigenkapital, Bürgschaft, Wahl der Rechtsform, Registrierung, Betriebserlaubnis, Steuererklärung, Rechnungen, Betrug bei der Steuer, Verträge, Personal, Serienproduktion, Wareneinkauf und die roten Linien des Urheberrechts bei Bildern, der Ausstieg. Bezugsgröße: Geld und rechtliche Verantwortung.
+13. [Notfälle](book/13-notfaelle.md): Was zuerst zu tun ist: Herzstillstand, Schlaganfall und posteriorer Schlaganfall, retinaler Gefäßverschluss, Herzinfarkt, Aortendissektion, Donnerschlagkopfschmerz, chronisches subdurales Hämatom, Lungenembolie, starke Blutung, Bissverletzungen, Verbrennungen und Verbrühungen, anaphylaktischer Schock, Epilepsie, Unterzuckerung, Stromunfall, Kohlenmonoxid, versehentliche Einnahme und Verätzung durch Chemikalien, ein in den Körper eingedrungener Fremdkörper, Schienen eines Bruchs, Betrugsmaschen, Drohung mit Privatdaten, Hitzschlag, Feuer, Ertrinken, verlaufen, Unterkühlung, Schlangenbiss, Erdbeben, wilde Tiere, Blitzschlag, Höhenkrankheit, Zecken, Trinkwasser in der Wildnis; dazu, wen du retten kannst: wie du einen gestürzten alten Menschen aufhilfst, was du bei einer Schlägerei tust, an wen du dich wegen des Geldes nach einer Rettungsverletzung wendest. Bezugsgröße: Überlebensrate und Geld, die letzten Einträge auch persönliche Freiheit.
+14. [Konten und Informationssicherheit](book/14-konten-und-informationssicherheit.md): Zwei-Faktor-Authentifizierung, Passwörter, SIM-Karte, verlorenes Handy, Missbrauch der Bankkarte, angemeldete Geräte, App-Berechtigungen, Gesichtserkennung, Recht auf Einsicht und Löschung. Bezugsgröße: Geld und persönliche Daten.
+15. [Mieten und Kaufen](book/15-mieten-und-kaufen.md): Kaution, gewaltsame Räumung, vom Makler vereinnahmte Beträge, Treuhandkonto, Kauf bricht nicht Miete, Prüfung der Eigentumsurkunde, Treuhandkonto für den Kaufpreis, abgeteilte Wohnungen. Bezugsgröße: Geld.
+16. [Leben mit chronischer Krankheit](book/16-leben-mit-chronischer-krankheit.md): Therapietreue, ambulante Behandlung chronischer und besonderer Erkrankungen über Provinzgrenzen hinweg abgerechnet, Aufzeichnungen der Kontrolltermine, keine Medikamente absetzen und Hausmittel probieren, Dauerverordnung, Hausarztvertrag, Screening auf Folgeerkrankungen, Vorbeugung gegen wiederkehrende Nierensteine, Gicht nach Zielwerten behandeln. Bezugsgröße: Gesamtsterblichkeit und Geld.
+17. [Alte Menschen in der Familie](book/17-alte-menschen-in-der-familie.md): Vorsorgevollmacht, Formen des Testaments, Konten und die Taktiken der Betrüger, Betrug mit Altersvorsorge und Hausverkauf mit Wohnrecht, Pflegeversicherung, Schutz vor Dekubitus bei dauerhafter Bettlägerigkeit. Bezugsgröße: Geld und persönliche Freiheit, der Dekubitus-Eintrag nach Sterblichkeit.
+18. [Kinder großziehen](book/18-kinder-grossziehen.md): Kinderbetreuungszuschuss, Mutterschaftsurlaub und Mutterschaftsgeld, Schutz in den drei Phasen, die Rechnung über Zeit, die Rechnung über Geld. Bezugsgröße: Geld und Zeit.
+19. [Arbeitsverhältnis und Arbeitsunfall](book/19-arbeitsverhaeltnis-und-arbeitsunfall.md): Überstundenvergütung, bezahlter Jahresurlaub, Probezeit; Unterrichtung über Gefährdungen am Arbeitsplatz und drei arbeitsmedizinische Vorsorgeuntersuchungen, Schutz gegen Staub und Lärm; N, Abfindung statt Kündigungsfrist, 2N, unterschreib keine Eigenkündigung, Beweise sichern; Fristen für die Anerkennung eines Arbeitsunfalls, kein Versicherungsschutz beim Arbeitgeber, Feststellung der Erwerbsminderung, Leistungen bei Tod durch Arbeitsunfall. Bezugsgröße: Geld.
+20. [Neugeborene](book/20-neugeborene.md): sicherer Babyschlaf, erste Hepatitis-B-Impfung, Impfungen des staatlichen Impfplans, Muttermilch und Beikost, Wassertemperatur beim Milchpulver, Honig, Vitamin K, rote Linien für den Arztbesuch bei Fieber, nicht schütteln, Windeln und der Kauf großer Anschaffungen, frühzeitiges Anbieten von Erdnuss bei Risikokindern gegen Allergien. Bezugsgröße: Säuglingssterblichkeit und Geld.
+21. [Ausland und Reisen](book/21-ausland-und-reisen.md): Stufen der Sicherheitshinweise, 12308, die Grenzen des konsularischen Schutzes, Auslandsreise- und Rücktransportversicherung, Betrug mit Lockangeboten im Ausland und Betrugscampus, Jahreslimit für das Abheben im Ausland, Kartenzahlung belastet das Devisenkauflimit nicht, verlorene Dokumente, ausländischer Führerschein und Genfer Konvention, Registrierung des Vermittlers, Reiseroute melden. Bezugsgröße: Geld und persönliche Freiheit.
+22. [Entspannen](book/22-entspannen.md): Unterhaltungsorte und Stressabbau: Notausgänge, ausgezeichnete Preise, die rote Linie zu Drogen, nichts annehmen, was ein Fremder reicht, Klarname im Internetcafé, Wahl des Ortes für Escape-Rooms; Bewegung gegen Depression mit Dosierung, Achtsamkeit zur Stressminderung, zyklisches Seufzen als Atemübung, soziale Isolation, Grünflächen. Die erste Hälfte hat die Bezugsgröße Geld und persönliche Freiheit, die zweite Kraft und Gesamtsterblichkeit, die beiden Hälften werden nicht umgerechnet.
+23. [Welche Fähigkeiten sich lohnen](book/23-welche-faehigkeiten-sich-lohnen.md): Ob du weiter zur Schule gehst oder arbeiten gehst (Altersgrenze für Kinderarbeit, Bildung und Sterblichkeit Erwachsener, die Bildungsstruktur der Landesstatistik, Studiengebührenerlass sowie Beihilfe und Studienkredit an berufsbildenden Schulen, die Wege zum Aufstieg, wie du diese Rechnung selbst aufstellst), die Rendite von Bildung, gefälschte Zertifikate, Zuschüsse für Weiterbildung, welche Fähigkeiten Maschinen schwer ersetzen, Qualifikationsstufen, wie du Mangelberufe recherchierst; und wenn du dich entschieden hast, wie du lernst (sich nach dem Zuklappen selbst abfragen, das Lernen über mehrere Tage verteilen, Markieren und wiederholtes Lesen nicht als Hauptmethode, verschiedene Aufgabentypen gemischt üben, es gibt keine Belege für Lerntypen); zuletzt der Berufstitel (wo du ihn beantragst, Prüfung statt Begutachtung, die Folgen gefälschter Begutachtung, eine Zuerkennung heißt nicht, dass du die Stelle bekommst). Bezugsgröße: Geld und Zeit, ein Eintrag nach Sterblichkeit.
+24. [Arztbesuche](book/24-arztbesuche.md): Weniger zahlen, weniger Umwege: abgestufte Versorgung und Überweisung, fortlaufende Anrechnung der Selbstbehaltschwelle, Unterschiede beim Erstattungssatz, reservierte Terminkontingente, Einschätzung, ob eine Behandlung außerhalb des Wohnorts nötig ist, Aufbewahrung und Versiegelung der Krankenakte, die vier Stufen der Ersteinschätzung in der Notaufnahme, Nothilfe bei Krankheit ohne Mittel, der richtige Zeitpunkt für ein Behinderungsgutachten, wie du einen Schwerbehindertenausweis bekommst, dem Arzt kein Umschlaggeld geben. Bezugsgröße: Geld und Zeit.
+25. [Nach dem Tod](book/25-nach-dem-tod.md): Was nach einem Todesfall zu regeln ist: Polizei rufen und Sterbeurkunde, Überführung und Einäscherung des Leichnams, Einwände gegen die Todesursache und Obduktion, Abmeldung des Haushalts, die Liste der grundlegenden Bestattungsleistungen, rechtswidrige Preise, Registrierung des Vermittlers, Guthaben des Wohnungsfonds und Leistungen der Sozialversicherung, das Recht der nahen Angehörigen an den Daten des Verstorbenen. Bezugsgröße: Geld.
+26. [Website oder Plattform](book/26-website-oder-plattform.md): Genehmigungen, Registrierung und Server: die strafrechtliche rote Linie bei der Weiterleitung von Zahlungen ohne Erlaubnis, die Abgrenzung zwischen gewerblich und nicht gewerblich, Lizenz für Telekommunikationsmehrwertdienste und EDI, Lizenz für Online-Kulturangebote und für audiovisuelle Angebote, ICP-Registrierung und Qualifikation des Anbieters, Prüfung und Registrierung nach dem E-Commerce-Gesetz sowie Meldung steuerlicher Daten, Inhaltsmoderation und Meldewege, Klarname, Livestreaming und Geschenke an Minderjährige, Löschung auf Hinweis, Datenausfuhr, Wahl des Servers. Bezugsgröße: persönliche Freiheit und Geld. Langtext: [Welche Genehmigungen braucht eine Plattform](docs/welche-lizenzen-fuer-eine-plattform.md).
+27. [Schwangerschaft und Geburt](book/27-schwangerschaft-und-geburt.md): Von der Feststellung der Schwangerschaft bis zu den Papieren bei der Entlassung: Folsäure, das Mutter-Kind-Gesundheitsheft vor der 13. Woche und die Zahl der kostenlosen Vorsorgeuntersuchungen, Screening auf HIV, Syphilis und Hepatitis B und kostenlose Blockade der Übertragung von der Mutter, Rauchen und Alkohol in der Schwangerschaft, niedrig dosiertes Aspirin bei hohem Präeklampsie-Risiko, Screening auf Schwangerschaftsdiabetes, die Signale, bei denen du in der Schwangerschaft und im Jahr nach der Geburt sofort zum Arzt musst, was bei einem Blasensprung zu tun ist, Schmerzlinderung bei der Geburt, Kaiserschnitt ohne medizinische Indikation, Mutterschutzversicherung und Anmeldung der Geburt außerhalb des Wohnorts, Geburtsbescheinigung, Neugeborenen-Screening und Hörscreening, Anmeldung des Neugeborenen zur Versicherung und im Haushalt binnen eines Monats, die Kontrolle 42 Tage nach der Geburt und Screening auf postpartale Depression. Die erste Hälfte hat die Bezugsgröße Sterblichkeit, die zweite Geld und Zeit für Formalitäten.
+28. [Nicht fürs Aussehen ruinieren](book/28-nicht-fuers-aussehen-ruinieren.md): Extremes Fasten, Essenspausen, Erbrechen und Essstörungen; Zulassung der Einrichtung und Qualifikation des behandelnden Arztes in der Schönheitsmedizin, strafrechtliche Folgen der Heilkunde ohne Zulassung; die Risikozonen beim Füllen im Gesicht und Erblindung; Schlankheitsmittel mit verboten zugesetztem Sibutramin; Anabolika zum Muskelaufbau; Abnehm- und Geschlechtshormonmittel nur auf Rezept und mit regelmäßigen Kontrollen, nichts online kaufen und die Dosis nicht selbst erhöhen; die vorherige Abklärung einer Körperdysmorphen Störung. Bezugsgröße: Sterblichkeit (einschließlich Erblindung und Krankenhausaufenthalt), die beiden Einträge zur Schönheitsmedizin auch persönliche Freiheit.
+29. [Nach einem schweren Schlag](book/29-nach-einem-schweren-schlag.md): Das Risikofenster für Herzinfarkt und Schlaganfall in den ersten 24 Stunden bis 30 Tagen nach einem Todesfall, die erste Woche nach einer schweren Diagnose, die Sterblichkeit nach Arbeitslosigkeit und was zuerst zu erledigen ist, das Betreuungsfenster im halben Jahr nach einer Verwitwung, Angehörige mit hohem Risiko nach einem Suizid oder einem gewaltsamen Tod, wie du „diesen Menschen" durch einen erreichbaren Nachbarn, eine Besuchsliste der Gemeinde und eine Notfallnummer im Handy ersetzt, wenn du niemanden hast, wie Kinder untergebracht werden, wenn ein Elternteil stirbt, wo du hingehest, wenn die Trauer feststeckt, Trauerbegleitung ist nicht für jeden nötig, Trennung, 12356 und 12355 und die psychiatrische Ambulanz, in einer Belastungsphase keine unumkehrbaren großen Entscheidungen treffen, mit dem Tod Schulden zu tilgen funktioniert nicht. Bezugsgröße vor allem Gesamtsterblichkeit, die vier Einträge über Geld und Leistungen nach Geld.
+30. [Schulkinder](book/30-schulkinder.md): Von 3 bis 18: Notfälle, bei denen es auf Stunden ankommt, und der Zeitverlauf einer Hodentorsion, eine Behandlung mit Zeitfenster nicht wegen einer Prüfung aufschieben (Korsett bei Wirbelsäulenverkrümmung), Beweise bei Mobbing in der Schule und das Verfahren, das die Schule gehen muss, täglich 2 Stunden draußen gegen Kurzsichtigkeit, die Altersgrenzen für Bildschirme (3 bis 6 Jahre möglichst keine), Folgeerkrankungen bei stärkerer Kurzsichtigkeit (Makuladegeneration, Netzhautablösung, Offenwinkelglaukom), die wichtigsten Werte der jährlichen Schüleruntersuchung und die Kontrolle auffälliger Befunde, Depressionsscreening von 12 bis 18 und der Unterschied zu Schultests, „Kurzsichtigkeit geheilt" ist eine rechtswidrige Werbeaussage, die klaren Regeln zu Schlaf, Hausaufgaben und Sport, Studienunterbrechung mit Erhalt des Studierendenstatus bis zu 1 Jahr, Abstand zwischen Augentropfen-Refraktion und Kontrolle, Fissurenversiegelung. Bezugsgröße vor allem Sterblichkeit und Gesundheit, der Eintrag zu Kurzsichtigkeitsprodukten nach Geld, die beiden zu Tagesablauf und Studienunterbrechung nach Zeit.
+31. [Wege nach achtzehn](book/31-wege-nach-achtzehn.md): Die gesetzlichen Hürden der zwölf Wege; Wehrdienst (Wehrpflichtregistrierung, zwei Jahre Wehrdienst, die gemeinsamen Sanktionen bei Dienstverweigerung, Erstattung der Studiengebühren und Studium, Eingliederung und Meldung binnen 30 Tagen, Entlassungsgeld und Anrechnung von Dienstzeit, Rente und Steuern); gezielte Einstellungsprüfungen nach Dienst in Basisprogrammen; Sonderstellen-Lehrkräfte mit Übernahme nach drei Jahren; Feuerwehr und zivile Stellen bei den Streitkräften; Selbststudium-Prüfung, Erwachsenen-Hochschulaufnahmeprüfung und Offene Universität; staatlich finanzierte Lehramtsstudierende und vertraglich gebundene Medizinstudierende mit 6 Jahren Bindung; bei welcher Firma du Arbeit im Ausland suchst; Steuern und Deviseneingang bei Heimarbeit für eine Firma im Ausland; Förderkredite für Gründungen; Sozialversicherung bei flexibler Beschäftigung; Absicherung bei Arbeitsunfällen für Fahrer. Bezugsgröße: Geld und Zeit, der Eintrag zur Dienstverweigerung auch persönliche Freiheit.
+32. [Studium im Ausland](book/32-studium-im-ausland.md): Prüf vor der Zahlung der Studiengebühren die Liste der anerkannten Hochschulen; die neue Regel zum festen Einreisezeitraum für F-1 in den USA wurde von einem Bundesgericht in Massachusetts ausgesetzt, derzeit gilt weiter D/S mit 60 Tagen Übergangsfrist; die Obergrenzen für Arbeitsstunden in den USA, Kanada, Großbritannien und Australien; ein Vollzeitstudium ist die Grundlage des Arbeitsrechts; Umzug binnen 10 Tagen bei USCIS melden; Reisewarnungen des Bildungsministeriums; OSHC in Australien darf nicht unterbrochen werden; britischer Gesundheitszuschlag; 10 bis 20 Arbeitstage für die Anerkennung des Abschlusses; die Liste der Hochschulen mit verstärkter Prüfung. Bezugsgröße: Geld und persönliche Freiheit.
+33. [Leben mit Behinderung](book/33-leben-mit-behinderung.md): Die drei Schritte vor Ort bei autonomer Dysreflexie, das Suizidfenster der zehn Jahre nach dem Eintritt der Behinderung, der Grundsatz der Freiwilligkeit bei der stationären Behandlung psychischer Störungen und die zwei Ausnahmen, das Sterberisiko der pflegenden Angehörigen selbst, Sitzkissen zum Druckausgleich im Rollstuhl, Betrug mit Heilung, die sechs Leistungen, nach denen du nach dem Ausweis fragen solltest, Pflegeversicherung nicht nur für alte Menschen, Rehabilitation für Kinder von 0 bis 6, Zuschuss für barrierefreien Umbau zu Hause, Beschäftigung nach Quote und Ausgleichsabgabe, Steuerermäßigung, Blindenhund und kostenlose Nutzung des Nahverkehrs, angemessene Vorkehrungen bei der Hochschulaufnahmeprüfung, Schulen dürfen nicht ablehnen und Unterricht kommt ins Haus, Führerschein C5, wie du eine Rehabilitationseinrichtung auswählst, Hörgeräte, Feststellung der Geschäftsfähigkeit und Betreuung. Bezugsgröße: Sterblichkeit, Geld, Zeit und persönliche Freiheit nebeneinander.
+34. [Hausapotheke](book/34-hausapotheke.md): Paracetamol nicht doppelt einnehmen, Kinder nicht mit Aspirin, Nimesulid oder Metamizol fiebersenkend behandeln, die Risikogruppen für Magenblutungen unter Ibuprofen und ähnlichen Mitteln, Kindern unter 2 keine kombinierten Erkältungsmittel selbst geben, ab der 20. Schwangerschaftswoche kein Ibuprofen auf eigene Faust, Omeprazol höchstens 7 Tage selbst einnehmen, bei Erkältung keine Antibiotika, bei Durchfall zuerst Flüssigkeit und Kindern unter 5 keine Mittel gegen den Durchfall, zu viele Schmerzmittel lösen selbst Kopfschmerzen aus. Bezugsgröße: Sterblichkeit.
 
-每节内条目按性价比从高到低排列。「不要早死」「不要浪费时间」这类节标题说的是这一节想防住的结果，条目本身要做还是别做，以条目标题为准。长文另见 [docs/家庭应急装备清单.md](docs/家庭应急装备清单.md)、[docs/做平台要办哪些证.md](docs/做平台要办哪些证.md)、[docs/结婚划不划算.md](docs/结婚划不划算.md) 、[docs/遇到陌生人出事该不该停.md](docs/遇到陌生人出事该不该停.md) 和 [docs/生物钟和夜班.md](docs/生物钟和夜班.md)。每条来源的核实过程记录在 [docs/核实记录](docs/核实记录/)。
+Innerhalb eines Abschnitts sind die Einträge vom besten Kosten-Nutzen-Verhältnis zum schwächsten geordnet. Abschnittsüberschriften wie „Nicht früh sterben" und „Keine Zeit verschwenden" nennen das Ergebnis, das der Abschnitt verhindern will; ob ein Eintrag selbst etwas zu tun oder zu lassen ist, entscheidet sein Titel. Weitere Langtexte: [Notfallausrüstung für die Familie](docs/notfallausruestung.md), [Welche Genehmigungen braucht eine Plattform](docs/welche-lizenzen-fuer-eine-plattform.md), [Lohnt sich heiraten](docs/lohnt-sich-heiraten.md), [Bei einem Notfall mit Fremden anhalten?](docs/anhalten-bei-fremdem-notfall.md) und [Innere Uhr und Nachtschicht](docs/innere-uhr-und-nachtschicht.md). Wie jede Quelle geprüft wurde, steht in den [Prüfprotokollen](docs/pruefprotokolle/).
 
-仓库根目录的 `index.html` 是在线检索页：按关键词、章节、证据等级和成本维度（花钱、花时间、要毅力）筛选条目，数据直接读本文件。在仓库设置里开启 GitHub Pages（Deploy from a branch，分支 main，目录 /）后即可访问。`tools/epub/` 是电子书生成脚本，`cd tools/epub && npm ci && npm run build` 在本地出一本 EPUB 到 `dist/`；GitHub Actions 在正文改动后自动跑同一个脚本并更新 Release。
+Die `index.html` im Wurzelverzeichnis ist die Online-Suche: Sie filtert Einträge nach Stichwort, Abschnitt, Evidenzstufe und Kostendimension (Geld, Zeit, Willenskraft) und liest ihre Daten direkt aus dieser Datei. Schalte in den Repository-Einstellungen GitHub Pages ein (Deploy from a branch, Branch main, Verzeichnis /), dann ist sie erreichbar. `tools/epub/` ist das Skript für das E-Book, `cd tools/epub && npm ci && npm run build` erzeugt lokal ein EPUB in `dist/`; GitHub Actions führt nach Änderungen am Text dasselbe Skript aus und aktualisiert das Release.
 
-## 正文
+## Buchtext
 
-正文按节拆成 34 个文件放在 [book/](book/)，点上面目录里的节名进入。拆开是因为单文件已经超过 GitHub 渲染 Markdown 的 512 KB 上限，后面的节显示不出来；[在线检索页](https://eternity4719.github.io/HowToLiveBetter/)会把这些文件合起来读，用法不变。
+Der Text ist in 34 Dateien aufgeteilt und liegt in [book/](book/). Klick im Inhaltsverzeichnis oben auf den Abschnittsnamen, um hineinzukommen. Die Aufteilung gibt es, weil eine einzelne Datei die 512-KB-Grenze überschritten hat, bis zu der GitHub Markdown rendert, und die hinteren Abschnitte nicht mehr anzeigten. Die [Online-Suche](https://cagliostro.github.io/HowToLiveBetterInGermany/) liest diese Dateien zusammen ein, die Benutzung bleibt gleich.
 
-## 许可
+## Herkunft
 
-正文用 [CC BY 4.0](LICENSE) 发布，范围是 book/、docs/ 和本 README 的文字。你可以转载、改编、商用，不用来问作者，但要做到三件事：
+Dies ist die deutsche Ausgabe von [HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) von [eternity4719](https://github.com/eternity4719). Der Text wurde vollständig aus dem Chinesischen übersetzt, ohne inhaltliche Änderungen über die Übersetzung hinaus.
 
-- 写明出处：「高性价比人生指南」，附上仓库链接 https://github.com/eternity4719/HowToLiveBetter 。
-- 附上许可证链接 https://creativecommons.org/licenses/by/4.0/ 。
-- 改过内容的要写明改过。书里的法条、补贴标准和截止日期经常更新，建议同时写上你同步的是哪一天的版本。
+Diese Fassung ist **nicht offiziell**. Sie wird unabhängig von einem Leser gepflegt und kann hinter dem Original zurückliegen. Maßgeblich ist immer der chinesische Originaltext; bei Widersprüchen gilt er. Rechne bei Zahlen, Fristen und gesetzlichen Regelungen damit, dass sie auf dem Stand des Originals sind und sich seit der Übersetzung geändert haben können.
 
-代码用 [MIT](LICENSE-CODE)，范围是 tools/、skills/、index.html 和 .github/。
+## Lizenz
 
-## Star 走势
+Der Text steht unter [CC BY 4.0](LICENSE), das gilt für book/, docs/ und den Text dieser README. Du darfst ihn weitergeben, bearbeiten und kommerziell nutzen, ohne den Autor zu fragen, musst aber drei Dinge tun:
 
-[![Star History Chart](https://api.star-history.com/svg?repos=eternity4719/HowToLiveBetter&type=Date)](https://star-history.com/#eternity4719/HowToLiveBetter&Date)
+- Die Herkunft nennen: „Lebe besser: 630 Empfehlungen nach Kosten und Nutzen", mit dem Link zum ursprünglichen Repository https://github.com/eternity4719/HowToLiveBetter .
+- Den Link zur Lizenz beilegen https://creativecommons.org/licenses/by/4.0/ .
+- Wer den Inhalt geändert hat, muss die Änderungen benennen. Die Gesetzestexte, Zuschusssätze und Stichtage im Buch werden oft aktualisiert, gib deshalb am besten an, auf welchem Stand du synchronisiert hast.
 
-## 赞赏
-
-觉得有用，可以用微信扫码请作者喝杯咖啡。给不给都行，不影响任何内容。
-
-<img src="ads/wechat-reward.png" alt="微信赞赏码" width="240">
-
-## 广告位
-
-<a href="https://4.mcyyy.com"><img src="ads/mcyyy.webp" alt="永恒世界 Minecraft 服务器，游戏地址 1.mcyyy.com" width="820"></a>
+Der Code steht unter [MIT](LICENSE-CODE), das gilt für tools/, skills/, index.html und .github/.
