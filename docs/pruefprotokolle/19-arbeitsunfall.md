@@ -1,0 +1,39 @@
+# Prüfprotokoll: Abschnitt 19, Nachtrag von 4 Nr. (Arbeitsunfall)
+
+Prüfdatum: 2026-09-07. Abschnitt 19 von 6 → 10 Nr., der Abschnittstitel wurde von „Entlassen werden und selbst kündigen" zu „Entlassen werden, kündigen und Arbeitsunfall" geändert, das ganze Buch 318 → 322 Nr.
+
+Der Arbeitsunfall war bisher die größte einzelne Lücke im ganzen Buch: In Abschnitt 7, Nr. 3 war erwähnt, dass Arbeitsunfallfälle in den Bereich der Rechtshilfe fallen, aber „wie man ihn anerkennt, welche Fristen gelten, wie viel man bekommt" fehlte in jedem Eintrag. Dieses Geld ist eine Größenordnung größer als das N bei einer Kündigung, und die Fristen sind noch härter.
+
+Methode: Mit `Invoke-WebRequest` wurden die Rohbytes der Bekanntmachungsseite von gov.cn geholt, nach GB18030 dekodiert und die Tags entfernt, dann wurde Satz für Satz mit dem Gesetzesoriginal verglichen.
+
+---
+
+## 1. Satz für Satz abgeglichene Originalstellen
+
+Quelle ist durchweg der Volltext der „Arbeitsunfallversicherungsverordnung" [工伤保险条例] (Staatsratsverordnung Nr. 586, 2010 geändert) in der Bekanntmachung auf der Seite der chinesischen Regierung <https://www.gov.cn/gongbao/content/2011/content_1778064.htm>.
+
+| Norm | abgeglichenes Original | verwendet in |
+| --- | --- | --- |
+| Art. 14 | sieben Fallgruppen, die „als Arbeitsunfall anerkannt werden müssen"; davon lautet Nr. 6 in der Fassung nach der Änderung von 2010: „auf dem Weg von und zur Arbeit durch einen Verkehrsunfall oder einen Unfall mit städtischen Schienenfahrzeugen, Fahrgastschiffen oder Zügen verletzt zu werden, wenn man nicht die Hauptschuld trägt" | Nr. 7 (auch wer auf dem Arbeitsweg angefahren wird, zählt) |
+| Art. 15 | drei Fallgruppen, die „als Arbeitsunfall gelten", darunter „(1) wer während der Arbeitszeit und am Arbeitsplatz an einer plötzlichen Erkrankung stirbt oder innerhalb von 48 Stunden nach einer Rettung ohne Erfolg stirbt" | Nr. 7, Anmerkung |
+| Art. 16 | „(1) eine vorsätzliche Straftat; (2) Trunkenheit oder Drogenkonsum; (3) Selbstverletzung oder Suizid" dürfen nicht anerkannt werden | Nr. 7, Anmerkung |
+| Art. 17 | „Die Einheit, in der die Person arbeitet, muss innerhalb von 30 Tagen ab dem Tag des Unfalls oder ab dem Tag, an dem eine Berufskrankheit diagnostiziert oder festgestellt wird, … einen Antrag auf Anerkennung als Arbeitsunfall stellen"; „Stellt der Arbeitgeber keinen Antrag auf Anerkennung als Arbeitsunfall nach dem vorstehenden Absatz, so kann der verletzte Beschäftigte oder dessen naher Angehöriger oder die Gewerkschaft innerhalb eines Jahres ab dem Tag des Unfalls oder ab dem Tag, an dem die Berufskrankheit diagnostiziert oder festgestellt wird, unmittelbar bei der für Sozialversicherung zuständigen Verwaltungsbehörde des Orts, an dem der Arbeitgeber sitzt, einen Antrag auf Anerkennung als Arbeitsunfall stellen"; „Reicht der Arbeitgeber den Antrag auf Anerkennung als Arbeitsunfall nicht innerhalb der in Abs. 1 dieses Artikels genannten Frist ein, so trägt der Arbeitgeber die in diesem Zeitraum anfallenden Kosten wie die Leistungen nach dieser Verordnung" | die zwei Fristen in Nr. 7 |
+| Art. 18 | drei Antragsunterlagen: das Antragsformular auf Anerkennung als Arbeitsunfall, der Nachweis des Arbeitsverhältnisses und die ärztliche Diagnosebescheinigung oder die Bescheinigung über die Diagnose einer Berufskrankheit | Nr. 7, Kosten |
+| Art. 19 | „Hält der Beschäftigte oder dessen naher Angehöriger die Sache für einen Arbeitsunfall, hält der Arbeitgeber sie aber nicht für einen Arbeitsunfall, so trägt der Arbeitgeber die Beweislast." | Nr. 7 |
+| Art. 20 | „Die für Sozialversicherung zuständige Verwaltungsbehörde muss innerhalb von 60 Tagen ab dem Tag, an dem sie den Antrag auf Anerkennung als Arbeitsunfall annimmt, über die Anerkennung als Arbeitsunfall entscheiden" | Nr. 7, Quellen |
+| Art. 21, 22 | „Besteht nach der Behandlung, wenn der Zustand einigermaßen stabil ist, eine Behinderung, die die Arbeitsfähigkeit beeinträchtigt, so ist eine Feststellung der Erwerbsfähigkeit durchzuführen"; „die Beeinträchtigung der Arbeitsfähigkeit wird in zehn Grade der Behinderung eingeteilt, der schwerste ist Grad 1, der leichteste ist Grad 10" | Nr. 9 |
+| Art. 36 | Grad 5 und 6: die einmalige Erwerbsminderungsbeihilfe beträgt 18 bzw. 16 Monate des eigenen Arbeitsentgelts; ist eine Arbeitsvermittlung schwierig, wird monatlich eine Erwerbsminderungszulage von 70 % bzw. 60 % des eigenen Arbeitsentgelts gezahlt | Nr. 9 |
+| Art. 37 | Grad 7 bis 10: die einmalige Erwerbsminderungsbeihilfe beträgt 13, 11, 9, 7 Monate des eigenen Arbeitsentgelts; endet der Vertrag mit Ablauf der Laufzeit oder kündigt die Person selbst, zahlt der Fonds eine einmalige Beihilfe für die medizinische Behandlung des Arbeitsunfalls und der Betrieb eine einmalige Beihilfe für die Beschäftigung nach der Erwerbsminderung, die Standards legt die Provinzregierung fest | Nr. 9 |
+| Art. 39 | „(1) die Beihilfe zur Bestattung beträgt 6 Monatsdurchschnittslöhne der Beschäftigten des zusammengefassten Gebiets des Vorjahres; (2) die Hinterbliebenenrente … der Ehepartner erhält monatlich 40 %, andere Angehörige je 30 % monatlich, alleinstehende alte Menschen oder Waisen erhalten monatlich 10 % zusätzlich zu diesem Satz … (3) die einmalige Beihilfe bei Tod durch Arbeitsunfall beträgt das 20-Fache des verfügbaren Pro-Kopf-Einkommens der städtischen und ländlichen Bevölkerung des ganzen Landes im Vorjahr." | Nr. 10 |
+| Art. 62 | Abs. 2: „Erleidet ein Beschäftigter eines Arbeitgebers einen Arbeitsunfall, der nach dieser Verordnung an der Arbeitsunfallversicherung teilnehmen müsste, aber nicht teilnimmt, so zahlt dieser Arbeitgeber die Kosten nach den in dieser Verordnung festgelegten Leistungsarten und Standards der Arbeitsunfallversicherung." Abs. 1: Aufforderung, innerhalb einer Frist teilzunehmen und die Beiträge nachzuzahlen, „für jeden Tag wird ein Säumniszuschlag von 0,05 % erhoben; wird auch danach nicht gezahlt, wird ein Bußgeld vom 1- bis 3-Fachen des ausstehenden Betrags verhängt" | Nr. 8 |
+
+## 2. Nicht erhalten / nicht verwendet
+
+| Gesucht | Ergebnis | Behandlung |
+| --- | --- | --- |
+| der konkrete Betrag der einmaligen Beihilfe bei Tod durch Arbeitsunfall für das laufende Jahr | Dafür wird das verfügbare Pro-Kopf-Einkommen der städtischen und ländlichen Bevölkerung des ganzen Landes für 2025 gebraucht. In der Politikdatenbank des Staatsrats ließ sich das Statistikbulletin selbst nicht finden; der Auslegungsartikel zur Bekanntmachung auf gov.cn nennt nur „das verfügbare Pro-Kopf-Einkommen der Einwohner ist gegenüber dem Vorjahr real um 5,0 % gestiegen", ohne absoluten Wert; auch in der Liste der neuesten Veröffentlichungen von stats.gov.cn steht dieser Posten nicht | Nr. 10 schreibt nur die Faktorformel, der Betrag steht als TODO |
+| Streitmaterial zur 48-Stunden-Klausel in der Praxis | Es fanden sich nur viele Kommentare aus zweiter Hand; ein zitierfähiges Gerichtsdokument oder eine offizielle Auslegung wurde nicht gefunden | Der Text gibt nur das Gesetzesoriginal wieder und bewertet nicht |
+
+## 3. Bezugsgröße und Höhe des Nutzens
+
+- Alle vier Bezugsgrößen sind Geld. Die Höhe des Nutzens wird nach der Geld-Schwelle seit Abschnitt 8 festgelegt: Die einmalige Erwerbsminderungsbeihilfe wird in Monatslöhne umgerechnet, selbst der niedrigste Grad 10 sind 7 Monatslöhne; die Beihilfe bei Tod durch Arbeitsunfall ist „das 20-Fache des verfügbaren Pro-Kopf-Einkommens der städtischen und ländlichen Bevölkerung des ganzen Landes im Vorjahr", beides liegt über der Größenordnung von 10.000 元, deshalb wird alles als „groß" eingestuft. Bei den Kosten: Anerkennung und Feststellung selbst kosten kein Geld, aber beide erfordern, Verfahren zu durchlaufen und auf das Ergebnis zu warten, die Zeit wird als „mittel" vermerkt; Nr. 8 (Betrieb nicht versichert) wird zusätzlich als „Willenskraft=etwas" vermerkt, weil die Gegenseite es mit hoher Wahrscheinlichkeit nicht anerkennt und man bis zum Schiedsverfahren durchhalten muss.

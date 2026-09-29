@@ -1,59 +1,59 @@
-[← 回总目录](../README.md)
+[← Zurück zum Inhaltsverzeichnis](../README.md)
 
-# 18. 养孩子划不划算
+# 18. Kinder großziehen
 
-这一节算的是钱和时间两笔账。和第 10 节算结婚账一样，这里只把账拆开给你看，不替你下结论。已经怀孕、要照流程一步步办事的，看第 27 节。
+Bezugsgröße: Geld und Zeit. Dieser Abschnitt macht zwei Rechnungen auf: Geld und Zeit. Wie bei der Heiratsrechnung in Abschnitt 10 wird die Rechnung hier nur aufgeschlüsselt, kein Urteil gefällt. Wer schon schwanger ist und die Schritte der Reihe nach durchgehen muss, sieht in Abschnitt 27.
 
-### 1. 先把能领的算进来：国家育儿补贴每孩每年 3600 元，发到 3 岁
-<!-- 成本标签: 钱=0 时间=少 毅力=否 收益=大 口径=金钱 -->
-- 成本：不花钱。去孩子户口所在地申请，跑一趟就办完
-- 说人话：孩子在 2025 年 1 月 1 日以后出生、还不满 3 周岁，就能领这笔钱。父母中的一个人去孩子户口所在地申请。每个孩子每年 3600 元，一直领到 3 岁。这笔钱不用交个人所得税。申请低保这类救助时，也不算进你家的收入。
-- 收益：中共中央办公厅、国务院办公厅印发的方案规定：2025 年 1 月 1 日起出生、3 周岁以下的婴幼儿，按「每孩每年 3600 元」发放。由孩子的父母一方或者其他监护人去申领。这笔补贴「免征个人所得税」。认定低保这类救助的时候，它「不计入家庭或个人收入」
-- 证据等级：A
-- 来源：中共中央办公厅、国务院办公厅 (2025). 育儿补贴制度实施方案. <https://www.gov.cn/gongbao/2025/issue_12206/202508/content_7035435.html>
-- 备注：这是全国统一的最低线。有的省市另有自己的地方补贴，可以和这笔叠加着一起领。三年加起来 10800 元，在养孩子的开支里只是很小的一块，别把它当成生不生的依据
+### 1. Rechne zuerst ein, was du bekommen kannst: staatlicher Kinderbetreuungszuschuss 3600 元 je Kind und Jahr, bis zum 3. Lebensjahr
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=nein Nutzen=hoch Bezug=Geld -->
+- Kosten: kostet nichts. Antrag am Ort der Haushaltsregistrierung des Kindes, ein Gang erledigt es
+- Klartext: Ist dein Kind nach dem 1. Januar 2025 geboren und noch keine 3 Jahre alt, bekommst du dieses Geld. Ein Elternteil stellt den Antrag am Ort der Haushaltsregistrierung des Kindes. Je Kind gibt es 3600 元 im Jahr, bis zum 3. Lebensjahr. Das Geld ist einkommensteuerfrei. Bei der Mindestsicherung zählt es nicht zum Einkommen deiner Familie.
+- Nutzen: Der Plan des Büros des Zentralkomitees der Kommunistischen Partei Chinas und des Büros des Staatsrates legt fest: Für Säuglinge und Kleinkinder, die ab dem 1. Januar 2025 geboren und unter 3 Jahre alt sind, werden „je Kind und Jahr 3600 元" gezahlt. Ein Elternteil oder ein anderer Vormund stellt den Antrag. Diese Leistung ist „von der Einkommensteuer befreit". Bei der Anerkennung der Mindestsicherung und ähnlicher Hilfe „zählt sie nicht zum Einkommen der Familie oder der Person"
+- Evidenzstufe: A
+- Quellen: Büro des Zentralkomitees der Kommunistischen Partei Chinas, Büro des Staatsrates (2025). Umsetzungsplan für das System des Kinderbetreuungszuschusses. <https://www.gov.cn/gongbao/2025/issue_12206/202508/content_7035435.html>
+- Anmerkung: Das ist die landesweit einheitliche Untergrenze. Manche Provinzen und Städte haben eigene Zuschüsse, die du zusätzlich beziehen kannst. Über drei Jahre sind das 10800 元, im Verhältnis zu den Ausgaben für ein Kind nur ein kleiner Posten. Mach es nicht zur Grundlage deiner Entscheidung
 
-### 2. 产假 98 天，生育津贴由生育保险基金按单位上年度职工月平均工资发
-<!-- 成本标签: 钱=0 时间=少 毅力=否 收益=大 口径=金钱 -->
-- 成本：不花钱。由单位去申报，你自己不用跑
-- 说人话：生孩子至少能休 98 天产假，其中产前可以先休 15 天。难产再加 15 天。每多生一个孩子，也再加 15 天。这段时间发的钱叫生育津贴，由生育保险基金出。单位没给你上生育保险的，就由单位自己发。
-- 收益：产假天数由国务院规定。「女职工生育享受 98 天产假，其中产前可以休假 15 天；难产的，增加产假 15 天；生育多胞胎的，每多生育 1 个婴儿，增加产假 15 天。」产假期间拿的钱叫生育津贴。已经参加生育保险的，「按照用人单位上年度职工月平均工资的标准由生育保险基金支付」。没参保的，由用人单位按你产假前的工资标准发给你
-- 证据等级：A
-- 来源：国务院 (2012). 女职工劳动保护特别规定（国令第 619 号，第七条、第八条）. <https://www.gov.cn/zhengce/zhengceku/2012-05/07/content_6584.htm>
-- 备注：98 天是国家定的最低标准。各省的人口与计划生育条例普遍还要再加 60 天以上的生育奖励假，加起来通常是 158 天起。奖励假这段时间的工资由哪一方出，各省规定不一样
+### 2. Mutterschaftsurlaub 98 Tage, das Mutterschaftsgeld zahlt der Fonds der Mutterschutzversicherung nach dem durchschnittlichen Monatslohn der Beschäftigten des Betriebs im Vorjahr
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=nein Nutzen=hoch Bezug=Geld -->
+- Kosten: kostet nichts. Der Antrag läuft über den Betrieb, du musst selbst nicht los
+- Klartext: Bei einer Geburt hast du mindestens 98 Tage Mutterschaftsurlaub, davon kannst du 15 Tage vor der Geburt nehmen. Bei einer erschwerten Geburt kommen 15 Tage dazu. Für jedes weitere Kind kommen 15 Tage dazu. Das Geld in dieser Zeit heißt Mutterschaftsgeld und kommt aus dem Fonds der Mutterschutzversicherung. Hat dein Betrieb dich nicht versichert, zahlt er selbst.
+- Nutzen: Die Zahl der Urlaubstage legt der Staatsrat fest. „Eine Arbeitnehmerin, die gebiert, genießt 98 Tage Mutterschaftsurlaub; davon können 15 Tage vor der Geburt genommen werden; bei erschwerter Geburt erhöht sich der Urlaub um 15 Tage; bei einer Mehrlingsgeburt erhöht er sich für jedes weitere geborene Kind um 15 Tage." Das Geld im Urlaub heißt Mutterschaftsgeld. Wer mutterschutzversichert ist, bekommt es „nach dem Maßstab des durchschnittlichen Monatslohns der Beschäftigten des Betriebs im Vorjahr aus dem Fonds der Mutterschutzversicherung gezahlt". Ohne Versicherung zahlt der Betrieb nach deinem Lohn vor dem Urlaub
+- Evidenzstufe: A
+- Quellen: Staatsrat (2012). Sonderregelungen zum Schutz von Arbeitnehmerinnen [女职工劳动保护特别规定] (Staatsratsverordnung Nr. 619, Art. 7 und 8). <https://www.gov.cn/zhengce/zhengceku/2012-05/07/content_6584.htm>
+- Anmerkung: 98 Tage sind die vom Staat gesetzte Untergrenze. Die Verordnungen der Provinzen über Bevölkerung und Familienplanung [人口与计划生育条例] sehen in der Regel zusätzlich mehr als 60 Tage Geburtsprämienurlaub vor, zusammen sind es meist ab 158 Tagen. Wer den Lohn während dieses Prämienurlaubs trägt, regeln die Provinzen unterschiedlich
 
-### 3. 知道这条：不得因怀孕、生育、哺乳降工资或者辞退
-<!-- 成本标签: 钱=0 时间=少 毅力=否 收益=大 口径=金钱 -->
-- 成本：不花钱
-- 说人话：怀孕、生孩子、喂奶这几段时间里，单位给你降工资或者把你辞了，都是违法的，要按每人 1000 到 5000 元罚款。孩子不满一周岁的，你每天有 1 小时喂奶时间，单位也不能安排你加班和上夜班。索赔怎么走见第 19 节。
-- 收益：国务院规定：「用人单位不得因女职工怀孕、生育、哺乳降低其工资、予以辞退、与其解除劳动或者聘用合同。」这三段时间里单位不能给你减钱，也不能把你辞退或者解约。哺乳未满 1 周岁婴儿的，每天有 1 小时哺乳时间。单位也不得安排你延长劳动时间，不得安排夜班。单位违反上面这些的，按每人 1000 元以上 5000 元以下罚款
-- 证据等级：A
-- 来源：国务院 (2012). 女职工劳动保护特别规定（国令第 619 号，第五条、第九条、第十三条）. <https://www.gov.cn/zhengce/zhengceku/2012-05/07/content_6584.htm>
-- 备注：真的被违法辞退了，索赔路径见第 19 节。取证的重点是调岗、降薪的书面通知和聊天记录，这两样要留好
+### 3. Merk dir diese Regel: Wegen Schwangerschaft, Geburt oder Stillen darf der Lohn nicht gesenkt und nicht gekündigt werden
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=nein Nutzen=hoch Bezug=Geld -->
+- Kosten: kostet nichts
+- Klartext: In der Zeit der Schwangerschaft, der Geburt und des Stillens ist es rechtswidrig, wenn der Betrieb deinen Lohn senkt oder dich entlässt. Dafür gibt es 1000 bis 5000 元 Bußgeld je Person. Ist dein Kind noch nicht 1 Jahr alt, hast du täglich 1 Stunde zum Stillen. Der Betrieb darf dich dann auch nicht Überstunden machen lassen und nicht in die Nachtschicht schicken. Wie du Ansprüche geltend machst, siehst du in Abschnitt 19.
+- Nutzen: Der Staatsrat legt fest: „Der Betrieb darf wegen Schwangerschaft, Geburt oder Stillen den Lohn einer Arbeitnehmerin nicht senken, sie nicht entlassen und den Arbeits- oder Anstellungsvertrag mit ihr nicht auflösen." In diesen drei Zeiten darf der Betrieb dir kein Geld abziehen und dich nicht entlassen oder den Vertrag auflösen. Stillst du ein Kind unter 1 Jahr, hast du täglich 1 Stunde Stillzeit. Der Betrieb darf dich auch nicht länger arbeiten lassen und keine Nachtschicht ansetzen. Verstößt der Betrieb dagegen, gibt es ein Bußgeld von 1000 bis 5000 元 je Person
+- Evidenzstufe: A
+- Quellen: Staatsrat (2012). Sonderregelungen zum Schutz von Arbeitnehmerinnen [女职工劳动保护特别规定] (Staatsratsverordnung Nr. 619, Art. 5, 9 und 13). <https://www.gov.cn/zhengce/zhengceku/2012-05/07/content_6584.htm>
+- Anmerkung: Wirst du tatsächlich rechtswidrig entlassen, steht der Weg zum Anspruch in Abschnitt 19. Beim Sammeln der Beweise sind die schriftliche Mitteilung über Versetzung oder Lohnsenkung und der Chatverlauf wichtig. Beides musst du aufbewahren
 
-### 4. 时间账按「谁的时间被占掉」算，不按「辛不辛苦」算
-<!-- 成本标签: 钱=0 时间=多 毅力=是 收益=大 口径=时间 -->
-- 成本：不花钱，花的是时间。孩子 3 岁前基本是全天被占住。难在天天如此，没法咬牙几天就过去
-- 说人话：把每天看孩子的小时数、夜里被吵醒的次数，都折算成时间。再乘上干这些活的那个人的时薪。算出来的数，一般远远大于奶粉尿布钱。所以分工最好在生之前就谈好。
-- 收益：把每天照看孩子的时间、夜里被吵醒的次数，都折算成小时。再乘以干这些活的那个人的时薪。得到的数字通常远大于奶粉尿布钱。照看、做饭、夜里起夜这些活虽然没人付钱，也照这样记进成本。算法和第 10 节算家务的那套一样。先谈好分工，再决定生不生
-- 证据等级：C
-- 来源：作者经验，无直接文献；口径见第 10 节
-- 备注：数字不必算得很准。有用的是两个人在生之前对着同一张表谈分工，免得生完再吵
+### 4. Die Zeitrechnung geht nach „wessen Zeit verbraucht wird", nicht nach „wie anstrengend es ist"
+<!-- Kostenlabel: Geld=0 Zeit=viel Willenskraft=ja Nutzen=hoch Bezug=Zeit -->
+- Kosten: kostet nichts, kostet aber Zeit. Vor dem 3. Lebensjahr ist deine Zeit fast den ganzen Tag belegt. Schwierig ist, dass es jeden Tag so ist und du es nicht mit ein paar Tagen Zähnebeißen hinter dich bringst
+- Klartext: Rechne die Stunden, die du täglich mit dem Kind verbringst, und die Male, die du nachts geweckt wirst, in Zeit um. Multipliziere das mit dem Stundenlohn der Person, die diese Arbeit macht. Die Zahl ist meist viel größer als das Geld für Milchpulver und Windeln. Deshalb sprich die Aufteilung am besten vor der Geburt ab.
+- Nutzen: Rechne die tägliche Zeit für die Betreuung des Kindes und die Male, die du nachts geweckt wirst, in Stunden um. Multipliziere das mit dem Stundenlohn der Person, die diese Arbeit macht. Die Zahl ist meist viel größer als das Geld für Milchpulver und Windeln. Arbeiten wie Betreuung, Kochen und nachts aufstehen zahlt niemand, doch sie gehören genauso in die Kosten. Die Rechnung geht wie die Hausarbeitsrechnung in Abschnitt 10. Erst die Aufteilung absprechen, dann entscheiden, ob ein Kind kommt
+- Evidenzstufe: C
+- Quellen: Erfahrung des Autors, keine direkte Literatur; die Bezugsgröße steht in Abschnitt 10
+- Anmerkung: Die Zahlen müssen nicht genau stimmen. Nützlich ist, dass ihr beide vor der Geburt an derselben Tabelle die Aufteilung besprecht und euch nicht erst danach streitet
 
-### 5. 钱账分三段算：0 到 3 岁、义务教育、义务教育之后
-<!-- 成本标签: 钱=多 时间=中 毅力=些 收益=大 口径=金钱 -->
-- 成本：花多少钱没有固定数，城市不同、带法不同，差得很远。难在要静下心来把三段账分开算，不能凭感觉拍一个数
-- 说人话：0 到 3 岁的钱，主要花在怎么带上：自己带、老人带，还是请人带。小学到初中这段，主要花在住房和课外。再往后，主要花在升学这条路上。三段的花法完全不同，混在一起只会算出一个吓人的总数。
-- 收益：0 到 3 岁的大头是照料方式：自己带、老人带还是请人带。义务教育阶段（小学到初中）的大头是住房和课外支出。这之后的大头是升学路径。这三段钱花在哪完全不同，混在一起算，只会得到一个吓人的总数
-- 证据等级：C
-- 来源：作者经验，无直接文献
-- 备注：先把育儿补贴、生育津贴、医保报销这些确定能拿到的钱算进来，再看还差多少。别拿网上流传的「养大一个孩子要多少万」做决定，那类数字口径不明，你不知道它算了哪些、又漏了哪些
+### 5. Die Geldrechnung in drei Abschnitten: 0 bis 3 Jahre, Schulpflicht, nach der Schulpflicht
+<!-- Kostenlabel: Geld=viel Zeit=mittel Willenskraft=etwas Nutzen=hoch Bezug=Geld -->
+- Kosten: Wie viel Geld es kostet, steht nicht fest; je nach Stadt und Art der Betreuung liegen die Beträge weit auseinander. Schwierig ist, sich hinzusetzen und die drei Abschnitte getrennt zu rechnen, statt aus dem Bauch heraus eine Zahl zu setzen
+- Klartext: Von 0 bis 3 Jahren geht das Geld vor allem in die Betreuung: selbst betreuen, von den Großeltern betreuen lassen oder jemanden bezahlen. In der Grundschule und der Mittelschule geht es vor allem in Wohnen und außerschulische Ausgaben. Danach geht es vor allem in den weiteren Bildungsweg. Die drei Abschnitte geben das Geld ganz verschieden aus. Zusammengerechnet kommt nur eine erschreckend große Summe heraus.
+- Nutzen: Von 0 bis 3 Jahren ist der größte Posten die Art der Betreuung: selbst betreuen, von den Großeltern betreuen lassen oder jemanden bezahlen. In der Schulpflicht (Grundschule bis Mittelschule) ist der größte Posten Wohnen und außerschulisches. Danach ist der größte Posten der weitere Bildungsweg. Wohin das Geld in den drei Abschnitten fließt, ist völlig verschieden; zusammengerechnet kommt nur eine erschreckend große Summe heraus
+- Evidenzstufe: C
+- Quellen: Erfahrung des Autors, keine direkte Literatur
+- Anmerkung: Rechne zuerst das Geld ein, das du sicher bekommst, etwa Kinderbetreuungszuschuss, Mutterschaftsgeld und Erstattungen der Krankenversicherung, und schau dann, wie viel noch fehlt. Entscheide nicht nach dem im Netz verbreiteten Satz „wie viele Zehntausend 元 ein Kind großziehen kostet". Bei solchen Zahlen ist die Bezugsgröße unklar, du weißt nicht, was mitgerechnet und was weggelassen wurde
 
-### 6. 为长辈生、为婚姻生、为养老生，各记一笔账
-<!-- 成本标签: 钱=0 时间=少 毅力=些 收益=中 口径=金钱 -->
-- 成本：不花钱，花的是一次认真的谈话。难在要把话说开，不绕过去
-- 说人话：别人希望你生，这可以算你的一个考虑因素。但时间和钱是记在你自己账上的。「养儿防老」要单独算一笔，因为它赌的是二十年后另一个人的经济能力和意愿。把不生的后果也写下来，两边对照。
-- 收益：思路和第 10 节一样。别人的期待可以算你的一个考虑因素。但成本要记在你自己的账上，不记在他们账上。「养儿防老」尤其要单独算一笔，因为它假定的是二十年后另一个人的经济能力和意愿
-- 证据等级：C
-- 来源：作者经验，无直接文献；同类分析见第 10 节
-- 备注：把「不生的后果」也写下来，和「生的后果」放在一起对照着看
+### 6. Für die Älteren, für die Ehe, fürs Alter ein Kind bekommen: jede Rechnung getrennt aufmachen
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=etwas Nutzen=mittel Bezug=Geld -->
+- Kosten: kostet nichts, kostet aber ein ernsthaftes Gespräch. Schwierig ist, die Sache offen auszusprechen und nicht drumherumzureden
+- Klartext: Dass andere sich ein Kind von dir wünschen, kann ein Gesichtspunkt für dich sein. Zeit und Geld stehen aber in deiner eigenen Rechnung. „Kinder als Absicherung fürs Alter" musst du getrennt rechnen, denn dabei wettest du darauf, dass ein anderer Mensch zwanzig Jahre später das Geld hat und es auch will. Schreib auch die Folgen auf, wenn du kein Kind bekommst, und stell beides gegenüber.
+- Nutzen: Der Gedanke ist wie in Abschnitt 10. Die Erwartungen anderer können ein Gesichtspunkt für dich sein. Die Kosten stehen aber in deiner Rechnung, nicht in ihrer. „Kinder als Absicherung fürs Alter" musst du besonders getrennt rechnen, denn das setzt voraus, dass ein anderer Mensch zwanzig Jahre später das Geld hat und es auch will
+- Evidenzstufe: C
+- Quellen: Erfahrung des Autors, keine direkte Literatur; eine ähnliche Analyse steht in Abschnitt 10
+- Anmerkung: Schreib auch die Folgen auf, wenn du kein Kind bekommst, und leg sie neben die Folgen, wenn du eins bekommst, zum Vergleich

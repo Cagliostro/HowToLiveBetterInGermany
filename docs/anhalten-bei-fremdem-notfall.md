@@ -1,55 +1,55 @@
-[← 回总目录](../README.md)
+[← Zurück zum Inhaltsverzeichnis](../README.md)
 
-# 路上遇到陌生人出事，走开还是停下
+# Wenn einem Fremden auf der Straße etwas zustößt: weggehen oder stehen bleiben
 
-这是第 13 节第 2 条（老人摔倒、有人倒地先别急着扶）的长文版。全书把受益人分成四档，排序的标准是这份好处将来回到你身上的可能有多大。陌生人是最低的一档。指望对方回报你的可能小，你也不了解对方是什么人。所以这里不劝你做什么，只把三条路各要付的账列全，选哪条你自己定。
+Dies ist die Langfassung von Abschnitt 13, Nr. 2 (stürzt ein alter Mensch oder liegt jemand am Boden, zieh ihn nicht gleich hoch). Das ganze Buch teilt die Begünstigten in vier Stufen ein; das Sortierkriterium ist, wie groß die Möglichkeit ist, dass dieser Nutzen später zu dir zurückkommt. Fremde sind die niedrigste Stufe. Die Möglichkeit, dass der andere dir etwas zurückgibt, ist gering, und du weißt auch nicht, was für ein Mensch der andere ist. Deshalb rät dieser Text dir zu nichts, sondern listet nur vollständig auf, welche Rechnung jeder der drei Wege zu zahlen hat; welchen du wählst, entscheidest du selbst.
 
-**本文不给任何概率。** 下面每一层成本都真实存在，也都有条文可查。但是「一百个救人的里，真摊上事的有几个」，这种数据没有公开统计。全书的规矩是数字不确定就宁可不写。所以别把「这里列了七层」读成「这七层都会落到你头上」。
+**Dieser Text gibt keine einzige Wahrscheinlichkeit an.** Jede Kostenschicht unten existiert wirklich, und zu jeder gibt es einen Paragrafen zum Nachschlagen. Aber für die Frage „von hundert Menschen, die retten, wie viele bekommen wirklich Ärger" gibt es keine öffentliche Statistik. Die Regel des ganzen Buchs ist: ist eine Zahl unsicher, dann wird sie lieber nicht geschrieben. Lies deshalb „hier sind sieben Schichten aufgelistet" nicht als „diese sieben Schichten treffen alle dich".
 
-## 三条路
+## Drei Wege
 
-| | 走开 | 停下但不碰 | 停下并帮到底 |
+| | Weggehen | Stehen bleiben, aber nicht anfassen | Stehen bleiben und bis zum Ende helfen |
 | --- | --- | --- | --- |
-| 合法性 | 合法。普通人对陌生人没有救人的义务，刑法里也没有「看见了不救」这个罪名 | 合法 | 合法 |
-| 时间 | 0 | 几分钟。打 120 会留下你的号码 | 半天起步，可能要跟到医院 |
-| 事后被人找上门的可能 | 最低 | 你就是留了号码的那个人 | 最高 |
-| 对方得到的好处 | 0 | 救护车来得更早 | 最大 |
+| Rechtmäßigkeit | Rechtmäßig. Für einen gewöhnlichen Menschen gibt es keine Pflicht, einen Fremden zu retten; im Strafgesetzbuch gibt es auch keinen Straftatbestand „gesehen und nicht gerettet" | Rechtmäßig | Rechtmäßig |
+| Zeit | 0 | Ein paar Minuten. Ein Anruf bei der 120 hinterlässt deine Nummer | Ein halber Tag und mehr, möglicherweise bis ins Krankenhaus |
+| Möglichkeit, dass man dich hinterher aufsucht | am geringsten | Du bist der Mensch, der seine Nummer hinterlassen hat | am höchsten |
+| Nutzen für die andere Seite | 0 | Der Krankenwagen kommt früher | am größten |
 
-## 停下之后可能出现的成本，从轻到重
+## Die möglichen Kosten, nachdem du stehen geblieben bist, von leicht nach schwer
 
-**一、回电话和被问话。** 你打 120 或者 110，号码都会留下。对方可能回拨给你，问清楚位置在哪。事后也可能叫你去问一次话。如果是刑事案件，报案的人不愿意公开姓名，办案机关要替他保密（刑事诉讼法第一百一十一条）。打 120 没有这样一条保密规定。
+**Erstens: Rückrufe und Befragungen.** Rufst du die 120 oder die 110 an, bleibt deine Nummer in beiden Fällen gespeichert. Die andere Seite kann dich zurückrufen und nach dem genauen Ort fragen. Hinterher kann man dich auch einmal zu einer Befragung holen. Ist es eine Strafsache und will die Person, die den Fall anzeigt, ihren Namen nicht öffentlich machen, muss die Stelle, die den Fall bearbeitet, den Namen der anzeigenden Person geheim halten (Art. 111 der Strafprozessordnung [刑事诉讼法]). Für einen Anruf bei der 120 gibt es keine solche Geheimhaltungsregel.
 
-**二、被伤者家属找上。** 监控里要是找不到肇事的车，家属最容易找到的人就是你。因为你留了号码，当时人又在现场。他们可能打电话来催，也可能找上门来。
+**Zweitens: Die Angehörigen des Verletzten suchen dich auf.** Findet sich in der Überwachung das Unfallauto nicht, bist du die Person, die die Angehörigen am leichtesten finden. Denn du hast deine Nummer hinterlassen und warst damals auch am Ort. Sie können anrufen und drängen, sie können aber auch bei dir auftauchen.
 
-**三、被告到法院去。** 谁说是你撞的，就得由谁拿出证据。他拿不出证据，这个后果由他自己承担（民诉法解释第九十条）。**但这一条只管最后怎么判，不管你会不会被卷进去。** 案子按普通程序审，一审要在 6 个月内结案，有特殊情况还能再延 6 个月。按简易程序审是 3 个月（民事诉讼法第一百五十二、一百六十四条）。就算你赢得干干净净，能让对方掏的也只有三项：案件受理费、申请费，还有证人和鉴定人出庭的差旅费误工费（诉讼费用交纳办法第六、二十九条）。**你自己请律师的钱不在这三项里，得你自己出。**
+**Drittens: Du wirst vor Gericht verklagt.** Wer behauptet, du hättest ihn angefahren, muss dafür die Beweise vorlegen. Legt er keine Beweise vor, trägt er die Folgen selbst (Art. 90 der Auslegung zur Anwendung der Zivilprozessordnung [民诉法解释]). **Diese Vorschrift regelt aber nur, wie am Ende geurteilt wird, nicht, ob du in den Fall hineingezogen wirst.** Der Fall wird im ordentlichen Verfahren verhandelt; die erste Instanz muss innerhalb von 6 Monaten abgeschlossen sein, bei besonderen Umständen kann um weitere 6 Monate verlängert werden. Im vereinfachten Verfahren sind es 3 Monate (Art. 152 und 164 der Zivilprozessordnung [民事诉讼法]). Selbst wenn du völlig sauber gewinnst, kannst du von der Gegenseite nur drei Posten verlangen: die Gerichtsgebühr, die Antragsgebühr und die Reise- und Verdienstausfallkosten für Zeugen und Sachverständige, die vor Gericht erscheinen (Art. 6 und 29 der Verordnung über die Zahlung der Prozesskosten [诉讼费用交纳办法]). **Die Kosten für deinen eigenen Anwalt gehören nicht zu diesen drei Posten; die trägst du selbst.**
 
-**四、闹到你单位去。** 有人到你单位来闹，你可以报警。扰乱企业事业单位秩序、让工作没法正常进行的，警察给警告，或者罚 500 元以下。情节较重的，拘留 5 到 10 日，再加罚 1000 元以下。一伙人一起来闹的，带头的拘留 10 到 15 日（治安管理处罚法第二十六条第一项）。反复滋扰、纠缠、跟踪，搅得你没法正常过日子的，按第五十条第五项处罚。经公安机关负责人批准，还可以责令他在一定期限内不得接触你。公司要是因为这件事把你开了，一般属于违法解除劳动合同，赔偿金按 2N 算（第 19 节第 6 条）。但是报警也好，去劳动仲裁也好，都得你自己一趟趟跑。而且工作先丢掉的那段时间，不会因为将来拿到 2N 就补回来。
+**Viertens: Jemand randaliert bei deiner Arbeitsstelle.** Kommt jemand zu deiner Arbeitsstelle und randaliert, kannst du die Polizei rufen. Wer die Ordnung eines Unternehmens oder einer öffentlichen Einrichtung stört und den normalen Arbeitsablauf unmöglich macht, bekommt von der Polizei eine Verwarnung oder eine Geldbuße von bis zu 500 元. Ist der Fall schwerer, gibt es 5 bis 10 Tage Gewahrsam und zusätzlich eine Geldbuße von bis zu 1000 元. Randaliert eine ganze Gruppe, bekommt der Anführer 10 bis 15 Tage Gewahrsam (Art. 26 Nr. 1 des Gesetzes über Ordnungswidrigkeiten der öffentlichen Sicherheit [治安管理处罚法]). Wiederholte Belästigung, Nachstellen und Verfolgen, das dich dein normales Leben nicht mehr führen lässt, wird nach Art. 50 Nr. 5 bestraft. Mit Genehmigung des Leiters der öffentlichen Sicherheitsbehörde kann man ihm außerdem für eine bestimmte Frist verbieten, dir nahe zu kommen. Kündigt die Firma dich deswegen, gilt das in der Regel als rechtswidrige Kündigung des Arbeitsvertrags, und die Entschädigung wird mit 2N gerechnet (Abschnitt 19, Nr. 6). Aber ob du die Polizei rufst oder zur Arbeitsstreitschlichtung gehst, du musst all diese Wege selbst nacheinander gehen. Und die Zeit, in der du die Arbeit zuerst verlierst, wird nicht dadurch aufgeholt, dass du später 2N bekommst.
 
-**五、被人拍下来、发到网上。** **你未必拦得住别人拍。** 没经过本人同意，不能制作、使用、公开别人的肖像（民法典第一千零一十九条）。但是有一条例外：「为实施新闻报道，不可避免地制作、使用、公开肖像权人的肖像」属于合理使用，不算侵权（第一千零二十条第二项）。记者为报道新闻来拍，就属于这种例外。你能做的是不接受采访，不出镜，不在镜头前说话。同不同意由你自己决定，谁也不能替你答应。
+**Fünftens: Du wirst gefilmt und ins Netz gestellt.** **Du kannst nicht unbedingt verhindern, dass andere filmen.** Ohne die Zustimmung der Person darf man das Bildnis eines anderen nicht herstellen, verwenden oder öffentlich machen (Art. 1019 des Zivilgesetzbuchs [民法典]). Es gibt aber eine Ausnahme: „Das Bildnis der abgebildeten Person zur Durchführung der Berichterstattung unvermeidbar herzustellen, zu verwenden oder öffentlich zu machen" gilt als zulässige Nutzung und nicht als Rechtsverletzung (Art. 1020 Nr. 2). Filmt ein Journalist, um über die Nachrichten zu berichten, fällt das unter diese Ausnahme. Was du tun kannst, ist: kein Interview annehmen, nicht ins Bild kommen, vor der Kamera nichts sagen. Ob du zustimmst, entscheidest du selbst; niemand kann für dich zusagen.
 
-**六、视频被转来转去，然后挨骂。** 视频一旦传开，评论区就不归你管了。你能自己动手的办法，写在《网络暴力信息治理规定》里（2024 年 8 月 1 日施行）。平台应当给你这几样防护设置：屏蔽陌生人或者指定的某个人，限制自己的信息谁能看见。你还可以禁止别人转载或者评论，只收好友的私信，或者谁的私信都不收（第二十三条）。平台应当提供一键取证的功能，把骂你的内容固定下来（第二十五条）。平台应当在显眼的位置设一个专门的快捷投诉举报入口（第二十六条）。平台发现涉嫌违法犯罪的，应当及时向公安机关报案，并且提供线索（第十五条）。自己怎么留证据、怎么报警，见第 8 节第 15 条。
+**Sechstens: Das Video wird weiterverbreitet, und dann wirst du beschimpft.** Sobald das Video sich verbreitet hat, gehören die Kommentare nicht mehr dir. Was du selbst in die Hand nehmen kannst, steht in den Regelung über die Behandlung von Online-Gewaltinformationen [网络暴力信息治理规定] (in Kraft seit 1. August 2024). Die Plattform soll dir diese Schutzmöglichkeiten geben: Fremde oder eine bestimmte Person blockieren und einschränken, wer deine eigenen Informationen sehen kann. Du kannst außerdem verbieten, dass andere deine Inhalte weiterteilen oder kommentieren, nur private Nachrichten von Freunden annehmen oder gar keine privaten Nachrichten annehmen (Art. 23). Die Plattform soll eine Funktion zur Beweissicherung mit einem Klick bereitstellen, die die Beschimpfungen gegen dich festhält (Art. 25). Die Plattform soll an gut sichtbarer Stelle einen eigenen schnellen Zugang für Beschwerden und Anzeigen einrichten (Art. 26). Stellt die Plattform fest, dass eine Straftat oder Ordnungswidrigkeit in Betracht kommt, soll sie rechtzeitig bei der öffentlichen Sicherheitsbehörde Anzeige erstatten und Hinweise liefern (Art. 15). Wie du selbst Beweise sicherst und Anzeige erstattest, siehe Abschnitt 8, Nr. 16 (Beschimpfe und verleumde niemanden im Netz).
 
-**七、扛不住的时候。** 上面六层都能拿条文去应对，第七层不能。一直被人围攻，对情绪有多大影响，国内没有可靠的数据可以引用。本书不给数字，只给一个出口：心理援助热线 12356，见第 1 节第 25 条。
+**Siebtens: Wenn du es nicht mehr aushältst.** Gegen die sechs Schichten oben kannst du mit Paragrafen vorgehen, gegen die siebte nicht. Wie groß der Einfluss ist, wenn man ständig bedrängt wird, auf die Stimmung, dafür gibt es in China keine verlässlichen Daten, die man anführen könnte. Dieses Buch gibt keine Zahl, sondern nur einen Ausweg: die psychologische Beratungshotline 12356, siehe Abschnitt 1, Nr. 25.
 
-## 让「走开」不再免费的两种情况
+## Zwei Fälle, in denen „Weggehen" nicht mehr kostenlos ist
 
-- **你是这个场所的经营者、管理者，或者群众性活动的组织者。** 场所指宾馆、商场、银行、车站、机场、体育场馆、娱乐场所这类地方。你对场内的人负有安全保障义务。没尽到这份义务，你就要承担侵权责任（要赔钱）。损害是别人造成的，而你没尽到这份义务，你要在自己该负责的那部分范围内赔，这叫补充责任（民法典第一千一百九十八条）。所以值班的员工、场地方走开，要担的责任和一个路人走开不一样。
-- **这事本来就跟你有关。** 人是你撞的，车是你的，或者危险是你先前的行为造成的。这时该看的就不是要不要管别人，而是交通事故处置和肇事逃逸怎么办，见第 8 节第 1 条。
+- **Du bist der Betreiber oder Verwalter dieses Ortes oder der Veranstalter einer Massenveranstaltung.** Orte meint Einrichtungen wie Hotels, Kaufhäuser, Banken, Bahnhöfe, Flughäfen, Sportstätten und Vergnügungsorte. Gegenüber den Menschen an diesem Ort hast du eine Pflicht zur Gewährleistung der Sicherheit. Erfüllst du diese Pflicht nicht, trägst du die Haftung für unerlaubte Handlung (du musst zahlen). Ist der Schaden von einem anderen verursacht, und du hast diese Pflicht nicht erfüllt, haftest du im Rahmen des Teils, den du zu verantworten hast; das nennt man ergänzende Haftung (Art. 1198 des Zivilgesetzbuchs). Deshalb ist die Haftung eines diensthabenden Mitarbeiters oder des Ortes, der weggeht, anders als die Haftung eines Passanten, der weggeht.
+- **Die Sache hat von vornherein mit dir zu tun.** Du hast die Person angefahren, das Auto ist deines, oder die Gefahr hast du durch dein früheres Verhalten verursacht. Dann geht es nicht mehr darum, ob du dich um andere kümmerst, sondern darum, wie ein Verkehrsunfall abzuwickeln ist und was bei Fahrerflucht zu tun ist, siehe Abschnitt 8, Nr. 1.
 
-## 决定停下时，最省事的做法
+## Der einfachste Weg, wenn du dich zum Stehenbleiben entscheidest
 
-1. **不要上手去搬、去扶。** 这一点没有第二种答案。理由在医学上：硬扶可能让脑出血更重，也可能让脊柱的伤更重。法律上不用担心：救人过程中造成的损害，民法典第一百八十四条已经免掉了。
-2. 隔开一点距离喊他一声，看他有没有呼吸。没呼吸就用力按压他的胸口，见第 13 节第 1 条。有呼吸就待在原地打 120，报清楚位置。
-3. 拉一个路人一起，同时打开手机录像。有人证，又有录像，比事后跟人争辩管用。
-4. 别一个人把他抬上车，也别自己垫钱送他去医院。这一步花钱最多，事后也最难收场。
-5. 你救人时自己受了伤，或者搭进去了钱。想把这笔钱要回来，见第 13 节第 39 条（救人受了伤、搭进了钱怎么办）。
+1. **Fass nicht mit den Händen an, um die Person umzulagern oder hochzuziehen.** Hier gibt es keine zweite Antwort. Der Grund ist medizinisch: Kräftiges Hochziehen kann eine Hirnblutung verschlimmern und auch eine Verletzung der Wirbelsäule schlimmer machen. Rechtlich musst du dir keine Sorgen machen: Schäden, die beim Retten entstehen, sind durch Art. 184 des Zivilgesetzbuchs bereits freigestellt.
+2. Ruf ihn aus ein wenig Abstand an und sieh, ob er atmet. Atmet er nicht, drück kräftig auf seinen Brustkorb, siehe Abschnitt 13, Nr. 1. Atmet er, bleib an Ort und Stelle und ruf die 120 an; nenne den genauen Ort.
+3. Zieh einen Passanten mit dazu und schalte gleichzeitig die Handykamera ein. Mit einem Zeugen und mit einem Video kommst du weiter als damit, dich hinterher mit jemandem zu streiten.
+4. Heb ihn nicht allein in ein Auto, und leg auch nicht aus eigener Tasche Geld vor, um ihn ins Krankenhaus zu bringen. Dieser Schritt kostet am meisten Geld und ist hinterher am schwersten wieder aufzulösen.
+5. Du hast dich bei der Rettung selbst verletzt oder Geld hineingesteckt. Willst du dieses Geld zurückholen, siehe Abschnitt 13, Nr. 39 (hast du dich bei einer Rettung verletzt und Geld verloren).
 
-## 来源
+## Quellen
 
-- 全国人大 (2020). 民法典（第一百八十四、一千零一十九、一千零二十、一千一百九十八条）. 最高人民检察院转载全文. <https://www.spp.gov.cn/spp/fl/202006/t20200602_463888.shtml>
-- 最高人民法院 (2022 年第二次修正，2022 年 4 月 10 日施行). 关于适用《中华人民共和国民事诉讼法》的解释（第九十条）. <https://www.court.gov.cn/zixun/xiangqing/353651.html>
-- 全国人大常委会 (2023 年修正，2024 年 1 月 1 日施行). 民事诉讼法（第一百五十二、一百六十四条）. 上海市发展和改革委员会转载全文. <https://fgw.sh.gov.cn/ys-syjf-zc-2.4.1-h5/20240408/073febdb2b04464390546232d4089f51.html>
-- 国务院 (2006). 诉讼费用交纳办法（国务院令第 481 号，第六、二十九条）. <https://www.gov.cn/ziliao/flfg/2006-12/29/content_483682.htm>
-- 全国人大常委会 (2025). 治安管理处罚法（2025 年修订，2026 年 1 月 1 日起施行，第二十六条第一项、第五十条第五项）. <https://www.spp.gov.cn/spp/fl/202506/t20250627_699863.shtml>
-- 全国人大常委会 (2018 年修正). 刑事诉讼法（第一百一十一条）. 宁夏回族自治区人民检察院转载全文. <https://www.nx.jcy.gov.cn/zwsy/qwfb/202011/t20201119_608817.html>
-- 国家互联网信息办公室、公安部、文化和旅游部、国家广播电视总局 (2024). 网络暴力信息治理规定（第十五、二十三、二十五、二十六条，2024 年 8 月 1 日施行）. 国务院公报. <https://www.gov.cn/gongbao/2024/issue_11526/202408/content_6969181.html>
+- Nationaler Volkskongress (2020). Zivilgesetzbuch (Art. 184, 1019, 1020 und 1198). Volltext siehe Nachdruck der Obersten Volksstaatsanwaltschaft. <https://www.spp.gov.cn/spp/fl/202006/t20200602_463888.shtml>
+- Oberstes Volksgericht (zweite Änderung 2022, in Kraft seit 10. April 2022). Auslegung zur Anwendung der Zivilprozessordnung der Volksrepublik China [关于适用《中华人民共和国民事诉讼法》的解释] (Art. 90). <https://www.court.gov.cn/zixun/xiangqing/353651.html>
+- Ständiger Ausschuss des Nationalen Volkskongresses (Fassung 2023, in Kraft seit 1. Januar 2024). Zivilprozessordnung (Art. 152, 164). Volltext siehe Nachdruck der Kommission für Entwicklung und Reform der Stadt Shanghai <https://fgw.sh.gov.cn/ys-syjf-zc-2.4.1-h5/20240408/073febdb2b04464390546232d4089f51.html>
+- Staatsrat (2006). Verordnung über die Zahlung der Prozesskosten [诉讼费用交纳办法] (Staatsratsverordnung Nr. 481, Art. 6, 29). <https://www.gov.cn/ziliao/flfg/2006-12/29/content_483682.htm>
+- Ständiger Ausschuss des Nationalen Volkskongresses (2025). Gesetz über Ordnungswidrigkeiten der öffentlichen Sicherheit [治安管理处罚法] (Fassung 2025, in Kraft seit 1. Januar 2026, Art. 26 Nr. 1, Art. 50 Nr. 5). <https://www.spp.gov.cn/spp/fl/202506/t20250627_699863.shtml>
+- Ständiger Ausschuss des Nationalen Volkskongresses (Fassung 2018). Strafprozessordnung (Art. 111). Volltext siehe Nachdruck der Volksstaatsanwaltschaft des Autonomen Gebiets Ningxia der Hui-Nationalität. <https://www.nx.jcy.gov.cn/zwsy/qwfb/202011/t20201119_608817.html>
+- Staatliches Büro für die Verwaltung des Internet-Informationswesens, Ministerium für öffentliche Sicherheit, Ministerium für Kultur und Tourismus, Staatliche Verwaltung für Rundfunk und Fernsehen (2024). Regelung über die Behandlung von Online-Gewaltinformationen [网络暴力信息治理规定] (Art. 15, 23, 25 und 26, in Kraft seit 1. August 2024). Amtsblatt des Staatsrats. <https://www.gov.cn/gongbao/2024/issue_11526/202408/content_6969181.html>

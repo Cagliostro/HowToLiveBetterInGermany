@@ -79,7 +79,7 @@ for (const f of files) {
     const problems = [];
     const w = words(plain);
     if (w > MAX_WORDS) { problems.push(`${w} Wörter, über ${MAX_WORDS}`); count.Länge++; }
-    const sentences = dotSafe(plain).split(/(?<=[.!?])\s+/).map(s => s.replace(/\u0001/g, '.'));
+    const sentences = dotSafe(plain).split(/(?<=[.!?]["'”»\)]?)\s+/).map(s => s.replace(/\u0001/g, '.'));
     const long = sentences.map(s => words(s)).filter(n => n > MAX_SENT);
     if (long.length) { problems.push(`längster Satz ${Math.max(...long)} Wörter, über ${MAX_SENT}`); count.Satzlänge++; }
     const jar = JARGON.filter(([re]) => re.test(plain)).map(([re, name]) => `${name} «${plain.match(re)[0]}»`);

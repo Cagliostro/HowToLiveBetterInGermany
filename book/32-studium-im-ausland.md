@@ -1,99 +1,99 @@
-[← 回总目录](../README.md)
+[← Zurück zum Inhaltsverzeichnis](../README.md)
 
-# 32. 出国留学：身份、打工、保险和回国认证
+# 32. Studium im Ausland
 
-本节算钱和人身自由两笔账，不讨论该不该出国，也不比较学校好坏。下面四件事不知道就要吃亏：签证身份怎么才算没断、打工时数的上限在哪、哪几笔保险和费用是必须交的、回国以后这张文凭能不能被认。
+Bezugsgröße: Geld und persönliche Freiheit. Dieser Abschnitt rechnet Geld und persönliche Freiheit, er diskutiert nicht, ob du ins Ausland gehen sollst, und vergleicht auch keine Hochschulen. Bei vier Dingen zahlst du drauf, wenn du sie nicht kennst: wie dein Visumstatus als ununterbrochen gilt, wo die Obergrenze der Arbeitsstunden liegt, welche Versicherungen und Gebühren Pflicht sind, und ob dieser Abschluss nach der Rückkehr anerkannt wird.
 
-覆盖美国、加拿大、英国、澳大利亚四个国家，数字一国一国列。来源是各国移民局和中国教育部的官方网页。**各国的留学政策改得很勤，比中国的法规还勤。本节所有数字的截至日期是 2026 年 9 月。出发前和每次续签前，都照来源栏的链接自己再查一遍。**
+Behandelt werden die vier Länder USA, Kanada, Großbritannien und Australien, die Zahlen Land für Land. Quellen sind die amtlichen Seiten der Einwanderungsbehörden dieser Länder und des chinesischen Bildungsministeriums. **Die Auslandsstudium-Politik dieser Länder ändert sich oft, häufiger als chinesische Vorschriften. Alle Zahlen in diesem Abschnitt haben den Stand September 2026. Prüf vor der Abreise und vor jeder Verlängerung des Visums selbst anhand der Links in der Quellenzeile noch einmal nach.**
 
-人在境外出了事怎么找使领馆、12308 能管什么、境外医疗和转运保险怎么买，见第 21 节。读书还是打工那道账，见第 23 节。账号被盗见第 14 节，电信诈骗见第 8 节。这些都不重复写。
+Wie du im Ausland im Notfall die Botschaft oder das Konsulat erreichst, was die Nummer 12308 leisten kann und wie du eine Versicherung für Auslandsbehandlung und Rücktransport kaufst, steht in Abschnitt 21 (Ausland und Reisen). Die Rechnung „studieren oder arbeiten" steht in Abschnitt 23 (Welche Fähigkeiten sich lohnen). Ein gestohlenes Konto steht in Abschnitt 14 (Konten und Informationssicherheit), Telekommunikationsbetrug in Abschnitt 8 (Lass dich nicht hereinziehen). Nichts davon wird hier wiederholt.
 
-### 1. 交学费之前先查学校在不在留服中心的认证院校名单里
-<!-- 成本标签: 钱=0 时间=少 毅力=否 收益=大 口径=金钱 -->
-- 成本：不花钱。在留服中心的「认证院校查询」里输一次学校名，几分钟就查完
-- 说人话：回国以后，这张文凭要用来考公、进国企、落户、评职称，就得先过一道认证。认证由教育部留学服务中心做。学校不在能认证的名单里，学费和时间就白花了，文凭在国内用不上。查名单不花钱，查完再交学费。
-- 收益：中国（教育部）留学服务中心有一个认证院校查询入口。你可以按国家查，也可以按学校名字查。查的是这所学校发的学历学位在不在认证范围里。另外，教育部教育涉外监管信息网还公布中外合作办学和境外办学的监管信息
-- 证据等级：A
-- 来源：中国（教育部）留学服务中心. 认证院校查询. <http://yxcx.cscse.edu.cn/>；教育部教育涉外监管信息网. <https://jsj.moe.gov.cn/>
-- 备注：中介嘴上说「教育部认可」不算数，以你自己上网查到的结果为准。名单会变，入学时在名单里，毕业时不一定还在，所以读书期间每年复查一次。中外合作办学的项目另有一套认证注册的制度。2008 年以后入学的，可以凭姓名和身份证号，在涉外监管信息网查自己的注册序号。
+### 1. Prüf vor der Zahlung der Studiengebühren, ob die Hochschule auf der Liste der anerkannten Hochschulen des Zentrums für Auslandsstudium steht
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=nein Nutzen=hoch Bezug=Geld -->
+- Kosten: kostet nichts. Einmal den Namen der Hochschule in die „Abfrage anerkannter Hochschulen" des Zentrums für Auslandsstudium eingeben, in ein paar Minuten bist du fertig.
+- Klartext: Willst du diesen Abschluss nach der Rückkehr für den Staatsdienst, ein Staatsunternehmen, den Wohnsitz oder einen Berufstitel nutzen, muss er zuerst anerkannt werden. Die Anerkennung macht das Zentrum für Auslandsstudium des Bildungsministeriums. Steht deine Hochschule nicht auf der anerkannten Liste, sind Studiengebühren und Zeit verloren. Den Abschluss kannst du dann in China nicht verwenden. Die Liste zu prüfen kostet nichts, prüf sie vor der Zahlung.
+- Nutzen: Das Zentrum für Auslandsstudium des chinesischen Bildungsministeriums hat eine Eingangsseite zur Abfrage anerkannter Hochschulen. Du kannst nach Land oder nach dem Namen der Hochschule suchen. Geprüft wird, ob die von dieser Hochschule ausgestellten Abschlüsse und Grade im Anerkennungsbereich liegen. Außerdem veröffentlicht das Informationsnetz des Bildungsministeriums zur Aufsicht über auslandsbezogene Bildung Angaben zur Aufsicht über chinesisch-ausländische Gemeinschaftsprogramme und Auslandsprogramme
+- Evidenzstufe: A
+- Quellen: Zentrum für Auslandsstudium des chinesischen Bildungsministeriums. Abfrage anerkannter Hochschulen [认证院校查询]. <http://yxcx.cscse.edu.cn/>; Informationsnetz des Bildungsministeriums zur Aufsicht über auslandsbezogene Bildung [教育部教育涉外监管信息网]. <https://jsj.moe.gov.cn/>
+- Anmerkung: Dass ein Vermittler mündlich sagt „das Bildungsministerium erkennt es an", zählt nicht, maßgeblich ist, was du selbst im Netz findest. Die Liste ändert sich; stehst du bei der Einschreibung darauf, heißt das nicht, dass du bei der Graduierung noch darauf stehst. Prüf sie deshalb jedes Jahr während des Studiums erneut. Chinesisch-ausländische Gemeinschaftsprogramme haben ein eigenes Anerkennungs- und Registrierungsverfahren. Wer nach 2008 eingeschrieben wurde, kann mit Namen und Ausweisnummer im Informationsnetz für auslandsbezogene Bildung die eigene Registriernummer abfragen.
 
-### 2. 盯住美国 F-1 新规的官司：「最长四年、读完 30 天内走」原定 2026 年 9 月 15 日生效，前一天被法院暂停，眼下仍是「读完为止」
-<!-- 成本标签: 钱=0 时间=少 毅力=否 收益=大 口径=自由 -->
-- 成本：不花钱。把 I-20 上的项目结束日期抄进日历，提前 90 天提醒一次。I-20 是学校发给你的留学资格证明。另外每学期看一次学校国际学生办公室的通知，看这场官司有没有新进展
-- 说人话：美国原本要把 F-1 改成最长四年、读完 30 天内走。生效前一天，联邦法院把它暂停了。所以眼下还是老规矩：读多久算多久，读完有 60 天准备走人。暂停不是废除，政府还能上诉，规矩随时可能再变。
-- 收益：国土安全部 2026 年 7 月 17 日公布了一项规则，原定 2026 年 9 月 15 日生效。内容是 F-1 学生不再按「读完为止」入境，改成固定期限，最长四年，到期要另外申请延期。读完或者实习结束后，只留 30 天准备离境。2026 年 9 月 14 日，马萨诸塞州联邦地区法院的 Saylor 法官依《行政程序法》第 705 条，推迟了这项规则的生效。暂停管全国，管整份规则。法院没有撤销这项规则，撤销的请求被驳回，但允许以后再提。案子还在继续审。按法院这道命令，F、J、I 三类签证的人仍按「读完为止」入境，60 天离境宽限期照旧，也不需要另外申请延期
-- 证据等级：A
-- 来源：DHS (2026). Establishing a Fixed Time Period of Admission and an Extension of Stay Procedure for Nonimmigrant Academic Students, Exchange Visitors（2026-07-17 公布，原定 2026-09-15 生效）. <https://www.federalregister.gov/documents/2026/07/17/2026-14439/establishing-a-fixed-time-period-of-admission-and-an-extension-of-stay-procedure-for-nonimmigrant>；Presidents' Alliance on Higher Education and Immigration v. U.S. Department of Homeland Security, No. 1:26-cv-13799-FDS (D. Mass. Sept. 14, 2026)，法院案卷. <https://www.courtlistener.com/docket/74661796/presidents-alliance-on-higher-education-and-immigration-v-united-states/>；Yale Office of International Students & Scholars (2026-09-14). Important Update: Court Action on the D/S Rule. <https://oiss.yale.edu/news/important-update-court-action-on-the-ds-rule>；AILA (2026). One Day Before Taking Effect, Federal Court Postpones the F, J, and I Fixed Admission Period Rule. <https://www.aila.org/blog/think-immigration-one-day-before-taking-effect-federal-court-postpones-the-f-j-and-i-fixed-admission-period-rule>；8 CFR 214.2(f). <https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/section-214.2>
-- 备注：本条截至 2026 年 9 月 25 日。政府可以向第一巡回上诉法院上诉，国土安全部也可以改好规则重新发布。所以要读好几年的人，别假定老规矩会一直不变。法院定了 2026 年 10 月 2 日再开庭听双方汇报进展，过了那天再看一次学校的通知。新规如果以后生效，要延期就得在期限到期之前另外申请，不会自动续上。老规矩下，提前不读了的，离境期限和读完的不一样，先问学校国际学生办公室。J 签证在同一份规则里，细节和 F-1 不一样，按自己的签证类别去查。
+### 2. Verfolg den Prozess um die neue F-1-Regel der USA: „höchstens vier Jahre, 30 Tage nach Studienende ausreisen" sollte am 15. September 2026 in Kraft treten, wurde einen Tag vorher vom Gericht ausgesetzt, und derzeit gilt weiter „bis zum Ende des Studiums"
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=nein Nutzen=hoch Bezug=Freiheit -->
+- Kosten: kostet nichts. Schreib das Enddatum des Programms auf dem I-20 in den Kalender und lass dich 90 Tage vorher einmal erinnern. Das I-20 ist der Nachweis der Studienberechtigung, den dir die Hochschule ausstellt. Sieh außerdem jedes Semester in die Mitteilungen des International Office deiner Hochschule, ob es in diesem Verfahren Neues gibt
+- Klartext: Die USA wollten F-1 auf höchstens vier Jahre umstellen, mit Ausreise binnen 30 Tagen nach Studienende. Einen Tag vor dem Inkrafttreten setzte ein Bundesgericht die Regel aus. Derzeit gilt also die alte Ordnung: so lange studieren, wie es dauert, und nach dem Ende 60 Tage Zeit für die Ausreise. Eine Aussetzung ist keine Aufhebung, die Regierung kann noch Berufung einlegen, und die Regel kann sich jederzeit wieder ändern.
+- Nutzen: Das Heimatschutzministerium veröffentlichte am 17. Juli 2026 eine Regel, die am 15. September 2026 in Kraft treten sollte. Danach würden F-1-Studierende nicht mehr „bis zum Ende des Studiums" eingelassen, sondern mit fester Frist, höchstens vier Jahre. Für eine Verlängerung wäre ein gesonderter Antrag nötig. Nach dem Ende des Studiums oder des Praktikums blieben nur 30 Tage für die Ausreise. Am 14. September 2026 verschob Richter Saylor am Bundesbezirksgericht für Massachusetts nach Art. 705 des Verwaltungsverfahrensgesetzes [行政程序法] das Inkrafttreten dieser Regel. Die Aussetzung gilt landesweit und für die ganze Regel. Das Gericht hat die Regel nicht aufgehoben; der Antrag auf Aufhebung wurde abgelehnt, darf aber später erneut gestellt werden. Das Verfahren läuft weiter. Nach dieser gerichtlichen Anordnung werden Menschen mit Visum der Klassen F, J und I weiterhin „bis zum Ende des Studiums" eingelassen, die 60-tägige Ausreisefrist bleibt, und eine gesonderte Verlängerung ist nicht nötig
+- Evidenzstufe: A
+- Quellen: DHS (2026). Establishing a Fixed Time Period of Admission and an Extension of Stay Procedure for Nonimmigrant Academic Students, Exchange Visitors (veröffentlicht am 2026-07-17, Inkrafttreten geplant für 2026-09-15). <https://www.federalregister.gov/documents/2026/07/17/2026-14439/establishing-a-fixed-time-period-of-admission-and-an-extension-of-stay-procedure-for-nonimmigrant>; Presidents' Alliance on Higher Education and Immigration v. U.S. Department of Homeland Security, No. 1:26-cv-13799-FDS (D. Mass. Sept. 14, 2026), Gerichtsakte. <https://www.courtlistener.com/docket/74661796/presidents-alliance-on-higher-education-and-immigration-v-united-states/>; Yale Office of International Students & Scholars (2026-09-14). Important Update: Court Action on the D/S Rule. <https://oiss.yale.edu/news/important-update-court-action-on-the-ds-rule>; AILA (2026). One Day Before Taking Effect, Federal Court Postpones the F, J, and I Fixed Admission Period Rule. <https://www.aila.org/blog/think-immigration-one-day-before-taking-effect-federal-court-postpones-the-f-j-and-i-fixed-admission-period-rule>; 8 CFR 214.2(f). <https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/section-214.2>
+- Anmerkung: Dieser Eintrag hat den Stand 25. September 2026. Die Regierung kann beim Bundesberufungsgericht für den ersten Bezirk Berufung einlegen, und das Heimatschutzministerium kann die Regel überarbeitet neu erlassen. Wer mehrere Jahre studieren will, soll deshalb nicht annehmen, dass die alte Ordnung bleibt. Das Gericht hat den 2. Oktober 2026 als nächsten Termin anberaumt, an dem beide Seiten über den Fortgang berichten; sieh nach diesem Tag noch einmal in die Mitteilungen der Hochschule. Tritt die neue Regel später in Kraft, musst du eine Verlängerung vor Ablauf der Frist gesondert beantragen, sie verlängert sich nicht von selbst. Nach der alten Ordnung haben die, die vorher abbrechen, eine andere Ausreisefrist als die, die fertig studieren; frag zuerst beim International Office deiner Hochschule nach. Das J-Visum steht in derselben Regel, die Einzelheiten unterscheiden sich von F-1, prüf es nach deiner Visumsklasse.
 
-### 3. 打工时数是美加英澳四国都写死的红线，超一小时就是违反签证条件
-<!-- 成本标签: 钱=0 时间=少 毅力=些 收益=大 口径=自由 -->
-- 成本：不花钱。自己按周把工时记下来。难在雇主会说「多干几个小时没人查」，这话不能信
-- 说人话：四个国家都给学生签证的打工时间定了上限。超了就是违反签证条件，可能被取消签证、被遣返，以后再申请也会被追问。上限是：美国每周 20 小时，英国读学位每周 20 小时、学位以下 10 小时，加拿大每周 24 小时，澳大利亚每两周 48 小时。打两份工要合起来算。
-- 收益：美国的 F-1 学生，校内打工在学期中每周不得超过 20 小时。经批准的校外兼职同样是每周 20 小时。假期可以全职。依据是美国联邦移民法规 8 CFR 214.2(f)(9)。英国的学生签证，读学位及以上课程的，学期内每周 20 小时，学位以下的每周 10 小时。非全日制课程一律不得打工。还不得自雇（自己给自己干活），也不得做职业运动员或者演艺工作。依据是英国移民规则里管学生的那一部分，附录 Student ST26.1、ST26.5。加拿大符合条件的全日制学生，校外打工每周最多 24 小时，依据是加拿大移民法实施条例 IRPR 第 186(v) 条。澳大利亚的学生签证，课程进行期间每两周最多 48 小时。研究型硕士、博士和他们的家属不受这个限制
-- 证据等级：A
-- 来源：8 CFR 214.2(f)(9). <https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/section-214.2>；UK Home Office. Immigration Rules Appendix Student（ST26.1、ST26.5）. <https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student>；IRCC. Work off campus as an international student. <https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html>；Australian Government Department of Home Affairs. Student visa (subclass 500). <https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500>
-- 备注：美国的校外打工必须先获批。申请打工许可的 I-765 还在审的时候，就不能开工。加拿大的旧许可上印的是每周 20 小时，只要还符合条件，实际可以做到 24 小时，以现行规定为准。英国不许自雇那条管得很宽：接私活、开网店、做自由职业都算。
+### 3. Halt die Obergrenzen für Arbeitsstunden ein: In den USA, Kanada, Großbritannien und Australien ist eine Stunde zu viel ein Verstoß gegen die Visumbedingungen
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=etwas Nutzen=hoch Bezug=Freiheit -->
+- Kosten: kostet nichts. Schreib deine Arbeitsstunden selbst Woche für Woche mit. Schwierig ist, dass der Arbeitgeber sagt „ein paar Stunden mehr merkt niemand" — das darfst du nicht glauben
+- Klartext: Alle vier Länder haben für das Arbeiten mit einem Studierendenvisum eine Obergrenze. Wer sie überschreitet, verletzt die Visumbedingungen, das Visum kann entzogen werden, du kannst ausgewiesen werden, und bei künftigen Anträgen wird nachgefragt. Die Grenzen sind: USA 20 Stunden pro Woche, Großbritannien 20 Stunden pro Woche auf Degree-Niveau und 10 Stunden darunter, Kanada 24 Stunden pro Woche, Australien 48 Stunden alle zwei Wochen. Bei zwei Jobs zählt die Summe.
+- Nutzen: Für F-1-Studierende in den USA darf die Arbeit auf dem Campus während des Semesters 20 Stunden pro Woche nicht überschreiten. Die genehmigte Arbeit außerhalb des Campus gilt genauso mit 20 Stunden pro Woche. In den Ferien ist Vollzeit erlaubt. Grundlage ist die US-Bundeseinwanderungsverordnung 8 CFR 214.2(f)(9). Beim britischen Studierendenvisum gilt auf Degree-Niveau und darüber während des Semesters 20 Stunden pro Woche, darunter 10 Stunden pro Woche. In Teilzeitstudiengängen ist Arbeiten ganz verboten. Auch selbstständige Arbeit (für sich selbst zu arbeiten) ist verboten, ebenso die Arbeit als Berufssportler oder im Showgeschäft. Grundlage ist der Teil der britischen Einwanderungsregeln über Studierende, Appendix Student ST26.1 und ST26.5. Für berechtigte Vollzeitstudierende in Kanada sind außerhalb des Campus höchstens 24 Stunden pro Woche erlaubt; Grundlage ist Art. 186(v) der kanadischen Einwanderungsverordnung IRPR. Beim australischen Studierendenvisum sind während der laufenden Lehrveranstaltungen höchstens 48 Stunden alle zwei Wochen erlaubt. Forschungsmaster, Doktoranden und ihre Angehörigen fallen nicht unter diese Grenze
+- Evidenzstufe: A
+- Quellen: 8 CFR 214.2(f)(9). <https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/section-214.2>; UK Home Office. Immigration Rules Appendix Student (ST26.1, ST26.5). <https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student>; IRCC. Work off campus as an international student. <https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html>; Australian Government Department of Home Affairs. Student visa (subclass 500). <https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500>
+- Anmerkung: Arbeit außerhalb des Campus in den USA muss zuerst genehmigt werden. Solange der Antrag auf Arbeitserlaubnis I-765 noch geprüft wird, darfst du nicht anfangen. Auf alten kanadischen Genehmigungen steht 20 Stunden pro Woche; solange du die Bedingungen weiter erfüllst, darfst du tatsächlich bis 24 Stunden arbeiten, maßgeblich ist die geltende Regelung. Das britische Verbot der selbstständigen Arbeit ist weit gefasst: private Aufträge, ein eigener Onlineshop und freiberufliche Arbeit zählen alle darunter.
 
-### 4. 身份的根是「全日制在读」：休学、退学、转学空档期一律不能打工
-<!-- 成本标签: 钱=0 时间=少 毅力=否 收益=大 口径=自由 -->
-- 成本：不花钱。停课、休学、换学校之前，先找学校的国际学生办公室，问清楚自己的身份状态
-- 说人话：能不能打工，看你是不是正在全日制上学。一旦休学、退学、被开除，或者转学期间没在上课，打工资格当场就没了。这时候接着干，就是非法打工。很多人以为签证没到期就没事，其实身份早断了。
-- 收益：加拿大明文规定，在获批的休学期间不得校外打工。转学期间没有在学习的，也不得校外打工。要等恢复学业以后，才能重新开始工作。美国的校内打工资格只给 SEVIS 里身份为 Active 的 F-1 学生。SEVIS 是美国的留学生身份档案系统，Active 是在读有效。这些学生还要维持全日制课业。英国的打工许可按课程类型给，非全日制课程不得打工
-- 证据等级：A
-- 来源：IRCC. Work off campus as an international student. <https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html>；U.S. Department of Homeland Security, Study in the States. Working in the United States. <https://studyinthestates.dhs.gov/students/work/working-in-the-united-states>；UK Home Office. Immigration Rules Appendix Student（ST26.1）. <https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student>
-- 备注：课业压力大，想减课之前先问清楚：减到多少就不算全日制了。这一条比打工更早出事。被学校开除、或者项目被终止的，身份通常当天就断。别等学校发正式信再行动。
+### 4. Verlass dich beim Status auf das Vollzeitstudium: Während einer Unterbrechung, nach einem Abbruch oder in der Lücke beim Hochschulwechsel darfst du nicht arbeiten
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=nein Nutzen=hoch Bezug=Freiheit -->
+- Kosten: kostet nichts. Wenn du Kurse aussetzen, das Studium unterbrechen oder die Hochschule wechseln willst, geh zuerst zum International Office deiner Hochschule und klär deinen Status
+- Klartext: Ob du arbeiten darfst, hängt davon ab, ob du gerade Vollzeit studierst. Sobald du unterbrichst, abbrichst, von der Hochschule geworfen wirst oder beim Wechsel keine Kurse besuchst, ist deine Arbeitserlaubnis sofort weg. Arbeitest du dann weiter, ist das illegale Arbeit. Viele glauben, solange das Visum läuft, sei alles in Ordnung, dabei ist der Status längst unterbrochen.
+- Nutzen: Kanada schreibt ausdrücklich vor: Während einer genehmigten Studienunterbrechung darfst du außerhalb des Campus nicht arbeiten. Auch wer beim Hochschulwechsel nicht studiert, darf außerhalb des Campus nicht arbeiten. Erst nach der Rückkehr ins Studium darfst du wieder anfangen. In den USA bekommt die Arbeitserlaubnis auf dem Campus nur ein F-1-Studierender, dessen Status in SEVIS „Active" ist. SEVIS ist das US-System der Studierendenakten, „Active" heißt: eingeschrieben und gültig. Diese Studierenden müssen außerdem ein Vollzeitstudium aufrechterhalten. In Großbritannien richtet sich die Arbeitserlaubnis nach der Art des Kurses, in Teilzeitkursen darfst du nicht arbeiten
+- Evidenzstufe: A
+- Quellen: IRCC. Work off campus as an international student. <https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html>; U.S. Department of Homeland Security, Study in the States. Working in the United States. <https://studyinthestates.dhs.gov/students/work/working-in-the-united-states>; UK Home Office. Immigration Rules Appendix Student (ST26.1). <https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student>
+- Anmerkung: Steht der Studiendruck hoch und willst du Kurse reduzieren, frag vorher genau nach, ab wie wenigen Kursen du nicht mehr als Vollzeit giltst. Das geht eher schief als das Arbeiten selbst. Wer von der Hochschule geworfen oder dessen Programm beendet wird, verliert den Status meist am selben Tag. Warte nicht auf den förmlichen Brief der Hochschule, bevor du handelst.
 
-### 5. 美国：搬家后 10 天内必须报新地址
-<!-- 成本标签: 钱=0 时间=少 毅力=否 收益=中 口径=自由 -->
-- 成本：不花钱。在线提交一次改址，十分钟
-- 说人话：在美国换了住的地方，法律要求 10 天之内通知移民局。不报不是小事。一来它本身违法，二来移民局寄给你的信会寄丢。
-- 收益：美国联邦移民法规 8 CFR 265.1 规定，按法律要登记的外国人，地址变了以后 10 日内要报告。报给 USCIS（美国移民局），按它要求的办法报，既报地址变了这件事，也报新地址
-- 证据等级：A
-- 来源：8 CFR 265.1. <https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-265/section-265.1>；USCIS. AR-11, Alien's Change of Address Card. <https://www.uscis.gov/ar-11>
-- 备注：报了移民局，学校那边的 SEVIS 记录（你的留学生身份档案）还要另外更新。其余三个国家也都要求换了地址就通知移民局或者学校。期限和办法各国不同，按你所在国移民局的网页办。
+### 5. Melde in den USA nach einem Umzug die neue Adresse binnen 10 Tagen
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=nein Nutzen=mittel Bezug=Freiheit -->
+- Kosten: kostet nichts. Einmal online die Adressänderung abschicken, zehn Minuten
+- Klartext: Wenn du in den USA umziehst, verlangt das Gesetz, dass du binnen 10 Tagen die Einwanderungsbehörde informierst. Das nicht zu melden ist keine Kleinigkeit. Erstens ist es selbst rechtswidrig, zweitens gehen Briefe der Behörde an dich verloren.
+- Nutzen: Die US-Bundeseinwanderungsverordnung 8 CFR 265.1 verlangt, dass ein Ausländer, der sich gesetzlich registrieren lassen muss, binnen 10 Tagen nach einer Adressänderung Meldung erstattet. Die Meldung geht an USCIS (die US-Einwanderungsbehörde), nach der von ihr vorgeschriebenen Methode, und enthält sowohl die Tatsache der Adressänderung als auch die neue Adresse
+- Evidenzstufe: A
+- Quellen: 8 CFR 265.1. <https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-265/section-265.1>; USCIS. AR-11, Alien's Change of Address Card. <https://www.uscis.gov/ar-11>
+- Anmerkung: Hast du der Einwanderungsbehörde gemeldet, muss zusätzlich der SEVIS-Eintrag bei deiner Hochschule (deine Studierendenakte) aktualisiert werden. Auch die anderen drei Länder verlangen, dass du nach einem Adresswechsel die Einwanderungsbehörde oder die Hochschule informierst. Frist und Verfahren unterscheiden sich je Land, richte dich nach der Seite der Einwanderungsbehörde deines Landes.
 
-### 6. 出发前和在读期间，看一眼教育部的留学预警
-<!-- 成本标签: 钱=0 时间=少 毅力=否 收益=中 口径=自由 -->
-- 成本：不花钱。出发前看一次，以后每学期看一次
-- 说人话：教育部会对某个国家或者地区专门发预警，说那里近期的治安或者政策对中国留学生不利。这是官方公开发布的风险提示，白纸黑字能查到，比中介的说法可靠。看一眼不花钱。
-- 收益：教育部通过教育涉外监管信息网发布留学预警。2025 年一共发了 4 号。第 1 号提示美国有关州通过的高等教育法案里含有涉华消极条款（2025-04-09）。第 2 号和第 3 号两次提示菲律宾针对中国公民的案件多发、留学环境不佳（2025-07-18、2025-08-30）。第 4 号提示日本治安形势和留学环境不佳，建议谨慎规划赴日留学（2025-11-16）
-- 证据等级：A
-- 来源：教育部教育涉外监管信息网. 预警信息. <https://jsj.moe.gov.cn/>；教育部发布 2025 年第 4 号留学预警. <https://jsj.moe.gov.cn/n2/2/2/2060.shtml>；第 1 号. <https://jsj.moe.gov.cn/n2/2/2/2001.shtml>
-- 备注：预警不是禁令，也不是说不能去，它给你一个掂量当地风险的官方依据。预警名单随形势变，本节不长期跟着更新，以网站上当期的页面为准。境外人身安全和领事保护见第 21 节。
+### 6. Wirf vor der Abreise und während des Studiums einen Blick auf die Warnungen des Bildungsministeriums zum Auslandsstudium
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=nein Nutzen=mittel Bezug=Freiheit -->
+- Kosten: kostet nichts. Einmal vor der Abreise nachsehen, danach jedes Semester einmal
+- Klartext: Das Bildungsministerium gibt für ein bestimmtes Land oder eine Region eigene Warnungen heraus, wenn die Sicherheitslage oder die Politik dort chinesische Studierende benachteiligt. Das ist ein amtlich veröffentlichter Risikohinweis, schwarz auf weiß nachprüfbar und verlässlicher als das, was ein Vermittler sagt. Ein Blick kostet nichts.
+- Nutzen: Das Bildungsministerium veröffentlicht seine Auslandsstudium-Warnungen über das Informationsnetz für die Aufsicht über auslandsbezogene Bildung. 2025 gab es insgesamt 4 Nummern. Nummer 1 wies darauf hin, dass ein von einem betroffenen US-Bundesstaat verabschiedetes Hochschulgesetz negative Passagen zu China enthält (2025-04-09). Nummer 2 und Nummer 3 wiesen zweimal darauf hin, dass es auf den Philippinen viele Fälle gegen chinesische Staatsangehörige gibt und die Studienumgebung schlecht ist (2025-07-18, 2025-08-30). Nummer 4 wies auf die schlechte Sicherheitslage und Studienumgebung in Japan hin und empfahl, ein Studium in Japan sorgfältig zu planen (2025-11-16)
+- Evidenzstufe: A
+- Quellen: Informationsnetz des Bildungsministeriums zur Aufsicht über auslandsbezogene Bildung. Warnmeldungen [预警信息]. <https://jsj.moe.gov.cn/>; Bildungsministerium, Veröffentlichung der 4. Auslandsstudium-Warnung 2025 [教育部发布 2025 年第 4 号留学预警]. <https://jsj.moe.gov.cn/n2/2/2/2060.shtml>; Nummer 1. <https://jsj.moe.gov.cn/n2/2/2/2001.shtml>
+- Anmerkung: Eine Warnung ist kein Verbot, sie heißt auch nicht, dass du nicht fahren darfst; sie gibt dir eine amtliche Grundlage, das Risiko vor Ort abzuwägen. Die Warnliste ändert sich mit der Lage; dieser Abschnitt führt sie nicht dauerhaft mit, maßgeblich ist die jeweils aktuelle Seite im Netz. Sicherheit im Ausland und konsularischer Schutz siehe Abschnitt 21 (Ausland und Reisen).
 
-### 7. 澳大利亚：OSHC 必须覆盖全程且中间不能断，落地拿不出保险可能被拒绝入境
-<!-- 成本标签: 钱=多 时间=少 毅力=否 收益=中 口径=金钱 -->
-- 成本：数千到上万元人民币。按签证时长一次性买，读几年买几年
-- 说人话：澳大利亚把留学生医疗保险写进了签证条件，不是可买可不买。保险要盖住整个停留期。续签换保单的时候，中间不能有空档。入境时拿不出保险证明，可能当场被拒绝入境。家里人来陪读，每个人都要单独买一份。
-- 收益：澳大利亚内政部规定，学生签证申请人和他的家属要买海外学生医疗保险（OSHC），而且在澳大利亚停留的全程都要有，不能断。保险要由澳大利亚认可的保险机构提供。符合可以免买的豁免情形的除外。新保险和前一个签证的保险之间不得有空档。入境时拿不出已经投保的证明，可能被拒绝入境。比课程开始时间更早入境的，保险起始日要写实际抵达澳大利亚的那一天
-- 证据等级：A
-- 来源：Australian Government Department of Home Affairs. Student visa (subclass 500). <https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500>
-- 备注：学校代办的，要问清楚保险公司名称、保单起止日期和保单号，签证申请里要填这些。买短了会让续签出问题，宁可买到毕业以后再多留一点。
+### 7. Schließ in Australien die OSHC lückenlos für den ganzen Aufenthalt ab: Ohne Nachweis bei der Ankunft kann die Einreise verweigert werden
+<!-- Kostenlabel: Geld=viel Zeit=wenig Willenskraft=nein Nutzen=mittel Bezug=Geld -->
+- Kosten: einige Tausend bis über 10.000 元. Einmalig für die Dauer des Visums gekauft, für so viele Jahre, wie du studierst
+- Klartext: Australien hat die Krankenversicherung für Studierende in die Visumbedingungen aufgenommen, sie ist keine freiwillige Zusatzleistung. Die Versicherung muss den ganzen Aufenthalt abdecken. Beim Verlängern und beim Wechsel der Police darf dazwischen keine Lücke entstehen. Kannst du bei der Einreise den Versicherungsnachweis nicht vorlegen, kann die Einreise noch am Schalter verweigert werden. Kommt Familie zum Mitkommen mit, braucht jede Person eine eigene Police.
+- Nutzen: Das australische Innenministerium verlangt, dass der Antragsteller eines Studierendenvisums und seine Angehörigen eine Auslandskrankenversicherung für Studierende (Overseas Student Health Cover, OSHC) abschließen und sie während des gesamten Aufenthalts in Australien lückenlos halten. Die Versicherung muss von einem in Australien anerkannten Versicherer kommen. Ausgenommen sind Fälle, die unter eine Befreiung fallen. Zwischen der neuen Versicherung und der des vorigen Visums darf keine Lücke liegen. Kannst du bei der Einreise den Nachweis der bestehenden Versicherung nicht vorlegen, kann die Einreise verweigert werden. Wer früher als zum Kursbeginn einreist, setzt als Versicherungsbeginn den Tag der tatsächlichen Ankunft in Australien
+- Evidenzstufe: A
+- Quellen: Australian Government Department of Home Affairs. Student visa (subclass 500). <https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500>
+- Anmerkung: Lässt die Hochschule das für dich erledigen, frag nach dem Namen des Versicherers, dem Beginn und Ende der Police und der Policennummer; diese Angaben musst du im Visaantrag eintragen. Zu kurz gekauft führt beim Verlängern zu Problemen; kauf lieber bis nach dem Abschluss mit etwas Puffer.
 
-### 8. 英国：签证费之外还有一笔按年收的医疗附加费，学生每年 776 英镑，申请时一次付清
-<!-- 成本标签: 钱=多 时间=少 毅力=否 收益=中 口径=金钱 -->
-- 成本：签证费 558 英镑。医疗附加费每年 776 英镑。两笔都在申请时一次交清
-- 说人话：去英国要交的钱不止签证费。还要按签证年数预交医疗附加费，交了才能用英国的国民医疗服务。两年的签证就是一次交 1552 英镑。再加上签证费，出发前这一笔要一次交清，做预算别漏了。
-- 收益：英国学生签证的费用是 558 英镑。在英国境外申请、在境内延期或者转换，都是这个数。另外还有医疗附加费，交了才能用英国的国民医疗服务，按签证年数在申请时一次预交。学生本人和他的家属是每年 776 英镑，比如 2 年的签证就是 1552 英镑。其他类别的申请人是每年 1035 英镑。签证超过 6 个月、不足 1 年的，按整年收取
-- 证据等级：A
-- 来源：UK Government. Student visa. <https://www.gov.uk/student-visa>；UK Government. Pay for UK healthcare as part of your immigration application. <https://www.gov.uk/healthcare-immigration-application>
-- 备注：金额和汇率都会变，按来源里那两个页面上的当期数字算。读学位课程、年满 18 岁的，一般最长能待 5 年，学位以下的是 2 年。按这个年数估算要交多少附加费。
+### 8. Zahl in Großbritannien den jährlichen Gesundheitszuschlag beim Antrag mit: Für Studierende 776 Pfund im Jahr, zusammen mit der Visumgebühr in einem Betrag
+<!-- Kostenlabel: Geld=viel Zeit=wenig Willenskraft=nein Nutzen=mittel Bezug=Geld -->
+- Kosten: Visumgebühr 558 Pfund. Der Gesundheitszuschlag beträgt 776 Pfund pro Jahr. Beide Beträge sind beim Antrag in einem Zug zu zahlen
+- Klartext: Für Großbritannien fällt mehr an als die Visumgebühr. Dazu kommt der Gesundheitszuschlag, den du nach der Zahl der Visumjahre im Voraus zahlst; nur mit ihm nutzt du den britischen staatlichen Gesundheitsdienst. Ein Visum für zwei Jahre heißt 1.552 Pfund auf einmal. Zusammen mit der Visumgebühr ist das vor der Abreise in einem Betrag fällig, vergiss es in deiner Kalkulation nicht.
+- Nutzen: Die Gebühr für das britische Studierendenvisum beträgt 558 Pfund. Ob du außerhalb Großbritanniens beantragst oder im Land verlängerst oder umstellst, es bleibt dieser Betrag. Dazu kommt der Gesundheitszuschlag, mit dem du den britischen staatlichen Gesundheitsdienst nutzen darfst; er wird nach der Zahl der Visumjahre beim Antrag im Voraus gezahlt. Für Studierende selbst und ihre Angehörigen sind es 776 Pfund pro Jahr, ein Visum für 2 Jahre also 1.552 Pfund. Für Antragsteller anderer Kategorien sind es 1.035 Pfund pro Jahr. Beträgt die Visumdauer mehr als 6 Monate, aber weniger als 1 Jahr, wird ein volles Jahr berechnet
+- Evidenzstufe: A
+- Quellen: UK Government. Student visa. <https://www.gov.uk/student-visa>; UK Government. Pay for UK healthcare as part of your immigration application. <https://www.gov.uk/healthcare-immigration-application>
+- Anmerkung: Beträge und Wechselkurs ändern sich; rechne mit den aktuellen Zahlen auf den beiden Seiten aus der Quellenzeile. Für einen Studiengang mit Abschluss und ab 18 Jahren beträgt der Aufenthalt meist höchstens 5 Jahre, unterhalb eines Studiums sind es 2 Jahre. Mit dieser Jahreszahl schätzt du, wie viel Zuschlag anfällt.
 
-### 9. 回国前留出认证时间：留服认证要 10 到 20 个工作日
-<!-- 成本标签: 钱=少 时间=中 毅力=否 收益=中 口径=时间 -->
-- 成本：线上申请，线上缴费。准备材料加上审核，按工作日算，前后一个月上下
-- 说人话：国外的学历回国要用，得先做学历学位认证。光是审核就要 10 到 20 个工作日。赶上求职季，或者材料被退回来，还要更久。秋招、考公报名、落户都有截止日期，别等到要用了才开始办。
-- 收益：国（境）外学历学位认证在中国（教育部）留学服务中心的网上服务大厅办。流程是四步：注册并实名认证，在线提交申请和材料，在线缴费，等评估和审核。公布的认证工作时限是 10 至 20 个工作日。工作日不含周末和节假日，这段是留服中心审核用的时间
-- 证据等级：A
-- 来源：中国（教育部）留学服务中心. 网上服务大厅·学历学位认证. <http://zwfw.cscse.edu.cn/>
-- 备注：要交的材料有这几样：文凭证书，护照或者通行证，居留卡或者签证签注，证件照片，授权声明。出国期间的出入境记录由系统自己调取，所以在外期间的签证页别丢。留服中心网站上还会发公告，说哪些认证书作废、暂停受理哪所学校的认证申请。办之前先看一眼有没有涉及自己的学校。
+### 9. Plan vor der Rückkehr die Zeit für die Anerkennung ein: Das Zentrum für Auslandsstudium braucht 10 bis 20 Arbeitstage
+<!-- Kostenlabel: Geld=wenig Zeit=mittel Willenskraft=nein Nutzen=mittel Bezug=Zeit -->
+- Kosten: Antrag online, Zahlung online. Material vorbereiten und Prüfung dauern, in Arbeitstagen gerechnet, rund einen Monat hin und zurück
+- Klartext: Willst du einen ausländischen Abschluss in China nutzen, musst du ihn zuerst anerkennen lassen. Allein die Prüfung dauert 10 bis 20 Arbeitstage. In der Bewerbungssaison oder wenn Unterlagen zurückkommen, dauert es länger. Die Herbst-Rekrutierung, die Anmeldung für den Staatsdienst und die Wohnsitzanmeldung haben Fristen; fang nicht erst an, wenn du es brauchst.
+- Nutzen: Die Anerkennung eines im Ausland oder in einer anderen Region erworbenen Abschlusses und Grades läuft über die Online-Servicehalle des Zentrums für Auslandsstudium des chinesischen Bildungsministeriums. Der Ablauf hat vier Schritte: registrieren und die Identität bestätigen lassen, Antrag und Unterlagen online einreichen, online zahlen, dann Begutachtung und Prüfung abwarten. Die veröffentlichte Bearbeitungszeit beträgt 10 bis 20 Arbeitstage. Arbeitstage ohne Wochenenden und Feiertage; das ist die Zeit, die das Zentrum für die Prüfung braucht
+- Evidenzstufe: A
+- Quellen: Zentrum für Auslandsstudium des chinesischen Bildungsministeriums. Online-Servicehalle, Anerkennung von Abschlüssen und Graden [网上服务大厅·学历学位认证]. <http://zwfw.cscse.edu.cn/>
+- Anmerkung: Diese Unterlagen sind nötig: die Urkunde des Abschlusses, der Pass oder ein Reisedokument, die Aufenthaltskarte oder ein Visumvermerk, ein Lichtbild und eine Einverständniserklärung. Die Aus- und Einreiseprotokolle für die Zeit im Ausland ruft das System selbst ab, verlier also die Visumseiten aus dieser Zeit nicht. Auf der Website des Zentrums erscheinen auch Bekanntmachungen darüber, welche Anerkennungsbescheide ungültig werden und für welche Hochschule keine Anträge mehr angenommen werden. Sieh vor dem Antrag nach, ob deine Hochschule betroffen ist.
 
-### 10. 认证被「加强审查」的学校每年都在加，花钱买文凭这条路已经走不通
-<!-- 成本标签: 钱=0 时间=少 毅力=否 收益=中 口径=金钱 -->
-- 成本：不花钱。报名之前，在留服中心的通知公告里搜一次学校名
-- 说人话：留服中心会点名一批国外院校，对它们的学历认证单独加强审查，也会暂停受理个别学校的认证申请。被点名的往往就是宣传里「免语言、免出境、几个月拿硕士」的那种。报名前搜一次学校名，比事后申诉省事得多。
-- 收益：中国（教育部）留学服务中心一直在发公告，对部分国外院校的学历学位认证加强认证审查（对这些学校的文凭单独多查一道）。最新一份是第九号（2025-10-28）。留服中心还发过暂停受理个别境外院校认证申请的公告，也发过提示，说有人借国（境）外学历学位认证实施诈骗
-- 证据等级：A
-- 来源：中国（教育部）留学服务中心. 关于对部分国外院校学历学位认证加强认证审查的公告（九）（2025-10-28）. <https://www.cscse.edu.cn/cscse/sy/tzgg/2025102809225023345/index.html>；中国（教育部）留学服务中心. <https://www.cscse.edu.cn/>
-- 备注：「加强审查」不等于一定认证不了，但会要求你补交更多材料，时间也更长。凡是承诺「包认证」「内部渠道加急」的中介都是骗局，留服中心专门发过防诈骗提示。跨境找人代写论文、代上网课，被查到除了学历作废，还可能影响签证记录。
+### 10. Prüf vor der Anmeldung, ob deine Hochschule unter verstärkter Prüfung steht: Mit gekauften Abschlüssen kommst du nicht mehr durch
+<!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=nein Nutzen=mittel Bezug=Geld -->
+- Kosten: kostet nichts. Such vor der Anmeldung einmal den Namen der Hochschule in den Bekanntmachungen des Zentrums für Auslandsstudium
+- Klartext: Das Zentrum für Auslandsstudium nennt namentlich eine Reihe ausländischer Hochschulen und prüft deren Abschlüsse gesondert verstärkt; für einzelne Hochschulen setzt es die Anträge aus. Genannt werden oft genau die Hochschulen, die mit „keine Sprachprüfung, kein Aufenthalt im Ausland, in wenigen Monaten zum Master" werben. Vor der Anmeldung einmal den Namen zu suchen spart viel Ärger gegenüber einem späteren Widerspruch.
+- Nutzen: Das Zentrum für Auslandsstudium des chinesischen Bildungsministeriums veröffentlicht laufend Bekanntmachungen, mit denen es die Anerkennung der Abschlüsse und Grade bestimmter ausländischer Hochschulen einer verstärkten Prüfung unterzieht (deren Diplome werden gesondert zusätzlich geprüft). Die jüngste ist Nummer neun (2025-10-28). Das Zentrum hat auch bekanntgegeben, dass es für einzelne ausländische Hochschulen keine Anträge mehr annimmt, und hat davor gewarnt, dass manche die Anerkennung von Abschlüssen aus dem Ausland für Betrug missbrauchen
+- Evidenzstufe: A
+- Quellen: Zentrum für Auslandsstudium des chinesischen Bildungsministeriums. Bekanntmachung über die verstärkte Prüfung der Anerkennung der Abschlüsse und Grade bestimmter ausländischer Hochschulen (Neun) [关于对部分国外院校学历学位认证加强认证审查的公告（九）] (2025-10-28). <https://www.cscse.edu.cn/cscse/sy/tzgg/2025102809225023345/index.html>; Zentrum für Auslandsstudium des chinesischen Bildungsministeriums. <https://www.cscse.edu.cn/>
+- Anmerkung: „Verstärkte Prüfung" heißt nicht, dass die Anerkennung sicher scheitert, aber du musst mehr Unterlagen nachreichen, und es dauert länger. Jeder Vermittler, der „garantierte Anerkennung" oder „Beschleunigung über interne Kanäle" verspricht, ist ein Betrug; das Zentrum hat dazu eigens eine Warnung veröffentlicht. Wer grenzüberschreitend jemanden für sich Aufsätze schreiben oder Onlinekurse besuchen lässt, verliert bei Entdeckung nicht nur den Abschluss, sondern riskiert auch Einträge in der Visumakte.

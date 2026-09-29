@@ -1,0 +1,27 @@
+name: "Fehlermeldung: Eintrag ist falsch oder veraltet"
+description: Zahl stimmt nicht, Vorschrift wurde geändert, Quelle lässt sich nicht öffnen, Aussage ist falsch
+title: "Abschnitt X, Nr. Y:"
+labels: ["Fehlermeldung"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Welcher Eintrag
+      description: Schreibe Abschnittsnummer und Nummer, zum Beispiel „Abschnitt 32, Nr. 2".
+      placeholder: Abschnitt X, Nr. Y
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Was stimmt nicht
+      description: Schreibe die betreffende Stelle aus dem Original ab und sage dann, was dort stehen sollte.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Belege
+      description: Fachaufsatz (DOI- oder PubMed-Link), Gesetzestext, Webseite einer Regierung oder amtlichen Stelle. Wiedergaben aus Zhihu, WeChat-Kanälen, Baijiahao und dergleichen sind nicht brauchbar.
+    validations:
+      required: true
