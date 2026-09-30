@@ -60,7 +60,7 @@ umgestellt, weil er dem Bearbeiter nicht gefällt; die Empfehlung selbst bleibt 
 | REQ-23 | **Chinesische Rechtsnormen**: Gesetzesnamen werden sinngemäß übersetzt und beim ersten Vorkommen mit dem chinesischen Original in Klammern versehen. Artikelnummern unverändert. Die vollständige Fundstelle steht in „Quellen". | Muss |
 | REQ-24 | **Nummerierung unverändert**: 34 Sektionen, 630 Einträge, fortlaufende Nummern je Sektion. Ein Eintrag behält seine Nummer. | Muss |
 | REQ-25 | **Evidenzstufen A/B/C unverändert** und an derselben Stelle. Die Kennzeichnung „争议" (Streitfall) bleibt inhaltlich erhalten und steht weiterhin **am Anfang** der Anmerkung (maschinell gezählt). | Muss |
-| REQ-26 | **Kostenlabel semantisch identisch**: dieselben Werte wie im Original, nur deutsche Schlüssel. Kein Eintrag wechselt seine Einstufung. | Muss |
+| REQ-26 | **Kostenlabel folgt der deutschen Kostensituation** *(Nachtrag 2026-09-30, Auftraggeber-Entscheidung — löst „Kostenlabel semantisch identisch, kein Eintrag wechselt seine Einstufung" ab)*: Die Schlüssel sind die deutschen. Wo die Umstellung auf Deutschland (REQ-65) die Kostenlage für die angesprochene Lesergruppe verändert, wird der Wert angepasst — wird aus einer Selbstzahler-Leistung eine Kassenleistung, steht `Geld=0`; wird umgekehrt aus einer Kassenleistung eine Selbstzahler-Leistung, steht der entsprechende höhere Wert. Die Änderung wird im Marker nach REQ-67 benannt (mit Beleg) und im Prüfprotokoll begründet. **`Zeit`, `Willenskraft`, `Nutzen` und `Bezug` bleiben unverändert**; eine Einstufungsänderung, die nicht aus der Deutschland-Umstellung folgt, ist unzulässig. | Muss |
 | REQ-27 | **Struktur je Eintrag unverändert**: Titel → Kostenlabel-Kommentar → Kosten → Klartext → Nutzen → Evidenzstufe → Quellen → Anmerkung. Keine Zeile entfällt. | Muss |
 | REQ-28 | ~~Die China-Spezifika des Inhalts (低保, 医保, 劳动仲裁, 12378, Behördenwege) werden **nicht** auf deutsche Verhältnisse angepasst. Sie werden übersetzt, wie sie dastehen.~~ **Am 2026-09-30 abgelöst durch REQ-65.** Die Zielrichtung „deutschsprachige Leser in Deutschland" verlangt das Gegenteil: China-Spezifisches wird angepasst, nicht mitübersetzt. Die Regel bleibt als Zeitdokument stehen und gilt nicht mehr. | ~~Muss~~ abgelöst *(2026-09-30)* |
 
@@ -70,6 +70,9 @@ umgestellt, weil er dem Bearbeiter nicht gefällt; die Empfehlung selbst bleibt 
 |---|---|---|
 | REQ-65 | **Zielrichtung: deutschsprachige Leser in Deutschland.** Chinesische Zuständigkeiten, Verfahren, Leistungen, Hotlines und Behördenwege (低保, 医保, 劳动仲裁, 12356, 12378, 工伤保险, 元-Beträge mit Behördenbezug und dergleichen) werden durch die **deutsche Entsprechung ersetzt**, nicht mitübersetzt. **Jede Ersetzung braucht einen Beleg** nach den Quellenregeln dieses Projekts — Primärliteratur oder amtliche Stelle (Bundesministerium, Bundesagentur für Arbeit, GKV-Spitzenverband, gesetze-im-internet.de). Lässt sich keine Entsprechung belegen, bleibt der Originalbezug mit Hinweis stehen; eine deutsche Entsprechung wird **nicht** aus dem Gedächtnis erfunden. Angepasst werden Zuständigkeit, Verfahren, Betrag und Weg, **nicht** die Empfehlung selbst. | Muss |
 | REQ-66 | **Der Herkunftshinweis wird auf die Anpassung umgestellt.** Die Ausgabe ist ab REQ-65 nicht mehr „werkgetreu"; REQ-13 („inoffizielle deutsche Übersetzung", „maßgeblich ist das chinesische Original") ist entsprechend zu fassen und muss Übersetzung **und** Anpassung nennen. Umsetzung in R1 (README). | Soll |
+| REQ-67 | **Angepasste Einträge werden gekennzeichnet.** Wird ein Eintrag nach REQ-65 umgestellt — chinesische Zuständigkeit, Verfahren, Leistung, Hotline, Behördenweg oder Betrag ersetzt —, steht direkt unter der `<!-- Kostenlabel: … -->`-Zeile ein HTML-Kommentar `<!-- Angepasst: <was ersetzt wurde> — <Beleg> -->`, im GitHub-Rendering unsichtbar. Beispiel: `<!-- Angepasst: Notruf 120/119 → 112 — Bundesministerium des Innern, Notruf 112 -->`. Einträge ohne Anpassung tragen ihn **nicht**. REQ-27 („keine Zeile entfällt") wird um diese **optionale** Zeile erweitert — sie ist Zusatz, nicht Ersatz. Ohne Kennzeichnung ist dem Text nicht anzusehen, was von der Vorlage abweicht; der Marker macht die Abweichung nachprüfbar und zählbar. **Zwei Formen, je nach Umfang:** Wird nur die Währung umgestellt (REQ-68), sonst nichts, lautet der Marker `<!-- Währung: Yuan in Euro übernommen -->`, **ohne Betragsangabe** — das Zeichen `元` darf nach REQ-68 auch im Kommentar nicht stehen, sonst schlägt der Prüfmaßstab `grep -c 元` fehl. Wird mehr ersetzt (Zuständigkeit, Verfahren, Leistung, Hotline, Behördenweg oder Betrag), gilt die Form `<!-- Angepasst: … -->`. Die beiden Formen sind getrennt zählbar: `Angepasst` zählt die inhaltlichen Umstellungen, `Währung` die reinen Betragsänderungen. *(Nachtrag 2026-09-30, Auftraggeber-Entscheidung; um die Währungsform ergänzt)* | Muss |
+| REQ-69 | **Titel mit Altersangabe nennen die deutsche Regel** *(Nachtrag 2026-09-30, Auftraggeber-Entscheidung: „Basierend auf den vorliegenden Infos … würde ich hier der STIKO Empfehlung folgen")*: Sagt ein Eintragstitel, ab welchem Alter eine Untersuchung, Impfung oder Früherkennung ansteht, steht dort die **deutsche** Altersgrenze — die amtliche Empfehlung (STIKO) oder die Grenze des gesetzlichen Früherkennungsprogramms —, nicht das Alter der Vorlage. Die Empfehlung, auf der die Nutzen-Zahlen beruhen (etwa USPSTF oder die Altersspanne der ausgewerteten Studien), bleibt **mit ihrer eigenen Altersangabe im Klartext und in der Nutzen-Spalte** stehen, samt Quelle; weicht sie von der deutschen Grenze ab, wird das im Klartext gesagt („die Kasse zahlt ab …", „Selbstzahlen entfällt ab …"). Das ist die **Ausnahme von der Wortregel in `CLAUDE.md`** („ein Eintragstitel darf nur Wörter hinzunehmen, nicht ersetzen"): die Alterszahl darf ersetzt werden. Der Anker der Querverweise bleibt über die übrigen Wörter erhalten — nach jeder Titeländerung `node tools/check-refs.mjs --check` laufen lassen. Gilt für **alle** Kapitel, nicht nur Kapitel 01. | Muss |
+| REQ-68 | **Keine chinesische Währung im Buch.** Beträge stehen in Euro. Die chinesische Währung kommt **nirgends** mehr vor — nicht in der Kosten-Zeile, nicht in Klartext, Nutzen, Quellen oder Anmerkung. Preise, Gebühren und Bußgelder werden in Euro angegeben, gerundet und als Größenordnung, nicht scheingenau. **Chinesische Angaben stehen nicht im Text** — auch nicht in Euro umgerechnet und auch nicht als „in China" gekennzeichnet. An ihre Stelle tritt die **deutsche Angabe mit Beleg**; lässt sie sich nicht belegen, gilt die Aussage als „zu prüfen", oder der Eintrag wird dem Auftraggeber zur Entscheidung vorgelegt (Muster Stufe X). Das ist **kein Inhaltsverlust** (REQ-20), solange die Aussage erhalten bleibt: die chinesische Zahl wird durch die deutsche ersetzt, nicht gestrichen. Die Spalte **Quellen** bleibt unberührt — eine chinesische Fundstelle ist eine Literaturangabe, keine Inhaltsaussage. Auch die Schwellen des Kostenlabels in `CLAUDE.md` und die Kostentabelle im Glossar (R1) sind in Euro angegeben. **Prüfmaßstab: `grep -c 元 book/*.md` ergibt für jede Datei 0**; bleibt irgendwo die chinesische Währung stehen, ist die Überarbeitung nicht korrekt erfolgt *(Nachtrag 2026-09-30, Auftraggeber-Entscheidung: „Preise sollten nur noch in EUR vorkommen. Da sich jeglicher Content auf Deutschland beziehen soll, macht ein Vorkommen von chinesischer Währung auch keinen Sinn mehr.")* **Gilt für alle chinesischen Angaben, nicht nur für Beträge** *(Nachtrag 2026-09-30, Auftraggeber-Entscheidung zu Kapitel 01, Nr. 36: „Ich will keine (!) China Angaben in den Texten, sondern hier muss eine Transferleistung auf Deutschland geschehen. Inkl. Prüfung, ob das sinnhaftig ist, oder nicht, dieses Kapitel in der Deutschland-Variante zu halten.")* | Muss |
 
 ## C. Sprachqualität
 
@@ -182,6 +185,43 @@ REQ-20 gilt nur noch mit der Ausnahme der Deutschland-Anpassung.
 6. **`CLAUDE.md`, `AGENTS.md`** — neue Regel „Zielrichtung dieser Ausgabe"; die Upstream-Regel
    „Übersetzungen kommen nicht in dieses Repository" ist für diesen Fork ausdrücklich als **nicht
    anwendbar** gekennzeichnet. Sie gilt weiter für Beiträge am Original und für fremde Übersetzungen.
+7. **REQ-67 (neu, noch am 2026-09-30 entschieden)** — angepasste Einträge werden gekennzeichnet:
+   `<!-- Angepasst: <was ersetzt wurde> — <Beleg> -->` direkt unter der Kostenlabel-Zeile. Damit ist
+   die zuvor offen gelassene Kennzeichnungsfrage entschieden.
+8. **REQ-68 (neu, am 2026-09-30 entschieden)** — **keine chinesische Währung im Buch.** Die 753
+   `元`-Vorkommen im Bestand (118 davon in Kosten-Zeilen) werden auf Euro umgestellt; chinesische
+   Bußgelder, Gebühren und Amtsbeträge werden durch die deutsche Regel ersetzt. REQ-65 nannte bisher
+   nur „`元`-Beträge **mit Behördenbezug**"; REQ-68 schließt die Lücke für alle übrigen Beträge,
+   insbesondere die Marktpreise der Kosten-Spalte. Prüfmaßstab ist `grep -c 元 book/*.md` = 0.
+9. **REQ-68 nachgeschärft (am 2026-09-30 zum Fall Kapitel 01, Nr. 36 entschieden)** — die Regel gilt
+   **für alle chinesischen Angaben, nicht nur für Beträge.** Chinesische Statistiken, Mengenangaben
+   und Einteilungen kommen im deutschen Text ebenso wenig vor wie Beträge; sie werden **nicht** in
+   Euro umgerechnet und **nicht** mit „in China" gekennzeichnet, sondern auf die **deutsche Angabe
+   mit Beleg** übertragen. Ist keine belegbar, gilt die Aussage als „zu prüfen", oder der Eintrag
+   wird dem Auftraggeber zur Entscheidung vorgelegt; die Wahl ist dann **umstellen oder streichen**.
+   Die Spalte **Quellen** bleibt ausgenommen (chinesische Fundstelle = Literaturangabe). Anlass war
+   die erste Fassung von Nr. 36 (Zahl der Strahlenquellen, Klasse-I–V-Einteilung), die die
+   chinesischen Größen ungekennzeichnet im Text trug. Die Regel steht außerdem in `CLAUDE.md`
+   (Zielrichtung, Bullet „Keine China-Angaben im laufenden Text") und in beiden Auftragsdokumenten.
+10. **REQ-26 neu gefasst (am 2026-09-30 zu den Fällen Kapitel 01, Nr. 16/21/22 entschieden)** — das
+    Kostenlabel war bisher „semantisch identisch" zum Original. Das trägt nicht mehr: die
+    Deutschland-Umstellung ändert die Kostenlage, und ein Label, das `Geld=viel` sagt, während der
+    eigene Klartext die Kasse nennt, ist ein Widerspruch im Eintrag. Deshalb **folgt der `Geld`-Wert
+    der deutschen Kostensituation** für die angesprochene Lesergruppe; `Zeit`, `Willenskraft`,
+    `Nutzen` und `Bezug` bleiben unverändert. Jede Labeländerung wird im Marker (REQ-67) benannt und
+    im Prüfprotokoll begründet. Zeit, Währung und Label hängen zusammen: die **Schwellen** des Labels
+    stehen in Euro (`CLAUDE.md`), die **Zuordnung** folgt der Kassenlage. Folge für die Abnahme:
+    README und Website-Kennzahlen (`sync-stats.mjs`) verschieben sich und werden am Ende der Runde
+    neu erzeugt. Der Label-Abgleich gegen das Original (früher: jede Abweichung = Verlust) erlaubt
+    jetzt **belegte, im Marker benannte** Abweichungen; sie werden im Prüfprotokoll einzeln geführt.
+11. **REQ-69 neu (am 2026-09-30 zu den Fällen Kapitel 01, Nr. 17/18/19 entschieden)** — **Titel mit
+    Altersangabe nennen die deutsche Regel.** Anlass: Die Titel trugen die Altersgrenze der Vorlage
+    („Frauen ab 40", „Frauen ab 30", „Ab 45 bis 50"), während der Eintrag die deutsche Grenze nennt —
+    dieselbe Art Widerspruch wie in Nr. 21/22, nur in der Titelzeile. Die Empfehlung, auf der die
+    Nutzen-Zahlen beruhen (USPSTF, Altersspanne der Studien), bleibt mit ihrer Altersangabe im
+    Klartext und in der Nutzen-Spalte stehen, samt Quelle. Ausnahme von der Wortregel in `CLAUDE.md`
+    (Titel dürfen nur Wörter hinzunehmen): die Alterszahl darf ersetzt werden. Danach
+    `node tools/check-refs.mjs --check` laufen lassen.
 
 **Was das nicht ist.** Kein Freibrief. Wo keine China-Bindung besteht, bleibt der Text, wie er ist:
 die Empfehlung, die Zahlen der Nutzen-Spalte, die Evidenzstufen, die Quellen und die Belegpflicht.
@@ -189,14 +229,19 @@ Ersetzt wird der China-Bezug, nicht das Urteil.
 
 **Offene Punkte (in der Überarbeitungsrunde zu entscheiden):**
 
-- Ob angepasste Einträge **maschinell gekennzeichnet** werden — Vorschlag: ein Marker analog zu
-  `<!-- Länge: begründet — <Grund> -->`. Ohne Kennzeichnung ist dem Text nicht anzusehen, was
-  angepasst wurde; der Herkunftshinweis allein trägt das nicht.
+- ~~Ob angepasste Einträge **maschinell gekennzeichnet** werden~~ — **entschieden am 2026-09-30:
+  ja, nach REQ-67.** Der Marker lautet `<!-- Angepasst: <was ersetzt wurde> — <Beleg> -->` und steht
+  direkt unter der Kostenlabel-Zeile.
 - Die Folgen für **REQ-22** (Zahlen unverändert), **REQ-23** (chinesische Normen mit Artikelnummer),
-  **REQ-26** (Kostenlabel), **REQ-37** (deutsche Terminologie für chinesische Verfahren) und
+  **REQ-37** (deutsche Terminologie für chinesische Verfahren) und
   **REQ-49** (keine chinesischen Reststrings) sind **je Eintrag** zu prüfen. Sie sind hier nicht
-  pauschal aufgehoben.
+  pauschal aufgehoben. **REQ-68** entscheidet den Währungsteil vorab: die Kosten-Schwellen des
+  Kostenlabels sind ab 2026-09-30 in Euro angegeben, `元` kommt im Buch nicht mehr vor.
+  **REQ-26** ist am 2026-09-30 neu gefasst (Punkt 10): der `Geld`-Wert folgt der deutschen
+  Kostensituation, nicht mehr der Vorlage.
 - Die Liste **„Ausdrücklich außerhalb des Umfangs"** ist mit REQ-65 teilweise im Widerspruch
   („Aktualisierung veralteter Angaben … werden mitübersetzt, nicht korrigiert") und neu zu lesen.
-- Der **Bestand ist noch nicht angepasst.** Dieser Nachtrag ändert die Regel, nicht den Text. Der
-  Text folgt in der Überarbeitungsrunde (Issues #4–#37, Bestandteile #38–#44).
+- Der **Bestand wird in der Überarbeitungsrunde angepasst** (Issues #4–#37, Bestandteile #38–#44).
+  Sie ist am 2026-09-30 als **Runde 10** gestartet; der Fortschritt steht in `status.md`. Reihenfolge:
+  Kapitel 01–34 der Reihe nach, danach die Bestandteile. Jedes Kapitel wird erst fachlich und gegen
+  die Buchvorgaben geprüft und dann dem Auftraggeber zur Freigabe vorgelegt.
