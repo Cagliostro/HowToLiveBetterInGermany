@@ -1,10 +1,18 @@
 # Anforderungen — howtolivebetter-de
 
-**Ziel:** Werkgetreue deutsche Ausgabe von *HowToLiveBetter* im Fork `Cagliostro/HowToLiveBetterInGermany`.
-Die chinesische Fassung wird im Fork **ersetzt**, das Original bleibt über einen Herkunftshinweis referenziert.
+**Ziel:** Deutsche Ausgabe von *HowToLiveBetter* für **deutschsprachige Leser in Deutschland** im
+Fork `Cagliostro/HowToLiveBetterInGermany`. Die chinesische Fassung wird im Fork **ersetzt**, das
+Original bleibt über einen Herkunftshinweis referenziert.
 
-**Leitsatz:** Übersetzung, keine Bearbeitung. Kein Satz wird umgestellt, gekürzt, ergänzt oder
-in seiner Aussage verändert, weil er dem Übersetzer nicht gefällt.
+**Zielrichtung (Entscheidung des Auftraggebers, 2026-09-30):** Deutschsprachige Leser in Deutschland.
+China-Exklusives ist damit **Schwachstelle, nicht Inhalt**: chinesische Zuständigkeiten, Verfahren,
+Leistungen, Hotlines und Behördenwege werden auf die deutsche Entsprechung umgestellt (REQ-65). Das
+ist eine **Bearbeitung**, nicht mehr nur eine Übersetzung; REQ-28 („China-Spezifika werden nicht
+angepasst") ist damit **abgelöst**.
+
+**Leitsatz:** Übersetzung **mit Anpassung der China-Spezifika**. Geändert wird nur, was die
+Zielrichtung verlangt, und nur gegen Beleg (REQ-65). Kein Satz wird gestrichen, gekürzt oder
+umgestellt, weil er dem Bearbeiter nicht gefällt; die Empfehlung selbst bleibt bestehen.
 
 ## Entscheidungen aus dem Anforderungs-Interview
 
@@ -46,7 +54,7 @@ in seiner Aussage verändert, weil er dem Übersetzer nicht gefällt.
 
 | ID | Anforderung | Prio |
 |---|---|---|
-| REQ-20 | **Keine inhaltlichen Änderungen.** Keine Empfehlung wird hinzugefügt, entfernt, umsortiert, abgeschwächt oder verschärft. Keine neuen Fakten, Symptome, Mechanismen oder Beispiele. | Muss |
+| REQ-20 | **Keine inhaltlichen Änderungen** — **Ausnahme: die Deutschland-Anpassung nach REQ-65** *(2026-09-30)*. Keine Empfehlung wird hinzugefügt, entfernt, umsortiert, abgeschwächt oder verschärft. Keine neuen Fakten, Symptome, Mechanismen oder Beispiele. Eine Empfehlung bleibt in ihrer Aussage bestehen, auch wenn ihre Behörde, ihr Verfahren oder ihre Leistung auf die deutsche Entsprechung umgestellt wird. | Muss |
 | REQ-21 | Die **`来源`-Zeile (→ „Quellen") bleibt unübersetzt**: DOI, englische Titel, Zeitschriftnamen, Normnummern, URLs und Zugriffsdaten werden 1:1 übernommen. Nur die einleitenden chin. Zusätze (z. B. „国务院 (2025).") werden transliteriert/übersetzt, die Fundstelle bleibt nachprüfbar. | Muss |
 | REQ-22 | Alle **Zahlen unverändert**: HR, RR, OR, 95 %-CI, Prozentwerte, Fallzahlen, Jahre, Grenzwerte, Fristen, Beträge. Deutsche Zahlenschreibweise (Dezimalkomma) nur dort, wo kein Widerspruch zur Nachprüfbarkeit entsteht — im Zweifel Originalformat beibehalten. | Muss |
 | REQ-23 | **Chinesische Rechtsnormen**: Gesetzesnamen werden sinngemäß übersetzt und beim ersten Vorkommen mit dem chinesischen Original in Klammern versehen. Artikelnummern unverändert. Die vollständige Fundstelle steht in „Quellen". | Muss |
@@ -54,7 +62,14 @@ in seiner Aussage verändert, weil er dem Übersetzer nicht gefällt.
 | REQ-25 | **Evidenzstufen A/B/C unverändert** und an derselben Stelle. Die Kennzeichnung „争议" (Streitfall) bleibt inhaltlich erhalten und steht weiterhin **am Anfang** der Anmerkung (maschinell gezählt). | Muss |
 | REQ-26 | **Kostenlabel semantisch identisch**: dieselben Werte wie im Original, nur deutsche Schlüssel. Kein Eintrag wechselt seine Einstufung. | Muss |
 | REQ-27 | **Struktur je Eintrag unverändert**: Titel → Kostenlabel-Kommentar → Kosten → Klartext → Nutzen → Evidenzstufe → Quellen → Anmerkung. Keine Zeile entfällt. | Muss |
-| REQ-28 | Die China-Spezifika des Inhalts (低保, 医保, 劳动仲裁, 12378, Behördenwege) werden **nicht** auf deutsche Verhältnisse angepasst. Sie werden übersetzt, wie sie dastehen. | Muss |
+| REQ-28 | ~~Die China-Spezifika des Inhalts (低保, 医保, 劳动仲裁, 12378, Behördenwege) werden **nicht** auf deutsche Verhältnisse angepasst. Sie werden übersetzt, wie sie dastehen.~~ **Am 2026-09-30 abgelöst durch REQ-65.** Die Zielrichtung „deutschsprachige Leser in Deutschland" verlangt das Gegenteil: China-Spezifisches wird angepasst, nicht mitübersetzt. Die Regel bleibt als Zeitdokument stehen und gilt nicht mehr. | ~~Muss~~ abgelöst *(2026-09-30)* |
+
+## B2. Zielrichtung Deutschland (Nachtrag 2026-09-30)
+
+| ID | Anforderung | Prio |
+|---|---|---|
+| REQ-65 | **Zielrichtung: deutschsprachige Leser in Deutschland.** Chinesische Zuständigkeiten, Verfahren, Leistungen, Hotlines und Behördenwege (低保, 医保, 劳动仲裁, 12356, 12378, 工伤保险, 元-Beträge mit Behördenbezug und dergleichen) werden durch die **deutsche Entsprechung ersetzt**, nicht mitübersetzt. **Jede Ersetzung braucht einen Beleg** nach den Quellenregeln dieses Projekts — Primärliteratur oder amtliche Stelle (Bundesministerium, Bundesagentur für Arbeit, GKV-Spitzenverband, gesetze-im-internet.de). Lässt sich keine Entsprechung belegen, bleibt der Originalbezug mit Hinweis stehen; eine deutsche Entsprechung wird **nicht** aus dem Gedächtnis erfunden. Angepasst werden Zuständigkeit, Verfahren, Betrag und Weg, **nicht** die Empfehlung selbst. | Muss |
+| REQ-66 | **Der Herkunftshinweis wird auf die Anpassung umgestellt.** Die Ausgabe ist ab REQ-65 nicht mehr „werkgetreu"; REQ-13 („inoffizielle deutsche Übersetzung", „maßgeblich ist das chinesische Original") ist entsprechend zu fassen und muss Übersetzung **und** Anpassung nennen. Umsetzung in R1 (README). | Soll |
 
 ## C. Sprachqualität
 
@@ -138,7 +153,50 @@ ein Dokumentationsproblem.**
    Anmerkung gibt es **keine harte Obergrenze**, weil ihre Länge Bedeutung trägt.
 
 **Nicht geändert:** REQ-33 bleibt wie es ist — es war bereits richtig kalibriert und wird eingehalten.
-Die Regel „Übersetzung, keine Bearbeitung" (REQ-20) bleibt unangetastet und **gewinnt** im
-Zielkonflikt gegen jede Längengrenze. Die historischen Angaben in `docs/pruefprotokolle/` werden
-**nicht** angepasst: sie beschreiben, was am Original geschehen ist, und sind als Zeitdokument
-korrekt.
+Die Regel „Übersetzung, keine Bearbeitung" (REQ-20) bleibt im Zielkonflikt gegen jede Längengrenze
+**vorrangig**; die am selben Tag beschlossene Ausnahme für die Deutschland-Anpassung (REQ-65) berührt
+das nicht. Die historischen Angaben in `docs/pruefprotokolle/` werden **nicht** angepasst: sie
+beschreiben, was am Original geschehen ist, und sind als Zeitdokument korrekt.
+
+## Nachtrag 2026-09-30 — Zielrichtung Deutschland: REQ-28 abgelöst
+
+**Anlass.** Issue #3 des Reviews: kein Steuerungsdokument nannte Deutschland als Ziel, während
+REQ-28 eine inhaltliche Anpassung ausdrücklich ausschloss. Der Prüfmaßstab aller 41 Berichte stand
+damit infrage.
+
+**Entscheidung des Auftraggebers (2026-09-30).** Zielrichtung sind **deutschsprachige Leser in
+Deutschland**; China-Exklusives ist **Schwachstelle, nicht Inhalt**. REQ-28 ist damit **abgelöst**;
+REQ-20 gilt nur noch mit der Ausnahme der Deutschland-Anpassung.
+
+**Änderungen:**
+
+1. **REQ-65 (neu)** — Zielrichtung Deutschland: China-Spezifisches wird durch die deutsche
+   Entsprechung ersetzt, jede Ersetzung gegen Beleg; ohne Beleg bleibt der Originalbezug stehen.
+   Angepasst werden Zuständigkeit, Verfahren, Betrag und Weg — nicht die Empfehlung.
+2. **REQ-66 (neu)** — der Herkunftshinweis (REQ-13) wird auf „Übersetzung mit Anpassung" umgestellt;
+   Umsetzung in R1.
+3. **REQ-28** — als abgelöst gekennzeichnet, bleibt als Zeitdokument stehen.
+4. **REQ-20** — um die Ausnahme nach REQ-65 ergänzt, im Übrigen unverändert.
+5. **Leitsatz** — von „Übersetzung, keine Bearbeitung" auf „Übersetzung mit Anpassung der
+   China-Spezifika" umgestellt.
+6. **`CLAUDE.md`, `AGENTS.md`** — neue Regel „Zielrichtung dieser Ausgabe"; die Upstream-Regel
+   „Übersetzungen kommen nicht in dieses Repository" ist für diesen Fork ausdrücklich als **nicht
+   anwendbar** gekennzeichnet. Sie gilt weiter für Beiträge am Original und für fremde Übersetzungen.
+
+**Was das nicht ist.** Kein Freibrief. Wo keine China-Bindung besteht, bleibt der Text, wie er ist:
+die Empfehlung, die Zahlen der Nutzen-Spalte, die Evidenzstufen, die Quellen und die Belegpflicht.
+Ersetzt wird der China-Bezug, nicht das Urteil.
+
+**Offene Punkte (in der Überarbeitungsrunde zu entscheiden):**
+
+- Ob angepasste Einträge **maschinell gekennzeichnet** werden — Vorschlag: ein Marker analog zu
+  `<!-- Länge: begründet — <Grund> -->`. Ohne Kennzeichnung ist dem Text nicht anzusehen, was
+  angepasst wurde; der Herkunftshinweis allein trägt das nicht.
+- Die Folgen für **REQ-22** (Zahlen unverändert), **REQ-23** (chinesische Normen mit Artikelnummer),
+  **REQ-26** (Kostenlabel), **REQ-37** (deutsche Terminologie für chinesische Verfahren) und
+  **REQ-49** (keine chinesischen Reststrings) sind **je Eintrag** zu prüfen. Sie sind hier nicht
+  pauschal aufgehoben.
+- Die Liste **„Ausdrücklich außerhalb des Umfangs"** ist mit REQ-65 teilweise im Widerspruch
+  („Aktualisierung veralteter Angaben … werden mitübersetzt, nicht korrigiert") und neu zu lesen.
+- Der **Bestand ist noch nicht angepasst.** Dieser Nachtrag ändert die Regel, nicht den Text. Der
+  Text folgt in der Überarbeitungsrunde (Issues #4–#37, Bestandteile #38–#44).
