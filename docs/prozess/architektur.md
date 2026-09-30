@@ -363,8 +363,11 @@ wird als solche übersetzt.
 - Ausgabe nach `docs/verweis-abgleich.md`, Format wie bisher (Spalte „出处" → „Fundstelle").
 
 ### 5.4 `tools/check-plain.mjs`
-- Längenregel: statt 120 字 → **≤ 80 Wörter** in der Klartext-Zeile (empirisch zu
-  kalibrieren an den ersten übersetzten Sektionen).
+- Längenregel: statt 120 字 → **≤ 80 Wörter** in der Klartext-Zeile. *(Kalibriert am
+  2026-09-30: 80 ist die **Grenze**, der Zielwert liegt bei 50–70 Wörtern — REQ-38. Der
+  Bestand erreicht genau 80 und ist damit konform.)*
+- Marker `<!-- Länge: begründet — <Grund> -->`: Verstöße gegen die Längenregel sind dann
+  geduldet, werden aber getrennt aufgelistet (REQ-39). Ohne Marker bleiben sie ein harter Fehler.
 - Jargonliste: `HR`, `RR`, `OR`, `KI`, `CI`, `Metaanalyse`, `Kohorte`, `randomisiert`,
   `Signifikanz`, `adjustiert`, `Inzidenz`, `Prävalenz`, `Relativrisiko` …
 - Zahlenregel: jeder arabische Zahlwert im Klartext muss im Titel, in `Kosten` oder in
@@ -452,7 +455,7 @@ Sitzungen setzen dort wieder auf.
 | **R1** | **Umfang** — 2,84 Mio. Zeichen, ~100 Subagentenläufe über mehrere Sitzungen | Abbruch, Halbzustand | Runden in `status.md`, Blockfortschritt in `umsetzungsbericht.md`; jede Runde für sich abschließbar |
 | **R2** | **Verweis-Erkennung** — die Abgrenzung „Buchverweis vs. Gesetzesnorm" ist der empfindlichste Teil | Verweise werden stillschweigend nicht geprüft (genau der Fehler, den das Original 2026-09-21 hatte) | Eigene Testfälle: bekannte Gesetzesnormen („§ 16 GB", „Art. 1125 ZGB") müssen als Norm erkannt, bekannte Buchverweise als Verweis. **Zählkontrolle:** Anzahl erkannter Verweise muss nach der Portierung derselben Größenordnung entsprechen (Original-Baseline: 533) |
 | **R3** | **Konsistenz über 630 Einträge** — derselbe Begriff mal so, mal so | Lesbarkeit, Glossarverstoß | Verbindliches Glossar je Subagent; `check-glossar`-Lauf am Rundenende (Wortliste gegen Glossar) |
-| **R4** | **Deutsche Satzlänge** — deutsche Sätze sind strukturell länger als chinesische | REQ-33 reißt massenhaft | Zielgröße 15–20 Wörter, Obergrenze 30 **als Wortzahl** (nicht Zeichen); Kalibrierung in Runde 0 an Sektion 15 |
+| **R4** | **Deutsche Satzlänge** — deutsche Sätze sind strukturell länger als chinesische | REQ-33 reißt massenhaft | Zielgröße 15–20 Wörter, Obergrenze 30 **als Wortzahl** (nicht Zeichen); Kalibrierung in Runde 0 an Sektion 15. **Eingetreten und am 2026-09-30 aufgelöst:** Die Wortkalibrierung war richtig und wird eingehalten (Median 15, Maximum genau 30), aber die **Zeichenregeln der `CLAUDE.md`** — 120 Zeichen Klartext, 30/50 Zeichen Satz, 700 Zeichen Anmerkung — waren Originalregeln in chinesischer Einheit und wurden nie umgerechnet. Folge: 630 von 630 Klartexten formal „gerissen", ohne Textmangel. Behoben durch **REQ-38**, **REQ-39** und die Umstellung der `CLAUDE.md` auf Wortzahlen (Anmerkungs-Schwelle 700 → 900, ohne harte Obergrenze) |
 | **R5** | **Umlaute in Dateinamen und URLs** | prozentkodierte Links, kaputte Anker | ADR-4: ASCII-transliterierte Dateinamen |
 | **R6** | **Titelzahl driftet** (ADR-7) | README-Titel und Badge widersprechen dem Korpus | Titelzahl in die `EDITS`-Tabelle von `sync-stats.mjs` |
 | **R7** | **Chinesische Reststrings** in Ausgabeartefakten | REQ-49 verletzt, peinlich | Prüfskript: `grep -P '[\p{Han}]'` über alle Ausgaben außer `Quellen`-Zeilen |

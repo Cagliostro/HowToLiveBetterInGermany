@@ -100,9 +100,9 @@ Prüfdatum 2026-09-07. Die meisten Verlagsseiten (NEJM, Elsevier, Wiley, BMJ, AH
 ## 16. Psychische Krise
 - <https://doi.org/10.1016/S2215-0366(16)30030-X> — die Elsevier-Seite zeigt nur „Redirecting"; der Europe-PMC-Datensatz bestätigt: Zalsman G, Lancet Psychiatry 2016.
   - Original: „Evidence for restricting access to lethal means in prevention of suicide has strengthened since 2005"; „overall decrease of 43% since 2005" (Kontrolle von Schmerzmitteln); „hot-spots for suicide by jumping (reduction of 86% since 2005, 79% to 91%)"; „School-based awareness programmes have been shown to reduce suicide attempts (odds ratio [OR] 0·45, 95% CI 0·24-0·85"
-- <https://www.gov.cn/zhengce/zhengceku/202412/content_6994470.htm> — geöffnet. Titel „Bekanntmachung der Nationalen Gesundheitskommission über die Verwendung der landesweit einheitlichen Telefonnummer ‚12356' für psychosoziale Beratungshilfe [国家卫生健康委关于应用"12356"全国统一心理援助热线电话号码的通知]", 国卫医政函〔2024〕259 号, 2024-12-06.
-  - Original: „Als landesweit einheitliche Telefonnummer für die psychosoziale Beratungshilfe wird ‚12356' eingerichtet"; „täglich werden mindestens 18 Stunden psychosoziale Beratung angeboten"; „sicherstellen, dass bis zum 1. Mai 2025, 0 Uhr, die Nummer ‚12356' einen Anschluss an die psychosoziale Beratungshotline herstellt"
-  - Der Originallink auf nhc.gov.cn gibt 412 zurück; stattdessen wird dieselbe Datei aus der Politikdatenbank des Staatsrats zitiert.
+- <https://www.bundesnetzagentur.de/DE/Fachthemen/Telekommunikation/Nummerierung/_DL/Nummerierungskonzept2014.pdf?__blob=publicationFile&v=1> — geöffnet (PDF mit pdftotext in Text umgewandelt). Die Nummer erscheint als „(0)116123" mit der Zuordnung „Hotline zur Lebenshilfe"; der Dienst „bietet dem Anrufer einen menschlichen Ansprechpartner, der ihm vorurteilsfrei zuhört" und leistet „seelischen Beistand für Anrufer", erreichbar seit 05. Dezember 2008.
+  - Ersetzt in Runde 10 (2026-09-30) die früher zitierte chinesische Bekanntmachung zur Nummer 12356 (国家卫生健康委关于应用„12356"全国统一心理援助热线电话号码的通知). Die Nummer 116 123 und die kostenlose, anonyme Erreichbarkeit der Telefonseelsorge stehen so im Text; die frühere chinesische Fundstelle ist entfallen.
+  - Zu prüfen: Eine amtliche deutsche Quelle, die zusätzlich die Nummer 0800 111 0 111 und die Rund-um-die-Uhr-Besetzung der Telefonseelsorge belegt, wurde nicht gefunden; der Nummerierungstext der Bundesnetzagentur führt nur die 116 123.
 
 ## Nicht bestätigt / nicht verwendet
 - Die NHTSA-Webseiten nhtsa.gov/risky-driving/seat-belts, car-seats-and-booster-seats: 403, nicht bestätigt, stattdessen das offizielle PDF von crashstats verwendet.
@@ -111,3 +111,354 @@ Prüfdatum 2026-09-07. Die meisten Verlagsseiten (NEJM, Elsevier, Wiley, BMJ, AH
 - WHO-Factsheet zum Ertrinken (geöffnet, Fassung vom 2026-05-01): keine Zahlen zu China, nicht zitiert; „around 300 000 annual drowning deaths worldwide" wurde nicht verwendet.
 - Die Studienskalenzahlen in der Nutzen-Spalte (Ettehad 123 Studien/613,815 Personen, Sherrington 108 Studien/23,407 Personen, Lei 1,672,983 Personen, IAMI 2571 Personen) wurden in der zweiten Runde des Europe-PMC-Abrufs Wort für Wort geprüft, siehe die jeweiligen Originalstellen.
 - Die Preise in der Kosten-Spalte (Helm, Melder, Impfungen, Untersuchungsgebühren usw.) sind grobe Schätzungen des Autors nach Marktpreis, sie sind keine zitierten Zahlen und wurden nicht geprüft.
+
+## Deutsche Fundstellen (Runde 10, 2026-09-30)
+
+In Runde 10 wurden die china-gebundenen Zuständigkeiten, Verfahren, Gesetzesbezüge und Preise nach REQ-65/REQ-68 umgestellt. Jede deutsche Fundstelle wurde einmal geöffnet; die folgenden Sätze stehen so in der Quelle.
+
+### Nr. 4 — Gasschlauch (NDAV § 13, BGB § 312g)
+- <https://www.gesetze-im-internet.de/ndav/__13.html> — geöffnet. § 13 Niederdruckanschlussverordnung: „Der Anschlussnehmer ist verantwortlich für ‚Errichtung, Erweiterung, Änderung und Instandhaltung der Gasanlage hinter der Hauptabsperreinrichtung'"; „Arbeiten an der Anlage dürfen, außer durch den Netzbetreiber, nur durch Installationsunternehmen durchgeführt werden, die in einem Installateurverzeichnis eingetragen sind".
+- <https://www.gesetze-im-internet.de/bgb/__312g.html> — geöffnet. § 312g Abs. 1 BGB: „Dem Verbraucher steht bei außerhalb von Geschäftsräumen geschlossenen Verträgen und bei Fernabsatzverträgen ein Widerrufsrecht nach § 355 zu".
+- Zu prüfen: Die üblichen Schritte bei Gasgeruch (Fenster öffnen, Ventil schließen, keine elektrischen Geräte schalten, draußen anrufen) ließen sich nicht mit einem amtlichen Text belegen; sie stehen im Text als „zu prüfen".
+
+### Nr. 6 — E-Bike im Hausflur (VVB Bayern § 22)
+- <https://www.gesetze-bayern.de/Content/Document/BayVVB-22> — geöffnet. Verordnung über die Verhütung von Bränden, § 22: „Zu- und Ausgänge, Durchfahrten, Durchgänge, Treppenräume und Verkehrswege, die bei einem Brand als erster oder zweiter Rettungsweg vorgesehen sind, sind freizuhalten"; „Elektrische Geräte wie Kopierer oder Verkaufsautomaten dürfen in notwendigen Treppenräumen nicht betrieben werden".
+- Ebenfalls geprüft und nicht zitiert: die FAQ „Lagerung und Laden von Akkusystemen in Wohngebäuden" (Stand 01.2025) beschreibt die Brandgefahr von Lithium-Ionen-Batterien, nennt aber keine Verbotsnorm.
+- Zu prüfen: Eine amtliche deutsche Statistik zu Bränden und Todesfällen durch E-Bike-Akkus ließ sich nicht belegen.
+
+### Nr. 14 — Hepatitis B (RKI-FAQ, SGB V § 20i)
+- <https://www.rki.de/SharedDocs/FAQs/DE/Impfen/HepatitisB/FAQ-Liste_HepB_Impfen.html> — geöffnet. Die STIKO „empfiehlt die Impfung gegen Hepatitis B im Erwachsenenalter besonders gefährdeten Personengruppen"; dazu zählen „Personen mit bestimmten Erkrankungen als auch solche mit erhöhtem beruflichem sowie nichtberuflichem Expositionsrisiko" (genannt: „HIV-Positive, Dialysepatienten, Kontaktpersonen zu an Hepatitis B erkrankten Personen").
+  - Hinweis: Diese FAQ nennt keine Kostenerstattung; für die gesetzliche Übernahme steht § 20i SGB V (siehe unten).
+- <https://www.gesetze-im-internet.de/sgb_5/__20i.html> — geöffnet. § 20i Abs. 1 SGB V: „Versicherte haben Anspruch auf Leistungen für Schutzimpfungen im Sinne des § 2 Nr. 9 des Infektionsschutzgesetzes"; der Gemeinsame Bundesausschuss bestimmt die Ausgestaltung „auf der Grundlage der Empfehlungen der Ständigen Impfkommission beim Robert Koch-Institut".
+- Zu prüfen: Eine amtliche deutsche Quelle, die einheitlich für alle STIKO-Gruppen die vollständige Kostenübernahme ohne Zuzahlung belegt, wurde nicht gefunden; die Impfung ist Kassenleistung nach § 20i SGB V, die konkrete Kostenfreiheit für den Einzelnen folgt aus der Schutzimpfungs-Richtlinie.
+
+### Nr. 16 — HPV (RKI-FAQ)
+- <https://www.rki.de/SharedDocs/FAQs/DE/Impfen/HPV/FAQ-Liste_HPV_Impfen.html> — geöffnet. „Die STIKO empfiehlt die HPV-Impfung für alle Kinder ab dem Alter von 9 Jahren bis zum Alter von 14 Jahren."; „Das Nachholen der Impfung empfiehlt die STIKO für ungeimpfte Jugendliche bis zu ihrem 18. Geburtstag."; „Bis zum Alter von 14 Jahren sind für einen vollständigen Impfschutz 2 Impfdosen notwendig", „Ab dem Alter von 15 Jahren sind 3 Impfdosen für einen vollständigen Impfschutz notwendig"; „Generell werden die Kosten für alle von der STIKO empfohlenen Impfungen von der gesetzlichen Krankenkasse übernommen".
+
+### Nr. 21 — Gürtelrose (RKI-FAQ, SGB V § 20i)
+- <https://www.rki.de/SharedDocs/FAQs/DE/Herpes_zoster/FAQ_Uebersicht_HZ.htm> — geöffnet. „Die STIKO empfiehlt allen Personen ≥ 60 Jahren als Standardimpfung (S) gegen Herpes zoster und postherpetischer Neuralgie"; zusätzlich „für Personen ab 18 Jahren mit einem erhöhten Risiko an Herpes zoster zu erkranken". „Die Impfserie mit dem Herpes-zoster-Totimpfstoff besteht aus zwei Impfstoffdosen", die „intramuskulär im Abstand von mindestens 2 bis 6 Monaten verabreicht werden".
+  - Hinweis: Diese FAQ nennt keine Kostenerstattung; dafür steht § 20i SGB V.
+- Nachtrag Durchgang 1 (2026-09-30): Der Titel lautet jetzt „Ab 60 gegen Gürtelrose impfen lassen" und deckt sich mit der STIKO-Empfehlung ab 60 Jahren. Titelanpassung nach REQ-27; `check-refs --check` danach bestanden.
+
+### Nr. 22 — Pneumokokken (RKI-Faktenblatt, SGB V § 20i)
+- <https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Informationsmaterialien/Faktenblaetter-zum-Impfen/Pneumokokken.pdf?__blob=publicationFile&v=6> — geöffnet (PDF mit pdftotext in Text umgewandelt). Die Empfehlung führt „Personen ab 60 Jahren" als Impfgruppe (neben Säuglingen und Personen mit chronischen Krankheiten). Das Faktenblatt nennt keine Kostenübernahme; dafür steht § 20i SGB V.
+- Nachtrag Durchgang 1 (2026-09-30): Der Titel lautet jetzt „Ab 60 gegen Pneumokokken impfen lassen" und deckt sich mit der STIKO-Empfehlung ab 60 Jahren. Titelanpassung nach REQ-27; `check-refs --check` danach bestanden.
+
+### Nr. 25 — Telefonseelsorge
+- Bundesnetzagentur (2014). Nummerierungskonzept 2014, Nummer „(0)116123", Zuordnung „Hotline zur Lebenshilfe" — geöffnet, siehe Abschnitt 16 oben. An die Stelle der chinesischen Nummer 12356 getreten.
+- <https://www.berlin.de/ba-lichtenberg/politik-und-verwaltung/beauftragte/katastrophenschutz/nachrichten/artikel.1668102.php> — geöffnet (Bezirksamt Lichtenberg von Berlin, amtliche Seite des Landes Berlin). Original: „Sollten die Sorgen zu groß werden, ist die Telefonseelsorge rund um die Uhr, kostenlos und anonym für Sie da"; genannt werden „0800 111 0 111", „0800 111 0 222" und „116 123". Trägt die Nummer 0800 111 0 111 und die drei Eigenschaftsaussagen, die der Bundesnetzagentur-Text allein nicht deckt.
+
+### Nr. 26 — Notfallausrüstung (BBK)
+- <https://www.bbk.bund.de/SharedDocs/Downloads/DE/Mediathek/Publikationen/Buergerinformationen/Ratgeber/Checklisten-zur-Vorsorge-Krisen-und-Katastrophen.pdf?__blob=publicationFile&v=19> — geöffnet (PDF mit pdftotext in Text umgewandelt). Die Checkliste führt unter „Brandschutz" die Punkte „Rauchmelder", „Feuerlöscher/Feuerlöschspray", „Erste-Hilfe-Material" und „Kohlenmonoxid-Melder" sowie eine „Atemschutzmaske, zum Schutz vor Viren, Bakterien und gefährlichen Stoffen in der Luft (FFP2)".
+
+### Nr. 31 — HIV-Test (IfSG § 19)
+- <https://www.gesetze-im-internet.de/ifsg/__19.html> — geöffnet. § 19 Abs. 1 IfSG: die Gesundheitsämter bieten „bezüglich sexuell übertragbarer Krankheiten und Tuberkulose Beratung und Untersuchung" an; „Angebote können bezüglich sexuell übertragbarer Krankheiten anonym in Anspruch genommen werden" (eingeschränkt, „soweit hierdurch die Geltendmachung von Kostenerstattungsansprüchen nicht gefährdet wird").
+- Zu prüfen: Eine amtliche deutsche Fundstelle für die Zahlen zum diagnostischen Fenster (1 Woche Nukleinsäuretest, 2 Wochen Antigen-Antikörper-Test der vierten Generation, 3 Wochen Antikörpertest der dritten Generation) wurde nicht gefunden; diese Zahlen stammen weiterhin vom Zentrum für Seuchenkontrolle der Provinz Guangdong und stehen im Text mit diesem Hinweis.
+
+### Nr. 33 — Paraquat (DFG MAK)
+- <https://series.publisso.de/sites/default/files/documents/series/mak/dam/Vol2025/Iss2/Doc035/mb191042e10_2ad.pdf> — geöffnet (PDF mit pdftotext in Text umgewandelt). Deutsche Forschungsgemeinschaft, MAK Value Documentation, Paraquat dichloride: „used as a herbicide but is no longer approved in the European Union."
+
+### Nr. 36 — Strahlenquelle (StrlSchG § 12, StrlSchV § 168)
+- <https://www.gesetze-im-internet.de/strlschg/__12.html> — geöffnet. § 12 StrlSchG regelt die genehmigungsbedürftigen Tätigkeiten im Umgang mit radioaktiven Stoffen (Genehmigungspflicht).
+- <https://www.gesetze-im-internet.de/strlschv_2018/__168.html> — geöffnet. § 168 StrlSchV „Fund und Erlangung": Wer einen radioaktiven Stoff findet, hat dies „unverzüglich … sobald er von der Radioaktivität dieses Stoffes Kenntnis erlangt", der zuständigen Behörde (Strahlenschutzaufsicht) oder einer Polizeidienststelle mitzuteilen.
+- Nachtrag Durchgang 1 (2026-09-30): Die chinesischen Mengenangaben (etwa 178.000 Strahlenquellen, 355.000 Strahlengeräte), die Klasse-I–V-Einteilung und der Fall Ningxia sind aus dem Text entfernt. An ihre Stelle treten der deutsche Rechtsrahmen (StrlSchG § 12 Genehmigungspflicht, StrlSchV § 168 Fundmeldung) und der internationale Fall Goiânia (IAEA). Eine deutsche gestufte Strahlenunfall-Klassifikation ließ sich nicht belegen — deshalb wurde nicht ersetzt, sondern die Einteilung gestrichen.
+
+### Währungsregel (REQ-68)
+- Alle Beträge in 元 sind entfallen (`grep -c 元 book/01-nicht-frueh-sterben.md` = 0). Die Preise in der Kosten-Spalte wurden auf die deutsche Preislage gerundet; sie sind weiterhin grobe Größenordnungen und keine zitierten Zahlen. Chinesische Amtsbeträge wurden entweder durch die deutsche Regel ersetzt (Nr. 6: Bußgeld entfällt) oder ganz entfernt (Nr. 34: die chinesische Krankenhauskosten- und Gesundheitsausgaben-Statistik; Nr. 36: die Geldbuße im Fall Ningxia).
+
+## Nachtrag Durchgang 1 (2026-09-30) — chinesische Angaben im laufenden Text
+
+Auftraggeber-Entscheidung vom 2026-09-30 zu REQ-68: keine chinesischen Angaben im laufenden Text, auch nicht mit „in China" gekennzeichnet. In den Textspalten wurden alle chinesischen Statistiken, Mengenangaben und Einteilungen entfernt; wo eine deutsche Angabe belegbar war, trat sie an die Stelle, sonst wurde die Aussage ohne Länderbezug gefasst.
+
+### Nr. 12 — Ertrinken
+- <https://www.who.int/news-room/fact-sheets/detail/drowning> — geöffnet. „Drowning is the fourth leading cause of death for children aged 1–4 years"; „the third leading cause of death for children aged 5–14 years"; „The highest drowning rates per population are among children aged 0–4 years"; „The drowning death rate among males is more than twice as high as females." Die chinesische Statistik (China CDC Weekly) ist entfallen. Eine deutsche Ertrinkungsstatistik ließ sich nicht belegen; deshalb die Angabe der Weltgesundheitsorganisation statt einer deutschen.
+
+### Nr. 13 — Stürze
+- <https://www.it.nrw/nrw-anteil-nicht-natuerlicher-todesfaelle-2024-bei-knapp-5-127981> — geöffnet (IT.NRW, Statistisches Landesamt = amtliche Stelle). „Insgesamt 4.782 Personen, darunter 2.456 Frauen und 2.326 Männer, kamen durch einen Sturz zu Tode."; „Mehr als zwei Drittel (67,1 %) der todesursächlichen Unfälle resultierten 2024 aus einem Sturz."; „Davon ereigneten sich knapp zwei Drittel im häuslichen Umfeld mit einem Durchschnittsalter der Betroffenen von 84 Jahren." Ersetzt die chinesische China-CDC-Statistik (Lu Z 2021).
+
+### Nr. 17 — Mammografie
+- <https://www.bundesgesundheitsministerium.de/service/begriffe-von-a-z/m/mammographie-screening> — geöffnet. „Mammographie-Screening (für alle Frauen von 50 bis 75 Jahren)"; ursprüngliches Programm „für Frauen zwischen 50 und 69 Jahren"; seit dem 1. Juli 2024 „Frauen im Alter von 70 bis 75 Jahren alle zwei Jahre". Ersetzt die chinesische Altersangabe („in China beginnen mit 45 Jahren").
+
+### Nr. 25 — Telefonseelsorge
+- <https://www.berlin.de/ba-lichtenberg/politik-und-verwaltung/beauftragte/katastrophenschutz/nachrichten/artikel.1668102.php> — geöffnet, siehe oben. Trägt die Nummer 0800 111 0 111 und „rund um die Uhr, kostenlos und anonym".
+
+### Nr. 30 — Präexpositionsprophylaxe
+- <https://www.gesetze-im-internet.de/ifsg/__19.html> — geöffnet. § 19 IfSG: die Gesundheitsämter bieten Beratung und Untersuchung zu sexuell übertragbaren Krankheiten an (siehe Nr. 31). Ersetzt die chinesische Stelle „Zentrum für Seuchenkontrolle" im Text.
+
+### Entfernt ohne deutsche Entsprechung (Aussage ohne Länderbezug gefasst)
+- Nr. 8: chinesische Angabe zum Diabetes-Wissen (Anmerkung).
+- Nr. 12: chinesische Ertrinkungs-Statistik (China CDC Weekly).
+- Nr. 14: chinesische HBsAg-Bevölkerungsstatistik (Cui F 2017); die Quelle ist aus der Quellen-Spalte entfallen.
+- Nr. 34: chinesische Krankenhauskosten- und Gesundheitsausgaben-Statistik; die Quelle (Nationale Gesundheitskommission 2025) ist entfallen. Die persönliche Anekdote des Autors am Ende der Anmerkung ist gestrichen (der Eintrag trägt ohne sie).
+- Nr. 36: chinesische Mengenangaben, Klasse-I–V-Einteilung, Fall Ningxia; die vier chinesischen Quellen sind entfallen.
+
+## Nacharbeit Durchgang 2 (2026-09-30)
+
+Zweite Nacharbeit nach den Prüfdurchgängen `review/pruefung/01-A.md` und `01-B.md` und den Auftraggeber-Entscheidungen A1–A4. Jede der folgenden Fundstellen wurde einmal geöffnet; die genannten Sätze stehen so in der Quelle.
+
+### Nr. 7 — Bluthochdruck (DEGS1)
+- <https://www.gbe-bund.de/pdf/gbe_kompakt_04_2015_hypertonie.pdf> — geöffnet. Robert Koch-Institut, GBE kompakt 4/2015 „Hoher Blutdruck: Ein Thema für alle", auf Basis von DEGS1 (2008–2011): Der Anteil der Menschen mit Bluthochdruck, deren Werte unter 140/90 mmHg lagen, stieg bei den Frauen von 25 % auf 58 %, bei den Männern von 20 % auf 45 %. Daraus folgt die Textfassung „bei etwa der Hälfte … nicht gut eingestellt".
+- Die chinesische Quelle Lu J (2017, China PEACE) ist aus der Quellen-Spalte entfallen; ihre Aussage („bei den meisten nicht gut eingestellt") war die unbelegte Generalisierung aus dem Durchgang-A-Befund. Die Zahlen der Blutdruck-Metaanalyse (Ettehad 2016) bleiben unverändert.
+
+### Nr. 8 — Nüchternblutzucker (G-BA Gesundheitsuntersuchungen)
+- <https://www.g-ba.de/themen/methodenbewertung/erwachsene/gesundheitsuntersuchungen/> — geöffnet. G-BA: „Die Krankenkasse übernimmt bei erwachsenen Versicherten ab dem 18. Lebensjahr die Kosten für regelmäßige Gesundheitsuntersuchungen"; „Versicherte ab 35 Jahre: alle drei Jahre"; „Ab dem Alter von 35 Jahren wird außerdem eine Untersuchung des Urins sowie der Blutzucker- und Cholesterinwerte vorgenommen." Der Selbstzahler-Blutzucker (20 bis 30 Euro) ist damit für die angesprochene Gruppe ab 35 eine Kassenleistung; Kostenlabel `Geld=wenig → Geld=0`.
+
+### Nr. 17 — Mammografie (BMG)
+- <https://www.bundesgesundheitsministerium.de/service/begriffe-von-a-z/m/mammographie-screening> — geöffnet, siehe Durchgang 1. Titel nach REQ-69 auf „Frauen ab 50" gestellt; der Klartext nennt die deutsche Grenze (ab 50) und die Kostenübernahme durch die Kasse. Die USPSTF-Empfehlung (40 bis 74 Jahre) bleibt mit ihrer Altersangabe im Klartext und in der Nutzen-Spalte stehen. Kostenlabel `Geld=wenig → Geld=0`.
+- Zu prüfen: Der Anmerkungssatz „seit 2024 werden auch Frauen bis 75 alle zwei Jahre eingeladen" nennt nur das Jahr; die BMG-Seite nennt als Datum den 1. Juli 2024. Anker in Nr. 16 von „ab 30" auf „ab 35" mitgezogen.
+
+### Nr. 18 — Gebärmutterhalskrebs-Screening (G-BA)
+- <https://www.g-ba.de/themen/methodenbewertung/erwachsene/krebsfrueherkennung/gebaermutterhalskrebs-screening/> — geöffnet. G-BA: Frauen „ab einem Alter von 20 Jahren" werden auf die Programmteilnahme hingewiesen; ab 35 Jahren alle drei Jahre kombinierter HPV-Test und Zytologie, „eine Altersobergrenze besteht nicht". Trägt die deutsche Grenze „ab 35" im Titel und die Kassenleistung; Kostenlabel `Geld=wenig → Geld=0`. Die Altersspanne der indischen Studie (30 bis 59 Jahre) bleibt in der Nutzen-Spalte.
+
+### Nr. 19 — Darmkrebs-Screening (G-BA)
+- <https://www.g-ba.de/themen/methodenbewertung/erwachsene/krebsfrueherkennung/> — geöffnet. G-BA: „Anspruchsberechtigt sind alle gesetzlich Krankenversicherten ab dem Alter von 50 Jahren"; die Früherkennung wird als organisiertes Screening angeboten. Kostenlabel `Geld=wenig → Geld=0`.
+- Hinweis: Eine eigene G-BA-Unterseite „Darmkrebsfrüherkennung" gibt 404; zitiert wird deshalb die übergeordnete Seite „Früherkennung von Krebserkrankungen". Die Anmerkung beginnt weiterhin mit „Streitfall".
+
+### Nr. 20 — Grippeimpfung (RKI, SGB V § 20i)
+- <https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Influenza/FAQ-Liste_gesamt.html> — geöffnet. RKI: Die STIKO empfiehlt die Impfung „für alle Personen ab 60 Jahre", für Schwangere ab dem 2. Trimenon und für Personen mit erhöhter gesundheitlicher Gefährdung. Diese FAQ nennt keine Kostenerstattung; dafür steht § 20i SGB V.
+- <https://www.gesetze-im-internet.de/sgb_5/__20i.html> — geöffnet. § 20i Abs. 1 SGB V (amtliche Überschrift „Leistungen zur Verhütung übertragbarer Krankheiten"): „Versicherte haben Anspruch auf Leistungen für Schutzimpfungen im Sinne des § 2 Nr. 9 des Infektionsschutzgesetzes". Kostenlabel `Geld=wenig → Geld=0`.
+
+### Nr. 24 — Lungenkrebs-Früherkennung (G-BA, neue Leistung)
+- <https://www.g-ba.de/presse/pressemitteilungen-meldungen/1316/> — geöffnet. G-BA-Pressemitteilung vom 13. März 2026, „Lungenkrebs-Früherkennung für Raucherinnen und Raucher kommt ab April in die Versorgung": berechtigt sind „Personen zwischen 50 und 75 Jahren mit starkem Zigarettenkonsum über eine Dauer von mindestens 25 Jahren und von mindestens 15 ‚Packungsjahren'"; untersucht wird „alle 12 Monate mittels Niedrigdosis-Computertomographie (NDCT)". Deutschlands neue gesetzliche Lungenkrebs-Früherkennung belegt damit die Kassenleistung; Kostenlabel `Geld=wenig → Geld=0`. Die deutsche Einschlussgrenze weicht von der NLST-Grenze ab; im Klartext steht nur die Kassenleistung, die NLST-Zahlen (55 bis 74 Jahre, 30 Packungsjahre) bleiben unverändert.
+- Hinweis: Der frühere `Zu prüfen`-Vermerk zur Kassenleistung ist damit belegt; offen bleibt allein die exakte deutsche Kostenzuordnung der Kontrolluntersuchung.
+
+### Nr. 31 — HIV-Test (Gemeinsame Diagnostikkommission)
+- <https://doi.org/10.1007/s00103-015-2174-x> — geöffnet (DOI löst zu link.springer.com auf; bibliografische Angaben über Springer/MEDLINE bestätigt). Gemeinsame Diagnostikkommission der Deutschen Vereinigung zur Bekämpfung von Viruskrankheiten (DVV) und der Gesellschaft für Virologie (GfV): „Nachweis einer Infektion mit Humanem Immundefizienzvirus (HIV): Serologisches Screening mit nachfolgender Bestätigungsdiagnostik durch Antikörper-basierte Testsysteme und/oder durch HIV-Nukleinsäure-Nachweis", Bundesgesundheitsblatt 2015; 58(8): 877–886, PMID 26115869. Grundlage für das diagnostische Fenster von 6 Wochen in der Labordiagnostik und 12 Wochen beim Schnelltest.
+- Die chinesische Provinz-Quelle (Guangdong) ist aus der Quellen-Spalte entfallen; der `Zu prüfen`-Vermerk weiter oben (Nr. 31, Abschnitt „Deutsche Fundstellen") ist damit erledigt.
+- Zu prüfen: Die genaue Prozentzahl für den Ausschluss einer Infektion nach drei Monaten ließ sich mit der Quelle nicht belegen; im Text steht dafür „mit sehr hoher Sicherheit".
+
+### Nr. 36 — Strahlenquelle (IAEA RS-G-1.9)
+- <https://www.iaea.org/publications/7237/categorization-of-radioactive-sources> — geöffnet. IAEA Safety Standards Series No. RS-G-1.9 „Categorization of Radioactive Sources" (2005): Einteilung radioaktiver Quellen in fünf Kategorien; Kategorie 1 ist die gefährlichste, zu ihr gehören die Bestrahlungsgeräte (Teletherapie). Ersetzt die gestrichene chinesische Klasseneinteilung im Nutzen-Text; der Fall bleibt Goiânia (IAEA 1988). Marker nach REQ-67 auf die neue Herkunft umgestellt.
+
+### Kostenlabel nach REQ-26 — Entscheidungen
+- Auf `Geld=0` geändert (Kassenleistung): Nr. 8, 16, 17, 18, 19, 20, 21, 22, 24. `Zeit`, `Willenskraft`, `Nutzen` und `Bezug` blieben unverändert; jede Labeländerung ist im `Angepasst`-Marker der Zeile genannt.
+- Keine Änderung: Nr. 14 (Hepatitis B — die Kasse zahlt nur für die STIKO-Gruppen, die angesprochene Lesergruppe ist breiter; `Geld=wenig` bleibt) und Nr. 23 (Helicobacter — für das Screening ohne Beschwerden ist keine unbedingte Kassenleistung belegbar; der Text bleibt in sich stimmig).
+- Alle übrigen Einträge mit Kostenangabe (Marktpreis oder Selbstzahler) behalten ihren Wert.
+
+### Nr. 29 — Klartext-Zahl (REQ-33)
+- Klartext „2 bis 3 Punkte" auf „um mehr als zwei Punkte" umgestellt; die Nutzen-Spalte trägt 2,66 und 2,40 Punkte. Marker ergänzt (`Angepasst`), Beleg = Gupta BP et al. (2011) aus der Quellen-Spalte. Die Beanstandung `check-plain --numbers` für Kapitel 01 ist damit entfallen.
+
+### Nr. 30 — IfSG § 19 in die Quellen-Spalte nachgezogen (REQ-67)
+- <https://www.gesetze-im-internet.de/ifsg/__19.html> — geöffnet. Der Marker nannte `IfSG § 19`, die Quellen-Spalte nur Giannou und Fonner; die Fundstelle steht jetzt zusätzlich in der Quellen-Spalte (deckungsgleich mit dem Marker). In Nr. 31 war der Quellentitel bereits korrekt.
+
+### Nr. 32 — Marker nachgezogen (REQ-67)
+- Die ersetzte chinesische Notrufnummer trug keinen Marker. Marker jetzt gesetzt, ohne Ziffern und ohne CJK; Beleg wie bei Nr. 25 (Bundesnetzagentur, Nummerierungskonzept; Bezirksamt Lichtenberg von Berlin). Beide Fundstellen sind zusätzlich in die Quellen-Spalte von Nr. 32 aufgenommen.
+
+### Nr. 15 — Markerform (REQ-67)
+- Außer den Beträgen war ein chinesischer Normtitel aus der Anmerkung entfernt worden; die reine Währungsform war deshalb unzulässig. Marker auf `Angepasst` umgestellt (ohne das Zeichen 元); Beleg CDC, Tetanus.
+
+### Nr. 13 — Landesangabe (REQ-68)
+- Die Statistik (häufigste Todesursache durch Verletzungen, häusliches Umfeld, Durchschnittsalter 84) stammt von IT.NRW und ist eine Angabe für Nordrhein-Westfalen. Klartext, Nutzen-Spalte und Marker nennen jetzt ausdrücklich „In Nordrhein-Westfalen" bzw. „Landesangabe Nordrhein-Westfalen". Die Cochrane-Zahlen bleiben unverändert.
+
+### Nr. 4 und Nr. 34 — „zu prüfen" und bewusste Entscheidung
+- Nr. 4: Ein festes Tauschintervall für den Herd („alle paar Jahre") ließ sich nicht mit einem amtlichen Text belegen; in der Anmerkung als „zu prüfen" vermerkt. Die belegten Aussagen (NDAV § 13, BGB § 312g) bleiben unverändert.
+- Nr. 34 (Auftraggeber-Entscheidung A3): Die gestrichene Autoren-Anekdote bleibt gestrichen. Der Eintrag trägt ohne sie; die Nutzen-Zahlen sind unverändert; kein Inhaltsverlust nach REQ-20. In Nr. 34 wurde in Durchgang 2 nichts geändert.
+
+### Titelanpassungen nach REQ-69 und Folgen
+- Nr. 16: „(für Frauen ab 30)" → „(für Frauen ab 35)" im Anker, damit der Querverweis zur neuen Nr.-18-Titelzeile passt.
+- Nr. 17/18/19: Titel tragen jetzt die deutsche Altersgrenze (ab 50, ab 35, ab 50). `check-refs --check` danach bestanden (Exit 0).
+
+## Nachträgliche Korrekturen (Koordinatoren-Auftrag, 2026-09-30)
+
+### Nr. 18 — Untersuchungsintervall (Sachfehler behoben)
+- Aus der Vorlage stand in der Kosten-Zeile „Ist das Ergebnis negativ, genügt eine Untersuchung alle 5 Jahre." Das ist nicht die deutsche Regel und wurde ersetzt durch: „Ab 35 Jahren genügt alle drei Jahre die Kombination aus HPV-Test und Abstrich."
+- Belegt mit der G-BA-Seite <https://www.g-ba.de/themen/methodenbewertung/erwachsene/krebsfruehherkennung/gebaermutterhalskrebs-screening/> — selbst geöffnet. Wortlaut der Seite: „Frauen ab dem Alter von 35 Jahren wird alle drei Jahre eine Kombinationsuntersuchung aus HPV-Test und zytologischer Untersuchung" angeboten; von 20 bis 34 Jahren jährlich die zytologische Untersuchung; „eine Altersobergrenze besteht nicht". Die auf derselben Seite genannten „alle fünf Jahre" betreffen nur das Anschreiben der Krankenkassen, nicht das Untersuchungsintervall.
+- Die Belegstelle in der Quellen-Zeile nennt jetzt zusätzlich „alle drei Jahre die Kombination aus HPV-Test und Abstrich". Der `Angepasst`-Marker wurde um den Satz ergänzt, dass das Untersuchungsintervall der Vorlage durch die deutsche Drei-Jahres-Regel ersetzt wurde. Die Kosten-Zeile sagt weiterhin, was die Kasse zahlt und was die Leserin zu tun hat.
+
+### Nr. 21 — Markerform (Betrag entfernt)
+- Im `Angepasst`-Marker war der chinesische Selbstzahlerpreis mit Klammer genannt („chinesische Selbstzahlerpreise (3000 bis 4000 Yuan)"). Die Marker dieses Kapitels nennen sonst keine Beträge (Nr. 16 „chinesische Impfstoffpreise", Nr. 22 „chinesische Kosten- und Produktangaben"). Die Klammer mit den Zahlen wurde entfernt; der Rest des Markers (STIKO-Empfehlung ab 60 Jahren, Kostenerstattung durch die gesetzliche Krankenkasse, RKI-FAQ Impfen (Herpes zoster), Kostenlabel Geld=viel → Geld=0) bleibt unverändert. Nach REQ-67 verlangt die reine Währungsform ohnehin, dass kein Betrag genannt wird.
+
+## Nach der unabhängigen Nachprüfung (2026-09-30)
+
+Die Nachprüfung des Endstands (`review/pruefung/01-Nachpruefung.md`) endete mit dem Urteil
+**freigabereif**: 0 kritisch, 0 wesentlich, 2 gering. Beide geringen Befunde sind behoben.
+
+### Nr. 36 — Gerätebezeichnung im Goiânia-Fall (Sachwiderspruch behoben)
+- Die Nutzen-Zeile sagte „ein **Telekobaltgerät** einer stillgelegten Klinik zerlegt, dabei wurde die
+  50,8 TBq starke **Cäsium-137**-Strahlenquelle entnommen". Eine Telekobalt-Anlage führt Kobalt-60;
+  eine Cäsium-137-Quelle kann darin nicht stecken — der Satz widersprach sich selbst.
+- Die Vorlage sagt an dieser Stelle nur „放疗机" (Bestrahlungsgerät) und nennt weder Kobalt noch
+  Cäsium; die Gerätebezeichnung stammt aus der Überarbeitung dieser Runde, nicht aus der Übersetzung.
+  Sie lautet jetzt „ein **Bestrahlungsgerät** einer stillgelegten Klinik" — dasselbe Wort wie in der
+  Klartext-Zeile desselben Eintrags und in der IAEA-Aussage darunter.
+- Die IAEA-Publikation *The Radiological Accident in Goiânia* (Pub815, in der Quellen-Spalte genannt)
+  führt den Unfall als Cäsium-137-Chlorid-Quelle aus einem stillgelegten Strahlentherapiegerät. Die
+  Zahlen (50,8 TBq, 112.000 Untersuchte, 249 Kontaminierte, 129 mittel bis schwer, 4 Tote) und die
+  Nutzen-Spalte sind unverändert.
+
+### Nr. 15 — Markerwortlaut geschärft (REQ-67)
+- Der Marker sagt „chinesischer Normtitel in der Anmerkung → entfernt". Entfernt wurde der
+  **Klammerzusatz** mit dem chinesischen Originaltitel `[非新生儿破伤风诊疗规范]`; die Leitlinie selbst
+  bleibt in der Anmerkung als Text erwähnt (im „zu prüfen"-Vermerk) und in der Quellen-Spalte mit ihrer
+  Fundstelle genannt. Die Formulierung lautet jetzt „chinesischer Normtitel **in Klammern** in der
+  Anmerkung → entfernt" — sonst ließe sie sich so lesen, als sei der Hinweis auf die Leitlinie ganz
+  entfallen, und das stimmt nicht.
+
+**Maschinell nach beiden Korrekturen:** `check-plain --stat` 630 Zeilen / 0 Beanstandungen ·
+`check-refs --check` bestanden (622 Verweise, Exit 0) · `grep -c 元` = 0 · 0 CJK-Zeichen ·
+36 Einträge · 28 `Angepasst`- und 6 `Währung`-Marker.
+
+## Nacharbeit Durchgang 4 — die vier „zu prüfen"-Stellen und die gesperrten Volltexte (2026-09-30)
+
+Anlass: Der Auftraggeber hat verlangt, dass keine Quelle mit gesperrtem Volltext im Eintrag bleibt, und
+für die vier offenen „zu prüfen"-Vermerke (Nr. 4, 6, 15, 31) den Weg vorgegeben. Alle vier sind aufgelöst;
+im Manuskript von Kapitel 01 steht kein „zu prüfen" und kein TODO mehr (`grep` leer).
+
+### Nr. 4 — Gasgeruch belegt, feste Tauschintervalle durch das deutsche Prüfregime ersetzt
+- **Gasgeruch (vorher „zu prüfen"):** belegt durch die Selbstschutzinformation „Brandfall und Gasgeruch"
+  des Rheingau-Taunus-Kreises (Brand-, Katastrophenschutz und Rettungsdienst), einer amtlichen Kreisbehörde.
+  Wörtlich: „Verhalten bei Gasgeruch: Räume lüften; kein offenes Feuer oder Licht; keine elektrischen
+  Schalter betätigen; nicht in der Nähe des Gebäudes telefonieren; Gashaupthahn schließen; Nachbarn
+  verständigen; Notruf außerhalb des Gefahrenbereichs absetzen." Die Schritte stehen jetzt kompakt in der
+  Nutzen- und Klartext-Zeile, vollständig in der Anmerkung, mit Fundstelle in der Quellen-Spalte.
+- **Tauschintervalle — der vermutete China-Deutschland-Unterschied bestätigt sich:** Die Vorlage nennt ein
+  festes Intervall für Schlauch und Herd, weil die chinesische Verordnung über die städtische Gasversorgung
+  das so vorgibt. In Deutschland schreibt **keine** Vorschrift ein Tauschdatum vor. An seine Stelle tritt
+  ein Prüfregime, das im Eintrag jetzt steht und dreifach belegt ist:
+  - **KÜO** § 1 Abs. 1 und Anlage 1 Nr. 3.1: Bei gasförmigen Brennstoffen ist die „raumluftabhängige
+    Feuerstätte **einmal im Kalenderjahr**" zu überprüfen (Anlage 1 wörtlich geprüft).
+  - **SchfHwG** § 14: „Eine Feuerstättenschau darf frühestens drei Jahre und soll spätestens fünf Jahre
+    nach der letzten Feuerstättenschau durchgeführt werden."
+  - **NDAV** § 13 (Verantwortung des Anschlussnehmers, Instandhaltung, eingetragenes Installations-
+    unternehmen) und § 15 (Überprüfungsrecht des Netzbetreibers, Verlangen der Mängelbeseitigung).
+- Titel und Kosten-Zeile sind mitgezogen, weil beide die Frist behaupteten („nach Ablauf der Frist
+  tauschen", „Den Herd tauschst du alle paar Jahre"). Der Titel trägt jetzt den wirklichen Auslöser
+  („bei Rissen oder sprödem Gummi") und die Prüfung durch den Schornsteinfeger. Die Empfehlung selbst ist
+  unverändert; `Geld=wenig` bleibt (ein Schlauch kostet 10 bis 25 Euro). Marker nach REQ-67 ergänzt.
+- Kein chinesischer Bezug im laufenden Text; das Quantifizierungsverbot bleibt gewahrt (nur „einmal im
+  Kalenderjahr" und „drei bis fünf Jahre" als Prüfrhythmus, keine erfundene Zahl).
+
+### Nr. 6 — fehlende Statistik benannt, Treppenhaus-Laden als Länderrecht
+- **Statistik:** Es gibt keine amtliche deutsche Statistik zu Bränden und Todesfällen durch E-Bike-Akkus.
+  Belegt durch die Kleine Anfrage mit Antwort der niedersächsischen Landesregierung, Drucksache 19/9520:
+  „Der Landesregierung liegen hierzu keine belastbaren Daten vor." Der vorher als „zu prüfen" gefasste Satz
+  benennt das jetzt positiv; der Marker sagt es ebenso.
+- **Laden im Treppenhaus:** Ein bundesweit einheitliches Verbot gibt es nicht, Brandschutz ist Ländersache.
+  Der Eintrag nennt als Beispiel Bayern: § 22 der Verordnung über die Verhütung von Bränden hält die
+  Rettungswege frei und lässt in notwendigen Treppenräumen keine elektrischen Geräte zu (Fundstelle wie
+  bisher in der Quellen-Spalte). Die Formulierung aus der Vorlage, die ein solches Verbot behauptete,
+  bleibt damit nicht stehen — sie ist jetzt als das wiedergegeben, was sie in Deutschland ist: ein
+  Länderbeispiel, nicht ein bundesweiter Satz.
+
+### Nr. 15 — chinesische Leitlinie durch die STIKO-Tabelle ersetzt, Label auf `Geld=0` gezogen
+- **Quelle ersetzt (Auftrag: „Ja, entsprechend ersetzen bitte"):** Die chinesische Behandlungsleitlinie für
+  Tetanus bei Nicht-Neugeborenen (Fassung 2024, gov.cn) ist aus der Quellen-Spalte entfernt. An ihre Stelle
+  tritt die **STIKO-Tabelle 9 „Tetanus-Immunprophylaxe im Verletzungsfall"** (Epidemiologisches Bulletin
+  4/2026, Robert Koch-Institut, offen abrufbar; Tabelle geprüft) samt RKI-FAQ Tetanus und SGB V § 20i.
+  Die CDC-Quelle bleibt.
+- **Der „zu prüfen"-TODO ist durch die deutsche Entscheidungsregel ersetzt** (Tabelle 9 wörtlich geprüft):
+  Bei **sauberen, geringfügigen Wunden** gilt die 10-Jahres-Grenze; bei **allen anderen Wunden** — tief,
+  verschmutzt, zertrümmert, mit Fremdkörper, Stich-, Riss-, Quetsch-, Bisswunden — die 5-Jahres-Grenze.
+  Wer **weniger als drei Impfungen** bekommen hat oder den Impfstand nicht kennt, wird geimpft, bei den
+  anderen Wunden zusätzlich mit Immunglobulin (TIG). Die Wundklassifikation ist damit belegt, statt auf
+  einen unlesbaren PDF-Anhang der chinesischen Leitlinie zu verweisen.
+- **Labeländerung `Geld=wenig` → `Geld=0` (REQ-26), hier begründet:** Die Kosten-Zeile sagte „Anmeldung
+  und Wundversorgung kosten ein paar Dutzend Euro … Impfstoff oder Immunglobulin ein paar Dutzend bis ein
+  paar Hundert Euro" und der Klartext „kostet nur ein paar Dutzend Euro". Das beschreibt die chinesische
+  Selbstzahler-Situation, nicht die deutsche: Wundversorgung ist Leistung der gesetzlichen Krankenkasse,
+  und Schutzimpfungen nach den Empfehlungen der STIKO — dazu gehört die Tetanusprophylaxe im Verletzungs-
+  fall — sind nach § 20i SGB V eine Pflichtleistung (Tabelle 9, Fußnote e, verweist für Arbeitsunfälle
+  zusätzlich auf die Kostenübernahme durch die DGUV). Ein Label `Geld=wenig` über einem Klartext, der die
+  Kasse nennt, wäre der Widerspruch, den REQ-26 verbietet; deshalb steht das Label jetzt auf `Geld=0` —
+  dieselbe Behandlung wie Nr. 8, 14, 16, 17, 18, 19, 20, 21, 22, 24. Kosten- und Klartext-Zeile sind
+  entsprechend umgeschrieben („Für Kassenpatienten kostet die Behandlung am selben Tag nichts"), die
+  Nutzen-Spalte um den Satz zur Krankenversicherungsleistung ergänzt, damit der Klartext eine Zeile hat,
+  auf die er sich stützt. `Zeit`, `Willenskraft`, `Nutzen`, `Bezug` und die Evidenzstufe B unverändert;
+  die Zahl „1 von 10" und die CDC-Quelle unangetastet. Der Marker nennt die Änderung mit Beleg.
+
+### Nr. 31 — Springer-Volltext durch die offene RKI-Fassung ersetzt, Drei-Monats-Satz korrigiert
+- **Sperrung behoben:** Der zitierte Aufsatz der Gemeinsamen Diagnostikkommission DVV/GfV
+  (Bundesgesundheitsblatt 58(8), 877–886, 2015) stand in der Quellen-Spalte nur als Springer-DOI
+  (10.1007/s00103-015-2174-x) und war hinter dem Login. Der **Volltext ist offen auf edoc.rki.de**
+  abrufbar; die Quellen-Spalte nennt jetzt die RKI-Fassung <https://edoc.rki.de/handle/176904/302>
+  (die Publikation liegt dort als PDF, 911 KB, abgerufen und gelesen). Der DOI entfällt, der Aufsatz und
+  seine Aussage bleiben derselbe. Damit ist auch der letzte „nicht geprüft"-Punkt dieses Kapitels
+  geschlossen.
+- **Sachliche Korrektur (die frühere Lesart war falsch):** Der Satz „Sind seit der letzten Risikosituation
+  drei Monate vergangen, lässt sich eine Infektion mit sehr hoher Sicherheit ausschließen" stand so nicht
+  in der Quelle. Die Stellungnahme sagt allgemein (Tabelle D-1, wörtlich): „Das negative Ergebnis im
+  HIV-Antigen-/Antikörper-Screeningtest schließt eine HIV-Infektion mit hoher Wahrscheinlichkeit aus, wenn
+  die letzte potenzielle HIV-Exposition länger als 6 Wochen zurückliegt"; bei Testsystemen der 3. Generation
+  und Schnelltests liegt die Grenze bei 12 Wochen. Die **„drei Monate"** gelten nur in einer eng umrissenen
+  Sonderkonstellation: „Bei wiederholt isolierter Reaktivität im HIV-1-Immunoblot jeweils nur gegen gp160,
+  gp120, p32 oder p24 ist nach drei Monaten auf Grund des zeitlichen Verlaufs eine HIV-1-Infektion auch mit
+  einer seltenen Virusvariante mit hoher Sicherheit ausgeschlossen, wenn zusätzlich die HIV-1-NAT …
+  überprüft werden." Die Anmerkung gibt das jetzt so wieder.
+- Der Satz „Zu prüfen: Die genaue Prozentzahl für den Ausschluss nach drei Monaten ließ sich mit der
+  amtlichen Quelle nicht belegen" ist **gestrichen, nicht ersetzt**: Die 99,99 % waren Inhalt der Vorlage
+  (Provinz Guangdong), nicht der amtlichen deutschen Quelle; eine deutsche Zahl gibt es dazu nicht, und
+  ohne Beleg wird sie nicht geschrieben (Regel „Zahlen müssen sich im Original finden lassen").
+
+### Nr. 36 — IAEA-Leitfaden offen verlinkt (die 402 war ein Artefakt)
+- Die Quellen-Spalte nannte zum Leitfaden „Categorization of Radioactive Sources" (RS-G-1.9) nur die
+  IAEA-Landingpage, während der Volltext beim ersten Abruf mit HTTP 402 zurückkam. Der Leitfaden liegt
+  offen unter <https://www-pub.iaea.org/MTCD/publications/PDF/Pub1227_web.pdf> (abgerufen, 574 KB,
+  fünf Kategorien, Kategorie 1 am gefährlichsten, Bestrahlungsgeräte darin). Der Link ist jetzt der
+  Volltext; damit entfällt auch der letzte „nicht geprüft"-Punkt.
+
+### Quellenlage nach Durchgang 4
+- Alle Quellen dieses Kapitels sind ohne Anmeldung abrufbar; keine gesperrte Fundstelle bleibt.
+  Abgerufen und gelesen wurden in diesem Durchgang: RKI-edoc-PDF des DVV/GfV-Aufsatzes (911 KB),
+  Epidemiologisches Bulletin 4/2026 (1,5 MB, Tabelle 9), KÜO Anlage 1 (Wortlaut), SchfHwG § 14,
+  NDAV § 13/§ 15, Niedersächsische Landtagsdrucksache 19/9520 (26 KB) und die IAEA-Pub1227 (574 KB).
+- **Maschinell nach Durchgang 4:** `check-plain --stat` 630 Zeilen / 0 Beanstandungen · `check-plain
+  --numbers` führt Kapitel 01 nicht · `check-refs --check` bestanden (622 Verweise, Exit 0) ·
+  `grep -c 元` = 0 · 0 CJK-Zeichen · 36 Einträge · 28 `Angepasst`- und 6 `Währung`-Marker ·
+  kein „zu prüfen"/TODO mehr in der Datei.
+- Offen bleibt in Kapitel 01 nichts mehr; die drei „Manuell zu klären"-Zeilen der Verweisprüfung liegen
+  unverändert in `book/31-wege-nach-achtzehn.md` und gehören nicht zu diesem Kapitel.
+
+## Nacharbeit Durchgang 5 — die fünf Befunde der unabhängigen Nachprüfung (2026-09-30)
+
+Die unabhängige Nachprüfung der Einträge Nr. 4, 6, 15, 31 und 36 (frischer Kontext, Durchgang A
+fachlich, Durchgang B Buchvorgaben) ergab fünf Befunde — einen wesentlichen und vier geringe; Durchgang B
+fand nichts. Jeder Befund wurde an der Quelle nachgeprüft, bevor etwas geändert wurde. Drei sind
+berichtigt, einer ist begründet abgelehnt.
+
+### Nr. 36 — Goiânia-Zahlen an die zitierte Primärquelle angeglichen (wesentlicher Befund)
+- **Bisheriger Text (Nutzen):** „…davon waren 249 innerlich oder äußerlich kontaminiert. Von diesen galten
+  129 als mittel bis schwer kontaminiert, 50 brauchten engmaschige ärztliche Überwachung."
+- **Zitierte IAEA-Quelle, wörtlich** (IAEA (1988). The Radiological Accident in Goiânia, Annex): „In total,
+  some 112 000 persons were monitored, of whom 249 were contaminated either internally or externally." ·
+  „Of these, 129 people exhibited **both internal and external** contamination." · „Of this last group,
+  **49** people were admitted to hospital. Of these 49, **20** casualties needed intensive medical care."
+  Vier Patienten starben, einem musste der Unterarm amputiert werden.
+- **Herkunft des Fehlers:** Die Zahlen 50,8 TBq · 129 „中度至重度污染" · 50 „密切医学监护" stehen
+  unverändert in der chinesischen Vorlage; der deutsche Text hatte sie treu übernommen. Da der Eintrag die
+  IAEA-Pub815 selbst zitiert, widersprach er seiner eigenen Fundstelle — Verstoß gegen die Nachweispflicht.
+- **Jetzt:** „dabei wurde die **50,9 TBq** starke Cäsium-137-Strahlenquelle entnommen … Bei 129 Menschen
+  kam beides zusammen. **49** von ihnen kamen ins Krankenhaus, **20** brauchten Intensivpflege. Am Ende
+  starben 4 Menschen." Die Zahl der Todesfälle (4) und die 112.000 / 249 bleiben unverändert.
+- **Kennzeichnung:** Der `Angepasst`-Marker ist der Zielrichtung nach Deutschland vorbehalten und bleibt
+  unangetastet; die Korrektur ist hier und in `review/pruefung/01-Nachpruefung.md` belegt. Sie ändert eine
+  Nutzen-Zahl und weicht damit von der Regel „die Zahlen der Nutzen-Spalte bleiben unberührt" ab — der
+  Grund ist die Nachweispflicht, und die Änderung ist auf Wunsch umkehrbar.
+
+### Nr. 36 — zweiter Zahlenwert im selben Satz (geringer Befund)
+- „50,8 TBq" → **„50,9 TBq"**. IAEA Pub815 nennt den Wert dreimal einheitlich: „known radioactivity of the
+  caesium chloride source before the accident of **50.9 TBq (1375 Ci)**" und in der Gerätetabelle
+  „Radioactivity 50.9 TBq (1375 Ci)". Die 50,8 stammt ebenfalls aus der Vorlage.
+
+### Nr. 4 — BGB § 312g wörtlich zitiert (geringer Befund)
+- Zitat war „…ein Widerrufsrecht **nach** § 355 zu"; der amtliche Wortlaut lautet „…ein Widerrufsrecht
+  **gemäß** § 355 zu" (<https://www.gesetze-im-internet.de/bgb/__312g.html>, abgerufen). In der
+  Quellen-Spalte steht der Gesetzeswortlaut wörtlich, deshalb berichtigt. (Die Regel „Schriftsprache durch
+  Umgangssprache" gilt für den Fließtext, nicht für Gesetzeszitate in der Quellen-Spalte.)
+
+### Nr. 15 — amtliche Überschrift des § 20i SGB V (geringer Befund)
+- Zitiert war „§ 20i **Schutzimpfungen**". Die amtliche Überschrift lautet „**Leistungen zur Verhütung
+  übertragbarer Krankheiten, Verordnungsermächtigung**"; Abs. 1 gewährt den Anspruch auf Schutzimpfungen
+  (<https://www.gesetze-im-internet.de/sgb_5/__20i.html>, abgerufen). Berichtigt. Die Marker-Zeile nennt
+  nur „SGB V § 20i" und ist davon nicht betroffen.
+
+### Nr. 4 — Preisangabe des Gasschlauchs: kein Befund
+- Die Nachprüfung fragte nach einem Beleg für „Ein neuer Gasschlauch kostet 10 bis 25 Euro". Die
+  Kosten-Spalte ist im ganzen Buch eine Schätzung des Autors, keine zitierte Aussage — Helm (Nr. 2),
+  Rauchmelder (Nr. 3), Blutdruckmessgerät (Nr. 8) und alle übrigen Preiszeilen tragen ebenso keine Quelle.
+  Quellen belegen Aussagen, nicht Listenpreise. Bewusst unverändert gelassen.
+
+### Maschinell nach Durchgang 5
+- `check-plain --stat` 630 Klartext-Zeilen / 0 Beanstandungen (Länge 0, Satzlänge 0, Jargon 0, neuezahl 0,
+  Leerformel 0) · `check-plain --numbers` führt Kapitel 01 nicht · `check-refs --check` bestanden
+  (622 Verweise, Exit 0) · `grep -c 元` = 0 · 0 CJK-Zeichen · 36 Einträge. Unverändert offen: die
+  „Manuell zu klären"-Zeile zu `book/31-wege-nach-achtzehn.md:150` gehört nicht zu diesem Kapitel.

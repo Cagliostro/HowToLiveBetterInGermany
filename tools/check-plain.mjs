@@ -13,9 +13,15 @@
 // als neue Zahl, obwohl sie korrekt sind. Deshalb nicht in der CI.
 // Die vier Regeln:
 // ① Länge: höchstens 80 Wörter. Die chinesische Fassung misst in Zeichen (120); im Deutschen
-//    wird in Wörtern gemessen, weil Zeichen hier nichts über die Lesbarkeit sagen.
+//    wird in Wörtern gemessen, weil Zeichen hier nichts über die Lesbarkeit sagen. 80 ist die
+//    Grenze; der Zielwert der CLAUDE.md liegt bei 50 bis 70 Wörtern und wird hier nicht geprüft.
 // ② Satzlänge: kein Satz über 30 Wörter (Projektregel REQ-33, „ein Gedanke pro Satz").
 //    Ausgenommen sind wörtliche Normzitate — sie stehen aber nicht im Klartext.
+//
+// Ausnahme «Der Sinn steht über der Länge» (CLAUDE.md): Trägt ein Eintrag den Kommentar
+// `<!-- Länge: begründet — <Grund> -->`, sind Verstöße gegen ① und ② geduldet. Sie werden
+// weiterhin aufgelistet, aber getrennt und ohne Exit 1 — die Ausnahme soll sichtbar bleiben
+// und nicht stillschweigend zur Gewohnheit werden. Die Regeln ③ und ④ bleiben davon unberührt.
 // ③ Neue Zahlen: jede Ziffer im Klartext muss im Titel, in „Kosten" oder in „Nutzen" desselben
 //    Eintrags vorkommen. Der Klartext übersetzt nur die Nutzen-Zeile und darf keine Zahlen
 //    hinzuerfinden. Deutsche Schreibweise wird berücksichtigt („1.000" = 1000, „1,5" = 1,5).
@@ -63,14 +69,17 @@ function derived(n, p) {
 }
 
 const bad = [];
+const allowed = [];
 const count = { Länge: 0, Satzlänge: 0, Jargon: 0, neuezahl: 0, Leerformel: 0 };
 let total = 0;
+
+const MARKER = /<!--\s*Länge:\s*begründet/;
 
 const files = readdirSync(resolve(ROOT, 'book')).filter(f => /^\d\d-.*\.md$/.test(f)).sort();
 for (const f of files) {
   const sec = Number(f.slice(0, 2));
   const lines = readFileSync(resolve(ROOT, 'book', f), 'utf8').split(/\r?\n/);
-  let no = 0, title = '', fields = {};
+  let no = 0, title = '', fields = {}, justified = false;
   const flush = () => {
     const plain = fields['Klartext'];
     if (!no || plain == null) return;
@@ -78,10 +87,20 @@ for (const f of files) {
     const where = `Abschnitt ${sec}, Nr. ${no}`;
     const problems = [];
     const w = words(plain);
-    if (w > MAX_WORDS) { problems.push(`${w} Wörter, über ${MAX_WORDS}`); count.Länge++; }
+    // Längenverstöße sind mit Marker geduldet (siehe Kopf), die übrigen Regeln nie.
+    const tooLong = [];
+    if (w > MAX_WORDS) { tooLong.push(`${w} Wörter, über ${MAX_WORDS}`); }
     const sentences = dotSafe(plain).split(/(?<=[.!?]["'”»\)]?)\s+/).map(s => s.replace(/\u0001/g, '.'));
     const long = sentences.map(s => words(s)).filter(n => n > MAX_SENT);
-    if (long.length) { problems.push(`längster Satz ${Math.max(...long)} Wörter, über ${MAX_SENT}`); count.Satzlänge++; }
+    if (long.length) { tooLong.push(`längster Satz ${Math.max(...long)} Wörter, über ${MAX_SENT}`); }
+    if (tooLong.length) {
+      if (justified) allowed.push(`${f}  ${where}: ${tooLong.join('; ')}`);
+      else {
+        problems.push(...tooLong);
+        if (w > MAX_WORDS) count.Länge++;
+        if (long.length) count.Satzlänge++;
+      }
+    }
     const jar = JARGON.filter(([re]) => re.test(plain)).map(([re, name]) => `${name} «${plain.match(re)[0]}»`);
     if (jar.length) { problems.push(...jar); count.Jargon++; }
     if (NUMBERS) {
@@ -95,7 +114,8 @@ for (const f of files) {
   };
   for (const line of lines) {
     const h = line.match(/^### (\d+)\. (.*)$/);
-    if (h) { flush(); no = Number(h[1]); title = h[2]; fields = {}; continue; }
+    if (h) { flush(); no = Number(h[1]); title = h[2]; fields = {}; justified = false; continue; }
+    if (no && MARKER.test(line)) justified = true;
     const m = line.match(/^- (Klartext|Kosten|Nutzen): (.*)$/);
     if (m && no) fields[m[1]] = m[2];
   }
@@ -105,4 +125,8 @@ for (const f of files) {
 if (!STAT) for (const b of bad) console.log(b);
 console.log(`\nKlartext insgesamt ${total} Zeilen, beanstandet ${bad.length}: ` +
   Object.entries(count).map(([k, v]) => `${k} ${v}`).join(', '));
+if (allowed.length) {
+  console.log(`\nGeduldet mit Marker «Länge: begründet» (${allowed.length}):`);
+  for (const a of allowed) console.log(a);
+}
 if (bad.length && !STAT) process.exit(1);
