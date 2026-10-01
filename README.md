@@ -12,7 +12,7 @@ Du musst nicht alles umsetzen: Das hier ist eine nach Kosten und Nutzen sortiert
 [![Online-Suche](https://img.shields.io/badge/Online--Suche-hier%20%C3%B6ffnen-3451b2?style=flat-square)](https://cagliostro.github.io/HowToLiveBetterInGermany/)
 [![Empfehlungen](https://img.shields.io/badge/Empfehlungen-629-18794e?style=flat-square)](#inhalt)
 [![Evidenzstufen](https://img.shields.io/badge/Evidenzstufen-A%20419%20%C2%B7%20B%20159%20%C2%B7%20C%2051-915930?style=flat-square)](#evidenzstufen)
-[![Quellen](https://img.shields.io/badge/Quellen-1387%20Links-565a5f?style=flat-square)](docs/pruefprotokolle/)
+[![Quellen](https://img.shields.io/badge/Quellen-1399%20Links-565a5f?style=flat-square)](docs/pruefprotokolle/)
 [![Lizenz](https://img.shields.io/badge/Lizenz-CC%20BY%204.0-565a5f?style=flat-square)](#lizenz)
 
 ### [Zur Online-Suche](https://cagliostro.github.io/HowToLiveBetterInGermany/) · [Die KI antwortet nach dem Buch (Skill)](skills/lebensentscheidungen/README.md)
