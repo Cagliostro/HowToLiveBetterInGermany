@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Dieses Repository enthält den Text von „Lebe besser: 630 Empfehlungen nach Kosten und Nutzen".
+Dieses Repository enthält den Text von „Lebe besser: 629 Empfehlungen nach Kosten und Nutzen".
 
 **Zielrichtung:** Diese Ausgabe ist für **deutschsprachige Leser in Deutschland** gemacht (Entscheidung des Auftraggebers, 2026-09-30). China-Exklusives — chinesische Behörden, Verfahren, Leistungen, Hotlines, Beträge — ist Schwachstelle, nicht Inhalt: es wird auf die **deutsche Entsprechung** umgestellt, jede Ersetzung gegen Beleg. Angepasst werden Zuständigkeit, Verfahren und Weg, nicht die Empfehlung. Beträge stehen in Euro — die chinesische Währung kommt im Buch nicht mehr vor (REQ-68). Einzelheiten in [CLAUDE.md](CLAUDE.md), Abschnitt „Zielrichtung dieser Ausgabe", und in `docs/prozess/requirements.md` (REQ-65, REQ-66, REQ-67, REQ-68).
 

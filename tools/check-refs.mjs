@@ -20,6 +20,17 @@
 // Es bleibt eine schmale Absicherung für Schreibweisen wie «Verordnung Nr. 8» im Quellenfeld,
 // siehe CITE unten.
 //
+// Die deutsche Fassung bringt zwei weitere Normschreibweisen mit, die «Nr.» enthalten und deshalb
+// zunächst als Eintragsverweis gelesen wurden (gefunden am 2026-10-01 in Abschnitt 5, beide
+// Klassen kommen bisher nur dort vor):
+//   ① das Paragrafenzitat mit Nummer: «§ 437 Nr. 1 und 2 BGB», «§ 46 Abs. 2 Nr. 8 EStG»,
+//      «§ 10 Abs. 1 Nr. 2 Buchstabe b EStG» — «Nr.» steht hier innerhalb der Paragrafenangabe;
+//   ② die Verordnung mit Unionszusatz: «PRIIPs-Verordnung (EU) Nr. 1286/2014»,
+//      «Verordnung (EG) Nr. 765/2008», «Verordnung (EU) Nr. 1169/2011» — CITE sah nur das Wort
+//      unmittelbar vor «Nr.» und stolperte über die eingeschobene Klammer.
+// Beide Erweiterungen greifen nur bei genau dieser Fortsetzung; ein Eintragsverweis hinter einem
+// Paragrafenzitat («§ 823 BGB, siehe Nr. 5») wird weiter gefunden.
+//
 // Zeilen werden einheitlich mit /\r?\n/ getrennt. Unter book/ sind die Zeilenenden gemischt
 // (CRLF und LF), und der Punkt in JS-Regexen matcht kein \r, obwohl \r als Zeilenende zählt.
 // Bliebe das \r stehen, fände /^### (\d+)\. (.*)$/ in einer CRLF-Datei keine einzige Überschrift.
@@ -232,8 +243,14 @@ for (const { f, dir, isDoc } of targets) {
       // den deutschen Text als «Dokument Nr. 22 … von 2025» übersetzt sind — dieselbe Klasse wie
       // «Verordnung Nr. 8». Ohne diesen Eintrag galten sie als Eintragsverweise und die
       // Bereichsprüfung meldete sie als «vielleicht eine Normstelle».
-      const CITE = /(Verordnung|Gesetz|Dokument(?:s|es|e|en)?|Richtlinie|Satzung|Übereinkommen|Konvention|Erlass|Anordnung|Verfügung|Runderlass|Norm|DIN|EN|ISO|GB|Az\.|Aktenzeichen|Beschluss|Urteil|Rn\.|Rz\.)$/i;
+      const CITE = /(Verordnung|Gesetz|Dokument(?:s|es|e|en)?|Richtlinie|Satzung|Übereinkommen|Konvention|Erlass|Anordnung|Verfügung|Runderlass|Norm|DIN|EN|ISO|GB|Az\.|Aktenzeichen|Beschluss|Urteil|Rn\.|Rz\.)(?:\s*\((?:EU|EG|EWG|Euratom)\))?$/i;
       if (CITE.test(tail)) continue;
+      // Paragrafenzitat mit Nummer: «§ 437 Nr. 1 und 2 BGB», «§ 46 Abs. 2 Nr. 8 EStG». Der Text
+      // vor «Nr.» endet dann auf «§ N», «§ N Abs. M», «§ N Satz M» oder einer Aufzählung davon
+      // («§ 434 Abs. 2, § 437»). Nur diese Fortsetzung zählt: Hinter «§ 823 BGB, siehe» steht
+      // kein Paragrafenzitat mehr, dort wird der Verweis weiter als Eintragsverweis geführt.
+      const PARA = /(?:§+\s*\d+[a-zA-Z]?(?:\s+(?:Abs\.|Satz|Halbs\.|Alt\.|Buchst\.|Var\.)\s*[a-z0-9]+)?(?:\s*,\s*)?)+$/;
+      if (PARA.test(tail)) continue;
       // Aktenzeichen der chinesischen Behörden in Umschrift: «Guobanfa Nr. 27 von 2020»,
       // «Renshebufa Nr. 56 von 2021», «Caijin Nr. 75 von 2023». Das Wort vor «Nr.» ist dort ein
       // Pinyin-Name und trifft die Liste oben nicht. Es ist dieselbe Klasse wie «Dokument Nr. 22

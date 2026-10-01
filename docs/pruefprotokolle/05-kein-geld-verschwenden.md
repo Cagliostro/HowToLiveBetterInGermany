@@ -1,5 +1,42 @@
 # Quellenprüfprotokoll zu Abschnitt 5
 
+## Sichtungspass (2026-10-01, vor der Überarbeitung)
+
+Grundlage: `review/kapitel/05.md` (Stufentabelle D/E/Ü/X mit Bezug zum Text) und `book/05-kein-geld-verschwenden.md` (45 Einträge, gelesen am 2026-10-01). Maßstab sind die am 2026-09-30 beschlossenen Regeln REQ-70 (nur offen zugängliche Quellen), REQ-71 (Statistik je Kapitel) und REQ-72 (Sichtungspass vor dem Schreiben).
+
+**Ergebnis: Stufe X = 2, dazu ein Grenzfall.** Dies ist der am dichtesten an China gebundene Abschnitt der Runde: 44 der 45 Einträge tragen mindestens ein China-Signal, `元` steht im Fließtext von 23 Einträgen, und die Quellen sind überwiegend chinesische Gesetze, Staatsratsverordnungen und Behörden-Seiten (`gov.cn`, `csrc.gov.cn`, `nhsa.gov.cn`, `samr.gov.cn`, `flk.npc.gov.cn`). Die Empfehlungen selbst tragen in Deutschland aber fast durchweg — die Bindung sitzt in den Belegen und Beträgen, nicht im Rat.
+
+| Gruppe | Einträge | Anzahl |
+|---|---|---|
+| ① übertragbar, unverändert (nur US-/internationale Belege) | Nr. 11, 15, 17, 19, 21, 37 | 6 |
+| ① übertragbar, China-Belege ersetzen | die übrigen Einträge | 30 |
+| ② Übertragung offen — größerer Umbau | Nr. 12, 13, 20, 33, 34, 35 | 6 |
+| ③ Kern china-exklusiv → Entscheidung des Auftraggebers | Nr. 3, 39 | **2** |
+| ③ Grenzfall (vom Sichtungspass zusätzlich aufgeworfen) | Nr. 31 | 1 |
+
+**Gruppe ② im Einzelnen.** Alle sechs tragen einen übertragbaren Kern, aber die Institution, auf der sie aufsitzen, ist chinesisch: Nr. 12 zentrale Beschaffung und Konsistenzbewertung (deutsches Gegenstück: Generika, Rabattverträge, Festbeträge), Nr. 13 persönliches Konto der Arbeitnehmer-Krankenversicherung (Familienversicherung § 10 SGB V), Nr. 20 privates Altersvorsorgekonto mit 12.000-元-Rahmen (Rürup/Riester), Nr. 33 Konsumsteuer auf Uhren und Schmuck und chinesisches Pfandleihrecht (Konsum-nicht-Anlage-Kern trägt, Zahlen nicht), Nr. 34 CMA-Zeichen (DAkkS-Akkreditierung nach ISO/IEC 17025), Nr. 35 Blindbox-Leitlinie (kein eigener deutscher Kodex; Gewährleistung und Widerrufsrecht).
+
+**Gruppe ③ im Einzelnen.**
+- **Nr. 3 — Wohnungsfonds entnehmen** (`book/05-kein-geld-verschwenden.md:25`). Der `住房公积金` ist eine chinesische Pflicht-Sparinstitution (Arbeitnehmer und Arbeitgeber, staatliches Verwaltungszentrum, neun Entnahmefälle, Drei-Tage-Entscheidung), der Titel zusätzlich datiert („in Kraft seit dem 20. September 2026"). In Deutschland ohne Gegenstück. **Umstellen** auf den Wohnförderungs-Slot: Bausparen mit Wohnungsbauprämie und Arbeitnehmersparzulage, KfW-Förderkredit, Riester-Wohnförderung (§ 92a EStG). Die Empfehlung „nutze die staatliche Förderung beim Wohnen" trägt für einen Leser in Deutschland.
+- **Nr. 39 — US-Aktien / Auslandsanlagen (QDII)** (`book/05-kein-geld-verschwenden.md:349`). Der ganze Eintrag ist chinesisches Kapitalverkehrsrecht (QDII-Kontingent, Hongkong-Aktienzugang, Acht-Behörden-Bereinigung vom 2026-05-22, persönliches Devisenkontingent, Beobachtungsliste). In Deutschland gibt es keine Kapitalverkehrskontrollen; für einen Leser in Deutschland ist der Eintrag nicht nur gegenstandslos, sondern **irreführend**, weil er verbietet, was hier erlaubt ist. **Umstellen** auf den Slot „Auslandsanlagen sauber kaufen": in der EU zugelassener Broker (BaFin-Zulassung, Anlegerentschädigung), Quellensteuer und W-8BEN, Währungskosten. Der Kern (Kapitalverkehrskontrolle) entfällt ersatzlos; dies ist der schwächste der drei.
+- **Nr. 31 — Unsichere Lebensmittel: zehnfacher Ersatz** (`book/05-kein-geld-verschwenden.md:277`) — **Grenzfall.** Der Bericht führt ihn als Ü, versieht ihn aber selbst mit „Deutschland: nein": Der titelgebende Kern („das Zehnfache des Preises, mindestens 1000 元") ist Strafersatz nach `食品安全法` Art. 148 und hat im deutschen Recht kein Gegenstück — hier gilt Mängelhaftung und Schadensersatz nach §§ 434, 437, 280, 823 BGB ohne Vervielfachung. Was trägt, ist die Handlungsanweisung (Beweise sichern, Händler oder Hersteller in Anspruch nehmen); sie ist aber nicht der titelgebende Punkt. **Umstellen** auf die deutsche Fassung.
+
+**Entscheidung des Auftraggebers (2026-10-01), wörtlich:** „Umstellen, wo das sinnvoll ist. Kapitel müssen nicht erhalten bleiben, wenn eine deutsche Entsprechung weit hergeholt, unüblich oder einfach nicht relevant wäre. Für alle anderen Fälle aber wie vorgeschlagen umstellen." Daraus gilt für die ganze Runde: **Ein Eintrag darf entfallen, wenn die deutsche Entsprechung weit hergeholt, unüblich oder nicht relevant wäre — sonst wird umgestellt und der Eintrag bleibt.** Die 630 des Buchtitels ist damit keine geschützte Größe mehr (ein Streichen zieht README, Suchseite und die EPUB-/PDF-Zahlen nach), aber auch kein Streichzwang: **In Kapitel 05 fällt kein Eintrag weg** — für alle drei Kandidaten ist die deutsche Fassung tragfähig. Eintragszahl und Gesamtzahl bleiben bei 45 bzw. 630. **Überholt am 2026-10-01:** Der Auftraggeber hat danach entschieden, **Nr. 39 doch zu streichen**; Kapitel 05 hat seither **44** Einträge, der Buchtitel **629**. Siehe „Nr. 39 (Auslandsanlagen/QDII) — gestrichen" und „Stand nach der Umstellung".
+
+**Grenzfälle zur Streichung.** Nach der Regel des Auftraggebers geprüft und verneint: Die schwächste deutsche Entsprechung im Kapitel ist Nr. 34 (Jade und CMA-Bericht) — der Kern „prüf die Prüfstelle, nicht das Zertifikat" trägt bei Uhren, Gold und Diamanten, die Fallbeispiele fallen weg. Nr. 13 (Familienmitwirkung) trägt als „prüf die Familienversicherung", Nr. 33 als „Konsum ist kein Wertpapier". Keiner dieser Fälle ist weit hergeholt, unüblich oder irrelevant genug für einen Wegfall.
+
+**Kapitelweit.**
+- **Währung (REQ-68):** `元` steht im Fließtext von **23** Einträgen (dazu die Beleg- und Nutzen-Spalten). Nach der Umstellung auf deutsche Entsprechungen ist `元` = 0 zu erreichen; reine Währungsübernahmen bekommen den kürzeren Marker `<!-- Währung: Yuan in Euro übernommen -->`, inhaltliche Ersetzungen den Marker `<!-- Angepasst: … -->`.
+- **Hotlines:** 12300, 12315, 12378, 12345, 96110 sind chinesisch. Deutsches Gegenstück je Fall: Verbraucherzentrale und `verbraucherzentrale.de`, die Bundesnetzagentur (Telekommunikation), die BaFin-Beschwerdestelle und der Versicherungsombudsmann, die Polizei (110) und die Online-Wache der Landespolizeien.
+- **Fristen und Beträge mit abweichender deutscher Rechtslage** (aus `review/kapitel/05.md`): Widerrufsrecht online 7 → 14 Tage (§ 355 BGB), Widerrufsfrist Lebensversicherung 15 → 30 Tage (§ 8 VVG, § 152 VAG), Einlagensicherung 500.000 元 → 100.000 € (§ 4 EinSiG), Kfz-Mindestversicherungssumme (§ 4 PflVG), Altersgrenze beschränkt geschäftsfähig 8 → 7 Jahre (§ 106 BGB), Preisangaben-Regel beim Sale (7 Tage → 30 Tage, § 11 PAngV). Diese Angaben sind **Einschätzungen, keine Rechtsauskunft** — jede wird vor dem Schreiben gegen eine offene Quelle belegt (REQ-70).
+- **Projektregeln (K10) aus dem Prüfbericht:** die Meta-Formeln „Die Stufe B/C ist es, weil …" (Nr. 8, 10, 19, 32, 40, 41, 43) und „Der Nutznießer dieses Eintrags …" (Nr. 31, 36, 41, 45), die überlangen Anmerkungen (Nr. 10, 12, 14, 31, 34, 39, 44) und der sachfremde Zusatz „Keine Anlageempfehlung" in Nr. 8 und Nr. 11 (beide sind keine Geldanlage-Einträge). Werden in der Überarbeitung abgearbeitet.
+- **Querverweise:** Nr. 18 (`book/05-kein-geld-verschwenden.md:166`) verweist der Sache nach auf Nr. 17, nicht auf Nr. 11 (Fama-French 2010); `check-refs.mjs --check` fängt die Stelle nicht, weil unmittelbar davor ein Literaturzitat steht. Nr. 35 (`:320`) verweist auf „Abschnitt 6, Nr. 23", richtig ist nach dem Luxusgüter-Protokoll Nr. 22. Beide werden in der Überarbeitung richtiggestellt.
+- **Nummerierung:** Dieses Protokoll wurde am 2026-09-07 unter der **damaligen** Eintragsnummerierung geschrieben (die Abschnitte unten zählen anders als das Buch). Die Zuordnung zu den heutigen Nummern steht in der „Überarbeitungsrunde" am Ende dieses Dokuments.
+
+Prüfmethode: wie unten im Abschnitt „Prüfweg" beschrieben. Die deutschen Rechtsgegenstücke werden über offene amtliche Seiten geprüft — `gesetze-im-internet.de` (Bundesamt für Justiz), `bafin.de`, `verbraucherzentrale.de`, `bundesfinanzministerium.de`, `umweltbundesamt.de` und die Deutsche Akkreditierungsstelle (DAkkS) — jeweils mit wörtlichem Belegzitat.
+
+## Prüfweg (2026-09-07, chinesische Belege)
+
 Hinweis: WebFetch liefert beim direkten Öffnen der Verlagsseiten (Wiley / AEA / Science / OUP / spglobal) durchweg 403, deshalb wurden die Zeitschriftenaufsätze über drei Wege geprüft: ① die Crossref-API (api.crossref.org/works/<DOI>) gleicht Titel, Autor, Zeitschrift, Jahr, Band, Heft und Seiten ab; ② das vom Autor oder von der Universitätsseite gehostete Original-PDF, mit pdftotext extrahiert und die Zahlen abgeglichen; ③ die Abstract-Seite von EconPapers. „Bestätigt" heißt im Folgenden, dass Titel/Autor/Jahr mit der DOI übereinstimmen und die zitierten Zahlen im Original gefunden wurden.
 
 ## 1. Automatische Verlängerung
@@ -127,3 +164,56 @@ Hinweis: WebFetch liefert beim direkten Öffnen der Verlagsseiten (Wiley / AEA /
 ## Überarbeitungen beim Zusammenstellen (2026-09-07)
 - Nr. 5: die von der Regierung der Provinz Guangdong nachgedruckte Seite des Clients der Volkszeitung wurde gestrichen (Weitergabe aus zweiter Hand), damit wurden auch die drei Zahlen der neunten Runde 58 %, 18,2 Mrd. 元 und 374 Sorten gestrichen; die beibehaltenen 11 Runden/490 Sorten/1695 Stück/2/3 stammen aus dem Original der Pressekonferenzseite der staatlichen Krankenversicherungsbehörde von 2026.
 - Nr. 9: die Rubrik „Stimmen der Medien" der Xiamener Stelle der Wertpapieraufsichtskommission ist ein Mediendruck, es wird stattdessen die Seite „Antworten auf Fragen von Journalisten" der Zentrale zitiert; der erfasste Text dieser Seite enthält nicht 1.2 %/0.2 %/136 Verwalter, der Text wurde zu „die konkreten Obergrenzen sind noch zu prüfen" umgeschrieben.
+
+## Überarbeitungsrunde (2026-10-01)
+
+### Zuordnung der alten Nummern dieses Protokolls zu den heutigen Einträgen
+
+Die Abschnitte oben wurden am 2026-09-07 unter der damaligen Nummerierung geschrieben. Heute gilt:
+
+| Protokoll oben | Eintrag im Buch |
+|---|---|
+| 1 Automatische Verlängerung | Nr. 1 |
+| 2 Lotterie | Nr. 5 |
+| 3 Mindestzahlung bei der Kreditkarte | Nr. 7 |
+| 4 Garantieverlängerung | Nr. 11 |
+| 5 Zentralbeschaffung und Konsistenzbewertung | Nr. 12 |
+| 6 Leitungswasser | Nr. 14 |
+| 7 Häufiger Handel | Nr. 15 |
+| 8 Aktiv versus Index | Nr. 17 |
+| 9 Fondsgebühren | Nr. 18 |
+| 10 Fitnessstudio | Nr. 21 |
+| 11 Bedenkzeit / siebentägige Rückgabe | Nr. 23 |
+| 12 Ankerpreis | Nr. 24 |
+| 13 Versicherung | Nr. 25 |
+| 14 Vorzeitige Rückzahlung des Hypothekendarlehens | Nr. 28 |
+
+### Stand nach der Umstellung
+
+44 Einträge, **ein Eintrag entfallen** (Nr. 39, Auslandsanlagen/QDII — Entscheidung des Auftraggebers vom 2026-10-01, siehe unten). 42 Kennzeichnungen: 41 × `<!-- Angepasst: … -->` und 1 × `<!-- Währung: Yuan in Euro übernommen -->`. `元` kommt in der ganzen Datei nicht mehr vor (Prüfmaßstab `grep -c 元` = 0); chinesische Zeichen stehen nur noch in den Zeilen `- Quellen:`, wo sie Literaturangabe und keine Inhaltsaussage sind. Verweiszahl nach der Streichung: **610** (vorher 613; die drei abgezogenen Stellen sind die ausgehenden Verweise des gestrichenen Eintrags).
+
+### Entscheidungen, die nicht im Marker stehen
+
+- **Nr. 3 (Wohnungsfonds):** Der Titel war datiert („in Kraft seit dem 20. September 2026") und beschrieb den chinesischen `住房公积金`. Umgestellt auf den Wohnförderungs-Slot: Wohnungsbauprämie, Arbeitnehmersparzulage, KfW-Förderkredit, Riester-Wohnförderung (§ 92a EStG). Der Rat „nutze die staatliche Förderung beim Wohnen" trägt für einen Leser in Deutschland.
+- **Nr. 31 (unsicheres Lebensmittel, Grenzfall):** Der titelgebende Kern („das Zehnfache des Preises, mindestens 1000 元") ist Strafersatz nach `食品安全法` Art. 148 und hat kein deutsches Gegenstück; hier gilt Mängelhaftung nach §§ 434, 437, 280, 823 BGB ohne Vervielfachung. Umgestellt auf die Handlungsanweisung: Beweise sichern, Händler oder Hersteller in Anspruch nehmen. Der Eintrag bleibt, weil der Rat selbst trägt.
+- **Nr. 38:** Der Datensatz (An, Lou, Shi 2022, JME) bleibt. Die Yuan-Beträge entfallen zugunsten der im Eintrag ohnehin vorhandenen Prozentangaben; damit ist kein Inhalt verloren (REQ-27), nur die China-Bindung.
+- **Nr. 39 (Auslandsanlagen/QDII) — gestrichen.** Der Eintrag war ganz chinesisches Kapitalverkehrsrecht (QDII-Kontingent, Hongkong-Aktienzugang, Acht-Behörden-Bereinigung vom 2026-05-22, persönliches Devisenkontingent, Beobachtungsliste) und in Deutschland nicht nur gegenstandslos, sondern irreführend, weil er verbietet, was hier erlaubt ist. Eine belegbare deutsche Entsprechung für den Kern (Kapitalverkehrskontrolle) gibt es nicht; die verbleibende Handlungsanweisung wäre dünn gewesen. Der Auftraggeber hat am **2026-10-01** entschieden: **streichen**. Ausgeführt sind damit: Titel und Eintrag entfernt, **Nr. 40 bis 45 auf Nr. 39 bis 44 umnummeriert**, die fünf Verweise im Kapitel nachgezogen (Nr. 41→40, Nr. 42→41, Nr. 44→43), der Verweis in `book/07-leben-ohne-geld.md:185` von Nr. 40 auf Nr. 39 gesetzt und die README-TOC-Zeile um „über welchen legalen Weg du Auslandsvermögen kaufst" bereinigt. Die abgeschlossene Belegsammlung zu diesem Eintrag bleibt als `nachtrag-issue41-auslandsanlagen.md` erhalten.
+
+### Linien, die für das ganze Kapitel gelten
+
+- **Stufen-Begründung in der Anmerkung.** Die meta-Erzähler-Einleitung „Die Stufe B/C ist es, weil …" wurde entfernt, der Inhaltssatz bleibt stehen (Nr. 8, 10, 19, 32). Wo der Satz bei der Umstellung weggefallen war, ist er in dieser Form zurückgeholt (Nr. 39, 40, 42; vor der Streichung Nr. 40, 41, 43). Auf Anweisung des Auftraggebers vom 2026-10-01 ebenfalls nachgezogen: die zwei Stellen in Kapitel 04 (Nr. 10, „Begründung für Stufe B: …"; Nr. 15, „Stufe C, weil …") und die zwölf Stellen in Kapitel 13 (Nr. 2, 5, 6, 20, 21, 25, 27, 36, 37, 39, 40, 41). Kapitel 13, Nr. 6 lautete „Die Stufe B hat zwei Gründe. Erstens … Zweitens …"; dabei fiel zugleich das in CLAUDE.md verbotene „erstens/zweitens" weg. **Damit gilt die Linie:** der Inhalt der Einstufungs-Begründung bleibt, der meta-Erzähler-Einstieg entfällt. In `book/02-nicht-langsam-sterben.md:63` steht „Begründung: Es fehlen Langzeitdaten …" — das ist die Begründung der WHO im Streitfall, also Inhalt, und bleibt. Noch offen sind die später gefundenen Stellen in Kapitel 08 (Nr. 27, 31, 36, 42, „Stufe B/C, weil …"), Kapitel 11 (Nr. 14, „Stufe C, weil …"), Kapitel 29 (Nr. 11, „Die Stufe B steht hier, weil …") und Kapitel 30 (Nr. 5, 7, 8, 9, 12, „Stufe B, weil …"); diese Kapitel sind noch nicht an der Reihe und werden in ihren eigenen Issues mitgezogen.
+- **Nutznießer-Satz.** Nach CLAUDE.md wird in der Anmerkung benannt, auf welche Stufe die Nutznießer fallen, wenn der Eintrag andere betrifft. In diesem Kapitel steht der Satz bei Nr. 39, 40, 42, 44 (vor der Streichung Nr. 40, 41, 43, 45); in Nr. 36 wurde er in dieser Runde zurückgeholt (`bist du selbst und deine Familie, die beiden höchsten Stufen`). Bei Nr. 41 und Nr. 43 (vorher 42 und 44) steht er nicht, weil beide allein den Leser selbst betreffen.
+- **Der Zusatz „Keine Anlageempfehlung."** ist im Sichtungspass als sachfremd für Nr. 8 und Nr. 11 benannt (beide handeln nicht von Geldanlage); dort steht er nicht. In den zehn Einträgen, die tatsächlich von Geldanlage handeln (Nr. 15, 16, 17, 18, 19, 25, 27, 28, 37, 38), bleibt er als Hinweis stehen. Damit ist der Punkt aus dem Sichtungspass abgearbeitet.
+- **Überlange Anmerkungen (Signal über 900 Zeichen).** Betroffen sind Nr. 10 (1085), Nr. 12 (1100), Nr. 31 (1063), Nr. 35 (1105), Nr. 36 (1048) und Nr. 37 (1006). Jede trägt mehrere selbstständige Einschränkungen; eine Kürzung wäre Inhaltsverlust und verstieße gegen REQ-20. Sie bleiben unverändert; nach CLAUDE.md ist keine harte Obergrenze gesetzt.
+- **Verweise in den Anmerkungen.** Keine einzige Kapitel-05-Anmerkung enthält einen Link (Prüfmaßstab `grep -c http` = 0 über alle Anmerkungen). Die Literatur steht geschlossen in der Spalte `Quellen`.
+- **Geprüft und verworfen:** Die Sichtungspass-Notiz, Nr. 35 verweise mit „Abschnitt 6, Nr. 23" auf den falschen Eintrag (richtig sei Nr. 22). Abschnitt 6, Nr. 23 ist „Erwarte nicht, dass Einkaufen die Stimmung oder das Identitätsgefühl bessert" und damit genau der gemeinte Eintrag; Nr. 22 handelt von Kristallen und Glücksbringern. Der Verweis bleibt.
+
+### Erweiterung von `tools/check-refs.mjs`
+
+Die deutsche Fassung bringt zwei Normschreibweisen mit „Nr.", die der Prüfer als Eintragsverweis las; beide kamen bisher nur in Kapitel 05 vor:
+
+1. das Paragrafenzitat mit Nummer — „§ 437 Nr. 1 und 2 BGB", „§ 46 Abs. 2 Nr. 8 EStG", „§ 10 Abs. 1 Nr. 2 Buchstabe b EStG" (fünf Anker-Meldungen in Nr. 2, 9, 28, 35);
+2. die Verordnung mit Unionszusatz — „PRIIPs-Verordnung (EU) Nr. 1286/2014", „Verordnung (EG) Nr. 765/2008", „Verordnung (EU) Nr. 1169/2011" (drei Meldungen „Manuell zu klären" in Nr. 18, 34, 36).
+
+Beide Klassen werden jetzt übersprungen; die Erkennung greift nur bei genau dieser Fortsetzung, ein Eintragsverweis hinter einem Paragrafenzitat („§ 823 BGB, siehe Nr. 5") wird weiter gefunden. Folge für die Kennzahl: Die Verweiszahl fällt von 627 auf **613**; die 14 abgezogenen Stellen waren sämtlich Normzitate. `node tools/check-refs.mjs --check` meldet danach keinen einzigen Punkt mehr.
+
