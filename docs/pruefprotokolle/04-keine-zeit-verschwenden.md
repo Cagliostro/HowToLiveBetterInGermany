@@ -1,5 +1,38 @@
 # Abschnitt 4: Quellenprüfprotokoll
 
+## Sichtungspass (2026-10-01, vor der Überarbeitung)
+
+Grundlage: `review/kapitel/04.md` (Stufentabelle D/E/Ü/X mit Bezug zum Text) und `book/04-keine-zeit-verschwenden.md` (18 Einträge, gelesen am 2026-10-01). Maßstab sind die am 2026-09-30 beschlossenen Regeln REQ-70 (nur offen zugängliche Quellen), REQ-71 (Statistik je Kapitel) und REQ-72 (Sichtungspass vor dem Schreiben).
+
+**Ergebnis: Stufe X = 0.** Es gibt in diesem Kapitel keinen Eintrag, dessen Kern china-exklusiv wäre. Die Empfehlungen sind Verhaltensregeln (Vorsätze, versunkene Kosten, Aufschieben, Besprechungen, Gewohnheiten), ihre tragende Literatur ist international (Gollwitzer/Sheeran, Buehler, Steel, Lally, Rozental, Halpern). China-gebunden sind nur die **Zahlenfundamente** von fünf Einträgen (Nr. 13, 14, 15, 16, 18) — chinesische Zeitverwendungserhebung, CNNIC, eine `元`-Preisangabe und die Hotline 12356.
+
+| Gruppe | Einträge | Anzahl |
+|---|---|---|
+| ① übertragbar, unverändert | Nr. 1–12, 17 | 13 |
+| ② Übertragung offen — deutsches Gegenstück wird belegt | Nr. 13, 14, 15, 16, 18 | 5 |
+| ③ Kern china-exklusiv → Entscheidung des Auftraggebers | — | **0** |
+
+Keine Folgeänderungen: keiner der fünf Fälle steht in einem Titel, und kein Nachbartext verweist auf einen der fünf Einträge über ein Wort, das sich mitändert.
+
+**Gruppe ② im Einzelnen.**
+- **Nr. 13** (`元`-Preis, „auf Chinesisch gibt es dieselbe Zusammenstellung nicht fertig", Hotline 12356): Der Kern (schwedische randomisierte Studie Rozental 2015) ist universell. Zu ersetzen: die Preisangabe nach deutscher Preislage, die China-Begründung der Nutzenstufe (für einen deutschen Leser sinnlos) und die Hotline (Telefonseelsorge, wie Kapitel 03 Nr. 19).
+- **Nr. 14** („Chinesen verbringen täglich 1 h 17 min mit Hausarbeit", 国家统计局 2024): Rechenregel und der zweite Beleg (Whillans 2017) bleiben; die chinesische Zeitverwendungszahl wird durch die deutsche Zeitverwendungserhebung ersetzt.
+- **Nr. 15** (Onlinezeit 5 h 37 min und 2 h 42 min 2018, 国家统计局 + CNNIC 30,6 h/Woche, 1,068 Mrd. Kurzvideo-Nutzer): Die **CNNIC-Zahlen sind laut diesem Protokoll „nicht bestätigt"** (PDF ohne Textlayer), stehen aber wieder im Text und werden entfernt; die chinesische Onlinezeit wird durch eine deutsche Angabe ersetzt.
+- **Nr. 16** (chin. Fernsehzeit 1 h 40 min, 75- bis 84-Jährige 3 h 16 min, 国家统计局 2018): Der US-Wert (BLS) bleibt; die chinesischen Zahlen werden durch deutsche Fernsehnutzungsdaten ersetzt.
+- **Nr. 18** („Chinesische Einwohner verbringen täglich 50 Minuten mit Verkehr", 国家统计局 2024): Die Empfehlung hat bereits deutsche Daten im Eintrag (Stutzer & Frey 2008, SOEP); die chinesische Verkehrsstatistik wird entfernt oder durch Destatis-Zahlen ersetzt.
+
+**Kapitelweit.**
+- **Währung (REQ-68):** `元` steht in genau **einer** Zeile (Nr. 13, Kosten). Marker nach REQ-68/REQ-67, der Betrag nach deutscher Preislage.
+- **Nationalstatistik gegen Studienkohorte:** Ersetzt werden die **Nationalstatistiken** über die chinesische Bevölkerung (国家统计局, CNNIC) — für einen deutschen Leser keine Aussage über ihn selbst. Stehen bleiben **Studien mit chinesischer Stichprobe** als Beleg (Regel der Runde, wie Kapitel 02 Nr. 9/26/35). Im Kapitel 04 gibt es keine solche Kohorte, alle fünf Fälle sind Nationalstatistik oder Amtsangabe.
+- **Projektregeln (K10) aus dem Prüfbericht:** der Meta-Satz der Abschnittseinleitung (Zeile 5, „Dieser Abschnitt rechnet nur die Zeit. Er zeigt …"), die Autorenstimme in Nr. 3, 7, 8 („konnten wir nur die Richtung prüfen"), die Marke **Word** in Nr. 17 (markenneutral fassen), der offene Punkt „noch zu prüfen" in Nr. 3 (Theater-Experiment Arkes & Blumer) und die zwei Meta-Sätze der Nr. 15 („Das ist der größte Posten in diesem Abschnitt", zweimal). Diese Punkte werden in der Überarbeitung abgearbeitet, soweit sie den Text betreffen.
+- **Nummerierung:** Dieses Protokoll wurde am 2026-09-07 unter der **damaligen** Eintragsnummerierung geschrieben (die Überschriften nennen „Eintrag 9", „Eintrag 10" usw.). Die Zuordnung zu den heutigen Nummern steht in der „Überarbeitungsrunde" am Ende dieses Dokuments.
+
+**Grenzfälle zur Streichung.** Keiner. Alle 18 Einträge tragen in Deutschland; der Prüfbericht kommt auf dieselbe Einschätzung (13× D, 1× E, 4× Ü, 0× X). Die fünf Ü-Fälle werden umgestellt, nicht gestrichen.
+
+Prüfmethode: wie unten im Abschnitt „Prüfweg" beschrieben. Die deutschen Zeitverwendungs- und Nutzungszahlen werden über die offenen Seiten von Destatis, der ARD/ZDF-Onlinestudie und der AGF Videoforschung mit wörtlichem Belegzitat geprüft.
+
+## Prüfweg
+
 Prüfdatum: 2026-09-07. Verlagsseiten (Elsevier/Wiley/APA/Springer/T&F) liefern gegenüber Scraping-Werkzeugen allgemein 403 oder Captchas; die Metadaten wurden daher über die Crossref API, OpenAlex API, Semantic Scholar API und PubMed E-utilities geprüft; für die Zusammenfassungen gilt der von diesen APIs zurückgegebene Originaltext. Im Folgenden ist zu jedem Eintrag die tatsächlich geöffnete URL, ob die Titelübereinstimmung bestätigt wurde und der Originaltext der zitierten Zahl aufgeführt.
 
 ## 1, 2. Gollwitzer & Sheeran (2006)
@@ -108,3 +141,55 @@ Prüfdatum: 2026-09-07. Verlagsseiten (Elsevier/Wiley/APA/Springer/T&F) liefern 
 ## Andere geöffnete, aber nicht verwendete Seiten
 - <https://api.unpaywall.org/v2/>... (422, keine OA-Kopie erhalten)
 - Kahneman & Tversky (1979) Intuitive prediction: Biases and corrective procedures, TIMS Studies in Management Science 12, 313–327: Die Suche fand keine DOI und keinen offiziellen Volltext; Eintrag 4 verwendet stattdessen Buehler 1994 und Flyvbjerg 2006 als Originalbelege der Referenzklassen-Prognose, ohne sie direkt zu zitieren.
+
+## Überarbeitungsrunde (2026-10-01)
+
+Grundlage: der Sichtungspass oben (Stufe X = 0, fünf Fälle der Gruppe ②) und `review/kapitel/04.md`. Reihenfolge: erst die china-gebundenen Zahlen, dann die Kapitelweiten Punkte, dann die Gates. Jede neue oder geänderte Quellenangabe wurde einzeln auf offenen Volltext geprüft (REQ-70).
+
+### Änderungen je Eintrag
+
+| Nr. | Was ersetzt wurde | Deutscher Beleg | Marker |
+|---|---|---|---|
+| Einleitung (Zeile 5) | Meta-Erzählung „Dieser Abschnitt rechnet nur die Zeit. Er zeigt, …" | — | — |
+| 3 | Autorenstimme, „(noch zu prüfen)" | — | — |
+| 7 | Autorenstimme („konnten wir nur die Richtung prüfen") | — | — |
+| 8 | Autorenstimme („Zu sagen ist: Geprüft ist, dass …") | — | — |
+| 13 | `元`-Preisangabe → Euro; China-Begründung der Nutzenstufe; Hotline 12356 | Telefonseelsorge 0800 111 0 111 / 116 123 — Bundesnetzagentur, Nummerierungskonzept 2014; Bezirksamt Lichtenberg von Berlin | `Angepasst` (Zeile 117) |
+| 14 | chinesische Hausarbeitszeit (1 h 17 min / 1 h 59 min, 国家统计局 2024) | Statistisches Bundesamt, Zeitverwendungserhebung 2022 | `Angepasst` (Zeile 127) |
+| 15 | chinesische Onlinezeit (5 h 37 min / 6 h 3 min / 2 h 42 min 2018, 92,9 %) und die drei CNNIC-Angaben | Statistisches Bundesamt, Zeitverwendungserhebung 2022 (Mediennutzung) | `Angepasst` (Zeile 137) |
+| 16 | chinesische Fernsehzeit (1 h 40 min; 75–84 J. 3 h 16 min, 国家统计局 2018) | AGF Videoforschung, Jahresbilanz 2024 | `Angepasst` (Zeile 147) |
+| 17 | Marke „Word" → „ein Textprogramm" | Lane et al. (2005), Originalzitat „251 experienced users of Microsoft Word" | — |
+| 18 | chinesische Verkehrszeit (50 min / 1 h 2 min, 国家统计局 2024) | Statistisches Bundesamt, Pressemitteilung Nr. N027 vom 26. Mai 2025 | `Angepasst` (Zeile 166) |
+
+Die vier chinesischen Quellenangaben (国家统计局 2024 und 2018, CNNIC 2025) sind **entfallen**; an ihre Stelle traten die oben genannten deutschen. Das folgt der Regel „bei einer Ersetzung nach der Zielrichtung tritt die deutsche Primärquelle an die Stelle der chinesischen Norm" und dem Muster von Kapitel 03 Nr. 19.
+
+### Die geprüften offenen Belege
+
+- **Statistisches Bundesamt, Zeitverwendungserhebung (ZVE) 2022, Aktivitäten nach Geschlecht** — <https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Zeitverwendung/Tabellen/aktivitaeten-geschlecht-zve.html>. Offen, Personen ab 10 Jahren, Einheit „Je Tag in hh:mm", Datenstand „Stand 6. Juni 2025" (revidiert wegen der Hochrechnung auf Basis des Zensus 2022). Wörtlich gelesen: Zeile „Haushaltsführung und Betreuung der Familie" Insgesamt **03:08**, Männer **02:31**, Frauen **03:45**; Zeile „Mediennutzung" Insgesamt **02:55**, Männer **03:01**, Frauen **02:48**. Beide Zeilen tragen den Eintrag Nr. 14 beziehungsweise Nr. 15.
+- **Statistisches Bundesamt, ZVE 2022, Ergebnisse** — <https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Zeitverwendung/Ergebnisse/_inhalt.html>. Wörtlich: „Fast die Hälfte der unbezahlten Arbeit setzt sich bei Frauen aus Tätigkeiten der klassischen Hausarbeit wie Kochen, Putzen und Wäsche waschen zusammen." Frauen „Knapp 13 Stunden pro Woche oder fast 2 Stunden pro Tag", Männer „nur halb so viel Zeit damit". Diese Angabe stützt die Aufteilung im Klartext der Nr. 14.
+- **AGF Videoforschung, Jahresbilanz 2024** — <https://screenforce.de/whats/bilanz-das-war-das-fernsehjahr-2024> (veröffentlicht von Screenforce). Offen. Wörtlich: tägliche TV-Nutzung „durchschnittlich 171 Minuten" im Bewegtbildstandard, „176 Minuten" im Marktstandard TV, Bezugsgruppe „Gesamtpublikum"; 14- bis 49-Jährige „79 Minuten". Verwendet in Nr. 16.
+- **Statistisches Bundesamt, Pressemitteilung Nr. N027 vom 26. Mai 2025 (Berufspendler 2024, Mikrozensus)** — <https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/05/PD25_N027_13.html>. Offen. Wörtlich: „ein Großteil (70 %) […] benötigte […] weniger als 30 Minuten"; „Lediglich 6 % pendelten täglich eine Stunde oder länger pro Strecke." Einen Durchschnittswert nennt die Mitteilung nicht. Verwendet in Nr. 18.
+
+### Übertragung, die an der offenen Quellenlage gescheitert ist
+
+- **Nr. 15, Onlinezeit:** Für die **tägliche Internetnutzungsdauer** gibt es keine offen zugängliche, isolierte deutsche Kennzahl für 2024/2025. Die ARD/ZDF-Onlinestudie führt unter <https://www.ard-zdf-onlinestudie.de/> nur noch auf ein Archiv <https://archiv.ard-zdf-medienstudie.de/archiv-ardzdf-onlinestudie/>, das ein Inhaltsverzeichnis ohne Minutenwerte zeigt; die ARD/ZDF-Medienstudie 2024 weist die **Gesamtmediennutzung** aus, nicht die Internetdauer. Deshalb steht dort die amtliche **Mediennutzung** der ZVE 2022 (02:55). Das ist eine Ersetzung durch eine engere, dafür belegte Kennzahl; die Anmerkung sagt das offen („Gerechnet ist die ganze Mediennutzung, nicht nur die Zeit in Kurzvideos").
+- **Nr. 16, Altersgruppen:** Die Alterswerte der AGF (50–69 Jahre, ab 70 Jahren) liegen in der Zeitschrift Media Perspektiven als PDF; sie wurden **nicht** übernommen, sondern durch den offen belegten Kontrast zu den 14- bis 49-Jährigen (79 Minuten) ersetzt.
+
+### Kapitelweit durchgezogen
+
+- **Einleitung (Zeile 5):** die Meta-Erzählung („Dieser Abschnitt rechnet nur die Zeit. Er zeigt, …") ist ersetzt; die Bezugsgröße steht jetzt als Aussage über die Sache.
+- **Autorenstimme:** in Nr. 3, 7 und 8 sind die Selbstbezüge („konnten wir nur die Richtung prüfen", „Zu sagen ist: Geprüft ist, dass …") und der offene Vermerk „(noch zu prüfen)" entfernt; die Einschränkung selbst bleibt stehen.
+- **Nr. 17:** „Word" durch „ein Textprogramm" ersetzt (markenneutral, am Originalzitat der Studie geprüft).
+- **Nr. 15:** der zweimal stehende Meta-Satz „Das ist der größte Posten in diesem Abschnitt" ist gestrichen.
+- **Nr. 13:** Preisangabe, Nutzenbegründung und Hotline nach dem Muster von Kapitel 03 Nr. 19.
+
+### Buchweite Regeldrift (nicht in diesem Kapitel zu beheben)
+
+Die Einleitungsformel „Bezugsgröße: X. **Dieser Abschnitt** …" steht auch in den Abschnitten 1, 2 und 3 (jeweils Zeile 5) und ist damit **buchweit**, nicht eine Eigenheit des Abschnitts 4. `CLAUDE.md` führt „Dieser Eintrag rechnet … und nicht in Geld" ausdrücklich als verbotene Meta-Erzählung. Vorschlag: die drei verbleibenden Einleitungen bei ihren Kapiteln mitziehen; solange das nicht geschehen ist, steht die Abweichung hier festgehalten, damit sie nicht als erledigt gilt.
+
+### Maschinelle Gates
+
+- `node tools/check-plain.mjs --stat`: 630 Klartext-Zeilen, **beanstandet 0**.
+- `node tools/check-refs.mjs --check`: **bestanden**, alle **621** Verweise zeigen auf den richtigen Eintrag und tragen einen Anker (die drei offenen Hinweise betreffen Abschnitt 31 und sind älter).
+- `grep -c 元` = **0**, `grep -cP '[\x{4e00}-\x{9fff}]'` = **0**, `grep -c '^### '` = **18**.
+- `node tools/sync-stats.mjs` an der Kapitelgrenze gelaufen: Einträge 630, Abschnitte 34, A 420 / B 159 / C 51, Streitfälle 58, TODO 30, Links 1378. Die vier chinesischen Quellenangaben, die entfallen sind, und die vier deutschen, die hinzugekommen sind, verändern die Linkzahl; nachgezogen wurden das README-Quellenabzeichen und `tools/og.html` (1380 → **1378**) sowie der Evidenzabsatz der README (31 → **30** TODO-Stellen). `index.html` blieb unverändert, `og.png` ist neu erzeugt (156 291 Bytes, Selbstprüfung bestanden).

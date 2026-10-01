@@ -12,7 +12,7 @@ Du musst nicht alles umsetzen: Das hier ist eine nach Kosten und Nutzen sortiert
 [![Online-Suche](https://img.shields.io/badge/Online--Suche-hier%20%C3%B6ffnen-3451b2?style=flat-square)](https://cagliostro.github.io/HowToLiveBetterInGermany/)
 [![Empfehlungen](https://img.shields.io/badge/Empfehlungen-630-18794e?style=flat-square)](#inhalt)
 [![Evidenzstufen](https://img.shields.io/badge/Evidenzstufen-A%20420%20%C2%B7%20B%20159%20%C2%B7%20C%2051-915930?style=flat-square)](#evidenzstufen)
-[![Quellen](https://img.shields.io/badge/Quellen-1380%20Links-565a5f?style=flat-square)](docs/pruefprotokolle/)
+[![Quellen](https://img.shields.io/badge/Quellen-1378%20Links-565a5f?style=flat-square)](docs/pruefprotokolle/)
 [![Lizenz](https://img.shields.io/badge/Lizenz-CC%20BY%204.0-565a5f?style=flat-square)](#lizenz)
 
 ### [Zur Online-Suche](https://cagliostro.github.io/HowToLiveBetterInGermany/) · [Die KI antwortet nach dem Buch (Skill)](skills/lebensentscheidungen/README.md)
@@ -171,7 +171,7 @@ Jede Empfehlung trägt eine Evidenzstufe:
 | B | Es gibt Studien, aber keine genaue Zahl; oder es trägt nur eine kleine Stichprobe bzw. eine einzelne Studie |
 | C | Die Erfahrung des Autors oder eine allgemein anerkannte Praxis, ohne direkte Fachliteratur |
 
-Von den 630 Empfehlungen des Buchs haben 420 die Stufe A, 159 die Stufe B und 51 die Stufe C. Weitere 58 sind als Streitfall markiert, 31 Stellen als TODO noch zu prüfen. Streitige A- und B-Einträge sind mit „Streitfall" markiert und führen die Gegenevidenz auf. Alle Quellen sind Originalarbeiten (Fachaufsätze mit DOI- oder PubMed-Link, oder Berichte amtlicher Stellen wie WHO, CDC, Staatliches Statistikamt), keine Wiedergabe aus zweiter Hand. Unsichere Zahlen sind mit „noch zu prüfen" markiert.
+Von den 630 Empfehlungen des Buchs haben 420 die Stufe A, 159 die Stufe B und 51 die Stufe C. Weitere 58 sind als Streitfall markiert, 30 Stellen als TODO noch zu prüfen. Streitige A- und B-Einträge sind mit „Streitfall" markiert und führen die Gegenevidenz auf. Alle Quellen sind Originalarbeiten (Fachaufsätze mit DOI- oder PubMed-Link, oder Berichte amtlicher Stellen wie WHO, CDC, Staatliches Statistikamt), keine Wiedergabe aus zweiter Hand. Unsichere Zahlen sind mit „noch zu prüfen" markiert.
 
 ## Kosten-Nutzen-Stufen
 
