@@ -181,12 +181,14 @@ if (!chrome) throw new Error('Chrome nicht gefunden — die Umgebungsvariable CH
 const profile = mkdtempSync(join(tmpdir(), 'og-shot-'));
 const target = join(ROOT, 'og.png');
 const startedAt = Date.now();
-// Chrome schreibt Hinweise wie „xxx bytes written" auf stderr, das ist kein Fehler und wird verworfen
+// Chrome schreibt og.png in unter einer Sekunde, beendet sich auf macOS aber nicht mehr. Ohne
+// Zeitlimit wartet spawnSync endlos und der ganze Lauf bleibt stehen; die Selbstprüfung unten
+// deckt einen echten Fehlschlag weiterhin ab.
 spawnSync(chrome, [
   '--headless', '--disable-gpu', '--hide-scrollbars', '--force-device-scale-factor=1',
   '--window-size=1200,630', `--user-data-dir=${profile}`, `--screenshot=${target}`,
   pathToFileURL(join(ROOT, 'tools', 'og.html')).href,
-], { stdio: 'ignore' });
+], { stdio: 'ignore', timeout: 60_000, killSignal: 'SIGKILL' });
 rmSync(profile, { recursive: true, force: true });
 
 // Selbstprüfung: Die Datei stammt aus diesem Lauf und ihre Größe liegt im normalen Bereich. Sind

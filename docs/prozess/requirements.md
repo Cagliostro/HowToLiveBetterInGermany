@@ -211,8 +211,8 @@ REQ-20 gilt nur noch mit der Ausnahme der Deutschland-Anpassung.
     `Nutzen` und `Bezug` bleiben unverändert. Jede Labeländerung wird im Marker (REQ-67) benannt und
     im Prüfprotokoll begründet. Zeit, Währung und Label hängen zusammen: die **Schwellen** des Labels
     stehen in Euro (`CLAUDE.md`), die **Zuordnung** folgt der Kassenlage. Folge für die Abnahme:
-    README und Website-Kennzahlen (`sync-stats.mjs`) verschieben sich und werden am Ende der Runde
-    neu erzeugt. Der Label-Abgleich gegen das Original (früher: jede Abweichung = Verlust) erlaubt
+    README und Website-Kennzahlen (`sync-stats.mjs`) verschieben sich und werden am Ende jedes
+    Kapitels neu erzeugt (REQ-71). Der Label-Abgleich gegen das Original (früher: jede Abweichung = Verlust) erlaubt
     jetzt **belegte, im Marker benannte** Abweichungen; sie werden im Prüfprotokoll einzeln geführt.
 11. **REQ-69 neu (am 2026-09-30 zu den Fällen Kapitel 01, Nr. 17/18/19 entschieden)** — **Titel mit
     Altersangabe nennen die deutsche Regel.** Anlass: Die Titel trugen die Altersgrenze der Vorlage
@@ -245,3 +245,47 @@ Ersetzt wird der China-Bezug, nicht das Urteil.
   Sie ist am 2026-09-30 als **Runde 10** gestartet; der Fortschritt steht in `status.md`. Reihenfolge:
   Kapitel 01–34 der Reihe nach, danach die Bestandteile. Jedes Kapitel wird erst fachlich und gegen
   die Buchvorgaben geprüft und dann dem Auftraggeber zur Freigabe vorgelegt.
+
+## Nachtrag 2026-09-30 — Vorgehensregeln nach dem Verlauf von Kapitel 01 (REQ-70 bis REQ-72)
+
+**Anlass.** Nach dem Abschluss von Kapitel 01 wurde der Verlauf ausgewertet (36 Einträge, davon
+**34 mit Marker** nach REQ-67/REQ-68, fünf Durchgänge, ein unabhängiger Nachprüfer mit fünf Befunden).
+Die Auswertung zeigt drei Stellen, an denen das Vorgehen für die 33 folgenden Kapitel nachgezogen
+werden muss. Der Auftraggeber hat alle drei am 2026-09-30 entschieden.
+
+1. **REQ-70 (neu) — nur offen zugängliche Quellen.** Entscheidung des Auftraggebers: „Keine
+   gesperrten Quellen verwenden. Es werden nur offene Quellen verwendet." Eine Quelle zählt nur,
+   wenn ihr **Volltext ohne Bezahlschranke und ohne Anmeldung** erreichbar ist. Bei einem Aufsatz
+   hinter Bezahlschranke wird die frei zugängliche Fassung derselben Arbeit verlinkt (PMC, RKI edoc,
+   offenes Verlags-PDF); gibt es keine, wird eine andere offene Primärquelle mit denselben Zahlen
+   gesucht; lässt sich auch die nicht finden, gilt die Aussage als „zu prüfen" und wird dem
+   Auftraggeber vorgelegt. Anlass: in Kapitel 01 waren zwei Quellen nicht prüfbar (Springer-DOI →
+   RKI edoc, IAEA-Landingpage → offenes PDF); zugleich zitiert allein dieses Kapitel 26 DOIs.
+   **Umfang (gezählt am 2026-09-30):** 1357 Links unter `book/`, davon **395 auf doi.org** und über
+   700 auf chinesische Behördenportale. Die Prüfung läuft **Kapitel für Kapitel mit der Überarbeitung
+   mit** — da jedes Kapitel ohnehin überarbeitet wird, ist der gesamte Quellenapparat am Ende der
+   Runde geprüft. **Nachweispflicht:** bei jeder ersetzten Quelle steht im Prüfprotokoll, welche
+   gesperrte Fassung welcher offenen gewichen ist.
+2. **REQ-71 (neu) — `sync-stats.mjs` läuft einmal je Kapitel.** Entscheidung des Auftraggebers gegen
+   den bisherigen Takt „einmal am Ende der Runde". Der Lauf gehört an die **Kapitelgrenze**, direkt
+   nach dem letzten Eintrag des Kapitels und vor dessen Commit; dort ist der Text nicht mehr in
+   Bewegung, die Zahlen bleiben bis zum nächsten Kapitel stabil. Damit bleibt der CI-Job „Statistik"
+   grün und die Abzeichen in README und Website zeigen nie veraltete Zahlen. **Der Widerspruch in
+   `CLAUDE.md` ist damit aufgelöst:** dort stand „nach jeder Eintragsänderung einmal laufen lassen"
+   (2026-09-18) und gleichzeitig „läuft einmal am Ende der Runde, nicht dazwischen" (2026-09-30) —
+   beides zugleich ist nicht möglich. Anlass für die Neuregelung: fünf veraltete Stellen
+   (Quellen-Abzeichen 1341→1358, „sehr hoch" 108→113, TODO 35→32, Evidenzabsatz,
+   Kosten-Nutzen-Absatz) und ein roter CI-Job, der über die ganze Runde rot geblieben wäre.
+3. **REQ-72 (neu) — Sichtungspass vor jedem Kapitel.** Vor der Detailarbeit wird das Kapitel einmal
+   ganz gelesen und in eine Liste gebracht, welche Einträge übertragbar sind: ① übertragbar,
+   ② Übertragung offen (die Belegsuche entscheidet), ③ **Kern china-exklusiv** — der Eintrag steht
+   und fällt mit einem chinesischen Verfahren, einer Behörde, einer Statistik oder einem Betrag ohne
+   deutsche Entsprechung. Gruppe ③ wird dem Auftraggeber **gebündelt** vorgelegt, mit dem Vorschlag
+   **umstellen oder streichen**, bevor am Kapitel geschrieben wird. Anlass: in Kapitel 01 zeigte sich
+   erst mitten in der Arbeit, welche Einträge sich nicht übertragen lassen; der teuerste Umweg des
+   Kapitels. Der Sichtungspass wird am Kopf des Prüfprotokolls festgehalten.
+
+**Was das nicht ist.** Kein Freibrief für eine zweite Runde über den Bestand. REQ-70 gilt für die
+Quellen der Einträge, die diese Runde bearbeitet — und das ist jedes Kapitel, weil jedes Kapitel nach
+REQ-65 umgestellt wird. Ein gesonderter, vorgezogener Durchlauf über alle 395 DOIs ist damit nicht
+nötig und war nicht beauftragt.

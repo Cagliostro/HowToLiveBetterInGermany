@@ -12,7 +12,7 @@ Du musst nicht alles umsetzen: Das hier ist eine nach Kosten und Nutzen sortiert
 [![Online-Suche](https://img.shields.io/badge/Online--Suche-hier%20%C3%B6ffnen-3451b2?style=flat-square)](https://cagliostro.github.io/HowToLiveBetterInGermany/)
 [![Empfehlungen](https://img.shields.io/badge/Empfehlungen-630-18794e?style=flat-square)](#inhalt)
 [![Evidenzstufen](https://img.shields.io/badge/Evidenzstufen-A%20420%20%C2%B7%20B%20159%20%C2%B7%20C%2051-915930?style=flat-square)](#evidenzstufen)
-[![Quellen](https://img.shields.io/badge/Quellen-1341%20Links-565a5f?style=flat-square)](docs/pruefprotokolle/)
+[![Quellen](https://img.shields.io/badge/Quellen-1380%20Links-565a5f?style=flat-square)](docs/pruefprotokolle/)
 [![Lizenz](https://img.shields.io/badge/Lizenz-CC%20BY%204.0-565a5f?style=flat-square)](#lizenz)
 
 ### [Zur Online-Suche](https://cagliostro.github.io/HowToLiveBetterInGermany/) · [Die KI antwortet nach dem Buch (Skill)](skills/lebensentscheidungen/README.md)
@@ -105,7 +105,7 @@ Der Skill für KI-Assistenten läuft in Claude Code und Codex. Nach der Installa
 - **Alle drei werden nach jeder Textänderung automatisch neu erzeugt**, die Download-Links bleiben gleich. Eine weitergegebene Kopie wird aber nicht mit aktualisiert; maßgeblich ist die Online-Fassung.
 - **Die Zahlen verstehst du nicht**: Jeder Eintrag hat eine Zeile „Klartext". Sie übersetzt die Schreibweise der Forschung aus der Zeile „Nutzen" in Alltagssprache, in Sätze wie „die Wahrscheinlichkeit zu sterben war im gleichen Zeitraum um etwa ein Fünftel niedriger" oder „ein paar Tage Haft, eine Geldstrafe von so und so viel". Sie benutzt nur, was schon in der Zeile „Nutzen" steht, und erfindet keine Zahl dazu. Diese eine Zeile genügt für eine Entscheidung. Alle Zahlen bleiben unverändert in der Zeile „Nutzen" stehen, wenn du selbst nachrechnen willst.
 - **Nur die härtesten Belege**: Setz in der Suchseite den Haken bei Evidenzstufe A. Übrig bleiben die 420 Einträge mit konkreten Zahlen aus einer Metaanalyse oder einer großen Studie.
-- **Nur das, was sich am meisten lohnt**: Setz den Haken beim Kosten-Nutzen-Verhältnis „sehr hoch". Du bekommst die 108 Einträge, die kein Geld kosten, keine Zeit kosten, keine Willenskraft brauchen und deren Nutzen in der höchsten Stufe liegt. Kombinier das mit einer Bezugsgröße, und du hast die Vorrangliste für diese Bezugsgröße.
+- **Nur das, was sich am meisten lohnt**: Setz den Haken beim Kosten-Nutzen-Verhältnis „sehr hoch". Du bekommst die 113 Einträge, die kein Geld kosten, keine Zeit kosten, keine Willenskraft brauchen und deren Nutzen in der höchsten Stufe liegt. Kombinier das mit einer Bezugsgröße, und du hast die Vorrangliste für diese Bezugsgröße.
 - **Abschnittsüberschriften, die mit „Nicht" beginnen, sind kein Grund zur Sorge**: Die Überschrift nennt, was der Abschnitt verhindern will (nicht früh sterben, keine Zeit verschwenden), nicht, dass jeder Eintrag darunter dir etwas verbietet. Was tatsächlich zu tun ist, steht im Titel des Eintrags, der beginnt immer mit einem Verb und sagt selbst, ob du etwas tun oder lassen sollst. In einem Abschnitt kommt beides vor: Abschnitt 4 enthält „Aus ‚habe ich vor' wird ‚um welche Uhrzeit, wo, und was tue ich, wenn etwas dazwischenkommt'" und ebenso „Fernsehen und Nachrichten-Ticker weglassen". Lies nach dem Titel des Eintrags, nicht nach dem Ton der Abschnittsüberschrift.
 
 Jede Empfehlung sieht so aus:
@@ -171,7 +171,7 @@ Jede Empfehlung trägt eine Evidenzstufe:
 | B | Es gibt Studien, aber keine genaue Zahl; oder es trägt nur eine kleine Stichprobe bzw. eine einzelne Studie |
 | C | Die Erfahrung des Autors oder eine allgemein anerkannte Praxis, ohne direkte Fachliteratur |
 
-Von den 630 Empfehlungen des Buchs haben 420 die Stufe A, 159 die Stufe B und 51 die Stufe C. Weitere 58 sind als Streitfall markiert, 35 Stellen als TODO noch zu prüfen. Streitige A- und B-Einträge sind mit „Streitfall" markiert und führen die Gegenevidenz auf. Alle Quellen sind Originalarbeiten (Fachaufsätze mit DOI- oder PubMed-Link, oder Berichte amtlicher Stellen wie WHO, CDC, Staatliches Statistikamt), keine Wiedergabe aus zweiter Hand. Unsichere Zahlen sind mit „noch zu prüfen" markiert.
+Von den 630 Empfehlungen des Buchs haben 420 die Stufe A, 159 die Stufe B und 51 die Stufe C. Weitere 58 sind als Streitfall markiert, 31 Stellen als TODO noch zu prüfen. Streitige A- und B-Einträge sind mit „Streitfall" markiert und führen die Gegenevidenz auf. Alle Quellen sind Originalarbeiten (Fachaufsätze mit DOI- oder PubMed-Link, oder Berichte amtlicher Stellen wie WHO, CDC, Staatliches Statistikamt), keine Wiedergabe aus zweiter Hand. Unsichere Zahlen sind mit „noch zu prüfen" markiert.
 
 ## Kosten-Nutzen-Stufen
 
@@ -183,7 +183,7 @@ Die Evidenzstufe beantwortet nur „ist diese Zahl glaubwürdig", nicht „lohnt
 | Höhe des Nutzens | hoch / mittel / niedrig | Möglichst nach der Zeile „Nutzen" des Eintrags selbst, nach vorher festgelegten Grenzen, nicht nach Gefühl: bei Lebenszeit der Rückgang in Prozent (≥20 % hoch, 10–20 % mittel, <10 % oder nur ein Zwischenwert statt des Endergebnisses niedrig); bei Geld der Betrag (zehntausend 元 hoch, einige hundert bis einige tausend 元 mittel, einige zehn 元 niedrig); bei persönlicher Freiheit die Folge (Strafrecht vermieden hoch, Haft oder Verwaltungsstrafe vermieden mittel, Zivilstreit vermieden niedrig); bei Zeit und Kraft das Gesparte (stundenweise pro Tag hoch, stundenweise pro Woche mittel, nur einmalig niedrig) |
 | Kosten-Nutzen-Verhältnis | sehr hoch / hoch / mittel | großer Nutzen und alle drei Kosten auf null = sehr hoch; großer Nutzen und niedrige Kosten, oder mittlerer Nutzen und Kosten null = hoch; der Rest = mittel |
 
-Von den 630 Empfehlungen des Buchs haben 108 ein sehr hohes Kosten-Nutzen-Verhältnis (17 %), 288 ein hohes (46 %) und 234 ein mittleres (37 %). Dass die mittlere Stufe so viele Einträge hat, ist Absicht: Die Höhe des Nutzens darunter ist ohnehin nur in hoch, mittel und niedrig geteilt, feiner zu unterteilen wäre vorgetäuschte Genauigkeit.
+Von den 630 Empfehlungen des Buchs haben 113 ein sehr hohes Kosten-Nutzen-Verhältnis (18 %), 287 ein hohes (46 %) und 230 ein mittleres (36 %). Dass die mittlere Stufe so viele Einträge hat, ist Absicht: Die Höhe des Nutzens darunter ist ohnehin nur in hoch, mittel und niedrig geteilt, feiner zu unterteilen wäre vorgetäuschte Genauigkeit.
 
 **Diese Stufe ist die Einschätzung des Autors, keine Evidenz**, nach den Maßstäben des Buchs zählt sie selbst nur als Stufe C. Sie und die Evidenzstufe sind zwei verschiedene Dinge, und keine beeinflusst die andere. Ein Eintrag kann Evidenzstufe A haben und das Kosten-Nutzen-Verhältnis trotzdem nur mittel (die Gürtelrose-Impfung hat eine Phase-III-RCT mit 97,2 % Wirksamkeit, aber zwei Spritzen kosten drei- bis viertausend 元 und Gürtelrose ist selten tödlich). Ebenso kann ein Eintrag nur Stufe C haben und das Verhältnis sehr hoch (die Reiseroute vor der Ausreise an die Familie schicken). „Mittel" heißt nicht, dass du es nicht tun solltest — alle Einträge des Buchs sind zur Umsetzung gedacht, nur diese Stufe heißt, dass du selbst abwägen musst, ob der Aufwand es wert ist.
 
