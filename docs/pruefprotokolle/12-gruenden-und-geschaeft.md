@@ -1,3 +1,222 @@
+# Überarbeitung 2026-10, Zielrichtung Deutschland
+
+Bearbeitung nach `review/auftrag-ueberarbeitung.md` (Runde 10) und `review/kapitel/12.md`.
+Inhaltlich überarbeitet wurden **22 der 23 Einträge**; bei **Nr. 18** wurde nur der Yuan-Betrag
+in Euro übernommen. Marker im Haupttext: `Angepasst` **22**, `Währung` **1** (Nr. 18),
+`Länge: begründet` **0**. Kein Eintrag gestrichen, kein Kostenlabel geändert. Tore:
+`grep -c 元` = 0; CJK-Suche = 0; `check-plain.mjs --stat` = 0 Beanstandungen in Kapitel 12
+(die einzige Beanstandung des Laufs betrifft Kapitel 13).
+
+## ① Sichtungspass
+
+| Nr. | Klasse | Ein-Zeilen-Grund |
+| --- | --- | --- |
+| 1 | ① | Kern (nur mit verkraftbarem Geld gründen) trägt; Träger China (ZGB/ Gesellschaftsgesetz) ersetzbar über § 421, § 1357 BGB, § 13 Abs. 2, § 19 GmbHG. |
+| 2 | ① | Bürgschaftsregeln ersetzbar über §§ 765, 766, 771, 773 BGB. |
+| 3 | ① | Rechtsformen ersetzbar über § 105, § 161, § 171 HGB und §§ 5, 7, 13, 30 GmbHG, § 15a InsO. |
+| 4 | ① | Vorgeschobener Gesellschafter ersetzbar über § 16, § 19, § 11 GmbHG; chinesischer Justizauslegungs-TODO entfällt. |
+| 5 | ② | Kern (vor dem Vertrag prüfen und Aufklärung verlangen) trägt; Träger China (Franchise-Register, Offenlegungspflicht) → Handelsregister, § 325/§ 335 HGB, § 311 Abs. 2 BGB. |
+| 6 | ① | Gewerbeanmeldung ersetzbar über § 14 GewO, § 29, § 18 HGB, §§ 5, 8, 11 GmbHG; chinesische Gebührenbefreiung entfällt. |
+| 7 | ① | Erlaubnispflicht ersetzbar über § 144 GewO und § 2 GastG. |
+| 8 | ① | Lebensmittel-Registrierung ersetzbar über Art. 6 VO (EG) 852/2004, Art. 4 VO (EG) 853/2004, § 2 GastG (BVL). |
+| 9 | ① | Kennzeichnung ersetzbar über § 11 und § 59 LFGB. |
+| 10 | ① | Werbeverbote ersetzbar über § 11 und § 59 LFGB. |
+| 11 | ① | Lebensmittelstrafrecht ersetzbar über § 58 LFGB (nicht § 12). |
+| 12 | ① | Meldepflichten ersetzbar über § 149, § 152 AO, § 18 UStG, § 28a SGB IV, § 6 DEÜV, § 24 SGB IV; chinesische 30-Tage-Frist und 0,05 % → 6 Wochen und 1 %. |
+| 13 | ① | Rechnungsausstellung ersetzbar über § 19, § 14, § 26c UStG und § 370 AO. |
+| 14 | ① | Betrugsmasche ersetzbar über § 196 AO, § 132, § 263 StGB; Hotline 12366 → Finanzamt/ELSTER. |
+| 15 | ② | Kern (Anzahlung nur mit Vereinbarung, Zahlungsziel prüfen) trägt; chinesische Verfallwirkung → Draufgabe § 336/§ 337, Reugeld § 353, Vertragsstrafe §§ 339, 343 BGB. |
+| 16 | ① | Arbeitsvertrag/Sozialversicherung ersetzbar über § 2, § 4 NachwG, § 28a SGB IV, § 6 DEÜV, § 24 SGB IV; 30 Tage → 6 Wochen. |
+| 17 | ① | Lohn/Darlehen ersetzbar über § 611a, § 614, § 492 BGB, § 688 ZPO. |
+| 18 | ① | Reine RCT-Angabe (Italien, Camuffo 2020); nur der Yuan-Betrag ist übernommen. |
+| 19 | ① | Muster→Serie ersetzbar über § 7 ProdSG (CE) und DPMA-Register. |
+| 20 | ① | Fälschungseinkauf ersetzbar über § 14, § 143 MarkenG und § 14 StGB; chinesische Betrags-/Stückzahlschwellen entfallen. |
+| 21 | ① | Fremde Bilder ersetzbar über § 23, § 106, § 108a UrhG und § 14 MarkenG. |
+| 22 | ① | Pflegekraft/Notfallhilfe ersetzbar über § 680, § 823 BGB, § 34 StGB, § 4 PflBG. |
+| 23 | ① | Geordneter Ausstieg ersetzbar über § 15a InsO und §§ 6, 60, 65, 66 GmbHG; chinesische 3-Jahres-Sperre entfällt. |
+
+Kapitelurteil: **grün** (kein ③). Deckt sich mit `review/kapitel/12.md` (D 1 · E 1 · Ü 21 · X 0).
+
+## Nachverifikation 2026-10-01 (Korrekturen nach unabhängigem Review)
+
+Sieben Befunde wurden am offenen Volltext auf `gesetze-im-internet.de` geprüft und im Haupttext
+korrigiert. Keine Änderung an Kostenlabel, Evidenzstufe, Empfehlung oder Titel.
+
+1. **Nr. 7 — § 144 GewO.** Geprüft: § 144 Abs. 4 GewO
+   (<https://www.gesetze-im-internet.de/gewo/__144.html>). Die Norm staffelt die Geldbuße nicht nach
+   Gefahr für Leben oder Gesundheit: 50.000 Euro nur „in den Fällen des Absatzes 1 Nummer 1
+   Buchstabe m und n und Nummer 2" (Finanzanlagevermittlung/-beratung, Bewachung auf See), sonst bis
+   5.000 Euro (Abs. 1 Nr. 1 a–l und o, Nr. 3, 4; Abs. 2 Nr. 1, 1a, 5–11). **Geändert:** Klartext und
+   Nutzen nennen jetzt „bis zu 5.000 Euro, nur bei der Finanzanlagevermittlung und -beratung ohne
+   Erlaubnis und bei der Bewachung auf See ohne Zulassung bis zu 50.000 Euro (§ 144 Abs. 4 GewO)";
+   der Zusatz „Gefahr für Leben oder Gesundheit" ist gestrichen, die Fundstelle von „Abs. 1 und
+   Abs. 2" auf „Abs. 4" berichtigt. Eine an Lebens-/Gesundheitsgefahr anknüpfende Staffel kennt die
+   Norm nicht; eine andere belegbare Norm wurde nicht ergänzt.
+2. **Nr. 15 — § 336/§ 337 BGB.** Geprüft: § 336 BGB (Abs. 2 lautet nur „Die Draufgabe gilt im
+   Zweifel nicht als Reugeld.") und § 337 BGB (Überschrift „Anrechnung oder Rückgabe der Draufgabe";
+   Abs. 1: Draufgabe ist „im Zweifel auf die von dem Geber geschuldete Leistung anzurechnen")
+   <https://www.gesetze-im-internet.de/bgb/__336.html>, <https://www.gesetze-im-internet.de/bgb/__337.html>.
+   **Geändert:** Nutzen zitiert die Anrechnung mit § 337 Abs. 1 BGB und die Verfallsseite mit § 336
+   Abs. 2 BGB; die Anmerkung behauptet nicht mehr, „wird angerechnet und verfällt im Zweifel nicht"
+   sei der Wortlaut des § 336 Abs. 2. Quellenzeile (nennt § 336 und § 337 bereits) und Marker
+   unverändert.
+3. **Nr. 17 — Darlehen.** Geprüft: § 492 Abs. 1 BGB gilt nur für „Verbraucherdarlehensverträge";
+   § 491 Abs. 2/3 BGB definiert diese als Verträge zwischen einem Unternehmer und einem Verbraucher,
+   ein Darlehen zwischen Privatpersonen fällt nicht darunter; § 488 BGB kennt keine Schriftform
+   (<https://www.gesetze-im-internet.de/bgb/__491.html>, `__492.html`, `__488.html`). **Geändert:**
+   Nutzen sagt jetzt „Ein Darlehen unter Privatpersonen kommt durch Einigung über den Geldbetrag
+   zustande (§ 488 BGB); eine bestimmte Form schreibt das Gesetz dafür nicht vor. Ein schriftlicher
+   Vertrag … erleichtert aber den Beweis." Marker und Quellenzeile von § 492 auf § 488 gezogen.
+4. **Nr. 9 Klartext.** Geprüft: § 59 Abs. 1 LFGB beginnt „Mit Freiheitsstrafe bis zu einem Jahr oder
+   mit Geldstrafe wird bestraft, wer …" (<https://www.gesetze-im-internet.de/lfgb/__59.html>).
+   **Geändert:** „Geldstrafe von bis zu einem Jahr" → „Freiheitsstrafe von bis zu einem Jahr"
+   (Klartext gibt damit nur wieder, was in der Nutzen-Spalte steht).
+5. **Nr. 9 Anmerkung.** Der China-Bezug „eine Entschädigung wie das Zehnfache in der Vorlage" ist
+   entfernt. **Geändert:** „Einen festen Entschädigungsbetrag in Höhe eines Vielfachen des
+   Kaufpreises sieht das deutsche Recht nicht vor; wie viel Ersatz ein Käufer verlangen kann, steht
+   in Abschnitt 5, Nr. 31 (Beweise sichern und Ersatz verlangen)." Ohne China-Angabe, Inhalt
+   erhalten (Verweis auf die deutsche Ersatzregel).
+6. **Nr. 5 — § 335 HGB.** Geprüft: § 335 HGB regelt ein Ordnungsgeldverfahren (Abs. 2 „Das
+   Ordnungsgeldverfahren ist ein Justizverwaltungsverfahren"), Abs. 1 „Das Ordnungsgeld beträgt
+   mindestens zweitausendfünfhundert und höchstens fünfundzwanzigtausend Euro"
+   (<https://www.gesetze-im-internet.de/hgb/__335.html>). **Geändert:** „sie begeht eine
+   Ordnungswidrigkeit" → „gegen sie wird ein Ordnungsgeld festgesetzt". Betrag unverändert.
+7. **Nr. 23 — § 66 GmbHG.** Geprüft: § 66 GmbHG trägt die Überschrift „Liquidatoren"; Abs. 1 „Die
+   Liquidation … erfolgt durch die Geschäftsführer" (<https://www.gesetze-im-internet.de/gmbhg/__66.html>).
+   **Geändert:** „Danach werden die offenen Geschäfte abgewickelt (§ 66 GmbHG)." → „Danach erfolgt
+   die Abwicklung durch die Liquidatoren; das sind in der Regel die bisherigen Geschäftsführer
+   (§ 66 GmbHG)."
+
+**Zusätzlich (Querverweis-Abgleich, manuell):** Der Verweis in Nr. 8 auf „Abschnitt 5, Nr. 31 (das
+Zehnfache bei Lebensmitteln)" beschrieb den Zieleintrag mit einer china-gebundenen Wendung, die
+nicht mehr zu dessen (in der Deutschland-Fassung umgestellten) Titel passt. Anker auf „(Beweise
+sichern und Ersatz verlangen)" aus dem Zieltitel gezogen. Die übrigen ausgehenden Verweise des
+Kapitels (Abschnitt 8, Nr. 18, Nr. 28, Nr. 2; Abschnitt 6, Nr. 10) tragen einen Anker aus dem
+Zieltitel.
+
+**Zu den bestehenden Zeilen in Abschnitt ② oben:** Nr. 7 („bei Lebens-/Gesundheitsgefahr bis
+50.000 €") und Nr. 17 („§ 492 BGB") wurden richtiggestellt.
+
+**Tore:** `grep -c 元 book/12-gruenden-und-geschaeft.md` = 0; CJK-Suche = 0;
+`node tools/check-plain.mjs --stat` = 0 Beanstandungen in Kapitel 12. `check-refs.mjs` und
+`sync-stats.mjs` in dieser Welle nicht ausgeführt (Auftrag).
+
+## ② Angepasste Einträge
+
+Alle Fundstellen sind deutsche Primärnormen auf `gesetze-im-internet.de`, sofern nicht anders
+angegeben; jede URL wurde einmal am offenen Volltext geprüft. Die Paragrafen stehen im
+Haupttext in der Quellen-Spalte, der Beleg-Nachweis hier.
+
+### Nr. 1 — Verkraftbares Geld
+- **Ersetzt:** ZGB Art. 56 (Einzelgewerbe), Art. 1064 (Ehegattenschulden), Gesellschaftsgesetz Art. 4/49 (Einlage) → § 421 BGB (Gesamtschuld), § 1357 BGB (Schlüsselgewalt nur Lebensbedarf), § 13 Abs. 2, § 19 GmbHG.
+- **Quelle:** <https://www.gesetze-im-internet.de/bgb/__421.html>, <https://www.gesetze-im-internet.de/bgb/__1357.html>, <https://www.gesetze-im-internet.de/gmbhg/__13.html>, <https://www.gesetze-im-internet.de/gmbhg/__19.html>. § 13 Abs. 2 GmbHG („nur mit dem Vermögen der Gesellschaft"); § 1357 BGB (Schlüsselgewalt; Firmenbürgschaft gehört nicht zum Lebensbedarf); § 19 GmbHG (Einzahlungspflicht).
+
+### Nr. 2 — Bürgschaft
+- **Ersetzt:** ZGB Art. 681, 687, 688 → § 765, § 766, § 771, § 773 BGB, § 421 BGB.
+- **Quelle:** <https://www.gesetze-im-internet.de/bgb/__765.html>, `__766.html`, `__771.html`, `__773.html`. § 771 BGB (Einrede der Vorausklage = einfache Bürgschaft), § 773 BGB (selbstschuldnerisch), § 766 BGB (Schriftform).
+
+### Nr. 3 — Rechtsform
+- **Ersetzt:** Gesellschaftsgesetz Art. 23, 47, 53 → § 105, § 161, § 171 HGB, § 5, § 7, § 13, § 30 GmbHG, § 15a InsO. Die chinesische 5-Jahres-Einzahlungsfrist (Art. 47) ist entfallen; an ihre Stelle tritt § 7 Abs. 2 GmbHG (ein Viertel je Gesellschafter, insgesamt die Hälfte des Mindeststammkapitals).
+- **Quelle:** <https://www.gesetze-im-internet.de/hgb/__105.html>, `__161.html`, `__171.html`; <https://www.gesetze-im-internet.de/gmbhg/__5.html>, `__7.html`, `__13.html`, `__30.html`; <https://www.gesetze-im-internet.de/inso/__15a.html>. § 128 HGB wurde **nicht** zitiert: die Seite `/hgb/__128.html` liefert den Text von § 129 HGB (Einwendungen und Einreden), nicht die Gesellschafterhaftung.
+
+### Nr. 4 — Vorgeschobener Gesellschafter
+- **Ersetzt:** Gesellschaftsgesetz Art. 32/33 (Gesellschafterverzeichnis) und der offene TODO zur Justizauslegung → § 16 Abs. 1, § 19 Abs. 2, § 11 Abs. 2 GmbHG.
+- **Quelle:** <https://www.gesetze-im-internet.de/gmbhg/__16.html>, `__19.html`, `__11.html`. § 16 Abs. 1 GmbHG (Gesellschafterliste), § 11 Abs. 2 GmbHG (Haftung der Handelnden vor Eintragung).
+
+### Nr. 5 — Franchise (②)
+- **Ersetzt:** Franchise-Verordnung Nr. 485 und Offenlegungs-Verfahren (Handelsministerium, Register pflicht, Bußgeld 10.000–100.000 元) → Handelsregister und Unternehmensregister, Offenlegung nach § 325 Abs. 1 HGB und Ordnungsgeld nach § 335 Abs. 1 HGB, vorvertragliche Aufklärung nach § 311 Abs. 2 BGB, § 241 Abs. 2 BGB, § 280 Abs. 1 BGB. Ein **deutsches Franchise-Register gibt es nicht**; die Prüfung erfolgt über Handelsregister und Unternehmensregister. Eine gesetzliche Rücktrittsfrist kennt das deutsche Recht nicht — sie ist vertraglich zu regeln.
+- **Quelle:** <https://www.gesetze-im-internet.de/bgb/__311.html>, `__241.html`, `__280.html`; <https://www.gesetze-im-internet.de/hgb/__325.html>, `__335.html`; <https://www.handelsregister.de>, <https://www.unternehmensregister.de>. § 335 Abs. 1 HGB (Ordnungsgeld 2.500–25.000 €, Bundesamt für Justiz).
+
+### Nr. 6 — Registrierung
+- **Ersetzt:** Marktteilnehmer-Verordnung (Registrierung, chinesische Gebührenbefreiung seit 2015) → § 14 GewO (Gewerbeanmeldung), § 29 und § 18 HGB, § 8, § 5, § 11 GmbHG. Titel: „gezeichnetes Kapital" → „Stammkapital".
+- **Quelle:** <https://www.gesetze-im-internet.de/gewo/__14.html>; <https://www.gesetze-im-internet.de/hgb/__29.html>, `__18.html`; <https://www.gesetze-im-internet.de/gmbhg/__8.html>, `__5.html`, `__11.html`.
+
+### Nr. 7 — Erlaubnispflicht
+- **Ersetzt:** Ahndungs-Verfahren Nr. 684 (Geldstrafe bis 10.000 元) und eigene Strafbarkeit des unerlaubten Betriebs → § 144 Abs. 4 GewO (Bußgeld bis 5.000 €; bis 50.000 € nur bei Finanzanlagevermittlung/-beratung ohne Erlaubnis und Seeschiffsbewachung ohne Zulassung) und § 2 Abs. 1 GastG.
+- **Quelle:** <https://www.gesetze-im-internet.de/gewo/__144.html>, <https://www.gesetze-im-internet.de/gastg/__2.html>.
+
+### Nr. 8 — Lebensmittel (Stufe)
+- **Ersetzt:** Lebensmittelgewerbeerlaubnis-Verfahren Nr. 78, Schlacht- und Tierseuchenrecht → Registrierung nach Art. 6 Abs. 2 VO (EG) Nr. 852/2004, Zulassung nach Art. 4 VO (EG) Nr. 853/2004, § 2 Abs. 1 GastG. Die chinesischen Warenwertschwellen entfallen.
+- **Quelle:** BVL, „Wer muss sich registrieren lassen?" <https://www.bvl.bund.de/SharedDocs/FAQ/DE/02_Unternehmer/01_Lebensmittel/11_FAQ_Gesetze_Pflichten_fuer_LM-Unternehmen/02_FAQ_Pflichten_Lebensmittelunternehmen.html> (trägt „Gemäß Artikel 6 Absatz 2 der Verordnung (EG) Nr. 852/2004 muss jeder einzelne Betrieb … bei der zuständigen Behörde eingetragen (registriert) werden"); <https://www.gesetze-im-internet.de/gastg/__2.html>.
+
+### Nr. 9 — Vorverpacktes Lebensmittel
+- **Ersetzt:** chinesisches Kennzeichnungsrecht / GB-Norm → § 11 Abs. 1 und § 59 LFGB (Verweis auf die LMIV). Die Strafdrohung steht in § 59 LFGB (bis 1 Jahr), **nicht** in § 12 LFGB („Weitere Verbote").
+- **Quelle:** <https://www.gesetze-im-internet.de/lfgb/__11.html>, <https://www.gesetze-im-internet.de/lfgb/__59.html>.
+
+### Nr. 10 — Heilversprechen
+- **Ersetzt:** Lebensmittelsicherheits-/Werbegesetz → § 11 Abs. 1, Abs. 1 Nr. 2, Abs. 3 und § 59 LFGB.
+- **Quelle:** <https://www.gesetze-im-internet.de/lfgb/__11.html>, `__59.html`.
+
+### Nr. 11 — Strafgrenze Lebensmittel
+- **Ersetzt:** Strafgesetzbuch (Gefährdung der Lebensmittelsicherheit) → § 58 LFGB (Abs. 1 bis 3 Jahre; Abs. 5 sechs Monate bis fünf Jahre; Abs. 6 Fahrlässigkeit bis 1 Jahr).
+- **Quelle:** <https://www.gesetze-im-internet.de/lfgb/__58.html>.
+
+### Nr. 12 — Meldepflicht
+- **Ersetzt:** chinesisches Steuer-/Sozialversicherungsrecht, 30-Tage-Frist, Säumniszuschlag 0,05 % → § 149, § 152 AO (0,25 %/Monat, mind. 25 €, max. 25.000 €), § 18 Abs. 1 UStG (bis 10. Tag), § 28a SGB IV, § 6 Abs. 1 DEÜV (**6 Wochen**), § 24 Abs. 1 SGB IV (1 %/Monat).
+- **Quelle:** <https://www.gesetze-im-internet.de/ao_1977/__149.html>, `__152.html`; <https://www.gesetze-im-internet.de/ustg_1980/__18.html>; <https://www.gesetze-im-internet.de/sgb_4/__28a.html>, `__24.html`; <https://www.gesetze-im-internet.de/deuev_2005/__6.html>. Die 6-Wochen-Frist steht in § 6 Abs. 1 DEÜV („spätestens innerhalb von sechs Wochen nach ihrem Beginn"); die chinesische 30-Tage-Frist ist ersatzlos entfallen.
+
+### Nr. 13 — Rechnungen
+- **Ersetzt:** chinesische Steuerrechtssätze (UStG Art. 205/225 StGB, Bekanntmachung Nr. 19/2023: 100.000 元 Monatsumsatz) → § 19 Abs. 1 UStG (25.000/100.000 €), § 14 UStG, § 26c UStG (bis 5 Jahre), § 370 AO.
+- **Quelle:** <https://www.gesetze-im-internet.de/ustg_1980/__19.html>, `__14.html`, `__26c.html`; <https://www.gesetze-im-internet.de/ao_1977/__370.html>. § 26b UStG ist „(weggefallen)"; zitiert ist § 26c UStG.
+
+### Nr. 14 — Steuerbetrug
+- **Ersetzt:** chinesische Steuerverwaltung und Hotline 12366 → § 196 AO (Prüfungsanordnung schriftlich), § 132 StGB (Amtsanmaßung bis 2 Jahre), § 263 StGB (Betrug; Abs. 3 sechs Monate bis zehn Jahre); Polizei 110; ELSTER.
+- **Quelle:** <https://www.gesetze-im-internet.de/ao_1977/__196.html>; <https://www.gesetze-im-internet.de/stgb/__132.html>, `__263.html`. Titel: „Steueramt … elektronisches Steuerportal und die 12366" → „Finanzamt … ELSTER und das Finanzamt".
+
+### Nr. 15 — Draufgabe (②)
+- **Ersetzt:** ZGB Art. 586 (20-%-Grenze), Art. 587 (Verfall/doppelte Rückgabe), Art. 588 (Wahlrecht Vertragsstrafe/Anzahlung) → § 336 (Abs. 2 Draufgabe im Zweifel kein Reugeld), § 337, § 353 BGB (Reugeld), § 339, § 340, § 341, § 343 BGB (Vertragsstrafe, Herabsetzung).
+- **Quelle:** <https://www.gesetze-im-internet.de/bgb/__336.html>, `__337.html`, `__339.html`, `__343.html`, `__353.html`. Die chinesische Verfallwirkung der „定金" hat keine deutsche Entsprechung; sie ist über die Vertragsstrafe zu regeln. Titel geändert.
+
+### Nr. 16 — Arbeitsvertrag
+- **Ersetzt:** chinesisches Arbeitsvertrags-/Sozialversicherungsrecht (doppelter Lohn, 30 Tage) → § 2 und § 4 NachwG (Bußgeld bis 2.000 €), § 28a SGB IV, § 6 Abs. 1 DEÜV (6 Wochen), § 24 Abs. 1 SGB IV.
+- **Quelle:** <https://www.gesetze-im-internet.de/nachwg/__2.html>, `__4.html`; <https://www.gesetze-im-internet.de/sgb_4/__28a.html>, `__24.html`; <https://www.gesetze-im-internet.de/deuev_2005/__6.html>.
+
+### Nr. 17 — Lohn
+- **Ersetzt:** Arbeitsvertragsgesetz und ZGB → § 611a, § 614, § 488 BGB (Darlehen unter Privatpersonen ist formfrei) und § 688 ZPO (Mahnverfahren statt „Zahlungsbefehl").
+- **Quelle:** <https://www.gesetze-im-internet.de/bgb/__611a.html>, `__614.html`, `__492.html`; <https://www.gesetze-im-internet.de/zpo/__688.html>.
+
+### Nr. 18 — Vorverkauf (nur Währung)
+- **Ersetzt:** nur der Yuan-Betrag („ein paar Zehn 元 bis ein paar Hundert 元") → Euro-Größenordnung. Sonst nichts; die RCT-Angabe (Italien, Camuffo 2020) bleibt. Marker `Währung`.
+- **Quelle:** unverändert (Camuffo et al. 2020, DOI 10.1287/mnsc.2018.3249).
+
+### Nr. 19 — Serienliste
+- **Ersetzt:** chinesische Pflichtzertifizierung / Lebensmittel-Betriebserlaubnis → § 7 ProdSG (CE-Kennzeichnung, korrekte Seite `/prodsg_2021/__7.html`) und DPMA-Register.
+- **Quelle:** <https://www.gesetze-im-internet.de/prodsg_2021/__7.html>; <https://register.dpma.de>.
+
+### Nr. 20 — Fälschungen
+- **Ersetzt:** chinesisches Straf-/Markenrecht samt Justizauslegung (Betrags- und Stückzahlschwellen) → § 14 Abs. 2 und § 143 MarkenG (bis 3 Jahre; gewerbsmäßig/Bande 3 Monate bis 5 Jahre), § 14 StGB (Handeln für einen anderen). Das deutsche Recht kennt keine Mindestbeträge; die Tat ist als solche strafbar.
+- **Quelle:** <https://www.gesetze-im-internet.de/markeng/__14.html>, `__143.html`; <https://www.gesetze-im-internet.de/stgb/__14.html>.
+
+### Nr. 21 — Fremde Bilder
+- **Ersetzt:** chinesisches Urheber-/Markenrecht (Betrags-, Stückzahl-, Gewinnschwellen) → § 23, § 106, § 108a UrhG, § 14 Abs. 2 MarkenG.
+- **Quelle:** <https://www.gesetze-im-internet.de/urhg/__23.html>, `__106.html`, `__108a.html`; <https://www.gesetze-im-internet.de/markeng/__14.html>.
+
+### Nr. 22 — Pflegekraft
+- **Ersetzt:** chinesische Pflegekräfte-Verordnung Nr. 517 und ZGB Art. 184 → § 680 BGB (Nothelfer nur Vorsatz/grobe Fahrlässigkeit), § 823 BGB, § 34 StGB, § 4 PflBG.
+- **Quelle:** <https://www.gesetze-im-internet.de/bgb/__680.html>, `__823.html`; <https://www.gesetze-im-internet.de/stgb/__34.html>; <https://www.gesetze-im-internet.de/pflbg/__4.html>. Das PflBG liegt unter `/pflbg/` (nicht `/pflbg_2017/`; jener Pfad liefert 404).
+
+### Nr. 23 — Geordneter Ausstieg
+- **Ersetzt:** chinesisches Registrierungs-/Insolvenz-/Bekanntmachungsrecht (20-Tage-Bekanntmachung, 3-Jahres-Sperre) → § 15a Abs. 1 und Abs. 4 InsO (3 Wochen Zahlungsunfähigkeit / 6 Wochen Überschuldung; bis 3 Jahre), § 6 Abs. 2 GmbHG (5-Jahre-Ausschluss), § 60, § 65, § 66 GmbHG.
+- **Quelle:** <https://www.gesetze-im-internet.de/inso/__15a.html>; <https://www.gesetze-im-internet.de/gmbhg/__6.html>, `__60.html`, `__65.html`, `__66.html`.
+
+## Zu prüfen / Unbelegt geblieben
+
+Keine. Beide ②-Einträge (Nr. 5 und Nr. 15) ließen sich belegen; es blieb kein Eintrag mit
+China-Bezug stehen. Einzelne Aussagen sind bewusst als Erfahrung (Stufe C) gekennzeichnet, wo
+der Klartext unverändert aus der Vorlage stammt (Nr. 17, Nr. 19); die Evidenzstufen wurden
+gegenüber der Ausgangsfassung nicht verändert.
+
+## Offene Punkte
+
+- **Nr. 5:** Das deutsche Recht kennt kein amtliches Franchise-Register; die Prüfung läuft über
+  Handelsregister und Unternehmensregister (Beleg). Eine gesetzliche Rücktrittsfrist existiert
+  nicht und muss vertraglich geregelt werden — das ist die belegte deutsche Rechtslage, nicht
+  ein Belegmangel.
+- **Nr. 18:** Der Euro-Betrag („wenige Euro bis ein paar Hundert Euro") ist eine Größenordnung,
+  kein amtlicher Festbetrag.
+
+---
+
 # Abschnitt 12: Quellenprüfprotokoll (2026-09-07)
 
 Vorgehen bei der Prüfung: Das WebSearch-Kontingent dieser Sitzung war erschöpft; für die Verortung der Vorschriften wurde stattdessen die Suchschnittstelle des Politikdokumentenbestands der chinesischen Regierungswebsite genutzt (sousuo.www.gov.cn/search-gov/data, nur um URLs zu finden, nicht als Quelle). Jede URL wurde zuerst mit WebFetch geöffnet, um Titel, Dokumentnummer und Paragrafen zu bestätigen; die Volltextseiten der Gesetze wurden zusätzlich mit curl in ein Scratchpad geladen (s12/page_*.html), nach dem Entfernen der Tags nach „Art. X" wörtlich verortet, und die folgenden Zitate stammen alle aus der lokalen Verortung. Die Seiten des Ministeriums für Personal und Soziales haben ein Anti-Scraping-Skript, WebFetch liefert eine leere Seite, deshalb wurde mit curl und dem vom Skript berechneten Cookie geöffnet und der Volltext geholt (Seitentitel und Versionszeile wurden abgeglichen). Das Zertifikat des Franchise-Systems des Handelsministeriums passt nicht zur Domain, WebFetch meldet einen Fehler, deshalb wurde mit curl -k geöffnet und der Titel abgeglichen. Die DOI leitet über doi.org zu pubsonline.informs.org und liefert dort 403, deshalb wurden Titelaufnahme und Zusammenfassung über die Crossref API und die Semantic Scholar API abgeglichen.

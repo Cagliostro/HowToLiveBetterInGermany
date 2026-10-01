@@ -11,7 +11,7 @@ export const REPO = 'https://github.com/Cagliostro/HowToLiveBetterInGermany';
 export const SITE = 'https://cagliostro.github.io/HowToLiveBetterInGermany/';
 // Die Eintragszahl steckt im Buchtitel. Sie wird von tools/sync-stats.mjs mitgeschrieben
 // (EDITS-Eintrag „Buchtitel"), nicht hier von Hand gepflegt.
-export const TITLE = 'Lebe besser: 629 Empfehlungen nach Kosten und Nutzen';
+export const TITLE = 'Lebe besser: 628 Empfehlungen nach Kosten und Nutzen';
 export const RELEASE = `${REPO}/releases/download/epub-latest`;
 
 // Durchgehend LF an alle Builds: unter Windows mit core.autocrlf=true wird CRLF ausgecheckt,
@@ -51,7 +51,7 @@ export function readBook() {
     return lines.slice(a, b).join('\n');
   };
   // Zwischen den Zeilen mit einem Leerzeichen verbinden: im Chinesischen brauchte es keines, im
-  // Deutschen klebten die Sätze sonst aneinander („… geht es.630 Empfehlungen …").
+  // Deutschen klebten die Sätze sonst aneinander („… geht es.628 Empfehlungen …").
   const description = between('# Lebe besser', '[![')
     .split('\n').slice(1).map(l => l.replace(/<[^>]+>/g, '').trim()).filter(Boolean).join(' ');
   const frontMd = between('## Fragen, die dieses Buch beantwortet', '## Inhalt');

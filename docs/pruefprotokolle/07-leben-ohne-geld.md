@@ -1,155 +1,232 @@
-# Quellenprüfprotokoll zu Abschnitt 7
+# Abschnitt 07: Quellenprüfprotokoll
 
-Prüfdatum 2026-09-07. Alle wurden mit WebFetch geöffnet. Die alten Pfade von gov.cn `/zhengce/…`, `/xinwen/…`, `/flfg/…` liefern meist 404, `/gongbao/…`, `/zhengce/zhengceku/…`, `/guoqing/…`, `/lianbo/…` lassen sich öffnen; die Seiten von mohrss.gov.cn liefern eine leere Seite (wahrscheinlich durch ein Frontend-Skript gerendert), mca.gov.cn liefert 403, moj.gov.cn und npc.gov.cn sind einmal eine Weiterleitungsschleife und einmal ein TLS-Handshake-Fehler, nhsa.gov.cn lässt sich öffnen, aber auf der Seite wurde keine Mitteilung zur Krankenversicherung der Einwohner von 2025 gefunden. Wo eine Originalseite sich nicht öffnen ließ, steht im Eintrag „noch zu prüfen" oder es wurde auf eine andere offizielle Seite ausgewichen und das vermerkt. Das Folgende unter „Original" sind die Sätze, die WebFetch von der Seite geholt hat.
+## Titel
 
-## 1. Arbeitslosengeld
-- <https://xzfg.moj.gov.cn/front/law/detail?LawID=517> — geöffnet (Datenbank der nationalen Verwaltungsvorschriften des Justizministeriums). Bestätigt: Verordnung über die Arbeitslosenversicherung [失业保险条例], Staatsratsverordnung Nr. 258, verkündet am 1999-01-22.
-  - Art. 14, Original: „Arbeitslose, die die folgenden Voraussetzungen erfüllen, können Arbeitslosengeld beziehen: (1) sie nehmen nach den Vorschriften an der Arbeitslosenversicherung teil, und ihre Einheit und sie selbst haben nach den Vorschriften die Beitragspflicht mindestens 1 Jahr erfüllt; (2) die Beschäftigung wurde nicht aus eigenem Willen beendet; (3) sie haben sich arbeitslos gemeldet und suchen Arbeit."
-  - Art. 17, Original: „Beträgt die kumulierte Beitragszeit 1 Jahr bis unter 5 Jahre, ist der Zeitraum für den Bezug von Arbeitslosengeld höchstens 12 Monate; beträgt die kumulierte Beitragszeit 5 Jahre bis unter 10 Jahre, ist der Zeitraum höchstens 18 Monate; beträgt die kumulierte Beitragszeit über 10 Jahre, ist der Zeitraum höchstens 24 Monate."
-  - Art. 18, Original: „Der Satz des Arbeitslosengeldes wird von der Volksregierung der Provinz, des autonomen Gebiets oder der regierungsunmittelbaren Stadt festgelegt, und zwar auf einem Niveau unterhalb des örtlichen Mindestlohns und oberhalb der städtischen Mindestsicherung."
-- <https://www.12333.gov.cn/portal/common/bszn/sydysl?pfaId=202105281700000004> — geöffnet (Leitfaden des Ministeriums für Personal und Soziales, nationale Plattform für Personal- und Sozialangelegenheiten). Original: „Arbeitslose, die mindestens 1 Jahr Beiträge gezahlt haben und deren Beschäftigung nicht aus eigenem Willen beendet wurde"; Kanäle, Original: „die nationale Plattform für Personal- und Sozialangelegenheiten oder die nationale Serviceplattform für Sozialversicherung", „die mobile App Handy 12333", „der Kanal der elektronischen Sozialversicherungskarte (alle Apps, Mini-Programme und offiziellen Konten, die die elektronische Sozialversicherungskarte freigeschaltet haben)".
-- <https://www.ndrc.gov.cn/fggz/jyysr/jysrsbxf/202206/t20220627_1328819.html> — geöffnet (Abteilung für Beschäftigung der Staatlichen Kommission für Entwicklung und Reform, 2022-06-27). Original: „Der Satz des Arbeitslosengeldes wird schrittweise auf 90 % des Mindestlohns angehoben". Auf der Seite steht keine Dokumentnummer.
-- Nicht bestätigt: Die Originalseite der Leitlinie des Ministeriums für Personal und Soziales zur Anpassung des Satzes des Arbeitslosengeldes [关于调整失业保险金标准的指导意见] <http://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/gfxwj/shbx/201709/t20170925_278080.html> liefert eine leere Seite; die Erläuterungsseiten der Regierungswebsite <https://www.gov.cn/zhengce/2017-09/27/content_5227865.htm> und <https://www.gov.cn/xinwen/2017-09/26/content_5227678.htm> liefern 404; das big5-Gateway läuft in eine Weiterleitungsschleife. Die Dokumentnummer ist nicht verifiziert, die Anmerkung des Eintrags ist mit „Dokumentnummer noch zu prüfen" markiert.
-- Nicht verwendet: si.12333.gov.cn/184890.jhtml und /184927.jhtml liefern beim Öffnen nur die zwei Zeichen „Startseite".
+„07. Leben ohne Geld" — 21 Einträge. Datei: `book/07-leben-ohne-geld.md`.
 
-## 2. Arbeitsstreitschlichtung, ausstehender Lohn, Rechtshilfe
-- <https://chinajob.mohrss.gov.cn/h5/c/2022-07-15/356212.shtml> — geöffnet (China-Jobbörse, unterstellt dem Ministerium für Personal und Soziales, Domain mohrss.gov.cn). Bestätigt: Gesetz über Schlichtung und Schiedsverfahren in Arbeitsstreitigkeiten [劳动争议调解仲裁法], Präsidialerlass Nr. 80, angenommen am 2007-12-29, in Kraft seit 2008-05-01.
-  - Art. 53, Original: „Das Schiedsverfahren in Arbeitsstreitigkeiten ist gebührenfrei. Die Kosten des Schlichtungsausschusses für Arbeitsstreitigkeiten werden aus öffentlichen Mitteln getragen."
-  - Art. 27 Abs. 1, Original: „Die Frist für die Beantragung eines Schiedsverfahrens in einer Arbeitsstreitigkeit beträgt ein Jahr. Die Schiedsfrist wird ab dem Tag berechnet, an dem die Partei von der Verletzung ihres Rechts erfährt oder erfahren sollte."
-  - Art. 43 Abs. 1, Original: „Sie soll innerhalb von 45 Tagen ab dem Tag der Annahme des Schiedsantrags durch den Schlichtungsausschuss für Arbeitsstreitigkeiten abgeschlossen werden. ... Die Verlängerung darf 15 Tage nicht überschreiten."
-  - Derselbe Artikel wurde zusätzlich auf der Seite der Entwicklungs- und Reformkommission Shanghai <https://fgw.sh.gov.cn/ys-laogong-1.7.1.1/20240125/8842664277d44777ab8785e9cff148b4.html> geöffnet und stimmt überein. Die beiden Pfade /flfg/ und /ziliao/flfg/ auf gov.cn sind beide 404; die Seite des Amtsblatts des Obersten Volksgerichts ist 502.
-- <https://www.gov.cn/gongbao/content/2020/content_5469641.htm> — geöffnet. Bestätigt: Verordnung über die Sicherung der Lohnzahlung an Wanderarbeiter [保障农民工工资支付条例], Staatsratsverordnung Nr. 724, angenommen am 2019-12-04, in Kraft seit 2020-05-01.
-  - Art. 10, Original: „Wanderarbeiter, denen Lohn vorenthalten wird, haben das Recht, sich nach dem Gesetz zu beschweren oder ein Schlichtungs- und Schiedsverfahren in einer Arbeitsstreitigkeit zu beantragen und Klage zu erheben. Jede Einheit und jede Person hat bei vorenthaltenem Wanderarbeiterlohn das Recht, dies bei der Personal- und Sozialverwaltungsbehörde oder einer anderen zuständigen Behörde zu melden."
-  - Art. 41, Original (Auszug): „Bei Verdacht auf die Straftat der Weigerung, Arbeitsentgelt zu zahlen, ist die Sache nach den einschlägigen Vorschriften unverzüglich an die öffentliche Sicherheitsbehörde zur Prüfung und Entscheidung zu übergeben."
-- <https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/202504/t20250402_4053713.html> — geöffnet (Volltextnachdruck der Regierungswebsite Pekings, lokale offizielle Seite). Bestätigt: Rechtshilfegesetz [法律援助法], angenommen am 2021-08-20, in Kraft seit 2022-01-01.
-  - Art. 2, Original: „Rechtshilfe im Sinne dieses Gesetzes ist ein vom Staat eingerichtetes System, das wirtschaftlich bedürftigen Bürgern und anderen Personen, die die gesetzlichen Voraussetzungen erfüllen, unentgeltlich Rechtsberatung, Vertretung, Strafverteidigung und andere Rechtsdienste zur Verfügung stellt"
-  - Art. 31 Nr. 5, Original: „die Beantragung der Feststellung eines Arbeitsverhältnisses oder der Zahlung von Arbeitsentgelt"
-  - Art. 42, Original (Auszug): „von der Prüfung der wirtschaftlichen Not wird abgesehen: ... (3) Stadtarbeiter, die die Zahlung von Arbeitsentgelt oder Schadenersatz für Personenschäden durch einen Arbeitsunfall beantragen"
-  - Die Seiten des Justizministeriums moj.gov.cn (zwei URLs) laufen in eine Weiterleitungsschleife, npc.gov.cn (Website des Nationalen Volkskongresses) hat einen TLS-Fehler, der Pfad gov.cn/xinwen ist 404, deshalb wurde die Nachdruckseite der Regierungswebsite Pekings verwendet.
-- Hotline 12348: Die relevanten Seiten des Justizministeriums lassen sich alle nicht öffnen, nicht bestätigt; die Anmerkung des Eintrags vermerkt, dass die Nummer im geprüften Originaltext nicht vorkommt.
+## Sichtungspass (2026-10-01)
 
-## 3. Nothilfeeinrichtungen
-- <https://www.gov.cn/gongbao/content/2003/content_62246.htm> — geöffnet. Bestätigt: Verwaltungsvorschrift über die Hilfe für mittellose Obdachlose und Bettler in den Städten [城市生活无着的流浪乞讨人员救助管理办法], Staatsratsverordnung Nr. 381, verkündet am 2003-06-20, in Kraft seit 2003-08-01.
-  - Art. 5, Original: „Stellen Bedienstete der öffentlichen Sicherheitsbehörde und anderer zuständiger Verwaltungsbehörden bei der Ausübung ihres Dienstes Obdachlose und Bettler fest, sollen sie ihnen sagen, dass sie sich an eine Nothilfeeinrichtung wenden können; sind darunter Menschen mit Behinderung, Minderjährige, alte Menschen und andere Menschen mit eingeschränkter Bewegung, sollen sie sie zur Nothilfeeinrichtung führen und begleiten."
-  - Art. 6, Original: „Obdachlose und Bettler, die sich an eine Nothilfeeinrichtung wenden, sollen ihren Namen und andere grundlegende Angaben zur Person wahrheitsgemäß angeben und die mitgeführten Gegenstände in der Nothilfeeinrichtung registrieren lassen"
-  - Art. 7: Essen, Unterkunft, bei plötzlicher Krankheit ins Krankenhaus, Kontakt zu Angehörigen und zur Einheit, Fahrschein (WebFetch gibt eine Zusammenfassung, die mit dem Eintrag übereinstimmt).
-- <https://www.gov.cn/gongbao/content/2003/content_62510.htm> — geöffnet. Bestätigt: Durchführungsbestimmungen [实施细则], Verordnung Nr. 24 des Ministeriums für Zivilangelegenheiten, verkündet am 2003-07-21, in Kraft seit 2003-08-01.
-  - Art. 12, Original: „Die Nothilfeeinrichtung soll die Dauer der Hilfe nach der Lage der unterstützten Person festlegen, in der Regel höchstens 10 Tage"
-  - Art. 11, Original: „Hat eine unterstützte Person bei der Rückkehr zum Ort der ständigen Haushaltsregistrierung, zum Wohnort oder zur Einheit kein Geld für die Fahrt, gibt die Nothilfeeinrichtung einen Fahrschein für Bus (Schiff) aus"
+Grundlage: `sichtung-restkapitel.md` (Abschnitt 7 = **gelb**, 7 Einträge in Gruppe ②, 0 in Gruppe ③)
+und `book/07-leben-ohne-geld.md` (21 Einträge). Maßstab sind REQ-65 (deutsche Entsprechung statt
+Mitübersetzung), REQ-68 (kein `元`), REQ-70 (nur offen zugängliche Quellen) und REQ-72
+(Sichtungspass vor dem Schreiben).
 
-## 4. Notfälle zuerst behandeln
-- <https://www.gov.cn/zhengce/zhengceku/2013-03/01/content_6069.htm> — geöffnet. Bestätigt: Dokument Nr. 15 des Staatsratsbüros von 2013 [国办发〔2013〕15 号], ausgefertigt am 2013-02-22.
-  - Original: „Patienten, bei denen es in China zu einem akuten schweren oder lebensgefährlichen Krankheits- oder Verletzungsfall kommt, die eine Notfallbehandlung brauchen, deren Identität aber unklar ist oder die die entsprechenden Kosten nicht tragen können"
-  - Original: „Alle medizinischen Einrichtungen aller Ebenen und Arten und ihre Beschäftigten müssen Patienten mit akuten schweren oder lebensgefährlichen Verletzungen rechtzeitig und wirksam behandeln und dürfen die Behandlung aus keinem Grund verweigern, abwimmeln oder verzögern"
-  - Original: „1. Notfallkosten von Patienten, deren Identität nicht ermittelt werden kann. 2. Notfallkosten, die Patienten schulden, deren Identität klar ist, die aber die Gebühren nicht zahlen können"
-- <https://www.gov.cn/gongbao/content/2014/content_2580977.htm> — geöffnet. Bestätigt: Verwaltungsvorschrift über den präklinischen medizinischen Notdienst [院前医疗急救管理办法], Verordnung Nr. 3 der Nationalen Gesundheits- und Familienplanungskommission, verkündet am 2013-11-29, in Kraft seit 2014-02-01.
-  - Art. 25, Original: „Notdienstzentralen (-stellen) und am Notdienstnetz beteiligte Krankenhäuser erheben die Gebühren für den präklinischen medizinischen Notdienst nach den einschlägigen staatlichen Vorschriften und dürfen den präklinischen medizinischen Notdienst nicht aus Kostengründen verweigern oder verzögern."
-  - Art. 37, Original (Auszug): „(3) wenn eine Notdienstzentrale (-stelle) den präklinischen medizinischen Notdienst aus Gründen der Einsatzleitung oder der Kosten verweigert, abwimmelt oder verzögert"
+**Ergebnis: Gruppe ③ = 0, Klasse X = 0.** Kein Eintrag hat einen china-exklusiven Kern; sieben
+Einträge tragen einen china-gebundenen Weg oder eine china-gebundene Leistung, für die die deutsche
+Entsprechung belegbar ist (Gruppe ②). Die übrigen sind china-frei oder rein erfahrungsbasiert.
 
-## 5. Öffentlicher Beschäftigungsservice, Markt für Gelegenheitsjobs
-- <https://www.gov.cn/guoqing/2021-10/29/content_5647636.htm> — geöffnet. Bestätigt: Gesetz zur Förderung der Beschäftigung [就业促进法], angenommen am 2007-08-30, geändert am 2015-04-24.
-  - Art. 35, Original: „Den Arbeitnehmern werden folgende Leistungen kostenlos zur Verfügung gestellt: (1) Beratung zu Beschäftigungsgesetzen und -vorschriften; (2) Veröffentlichung von Informationen über Angebot und Nachfrage auf dem Arbeitsmarkt, über Richtwerte der Marktlöhne und über Berufsausbildung; (3) Berufsberatung und Arbeitsvermittlung; (4) Unterstützung von Personen mit Schwierigkeiten bei der Arbeitssuche; (5) Erledigung der Arbeits- und Arbeitslosmeldung und anderer Angelegenheiten; (6) andere öffentliche Beschäftigungsservices." (Art. 52 und 53 siehe Nr. 10)
-- <https://www.gov.cn/zhengce/zhengceku/2022-07/09/content_5700177.htm> — geöffnet. Bestätigt: Dokument Nr. 38 des Ministeriums für Personal und Soziales von 2022 [人社部发〔2022〕38 号], 2022-06-22.
-  - Original: „Die Registrierung und Veröffentlichung von Stellen- und Bewerberinformationen für Gelegenheitsjobs wird der Allgemeinheit kostenlos zur Verfügung gestellt."; „die Informationen über Gelegenheitsjobs werden in den Bereich der öffentlichen Beschäftigungsinformation aufgenommen"; „die Unterstützung für Gelegenheitsarbeiter mit langer Wartezeit, aus einkommensschwachen Haushalten, mit Behinderung und andere ältere und bedürftige Gelegenheitsarbeiter wird verstärkt"
-  - Hinweis: Der Auftrag nannte „das Dokument des Ministeriums für Personal und Soziales zum Markt für Gelegenheitsjobs von 2023", tatsächlich ist das Dokument auf nationaler Ebene das Dokument Nr. 38 von 2022; der Eintrag schreibt nach dem Prüfergebnis das Jahr 2022.
+| Nr. | Titel (Vorlage, gekürzt) | Klasse | Begründung in einer Zeile |
+|---|---|---|---|
+| 1 | Bei Arbeitslosigkeit zuerst online Arbeitslosengeld beantragen | ① | Chin. Antrag (12333/WeChat/Alipay) → SGB III, belegbar. |
+| 2 | Bei ausstehendem Lohn zuerst die Arbeitsaufsicht … | ② | Chin. Lohnschutz/Schlichtung → BGB/ZPO/MiLoG/SGB III. |
+| 3 | Wenn du dir einen Prozess nicht leisten kannst, beantrage Rechtshilfe | ① | Chin. Hotline 12348 → BerHG/ZPO. |
+| 4 | Wenn du nicht mehr weiterweißt, geh in die Nothilfeeinrichtung … | **②** | Chin. Nothilfe mit 10-Tage-Frist → SGB XII. |
+| 5 | Für die Arbeitssuche zuerst die kostenlose öffentliche Arbeitsvermittlung … | ① | Chin. Vermittlung/Gelegenheitsjobs → SGB III, BA. |
+| 6 | Bei plötzlichem Unglück zuerst Übergangshilfe beantragen | ① | Chin. Übergangshilfe → SGB XII. |
+| 7 | Liegt dein Einkommen unter der örtlichen Mindestgrenze, beantrage Mindestsicherung | ① | Chin. Mindestsicherung → SGB II (Bürgergeld). |
+| 8 | Mit Schwerbehindertenausweis die beiden Zuschüsse … | **②** | Chin. Zuschüsse/Provinzsätze → SGB IX/EStG/SGB XI. |
+| 9 | Einwohner-Krankenversicherung: die 400 元 im Jahr … | ① | Chin. Einwohner-KV → SGB V. |
+| 10 | Bei schwerer Krankheit zuerst Krankenversicherung … | **②** | Chin. „dreifaches System" → EFZG/SGB V/VII/XII. |
+| 11 | Personalausweis verloren: sofort neu beantragen … | ① | Chin. Ausweisrecht (60 Tage) → PAuswG. |
+| 12 | Nach der Arbeitslosmeldung die Anerkennung als Person mit Schwierigkeiten … | **②** | Chin. Zuschuss/Gemeinwohlstelle → SGB II. |
+| 13 | In der Arbeitslosigkeit Zuschüsse für Berufstraining … | **②** | Chin. Trainingszuschüsse → SGB III. |
+| 14 | Bei der Arbeitssuche nicht nur Bewerbungen schicken … | ① | Studie Liu 2014, China-Bezug der Anmerkung entfernen. |
+| 15 | Keine Kaution zahlen, keine Ausweise hinterlegen … | ① | Chin. Verbote/Bußgelder → PAuswG/BGB/StGB. |
+| 16 | Bei Wohnungsnot zuerst auf die Warteliste für eine Sozialmietwohnung | ① | Chin. Sozialmiete → WoFG/WoGG. |
+| 17 | Wohnen und Essen auf das Minimum drücken … | ① | Chin. Pro-Kopf-Ausgaben/Mindestlöhne → destatis EVS. |
+| 18 | Keine Panik bei einer Beitragslücke in der Sozialversicherung … | ① | Chin. Punkte/Hukou/15 Jahre → SGB VI/V. |
+| 19 | Nach Haft, Insolvenz oder Eintrag in die Liste der Vertrauensunwürdigen … | **②** | Chin. Register/Privatinsolvenz → InsO/ZPO/BZRG. |
+| 20 | Vor einer schweren Krankheit zusätzlich … Versicherung für schwere Krankheiten … | **②** | Chin. einjährige KV/28+3 → VVG/SGB V. |
+| 21 | Wenn du wirklich keinen Schlafplatz hast, taugen 24-Stunden-Läden … | ① | Erfahrung des Autors, keine China-Angabe — unverändert. |
 
-## 6, 7. Übergangshilfe, Mindestsicherung
-- <https://www.gov.cn/gongbao/content/2019/content_5468952.htm> — geöffnet (Sonderbeilage des Staatsratsanzeigers 2019). Bestätigt: Vorläufige Maßnahmen zur sozialen Hilfe [社会救助暂行办法], Staatsratsverordnung Nr. 649, verkündet am 2014-02-21, geändert durch Staatsratsverordnung vom 2019-03-02.
-  - Art. 9, Original: „Der Staat gewährt die Mindestsicherung Haushalten, deren Pro-Kopf-Einkommen der gemeinsam lebenden Familienmitglieder unter dem örtlichen Mindestsicherungssatz liegt und die den örtlichen Vorschriften über die Vermögensverhältnisse von Mindestsicherungshaushalten entsprechen."
-  - Art. 10, Original: „Der Mindestsicherungssatz wird von der Volksregierung der Provinz, des autonomen Gebiets oder der regierungsunmittelbaren Stadt oder der Stadt mit Stadtbezirken nach den örtlichen notwendigen Lebenshaltungskosten festgelegt und veröffentlicht und nach dem örtlichen Stand der wirtschaftlichen und sozialen Entwicklung und der Preisentwicklung rechtzeitig angepasst."
-  - Art. 11 Abs. 1, Original: „Die gemeinsam lebenden Familienmitglieder stellen einen schriftlichen Antrag bei der Gemeindeverwaltung oder der Stadtteilverwaltung des Ortes der Haushaltsregistrierung; haben Familienmitglieder Schwierigkeiten, den Antrag zu stellen, können sie das Dorf- oder Stadtteilkomitee beauftragen, den Antrag für sie zu stellen."
-  - Art. 47, Original: „Der Staat gewährt Übergangshilfe für Haushalte, bei denen durch einen Brand, einen Verkehrsunfall oder ein anderes unvorhergesehenes Ereignis, eine plötzliche schwere Erkrankung eines Familienmitglieds oder ähnliche Gründe die grundlegende Lebensführung vorübergehend in schwere Schwierigkeiten gerät..."
-  - Art. 48, Original: „Wer Übergangshilfe beantragt, soll sich an die Gemeindeverwaltung oder die Stadtteilverwaltung wenden; nach Prüfung und öffentlicher Bekanntmachung entscheidet die Sozialbehörde der Kreisverwaltung."
-  - Art. 49, Original: „Die konkreten Gegenstände und Sätze der Übergangshilfe werden von der Volksregierung auf Kreisebene oder höher festgelegt und veröffentlicht."
-- <https://www.gov.cn/lianbo/bumen/202509/content_7042627.htm> — geöffnet (Bericht des Nationalen Statistikamts, 2025-09-28).
-  - Original: „Ende 2024 betrug die Zahl der Mindestsicherungsempfänger in den Städten und auf dem Land 6.250.000 bzw. 33.615.000; die durchschnittlichen Mindestsicherungssätze in Stadt und Land betrugen 798,1 元 bzw. 593,9 元 pro Person und Monat"
-- <https://www.gov.cn/zhengce/zhengceku/202403/content_7007237.htm> — geöffnet. Bestätigt: Dokument Nr. 16 des Ministeriums für Zivilangelegenheiten von 2024 [民发〔2024〕16 号], Ministerium für Zivilangelegenheiten und drei weitere Stellen, 2024-03-21.
-  - Original: „Mindestsicherungssatz = durchschnittliche Konsumausgaben der städtischen (ländlichen) Einwohner des Ortes im Vorjahr × Quantifizierungsquote."
-- Nicht verwendet: Die Seite der Quartalsstatistik des Ministeriums für Zivilangelegenheiten mca.gov.cn liefert 403, die Indexseite der Mindestsicherungssätze reicht nur bis zum ersten Quartal 2022; das PDF des Statistischen Jahresberichts 2024 über die Entwicklung der Zivilangelegenheiten (mca.gov.cn …/400985.pdf) lässt sich herunterladen, aber die Textextraktion schlug fehl, deshalb nicht zitiert. Die Nachrichtenseite von gov.cn content_7053625 vom 2026-01-01 enthält „bis Ende Oktober 2025 … 39.104.000 Mindestsicherungsempfänger", aber keine durchschnittlichen Satzzahlen, deshalb nicht zitiert.
+**Kapitelverdikt: gelb.** 20 Einträge werden umgestellt, Nr. 21 bleibt unberührt. Keiner wird
+gestrichen.
 
-## 8. Krankenversicherung der Einwohner
-- <https://www.nhsa.gov.cn/art/2024/8/26/art_105_13634.html> — geöffnet (Politikerläuterung der Nationalen Krankenversicherungsbehörde, 2024-08-26, Dokument Nr. 19 der Krankenversicherungsbehörde von 2024 [医保发〔2024〕19 号]).
-  - Original: „Der Finanzierungszuschuss und der persönliche Beitragssatz steigen gegenüber dem Vorjahr um 30 元 bzw. 20 元 und betragen je Person und Jahr mindestens 670 元 bzw. 400 元"
-- <https://www.renqiu.gov.cn/renqiu/ybjbmwj/202510/6d90754638a248cba655e94ea518a3bb.shtml> — geöffnet (Nachdruck der Regierungswebsite der Stadt Renqiu, Dokumente der Krankenversicherungsbehörde der Provinz Hebei u. a., Dokument Nr. 6 der Krankenversicherungsbehörde der Provinz Hebei von 2025 [冀医保发〔2025〕6 号], 2025-09-25, lokales Dokument).
-  - Original: „Der durchschnittliche Finanzierungszuschuss der Krankenversicherung der Einwohner wird 2025 gegenüber dem Vorjahr um 30 元 erhöht und erreicht mindestens 700 元 je Person und Jahr"; „kann mindestens 400 元 je Person und Jahr beibehalten werden"; „vollständige Finanzierung für besonders bedürftige Personen und Waisen, für Empfänger der Mindestsicherung und für Überwachungsobjekte zur Verhinderung der Rückkehr in Armut, die in die Überwachung aufgenommen und deren Risiko nicht beseitigt ist, wird eine pauschale Finanzierung von mindestens 60 % gewährt"
-  - Nicht bestätigt: Die Bekanntmachung der Nationalen Krankenversicherungsbehörde über die Arbeit an der grundlegenden medizinischen Absicherung der städtischen und ländlichen Einwohner 2025 [关于做好 2025 年城乡居民基本医疗保障有关工作的通知] (Suchergebnisse nennen Dokument Nr. 22 der Krankenversicherungsbehörde von 2025 [医保发〔2025〕22 号]) ließ sich weder auf nhsa.gov.cn noch auf gov.cn als Originalseite finden, die Anmerkung des Eintrags ist mit „noch zu prüfen" markiert. Die nationale Bekanntmachung von 2026 wurde bis zum Prüfdatum nicht gefunden.
-- <https://www.gov.cn/gongbao/content/2021/content_5659514.htm> — geöffnet. Bestätigt: Dokument Nr. 42 des Staatsratsbüros von 2021 [国办发〔2021〕42 号], 2021-10-28.
-  - Original: „Vollständige Finanzierung besonders bedürftiger Personen, pauschale Finanzierung von Mindestsicherungsempfängern und Personen, die in Armut zurückgefallen sind."; „für die vorschriftsgemäßen medizinischen Kosten von Mindestsicherungsempfängern und besonders bedürftigen Personen kann eine Unterstützung von mindestens 70 % gewährt werden"
-- <https://www.gov.cn/zhengce/content/202408/content_6965741.htm> — geöffnet. Bestätigt: Dokument Nr. 38 des Staatsratsbüros von 2024 [国办发〔2024〕38 号], ausgefertigt am 2024-07-26.
-  - Original: „Für Personen, die nicht innerhalb der zentralen Anmeldefrist der Krankenversicherung der Einwohner beigetreten sind oder nicht durchgehend versichert waren, wird nach dem Beitritt eine feste Wartezeit von 3 Monaten festgesetzt"; „wer nicht durchgehend versichert war, für den verlängert sich die Wartezeit grundsätzlich um 1 Monat je weiteres Jahr ohne Versicherung, zusätzlich zur festen Wartezeit"
-  - Dasselbe Dokument wurde zusätzlich unter <https://app.www.gov.cn/govdata/gov/202408/01/517878/article.html> geöffnet und stimmt überein, dort steht auch „für jedes weitere Beitragsjahr kann die variable Wartezeit um 1 Monat verkürzt werden".
-- <https://www.nhsa.gov.cn/art/2026/3/5/art_14_19809.html> — geöffnet (Nationale Krankenversicherungsbehörde, 2026-03-05). Original: „Der durchschnittliche Finanzierungszuschuss der Krankenversicherung der Einwohner wird um 24 元 erhöht."
+## Überarbeitungsrunde (2026-10-01)
 
-## 9. Personalausweis
-- <https://www.gov.cn/gongbao/content/2003/content_62254.htm> — geöffnet. Bestätigt: Gesetz über den Personalausweis [居民身份证法], Präsidialerlass Nr. 4, 2003-06-28.
-  - Art. 12, Original: „Die öffentliche Sicherheitsbehörde soll binnen 60 Tagen ab dem Tag, an dem der Bürger das „Antragsformular für den Personalausweis" [居民身份证申领登记表] einreicht, den Personalausweis ausstellen."
-  - Art. 20, Original: „Beantragt ein Bürger die Ausstellung, den Umtausch oder die Neuausstellung eines Personalausweises, so hat er die Gebühr für das Dokument zu entrichten. Der Satz der Personalausweisgebühr wird von der zuständigen Preisbehörde des Staatsrates gemeinsam mit der Finanzbehörde des Staatsrates festgelegt."
-  - Hinweis: Zitiert ist der 2003 verkündete Text; das Gesetz wurde 2011 geändert, die Anmerkung des Eintrags weist darauf hin.
-- <https://www.gov.cn/zhengce/2021-12/25/content_5712922.htm> — geöffnet. Bestätigt: Verwaltungsvorschrift über den vorläufigen Personalausweis [临时居民身份证管理办法], Verordnung Nr. 78 des Ministeriums für öffentliche Sicherheit, 2005-06-07, in Kraft seit 2005-10-01.
-  - Art. 2, Original: „Wer während des Antrags auf Ausstellung, Umtausch oder Neuausstellung eines Personalausweises dringend einen Personalausweis braucht, kann einen vorläufigen Personalausweis beantragen."
-  - Art. 7, Original: „Die Gültigkeitsdauer des vorläufigen Personalausweises beträgt drei Monate"
-  - Art. 9, Original: „Man kann bei der Polizeistation des Ortes der ständigen Haushaltsregistrierung einen vorläufigen Personalausweis beantragen."
-  - Art. 12, Original: „und stellt den vorläufigen Personalausweis binnen drei Tagen nach Erhalt des Antrags dem Antragsteller aus."
-  - Art. 17, Original: „Beantragt ein Bürger die Ausstellung, den Umtausch oder die Neuausstellung eines vorläufigen Personalausweises, so hat er die Gebühr für das Dokument zu entrichten."
+Reihenfolge: zuerst die sieben ②-Einträge (Nr. 4, 8, 10, 12, 13, 19, 20), dann die übrigen
+china-gebundenen Angaben, zuletzt Einleitung und Gates. Jede neu gesetzte Quellenangabe wurde am
+offenen Volltext von `gesetze-im-internet.de`, `arbeitsagentur.de`, `bundesregierung.de` oder
+`destatis.de` geprüft (REQ-70), die Normen im Wortlaut nachgelesen. Keine Bezahlschranke, keine
+Anmeldung.
 
-## 10. Zuschüsse für Personen mit Schwierigkeiten bei der Arbeitssuche
-- <https://www.gov.cn/zhengce/zhengceku/202401/content_6926462.htm> — geöffnet. Bestätigt: Verwaltungsvorschrift über die Mittel zur Beschäftigungsförderung [就业补助资金管理办法] des Finanzministeriums und des Ministeriums für Personal und Soziales (überarbeitete Fassung von Dokument Nr. 164 des Finanzministeriums und des Ministeriums für Personal und Soziales von 2017 [财社〔2017〕164 号]), 2023-12-20.
-  - Original: „Für die Sozialversicherungsbeiträge, die Personen mit Schwierigkeiten bei der Arbeitssuche nach einer flexiblen Beschäftigung zahlen, wird ein Sozialversicherungszuschuss in bestimmter Höhe gewährt; der Zuschusssatz übersteigt grundsätzlich nicht 2/3 der tatsächlich gezahlten Beiträge"; „höchstens 3 Jahre"
-  - Original: „Für Personen mit Schwierigkeiten bei der Arbeitssuche, die auf gemeinnützigen Stellen untergebracht werden, wird ein Stellenzuschuss gewährt; der Zuschusssatz richtet sich nach dem örtlichen Mindestlohn"
-  - Original: „Hochschulabsolventen aus Mindestsicherungshaushalten, aus Haushalten ohne Erwerbstätigen, aus Haushalten von Überwachungsobjekten zur Verhinderung der Rückkehr in Armut und aus besonders bedürftigen Verhältnissen, die im Abschlussjahr aktiv Arbeit oder eine Gründung suchen, sowie Hochschulabsolventen mit Behinderung und solche mit staatlichem Ausbildungsdarlehen erhalten einen einmaligen Zuschuss zur Arbeitssuche"
-- Gesetz zur Förderung der Beschäftigung (Seite wie Nr. 5), Art. 52, Original: „Mit Maßnahmen wie Steuer- und Abgabenerleichterungen, Zinszuschüssen für Kredite, Sozialversicherungszuschüssen und Stellenzuschüssen und über Wege wie die Unterbringung auf gemeinnützigen Stellen werden Personen mit Schwierigkeiten bei der Arbeitssuche vorrangig gefördert und gezielt unterstützt"; Art. 53, Original: „Auf gemeinnützigen Stellen, die der Staat mit Investitionen entwickelt, sollen vorrangig Personen mit Schwierigkeiten bei der Arbeitssuche untergebracht werden, die die Anforderungen der Stelle erfüllen."
-- Nicht verwendet: Der Zuschuss zur Verbesserung der beruflichen Fähigkeiten aus der Arbeitslosenversicherung (Dokument Nr. 40 des Ministeriums für Personal und Soziales von 2017 [人社部发〔2017〕40 号], 1000/1500/2000 元) – die Originalseite des Ministeriums für Personal und Soziales ist leer, die Nachrichtenseite von gov.cn liefert 404, ließ sich nicht prüfen, der ganze Eintrag wurde aufgegeben.
+### Änderungen je Eintrag
 
-## 11. Interventionen zur Arbeitssuche
-- <https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1037/a0035923%22&resultType=core&format=json> — geöffnet (Europe-PMC-Datensatz, die PubMed-Seite selbst liefert nur einen Cookie-Hinweis). Bestätigt: Liu S, Huang JL, Wang M, Psychological Bulletin 2014;140:1009-1041, DOI 10.1037/a0035923.
-  - Original: „Summarizing the data from 47 experimentally or quasi-experimentally evaluated job search interventions"; „the odds of obtaining employment were 2.67 times higher for job seekers participating in job search interventions"
-  - Original (wirksame Bestandteile): „teaching job search skills, improving self-presentation, boosting self-efficacy, encouraging proactivity, promoting goal setting, and enlisting social support"; muss zugleich "skill development and motivation enhancement" enthalten.
+| Nr. | Was ersetzt wurde | Deutscher Beleg (abgerufen) | Marker |
+|---|---|---|---|
+| Einleitung | „Die Politik ändert sich … an deinem Wohnort" → „Die Beträge ändern sich … von Ort zu Ort" | — | — |
+| 1 | Chin. Online-Antrag (12333/WeChat/Alipay), Provinzregeln | SGB III §§ 136, 141, 142, 143, 147, 149, 159; SGB V § 5 Abs. 1 Nr. 2 — `gesetze-im-internet.de`, `arbeitsagentur.de` | `Angepasst` |
+| 2 | Chin. Lohnschutz, Schlichtung, Strafzahlung 50–100 %, Yuan-Statistiken | BGB §§ 286, 288; ZPO §§ 688, 114; BerHG § 1; MiLoG § 21; SGB III § 165 — `gesetze-im-internet.de` | `Angepasst` (Titel geändert) |
+| 3 | Chin. Rechtshilfe-Hotline 12348 | BerHG § 1; ZPO § 114 — `gesetze-im-internet.de` | `Angepasst` |
+| 4 (②) | Chin. Nothilfe mit Fahrschein und 10-Tage-Frist | SGB XII §§ 67, 27, 73 — `gesetze-im-internet.de` | `Angepasst` |
+| 5 | Chin. Vermittlungsdienst, Gelegenheitsjobs (12333) | SGB III §§ 1, 141; BA-Hotline 0800 4 555500, Jobbörse — `gesetze-im-internet.de`, `arbeitsagentur.de` | `Angepasst` (Titel geändert) |
+| 6 | Chin. Übergangshilfe mit Kreissätzen | SGB XII §§ 27, 31, 73 — `gesetze-im-internet.de` | `Angepasst` |
+| 7 | Chin. Mindestsicherung, Provinzsätze, Empfängerzahlen | SGB II §§ 7, 9, 19, 20, 22; Regelbedarf 563 € — `gesetze-im-internet.de`, `bundesregierung.de` | `Angepasst` (Titel geändert) |
+| 8 (②) | Chin. Zuschüsse zum Behindertenausweis, Provinzsätze | SGB IX § 152; EStG § 33b; SGB XI § 37 — `gesetze-im-internet.de` | `Angepasst` |
+| 9 | Chin. Einwohner-KV (400 元, Zuschuss, Wartezeit) | SGB V §§ 5, 9, 10, 62 — `gesetze-im-internet.de` | `Angepasst` (Titel geändert) |
+| 10 (②) | Chin. „dreifaches System", Registrierung außerorts, 3–24 Monate, Ratenzahlung, Spendenplattformen | EFZG § 3; SGB V §§ 44, 47, 62; KSchG § 1; SGB IX § 168; SGB VII §§ 8, 45; SGB XII § 73; BGB § 138; StGB § 291 — `gesetze-im-internet.de` | `Angepasst` (Titel geändert) |
+| 11 | Chin. Ausweisrecht (60 Tage, vorläufig in 3 Tagen) | PAuswG §§ 1, 6 — `gesetze-im-internet.de` | `Angepasst` |
+| 12 (②) | Chin. Anerkennung als Person mit Schwierigkeiten, Gemeinwohlstelle | SGB II §§ 16d, 16e, 16i — `gesetze-im-internet.de` | `Angepasst` (Titel geändert) |
+| 13 (②) | Chin. Trainings-/Praktikumszuschüsse (3 Mal, Provinzlisten) | SGB III §§ 54a, 81, 88 — `gesetze-im-internet.de` | `Angepasst` (Titel geändert) |
+| 14 | China-Bezug der Anmerkung entfernt | — keine — (Studie Liu/Huang/Wang 2014 bleibt) | `Angepasst` |
+| 15 | Chin. Verbote/Bußgelder (500–2000 Yuan, 4-Fache LPR, Pyramidensysteme) | PAuswG § 1; BGB § 138; StGB §§ 291, 263 — `gesetze-im-internet.de` | `Angepasst` |
+| 16 | Chin. Sozialmiete, Wartezeit, Provinzschwellen | WoFG § 27; WoGG § 1 — `gesetze-im-internet.de` | `Angepasst` |
+| 17 | Chin. Pro-Kopf-Ausgaben (29,3 %/21,7 %), Provinz-Mindestlöhne | stat. Bundesamt, EVS 2023 (PM Nr. 438, 9.12.2025): 38 %/14 %, zusammen 52 % — `destatis.de` | `Angepasst` |
+| 18 | Chin. Punkte, Hukou, 15-Jahres-Regel (12393) | SGB VI §§ 50, 7, 149; SGB V §§ 5, 10; DRV-Hotline 0800 1000 4800 — `gesetze-im-internet.de` | `Angepasst` |
+| 19 (②) | Chin. Liste der Vertrauensunwürdigen, Privatinsolvenz Shenzhen, Versiegelung | InsO §§ 286, 287, 290, 300; ZPO §§ 882b, 882e; BZRG §§ 30, 32, 46 — `gesetze-im-internet.de` | `Angepasst` (Titel geändert) |
+| 20 (②) | Chin. einjährige KV, 28+3-Krankheiten, „garantierte Verlängerung" | VVG § 193 Abs. 5; SGB V § 5 — `gesetze-im-internet.de` | `Angepasst` (Titel geändert) |
 
-## 12. Fallen vermeiden
-- <https://www.gov.cn/gongbao/content/2007/content_711013.htm> — geöffnet. Bestätigt: Arbeitsvertragsgesetz [劳动合同法], Präsidialerlass Nr. 65, angenommen am 2007-06-29.
-  - Art. 9, Original: „Stellt ein Arbeitsgeber einen Arbeitnehmer ein, darf er dessen Personalausweis und andere Dokumente nicht einbehalten und darf vom Arbeitnehmer keine Sicherheit verlangen und unter anderem Namen kein Vermögen von ihm einziehen."
-  - Art. 84, Original (Auszug): „Wer unter dem Namen einer Sicherheit oder unter anderem Namen Vermögen vom Arbeitnehmer einzieht, wird von der Arbeitsverwaltungsbehörde angewiesen, es dem Arbeitnehmer selbst innerhalb einer Frist zurückzugeben, und mit einer Geldstrafe von 500 元 bis 2.000 元 je Person belegt"
-  - Zusätzlich auf der Seite der Staatlichen Marktaufsichtsbehörde <https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_0abfdd261c03417b949df19d869add8d.html> (Fassung von 2012) geprüft, Art. 9 und Art. 84 stimmen im Wortlaut überein.
-- <https://www.gov.cn/zhengce/2022-11/28/content_5711307.htm> — geöffnet. Bestätigt: Vorschriften über Beschäftigungsservice und Beschäftigungsverwaltung [就业服务与就业管理规定], Verordnung Nr. 28 des Ministeriums für Arbeit und soziale Absicherung, 2007-11-05.
-  - Art. 14, Original (Auszug): „den Personalausweis und andere Dokumente eines eingestellten Arbeitnehmers einzubehalten"; „unter dem Namen einer Sicherheit oder unter anderem Namen Vermögen vom Arbeitnehmer einzuziehen"
-  - Art. 55, Original: „Ist eine Arbeitsvermittlung nicht erfolgreich, soll sie die vom Arbeitnehmer erhobene Vermittlungsgebühr zurückgeben"; Art. 58 verbietet „den Personalausweis und andere Dokumente des Arbeitnehmers einzubehalten oder vom Arbeitnehmer eine Kaution zu verlangen"
-- <https://chinajob.mohrss.gov.cn/h5/c/2026-05-18/543038.shtml> — geöffnet (Ministerium für Personal und Soziales, Büro für Cybersicherheit und Informationstechnik des Zentralkomitees, Bildungsministerium, Ministerium für öffentliche Sicherheit, Staatliche Verwaltung für Finanzaufsicht, 2026-05-18).
-  - Original: „Manche Rechtsbrecher betreiben unter dem Namen einer Einstellung Publikumsverkehr und verkaufen verdeckt Schulungskurse, verleiten Arbeitssuchende zu hohen Zahlungen und sogar dazu, für die Teilnahme an einer Schulung einen Kredit aufzunehmen"; „sollte entschieden ablehnen"
-- <https://www.gov.cn/gongbao/content/2005/content_80604.htm> — geöffnet. Bestätigt: Verordnung über das Verbot des Schneeballsystems [禁止传销条例], Staatsratsverordnung Nr. 444, angenommen am 2005-08-10, in Kraft seit 2005-11-01.
-  - Art. 7 Abs. 1, Original (Auszug): „von den angeworbenen Personen zu verlangen, weitere Personen anzuwerben, und den angeworbenen Personen die Vergütung nach der Zahl der von ihnen unmittelbar oder mittelbar fortlaufend angeworbenen Personen zu berechnen und auszuzahlen"
-  - Art. 24, Original: „Wer eine Handlung nach Art. 7 dieser Verordnung begeht und an einem Schneeballsystem teilnimmt, wird von der Behörde für Industrie und Handel angewiesen, die rechtswidrige Handlung zu beenden, und kann mit einer Geldstrafe von höchstens 2.000 元 belegt werden."
-- <https://www.court.gov.cn/fabu/xiangqing/249031.html> — geöffnet. Bestätigt: Änderungsbeschluss des Obersten Volksgerichts, Justizauslegung Nr. 6 von 2020 [法释〔2020〕6 号], in Kraft seit 2020-08-20.
-  - Art. 26, Original: „außer wenn der von beiden Seiten vereinbarte Zinssatz das Vierfache des bei Vertragsschluss geltenden einjährigen Kreditzinssatzes (LPR) übersteigt."
-- <https://www.court.gov.cn/zixun/xiangqing/249051.html> — geöffnet (Nachricht des Obersten Volksgerichts, 2020-08-20).
-  - Original: „Der obere Schutzgrenzwert für den Zinssatz privater Darlehen wird nach dem Maßstab des Vierfachen des einjährigen Kreditzinssatzes (LPR) bestimmt und ersetzt die Regelung der alten Vorschrift mit ‚zwei Linien und drei Zonen' auf Basis von 24 % und 36 %"
-  - Nicht bestätigt: der Volltext nach der zweiten Änderung vom Dezember 2020 (die Amtsblattseite des Obersten Volksgerichts gongbao.court.gov.cn liefert dreimal 502, die Seite des internationalen Handelsgerichts läuft in eine Weiterleitungsschleife), deshalb zitiert der Eintrag Art. 26 des Textes von August 2020 und vermerkt, dass sich die Nummerierung geändert hat.
-- Hinweis des Bildungsministeriums zur Arbeitssuche vom 2024-05-22 <https://app.www.gov.cn/govdata/gov/202405/22/515248/article.html> — geöffnet, enthält „neue Einstellungsfallen wie Ausbildungskredit, Autokaufkredit, Kosmetikkredit", dient nur als Beleg am Rande und ist nicht in den Quellen aufgeführt.
+**Marker-Zählung: 20 × `Angepasst`, 0 × `Währung`, 0 × `Länge`.** Nr. 21 trägt keinen Marker.
 
-## 13. Sozialwohnung
-- <https://www.gov.cn/gongbao/content/2012/content_2226147.htm> — geöffnet. Bestätigt: Verwaltungsvorschrift über öffentliche Mietwohnungen [公共租赁住房管理办法], Verordnung Nr. 11 des Ministeriums für Wohnungswesen und Stadt-Land-Entwicklung, verkündet am 2012-05-28, in Kraft seit 2012-07-15.
-  - Art. 7, Original: „Wer eine öffentliche Mietwohnung beantragt, soll folgende Voraussetzungen erfüllen: (1) am Ort keinen Wohnraum haben oder dessen Wohnfläche unter dem festgelegten Satz liegt; (2) Einkommen und Vermögen unter dem festgelegten Satz liegen; (3) ist der Antragsteller ein zugewanderter Arbeitsmigrant, am Ort eine festgelegte Zahl von Jahren stabil beschäftigt sein."
-  - Art. 8, Original: „Der Antragsteller soll nach den Vorschriften der für Wohnraumsicherung zuständigen Behörde der Stadt- oder Kreisverwaltung die Antragsunterlagen einreichen und für deren Richtigkeit einstehen."
-  - Art. 10, Original: „Für Antragsteller, die als Wartelistenobjekt registriert sind, soll innerhalb der Wartezeit eine öffentliche Mietwohnung bereitgestellt werden. Die Wartezeit beträgt in der Regel höchstens 5 Jahre."
+**Quellen-Ersetzung:** In allen china-gebundenen Einträgen ist die chinesische Norm aus der
+Quellen-Spalte **entfallen**; an ihre Stelle traten die deutschen Normen von
+`gesetze-im-internet.de`. Die chinesischen Seiten sind teils offen, teils 404, teils gesperrt (siehe
+alten Prüfstand unten); sie tragen nach der Umstellung keine Inhaltsaussage mehr. In Nr. 14 bleibt
+die allgemeine **Studie** (Liu 2014, DOI) in der Quellen-Spalte, weil sie eine länderunabhängige
+Aussage trägt.
 
-## 14. Fixe Ausgaben
-- <https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260119_1962321.html> — geöffnet (Nationales Statistikamt, 2026-01-19).
-  - Original: „2025 betrugen die Pro-Kopf-Konsumausgaben der Einwohner landesweit 29.476 元"; „die Pro-Kopf-Ausgaben für Lebensmittel, Tabak und Alkohol betrugen 8.631 元, ein Zuwachs von 2,6 %, ihr Anteil an den Pro-Kopf-Konsumausgaben lag bei 29,3 %"; „die Pro-Kopf-Ausgaben für Wohnen betrugen 6.397 元, ein Zuwachs von 2,1 %, ihr Anteil an den Pro-Kopf-Konsumausgaben lag bei 21,7 %"
-- <https://www.gov.cn/govweb/zhengce/zhengceku/202310/content_6911233.htm> — geöffnet. Bestätigt: Aktionsplan zur aktiven Entwicklung der Essensversorgung für Senioren [积极发展老年助餐服务行动方案], Dokument Nr. 58 des Ministeriums für Zivilangelegenheiten von 2023 [民发〔2023〕58 号], 2023-10-20.
-  - Original: „die Ausstattung von Einrichtungen der Essensversorgung für Senioren wie Seniorenkantinen, Seniorentischen und Essensausgabestellen für Senioren wird verbessert"; „Senioren, die die Essensversorgung nutzen, erhalten eine differenzierte Zuwendung"; „die Essensversorgung für andere Senioren wird breit angeboten"
-- <https://rst.sc.gov.cn/rst/ylbxjwjgzxx/2026/7/10/89a8ef06cc264d29b282d7c62f362a6b.shtml> — geöffnet (Personal- und Sozialbehörde der Provinz Sichuan, 2026-07-10, Titel „Die Mindestlöhne der Provinzen, autonomen Gebiete und regierungsunmittelbaren Städte (Stand 1. Januar 2026)", die Seite nennt als Quelle die Website des Ministeriums für Personal und Soziales). Monatsmindestlohn, erste Stufe: am höchsten Shanghai 2.740 元, am niedrigsten Qinghai 2.080 元.
-  - Nicht bestätigt: Die Originalseite des Ministeriums für Personal und Soziales <https://www.mohrss.gov.cn/SYrlzyhshbzb/laodongguanxi_/fwyd/> liefert eine leere Seite, die Seite der Ausgabe 2025-01 liefert 403. Die Zahlen zum Stundenmindestlohn wurden nicht verwendet.
+## Die geprüften offenen Belege
 
-## 15. Lücken bei den Sozialversicherungsbeiträgen
-- <https://www.gov.cn/guoqing/2021-10/29/content_5647616.htm> — geöffnet. Bestätigt: Sozialversicherungsgesetz [社会保险法], angenommen am 2010-10-28, geändert am 2018-12-29.
-  - Art. 16, Original: „Personen, die an der Grundrentenversicherung teilnehmen und bei Erreichen des gesetzlichen Rentenalters eine kumulierte Beitragszeit von fünfzehn Jahren erreicht haben, erhalten monatlich eine Grundrente."
-  - Art. 19, Original: „Ist eine Person über die Pools hinweg an verschiedenen Orten beschäftigt, folgt das Verhältnis der Grundrentenversicherung der Person, und die Beitragsjahre werden zusammengerechnet."
-  - Art. 27, Original: „Personen, die an der Grundkrankenversicherung für Arbeitnehmer teilnehmen und bei Erreichen des gesetzlichen Rentenalters eine kumulierte Beitragszeit der staatlich festgelegten Jahre erreicht haben, zahlen nach dem Ruhestand keine Beiträge zur Grundkrankenversicherung mehr."
-- Dokument Nr. 38 des Staatsratsbüros von 2024 [国办发〔2024〕38 号], wie Nr. 8.
+Alle Seiten offen zugänglich, ohne Anmeldung, am 2026-10-01 abgerufen und im Volltext gelesen.
 
-## 16. 24-Stunden-Orte
-- Eintrag der Erfahrungsstufe C, ohne Quelle.
+**Arbeitslosengeld und Arbeitsförderung (SGB III, `gesetze-im-internet.de`)**
+- § 136 (Anspruch), § 141 (Arbeitslosmeldung), § 142 (Anwartschaftszeit), § 143 (Rahmenfrist),
+  § 147 (Bezugsdauer: 12 Monate → 6, 16 → 8, 20 → 10, 24 → 12; ab 50/55/58 bis 15/18/24 Monate),
+  § 149 (Höhe: 60 %, mit Kind 67 %), § 159 (Sperrzeit), § 165 (Insolvenzgeld),
+  § 1 (Ziele), § 54a (Einstiegsqualifizierung, Zuschuss bis 276 €/Monat), § 81 (Bildungsgutschein),
+  § 88 (Eingliederungszuschuss).
+  <https://www.gesetze-im-internet.de/sgb_3/__136.html>, <…/__141.html>, <…/__147.html>,
+  <…/__165.html>, <…/__81.html>.
+- Bundesagentur für Arbeit, Arbeitslosengeld beantragen; Hotline 0800 4 555500 und Jobbörse.
+  <https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld>.
 
-## Nicht aufgenommene Kandidaten
-- Arbeitslosenbeihilfe (Dokument Nr. 40 des Ministeriums für Personal und Soziales von 2020 [人社部发〔2020〕40 号]): eine befristete Politik aus dem Jahr 2020, die Originalseite ist auf chinajob.mohrss.gov.cn vorhanden, ob sie bis heute fortgilt, ließ sich nicht prüfen, deshalb nicht aufgenommen.
-- Gesonderte Bekanntmachung zur Übergangshilfe (Dokument Nr. 47 des Staatsrates von 2014 [国发〔2014〕47 号]): nicht gesondert geprüft, die Übergangshilfe stützt sich auf die Vorläufigen Maßnahmen zur sozialen Hilfe [社会救助暂行办法].
-- Folgen von Rückständen bei Wasser, Strom und Gas: keine offizielle Originalquelle auf nationaler Ebene gefunden, nicht aufgenommen.
+**Krankenversicherung (SGB V, `gesetze-im-internet.de`)**
+- § 5 (Versicherungspflicht, Abs. 1 Nr. 2 für Leistungsbezieher), § 9 (freiwillige Versicherung),
+  § 10 (Familienversicherung), § 44 (Krankengeld), § 47 (Höhe: 70 % Regelentgelt / 90 %
+  Nettoarbeitsentgelt), § 62 (Belastungsgrenze: 2 %, chronisch 1 %).
+  <https://www.gesetze-im-internet.de/sgb_5/__5.html>, <…/__10.html>, <…/__44.html>, <…/__62.html>.
+
+**Mindestsicherung und Sozialhilfe (SGB II/XII, `gesetze-im-internet.de`)**
+- SGB II §§ 7 (Leistungsberechtigte, 15. Lebensjahr), 9 (Hilfebedürftigkeit), 19 (Bürgergeld),
+  20 (Regelbedarfsstufen), 22 (Unterkunft und Heizung), 16d (Arbeitsgelegenheiten),
+  16e (Eingliederungszuschuss), 16i (Teilhabe am Arbeitsmarkt).
+  <https://www.gesetze-im-internet.de/sgb_2/__7.html>, <…/__9.html>, <…/__20.html>, <…/__16e.html>.
+- SGB XII §§ 27 (Hilfe zum Lebensunterhalt), 31 (Bedarfe für Erstausstattungen), 67 (Hilfe zur
+  Überwindung besonderer sozialer Schwierigkeiten), 73 (Hilfe in sonstigen Lebenslagen).
+  <https://www.gesetze-im-internet.de/sgb_12/__67.html>, <…/__27.html>, <…/__73.html>.
+- Die Regierung, Regelbedarfe (563 Euro für 2025 und 2026).
+  <https://www.bundesregierung.de/breg-de/aktuelles/nullrunde-buergergeld-2383676>.
+
+**Rente (SGB VI, `gesetze-im-internet.de`)**
+- § 50 (Wartezeit von fünf Jahren), § 7 (freiwillige Versicherung), § 149 (Versicherungskonto).
+  <https://www.gesetze-im-internet.de/sgb_6/__50.html>, <…/__7.html>, <…/__149.html>.
+
+**Behinderung und Pflege (SGB IX, EStG, SGB XI, `gesetze-im-internet.de`)**
+- SGB IX § 152 (Feststellung Grad der Behinderung, Ausweise), § 168 (Kündigungsschutz
+  schwerbehinderter Menschen).
+  <https://www.gesetze-im-internet.de/sgb_9_2018/__152.html>, <…/__168.html>.
+- EStG § 33b (Behinderten-Pauschbetrag: 384 bis 2.840 €, blind/hilflos bis 7.400 €).
+  <https://www.gesetze-im-internet.de/estg/__33b.html>.
+- SGB XI § 37 (Pflegegeld, nach Pflegegrad gestaffelt, ab Pflegegrad 2 von 347 bis 990 €).
+  <https://www.gesetze-im-internet.de/sgb_11/__37.html>.
+
+**Unfallversicherung und Lohnfortzahlung (`gesetze-im-internet.de`)**
+- SGB VII §§ 8 (Arbeitsunfall), 45 (Verletztengeld). <https://www.gesetze-im-internet.de/sgb_7/__8.html>.
+- EFZG § 3 (Entgeltfortzahlung bis sechs Wochen).
+  <https://www.gesetze-im-internet.de/entgfg/__3.html>.
+- KSchG § 1 (Kündigungsschutz nach sechs Monaten Betriebszugehörigkeit).
+  <https://www.gesetze-im-internet.de/kschg/__1.html>.
+
+**Lohn, Mahnung, Verzug, Wucher (`gesetze-im-internet.de`)**
+- BGB §§ 286 (Verzug), 288 (Verzugszinsen fünf Prozentpunkte über Basiszinssatz), 138
+  (sittenwidriges Rechtsgeschäft).
+  <https://www.gesetze-im-internet.de/bgb/__286.html>, <…/__138.html>.
+- ZPO §§ 688 (Mahnverfahren), 114 (Prozesskostenhilfe), 882b (Schuldnerverzeichnis), 882e (Löschung).
+  <https://www.gesetze-im-internet.de/zpo/__688.html>, <…/__114.html>, <…/__882b.html>.
+- BerHG § 1 (Beratungshilfe). <https://www.gesetze-im-internet.de/berathig/__1.html>.
+- MiLoG § 21 (Bußgeldvorschriften, bis 500.000 Euro). <https://www.gesetze-im-internet.de/milog/__21.html>.
+- StGB §§ 291 (Wucher), 263 (Betrug). <https://www.gesetze-im-internet.de/stgb/__291.html>, <…/__263.html>.
+
+**Ausweis und Wohnen (`gesetze-im-internet.de`)**
+- PAuswG § 1 (Ausweispflicht ab 16), § 6 (vorläufiger Personalausweis, höchstens drei Monate).
+  <https://www.gesetze-im-internet.de/pauswg/__1.html>, <…/__6.html>.
+- WoFG § 27 (Wohnberechtigungsschein), WoGG § 1 (Anspruch auf Wohngeld).
+  <https://www.gesetze-im-internet.de/wofg/__27.html>, <https://www.gesetze-im-internet.de/wogg/__1.html>.
+
+**Insolvenz und Register (`gesetze-im-internet.de`)**
+- InsO §§ 286 (Grundsatz), 287 (Antrag), 290 (Versagung), 300 (Abtretungsfrist drei Jahre).
+  <https://www.gesetze-im-internet.de/inso/__286.html>, <…/__300.html>.
+- BZRG §§ 30 (Führungszeugnis), 32 (Inhalt), 46 (Tilgungsfristen).
+  <https://www.gesetze-im-internet.de/bzrg/__30.html>, <…/__46.html>.
+
+**Versicherungsvertrag (`gesetze-im-internet.de`)**
+- VVG § 193 Abs. 5 (Basistarif der privaten Krankenversicherung, Aufnahmezwang, kein ordentliches
+  Kündigungsrecht des Versicherers). <https://www.gesetze-im-internet.de/vvg_2008/__193.html>.
+
+**Statistik (`destatis.de`)**
+- Statistisches Bundesamt, Einkommens- und Verbrauchsstichprobe 2023, Pressemitteilung Nr. 438 vom
+  9. Dezember 2025: Durchschnittshaushalt 3.030 Euro monatlich für Konsum, 38 % Wohnen/Energie/
+  Instandhaltung, 14 % Lebensmittel (zusammen 52 %); in Haushalten unter 1.300 Euro netto zusammen
+  64 %. <https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/12/PD25_438_639.html>.
+
+## Umkehrungen und Entfernungen (REQ-20 geprüft)
+
+- **Nr. 9 (Einwohner-Krankenversicherung → gesetzliche Krankenversicherung):** Die Vorlage nennt
+  einen **Jahresbeitrag von 400 元**, einen **Staatszuschuss** und eine **Wartezeit** nach
+  unterbrochener Mitgliedschaft. Das deutsche Recht kennt keinen festen Jahresbeitrag für
+  Beschäftigte (Beitrag nach Einkommen, `§ 5 SGB V`), keine Zuschussstaffel und keine Wartezeit
+  dieser Art. Die drei China-Größen sind **entfernt** und im Marker benannt; erhalten bleibt die
+  Empfehlung, keine Versicherungslücke entstehen zu lassen.
+- **Nr. 10 („dreifaches System"):** Die Vorlage beschreibt ein chinesisches System aus
+  Zusatzversicherung, Registrierung für Behandlung außerhalb des Wohnorts, eine 3- bis
+  24-monatige Behandlungszeit sowie Kreditkarten-Ratenzahlung und Spendenplattformen. In Deutschland
+  gibt es keine Registrierungsschranke („In Deutschland kannst du dich überall behandeln lassen") und
+  keine solche Sonderfrist. Die Empfehlung (KV zuerst, keine Online-Kredite) bleibt.
+- **Nr. 20 (Versicherung für schwere Krankheiten, 28 plus 3, „garantierte Verlängerung"):** Die
+  Krankheitsliste und die Zwei-Jahres-Verlängerung haben keine deutsche Entsprechung und sind
+  **entfernt**; erhalten bleibt die Zusatzabsicherung und der Hinweis auf die Bedingungen
+  (Basistarif mit Aufnahmezwang, kein ordentliches Kündigungsrecht, `§ 193 Abs. 5 VVG`).
+- **Nr. 17 (Pro-Kopf-Ausgaben und Mindestlöhne):** Die chinesischen Quoten (29,3 % Essen,
+  21,7 % Wohnen) und der Provinz-Mindestlohnvergleich sind durch die EVS-2023-Zahlen ersetzt; der
+  Mindestlohnvergleich ist mangels deutscher Trägeraussage **entfernt**.
+- **Nr. 14 (China-Bezug der Anmerkung):** Die Anmerkung stellte den China-Bezug der Studienlage her
+  („auf China übertragen … nicht in China gemessen"). Der Bezug wurde entfernt und durch die
+  neutrale Fassung ersetzt („überwiegend in Europa und Amerika … am eigenen Ort nicht gemessen").
+
+## Nicht geändert
+
+- **Nr. 21** trägt keine China-Angabe und keinen `元`; Eintrag byte-gleich, Quellenspalte
+  „Erfahrung des Autors, keine offiziellen Dokumente".
+- **Nutzen-Kerne** der geänderten Einträge, soweit nicht selbst china-gebunden, stehen unverändert.
+- **Kostenlabel:** alle 21 unverändert (REQ-26). Keine Umstellung hat eine Selbstzahler-Leistung in
+  eine Kassenleistung gedreht oder umgekehrt.
+- **`Zeit`, `Willenskraft`, `Nutzen`, `Bezug`** unangetastet.
+- **Titel** ohne China-Bezug unverändert; zurückgesetzt wurden die zwischenzeitlich umformulierten
+  Titel von Nr. 8 und Nr. 17 (Verweisanker).
+
+## Außerhalb des Auftrags — festgehalten, nicht angefasst
+
+- **`README.md`, Katalogzeile Abschnitt 7:** nennt noch die chinesischen Leistungsnamen
+  (Mindestsicherung, Einwohner-Krankenversicherung, Übergangshilfe, Nothilfeeinrichtung). Der
+  Auftrag umfasst nur `book/07-…` und dieses Protokoll; die README läuft im Bestandteil-Block.
+- **`CLAUDE.md`, Verzeichnisstruktur Abschnitt 7:** führt noch die chinesischen Fassungen (12333,
+  400 元, Liste der Vertrauensunwürdigen). Bestandteil-Block.
+- **Vorbestehende Fehlverweise** auf „Abschnitt 7, Nr. 9" mit Behinderten-Beschreibung und
+  „(die zwei Zuschläge)": inhaltlich Nr. 8, nicht Nr. 9. Altlast, nicht durch die Umstellung
+  entstanden; zentral zu prüfen.
+- **Alter chinesischer Prüfstand.** Der vorige Prüfstand (Prüfdatum 2026-09-07) hatte die
+  chinesischen Normen mit WebFetch geöffnet; die chinesischen Seiten waren teils offen, teils 404,
+  teils gesperrt (mohrss.gov.cn leer, mca.gov.cn 403, moj.gov.cn/npc.gov.cn TLS-/Schleifenfehler).
+  Nach der Umstellung auf deutsches Recht tragen sie keine Inhaltsaussage mehr und sind hier nicht
+  mehr als Belege geführt.
+
+## Maschinelle Gates
+
+- `grep -c 元 book/07-leben-ohne-geld.md` = **0**; `grep -cP '[\x{4e00}-\x{9fff}]'` = **0**;
+  `grep -c '^### '` = **21**; `grep -c '^<!-- Angepasst:'` = **20**.
+- `node tools/check-plain.mjs --stat`: 628 Klartext-Zeilen, **beanstandet 0** (Länge 0, Satzlänge 0,
+  Jargon 0, neuezahl 0, Leerformel 0).
+- `node tools/check-refs.mjs` wurde **nicht** ausgeführt — der Wellen-Orchestrator prüft zentral am
+  Wellenende (Auftrag §7).
+- `node tools/sync-stats.mjs` wurde **nicht** ausgeführt — die Statistik wird am Wellenende zentral
+  geschrieben.

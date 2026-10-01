@@ -209,3 +209,76 @@ Kernpunkt: Der amtliche Merksatz „beim Beben in der Nähe Schutz suchen, nach 
 und schon am Anfang wird verlangt, „sich nach den örtlichen Gegebenheiten zu richten", „von Person zu Person zu unterscheiden" und „die Erdbebensicherheit des Gebäudes umfassend zu berücksichtigen". Das stimmt mit der Schreibweise dieses Eintrags überein, der nach Gebäudetyp unterscheidet,
 daher wurde das Video als Hauptquelle des Eintrags übernommen, das TODO (noch zu prüfen: Originaltext des Chinesischen Erdbebenzentrums) ist aufgehoben.
 Das Video behandelt nicht gesondert, ob man bei eingeschossigen Häusern und selbstgebauten Häusern ohne Sicherung laufen oder sich verstecken soll; der Teil „bei alten Häusern hinaus" stützt sich weiterhin auf die Armenien-Studie und ist als Streitfall gekennzeichnet.
+
+## Nachtrag gelbe Welle (Runde 10, 2026-10-01) — deutsche Fundstellen statt chinesischer
+
+In dieser Runde wurde für jeden china-gebundenen Eintrag die deutsche Entsprechung gesucht und belegt.
+Nur offen zugängliche Primärliteratur und amtliche Stellen. Die chinesischen Fundstellen wurden aus der
+Spalte „Quellen" entfernt; die unten genannten deutschen treten an ihre Stelle. Die Marker
+`<!-- Angepasst: … -->` im Buch stehen direkt unter den Kostenlabel-Zeilen.
+
+| Nr. | Was ersetzt wurde | Deutsche Fundstelle (Beleg) |
+|---|---|---|
+| 1 | BASIC-OHCA-Zahlen (China), Art. 184 ZGB | Deutsches Reanimationsregister, Jahresberichte <https://www.reanimationsregister.de/themen/jahresberichte.html> (geöffnet); § 680 BGB <https://www.gesetze-im-internet.de/bgb/__680.html> |
+| 2 | chinesisches Zivil-/Prozessrecht, Apotheker-Fall; der einleitende Satz der Anmerkung verwies noch auf den entfernten chinesischen „Leitfaden" und wurde auf die deutsche Erste-Hilfe-Anleitung umformuliert | § 323c StGB <https://www.gesetze-im-internet.de/stgb/__323c.html>; §§ 680, 683, 823 BGB; gesund.bund.de Erste Hilfe <https://gesund.bund.de/erste-hilfe> |
+| 6 | Wuhan-Lockdown-Zahlen, chinesische Augenklinik-Zahlen | Aussage ohne Länderbezug (Verzögerungsdauer); keine china-gebundene Zahl mehr |
+| 9 | Kopf-CT als Selbstzahler | § 27 Abs. 1 SGB V (Krankenbehandlung) <https://www.gesetze-im-internet.de/sgb_5/__27.html> |
+| 10 | chinesische Neurochirurgie-Fachgesellschaft | neutraler fachlicher Konsens; § 27 SGB V |
+| 11 | Ultraschall als Selbstzahler | § 27 Abs. 1 SGB V |
+| 12 | Yuan-Preis, China-TODO | deutsche Preislage (Marktpreis); § 20i SGB V |
+| 13 | chinesische Tollwutvorschrift | RKI-Ratgeber Tollwut <https://www.rki.de/DE/Content/InfAZ/T/Tollwut/Tollwut.html>; RKI Epid. Bull. 4/2024; § 20i/§ 27 SGB V |
+| 15 | chinesische Anaphylaxie-Leitlinie | EAACI-Leitlinie 2022, DOI 10.1111/all.15032 |
+| 16 | Art. 184 ZGB (Verweis) | § 680 BGB |
+| 19 | China-TODO zur CO-Statistik | US CDC CO-Poisoning <https://www.cdc.gov/carbon-monoxide/about/index.html> (geöffnet) |
+| 20 | chinesische Vergiftungshinweise; **Sicherheitsfehler „Milch geben"**; Spüldauer 15 → zehn Minuten vereinheitlicht (Titel, Klartext, Nutzen); für Säure oder Lauge auf die strengere Spülzeit (Auge mind. 20 Min) verwiesen, Anker „Säure oder Lauge" auf Nr. 21 | BZgA-Merkblatt „Was tun bei Vergiftungen", Stand Juni 2025 <https://www.kindergesundheit-info.de/fileadmin/user_upload/kindergesundheit-info.de/Download/Unfallverhuetung/Notfall-Infos/Vergiftungen_und_Sofortmassnahmen_BIOEG_kindergesundheit-info_.pdf> (2026-10-01 mit pdftotext im Volltext geprüft: „Nicht versuchen, das Kind auf irgendeine Art zum Erbrechen zu bringen", „Keine Milch zu trinken geben", Augenkontakt „mindestens zehn Minuten unter fließendem Wasser spülen", Hautkontakt „gründlich unter fließendem Wasser abspülen" — ohne Minutenangabe); BGN ASI 8.05 für die strengere Spülzeit bei Ätzendem (Nr. 21); BfR-Giftinformationszentren <https://www.bfr.bund.de/deutsches-produktregister-depro/giftinformationszentren-in-deutschland/> |
+| 21 | chinesische CDC/Hunan-Amt/Berufskrankheiten-Verordnung | BGN ASI 8.05 <https://vorschriften.bgn-branchenwissen.de/daten/asi/A8_05/6.htm> (geöffnet: Auge ≥ 20 Min, Haut ≥ 15 Min); § 8 und § 9 SGB VII |
+| 22 | Yunnan-CDC, China-TODO | US National Weather Service <https://www.weather.gov/safety/heat-illness>; WMS-Leitlinie DOI 10.1016/j.wem.2018.10.004 |
+| 23 | chinesischer Leitfaden 2014 | UBA Hitzeknigge <https://www.uba.de/publikationen/der-hitzeknigge> (geöffnet) |
+| 24 | 119.gov.cn, China-TODO, Yuan | US FEMA Ready.gov <https://www.ready.gov/home-fires> |
+| 25 | WHO-Factsheet (zh) | WHO Drowning (en) <https://www.who.int/en/news-room/fact-sheets/detail/drowning> |
+| 26 | China-TODO Heimlich | MedlinePlus <https://medlineplus.gov/ency/article/000047.htm> |
+| 27 | Beidou-Gerät, China-TODO, Yuan | US National Park Service Desert Safety (moja/deva/desertdriving) |
+| 28 | Yuan-Preis Wärmedecke | reine Währungsübernahme; US NWS Cold <https://www.weather.gov/safety/cold-during> |
+| 29 | WHO-Factsheet (zh), chinesische Fallzahl | WHO Animal bites / Snakebite envenoming (en) |
+| 30 | Chinesisches Erdbebenzentrum (CEA), chinesische Baunorm „nach 2001" | BBK Bildungsmaterial Erdbeben <https://www.bbk.bund.de/SharedDocs/Downloads/DE/Mediathek/Publikationen/MuF/Bildungsunterlagen/uebersicht-bildungsmaterial-erdbeben.pdf> (geöffnet); das CEA-Video-Transkript ist damit entfallen |
+| 31 | chinesische Tollwut-Vorschrift als Quelle | US National Park Service Bears <https://www.nps.gov/subjects/bears/safety.htm> |
+| 34 | China-TODO (FSME-Zahlen) | Robert Koch-Institut Zecken <https://www.rki.de/zecken> (geöffnet); deutsche FSME-Risikogebiete |
+| 36 | StGB Art. 20/263 | §§ 249, 250, 251, 32 StGB <https://www.gesetze-im-internet.de/stgb/__249.html> u. a. |
+| 37 | StGB Art. 292/305/310, OWiG, StPO Art. 62/110/111/193 | §§ 231, 125, 223, 257, 153, 138, 32 StGB; §§ 48, 68, 70, 158 StPO <https://www.gesetze-im-internet.de/stgb/__231.html> u. a. |
+| 38 | Peking/Chongqing/Chinacdc; Yuan-Selbstzahler-Kurs | RKI Epid. Bull. 24/2022 DOI 10.25646/10140; BZgA/liebesleben.de PEP <https://www.liebesleben.de/fuer-alle/hiv-aids/pep/> (geöffnet); DAIG-Leitlinie 055-004; § 27 SGB V. Kostenlabel Geld=viel → Geld=0 (Kassenleistung) |
+| 39 | ZGB Art. 183; Staatsrats-Dokument Nr. 39/2012; 40 Monatslöhne | § 2 Abs. 1 Nr. 13 lit. a SGB VII <https://www.gesetze-im-internet.de/sgb_7/__2.html> (geöffnet); §§ 904, 683, 670, 680 BGB |
+
+Geöffnete URLs (WebFetch bestätigt): reanimationsregister.de, gesund.bund.de, gesetze-im-internet.de
+(§ 2 SGB VII), bgn-branchenwissen.de, umweltbundesamt.de, bbk.bund.de, liebesleben.de. Die übrigen sind
+amtliche Seiten bzw. Normtexte mit stabilem URL-Muster und offenem Zugang.
+
+Nachverifikation 2026-10-01 (Rückmeldung des Auftraggebers): Bei Nr. 20 trug die zuvor verlinkte
+Übersichtsseite (Giftinformationszentralen/Giftnotruf) die Maßnahmen nicht — sie nennt nur die
+Telefonnummern und verweist auf ein PDF. Die Quellenzeile zeigt jetzt direkt auf das BZgA-Merkblatt
+„Was tun bei Vergiftungen" (Stand Juni 2025); dessen Volltext wurde am 2026-10-01 mit `pdftotext`
+gelesen und belegt die Sätze zu Milch, Erbrechen und Spüldauer wörtlich. Die Augenspülung ist darin
+mit „mindestens zehn Minuten" angegeben, hautseitig ohne Minutenangabe („gründlich abspülen"); Titel,
+Klartext und Nutzen von Nr. 20 nennen deshalb einheitlich zehn Minuten. Bei Nr. 2 wurde der einleitende
+Satz der Anmerkung, der noch auf den entfernten chinesischen „Leitfaden" zeigte, auf die verbliebene
+amtliche Erste-Hilfe-Anleitung umformuliert.
+
+Offener Punkt außerhalb dieses Kapitels: Die Anmerkung von Abschnitt 1, Nr. 25 (Suizid/Intoxikation)
+verweist mit „siehe Abschnitt 13, Nr. 20 (mit viel klarem Wasser 15 Minuten spülen)" noch auf die alte
+Zahl; das Ziel ist jetzt zehn Minuten. Die Stelle liegt außerhalb von Kapitel 13 und wurde hier nicht
+mitgezogen.
+
+Zweite Nachverifikation 2026-10-01 (Orchestrator-Prüfung): Nr. 20 und Nr. 21 nannten für „Chemikalie im
+Auge" unmittelbar hintereinander verschiedene Spülzeiten (zehn gegenüber mindestens 20 Minuten). Beide
+Zahlen wurden am Volltext nachgeprüft und sind korrekt zitiert, stammen aber aus unterschiedlich strengen
+Quellen: Das BZgA-Merkblatt (Vergiftungsfall allgemein) nennt für das Auge „mindestens zehn Minuten", für
+die Haut ohne Minutenangabe („gründlich abspülen"); die BGN ASI 8.05 (Arbeitsunfall-Regelwerk, reizende und
+ätzende Stoffe) nennt für das Auge „ununterbrochen mit viel Wasser mindestens 20 Minuten" und für die Haut
+„über mindestens 15 Minuten". Für ätzende Stoffe gilt damit die strengere Zahl. Aufgelöst wurde das in
+Nr. 20: Titel, Klartext und Nutzen nennen weiter zehn Minuten und verweisen für Säure oder Lauge mit dem
+Anker „Säure oder Lauge" auf Nr. 21 (Auge mindestens 20 Minuten). Die Hautangabe in Nr. 20 bleibt ohne
+Zahl, weil das BZgA-Merkblatt dort keine nennt; Nr. 21 behält seine belegten 15 Minuten Haut / 20 Minuten
+Auge. `check-refs.mjs` wurde auftragsgemäß nicht ausgeführt; der Verweis trägt den Anker „Säure oder Lauge"
+aus dem Titel von Nr. 21.
+
+Geprüft: `grep -c 元` = 0, CJK (U+4E00–U+9FFF) = 0, `check-plain.mjs` für Abschnitt 13 = 0 Beanstandungen.
+Nachverifikation 2026-10-01 nach den zwei Korrekturen erneut geprüft: unverändert 0 / 0 / 0.
