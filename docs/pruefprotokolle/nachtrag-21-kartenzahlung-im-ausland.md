@@ -29,3 +29,14 @@ Begründung der Platzierung: Dieser Abschnitt steht hinter Nr. 5, nicht nach Kos
 - Verweise: Die Anmerkung im Haupttext verweist auf Abschnitt 14, Nr. 5 (bei betrügerischer Kartennutzung zuerst sperren und einfrieren, dann die Polizei rufen), mit Anker, die Regelung des Obersten Gerichts wird nicht erneut zitiert; es wurde kein relativer Verweis „siehe Nr. N dieses Abschnitts" geschrieben.
 
 Zahl der Einträge 550→551, die Zahl der Links steigt entsprechend, es wurde `tools/sync-stats.ps1` ausgeführt, um README, index.html, tools/og.html und og.png zu synchronisieren; der Kurzüberblick des Inhaltsverzeichnisses von Abschnitt 21 in CLAUDE.md wurde nach den Regeln von Hand ergänzt.
+
+## Nachtrag 2026-10-01 — der Eintrag wurde gestrichen
+
+In der roten Welle (Deutschland-Fassung) hat der Auftraggeber entschieden, den hier eingefügten
+Eintrag **Nr. 6 (Jahreslimit für Bargeldabhebungen im Ausland)** zu streichen: deutsche Banken kennen
+keine amtliche Jahresgrenze für Bargeldabhebung im Ausland, das Konzept ist eine chinesische
+Kapitalverkehrskontrolle ohne deutsche Entsprechung. Der Eintrag wurde vollständig aus
+`book/21-ausland-und-reisen.md` entfernt; die früheren Nr. 7–11 sind auf Nr. 6–10 vorgerückt (das
+Kapitel hat jetzt 10 Einträge). Einzelheiten im neuen Protokoll
+`docs/pruefprotokolle/21-ausland-und-reisen.md`. Die oben aufbewahrten chinesischen Belege bleiben
+zur Nachprüfbarkeit stehen.
