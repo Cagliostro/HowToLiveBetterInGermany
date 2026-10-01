@@ -193,3 +193,62 @@ Die Einleitungsformel „Bezugsgröße: X. **Dieser Abschnitt** …" steht auch 
 - `node tools/check-refs.mjs --check`: **bestanden**, alle **621** Verweise zeigen auf den richtigen Eintrag und tragen einen Anker (die drei offenen Hinweise betreffen Abschnitt 31 und sind älter).
 - `grep -c 元` = **0**, `grep -cP '[\x{4e00}-\x{9fff}]'` = **0**, `grep -c '^### '` = **18**.
 - `node tools/sync-stats.mjs` an der Kapitelgrenze gelaufen: Einträge 630, Abschnitte 34, A 420 / B 159 / C 51, Streitfälle 58, TODO 30, Links 1378. Die vier chinesischen Quellenangaben, die entfallen sind, und die vier deutschen, die hinzugekommen sind, verändern die Linkzahl; nachgezogen wurden das README-Quellenabzeichen und `tools/og.html` (1380 → **1378**) sowie der Evidenzabsatz der README (31 → **30** TODO-Stellen). `index.html` blieb unverändert, `og.png` ist neu erzeugt (156 291 Bytes, Selbstprüfung bestanden).
+
+### Nacharbeit (2026-10-01, Folgecommit)
+
+Zwei Punkte, die beim Abschluss des Kapitels aufgefallen und offen geblieben waren.
+
+**① Doppelung zwischen Klartext und Nutzen (Nr. 14 und Nr. 15).** Beim Umstellen der beiden
+Einträge auf die deutsche Zeitverwendungserhebung sind die Zahlen der Nutzen-Spalte in den
+Klartext übernommen worden, ohne ihn umzuformulieren: in **Nr. 14** standen die ersten zwei Sätze
+wörtlich in beiden Spalten, in **Nr. 15** war der Klartext bis auf den Herkunftssatz die Nutzen-Zeile
+selbst. Kein Regelverstoß (`check-plain.mjs` war grün), aber eine Doppelung. Der Klartext ist
+jetzt der kürzere, eigenständig formulierte Auszug, die Nutzen-Spalte trägt weiter die genauen
+Werte und die Quelle:
+
+| Eintrag | vorher (Klartext) | nachher (Klartext) |
+|---|---|---|
+| Nr. 14 | „Menschen ab zehn Jahren in Deutschland wenden täglich im Schnitt 3 Stunden 8 Minuten … auf. Frauen kommen auf 3 Stunden 45 Minuten, Männer auf 2 Stunden 31 Minuten. …" — wörtlich wie die Nutzen-Zeile | „Für Haushaltsführung und die Betreuung der Familie wendet man in Deutschland ab zehn Jahren täglich im Schnitt knapp drei Stunden auf, Frauen deutlich mehr als Männer. …" (53 Wörter, 3 Sätze) |
+| Nr. 15 | „Menschen ab zehn Jahren in Deutschland verbringen täglich im Schnitt 2 Stunden 55 Minuten mit Medien. Bei Männern sind es 3 Stunden 1 Minute, bei Frauen 2 Stunden 48 Minuten. …" — wörtlich wie die Nutzen-Zeile | „Medien füllen in Deutschland bei Menschen ab zehn Jahren täglich im Schnitt knapp drei Stunden. Bei Männern sind es etwas mehr als drei Stunden, bei Frauen etwas weniger. …" (50 Wörter, 4 Sätze) |
+
+Beide Klartexte liegen damit im Zielwert 50 bis 70 Wörter; die genauen Minutenwerte stehen
+unverändert in der Nutzen-Spalte, es ist nichts entfallen (REQ-20). Die Nutzen-Spalten selbst
+wurden **nicht** angetastet.
+
+**② Aktenzeichen wurden als Eintragsverweise gelesen.** `check-refs.mjs --check` gab für
+Abschnitt 31 drei Hinweise aus („der Abschnitt hat nur 16 Einträge — vielleicht eine Normstelle"):
+`Guobanfa Nr. 27 von 2020`, `Renshebufa Nr. 56 von 2021`, `Caijin Nr. 75 von 2023`. Alle drei sind
+Aktenzeichen der chinesischen Behörden, der Text war richtig — die Heuristik war zu kurz. Sie prüfte
+nur das Wort **vor** „Nr." gegen eine Liste (Verordnung, Gesetz, Dokument, Richtlinie …); ein
+Pinyin-Name wie „Guobanfa" trifft die Liste nicht.
+
+Die Heuristik prüft jetzt zusätzlich das Jahr **hinter** der Nummer (`Nr. N von JJJJ`). Grundlage:
+eine Vollerhebung aller Stellen „… Nr. N von JJJJ" im gescannten Bestand (book/ und die Langtexte
+unter docs/) ergab **86 Stellen, durchweg Dokumentnummern**, kein einziger Eintragsverweis. Der
+Filter ist damit nicht geraten, sondern aus dem Bestand belegt.
+
+Die Wirkung reicht über die drei Hinweise hinaus: Liegt eine Dokumentnummer **unter** der
+Eintragszahl des Abschnitts, wurde sie bisher als gültiger Verweis gezählt und auf einen Eintrag
+gebucht, den sie nicht meint — ein stilles Versagen, das die Bereichsprüfung nicht sehen kann. Der
+Diff von `docs/verweis-abgleich.md` zeigt genau diese neun Zeilen, alle als Dokumentnummer erkennbar:
+
+| Abschnitt der Buchung | falsch gebuchte Nummer | tatsächlich gemeint |
+|---|---|---|
+| 8 | Nr. 7 | Justizauslegung Nr. 7 von 2011 |
+| 8 | Nr. 10 | Justizauslegung Nr. 10 von 2013 |
+| 8 | Nr. 14 | Leitende Meinung Nr. 14 von 2023 (zweimal) |
+| 31 | Nr. 14 | Bekanntmachung Nr. 14 von 2023 |
+| 31 | Nr. 27 | Guobanfa Nr. 27 von 2020 |
+| 31 | Nr. 56 | Renshebufa Nr. 56 von 2021 |
+| 31 | Nr. 75 | Caijin Nr. 75 von 2023 |
+| 31 | Nr. 1 | Huifa Nr. 1 von 2007 |
+
+**Die Gesamtzahl der Verweise sinkt damit von 621 auf 612** — nicht, weil ein Verweis entfallen ist,
+sondern weil neun falsche Buchungen verschwinden. Die Kapitelprüfung oben nennt für Abschnitt 4 noch
+621; das war der Stand vor dieser Korrektur. Der Maßstab aus `CLAUDE.md` („N kommen hinzu, die
+Gesamtzahl steigt um N") gilt unverändert, nur mit der kleineren Basislinie.
+
+**Maschinelle Gates nach der Nacharbeit:** `check-plain.mjs --stat` 630 Zeilen, beanstandet 0;
+`check-refs.mjs --check` bestanden, **612** Verweise, **keine offenen Hinweise mehr**;
+`sync-stats.mjs --no-screenshot` unverändert (Einträge 630, Abschnitte 34, A 420 / B 159 / C 51,
+Streitfälle 58, TODO 30, Links 1378), nur `docs/verweis-abgleich.md` neu geschrieben.

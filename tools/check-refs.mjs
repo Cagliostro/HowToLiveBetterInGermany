@@ -234,6 +234,15 @@ for (const { f, dir, isDoc } of targets) {
       // Bereichsprüfung meldete sie als «vielleicht eine Normstelle».
       const CITE = /(Verordnung|Gesetz|Dokument(?:s|es|e|en)?|Richtlinie|Satzung|Übereinkommen|Konvention|Erlass|Anordnung|Verfügung|Runderlass|Norm|DIN|EN|ISO|GB|Az\.|Aktenzeichen|Beschluss|Urteil|Rn\.|Rz\.)$/i;
       if (CITE.test(tail)) continue;
+      // Aktenzeichen der chinesischen Behörden in Umschrift: «Guobanfa Nr. 27 von 2020»,
+      // «Renshebufa Nr. 56 von 2021», «Caijin Nr. 75 von 2023». Das Wort vor «Nr.» ist dort ein
+      // Pinyin-Name und trifft die Liste oben nicht. Es ist dieselbe Klasse wie «Dokument Nr. 22
+      // … von 2025», erkannt wird sie am Jahr hinter der Nummer — die 86 Stellen «… Nr. N von
+      // JJJJ» im gescannten Bestand sind sämtlich Dokumentnummern, kein Eintragsverweis. Ohne
+      // diese Regel versagen die kleinen Dokumentnummern still: Liegt die Nummer unter der
+      // Eintragszahl des Abschnitts, gilt sie als Verweis und wird auf einen Eintrag gebucht,
+      // der gar nicht gemeint ist (Abschnitt 31, Nr. 11: «Bekanntmachung Nr. 14 von 2023»).
+      if (/^\s*(?:von|aus)\s+\d{4}\b/.test(stripped.slice(m.index + m[0].length))) continue;
       for (const [x, range] of nums(m[1])) {
         const title = self.titles.get(x);
         rows.push({ from: unit, range, ref: `Abschnitt ${num}, Nr. ${x}`, title, line: i + 1, ctx: ctxOf(stripped, m.index), narrow: narrowOf(stripped, m.index), after: afterOf(stripped, m.index) });
