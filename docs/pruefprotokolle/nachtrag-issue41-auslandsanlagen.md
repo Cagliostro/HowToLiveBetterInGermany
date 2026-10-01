@@ -2,6 +2,8 @@
 
 2026-09-28. Der Originaltext von Issue #41 lautet „Finger weg von A-Aktien, eröffne früh ein US-Aktienkonto und genieße ein Leben im mühelosen Gewinn", ohne Quellenangabe.
 
+> **Nachtrag 2026-10-01 — der Eintrag ist gestrichen.** Die hier gesammelte Beleglage bleibt als Nachweis erhalten; der Eintrag selbst steht nicht mehr im Buch. Der Auftraggeber hat am 2026-10-01 entschieden, Nr. 39 zu streichen, weil sein Kern die chinesische Kapitalverkehrskontrolle ist und sich dafür in Deutschland keine Entsprechung belegen ließ (Zielrichtung Deutschland, CLAUDE.md). Ausgeführt: Titel und Eintrag aus `book/05-kein-geld-verschwenden.md` entfernt, Nr. 40 bis 45 auf Nr. 39 bis 44 umnummeriert, die Verweise in Kapitel 05 und in `book/07-leben-ohne-geld.md:185` nachgezogen, die README-TOC-Zeile bereinigt; Buchtitel und Statistik dadurch 630 → 629, A-Stufe 420 → 419, Verweiszahl 613 → 610. Die Streichung ist im Kapitel-Prüfprotokoll `05-kein-geld-verschwenden.md` dokumentiert. Die folgenden Abschnitte beschreiben den Stand vor der Streichung.
+
 ## Der nicht übernommene Teil
 
 - „Finger weg von A-Aktien", „müheloser Gewinn mit US-Aktien": Das ist eine Einschätzung der Marktentwicklung, für die es keine zitierfähige Primärliteratur gibt. Sie steht im Gegensatz zur Denkweise von Nr. 17 (breite Indexfonds) und Nr. 19 (setze das Geld nicht auf eine einzelne Aktie): Jene beiden handeln davon, nicht auf einen einzelnen Markt zu setzen und nicht der vergangenen Entwicklung nachzujagen. Dieses Buch gibt keine Einschätzung ab, welcher Markt steigen wird.

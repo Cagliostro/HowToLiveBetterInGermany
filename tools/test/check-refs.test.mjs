@@ -1,6 +1,6 @@
 // Regressionstest für tools/check-refs.mjs.
 //
-// Warum es ihn gibt: Das Werkzeug ist die einzige Prüfung für 630 Einträge und mehrere hundert
+// Warum es ihn gibt: Das Werkzeug ist die einzige Prüfung für 629 Einträge und mehrere hundert
 // Querverweise. Fällt es still aus, meldet --check „bestanden", ohne etwas geprüft zu haben —
 // genau das ist im chinesischen Original am 2026-09-21 passiert, als zwölf Verweise als
 // „Gesetzeszitat" fehlklassifiziert und nie geprüft wurden. Der Test läuft gegen eine

@@ -11,7 +11,7 @@ export const REPO = 'https://github.com/Cagliostro/HowToLiveBetterInGermany';
 export const SITE = 'https://cagliostro.github.io/HowToLiveBetterInGermany/';
 // Die Eintragszahl steckt im Buchtitel. Sie wird von tools/sync-stats.mjs mitgeschrieben
 // (EDITS-Eintrag „Buchtitel"), nicht hier von Hand gepflegt.
-export const TITLE = 'Lebe besser: 630 Empfehlungen nach Kosten und Nutzen';
+export const TITLE = 'Lebe besser: 629 Empfehlungen nach Kosten und Nutzen';
 export const RELEASE = `${REPO}/releases/download/epub-latest`;
 
 // Durchgehend LF an alle Builds: unter Windows mit core.autocrlf=true wird CRLF ausgecheckt,
