@@ -33,7 +33,7 @@ Verweis «… des Darlehens siehe Nr. 15 dieses Abschnitts» auf den neuen Eintr
 selbst erklären» verrutscht, und ein zwei Teilstrecken entferntes «Sie zahlen selbst» hatte
 den Anker gespielt; `--check` meldete damals «bestanden».
 
-Insgesamt 622 Verweise.
+Insgesamt 621 Verweise.
 
 ## 01-nicht-frueh-sterben
 
@@ -56,7 +56,7 @@ Insgesamt 622 Verweise.
 | Nr. 30 | Abschnitt 13, Nr. 38 | Vielleicht hast du dich mit HIV angesteckt: hol dir binnen 72 Stunden die Blockermedikamente, je früher, desto besser | … Was nach einer bereits erfolgten Exposition zu tun ist, siehe … |
 | Nr. 31 | Abschnitt 27, Nr. 3 | Lass bei der ersten Vorsorgeuntersuchung gleich auf HIV, Syphilis und Hepatitis B testen, eine Mutter-Kind-Blockade ist auch bei einem Befund kostenlos | …ung in der Schwangerschaft und die Unterbrechung der Übertragung von der Mutter stehen in … |
 | Nr. 32 | Abschnitt 1, Nr. 25 | Bei Depression oder Suizidgedanken die Telefonseelsorge anrufen, zu Hause keine Schlafmittel und keine Pflanzenschutzmittel horten | … Das Entfernen tödlicher Mittel und die Telefonseelsorge siehe … |
-| Nr. 32 | Abschnitt 3, Nr. 19 | Wenn du niedergeschlagen bist, tu zuerst die Dinge mit dem besten Kosten-Nutzen-Verhältnis: in Bewegung kommen, Sonnenlicht tanken, rechtzeitig schlafen, mit jemandem reden, 12356 anrufen | … Die ersten Schritte bei gedrückter Stimmung siehe … |
+| Nr. 32 | Abschnitt 3, Nr. 19 | Wenn du niedergeschlagen bist, tu zuerst die Dinge mit dem besten Kosten-Nutzen-Verhältnis: in Bewegung kommen, Sonnenlicht tanken, rechtzeitig schlafen, mit jemandem reden, die Telefonseelsorge anrufen | … Die ersten Schritte bei gedrückter Stimmung siehe … |
 | Nr. 32 | Abschnitt 1, Nr. 33 | „Gerettet" ist keine Absicherung: nach einer Vergiftung mit Pflanzenschutzmitteln oder Kohlenmonoxid rettet die Notaufnahme das Leben, nicht Lunge und Gehirn | … Die Folgen nach einer Rettung siehe … |
 | Nr. 32 | Abschnitt 8, Nr. 15 | Wenn jemand aus deinem Umfeld „niemand soll es gut haben" oder „ich nehme das Kind mit" sagt, halt es nicht für Gerede: nahe Angehörige dürfen direkt in die Klinik bringen, und die Polizei muss nach einer Anzeige einschreiten | … Was du tun kannst, wenn jemand in deiner Nähe solche Gedanken zeigt, siehe … |
 | Nr. 33 | Abschnitt 13, Nr. 19 | Der Kohlenmonoxidmelder schlägt an, oder in einem Zimmer bekommen alle gleichzeitig Kopfschmerz und Übelkeit: erst hinausgehen, dann telefonieren | … Das Vorgehen vor Ort bei Kohlenmonoxid siehe … |
@@ -118,17 +118,16 @@ Insgesamt 622 Verweise.
 | Nr. 6 | Abschnitt 3, Nr. 5 | Bearbeite E-Mails und Nachrichten nur ein paar feste Male am Tag im Stapel | …r zweiten hilft nur, sie zusammen mit Nr. 1 (unnötige Benachrichtigungen ausschalten) und … |
 | Nr. 9 | Abschnitt 3, Nr. 3 | Schlaf jede Nacht 7 bis 8 Stunden und halte 6 Stunden nicht für genug | … Was das Aufbleiben selbst kostet, siehe … |
 | Nr. 11 | Abschnitt 2, Nr. 38 | Den Mittagsschlaf auf eine halbe Stunde begrenzen, nicht über eine Stunde, und wenn du unbedingt ein bis zwei Stunden brauchst, die Ursache abklären lassen | …n mit höherer Sterblichkeit und höherem Risiko für koronare Herzkrankheit zusammen, siehe … |
-| Nr. 19 | Abschnitt 1, Nr. 25 | Bei Depression oder Suizidgedanken die Telefonseelsorge anrufen, zu Hause keine Schlafmittel und keine Pflanzenschutzmittel horten | … ruf zuerst 12356 an (siehe … |
-| Nr. 20 | Abschnitt 8, Nr. 39 | Verlang bei der Anzeige sofort die Eingangsbestätigung, bei Nicht-Eröffnung einen schriftlichen Bescheid: binnen 7 Tagen Widerspruch, weitere 7 Tage Überprüfung, die Staatsanwaltschaft kann die Eröffnung anweisen | … Alle Zahlen in diesem Eintrag stammen aus … |
-| Nr. 20 | Abschnitt 24, Nr. 8 | Bei akut schweren Verletzungen oder Erkrankungen direkt zum Ersteinschätzungstisch der Notaufnahme, nicht am Anmeldetisch anstehen | …Beispiel wird in der Notaufnahme nach Schweregrad eingeteilt und nicht nach Ankunftszeit (… |
-| Nr. 20 | Abschnitt 24, Nr. 12 | Dank dem Arzt, der dich gerettet hat, über Dankbrief, Wimpel und Zufriedenheitsbewertung, nicht über einen Umschlag: Die Richtlinie verbietet Sachen, nicht den Dank | …illst, der dich gerettet hat, nimm einen Dankbrief und die Zufriedenheitsbewertung, siehe … |
-| Nr. 20 | Abschnitt 8, Nr. 40 | Steck Ermittelnden und Vollstreckenden kein Geld und keine Karten zu: Bestechung wird auch für den Geber bestraft, bei Bestechung von Aufsichts-, Vollstreckungs- und Justizpersonal sogar strenger | …ittlern und Vollstreckern Bestechung, und zwar ausdrücklich mit erschwerter Strafe, siehe … |
+| Nr. 19 | Abschnitt 1, Nr. 25 | Bei Depression oder Suizidgedanken die Telefonseelsorge anrufen, zu Hause keine Schlafmittel und keine Pflanzenschutzmittel horten | … ruf zuerst die Telefonseelsorge an (siehe … |
+| Nr. 20 | Abschnitt 24, Nr. 8 | Bei akut schweren Verletzungen oder Erkrankungen direkt zum Ersteinschätzungstisch der Notaufnahme, nicht am Anmeldetisch anstehen | … In der Notaufnahme wird nach Schweregrad eingeteilt, nicht nach Ankunftszeit (… |
+| Nr. 20 | Abschnitt 24, Nr. 12 | Dank dem Arzt, der dich gerettet hat, über Dankbrief, Wimpel und Zufriedenheitsbewertung, nicht über einen Umschlag: Die Richtlinie verbietet Sachen, nicht den Dank | … Willst du einem Arzt danken, nimm einen Dankbrief und die Zufriedenheitsbewertung (… |
+| Nr. 20 | Abschnitt 8, Nr. 40 | Steck Ermittelnden und Vollstreckenden kein Geld und keine Karten zu: Bestechung wird auch für den Geber bestraft, bei Bestechung von Aufsichts-, Vollstreckungs- und Justizpersonal sogar strenger | …t gegenüber Ermittlern und Vollstreckern Bestechung, ausdrücklich mit erschwerter Strafe (… |
 | Nr. 21 | Abschnitt 4, Nr. 15 | Für Kurzvideos und zielloses Scrollen eine harte Obergrenze setzen | … Die Rechnung über die gesamte Bildschirmzeit steht in … |
 | Nr. 21 | Abschnitt 4, Nr. 16 | Kein Fernsehen und keine Ticker-News; die nötigen Informationen zu festen Zeiten gesammelt anschauen | … Die Rechnung über die gesamte Bildschirmzeit steht in … |
 | Nr. 21 | Abschnitt 6, Nr. 23 | Erwarte nicht, dass Einkaufen die Stimmung oder das Identitätsgefühl bessert | … Wie Einkaufen dir ein Gefühl von Identität zurückgeben soll, siehe … |
 | Nr. 21 | Abschnitt 6, Nr. 24 | Gib kein zusätzliches Geld für Wohnung, Auto und Bekanntenkreis aus, um „im Umfeld eine Stufe höher zu steigen" | … Für mehr Ausgaben, um eine Stufe aufzusteigen, siehe … |
-| Nr. 21 | Abschnitt 3, Nr. 19 | Wenn du niedergeschlagen bist, tu zuerst die Dinge mit dem besten Kosten-Nutzen-Verhältnis: in Bewegung kommen, Sonnenlicht tanken, rechtzeitig schlafen, mit jemandem reden, 12356 anrufen | … Was du bei gedrückter Stimmung zuerst tust, siehe … |
-| Nr. 23 | Abschnitt 1, Nr. 25 | Bei Depression oder Suizidgedanken die Telefonseelsorge anrufen, zu Hause keine Schlafmittel und keine Pflanzenschutzmittel horten | …anken ruf zuerst 12356 an und bring die Mittel, die töten können, außer Reichweite, siehe … |
+| Nr. 21 | Abschnitt 3, Nr. 19 | Wenn du niedergeschlagen bist, tu zuerst die Dinge mit dem besten Kosten-Nutzen-Verhältnis: in Bewegung kommen, Sonnenlicht tanken, rechtzeitig schlafen, mit jemandem reden, die Telefonseelsorge anrufen | … Was du bei gedrückter Stimmung zuerst tust, siehe … |
+| Nr. 23 | Abschnitt 1, Nr. 25 | Bei Depression oder Suizidgedanken die Telefonseelsorge anrufen, zu Hause keine Schlafmittel und keine Pflanzenschutzmittel horten | …t die Telefonseelsorge an und bring die Mittel, die töten können, außer Reichweite, siehe … |
 | Nr. 23 | Abschnitt 8, Nr. 15 | Wenn jemand aus deinem Umfeld „niemand soll es gut haben" oder „ich nehme das Kind mit" sagt, halt es nicht für Gerede: nahe Angehörige dürfen direkt in die Klinik bringen, und die Polizei muss nach einer Anzeige einschreiten | … Was du tun kannst, wenn jemand in deiner Nähe solche Gedanken zeigt, siehe … |
 | Nr. 23 | Abschnitt 30, Nr. 8 | Lass Kinder von 12 bis 18 Jahren einmal ein Depressionsscreening machen und halt den psychologischen Test der Schule nicht für eine Diagnose | … Das Depressionsscreening bei Kindern siehe … |
 | Nr. 23 | Abschnitt 3, Nr. 15 | Behandle Gedanken wie „es wird sicher schlimmer" als Symptom, nicht als Tatsache | … Er ist wie die pessimistische Erwartung in … |
@@ -136,7 +135,7 @@ Insgesamt 622 Verweise.
 | Nr. 24 | Abschnitt 22, Nr. 7 | Bei schlechter Stimmung geh spazieren oder laufen. Die Effektstärke gegen Depression ist proportional zur Intensität | … Auf lange Sicht hilft es bei gedrückter Stimmung, siehe … |
 | Nr. 24 | Abschnitt 8, Nr. 43 | Wirst du häuslicher Gewalt ausgesetzt: erst die Polizei rufen und ein Einsatzprotokoll hinterlassen, dann beim Gericht eine Gewaltschutzanordnung beantragen, sie setzt keine Scheidung voraus und kostet nichts | … Dann geht es nicht um deine Gefühle, siehe … |
 | Nr. 24 | Abschnitt 3, Nr. 18 | Verlass bei Wut zuerst den Ort und behandle den anderen wie das Wetter, nicht wie einen Feind | … Was du sofort tun kannst, siehe  (zyklisches Seufzen), außerdem … |
-| Nr. 25 | Abschnitt 1, Nr. 25 | Bei Depression oder Suizidgedanken die Telefonseelsorge anrufen, zu Hause keine Schlafmittel und keine Pflanzenschutzmittel horten | … es dir beim Schreiben immer schlechter geht, hör auf und ruf stattdessen 12356 an, siehe … |
+| Nr. 25 | Abschnitt 1, Nr. 25 | Bei Depression oder Suizidgedanken die Telefonseelsorge anrufen, zu Hause keine Schlafmittel und keine Pflanzenschutzmittel horten | …hreiben immer schlechter geht, hör auf und ruf stattdessen die Telefonseelsorge an, siehe … |
 
 ## 04-keine-zeit-verschwenden
 
@@ -149,7 +148,7 @@ Insgesamt 622 Verweise.
 | Nr. 10 | Abschnitt 3, Nr. 1 | Schalte unnötige Benachrichtigungen aus und leg das Handy bei der Arbeit aus dem Blickfeld | … Das Handy außer Sichtweite zu legen, hat jemand direkt gemessen, siehe … |
 | Nr. 11 | Abschnitt 2, Nr. 3 | Raucherentwöhnung nicht nur mit Aushalten, sondern zuerst Medikamente holen: die Erfolgsquote mehr als verdoppeln | … Wie du selbst mit dem Rauchen aufhörst, steht in … |
 | Nr. 12 | Abschnitt 4, Nr. 1 | Den Vorsatz in „um wie viel Uhr, wo, und wenn etwas passiert, dann mache ich was" umschreiben | …Wiederholung wirklich stattfindet, binde die Handlung an einen festen Zusammenhang, siehe … |
-| Nr. 13 | Abschnitt 3, Nr. 19 | Wenn du niedergeschlagen bist, tu zuerst die Dinge mit dem besten Kosten-Nutzen-Verhältnis: in Bewegung kommen, Sonnenlicht tanken, rechtzeitig schlafen, mit jemandem reden, 12356 anrufen | …s Aufschieben mit deutlicher Niedergeschlagenheit oder Angst einher, halte dich zuerst an … |
+| Nr. 13 | Abschnitt 3, Nr. 19 | Wenn du niedergeschlagen bist, tu zuerst die Dinge mit dem besten Kosten-Nutzen-Verhältnis: in Bewegung kommen, Sonnenlicht tanken, rechtzeitig schlafen, mit jemandem reden, die Telefonseelsorge anrufen | …s Aufschieben mit deutlicher Niedergeschlagenheit oder Angst einher, halte dich zuerst an … |
 | Nr. 13 | Abschnitt 4, Nr. 10 | Was du brauchst, in Reichweite legen, Unerwünschtes wegräumen, nicht auf die Selbstbeherrschung im Moment setzen | … Die Reizkontrolle steht in … |
 | Nr. 15 | Abschnitt 3, Nr. 21 | Mach „wie es anderen geht" nicht zur täglichen Pflichtlektüre: begrenze oder schließe Apps, in denen du die Beiträge von Gleichaltrigen durchblätterst | … Studie dazu, wie viel Zeit zurückgewonnen und wie sich die Stimmung verändert hat, siehe … |
 
@@ -291,7 +290,7 @@ Insgesamt 622 Verweise.
 | Nr. 12 | Abschnitt 9, Nr. 15 | Beim Eintreiben von Schulden: niemanden festhalten, niemanden einsperren und nicht bis in die Wohnung folgen und dort hängen bleiben | … Die rote Linie beim Eintreiben steht in … |
 | Nr. 13 | Abschnitt 8, Nr. 14 | Wenn der Gedanke „ich nehme jemanden mit" oder „gemeinsam sterben" auftaucht, behandle es als Notfall: geh vom Ort weg, gib Auto- und Messerschlüssel ab und ruf 12356 | … Wenn der Gedanke schon so weit ist, siehe … |
 | Nr. 14 | Abschnitt 1, Nr. 25 | Bei Depression oder Suizidgedanken die Telefonseelsorge anrufen, zu Hause keine Schlafmittel und keine Pflanzenschutzmittel horten | … Wer sich selbst etwas antun will, siehe … |
-| Nr. 14 | Abschnitt 3, Nr. 19 | Wenn du niedergeschlagen bist, tu zuerst die Dinge mit dem besten Kosten-Nutzen-Verhältnis: in Bewegung kommen, Sonnenlicht tanken, rechtzeitig schlafen, mit jemandem reden, 12356 anrufen | … Was bei gedrückter Stimmung zuerst hilft, steht in … |
+| Nr. 14 | Abschnitt 3, Nr. 19 | Wenn du niedergeschlagen bist, tu zuerst die Dinge mit dem besten Kosten-Nutzen-Verhältnis: in Bewegung kommen, Sonnenlicht tanken, rechtzeitig schlafen, mit jemandem reden, die Telefonseelsorge anrufen | … Was bei gedrückter Stimmung zuerst hilft, steht in … |
 | Nr. 16 | Abschnitt 8, Nr. 37 | Wirst du online gemobbt: erst Schutz an, erst Beweise sichern, dann unter Plattform, Anordnung und Anzeige einen der drei Wege wählen | … Wie du dich nach einem Shitstorm gegen dich verhältst, steht in … |
 | Nr. 19 | Abschnitt 19, Nr. 1 | Überstundenvergütung in drei Stufen mit dem 1,5-Fachen, 2-Fachen und 3-Fachen; zahlt die Firma nicht, beschwer dich bei der Arbeitsaufsicht; bei Zahlung nach Fristablauf kommen noch 50 % bis 100 % dazu | …rstunden und nicht genommener Urlaub laufen über die arbeitsrechtliche Schlichtung, siehe … |
 | Nr. 19 | Abschnitt 19, Nr. 2 | Der Jahresurlaub richtet sich nach der gesamten Betriebszugehörigkeit und beträgt 5, 10 oder 15 Tage; nicht genommener Urlaub wird mit 300 % des Tageslohns abgegolten | …rstunden und nicht genommener Urlaub laufen über die arbeitsrechtliche Schlichtung, siehe … |
@@ -554,7 +553,7 @@ Insgesamt 622 Verweise.
 | Nr. 4 | Abschnitt 8, Nr. 29 | Schlepp bei der Ein- und Ausreise für Fremde nichts mit und nimm keine Pakete unbekannter Herkunft an | … Wie es ist, für andere etwas mitzunehmen, steht in … |
 | Nr. 4 | Abschnitt 22, Nr. 3 | Wenn dir im Lokal jemand etwas reicht, geh sofort. Jemanden gewähren lassen oder etwas bereitstellen ist kein Freundschaftsdienst | …emand unbekanntes Pulver, Tabletten oder eine E-Zigaretten-Kartusche herausholt, steht in … |
 | Nr. 5 | Abschnitt 9, Nr. 16 | Verleih deinen Ausweis nicht, benutze keinen fremden Ausweis und eröffne mit fremden Papieren keine Konten und kaufe keine Tickets | … Das ist dieselbe Sache wie in … |
-| Nr. 7 | Abschnitt 3, Nr. 19 | Wenn du niedergeschlagen bist, tu zuerst die Dinge mit dem besten Kosten-Nutzen-Verhältnis: in Bewegung kommen, Sonnenlicht tanken, rechtzeitig schlafen, mit jemandem reden, 12356 anrufen | … Das ist die Ausführung von … |
+| Nr. 7 | Abschnitt 3, Nr. 19 | Wenn du niedergeschlagen bist, tu zuerst die Dinge mit dem besten Kosten-Nutzen-Verhältnis: in Bewegung kommen, Sonnenlicht tanken, rechtzeitig schlafen, mit jemandem reden, die Telefonseelsorge anrufen | … Das ist die Ausführung von … |
 | Nr. 10 | Abschnitt 3, Nr. 16 | Reduziere Beziehungen, die dir Kraft rauben, und lerne, Bitten abzulehnen, die du nicht annehmen willst | … Das steht nicht im Widerspruch zu … |
 
 ## 23-welche-faehigkeiten-sich-lohnen
