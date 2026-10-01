@@ -33,7 +33,7 @@ Verweis «… des Darlehens siehe Nr. 15 dieses Abschnitts» auf den neuen Eintr
 selbst erklären» verrutscht, und ein zwei Teilstrecken entferntes «Sie zahlen selbst» hatte
 den Anker gespielt; `--check` meldete damals «bestanden».
 
-Insgesamt 621 Verweise.
+Insgesamt 612 Verweise.
 
 ## 01-nicht-frueh-sterben
 
@@ -300,11 +300,9 @@ Insgesamt 621 Verweise.
 | Nr. 20 | Abschnitt 8, Nr. 21 | Bei Ausgabenbeschränkung oder Eintrag in die Liste der Vertrauensunwürdigen zuerst klären, nach welcher Ziffer du geführt wirst, und was sich korrigieren lässt, korrigieren lassen | …Was nach der Aufnahme in die Liste und nach der Ausgabenbeschränkung zu tun ist, steht in … |
 | Nr. 21 | Abschnitt 7, Nr. 19 | Nach Haft, Insolvenz oder Eintrag in die Liste der Vertrauensunwürdigen gibt es rechtlich Wege zurück — erledige zuerst die Formalitäten | …n Fleck im Kreditbericht, das Löschen aus der Liste ändert den Kreditbericht nicht, siehe … |
 | Nr. 21 | Abschnitt 8, Nr. 17 | Lies das Papier vor der Unterschrift zu Ende, unterschreibe nicht für andere und nicht auf leeren Blättern | … Diese Bestimmung wurde 2015 durch die Justizauslegung … |
-| Nr. 22 | Abschnitt 8, Nr. 7 | Wenn du getrunken hast, fass das Lenkrad nicht an, auch beim E-Bike und beim „kurzen Umrangieren" | … Die Justizauslegung … |
 | Nr. 31 | Abschnitt 9, Nr. 18 | Ist der andere unter 14 Jahre alt, darf kein Geschlechtsverkehr stattfinden; „sie war einverstanden" ist kein Grund | … Zur Altersfeststellung siehe … |
 | Nr. 31 | Abschnitt 9, Nr. 18 | Ist der andere unter 14 Jahre alt, darf kein Geschlechtsverkehr stattfinden; „sie war einverstanden" ist kein Grund | … wie das Mädchenalter festgestellt wird, siehe … |
 | Nr. 31 | Abschnitt 8, Nr. 32 | Nach Sex oder Nacktchat: Verlangt die andere Seite mit einer Anzeige, Fotos oder einem Hinweis an deinen Arbeitgeber Geld, gib keinen Cent, lösch keine Aufzeichnung und ruf sofort die Polizei | …iss trinkst, bestehen zugleich das Risiko der Anschuldigung und das der Erpressung, siehe … |
-| Nr. 32 | Abschnitt 8, Nr. 10 | Bei einem Streit zuerst die Polizei rufen und nicht zuschlagen, wer zuerst zuschlägt, verliert fast immer | …igen Fragen der Anwendung des Rechts in Strafverfahren wegen Erpressung" (Justizauslegung … |
 | Nr. 32 | Abschnitt 8, Nr. 5 | Bei einer Anschuldigung oder Vorladung zuerst einen Anwalt nehmen, nichts privat regeln und keine Aufzeichnungen löschen | … oder das Konto und blockier nicht einfach, damit löschst du deine eigenen Beweise, siehe … |
 | Nr. 32 | Abschnitt 8, Nr. 36 | Bist du selbst Geschädigter und forderst Ersatz, geh über 12315, eine Klage oder einen Anwalt; geh nicht allein zum Treffen des anderen und verbinde „Geld" nicht mit „ich veröffentliche nichts" in einem Satz | …er und forderst vom Schädiger Ersatz, ist ein hoher Betrag nicht gleich Erpressung, siehe … |
 | Nr. 33 | Abschnitt 8, Nr. 34 | Bei unzureichenden Beweisen muss freigesprochen werden, erzwungene Aussagen müssen ausgeschlossen werden; nach dem Urteil gibt es Beschwerde und Wiederaufnahme | … Beweislast und Rechtsbehelfe, wenn du selbst beschuldigt wirst, stehen in … |
@@ -317,10 +315,8 @@ Insgesamt 621 Verweise.
 | Nr. 36 | Abschnitt 8, Nr. 34 | Bei unzureichenden Beweisen muss freigesprochen werden, erzwungene Aussagen müssen ausgeschlossen werden; nach dem Urteil gibt es Beschwerde und Wiederaufnahme | … Wie du nach einer Verfahrenseröffnung vorgehst, steht in … |
 | Nr. 36 | Abschnitt 8, Nr. 35 | Wurdest du in Haft genommen und dann das Verfahren eingestellt, die Anklage fallen gelassen oder freigesprochen, beantrag Staatshaftung, sie wird pro Tag berechnet | … Wie du nach einer Verfahrenseröffnung vorgehst, steht in … |
 | Nr. 36 | Abschnitt 8, Nr. 32 | Nach Sex oder Nacktchat: Verlangt die andere Seite mit einer Anzeige, Fotos oder einem Hinweis an deinen Arbeitgeber Geld, gib keinen Cent, lösch keine Aufzeichnung und ruf sofort die Polizei | … Wenn die andere Seite mit einem Druckmittel Geld von dir fordert, siehe … |
-| Nr. 37 | Abschnitt 8, Nr. 14 | Wenn der Gedanke „ich nehme jemanden mit" oder „gemeinsam sterben" auftaucht, behandle es als Notfall: geh vom Ort weg, gib Auto- und Messerschlüssel ab und ruf 12356 | … Die Leitende Meinung … |
 | Nr. 37 | Abschnitt 1, Nr. 25 | Bei Depression oder Suizidgedanken die Telefonseelsorge anrufen, zu Hause keine Schlafmittel und keine Pflanzenschutzmittel horten | … Wenn du es nicht mehr aushältst, ruf 12356 an, siehe … |
 | Nr. 37 | Abschnitt 14, Nr. 8 | Du hast das Recht, deine personenbezogenen Daten einzusehen, zu kopieren, zu berichtigen und zu löschen, und kannst bei Ablehnung klagen | … du von der Plattform die Löschung deiner personenbezogenen Daten verlangen willst, siehe … |
-| Nr. 37 | Abschnitt 8, Nr. 14 | Wenn der Gedanke „ich nehme jemanden mit" oder „gemeinsam sterben" auftaucht, behandle es als Notfall: geh vom Ort weg, gib Auto- und Messerschlüssel ab und ruf 12356 | …entlichen Klage wechseln, musst du einen der fünf Fälle aus Art. 12 der Leitenden Meinung … |
 | Nr. 37 | Abschnitt 8, Nr. 16 | Beschimpfe und verleumde niemanden im Netz und verbreite nichts Ungeprüftes; bei einem Shitstorm erst Beweise sichern, dann die Polizei rufen | … Erstens nicht zurückschimpfen, das machen aus dir den Bestraften aus … |
 | Nr. 38 | Abschnitt 8, Nr. 5 | Bei einer Anschuldigung oder Vorladung zuerst einen Anwalt nehmen, nichts privat regeln und keine Aufzeichnungen löschen | … Art. 198 Abs. 1 … |
 | Nr. 38 | Abschnitt 9, Nr. 21 | Erfinde keinen Unfall und übertreibe keinen Schaden für die Schadensregulierung: das ist Versicherungsbetrug, und wer für dich aussagt, repariert oder begutachtet, zählt mit | …ines Schadens ist ebenfalls eine Straftat und zählt Helfer, die aussagen, mit dazu, siehe … |
@@ -723,17 +719,12 @@ Insgesamt 621 Verweise.
 | Nr. 3 | Abschnitt 31, Nr. 2 | Lass dich im Jahr, in dem du achtzehn wirst, bis zum 31. Oktober zur Wehrpflichtregistrierung anmelden. Der aktive Wehrdienst eines Wehrdienstleistenden dauert zwei Jahre | … Art. 57 Abs. 1 … |
 | Nr. 3 | Abschnitt 31, Nr. 2 | Lass dich im Jahr, in dem du achtzehn wirst, bis zum 31. Oktober zur Wehrpflichtregistrierung anmelden. Der aktive Wehrdienst eines Wehrdienstleistenden dauert zwei Jahre | … „Wer die Handlung nach Abs. 1 … |
 | Nr. 3 | Abschnitt 31, Nr. 2 | Lass dich im Jahr, in dem du achtzehn wirst, bis zum 31. Oktober zur Wehrpflichtregistrierung anmelden. Der aktive Wehrdienst eines Wehrdienstleistenden dauert zwei Jahre | … Die Wehrpflichtregistrierung steht in … |
-| Nr. 6 | Abschnitt 31, Nr. 14 | Prüf vor der Arbeit im Ausland zuerst, ob die Firma eine Qualifikation für Auslandsarbeitsvermittlung hat: Sie darf von dir keine Kaution verlangen | … Die dritte Rechnung steht in der Bekanntmachung … |
 | Nr. 10 | Abschnitt 23, Nr. 8 | Bevor du Geld für ein Zertifikat ausgibst, prüf, ob es im Verzeichnis der staatlichen Berufsqualifikationen steht oder die ausstellende Stelle auf der Liste der beim Ministerium für Personal und soziale Sicherheit registrierten Bewertungsstellen | … Gekaufte „Schnellabschlüsse" und gefälschte Zertifikate stehen in … |
 | Nr. 11 | Abschnitt 7, Nr. 18 | Keine Panik bei einer Beitragslücke in der Sozialversicherung: die Rente zählt kumulativ, die Krankenversicherung wird nach Regeln nachgezahlt | …in der Sozialversicherung nachzahlst und wie die Jahre zusammengerechnet werden, steht in … |
-| Nr. 11 | Abschnitt 31, Nr. 27 | **zeigt auf einen nicht vorhandenen Eintrag** | … Das steht in Guobanfa … |
-| Nr. 12 | Abschnitt 31, Nr. 56 | **zeigt auf einen nicht vorhandenen Eintrag** | … Das Aktenzeichen dieses Dokuments ist Renshebufa … |
 | Nr. 12 | Abschnitt 31, Nr. 11 | Zahl ohne Arbeitgeber als flexibel Beschäftigter Rente und Krankenversicherung am Arbeitsort selbst ein, die Beschränkung durch den Haushaltsstatus ist gefallen | … auch der Eintrag zur flexiblen Beschäftigung zitiert es, siehe … |
 | Nr. 12 | Abschnitt 31, Nr. 11 | Zahl ohne Arbeitgeber als flexibel Beschäftigter Rente und Krankenversicherung am Arbeitsort selbst ein, die Beschränkung durch den Haushaltsstatus ist gefallen | … zum Beitritt bei flexibler Beschäftigung siehe … |
 | Nr. 14 | Abschnitt 21, Nr. 5 | Behandle „Auslandsstellen mit hohem Gehalt" immer als Betrug, und wer zum Telekommunikationsbetrug ins Ausland gelockt wurde, darf nach der Rückkehr auch nicht mehr ausreisen | … Betrug mit Lockangeboten im Ausland und Betrugscampus stehen in … |
-| Nr. 15 | Abschnitt 31, Nr. 1 | Geh zuerst die Hürden durch: Die Alters- und Abschlussanforderungen der zwölf Wege stehen alle ausdrücklich im Text | …en zu den Maßnahmen zur Verwaltung des persönlichen Devisenverkehrs [个人外汇管理办法实施细则] (Huifa … |
 | Nr. 15 | Abschnitt 31, Nr. 14 | Prüf vor der Arbeit im Ausland zuerst, ob die Firma eine Qualifikation für Auslandsarbeitsvermittlung hat: Sie darf von dir keine Kaution verlangen | … siehe … |
-| Nr. 16 | Abschnitt 31, Nr. 75 | **zeigt auf einen nicht vorhandenen Eintrag** | …altung des Sonderfonds für die Entwicklung der inklusiven Finanz [普惠金融发展专项资金管理办法] (Caijin … |
 | Nr. 16 | Abschnitt 12, Nr. 1 | Nur mit Geld gründen, dessen Verlust du verkraftest: nicht ans Familienvermögen gehen, nichts leihen | … Die Haltung dieses Buchs in … |
 | Nr. 16 | Abschnitt 7, Nr. 13 | In der Arbeitslosigkeit Zuschüsse für Berufstraining, Beschäftigungspraktikum und Sozialversicherung abholen, statt selbst für Kurse zu zahlen | …n der Arbeitslosigkeit, Sozialversicherungszuschüsse und Beschäftigungspraktika stehen in … |
 
