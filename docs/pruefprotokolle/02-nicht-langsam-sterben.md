@@ -1,72 +1,100 @@
 # Quellenprüfprotokoll zu Abschnitt 2
 
+## Sichtungspass (2026-09-30, vor der Überarbeitung)
+
+Grundlage: `review/kapitel/02.md` (Runde 9, Stufentabelle D/E/Ü/X mit Bezug zum heutigen Text) und `book/02-nicht-langsam-sterben.md` (42 Einträge, gelesen am 2026-09-30). Maßstab sind die am 2026-09-30 beschlossenen Regeln REQ-70 (nur offen zugängliche Quellen), REQ-71 (Statistik je Kapitel) und REQ-72 (Sichtungspass vor dem Schreiben).
+
+**Ergebnis: Stufe X = 0.** Es gibt in diesem Kapitel keinen Eintrag, dessen Kern china-exklusiv wäre. Das deckt sich mit dem Prüfbericht. Bei der Vorbereitung hatte ich Nr. 8 (Betelnuss) und Nr. 41 (SC-Nummer) für Kandidaten gehalten; die Textprüfung bestätigt das nicht: Nr. 8 trägt **keinen** China-Bezug (Beleg sind 17 asiatische Studien, keine chinesische Angabe im Eintrag), Nr. 41 hat mit den EU-Höchstgehalten für Mykotoxine und der amtlichen Lebensmittelkontrolle ein — wenn auch schwaches — deutsches Gegenstück. Beide bleiben deshalb als Grenzfälle unten zur Streichung vorgelegt, ohne als Stufe X geführt zu werden.
+
+| Gruppe | Einträge | Anzahl |
+|---|---|---|
+| ① übertragbar, unverändert | alle übrigen | 33 |
+| ② Übertragung offen — deutsches Gegenstück wird belegt | Nr. 3, 5, 6, 12, 30, 41, 42; Ergänzungsbeleg für Nr. 9, 26 | 7 + 2 |
+| ③ Kern china-exklusiv → Entscheidung des Auftraggebers | — | **0** |
+
+**Gruppe ② im Einzelnen.** Nr. 3 (Verfügbarkeit der Entwöhnungsmittel stützt sich auf die Gesundheitskommission Shanghai; Vareniclin ist in Deutschland zu prüfen), Nr. 5 (Telefon 12320 und WeChat-Plattform des Chinesischen Zentrums für Seuchenkontrolle → Rauchfrei-Telefon der BZgA und örtliche Kurse), Nr. 6 (chinesische E-Zigaretten-Vorschrift → Tabakerzeugnisrecht), Nr. 12 („Sammelbeschaffung" 集采 → gesetzliche Krankenversicherung, Festbeträge, Zuzahlung), Nr. 30 (Kochen und Heizen mit Kohle und Holz → deutsche Verhältnisse beim Heizen; der Koch-Teil hat kein Gegenstück), Nr. 41 (SC-Nummer → EU-Höchstgehalte und Kennzeichnung), Nr. 42 (chinesische Ernährungsleitlinien als Ölquelle → deutsche Ölempfehlung). Bei Nr. 9 und Nr. 26 trägt die Empfehlung, es fehlt aber ein europäischer Beleg (Nr. 9: SSaSS lief im ländlichen China; Nr. 26: nur China-PAR) — dort wird ein deutscher bzw. europäischer Beleg ergänzt, die Empfehlung bleibt.
+
+**Kapitelweit.**
+- **Währung (REQ-68):** `元` steht in **15** Einträgen (Nr. 1, 3, 5, 6, 9, 10, 12, 15, 21, 23, 26, 27, 28, 30, 35), je eine Kostenzeile. Der Prüfbericht nennt 16 Vorkommen — nachgezählt sind es 15 Zeilen in 15 Einträgen. Alle 15 bekommen den Währungsmarker, die Beträge werden nach deutscher Preislage gesetzt.
+- **China-Statistiken** in den Spalten Nutzen/Anmerkung bleiben stehen (Stufe-D-Regel, in Kapitel 01 ebenso gehandhabt, dort Nr. 5, 12, 17, 23). Ein Unterschied ist aber zu machen: **China-Innenansichten im Handlungsteil** werden ersetzt — Nr. 30 „Stadtbewohner haben ohnehin meist schon Strom oder Gas", Nr. 37 „die meisten chinesischen Haushalte haben nicht die Möglichkeit, täglich zu baden". Diese Sätze sind an einen chinesischen Leser gerichtet und ergeben für den deutschen Leser keinen Satz.
+- **Projektregeln (K10) aus dem Prüfbericht zu erledigen:** zwölf Anmerkungen über 700 Zeichen (Nr. 4, 6, 9, 20, 21, 22, 26, 29, 33, 38, 39, 40); Meta-Erzählung in Nr. 11, 12, 14, 15, 24, 30, 40; die Metapher „Eine Seite / Die Gegenseite" in Nr. 19, 20, 33; Fettschrift in Nr. 40 (im Eintragsformat sonst nicht üblich, 2956 Zeichen, längste Anmerkung des Kapitels); fehlender Anker in Nr. 26 („siehe den entsprechenden Eintrag in diesem Abschnitt" — gemeint ist Nr. 31, ohne Nummer).
+- **Nummerierung:** Dieses Protokoll wurde unter einer **älteren Eintragsnummerierung** geschrieben („## Nr. 2 Zuckerhaltige Getränke" ist heute Nr. 7). Die Sichtung oben und der Prüfbericht `review/kapitel/02.md` folgen der heutigen Nummerierung des Buches. Die Abweichung wurde am 2026-10-01 behoben: Die Überschriften der Quellentabellen tragen jetzt die heutige Nummer des Buches und in Klammern die damalige, zugeordnet über den Titel (siehe den Kopf des Quellenteils). Der Bezug zum heutigen Text wurde beim Sichtungspass geprüft.
+
+**Grenzfälle zur Streichung, falls der Auftraggeber strenger entscheiden will.**
+- **Nr. 8 (Betelnuss)** — kein China-Bezug, aber Betelnuss-Kauen ist in Deutschland praktisch kein Thema; der Eintrag trägt dem deutschen Leser wenig. Vorschlag: behalten. Er enthält keinen China-Inhalt, der zu ersetzen wäre, und die Empfehlung ist für die, die es betrifft, richtig.
+- **Nr. 41 (SC-Nummer, Erdnussöl)** — die Kaufanweisung ist nicht übertragbar, die Evidenz ist chinesische Vollzugsdatenerhebung. Vorschlag: umstellen (vorverpacktes Öl mit Herstellerkennzeichnung und amtlicher Kontrolle statt lose abgefülltem Öl; Belege EU-Höchstgehalte, Kontrollrecht). Streichung ist vertretbar, weil der Eintrag seine Pointe überwiegend aus einem chinesischen Vollzugsproblem zieht.
+
+**Kein Eintrag wird ohne Entscheidungsgrundlage gestrichen.** Sollte die Überarbeitung an einer Stelle doch eine Streichung erzwingen, wird die Nummerierung des Kapitels und der Verweisabgleich (`docs/verweis-abgleich.md`) vorher geprüft.
+
 Prüfmethode: Alle Quellen wurden mit WebFetch über die Europe-PMC-REST-Datensätze geöffnet (`<https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:<doi>&resultType=core&format=json`>, einzeln auch mit der Abfrage `TITLE:` oder `EXT_ID:<pmid> AND SRC:MED`); die Datensätze enthalten Titel, Autoren, Zeitschrift, Jahr, DOI, PMID und den vollständigen Abstract, die zitierten Zahlen stehen alle im Abstract. Die PubMed-Webseite gibt an WebFetch eine Cookie-Sperrseite zurück, doi.org gibt 302 und danach gibt die Verlagsseite (NEJM) 403, deshalb gilt der Europe-PMC-Datensatz. Die DOI werden durchweg nach dem Europe-PMC-Datensatz eingetragen (bei der Nuss-Arbeit Aune 2016 lautet die DOI tatsächlich `10.1186/s12916-016-0730-3`, meine ursprüngliche Erinnerung `-0730-5` war falsch, die Arbeit wurde am Ende nicht in den Haupttext aufgenommen).
+
+**Nummerierung des Quellenteils (angeglichen am 2026-10-01).** Die folgenden Abschnitte wurden am 2026-09-29 unter der damaligen Zählung des Abschnitts geschrieben. Ihre Überschriften tragen jetzt die heutige Nummer des Buches und in Klammern die damalige; zugeordnet wurde über den Titel, am Inhalt der Tabellen wurde nichts geändert. Nr. 1, 41 und 42 standen bereits unter der heutigen Nummer.
 
 ## Nr. 1 Raucherentwöhnung
 - <https://doi.org/10.1056/NEJMsa1211128> — bestätigt: Jha P u. a., NEJM 2013, PMID 23343063. Abstract-Original: „Life expectancy was shortened by more than 10 years among the current smokers"; „Adults who had quit smoking at 25 to 34, 35 to 44, or 45 to 54 years of age gained about 10, 9, and 6 years of life, respectively"; „Cessation before the age of 40 years reduces the risk of death associated with continued smoking by about 90%."
 - <https://doi.org/10.1016/S0140-6736(15)00340-2> — bestätigt: Chen Z u. a., Lancet 2015, PMID 26466050. Abstract-Original: Stadtmänner „RR 1·32 [95% CI 1·24-1·41] vs 1·65 [1·53-1·79]" (1990er vs 2010er), Landmänner „RR 1·13 [1·09-1·17] vs 1·22 [1·16-1·29]"; „Ex-smokers who had stopped by choice…had little smoking-attributed risk more than 10 years after stopping."
 - <https://doi.org/10.1016/S0140-6736(10)61388-8> — bestätigt: Oberg M u. a., Lancet 2011, PMID 21112082. Abstract-Original: „603,000 deaths were attributable to second-hand smoke in 2004, which was about 1·0% of worldwide mortality."
 
-## Nr. 2 Zuckerhaltige Getränke
+## Nr. 7 Zuckerhaltige Getränke (früher Nr. 2)
 - <https://doi.org/10.1161/CIRCULATIONAHA.118.037401> — bestätigt: Malik VS u. a., Circulation 2019, PMID 30882235. Abstract-Original: Kategorien „(<1/mo, 1-4/mo, 2-6/week, 1-<2/d, and ≥2/d) were 1.00 (reference), 1.01 (0.98, 1.04), 1.06 (1.03, 1.09), 1.14 (1.09, 1.19), and 1.21 (1.13, 1.28)"; 37 716 men and 80 647 women, „36 436 deaths". Der Abstract gibt kein HR pro Portion/Tag an, der Haupttext zitiert es nicht.
 - <https://doi.org/10.1001/jamainternmed.2019.2478> — bestätigt: Mullee A u. a., JAMA Intern Med 2019. Abstract-Original: alle Softdrinks „HR, 1.17; 95% CI, 1.11-1.22"; mit Zucker gesüßt „HR, 1.08; 95% CI, 1.01-1.16"; mit Süßstoff gesüßt „HR, 1.26; 95% CI, 1.16-1.35"; 451,743 participants.
 
-## Nr. 3 Natriumarmes Salz
+## Nr. 9 Natriumarmes Salz (früher Nr. 3)
 - <https://doi.org/10.1056/NEJMoa2105675> — bestätigt: Neal B u. a., NEJM 2021, PMID 34459569. Abstract-Original: 20,995 participants, mean follow-up 4.74 years; Schlaganfall „rate ratio, 0.86"; schwere kardiovaskuläre Ereignisse „rate ratio, 0.87"; Tod „39.28 events vs. 44.61 events per 1000 person-years; rate ratio, 0.88"; Hyperkaliämie rate ratio 1.04, kein signifikanter Unterschied.
 - <https://doi.org/10.1056/NEJMoa1311889> — bestätigt: O'Donnell M u. a., NEJM 2014, PMID 25119607. Abstract-Original: „≥ 7.00 g per day…odds ratio, 1.15; 95% CI, 1.02 to 1.30"; „below 3.00 g per day…odds ratio, 1.27; 95% CI, 1.12 to 1.44".
 
-## Nr. 4 Schrittzahl
+## Nr. 11 Schrittzahl (früher Nr. 4)
 - <https://doi.org/10.1016/S2468-2667(21)00302-9> — bestätigt: Paluch AE u. a., Lancet Public Health 2022, PMID 35247352. Abstract-Original: „47 471 adults, among whom there were 3013 deaths"; „Quartile median steps per day were 3553 for quartile 1, 5801 for quartile 2, 7842 for quartile 3, and 10 901 for quartile 4"; „adjusted HR for all-cause mortality was 0·60 (95% CI 0·51-0·71) for quartile 2, 0·55 (0·49-0·62) for quartile 3, and 0·47 (0·39-0·57) for quartile 4"; ab 60 Jahren „6000-8000 steps per day", unter 60 Jahren „8000-10 000 steps per day".
 - <https://doi.org/10.1093/eurjpc/zwad229> — bestätigt: Banach M u. a., Eur J Prev Cardiol 2023, PMID 37555441. Abstract-Original: „A 1000-step increment was associated with a 15% decreased risk of all-cause mortality"; „the cut-off point of 3867 steps/day for all-cause mortality".
 
-## Nr. 5 Einnahmetreue bei Blutdruck- und Blutfettsenkern
+## Nr. 12 Einnahmetreue bei Blutdruck- und Blutfettsenkern (früher Nr. 5)
 - <https://doi.org/10.1016/S0140-6736(15)01225-8> — bestätigt: Ettehad D u. a., Lancet 2016, PMID 26724178. Abstract-Original: schwere kardiovaskuläre Ereignisse „RR 0·80, 95% CI 0·77-0·83"; Schlaganfall „0·73, 0·68-0·77"; Herzinsuffizienz „0·72, 0·67-0·78"; „13% reduction in all-cause mortality (0·87, 0·84-0·91)".
 - <https://doi.org/10.1016/S0140-6736(10)61350-5> — bestätigt: CTT Collaboration, Lancet 2010, PMID 21067804. Abstract-Original: schwere Gefäßereignisse „rate ratio [RR] 0·78, 95% CI 0·76–0·80"; „all-cause mortality was reduced by 10% per 1·0 mmol/L LDL reduction (RR 0·90, 95% CI 0·87–0·93)".
 - <https://doi.org/10.1093/eurheartj/eht295> — bestätigt: Chowdhury R u. a., Eur Heart J 2013, PMID 23907142. Abstract-Original: „Corresponding RRs of all-cause mortality were 0.55 (0.46-0.67) and 0.71 (0.64-0.78) for good adherence to statins and antihypertensive agents"; gute gegen schlechte (<80%) Einnahmetreue.
 
-## Nr. 6 Schlaf
+## Nr. 13 Schlaf (früher Nr. 6)
 - <https://doi.org/10.1093/sleep/33.5.585> — bestätigt: Cappuccio FP u. a., Sleep 2010, PMID 20469800. Abstract-Original: „16 studies…1,382,999 male and female participants…112,566 deaths"; kurz „RR: 1.12; 95% CI 1.06 to 1.18"; lang „1.30; [1.22 to 1.38]". Der Abstract gibt keine Definition der Stunden für kurz/lang, der Haupttext nennt keinen konkreten Schwellenwert.
 - <https://doi.org/10.1161/JAHA.117.005947> — bestätigt: Yin J u. a., JAHA 2017, PMID 28889101. Abstract-Original: <7 h „RR was 1.06 (95% CI, 1.04-1.07) per 1-hour reduction"; >7 h „RR was 1.13 (95% CI, 1.11-1.15) per 1-hour increment".
 - <https://doi.org/10.1093/sleep/zsad253> — bestätigt: Windred DP u. a., Sleep 2024, PMID 37738616. Abstract-Original: „60 977 UK Biobank participants"; „1859" deaths; „Higher sleep regularity was associated with a 20%-48% lower risk of all-cause mortality" (die oberen vier SRI-Quintile gegen das unregelmäßigste Quintil); „Sleep regularity was a stronger predictor of all-cause mortality than sleep duration".
 
-## Nr. 7 Bewegung mittlerer Intensität
+## Nr. 14 Bewegung mittlerer Intensität (früher Nr. 7)
 - <https://doi.org/10.1001/jamainternmed.2015.0533> — bestätigt: Arem H u. a., JAMA Intern Med 2015, PMID 25844730. Abstract-Original: weniger als 7.5 MET-h/week „HR, 0.80 [95% CI, 0.78-0.82]"; 1 bis 2 Mal „HR, 0.69 [95% CI, 0.67-0.70]"; 2 bis 3 Mal „HR, 0.63"; 3 bis 5 Mal „HR, 0.61 [95% CI, 0.59-0.62]"; 10 Mal oder mehr „HR, 0.69 [95% CI, 0.59-0.78]".
 - <https://doi.org/10.1136/bmj.l4570> — bestätigt: Ekelund U u. a., BMJ 2019, PMID 31434697. Abstract-Original: MVPA-Quartile HR „1.00, 0.64 (0.55–0.74), 0.55 (0.40–0.74), and 0.52 (0.43–0.61)"; höchstes Quartil der Gesamtbewegung „0.27 (0.23 to 0.32)".
 
-## Nr. 8 Krafttraining
+## Nr. 17 Krafttraining (früher Nr. 8)
 - <https://doi.org/10.1136/bjsports-2021-105061> — bestätigt: Momma H u. a., Br J Sports Med 2022, PMID 35228201. Abstract-Original: „Muscle-strengthening activities were associated with a 10-17% lower risk of all-cause mortality"; „J-shaped associations with the maximum risk reduction (approximately 10-20%) at approximately 30-60 min/week"; „Combined muscle-strengthening and aerobic activities (versus none) were associated with a lower risk of all-cause…mortality".
 
-## Nr. 9 Langes Sitzen
+## Nr. 18 Langes Sitzen (früher Nr. 9)
 - <https://doi.org/10.7326/M17-0212> — bestätigt: Diaz KM u. a., Ann Intern Med 2017, PMID 28892811. Abstract-Original: gesamte Sitzzeit höchstes gegen niedrigstes Quartil „HR, 2.63 [CI, 1.60 to 4.30]"; Dauer der Einzelphasen „HR, 1.96 [CI, 1.31 to 2.93]"; Schlussfolgerung „both the total volume of sedentary time and its accrual in prolonged, uninterrupted bouts are associated with all-cause mortality". Der Abstract nennt keinen Schwellenwert von 30 Minuten, der Titel des Haupttexts nennt keine konkrete Minutenzahl.
 - <https://doi.org/10.1016/S0140-6736(16)30370-1> — bestätigt: Ekelund U u. a., Lancet 2016, PMID 27475271. Abstract-Original: Referenz „those sitting <4 h/day and in the most active quartile [>35·5 MET-h per week]"; niedrigstes Bewegungsquartil + Sitzen >8 h/day „HR=1·59, 1·52-1·66"; höchste Aktivität + >8 h „HR=1·04; 95% CI 0·99-1·10"; „about 60-75 min per day…seem to eliminate the increased risk of death associated with high sitting time"; TV ≥5 h bei höchster Aktivität „HR=1·16, 1·05-1·28".
 
-## Nr. 10 Verarbeitetes Fleisch
+## Nr. 19 Verarbeitetes Fleisch (früher Nr. 10)
 - <https://doi.org/10.1093/aje/kwt261> — bestätigt: Larsson SC, Orsini N, Am J Epidemiol 2014, PMID 24148709. Abstract-Original (highest vs lowest): unverarbeitetes rotes Fleisch „1.10 (95% CI: 0.98, 1.22)"; verarbeitetes Fleisch „1.23 (95% CI: 1.17, 1.28)"; rotes Fleisch insgesamt „1.29 (95% CI: 1.24, 1.35)".
 - <https://doi.org/10.3945/ajcn.117.153148> — bestätigt: Schwingshackl L u. a., Am J Clin Nutr 2017, PMID 28446499. Abstract-Original (pro Portion/Tag): Vollkorn „RR: 0.92; 95% CI: 0.89, 0.95"; rotes Fleisch „RR: 1.10; 95% CI: 1.04, 1.18"; verarbeitetes Fleisch „RR: 1.23; 95% CI: 1.12, 1.36".
 - <https://doi.org/10.7326/M19-1621> — bestätigt: Johnston BC u. a., Ann Intern Med 2019, PMID 31569235. Abstract-Original: „continue current unprocessed red meat consumption (weak recommendation, low-certainty evidence)"; „continue current processed meat consumption (weak recommendation, low-certainty evidence)".
 
-## Nr. 11 Alkoholkonsum
+## Nr. 20 Alkoholkonsum (früher Nr. 11)
 - <https://doi.org/10.1016/S0140-6736(18)30134-X> — bestätigt: Wood AM u. a., Lancet 2018, PMID 29676281. Abstract-Original: „the minimum mortality risk around or below 100 g per week"; Lebenserwartung mit 40 Jahren: >100–≤200 g/week „approximately 6 months", >200–≤350 g/week „1–2 years", >350 g/week „4–5 years".
 - <https://doi.org/10.1016/S0140-6736(18)31310-2> — bestätigt: GBD 2016 Alcohol Collaborators, Lancet 2018. Abstract-Original: „The level of alcohol consumption that minimised harm across health outcomes was zero (95% UI 0·0-0·8) standard drinks per week."
 - <https://doi.org/10.1001/jamanetworkopen.2023.6185> — bestätigt: Zhao J u. a., JAMA Netw Open 2023, PMID 37000449. Abstract-Original: „low-volume drinkers (1.3-24.0 g per day; RR, 0.93; P = .07) compared with lifetime nondrinkers"; „45 to 64 and 65 or more grams per day (RR, 1.19 and 1.35; P < .001)".
 - <https://doi.org/10.1001/archinte.166.22.2437> — bestätigt: Di Castelnuovo A u. a., Arch Intern Med 2006, PMID 17159008. Abstract-Original: „maximum protection being 18% in women (99% confidence interval, 13%-22%) and 17% in men"; „up to 4 drinks per day in men and 2 drinks per day in women, was inversely associated with total mortality".
 
-## Nr. 12 Vollkorn
+## Nr. 25 Vollkorn (früher Nr. 12)
 - <https://doi.org/10.1136/bmj.i2716> — bestätigt: Aune D u. a., BMJ 2016, PMID 27301975. Abstract-Original: pro 90 g/day „0.83 (0.77 to 0.90; I(2)=83%, n=11) for all causes"; „Reductions in risk were observed up to an intake of 210-225 g/day".
 - Schwingshackl 2017 wie Nr. 10 (whole grains RR 0.92).
 
-## Nr. 13 Obst und Gemüse
+## Nr. 28 Obst und Gemüse (früher Nr. 13)
 - <https://doi.org/10.1093/ije/dyw319> — bestätigt: Aune D u. a., Int J Epidemiol 2017, PMID 28338764. Abstract-Original: „the summary RR per 200 g/day was…0.90 (95% CI: 0.87-0.93…for all-cause mortality"; „Reductions in risk were observed up to 800 g/day for all outcomes except cancer (600 g/day)".
 - <https://doi.org/10.1161/CIRCULATIONAHA.120.048996> — bestätigt: Wang DD u. a., Circulation 2021, PMID 33641343. Abstract-Original: „daily intake of 5 servings of fruit and vegetables was associated with hazard ratios (95% CI) of 0.87 (0.85-0.90) for total mortality" (gegen 2 Portionen/Tag); „≈5 servings per day of fruit and vegetables, or 2 servings of fruit and 3 servings of vegetables, was associated with the lowest mortality".
 
-## Nr. 14 Hochverarbeitete Lebensmittel
+## Nr. 29 Hochverarbeitete Lebensmittel (früher Nr. 14)
 - <https://doi.org/10.1136/bmj-2023-077310> — bestätigt: Lane MM u. a., BMJ 2024, PMID 38418082. Abstract-Original: „all cause mortality (risk ratio 1.21, 1.15 to 1.27; low)" class II highly suggestive; „cardiovascular disease related mortality (risk ratio 1.50, 95% confidence interval 1.37 to 1.63; GRADE=very low)" class I convincing.
 
-## Nr. 15 Verbrennung in Innenräumen / PM2.5
+## Nr. 30 Verbrennung in Innenräumen / PM2.5 (früher Nr. 15)
 - <https://doi.org/10.1001/jama.2018.2151> — bestätigt: Yu K u. a., JAMA 2018, PMID 29614179. Abstract-Original: 271,217 adults; Kochen mit festem Brennstoff all-cause „HR, 1.11 [95% CI, 1.03-1.20]"; Heizen „HR, 1.14 [95% CI, 1.03-1.26]"; umgestellt (Kochen) „HR, 0.87 [95% CI, 0.79-0.95]"; umgestellt (Heizen) „HR, 0.67 [95% CI, 0.57-0.79]".
 - <https://doi.org/10.1016/j.envint.2020.105974> — bestätigt: Chen J, Hoek G, Environ Int 2020, PMID 32703584. Abstract-Original: „The combined Risk Ratio (RR) for PM₂.₅ and natural-cause mortality was 1.08 (95%CI 1.06, 1.09) per 10 µg/m³", 104 cohort studies.
 
-## Nr. 16 Körpergewicht
+## Nr. 33 Körpergewicht (früher Nr. 16)
 - <https://doi.org/10.1016/S0140-6736(16)30175-1> — bestätigt: Global BMI Mortality Collaboration, Lancet 2016, PMID 27423262. Abstract-Original: „All-cause mortality was minimal at 20·0-25·0 kg/m(2)"; 25.0-27.5 „1·07, 1·07-1·08"; 27.5-30.0 „1·20, 1·18-1·22"; 30.0-35.0 „1·45, 95% CI 1·41-1·48"; 35.0-40.0 „1·94, 1·87-2·01"; 40.0-60.0 „2·76, 2·60-2·92"; Ostasien pro 5 kg/m² „1·39 (1·34-1·44)"; die Analyse ist begrenzt auf „never-smokers without chronic diseases at recruitment who survived 5 years".
 - <https://doi.org/10.1001/jama.2012.113905> — bestätigt: Flegal KM u. a., JAMA 2013, PMID 23280227. Abstract-Original: „The summary HRs were 0.94 (95% CI, 0.91-0.96) for overweight, 1.18 (95% CI, 1.12-1.25) for obesity (all grades combined), 0.95 (95% CI, 0.88-1.01) for grade 1 obesity, and 1.29 (95% CI, 1.18-1.41) for grades 2 and 3 obesity."
 
@@ -75,19 +103,68 @@ Der Entwurf von PR #39 stufte sie als Stufe A ein; die zwei Sätze in der Nutzen
 - <https://doi.org/10.3389/fpubh.2024.1484414> — bestätigt: Lei J u. a., Front Public Health 2024;12, PMID 39758209. Abstract-Original: „The AFB1 concentrations in HMPO were 1.29 (0.12, 6.58) μg/kg"; „an immediate decrease of 2.865 μg/kg (P = 0.006) and a sustained annual reduction of 2.593 μg/kg (P = 0.034)"; „reduction in the prevalence of liver function abnormality (PR = 0.650, 95% CI: 0.469-0.902)".
 - <https://doi.org/10.1080/16549716.2024.2336312> — bestätigt: Zhong Y u. a., Glob Health Action 2024;17, PMID 38629142. Abstract-Original: „Of 1611 pregnant women, 1316 (81.7%) had consumed homemade peanut oil"; „aORs of 1.9 (95% CI 1.1-3.2) and 1.8 (95% CI 1.1-3.0)" (der Reihe nach LBW, PB).
 - <https://publications.iarc.fr/123> — bestätigt: Seitentitel „Chemical Agents and Related Occupations", das ist IARC Monographs Vol 100F; Aflatoxin ist in diesem Band erfasst und ist ein Karzinogen der Gruppe 1.
-- GB 2761-2017, Grenzwert für Aflatoxin B1 in Erdnussöl und daraus hergestellten Erzeugnissen 20 μg/kg: Der Originaltext der Norm wurde nicht beschafft, noch zu prüfen.
+- GB 2761-2017, Grenzwert für Aflatoxin B1 in Erdnussöl und daraus hergestellten Erzeugnissen 20 μg/kg: Der Originaltext der Norm wurde nicht beschafft, noch zu prüfen. **Am 2026-09-30 aus dem Eintrag entfernt** (der Auftraggeber hat „umstellen" entschieden, siehe Überarbeitungsrunde unten); die Zahl 20 μg/kg steht nicht mehr im Buch, der Eintrag ist damit ohne chinesische Norm und ohne chinesische Schriftzeichen.
 
 ## Nr. 42 Pflanzenöl statt Schweineschmalz und Butter
 Der Entwurf von PR #39 schrieb Abdelhamids Umfang (86 RCTs, 162,796 Personen) Hooper 2020 zu; die zwei Zahlen „RR 0.79 (0.66–0.93)" und „RR 0.89" finden sich in beiden Abstracten nicht; „Verhältnis von Omega-6 zu Omega-3 15~20:1, ideal 4:1" hat keine Quelle. Nach dem Zusammenführen am 2026-09-28 nach den Originaltexten von drei Cochrane-Abstracten umgeschrieben, die Aussage wurde von „Öl mit hohem Ölsäureanteil verwenden, Leinöl kalt darübergeben" zu „Pflanzenöl statt gesättigtem Fett, erwarte vom Ölwechsel und vom Leinöl nichts" geändert.
 - <https://doi.org/10.1002/14651858.CD011737.pub3> — bestätigt: Hooper L u. a., Cochrane 2020. Abstract-Original: „15 randomised controlled trials (RCTs) (16 comparisons, 56,675 participants)"; „reduced the risk of combined cardiovascular events by 17% (risk ratio (RR) 0.83; 95% confidence interval (CI) 0.70 to 0.98"; all-cause mortality „RR 0.96; 95% CI 0.90 to 1.03"; cardiovascular mortality „RR 0.95; 95% CI 0.80 to 1.12"; „Subgrouping did not suggest significant differences between replacement of saturated fat calories with polyunsaturated fat or carbohydrate, and data on replacement with monounsaturated fat and protein was very limited".
 - <https://doi.org/10.1002/14651858.CD011094.pub4> — bestätigt: Hooper L, Al-Khudairy L, Abdelhamid AS u. a., Cochrane 2018 Nov, PMID 30488422. Abstract-Original: „19 RCTs in 6461 participants"; all-cause mortality „RR 1.00, 95% CI 0.88 to 1.12"; CVD events „RR 0.97, 95% CI 0.81 to 1.15"; „low-quality evidence".
 - <https://doi.org/10.1002/14651858.CD003177.pub5> — bestätigt: Abdelhamid AS u. a., Cochrane 2020. Abstract-Original: „86 RCTs (162,796 participants)"; ALA all-cause mortality „RR 1.01, 95% CI 0.84 to 1.20"; ALA coronary heart disease events „RR 1.00, 95% CI 0.82 to 1.22".
-- Ernährungsleitlinie für chinesische Einwohner (2022) [中国居民膳食指南（2022）], Speiseöl 25–30 g/Tag: Der Originaltext wurde nicht beschafft, aus dem PR-Entwurf übernommen, noch zu prüfen.
+- Ernährungsleitlinie für chinesische Einwohner (2022) [中国居民膳食指南（2022）], Speiseöl 25–30 g/Tag: Der Originaltext wurde nicht beschafft, aus dem PR-Entwurf übernommen, noch zu prüfen. Am 2026-09-30 aus dem Eintrag **entfernt** und durch die DGE-Empfehlung ersetzt (siehe Überarbeitungsrunde unten); die Zahl 25–30 g/Tag steht nicht mehr im Buch.
 
 ## Geprüft, aber nicht in den Haupttext aufgenommen
-- Aune D u. a. (2016) Nüsse, BMC Medicine, <https://doi.org/10.1186/s12916-016-0730-3>, PMID 27916000: pro 28 g/day ACM „0.78 (95% CI: 0.72-0.84)". Die Effektstärke ist vermutlich durch Confounding aufgebläht, außerdem kostet es täglich Geld; um die Zahl der Einträge zu begrenzen (Obergrenze 16), nicht aufgenommen.
+- Aune D u. a. (2016) Nüsse, BMC Medicine, <https://doi.org/10.1186/s12916-016-0730-3>, PMID 27916000: pro 28 g/day ACM „0.78 (95% CI: 0.72-0.84)". Die Effektstärke ist vermutlich durch Confounding aufgebläht, außerdem kostet es täglich Geld; um die Zahl der Einträge zu begrenzen (Obergrenze 16; die Zahl bezieht sich auf die damalige Fassung des Abschnitts, siehe den Nummerierungshinweis oben), nicht aufgenommen.
 - Sofi F u. a. (2010) Mittelmeerdiät, Am J Clin Nutr, <https://doi.org/10.3945/ajcn.2010.29673>, PMID 20810976: 2-point increase „RR = 0.92; 95% CI: 0.90, 0.94". Überschneidet sich mit Nr. 10, 12, 13, nicht aufgenommen.
-- Holt-Lunstad J u. a. (2010) PLoS Med, <https://doi.org/10.1371/journal.pmed.1000316>, PMID 20668659: „OR = 1.50 (95% CI 1.42 to 1.59)"; Holt-Lunstad J u. a. (2015) Perspect Psychol Sci, <https://doi.org/10.1177/1745691614568352>, PMID 25910392: „social isolation odds ratio (OR) = 1.29, loneliness OR = 1.26, and living alone OR = 1.32". Der Effekt der sozialen Isolation ist groß, aber die umgekehrte Kausalität ist stark und es gibt keine Interventionsbelege; um die Zahl der Einträge zu begrenzen, nicht aufgenommen; bei Bedarf lässt er sich direkt als Nr. 17 ergänzen.
+- Holt-Lunstad J u. a. (2010) PLoS Med, <https://doi.org/10.1371/journal.pmed.1000316>, PMID 20668659: „OR = 1.50 (95% CI 1.42 to 1.59)"; Holt-Lunstad J u. a. (2015) Perspect Psychol Sci, <https://doi.org/10.1177/1745691614568352>, PMID 25910392: „social isolation odds ratio (OR) = 1.29, loneliness OR = 1.26, and living alone OR = 1.32". Der Effekt der sozialen Isolation ist groß, aber die umgekehrte Kausalität ist stark und es gibt keine Interventionsbelege; um die Zahl der Einträge zu begrenzen, nicht aufgenommen; bei Bedarf lässt er sich als weiterer Eintrag am Ende des Abschnitts ergänzen (nach der heutigen Zählung als Nr. 43).
 
 ## Nicht bestätigte Punkte
 - Keine. Alle Zahlen im Haupttext stammen aus den oben genannten geöffneten Datensätzen. Die Spalte „Kosten" im Haupttext (Preis, Zeit) ist eine Schätzung des Autors und zitiert keine Literatur.
+
+## Überarbeitungsrunde 2026-09-30 — Ersetzungen nach der Zielrichtung (REQ-65 bis REQ-72)
+
+Gemessen am heutigen Text nach der Überarbeitung: 42 Einträge, `元` = 0, Marker 16 × `Angepasst` + 5 × `Währung`, `check-plain.mjs --stat` 630 Zeilen / 0 Beanstandungen, `check-refs.mjs --check` 622 Verweise bestanden.
+
+**Neue oder ersetzte Quellen, jede einzeln auf offenen Volltext geprüft** (REQ-70):
+
+| Eintrag | Ersetzt wurde | Neue Quelle | Prüfung |
+|---|---|---|---|
+| Nr. 9 Kaliumsalz | Yuan-Betrag; es fehlte ein deutscher Beleg | PTA-Forum (2026), Würz-Alternative (Blutdrucksenkung, Warnhinweis bei eingeschränkter Nierenfunktion) | 200, Text lesbar |
+| Nr. 10 Zähne (PZR) | Yuan-Beträge | Verbraucherzentrale (2024), Was kostet eine professionelle Zahnreinigung? | 200 |
+| Nr. 12 Blutdruck-/Blutfettmedikamente | chinesische Sammelbeschaffung (集采) | § 61 SGB V (Zuzahlung), § 62 SGB V (Belastungsgrenze) | 200, Wortlaut entnommen |
+| Nr. 21 Alkoholentzug | Anmeldegebühr Psychiatrie | § 39 Abs. 4 SGB V (stationäre Zuzahlung 10 Euro/Tag, höchstens 28 Tage) | 200, Wortlaut entnommen |
+| Nr. 22 Acamprosat/Naltrexon | chinesische Zulassungsangabe | Anlage 1 AMVV (Verschreibungspflicht) | 200 (WebFetch, curl lieferte kein grep-Ergebnis) |
+| Nr. 23 Nüsse | chinesischer Jahresbetrag | deutsche Handelspreise (Eigenmarken/Marken 2026) | Schätzung des Autors, kein Literaturbeleg — wie in der Kosten-Spalte üblich |
+| Nr. 26 Tee | Yuan-Betrag; es fehlte ein europäischer Beleg | Kim Y u. a. (2024), Epidemiology and Health, offener Volltext auf e-epih.org | 200, Text entnommen |
+| Nr. 30 Kohle/Holz | chinesische Brennstoffkosten und der Satz über Stadtbewohner | Umweltbundesamt (2026) Kleinfeuerungsanlagen; 1. BImSchV | 200, Zahlen 15,4 Tsd t PM10 / 14,2 Tsd t PM2,5 im Text bestätigt |
+| Nr. 41 Erdnussöl | chinesische Lebensmittelproduktionslizenz (SC-Nummer), chinesische Norm GB 2761-2017 (20 μg/kg, Provinzvorschriften für Kleinbetriebe) | BfR, Rechtliche Regelungen zu Mykotoxin- und Pflanzentoxingehalten; Kontaminanten-Verordnung (KmV), Anlage 1; BVL, Berichte zur Lebensmittelsicherheit 2024, Kap. 3.3.10.1; DGE (2024), Pflanzliche Öle bevorzugen | 200 (BfR-Seite, KmV-Anlage, BVL-PDF 2 065 940 Bytes, DGE-Seite 270 583 Bytes); Wortlaut entnommen |
+| Nr. 42 Pflanzenöl | chinesische Ernährungsleitlinien (Speiseöl 25–30 g/Tag) | DGE (2024), Pflanzliche Öle bevorzugen; DGE (2024), Gut essen und trinken, Infoblatt Art.-Nr. 122430 | 200, Infoblatt-PDF offen und ohne Anmeldung geladen |
+
+**Nicht zitierbar, deshalb nicht verwendet:**
+- **Hochdruckliga-PDF** (Nr. 9): 200, aber FlateDecode, Text nicht lesbar — wieder entfernt.
+- **EUR-Lex** (Nr. 26, Ochratoxin-Höchstgehalt für Tee): jeder Zugriffsweg gibt 202 (Bot-Schranke). Der exakte EU-Grenzwert wurde deshalb **nicht** zitiert.
+- **DGE-Grammzahl für Öl** (Nr. 42): die DGE-Webseite und das Infoblatt nennen *keinen* Grammwert für Öl. Ich habe deshalb keine Zahl geschrieben, sondern nur, was dort steht („Rapsöl ist das Öl der Wahl", „rund 1 EL Streichfette pro Tag", Schmalz unter den weniger wertvollen Fetten).
+
+**Ausgelassene Angaben (bewusst):**
+- Nr. 3: die Verfügbarkeit von Vareniclin ließ sich amtlich nicht belegen; es wurde nur die Rechtslage geschrieben (Vorlage bleibt offen).
+- Nr. 3/5: Tabaksteuer und Kursgebühr ohne Betrag genannt.
+- Nr. 9: für den Preis des Kaliumsalzes gibt es keinen Literaturbeleg — die Spalte „Kosten" ist wie überall eine Schätzung des Autors.
+
+**Fachlicher Befund Nr. 26 (neu):** In europäischen Kohorten zeigt Tee **keine** Sterblichkeitsbeziehung (Gesamtsterblichkeit 1,12; 95 %-KI 0,88–1,42; Herz-Kreislauf 1,00; 0,78–1,26), in asiatischen schon (0,84; 0,77–0,91 und 0,75; 0,65–0,88). Der Nutzen des Eintrags ist damit asiengetrieben; das steht jetzt als Streitfall in der Anmerkung.
+
+**Projektregeln (K10) — Stand nach der Runde:** Anmerkungen über 900 Zeichen stehen noch in Nr. 20 (1164), 21 (913), 26 (1692), 33 (1046), 38 (1185), 39 (1208), 40 (2618, vorher 2956). Die 900-Zeichen-Grenze ist nach CLAUDE.md ein **Signal, keine Obergrenze**; die Länge ist in jedem Fall durch Streitfall, Zielgruppe und Einschränkungen belegt, gestrichen wurde nichts. In Nr. 40 wurden die Angaben zu Licht, Dunkelheit und Sonnenbrille in den Langtext `docs/innere-uhr-und-nachtschicht.md` verschoben (er trägt 150 Lux, 7000–12000 Lux, vier Tage und die Sonnenbrillenregel vollständig) und die Wortwiederholung mit Klartext/Nutzen getilgt. Die Metaphern „Eine Seite / Die Gegenseite" in Nr. 19, 20, 33 und der Selbstbezug „Der Effekt dieses Eintrags" in Nr. 29 wurden ersetzt.
+
+**Entschieden — Nr. 41 (SC-Nummer, selbstgepresstes Erdnussöl): umstellen, und zwar am Kern.** Der Auftraggeber hat am 2026-09-30 „mindestens umstellen wie vorgeschlagen" freigegeben und gefragt, ob das den Kern trifft oder ob für Deutschland nicht eher eine andere Ölempfehlung das Fazit ist. Die Frage trifft einen echten Einwand: die vorgeschlagene Umstellung (vorverpacktes Öl mit SC-Nummer) setzt am **Vertriebsweg** an, der Risikoträger ist aber der **Rohstoff** — Aflatoxin entsteht in Erdnüssen, Mais, Nüssen, Trockenfrüchten und Gewürzen, nicht beim Abfüllen und nicht durch das Selbstpressen. In Deutschland ist der Vertriebsweg ohnehin amtlich geregelt (EU-Höchstgehalte, KmV, amtliche Überwachung), der deutsche Leser kann also nur beim Rohstoff ansetzen. Das Fazit des Eintrags ist deshalb die **Ölwahl**: für den Alltag Rapsöl, das die DGE als erstes nennt und ausdrücklich bevorzugt (daneben Walnuss-, Lein-, Soja- und Olivenöl), und Erdnussprodukte nur aus dem kontrollierten Handel.
+
+Was konkret geändert wurde:
+- **Titel** von „Vorverpacktes Speiseöl mit SC-Nummer kaufen, kein lose abgefülltes selbstgepresstes Erdnussöl aus Kleinbetrieben" auf „Zum Kochen Rapsöl statt Erdnussöl nehmen; selbstgepresstes Erdnussöl aus unkontrollierter Herstellung kann Aflatoxin tragen". Kein Querverweis zeigt auf Abschnitt 2 Nr. 41 (`grep -rn 'Nr\. 41'`), die Titeländerung ist deshalb ungefährlich; `check-refs.mjs --check` bleibt grün.
+- **Kosten** auf deutsche Verhältnisse: Du greifst zu einem anderen Öl, das Geld bleibt etwa gleich; die SC-Nummer-Prüfung und die Überzeugungsarbeit in der Verwandtschaft entfallen.
+- **Klartext** ohne chinesische Ortsnamen; die Aussage „mehr auffällige Leberwerte im Kleinbetriebsöl" bleibt, aber ohne Guangzhou/Guangxi, und die Sanktion ist der Höchstgehalt-Katalog statt der Kleinbetriebsaufsicht.
+- **Nutzen** behält IARC Klasse 1 und **beide chinesischen Studien mit allen Zahlen** (Median 1,29 μg/kg; 0,12–6,58; Rückgang 2,865 und 2,593 μg/kg; PR 0,650, 95 %-KI 0,469–0,902; 81,7 % von 1611; aOR 1,9 / 1,8). Das ist die geltende Regel dieses Kapitels (in Kap. 01 Nr. 23 und Kap. 02 Nr. 9, 26, 30 ebenso): **Studiendaten und Messwerte bleiben stehen**, ersetzt werden Behörden, Verfahren, Normen und Beträge.
+- **Anmerkung** ersetzt das chinesische Regime (Nationalnorm 20 μg/kg, Provinzvorschriften, Stichprobenpraxis) durch die deutsche/EU-Lage und nennt die eigenen Messergebnisse der amtlichen Überwachung 2024.
+- **Quellen** ersetzt GB 2761-2017 durch KmV Anlage 1, BVL-Monitoringbericht 2024 (Kap. 3.3.10.1), die BfR-Rechtsseite und die DGE-Ölempfehlung; damit ist **das letzte chinesische Schriftzeichen des Kapitels entfernt** (`grep -cP '[\x{4e00}-\x{9fff}]'` = 0, war vorher 1 in der GB-2761-Zeile).
+- **Evidenzstufe B und Kostenlabel unverändert** (Geld=0 Zeit=wenig Willenskraft=nein Nutzen=mittel Bezug=Sterblichkeit) — die Kostenlage für den Leser ändert sich nicht, also kein Eingriff nach REQ-26, keine Verschiebung in der Kosten-Nutzen-Rechnung.
+- Neuer Marker `<!-- Angepasst: chinesische Lebensmittelproduktionslizenz (SC-Nummer) und die chinesische Norm GB 2761-2017 … → EU-weite Höchstgehalte, nationale Kontaminanten-Verordnung, amtliche Lebensmittelüberwachung und die deutsche Ölempfehlung … -->` direkt unter dem Kostenlabel.
+
+Länge nach der Änderung (Maßstab: Klartext 2–4 Sätze, 50–70 Wörter, Grenze 80; Anmerkung 900 Zeichen = Signal): Klartext 4 Sätze / 52 Wörter, längster Satz 18 Wörter; Anmerkung 776 Zeichen, kein Link; Eintrag 9 Zeilen (Grenze 10).
+
+**Was der Beleg nicht hergibt und deshalb nicht geschrieben wurde:** Die BfR-Seite gruppiert die Höchstgehalte unter „Nüsse/Saaten, Trockenfrüchte, Getreide und -erzeugnisse, Mais, Reis, Gewürze, Säuglings- und Kleinkindernahrung, Rohmilch" — **Raps, Sonnenblume und Olive stehen dort nicht als eigene Gruppe**. Ein Satz „Rapsöl, Sonnenblumenöl und Olivenöl bilden kein Aflatoxin" wäre über den Beleg hinausgegangen und wurde verworfen; der Klartext listet stattdessen genau die Lebensmittelgruppen, für die die Verordnung Höchstgehalte setzt, und nennt Rapsöl nur als das, was die DGE tatsächlich empfiehlt. Aus demselben Grund steht Sonnenblumenöl nicht mehr im Text — die DGE nennt es nicht.
