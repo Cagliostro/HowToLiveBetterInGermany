@@ -1,3 +1,61 @@
+# Überarbeitung 2026-10, Zielrichtung Deutschland
+
+## ① Sichtungspass (REQ-72)
+
+| Nr. | Klasse | Ein-Zeilen-Grund |
+| --- | --- | --- |
+| 1 | ① | Paracetamol-Wirkstoffaussage und die US-Zahlen tragen; nur die chinesische Packungsbeilagen-Vorgabe (höchstens 2 g) und die chinesischen Wirkstoffnamen sind gegen die deutsche Packungsbeilage zu tauschen. |
+| 2 | ① | Die Reye-Syndrom-Zahlen bleiben; das chinesische Nimesulid-/Metamizol-Altersverbot ist durch die EU-Regelung (Nimesulid) und die deutsche Verschreibungspflicht (Metamizol) belegbar. |
+| 3 | ① | Reine US-Quellen (CNT 2013, 21 CFR); keine China-Angabe. Unverändert. |
+| 4 | ① | Die Cochrane-Zahlen bleiben; die chinesische Behördenwarnung zu 14 Präparaten ist durch die deutsche DGKJ-Warnung ersetzbar. |
+| 5 | ① | Reine FDA-Quelle; keine China-Angabe. Unverändert. |
+| 6 | ① | Chinesische Umstellung und Musterpackungsbeilage sind durch die EU-/deutsche Packungsbeilage ersetzbar; die Frist 7 → 14 Tage zieht den Titel mit. |
+| 7 | ① | Die Cochrane-Zahlen bleiben; die chinesische Verschreibungspflicht ist durch die deutsche (AMVV) ersetzbar. |
+| 8 | ① | Reine WHO-/Cochrane-Quellen; nur der Yuan-Preis ist zu übernehmen. |
+| 9 | ① | ICHD-3 trägt; nur die chinesische Namensangabe für koffeinhaltige Kopfschmerzmittel ist zu entfernen. |
+
+Kapitelurteil: **grün** (kein ③). Deckt sich mit `sichtung-restkapitel.md`.
+
+## ② Angepasste Einträge (7 von 9)
+
+Geändert wurden Nr. 1, 2, 4, 6, 7, 8 und 9. Unverändert blieben Nr. 3 und Nr. 5 (reine US-Quellen, keine China-Angabe). Marker: 6 × `Angepasst`, 1 × `Währung` (Nr. 8).
+
+### Nr. 1 — Paracetamol
+- **Ersetzt:** chinesische Packungsbeilagen-Vorgabe (NMPA-Bekanntmachung 2020 Nr. 15, Anhang 2: orale Tageshöchstmenge 2 g; Vermeidung der gleichzeitigen Einnahme) und die chinesischen Wirkstoffnamen (Kennzeichen 氨酚 im Freinamen, 扑热息痛) → deutsche Packungsbeilage.
+- **Abgerufene Quelle:** BfArM-Mustertext für die Gebrauchsinformation paracetamolhaltiger Arzneimittel, Stand 25.01.2025 (`palde_8000443_paracetamol_div`), per curl geladen und mit pdftotext gelesen. Darin belegt: „4000 mg Paracetamol täglich" für Erwachsene und Jugendliche ab 12 Jahren bzw. ab 43 kg, „für Kinder 60 mg/kg/Tag"; „Die einmalige Einnahme der Tagesgesamtdosis kann zu schweren Leberschäden führen"; „darf nicht zusammen mit Alkohol eingenommen oder angewendet werden". Die deutsche Tageshöchstmenge (4000 mg) steht nun im Nutzen anstelle der chinesischen 2 g; die US-Zahlen (Larson 2005) und 21 CFR 201.326 bleiben unverändert.
+- **Gesperrte Fassung:** keine. Die alte chinesische Quelle (Nachdruck der Provinz Hunan) wich der offenen BfArM-Quelle.
+
+### Nr. 2 — Aspirin, Nimesulid, Metamizol bei Kindern
+- **Ersetzt:** chinesisches Nimesulid-Verbot unter 12 Jahren (国食药监安〔2011〕209号), chinesisches Metamizol-Verbot unter 18 Jahren (NMPA 2020 Nr. 34) samt chinesischen Präparatenamen (复方青蒿安乃近片, 重感灵片/-胶囊) → EU-Regelung für Nimesulid und deutsche Verschreibungspflicht für Metamizol.
+- **Abgerufene Quellen:** EMA, Annex III der Artikel-107-Überprüfung von Nimesulid — „Kinder unter 12 Jahren" als Gegenanzeige (per curl + pdftotext); Arzneimittelverschreibungsverordnung (AMVV) § 1 und Anlage 1 über gesetze-im-internet.de, dort u. a. Metamizol und Nimesulid als verschreibungspflichtig geführt; BfArM-Rote-Hand-Brief zu metamizolhaltigen Arzneimitteln (2024) zur Agranulozytose. Die Belay-1999-Zahlen zum Reye-Syndrom bleiben unverändert.
+- **Hinweis:** Für Metamizol gibt es in Deutschland **keine** Altersgrenze von 18 Jahren; an ihre Stelle tritt die belegte deutsche Rechtslage (verschreibungspflichtig, Anwendung bei Kindern durch den Arzt). Die Empfehlung des Eintrags (kein Metamizol in Kinderhand) bleibt erhalten.
+- **Fachliche Korrektur (2026-10-01):** Die Titelzeile blieb zunächst stehen und trug weiter die chinesische Klausel „auch Erkältungsmittel mit Metamizol gehören nicht in die Hand von Minderjährigen". Beide Bestandteile sind china-gebunden und in Deutschland nicht belegbar. ① Ein rezeptfreies Erkältungsmittel mit Metamizol kann es hier nicht geben: Metamizol steht in Anlage 1 der Arzneimittelverschreibungsverordnung, ist also verschreibungspflichtig ohne Niedrigdosis-Ausnahme (in China dagegen 复方青蒿安乃近片 und 重感灵片/-胶囊, beide frei verkäuflich). ② Deutschland kennt keine Altersgrenze von 18 Jahren. Der BfArM-Rote-Hand-Brief zu metamizolhaltigen Arzneimitteln vom 09.12.2024 behandelt ausschließlich die Frühsymptome der Agranulozytose (Fieber, Schüttelfrost, Halsschmerzen, Schleimhautveränderungen) und nennt weder Kinder noch eine Altersgrenze; der Volltext der Seite wurde am 2026-10-01 abgerufen und geprüft. ③ Die Titelzeile widersprach dem eigenen Nutzen-Satz „die Anwendung bei Kindern entscheidet der Arzt". Titel und Klartext wurden deshalb auf die belegte deutsche Rechtslage gezogen. Titel neu: „Gib Kindern gegen Fieber kein Aspirin oder Nimesulid; Metamizol ist verschreibungspflichtig und wird nur nach ärztlicher Anordnung gegeben". Klartext neu: „Bei Fieber beim Kind sind Aspirin und Nimesulid tabu." (vorher „diese drei Mittel"). Die Empfehlung selbst bleibt: gegen Fieber beim Kind kein Aspirin und kein Nimesulid, und Metamizol nicht auf eigene Faust. Der Marker wurde um „chinesische Erkältungsmittel mit Metamizol ohne deutsche Entsprechung, Titel mitgezogen" ergänzt. Belege: <https://www.gesetze-im-internet.de/amvv/anlage_1.html> (Metamizol in Anlage 1), <https://www.bfarm.de/SharedDocs/Risikoinformationen/Pharmakovigilanz/DE/RHB/2024/rhb-metamizol.html>. Danach `node tools/check-refs.mjs --check` ohne Befund (kein Verweis zeigt auf Abschnitt 34, Nr. 2).
+
+### Nr. 4 — Kinder unter 2 Jahren, kombinierte Erkältungsmittel
+- **Ersetzt:** chinesische Behördenwarnung zu 14 Präparaten (NMPA 2021 Nr. 57) samt chinesischen Präparatenamen (氨酚麻美口服溶液, 小儿氨酚黄那敏颗粒, 小儿氨酚烷胺颗粒) → Warnung der Deutschen Gesellschaft für Kinder- und Jugendmedizin (DGKJ).
+- **Abgerufene Quelle:** kindergesundheit-info.de (BZgA), Artikel „Vorsicht bei Kinder-Hustensäften: Rezeptfreie Erkältungsmittel nicht immer harmlos" (DGKJ-Presseinfo 29.10.2012). Darin belegt: gefährliche Nebenwirkungen rezeptfreier Kinder-Hustensäfte; die Antiallergika der ersten Generation (Doxylamin, Diphenhydramin, Dimenhydrinat, Promethazin); Sedierung bei normaler Dosis, Halluzinationen und Krämpfe bei Überdosierung, bei Säuglingen zentrale Atemstörungen wie Schlafapnoen und Kollaps von Herz und Atmung; Empfehlung, vorher den Kinder- und Jugendarzt zu fragen. Die Cochrane-Zahlen (Smith 2014) bleiben unverändert.
+- **Beibehaltener Bezug:** Die Altersangabe „unter 2 Jahren" steht weiter im Titel; Klartext und Nutzen führen Säuglinge und Kleinkinder unter 2 Jahren als die besonders betroffene Gruppe.
+
+### Nr. 6 — Omeprazol gegen Sodbrennen
+- **Ersetzt:** chinesische Umstellung zum rezeptfreien Mittel und Musterpackungsbeilage (NMPA 2022 Nr. 68) → deutsche bzw. EU-Packungsbeilage.
+- **Abgerufene Quelle:** EMA, Annex III der Artikel-30-Überprüfung von Omeprazol (Losec und zugehörige Namen), deutsche Gebrauchs- und Fachinformation, per curl + pdftotext. Darin belegt: Anwendungsgebiet „kurzzeitige Behandlung von Refluxbeschwerden (z. B. Sodbrennen, Säurerückfluss)" bei Erwachsenen; „einmal täglich 20 mg über 14 Tage"; „Nehmen Sie Losec nicht länger als 14 Tage ein, ohne Ihren Arzt zu befragen"; „nach 14 Tagen keine Besserung … müssen Sie auf jeden Fall einen Arzt aufsuchen"; Malignitätsausschluss bei beunruhigenden Symptomen (Gewichtsverlust, Erbrechen, Schluckstörungen, Bluterbrechen, Teerstuhl); „über 55 Jahre alt und … neue oder kürzlich veränderte Beschwerden"; die Wechselwirkung mit Clopidogrel.
+- **Titel geändert:** „höchstens 7 Tage" → „höchstens 14 Tage". Danach `check-refs.mjs --check` ohne Befund.
+- **Entfallen:** die chinesische Regel „innerhalb von zwei Monaten nicht erneut" — ohne deutsche Entsprechung (im Marker benannt).
+
+### Nr. 7 — Antibiotika bei Erkältung
+- **Ersetzt:** chinesische Verschreibungspflicht für Antibiotika → deutsche Verschreibungspflicht.
+- **Abgerufene Quelle:** Arzneimittelverschreibungsverordnung (AMVV) § 1 und Anlage 1 über gesetze-im-internet.de; die Anlage führt unter anderem Amoxicillin, Benzylpenicillin, Cefaclor, Cefuroxim, Erythromycin und Clarithromycin. Quelle in der Quellen-Spalte ergänzt. Die Kenealy-2025-Zahlen bleiben unverändert.
+
+### Nr. 8 — Orale Rehydratationslösung
+- **Ersetzt:** reine Währungsangabe (Yuan → Euro), Marker `Währung`. Kein weiterer Eingriff.
+- **Abgerufene Quelle:** Versandapotheken-Preisliste für Oralpädon 240 (zehn Beutel); der Apotheken-Verkaufspreis (AVP) liegt bei 9,99 €, der günstigste gefundene Preis bei etwa 5,50 €. Im Text steht daher die Größenordnung „wenige bis etwa zehn Euro", nicht scheingenau.
+
+### Nr. 9 — Kopfschmerz durch Medikamentenübergebrauch
+- **Ersetzt:** chinesische Namensangabe „咖" für koffeinhaltige Kopfschmerzmittel → länderfreie Fassung („Kombinierte Schmerztabletten enthalten oft Koffein").
+- **Ohne eigene Entsprechung entfernt** (Marker „ohne deutsche Entsprechung"); die Aussage ist in der Nutzen-Spalte bereits durch die ICHD-3 gedeckt (Koffein als Hilfsstoff zählt zur Kombination, 10 Tage).
+
+---
+
 # Abschnitt 34: Die Hausapotheke – beim Einnehmen der Vorräte zu Hause darf nichts schiefgehen
 
 2026-09-29. Auslöser war Issue #43: Ein Leser schlug „Leitfaden zur Anwendung rezeptfreier Arzneimittel" vor und wollte, dass das Buch drei Bereiche beantwortet: fiebersenkende und schmerzlindernde Mittel, Magen-Darm-Mittel und Erkältungsmittel.
