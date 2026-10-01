@@ -217,3 +217,18 @@ Die deutsche Fassung bringt zwei Normschreibweisen mit „Nr.", die der Prüfer 
 
 Beide Klassen werden jetzt übersprungen; die Erkennung greift nur bei genau dieser Fortsetzung, ein Eintragsverweis hinter einem Paragrafenzitat („§ 823 BGB, siehe Nr. 5") wird weiter gefunden. Folge für die Kennzahl: Die Verweiszahl fällt von 627 auf **613**; die 14 abgezogenen Stellen waren sämtlich Normzitate. `node tools/check-refs.mjs --check` meldet danach keinen einzigen Punkt mehr.
 
+## Herkunftsklammer `(Deutschland)` — entfernt am 2026-10-01
+
+Die Nutzen-Zeile dieses Kapitels trug in 36 der 44 Einträge am Satzende den Zusatz `(Deutschland)`. Er war in der Sitzung vom 2026-10-01 durch den Bearbeitungs-Commit `63ab57c` entstanden (Sichtungspass dieses Kapitels) und folgte der buchweiten Konvention, am Ende der Nutzen-Zeile Land und Jahr der zugrunde liegenden Zahl zu nennen — `(China, 2024)`, `(USA, Einzelhandelsdaten der 2000er Jahre)`, `(Italien, veröffentlicht 2020)`. Die 36 Kapitel-05-Stellen waren buchweit die **einzigen** `(Deutschland)`; alle übrigen Kapitel trugen den Zusatz nicht.
+
+**Entscheidung des Auftraggebers (2026-10-01): entfernen.** Drei Gründe:
+
+1. **Doppelung.** Die Herkunft belegt bereits der HTML-Kommentar `<!-- Angepasst: … -->` direkt unter der Kostenlabel-Zeile, im GitHub-Rendering unsichtbar, mit Beleg. Der sichtbare Ländervermerk sagte dasselbe ein zweites Mal und ohne Jahr.
+2. **Zielrichtung.** Die Ausgabe richtet sich an Leser in Deutschland; ein Ländervermerk im laufenden Text ist genau die China-Angabe, die nach REQ-66 nicht mehr im Text stehen soll — nur mit umgekehrtem Vorzeichen.
+3. **Er war nicht buchweit einheitlich.** Ein Vermerk, der in einem Kapitel von 34 steht, liest sich wie eine Hervorhebung, nicht wie eine Konvention.
+
+**Ausführung:** ` (Deutschland)` am Zeilenende entfernt. In 33 Zeilen fehlte dadurch der Satzpunkt („… nichts extra kosten" statt „… nichts extra kosten."); er wurde ergänzt, damit die Nutzen-Zeile wie im übrigen Buch mit einem Punkt schließt (drei Zeilen endeten vor dem Zusatz bereits mit Punkt und blieben unverändert). **Prüfmaßstab:** `grep -c '(Deutschland)' book/*.md` ergibt 0 in jeder Datei; `git diff --numstat` zeigt 39 geänderte Zeilen in `book/05-kein-geld-verschwenden.md` (36 für die Klammer, 3 siehe unten); die drei maschinellen Gates bleiben unverändert grün (Einträge, Links, TODO, Verweiszahl zählen die Klammer nicht mit).
+
+**Nebenbefund — drei weitere Nutzen-Zeilen ohne Schlusspunkt (Nr. 17, 18, 19).** Bei der Kontrolle fielen drei Nutzen-Zeilen auf, die weder mit einem Punkt noch mit einer Herkunftsklammer endeten („… die Mehrheit der aktiven Fonds besser", „… entfällt er oft", „… holt es dir zurück"). Sie standen nicht in diesem Diff; der Schlusspunkt wurde nachgezogen.
+
+**Buchweiter Befund, nicht in dieser Runde behoben:** Die Nutzen-Zeile endet buchweit uneinheitlich — von 629 Zeilen schließen 207 mit einem Punkt, 199 mit einer Herkunftsklammer `(…)` und 223 ohne jedes Schlusszeichen. Dasselbe Bild zeigt **das chinesische Original**: von 630 `收益`-Zeilen enden 254 mit einer Herkunftsklammer `（…）`, 92 mit `。` und die übrigen ohne. Die deutsche Fassung bildet diese Uneinheitlichkeit nach; sie ist **nicht** durch die Überarbeitungsrunde entstanden — schon im Übersetzungsstand `b875bfe` hatten die Nutzen-Zeilen von Kapitel 01 26 punktlose von 34. Anders als die Klartext-Zeile, die `tools/check-plain.mjs` maschinell prüft und die deshalb buchweit 629 von 629 mit einem Punkt schließt, unterliegt die Nutzen-Zeile keiner Prüfung. **Entscheidung offen** — ob die Nutzen-Zeile am Ende der Runde buchweit auf einen Schlusspunkt vereinheitlicht wird, ist eine eigene Frage und berührt alle 34 Kapitel; sie gehört nicht in ein einzelnes Kapitel.
