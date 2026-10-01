@@ -107,6 +107,7 @@ const EDITS = [
     `haben ${ratio['sehr hoch']} ein sehr hohes Kosten-Nutzen-Verhältnis (${pct['sehr hoch']} %), ${ratio['hoch']} ein hohes (${pct['hoch']} %) und ${ratio['mittel']} ein mittleres (${pct['mittel']} %)`],
   ['README.md', 'Dateizahl', /in \d+ Dateien aufgeteilt/g, `in ${sections} Dateien aufgeteilt`],
   ['tools/lib/book.mjs', 'Zahl im Buchtitel', /Lebe besser: \d+ Empfehlungen/g, `Lebe besser: ${entries} Empfehlungen`],
+  ['skills/lebensentscheidungen/SKILL.md', 'Zahl in der Beschreibung', /Lebe besser: \d+ Empfehlungen/g, `Lebe besser: ${entries} Empfehlungen`],
   ['index.html', 'Kopfzeile', /(\d+) Abschnitte mit (\d+) Empfehlungen/g, `${sections} Abschnitte mit ${entries} Empfehlungen`],
   ['index.html', 'Beschreibungen', /(\d+) Empfehlungen/g, `${entries} Empfehlungen`],
   ['index.html', 'numberOfPages', /numberOfPages":\d+/g, `numberOfPages":${entries}`],

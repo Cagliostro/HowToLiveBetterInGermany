@@ -15,14 +15,18 @@ dort als Normstelle und wird übersprungen; Langtext-Verweise müssen also «Abs
 ausschreiben. In der Spalte «Fundstelle» steht beim Eintrag «Nr. N», im Abschnittskopf
 «Abschnittskopf», im Langtext die letzte Zwischenüberschrift.
 
+Das Quellenfeld wird nur auf die ausdrückliche Form «siehe Nr. N» geprüft; die breite «Nr. X»-
+Suche lässt es aus, weil dort Normangaben stehen («Verordnung Nr. 8», «§ 437 Nr. 1 BGB»).
+Solche Quellen-Verweise stehen in der Tabelle, sind aber von der Ankerpflicht befreit.
+
 Die zweite Absicherung ist der **Anker**: im Umfeld jedes Verweises muss ein Wort stehen, das
 auch im Titel des Zieleintrags vorkommt («medizinische Hilfe siehe Nr. 11» — «medizinische
 Hilfe» ist der Anker), oder es wird ausdrücklich als «siehe Nr. 16 (Darlehen und Bürgschaft)»
 geschrieben. `node tools/check-refs.mjs --check` wertet einen Verweis ohne Anker als Fehler:
-rutscht er, ist das im Tabellen-Diff nicht zu sehen, nur der Anker fängt ihn. Bereichsverweise
-(«siehe Abschnitt 8, Nr. 11 bis 14») sind die Ausnahme: sie meinen einen ganzen Block von
-Einträgen, für den sich nicht für jede Nummer ein Anker setzen lässt; hier trägt allein der
-Diff.
+rutscht er, ist das im Tabellen-Diff nicht zu sehen, nur der Anker fängt ihn. Ausgenommen sind
+Bereichsverweise («siehe Abschnitt 8, Nr. 11 bis 14»), die einen ganzen Block von Einträgen
+meinen, und Verweise im Quellenfeld: für beide lässt sich nicht für jede Nummer ein Anker
+setzen; hier trägt allein der Diff.
 
 Ob ein Anker zählt, hängt von Länge und Abstand ab: die längste Buchstabenfolge, die sowohl im
 weiten Fenster als auch im Titel steht, muss mindestens 8 Zeichen lang sein, oder mindestens 6
@@ -33,7 +37,7 @@ Verweis «… des Darlehens siehe Nr. 15 dieses Abschnitts» auf den neuen Eintr
 selbst erklären» verrutscht, und ein zwei Teilstrecken entferntes «Sie zahlen selbst» hatte
 den Anker gespielt; `--check` meldete damals «bestanden».
 
-Insgesamt 583 Verweise.
+Insgesamt 585 Verweise.
 
 ## 01-nicht-frueh-sterben
 
@@ -163,6 +167,7 @@ Insgesamt 583 Verweise.
 | Nr. 10 | Abschnitt 5, Nr. 9 | Laden Kinder per Handy auf und geben Trinkgeld, kannst du größere Ausgaben von Kindern über sieben Jahren ohne Zustimmung der Eltern zurückverlangen | … Unterscheide das von … |
 | Nr. 12 | Abschnitt 16, Nr. 3 | Geh zu den Kontrollterminen in dem Abstand, den dir der Arzt vorgibt, und notiere jeden Wert im selben Heft | …Beurteile einen Wechsel bei chronischer Krankheit nicht nach Gefühl, sondern behalte nach … |
 | Nr. 16 | Abschnitt 5, Nr. 7 | Nutze nicht die Mindestzahlung der Kreditkarte, und schließe für Konsum keine Ratenzahlung oder keinen Konsumentenkredit ab | … ihre Zinssätze siehe … |
+| Nr. 18 | Abschnitt 5, Nr. 17 | Nutz breite Indexfonds statt aktiv gemanagter Fonds als langfristigen Grundstock (der Teil des Geldes, der lang liegen bleibt) | … … |
 | Nr. 19 | Abschnitt 5, Nr. 17 | Nutz breite Indexfonds statt aktiv gemanagter Fonds als langfristigen Grundstock (der Teil des Geldes, der lang liegen bleibt) | … Einen breiten Indexfonds zu kaufen (siehe … |
 | Nr. 20 | Abschnitt 5, Nr. 27 | Spar zuerst einen Notgroschen für 3 bis 6 Monate Lebenskosten an und halte ihn dort, wo du jederzeit herankommst | … Sperr den Notgroschen nicht ein, nur um einen Vorteil mitzunehmen (Notgroschen siehe … |
 | Nr. 20 | Abschnitt 5, Nr. 17 | Nutz breite Indexfonds statt aktiv gemanagter Fonds als langfristigen Grundstock (der Teil des Geldes, der lang liegen bleibt) | … die Regeln dazu sind wie … |
@@ -747,10 +752,9 @@ Insgesamt 583 Verweise.
 
 | Fundstelle | Verweis | Ziel-Eintrag | Umfeld des Verweises |
 | --- | --- | --- | --- |
-| Wenn einem Fremden auf d | Abschnitt 13, Nr. 2 | Stürzt ein alter Mensch oder liegt jemand am Boden: erst in die Hocke gehen und ihn ansprechen, die 112 rufen, ihn nicht gleich hochziehen; unterlassene Hilfeleistung ist auch bei Fremden strafbar | …Dies ist die Langfassung von … |
-| Die möglichen Kosten, na | Abschnitt 19, Nr. 6 | Bei einer rechtswidrigen Kündigung klagst du innerhalb von drei Wochen beim Arbeitsgericht; das Gericht kann das Arbeitsverhältnis gegen eine Abfindung auflösen | …e Kündigung des Arbeitsvertrags, und die Entschädigung ist die Verdopplung der Abfindung (… |
+| Die möglichen Kosten, na | Abschnitt 19, Nr. 6 | Bei einer rechtswidrigen Kündigung klagst du innerhalb von drei Wochen beim Arbeitsgericht; das Gericht kann das Arbeitsverhältnis gegen eine Abfindung auflösen | …gen fehlst oder belästigt wirst, gilt das in der Regel als rechtswidrige Kündigung (siehe … |
 | Die möglichen Kosten, na | Abschnitt 8, Nr. 16 | Beschimpfe und verleumde niemanden im Netz und verbreite nichts Ungeprüftes; bei einem Shitstorm erst Beweise sichern, dann die Polizei rufen | … Wie du selbst Beweise sicherst und Anzeige erstattest, siehe … |
-| Die möglichen Kosten, na | Abschnitt 1, Nr. 25 | Bei Depression oder Suizidgedanken die Telefonseelsorge anrufen, zu Hause keine Schlafmittel und keine Pflanzenschutzmittel horten | … die psychologische Beratungshotline 12356, siehe … |
+| Die möglichen Kosten, na | Abschnitt 1, Nr. 25 | Bei Depression oder Suizidgedanken die Telefonseelsorge anrufen, zu Hause keine Schlafmittel und keine Pflanzenschutzmittel horten | … Telefonseelsorge, kostenlos und rund um die Uhr, unter 116 123 und 0800 111 0 111, siehe … |
 | Zwei Fälle, in denen „We | Abschnitt 8, Nr. 1 | Nach einem Verkehrsunfall zuerst anhalten, retten und die Polizei rufen, nicht wegfahren | … darum, wie ein Verkehrsunfall abzuwickeln ist und was bei Fahrerflucht zu tun ist, siehe … |
 | Der einfachste Weg, wenn | Abschnitt 13, Nr. 1 | Wenn jemand hinfällt und nicht atmet: sofort kräftig auf den Brustkorb drücken, andere die 112 anrufen lassen und einen AED suchen | … Atmet er nicht, drück kräftig auf seinen Brustkorb, siehe … |
 | Der einfachste Weg, wenn | Abschnitt 13, Nr. 39 | Hast du dich bei einer Rettung verletzt: die gesetzliche Unfallversicherung greift wie bei einem Arbeitsunfall, den Schaden ersetzt dir der Gerettete | … Willst du dieses Geld zurückholen, siehe … |
@@ -759,12 +763,12 @@ Insgesamt 583 Verweise.
 
 | Fundstelle | Verweis | Ziel-Eintrag | Umfeld des Verweises |
 | --- | --- | --- | --- |
-| Wie der Körper die Zeit  | Abschnitt 2, Nr. 40 | Je länger du Nachtschicht arbeitest, desto höher das Herz-Kreislauf-Risiko; wechsle früh, wenn du kannst | …Dies ist die Langfassung von … |
+| Wie der Körper die Zeit  | Abschnitt 2, Nr. 40 | Je länger du Nachtschicht arbeitest, desto höher das Herz-Kreislauf-Risiko; wechsle früh, wenn du kannst | …Die Rechnung steht in … |
 | 2. Diese Uhr wird durch  | Abschnitt 3, Nr. 2 | Steh zu einer festen Zeit auf, auch am Wochenende | …Das ist auch der Grund, warum … |
-| 9. Was dieser Text nicht | Abschnitt 2, Nr. 40 | Je länger du Nachtschicht arbeitest, desto höher das Herz-Kreislauf-Risiko; wechsle früh, wenn du kannst | …schicht das Herz-Kreislauf-Risiko erhöht und wie sich das nach Jahren berechnet, steht in … |
-| 9. Was dieser Text nicht | Abschnitt 2, Nr. 39 | Nach einer durchwachten Nacht in der nächsten Nacht den Schlaf nachholen, nicht bis zum Wochenende aufschieben | …Wie du nach einer durchwachten Nacht den Schlaf nachholst, steht in … |
-| 9. Was dieser Text nicht | Abschnitt 2, Nr. 13 | Etwa 7 Stunden pro Nacht schlafen, feste Schlafenszeiten | …Wie lange du nachts schläfst und ob der Tagesablauf regelmäßig ist, steht in … |
-| 9. Was dieser Text nicht | Abschnitt 3, Nr. 2 | Steh zu einer festen Zeit auf, auch am Wochenende | …Morgenlicht und festes Aufstehen stehen in … |
+| 9. Was an anderer Stelle | Abschnitt 2, Nr. 40 | Je länger du Nachtschicht arbeitest, desto höher das Herz-Kreislauf-Risiko; wechsle früh, wenn du kannst | …schicht das Herz-Kreislauf-Risiko erhöht und wie sich das nach Jahren berechnet, steht in … |
+| 9. Was an anderer Stelle | Abschnitt 2, Nr. 39 | Nach einer durchwachten Nacht in der nächsten Nacht den Schlaf nachholen, nicht bis zum Wochenende aufschieben | …Wie du nach einer durchwachten Nacht den Schlaf nachholst, steht in … |
+| 9. Was an anderer Stelle | Abschnitt 2, Nr. 13 | Etwa 7 Stunden pro Nacht schlafen, feste Schlafenszeiten | …Wie lange du nachts schläfst und ob der Tagesablauf regelmäßig ist, steht in … |
+| 9. Was an anderer Stelle | Abschnitt 3, Nr. 2 | Steh zu einer festen Zeit auf, auch am Wochenende | …Morgenlicht und festes Aufstehen stehen in … |
 
 ## docs/notfallausruestung
 
@@ -773,19 +777,21 @@ Insgesamt 583 Verweise.
 | Notfallausrüstung für di | Abschnitt 1, Nr. 26 | Feuerlöscher, Löschdecke, Rauchschutzmaske und Verbandkasten bereithalten, einmal im Jahr prüfen | …Entspricht … |
 | Notfallausrüstung für di | Abschnitt 1, Nr. 3 | Rauchmelder einbauen; wer im Winter drinnen Kohle verbrennt oder mit Gas heizt, dazu einen Kohlenmonoxidmelder | … Wie du Rauchmelder und Kohlenmonoxidmelder auswählst und anbringst, siehe … |
 | Notfallausrüstung für di | Abschnitt 1, Nr. 4 | Gasschlauch bei Rissen oder sprödem Gummi tauschen, die Prüfung der Gasanlage durch den Schornsteinfeger zulassen, Leitungen nicht selbst umbauen, Haustürwerbung des Gasversorgers direkt ablehnen | … Gasschlauch und Herd siehe … |
-| 2. Die drei Brandschutz- | Abschnitt 13, Nr. 24 | Bei einem Brand flach am Boden kriechen, die Tür fühlen, bevor du sie öffnest, eine heiße Tür nicht öffnen, die Treppe statt des Aufzugs nehmen und draußen nicht zurückgehen | …iechen, die Tür fühlen, bevor du sie öffnest, die Treppe statt des Aufzugs nehmen), siehe … |
-| 2. Die drei Brandschutz- | Abschnitt 1, Nr. 3 | Rauchmelder einbauen; wer im Winter drinnen Kohle verbrennt oder mit Gas heizt, dazu einen Kohlenmonoxidmelder | … Rauchmelder siehe … |
+| 2. Die Brandschutz-Gerät | Abschnitt 13, Nr. 24 | Bei einem Brand flach am Boden kriechen, die Tür fühlen, bevor du sie öffnest, eine heiße Tür nicht öffnen, die Treppe statt des Aufzugs nehmen und draußen nicht zurückgehen | …iechen, die Tür fühlen, bevor du sie öffnest, die Treppe statt des Aufzugs nehmen), siehe … |
+| 2. Die Brandschutz-Gerät | Abschnitt 1, Nr. 3 | Rauchmelder einbauen; wer im Winter drinnen Kohle verbrennt oder mit Gas heizt, dazu einen Kohlenmonoxidmelder | … Rauchmelder siehe … |
 | 3. Was in den Verbandkas | Abschnitt 13, Nr. 12 | Bei einer starken Blutung zuerst mit der Hand kräftig auf die Wunde drücken; lässt sich eine Blutung an Armen oder Beinen so nicht stillen, ein Tourniquet anlegen und gleichzeitig die 112 rufen | …es nicht anlegen darfst und warum du es „nicht lockern darfst, um Blut abzulassen", siehe … |
 | 3. Was in den Verbandkas | Abschnitt 13, Nr. 14 | Nach einer Verbrennung oder Verbrühung sofort 20 Minuten mit kühlem fließendem Wasser spülen, keine Zahnpasta und keine Sojasauce auftragen | …gibt es nur eines zu tun, nämlich 20 Minuten mit kühlem Wasser aus dem Hahn spülen, siehe … |
 | 3. Was in den Verbandkas | Abschnitt 13, Nr. 15 | Plötzlich Ausschlag am ganzen Körper, dazu Atemnot oder Schwindel: wie einen anaphylaktischen Schock behandeln, sofort die 112 rufen und es deutlich sagen | …ist ein verschreibungspflichtiges Arzneimittel, das dir ein Arzt verschreiben muss, siehe … |
 | 5. Einmal im Jahr prüfen | Abschnitt 1, Nr. 3 | Rauchmelder einbauen; wer im Winter drinnen Kohle verbrennt oder mit Gas heizt, dazu einen Kohlenmonoxidmelder | … Die Batterie jedes Jahr wechseln, siehe … |
 | 6. Was du nicht kaufen m | Abschnitt 13, Nr. 1 | Wenn jemand hinfällt und nicht atmet: sofort kräftig auf den Brustkorb drücken, andere die 112 anrufen lassen und einen AED suchen | … lassen und gleichzeitig einen AED aus der nächsten öffentlichen Einrichtung holen, siehe … |
-| 6. Was du nicht kaufen m | Abschnitt 5, Nr. 24 | Kauf nichts wegen „durchgestrichener Preise" und im großen Sale auf Vorrat | … Der Teil, den du darüber hinaus hortest, landet am Ende meist abgelaufen im Müll, siehe … |
+| 6. Was du nicht kaufen m | Abschnitt 5, Nr. 24 | Kauf nichts wegen „durchgestrichener Preise" und im großen Sale auf Vorrat | … Was du weit darüber hinaus hortest, landet am Ende meist abgelaufen im Müll, siehe … |
 
 ## docs/welche-lizenzen-fuer-eine-plattform
 
 | Fundstelle | Verweis | Ziel-Eintrag | Umfeld des Verweises |
 | --- | --- | --- | --- |
+| 1. Zuerst bestimmen, wel | Abschnitt 26, Nr. 1 | Die Plattform darf nicht selbst Geld einnehmen und an Verkäufer weiterleiten; das Geld soll über einen zugelassenen Zahlungsdienstleister direkt abgerechnet werden | …Ein einziger Hinweis zu den Zahlungen steht in … |
+| 1. Zuerst bestimmen, wel | Abschnitt 26, Nr. 3 | Lässt du Nutzer auf der Plattform verkaufen, musst du den Verkäufer prüfen, die Angaben speichern und Steuerdaten melden | … verkaufst du dabei Waren, kommen die Pflichten aus … |
 | 3. Serverwahl: wie du un | Abschnitt 26, Nr. 3 | Lässt du Nutzer auf der Plattform verkaufen, musst du den Verkäufer prüfen, die Angaben speichern und Steuerdaten melden | … Die Plattformpflichten aus … |
 | 3. Serverwahl: wie du un | Abschnitt 26, Nr. 4 | Um vom Nutzer veröffentlichte Inhalte musst du dich kümmern: Meldeweg anbieten, gemeldeten Inhalt prüfen und Rechtswidriges sperren | … Die Plattformpflichten aus … |
 | 3. Serverwahl: wie du un | Abschnitt 26, Nr. 5 | Nutzer dürfen deine Seite anonym oder unter einem Pseudonym nutzen; verlang keine Klarnamen | … Die Plattformpflichten aus … |
