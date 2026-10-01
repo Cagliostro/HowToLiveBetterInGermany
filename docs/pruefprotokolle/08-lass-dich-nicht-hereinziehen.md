@@ -141,3 +141,91 @@ Vorgehen der Prüfung: Jede URL wurde zuerst mit WebFetch geöffnet; WebFetch li
 - Volltext der geänderten Fassung von 2020 der Vorschriften des Obersten Volksgerichts über das private Darlehen: Es wurde nur die Seite der Fassung von 2015 geöffnet (<https://www.court.gov.cn/zixun/xiangqing/15146.html>, Justizauslegung 法释〔2015〕18 号), sie wurde als nicht geltende Fassung nicht zitiert; der Eintrag zum Schuldschein zitiert stattdessen Art. 668 des Zivilgesetzbuchs.
 - Der Originaltext des Obersten Volksgerichts / der Zeitung der Volksgerichte zu „besondere Beträge wie 520 und 1314 gelten als Schenkung": nicht gefunden, der Haupttext nennt nur die Gesetzesartikel und vermerkt es in der Anmerkung.
 - Art. 133a, Art. 287a und Art. 246 Abs. 3 des Strafgesetzbuchs: Der geltende Text ist aus dem Originaltext des Änderungsgesetzes (Neun) zum Strafgesetzbuch zitiert, eine aufrufbare offizielle Seite mit dem integrierten Text „Strafgesetzbuch (einschließlich Änderungsgesetz Zwölf)" wurde nicht gefunden.
+
+---
+
+# Anpassung an deutsches Recht (rote Welle, 2026-10-01)
+
+Der Abschnitt wurde vollständig auf die deutsche Rechtslage übertragen (REQ-65). Je Eintrag steht
+die deutsche Fundstelle an der Stelle der chinesischen Norm, jede Norm wurde vor der Verwendung über
+`gesetze-im-internet.de` (bzw. `eur-lex.europa.eu`, `polizei-beratung.de`, `bsi.bund.de`) geöffnet.
+Der obige chinesische Prüfstand bleibt als Beleg der Originaltexte stehen; chinesische **Studien** in
+der Quellen-Spalte bleiben als Literaturangabe erhalten.
+
+## Streichung
+
+- **Alte Nr. 24 (Brautpreis, 彩礼)** vollständig entfernt (Titelzeile, Kostenlabel, Marker, alle
+  Inhaltszeilen). Begründung des Auftraggebers: Der Brautpreis ist in Deutschland kein Rechtsinstitut.
+- **Nummernversatz:** alte Nr. 25 → 24, 26 → 25, … 43 → 42. Die Kapiteldatei hat jetzt 42 Einträge.
+- **REQ-20:** Der tragbare Inhalt („in der Liebe und in der Ehe Gegebenes ist in der Regel nicht
+  zurückzuholen") steht bereits in **Nr. 23** (Große Schenkungen in der Liebe und in der Ehe). Kein
+  Verlust. Verweise innerhalb des Kapitels wurden mit Ankerwort nachgezogen.
+
+## Meta-Erzähler-Einleitungen entfernt (Auftrag §5)
+
+Betroffen: **Nr. 26, 30, 35, 41** (alte Nr. 27, 31, 36, 42). Die Zeile „Stufe B/C ist es, weil …"
+bzw. „Stufe C, weil …" am Anfang der `- Anmerkung:` wurde auf den Inhaltssatz reduziert; der Inhalt
+selbst blieb.
+
+## Deutsche Fundstelle je Eintrag (neue Nummerierung)
+
+| Nr. | Ersetzt (China) | Deutsche Fundstelle |
+|---|---|---|
+| 1 | Straßenverkehrsgesetz, StGB Art. 133; Kfz-Musterbedingungen | § 142 StGB (Unerlaubtes Entfernen vom Unfallort), § 323c StGB (Unterlassene Hilfeleistung); § 115 VVG |
+| 2 | Warnhotline 96110, Gesetz gegen Telekommunikationsbetrug | Polizeinotruf 110, Rückruf über die Bank, § 263 StGB (`polizei-beratung.de`) |
+| 3 | Warn-App/Warnhotline 96110, Seiten der Provinzpolizei Fujian | Polizeinotruf 110, Maschenliste der Polizeilichen Kriminalprävention, § 263 StGB |
+| 4 | Ministerium für öffentliche Sicherheit, Fall mit 50.000 Gesichtsvideos | BSI-Hinweise zu Deepfakes, Art. 50 EU-KI-Verordnung (`bsi.bund.de`, `bundesnetzagentur.de`) |
+| 5 | Strafprozessordnung, StGB Art. 243, Staatshaftungsgesetz | §§ 135, 136, 137, 140, 148 StPO; Art. 104 GG; § 164 StGB |
+| 6 | StGB Art. 67/87/88, Strafzumessungs-Leitlinie mit Prozentstufen | §§ 46, 78, 78b StGB; § 371 AO; § 31 BtMG |
+| 7 | Straßenverkehrsgesetz Art. 91, E-Bike-Einordnung | § 24a StVG; §§ 315c, 316, 69, 69a StGB |
+| 8 | Gesetz gegen Telekommunikationsbetrug Art. 31/44, StGB Art. 287a | §§ 261, 263a, 27 StGB |
+| 9 | Verordnung über das Kreditauskunftswesen (Nr. 631) | Art. 15, Art. 12 Abs. 3 DSGVO; § 34 BDSG (`lda.bayern.de`, `lfd.niedersachsen.de`) |
+| 10 | OWiG Art. 30/51, StGB Art. 20/234 | §§ 223, 224, 125 StGB |
+| 11 | StGB Art. 20, Notwehr-Leitlinie, Leitfälle Yu Haiming/Chen | §§ 32, 33 StGB |
+| 12 | Arbeitsaufsicht, arbeitsrechtliche Schlichtung, StGB Art. 232 | §§ 4 KSchG, 12a ArbGG; § 212 StGB |
+| 13 | StGB Art. 114/115, OWiG Art. 29/50 | §§ 306, 315b, 211, 212, 126, 241 StGB; Art. 102 GG |
+| 14 | Telefonnummer 12356, Nationale Gesundheitskommission | Telefonseelsorge 0800 111 0 111 / 116 123 (`telefonseelsorge.de`) |
+| 15 | Psychiatriegesetz Art. 28–30/35, OWiG Art. 29/50 | Betreuungsrecht und Landesunterbringungsgesetze (in der Anmerkung); Betrag/Hafttage entfernt |
+| 16 | OWiG Art. 50, StGB Art. 246 | §§ 185, 186, 187, 194 StGB |
+| 17 | Zivilgesetzbuch Art. 465/509 | §§ 145, 305c BGB |
+| 18 | Zivilgesetzbuch Art. 668/681/686/687; LPR-Zinsobergrenze | §§ 488, 766, 771, 773 BGB |
+| 19 | Zivilgesetzbuch Art. 188–197, Schlichtungsgesetz für Arbeitsstreitigkeiten | §§ 195, 199, 203, 214 BGB; § 4 KSchG |
+| 20 | StGB Art. 313, Auslegung von 2024; Betrag/Hafttage | § 288 StGB; §§ 802c, 802g, 882b ZPO; § 4 AnfG |
+| 21 | Liste der Vertrauensunwürdigen, Ausgabenbeschränkung | §§ 882b, 882c, 882e ZPO (Ausgabenbeschränkung ohne Gegenstück, entfernt) |
+| 22 | StGB Art. 266, Anzeigegrenzen, Bagatellverfahren; Beträge | § 263 StGB; Art. 18 VO (EU) Nr. 1215/2012; § 495a ZPO (`eur-lex.europa.eu`) |
+| 23 | Zivilgesetzbuch Art. 658/663, Brautpreis-Bestimmungen | §§ 516, 518, 528, 530 BGB |
+| 24 | Zivilgesetzbuch Art. 1063/1065/1092, Auslegung Ehe-/Familienrecht | §§ 1363, 1374, 1375, 1410, 1414, 311b BGB |
+| 25 | Zivilgesetzbuch Art. 1051, StGB Art. 258/266 | §§ 1306, 1314 BGB; §§ 172, 263 StGB |
+| 26 | Verwaltungsmaßnahmen Hausgerätereparatur, Preisauszeichnung, Hotline 12315; Betrag | §§ 631, 634 BGB; § 1 PAngV; § 263 StGB |
+| 27 | Gesellschaftsrecht Art. 10/11/180/191, Vollstreckungs-/Ausgabenbeschränkungen | §§ 6, 43 GmbHG; § 15a InsO; § 823 BGB |
+| 28 | Empfehlung des Konsularamts, Anzeigegrenzen | § 96 AufenthG; §§ 29, 30 BtMG; § 373 AO |
+| 29 | Zivilgesetzbuch Art. 1245–1249; Betrag | §§ 833, 254, 823 BGB |
+| 30 | StGB Art. 236 | §§ 177, 176 StGB |
+| 31 | StGB Art. 274 samt Betragsstufen, Zivilgesetzbuch Art. 1032/1033; Beträge | §§ 253, 255, 201a StGB |
+| 32 | OWiG der öffentlichen Sicherheit Art. 50, StGB Art. 243; Haft-/Geldbeträge | § 164 StGB |
+| 33 | Strafprozessordnung Art. 55/56/200/252/253; Anwaltsbetrag | §§ 261, 136a, 244, 359 StPO |
+| 34 | Staatshaftungsgesetz Art. 17/19/33/35, Tagesbetrag | §§ 2, 7 StrEG |
+| 35 | Fall Guo Li, Hotline 12315; Beträge/Fallschilderung | §§ 253, 240 StGB |
+| 36 | Leitende Meinung Nr. 14/2023, Zivilgesetzbuch Art. 997, Online-Gewalt-Regelung; Hotline 12356 | §§ 185–187 StGB; §§ 1004, 823 BGB; §§ 935, 940 ZPO; Telefonseelsorge |
+| 37 | Versicherungsgesetz Art. 27/34/39/43, Zivilgesetzbuch Art. 1125, StGB Art. 198/232, Fall Zhang Mou Song | §§ 150, 162 VVG; § 2339 BGB; §§ 265, 212, 211 StGB |
+| 38 | Verfahrensregeln der Polizeiorgane, Strafprozessordnung Art. 112/113; Widerspruchsfristen | §§ 158, 170, 172 StPO |
+| 39 | StGB Art. 389/390, 12. Strafrechtsänderung | §§ 334, 335 StGB |
+| 40 | Zivilprozessordnung Art. 66, Beweisregeln Art. 14/15/90 | § 201 StGB; § 286, § 371 ZPO (Richtungsumkehr: Mitschneiden → schriftliche Dokumentation) |
+| 41 | Zivilprozessordnung Art. 66, Beweisregeln Art. 14/15 | § 371 ZPO |
+| 42 | Gesetz gegen häusliche Gewalt Art. 2/13/15/16/19/23/28/29/30/34; Fristen/Beträge | §§ 1, 2, 4 GewSchG; §§ 223, 177 StGB |
+
+## Entfernt ohne deutsche Entsprechung (regelwerk §2, letzte Zeile)
+
+- **Nr. 15:** chinesische Klinikzuführung (Psychiatriegesetz Art. 28–30, 35) und chinesische Gebühr;
+  deutsche Entsprechung (Betreuungsrecht, Landesunterbringungsgesetze) in die Anmerkung übernommen.
+- **Nr. 21:** chinesische Konsum-/Luxusausgabenbeschränkung.
+- Weitere reine China-Beträge und -Fristen wurden durch deutsche Größenordnungen ersetzt oder
+  gestrichen (z. B. Nr. 20, 22, 26, 31, 32, 33, 34, 35, 37, 42); der Marker nennt jeweils „Beträge
+  gestrichen".
+
+## X-Vorlage
+
+- **Nr. 40** — Richtungsumkehr. § 201 Abs. 1 StGB macht das heimliche Mitschneiden strafbar; die
+  Ausgangsempfehlung (Telefonat mitschneiden) ist in Deutschland nicht haltbar. Der Eintrag wurde
+  auf „schriftliche Zusammenfassung / bestätigte E-Mail als Beleg" umgestellt und als X-Vorlage in
+  den Bericht aufgenommen (`review/ueberarbeitung/08.md`).

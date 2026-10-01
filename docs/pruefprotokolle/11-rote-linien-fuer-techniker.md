@@ -58,3 +58,80 @@ Prüfdatum: 2026-09-07. Werkzeug: WebFetch (bei einigen Seiten auf npc.gov.cn me
 - Von Oberstem Volksgericht / Oberster Volksstaatsanwaltschaft veröffentlichte Fälle zu Zensurumgehungswerkzeugen und VPN: wie oben kein Ergebnis, Nr. 9 ist Stufe B und zitiert nur Gesetzesartikel; der Text der „Fassung von 2024" der Vorläufigen Vorschriften über den internationalen Verbund konnte nicht geöffnet werden, zitiert wurde die Fassung von 1997.
 - Amtliches Urteil zu Cheats der Art „nur den Bildschirm lesend": keines, die Anmerkung zu Nr. 2 erklärt es bereits.
 - Aktenzeichen der vom Ministerium für Industrie und Informationstechnik mitgeteilten und entfernten Apps, zivilrechtliche Fälle von Verletzungen durch KI-generierte Inhalte, obsiegende Urteile von GPL-Rechteinhabern (etwa „Luohe gegen Wanyou" [罗盒诉玩友]): das Original wurde nicht auf gov.cn / court.gov.cn geprüft, im Text nicht zitiert.
+
+---
+
+# Teil 2 — Runde 10 (rote Welle, 2026-10-01): Umstellung auf deutsches Recht
+
+**Die Abschnitte 1 bis 4 oben sind das Protokoll der ersten Runde (chinesische Beleglage). Sie sind
+durch diesen Teil 2 überholt:** Die Kapiteldatei zitiert nur noch deutsches Recht. Der Auftrag ist
+`review/ueberarbeitung/auftrag-rote-welle.md`; das Sichtungs-Verdikt ist **rot** (③-Einträge 10, 11,
+16 des Auftraggebers).
+
+## 5. Streichungen
+
+| alte Nr. | Kern | Begründung (Auftraggeber, 2026-10-01) | Nummerierung |
+|---|---|---|---|
+| 10 | Staatliche Vier-Plattform-Meldepflicht für Sicherheitslücken, Weitergabeverbot ins Ausland | kein deutsches Gegenstück | entfällt; alt 12 → neu 10 |
+| 11 | Keine Werkzeuge zur Zensurumgehung/VPN verkaufen, keine eigenen Auslandsleitungen | VPN und eigene Auslandsleitungen sind in Deutschland frei | entfällt; alt 12 → neu 10 |
+| 16 | Website-Registrierung/Registrierungsnummer auf der Startseite | Deutschland registriert keine Websites | entfällt; alt 17 → neu 14 |
+
+Die drei Einträge wurden vollständig entfernt (Titelzeile bis `- Anmerkung:`, samt Leerzeile). **Kein
+Marker und kein Kommentar im Text.** Nummerierung lückenlos nachgezogen: alt 12→10, 13→11, 14→12,
+15→13, 17→14; das Kapitel hat damit **14 Einträge** (vorher 17). **REQ-20:** Keine der drei gestrichenen
+Aussagen trägt etwas Bleibendes, das nicht schon an anderer Stelle stünde. Die Impressumspflicht ist
+nicht Gegenstand dieses Kapitels und wird hier nicht nachgetragen.
+
+**Interne Verweise nachgezogen (mit Ankerwort):** alte Nr. 7 (Anmerkung „siehe Nr. 13") → jetzt
+„siehe Nr. 11 (Code aus Firmenressourcen gehört der Firma)". Der Verweis in alter Nr. 9 auf die alte
+Nr. 10 ist mit der Streichung entfallen. **Nicht angefasst** (Aufgabe des Wellen-Orchestrators am
+Wellenende): eingehende Verweise aus `book/09` (Zeile 32 „Abschnitt 11, Nr. 11", Zeile 77 „Abschnitt
+11, Nr. 3"), `book/19` (Zeile 85 „Nr. 7", Zeile 92 „Nr. 12"), `book/26` (Zeile 103 „Nr. 16") und
+`docs/verweis-abgleich.md`.
+
+## 6. Umgestellte Einträge — deutsche Fundstelle je Eintrag
+
+Jeder Eintrag trägt unter der Kostenlabel-Zeile den Marker
+`<!-- Angepasst: <China-Bezug> → <deutsches Recht> — <Beleg-Host> -->`. Alle URLs wurden einmal
+geöffnet; Zitate wurden aus dem Volltext übernommen.
+
+| neue Nr. (alt) | Was ersetzt wurde | Deutsche Fundstelle (Beleg) |
+|---|---|---|
+| 1 (1) | Chinesische StPO-Fristen (3/7/30/37 Tage, 48 Stunden, 12 Monate) und chinesische Verweisstellen | StPO § 137 Abs. 1: „Der Beschuldigte kann sich in jeder Lage des Verfahrens des Beistandes eines Verteidigers bedienen."; § 136 (Belehrung); § 152 Abs. 2 (Legalitätsgrundsatz); §§ 112, 114 (Haftbefehl durch den Richter); § 116 (Aussetzung), § 117 (Haftprüfung), § 121 (Sechsmonatsgrenze, OLG), § 140 Abs. 1 Nr. 4 (notwendige Verteidigung) — `gesetze-im-internet.de` |
+| 2 (2) | Chin. StGB Art. 285 Abs. 3/217 Nr. 6; Schwellen 20 Nutzer/5.000 Yuan; Cheat-Urteile | StGB § 202c Abs. 1 (Vorbereiten, bis 2 J), § 303a (Datenveränderung, bis 2 J), § 303b (Computersabotage; fremder Betrieb bis 5 J, besonders schwer 6 Mon–10 J), § 202a (bis 3 J); UrhG § 106 — `gesetze-im-internet.de` |
+| 3 (3, **②**) | Chin. StGB Art. 285 Abs. 2; Schwellen 5.000/10.000 Yuan; Bahnticket-/Ticketsoftware-Urteile | StGB § 202a Abs. 1 (Wortlaut „unter Überwindung der Zugangssicherung"); UWG § 4 Nr. 4 („Mitbewerber gezielt behindert"), §§ 8, 9 — `gesetze-im-internet.de` (Slug `uwg_2004`) |
+| 4 (4) | Chin. StGB Art. 285 Abs. 2/253-1; Auslegung zu personenbezogenen Daten; Schwellen 50/500/5.000 Datensätze, 5.000 Yuan | StGB § 202a; BDSG § 42 Abs. 1 („einer großen Zahl von Personen", gewerbsmäßig, bis 3 J); DSGVO Art. 83 (Geldbußen) belegt über BayLDA „Sanktionen nach der DS-GVO" — `gesetze-im-internet.de`, `lda.bayern.de` |
+| 5 (5) | Chin. StGB Art. 287-2/303 Abs. 2 (bis 5 J, 5–10 J); Fälle E-Sport-Wett-App, entsperrte QQ-Konten | StGB § 284 (bis 2 J; gewerbsmäßig/Bande 3 Mon–5 J), § 285, § 27 (Beihilfe), § 263 (Betrug) — `gesetze-im-internet.de` |
+| 6 (6) | Chin. StGB Art. 285 Abs. 2/286; Fälle leitender Ingenieur, fehlerhafter Code; chin. Schlichtungsverfahren | StGB § 202a, § 303a, § 303b; Verweis jetzt auf das Arbeitsgericht — `gesetze-im-internet.de` |
+| 7 (7) | Chin. StGB Art. 219, UWG Art. 10; Fälle ausgeschiedene Mitarbeiter/Konstruktionsdateien | GeschGehG § 2 Nr. 1 (Begriff), § 4 (Handlungsverbote), § 6 (Unterlassung), § 23 Abs. 1 (bis 3 J) und Abs. 4 (gewerbsmäßig/Ausland bis 5 J) — `gesetze-im-internet.de` |
+| 8 (8, **②**) | Chin. StGB Art. 285 Abs. 2 (ab 20 Geräten); Cybersicherheitsgesetz Art. 66 (Ordnungsstrafen, lebenslanges Berufsverbot) | StGB § 202a, § 303a, § 303b, § 263a (Computerbetrug, bis 5 J); Ordnungsstrafen und Berufsverbot ohne deutsches Gegenstück entfernt — `gesetze-im-internet.de` |
+| 9 (9) | Chin. StGB Art. 285 Abs. 1/2; Auslegung Art. 1; Schwellen 10/500/20, 5.000/10.000 Yuan; Leitfall 36 | StGB § 202a Abs. 1, § 202c, § 303a; Leitfall entfernt — `gesetze-im-internet.de` |
+| 10 (12) | Chin. Arbeitsvertragsgesetz Art. 23, 24; Auslegungen Art. 36–40; Justizauslegung Nr. 12/2025 Art. 13–15; Pharma-Fall. **Titel geändert.** | HGB § 74 Abs. 1 (Schriftform/Urkunde), § 74 Abs. 2 (Karenzentschädigung ≥ halbe Leistungen), § 74a Abs. 1 (unverbindlich ohne berechtigtes Interesse; höchstens 2 J), § 75, § 75a; GewO § 110 („Die §§ 74 bis 75f des Handelsgesetzbuches sind entsprechend anzuwenden."); BGB § 339 — `gesetze-im-internet.de` |
+| 11 (13) | Chin. Urheberrechtsgesetz Art. 18, Patentgesetz Art. 6 (Urheber = Einheit, nur Namensnennung) | UrhG § 69b Abs. 1 (Arbeitgeber allein zu allen vermögensrechtlichen Befugnissen), § 43; ArbNErfG § 4 (Diensterfindung), § 6 (Inanspruchnahme), § 7 (Wirkung), § 9 (Vergütung) — `gesetze-im-internet.de` |
+| 12 (14) | Chin. Urheberrechtsgesetz Art. 53, 54; GPL-Fall des Obersten Volksgerichts (500.000 Yuan). **Meta-Erzähler entfernt.** | UrhG § 97 Abs. 1 (Unterlassung), Abs. 2 (Schadensersatz), § 106 (bis 3 J), § 69c — `gesetze-im-internet.de` |
+| 13 (15) | Chin. PIPL Art. 6, 13, 31, 66; Alter 14 J; Bußgelder bis 50 Mio. Yuan. **Titel: Altersgrenze 14 → 16 (REQ-69).** | DSGVO Art. 5, 6, 8 („das vollendete sechzehnte Lebensjahr"), 83, belegt über BayLDA „Bedingungen für die Einwilligung eines Kindes" und „Sanktionen nach der DS-GVO"; BDSG § 42 — `lda.bayern.de`, `gesetze-im-internet.de` |
+| 14 (17, **②**) | Chin. Maßnahmen zu generativer KI (Art. 12, 17: Sicherheitsbewertung, Algorithmus-Registrierung, Meinungsbildungsrelevanz). **Titel geändert.** | KI-Verordnung (VO (EU) 2024/1689) Art. 50 (Transparenz-/Kennzeichnungspflichten), belegt über Bundesnetzagentur „KI-Verordnung auf einen Blick" und LfDI MV KI-Leitfaden; Sicherheitsbewertung und Algorithmus-Registrierung ohne deutsches Gegenstück entfernt — `bundesnetzagentur.de`, `datenschutz-mv.de` |
+
+## 7. Sonderaufgaben und Prüfläufe
+
+- **Meta-Erzähler-Einleitung entfernt** (Auftrag §5): alte Nr. 14 (neu 12), Anmerkung — „Stufe B, weil …"
+  auf den Inhaltssatz reduziert (Platzhalter-Linie `- Anmerkung: Die GPL …` gekürzt).
+- **Titel mit chinesischen Kernaussagen geändert** (REQ-27/REQ-69): neu Nr. 10 (Wettbewerbsverbot),
+  neu Nr. 13 (Altersgrenze 16) und neu Nr. 14 (KI-Verordnung). Die übrigen Titel bleiben.
+- **Kostenlabel** überall unverändert (REQ-26; `Geld=0` bzw. `Zeit=mittel` in neu Nr. 14); `Zeit`,
+  `Willenskraft`, `Nutzen`, `Bezug` unangetastet.
+- **Evidenzstufen** unverändert (REQ-27): neu Nr. 1 = C; neu Nr. 12, 13, 14 = B; alle übrigen = A.
+- **Prüfläufe:** `grep -c 元` = **0**; CJK-Suche = **0**; `node tools/check-plain.mjs` für die
+  Kapiteldatei = **beanstandet 0** (vorher 2: Nr. 4 Satzlänge 31, Nr. 5 Klartext 83 — beide gekürzt).
+  `sync-stats.mjs` und `check-refs.mjs` **nicht** ausgeführt (Auftrag §8). Einträge **17 → 14**.
+
+## 8. Offene Punkte (Teil 2)
+
+- **Eingehende Querverweise** aus `book/09`, `book/19`, `book/26` und die Zuordnungstabelle
+  `docs/verweis-abgleich.md` wurden nicht bearbeitet (Auftrag §3.5); `check-refs.mjs` läuft am
+  Wellenende. Hinweis: `book/09` Zeile 32 und `book/26` Zeile 103 zielen auf die gestrichenen alten
+  Nr. 11 bzw. 16.
+- **Nr. 8 (Mining auf Firmenservern):** keine veröffentlichte deutsche Entscheidung; der Eintrag
+  stützt sich auf § 202a, § 303a, § 303b, § 263a StGB (wie schon in der ersten Runde ohne Fall).
+- **Nr. 2 (nur den Bildschirm lesende Cheat-Hilfe):** keine gefestigte Rechtsprechung; die Anmerkung
+  benennt das offen.
