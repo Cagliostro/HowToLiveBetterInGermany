@@ -1,60 +1,202 @@
-# Abschnitt 27 „Schwangerschaft und Geburt" und HIV-Prävention/-Blockade · Prüfprotokoll (2026-09-08)
+# Abschnitt 27: Quellenprüfprotokoll (Stand 2026-10-01)
 
-Aufgabenherkunft: Ein Leser nannte zwei Dinge — „Ich habe erfahren, dass ich schwanger bin, und werde bald gebären, was soll ich tun, wie ist der Ablauf, das ist alles nicht klar beschrieben"; „Und auch so etwas wie HIV, wie vermeidet man es, wenn man merkt, dass man sich angesteckt haben könnte, es kam zu Geschlechtsverkehr, man nimmt die Blockade-Medikamente, das ist alles nicht beschrieben."
+## Titel
 
-Bisherige Abdeckung: Der Ablauf rund um Schwangerschaft und Geburt ist eine komplette Lücke. Die Suche im ganzen Buch nach „Vorsorgeuntersuchung in der Schwangerschaft", „Schwangerschaftszeit", „Geburt", „Geburtsurkunde" traf nur die beiden Abschnitte 18 und 20 — Abschnitt 18 enthält nur den Mutterschaftsurlaub von 98 Tagen und das Mutterschaftsgeld (gehört zur „Kostenaufteilung"), Abschnitt 20 beginnt erst nach der Geburt des Kindes, dazwischen fehlt von der Bestätigung der Schwangerschaft bis zum Verlassen des Krankenhauses mit Urkunde alles. HIV ist null abgedeckt: Die Suche im ganzen Buch nach „Aids", „HIV", „Kondom", „Blockade-Medikament" ergab null Treffer.
+„27. Schwangerschaft und Geburt" — 16 Einträge. Datei:
+`book/27-schwangerschaft-und-geburt.md`. Bezugsgröße: Sterblichkeit (erste Hälfte) und Geld/Zeit
+für Formalitäten (zweite Hälfte).
 
-Platzierung (vom Nutzer bestätigt): **neuer Abschnitt 27**, Datei `book/27-schwangerschaft-und-geburt.md`, am Ende angehängt statt zwischen 18 und 20 eingefügt — ein Einfügen in der Mitte würde alle Dateinamen von 19 bis 26 und die abschnittsübergreifenden Ankerverweise neu ordnen, und damals änderten zwei weitere Sitzungen gerade README.md, CLAUDE.md, Abschnitt 2 und Abschnitt 25, eine Neuordnung würde zwangsläufig kollidieren. HIV wird auf zwei Stellen verteilt: Alltagsprävention und Test kommen in Abschnitt 1 (neu Nr. 28, 29), das 72-Stunden-Blockade-Medikament kommt in Abschnitt 13 (neu Nr. 37), beide am Abschnittsende angehängt, ebenfalls um parallele Änderungen zu vermeiden. README-Inhaltsverzeichnis, README-Kapitelliste und CLAUDE.md-Verzeichnisstruktur bekommen je eine Zeile, Abschnitt 18 und 20 bekommen am Anfang je einen Satz als Wegweiser.
+## Herkunft des Abschnitts (2026-09-08)
 
-Mitgeänderte Zählungen: README „26 Dateien" → „27 Dateien", im index.html-Fußbereich derselbe Satz entsprechend geändert; in der README die Zahl der Einträge der Stufe A 260 → 277, die Zahl der Einträge mit sehr hohem Preis-Leistungs-Verhältnis 72 → 75 (nach `grep '^- 证据等级：A'` und `钱=0 时间=少 毅力=否 收益=大` neu gezählt, inklusive der zuvor von zwei Sitzungen neu hinzugefügten Einträge).
+Aufgabenherkunft: Ein Leser nannte zwei Dinge — „Ich habe erfahren, dass ich schwanger bin, und werde
+bald gebären, was soll ich tun, wie ist der Ablauf, das ist alles nicht klar beschrieben"; „Und auch
+so etwas wie HIV, wie vermeidet man es, wenn man merkt, dass man sich angesteckt haben könnte, es kam
+zu Geschlechtsverkehr, man nimmt die Blockade-Medikamente, das ist alles nicht beschrieben."
 
-## Abschnitt 27
+Bisherige Abdeckung: Der Ablauf rund um Schwangerschaft und Geburt ist eine komplette Lücke. Die
+Suche im ganzen Buch nach „Vorsorgeuntersuchung in der Schwangerschaft", „Schwangerschaftszeit",
+„Geburt", „Geburtsurkunde" traf nur die beiden Abschnitte 18 und 20 — Abschnitt 18 enthält nur den
+Mutterschaftsurlaub von 98 Tagen und das Mutterschaftsgeld, Abschnitt 20 beginnt erst nach der Geburt
+des Kindes, dazwischen fehlte von der Bestätigung der Schwangerschaft bis zum Verlassen des
+Krankenhauses mit Urkunde alles. HIV war null abgedeckt.
 
-| URL | Prüfung | Original-Zitat |
-|---|---|---|
-| <https://doi.org/10.1002/14651858.CD007950.pub3> (Europe PMC Titelaufnahme und Abstract-Volltext, PMID 26662928) | ja | „a protective effect of daily folic acid supplementation … in preventing NTDs compared with no interventions/placebo … (risk ratio (RR) 0.31, 95% confidence interval (CI) 0.17 to 0.58); five studies; 6708 births; high quality evidence)"; bei erneuter Schwangerschaft „RR 0.34, 95% CI 0.18 to 0.64); four studies; 1846 births"; „the positive effect … is not affected by the explored daily folic acid dosage (400 µg (0.4 mg) or higher) or whether folic acid is given alone or with other vitamins and minerals"; bei Lippen-Kiefer-Gaumenspalte, angeborenen Herzfehlern und Fehlgeburt kein eindeutiger Effekt |
-| <https://www.jingjiang.gov.cn/xxgk/zdlyxxgk/wsjk/art/2023/art_383017a2e7794892bc772bfbe042f379.html> | ja | Zielgruppe „im Zuständigkeitsbereich dauerhaft wohnhafte Schwangere und Wöchnerinnen"; „kostenlose Erstuntersuchung zur Anlage des Mutterpass-Hefts 1-mal und ein Satz Erstlaboruntersuchungen"; „kostenlose Vorsorgeuntersuchungen im mittleren und späten Schwangerschaftsverlauf 4-mal, jeweils zwischen SSW 16-20, 21-24, 28-36, 37-40"; „kostenloser Wochenbettbesuch 1-mal"; „kostenlose Gesundheitsuntersuchung 42 Tage nach der Geburt 1-mal samt Laboruntersuchungen (inkl. Blutbild, Vaginalabstrich), Depressionsscreening nach der Geburt 1-mal" |
-| <https://www.nhc.gov.cn/ewebeditor/uploadfile/2017/04/20170417104506514.pdf> | teilweise | Das Original der „Norm für grundlegende öffentliche Gesundheitsdienste des Staates (dritte Fassung) [国家基本公共卫生服务规范（第三版）]" liegt als PDF vor. Das lokale pdftotext liefert bei chinesischen Regierungs-PDFs nur Zahlen und Englisch (keine ToUnicode-Zuordnung), ein wörtlicher Abgleich ist nicht möglich, deshalb wurde die Struktur „1-mal im frühen Schwangerschaftsverlauf + 2-mal im mittleren + 2-mal im späten + Wochenbettbesuch + 42 Tage nach der Geburt" anhand der von der Stadtverwaltung Jingjiang veröffentlichten lokalen Leistungsliste wörtlich geprüft, das PDF steht nur als Nachweis des Normoriginals daneben in der Quellenspalte |
-| <https://wjw.xinjiang.gov.cn/hfpc/zhgl6/202012/08b7de496f0b40e586d4b99d00cf79c4.shtml> | ja | „Arbeitsnorm zur Prävention der Mutter-Kind-Übertragung von HIV, Syphilis und Hepatitis B (Fassung 2020) [预防艾滋病、梅毒和乙肝母婴传播工作规范（2020 年版）]", im frühen Schwangerschaftsverlauf oder bei der ersten Schwangerschaftsvorsorge wird informiert und „eine geeignete, standardisierte kostenlose Testung angeboten", je nach Ergebnis Beratung nach dem Test oder Überweisung |
-| <https://wjw.beijing.gov.cn/zwgk_20040/zcwj2022/flfg/202304/t20230408_2992986.html> | ja | Verordnung zur Prävention und Bekämpfung von HIV/Aids [艾滋病防治条例], Art. 23 „Personen, die sich freiwillig einer HIV-Beratung und -Testung unterziehen, sind Beratung und Erst-Screening kostenlos anzubieten"; Art. 44 Nr. 4 „Schwangeren und Wöchnerinnen, die mit dem HIV-Virus infiziert sind, sind Behandlung und Beratung zur Prävention der Mutter-Kind-Übertragung von HIV kostenlos anzubieten"; Art. 43 „Leistungen wie Blockade, Behandlung, Wochenbettbesuch, Säuglingsnachsorge und -testung"; Art. 3 Diskriminierungsverbot; Art. 38 Nr. 2 „die Tatsache der Infektion oder Erkrankung den Personen, mit denen eine sexuelle Beziehung besteht, rechtzeitig mitzuteilen" |
-| <https://www.cdc.gov/tobacco/campaign/tips/diseases/pregnancy.html> | ja | „Your baby may be born too small, even after a full-term pregnancy." „Your baby may be born too early (premature birth)." „Smoking doubles your risk of abnormal bleeding during pregnancy and delivery." „Smoking raises your baby's risk for birth defects, including cleft lip, cleft palate, or both." „Smoking can damage your baby's developing lungs and brain. The damage can last through childhood." „Babies of moms who smoke during pregnancy—and babies exposed to cigarette smoke after birth—have a higher risk for SIDS." „It's best to quit smoking before you get pregnant. But if you're already pregnant, quitting can still help." „It's never too late to quit smoking." |
-| <https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/low-dose-aspirin-use-for-the-prevention-of-morbidity-and-mortality-from-preeclampsia-preventive-medication> | ja | Grade B; „low-dose aspirin (81 mg/day) as preventive medication after 12 weeks of gestation"; Präeklampsie pooled RR 0.85 (0.75-0.95, 16 studies), Frühgeburt RR 0.80 (0.67-0.95, 13 studies), perinataler Tod RR 0.79 (0.66-0.96, 11 studies), SGA/IUGR RR 0.82 (0.68-0.99, 16 studies); Tabelle der Hochrisikofaktoren: frühere Präeklampsie, Mehrlingsschwangerschaft, chronischer Bluthochdruck, Typ-1/2-Diabetes vor der Schwangerschaft, Nierenerkrankung, Autoimmunerkrankung |
-| <https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/gestational-diabetes-screening> | ja | „The USPSTF recommends screening for gestational diabetes in asymptomatic pregnant persons at 24 weeks of gestation or after." (B); vor der 24. Woche Stufe I „current evidence is insufficient"; „One-time screening should be performed at 24 weeks of gestation or after." |
-| <https://www.cdc.gov/hearher/maternal-warning-signs/index.html> | ja | die 14 Warnzeichen einzeln (headache that won't go away or gets worse; dizziness or fainting; changes in your vision; fever of 100.4°F or higher; extreme swelling of hands or face; thoughts about harming yourself or your baby; trouble breathing; chest pain or fast-beating heart; severe nausea and throwing up; severe belly pain that doesn't go away; baby's movement stopping or slowing; vaginal bleeding or fluid leaking during pregnancy; vaginal bleeding or discharge after pregnancy; severe swelling, redness or pain of leg or arm); die Probleme können bis zu einem Jahr nach der Geburt auftreten |
-| <https://www.who.int/news-room/fact-sheets/detail/maternal-mortality> | ja | „About 260 000 women died during and following pregnancy and childbirth in 2023." „The major complications that account for around 75% of all maternal deaths are: severe bleeding … infections … high blood pressure during pregnancy (pre-eclampsia and eclampsia) … complications from delivery … unsafe abortion." „Most maternal deaths are preventable …" „Severe bleeding after birth can kill a healthy woman within hours if she is unattended." |
-| <https://wjw.beijing.gov.cn/bmfw_20143/jkzs/jzjj/202001/t20200115_1575632.html> | ja | „sofort einen Platz suchen und sich flach hinlegen, damit das Fruchtwasser nicht abfließt" „nicht ohne Grund umherlaufen" „sofort den Notruf 120 anrufen", während des Wartens auf den Wagen die Familie benachrichtigen, damit sie die Sachen ins Krankenhaus bringt |
-| <https://www.bch-syfy.cn/Html/News/Articles/9453.html> | ja | Im Stehen ausfließendes Fruchtwasser, die Nabelschnur kann hervortreten und einen Nabelschnurvorfall verursachen; in der Nähe hinlegen, das Gesäß erhöhen, Linksseitenlage; bei Blasensprung mit regelmäßigen Wehen / deutlich verminderten Kindsbewegungen / Körpertemperatur über 37,5 °C oder Schüttelfrost / gelbgrünem oder mit Mekonium vermischtem Fruchtwasser muss man sofort zum Arzt |
-| <https://doi.org/10.1002/14651858.CD000331.pub4> (Europe PMC Abstract-Volltext) | ja | „Low-quality evidence shows that epidural analgesia may be more effective in reducing pain during labour and increasing maternal satisfaction with pain relief than non-epidural methods." „a post hoc subgroup analysis showed this effect is not seen in recent studies (after 2005)" (instrumentelle Geburtshilfe) „Epidural analgesia had no impact on the risk of caesarean section or long-term backache"; Nebenwirkungen „more hypotension, motor blockade, fever, and urinary retention … longer first and second stages of labour … more likely to have oxytocin augmentation" |
-| <https://www.gov.cn/zhengce/202406/content_6957553.htm> | ja | „Die ursprünglichen Positionen der geburtshilflichen medizinischen Leistungspreise der einzelnen Orte werden auf 30 Positionen zusammengeführt und abgebildet"; „Positionen wie ‚Wehen-Schmerzlinderung', ‚Doula-Geburt', ‚Begleitung durch Angehörige bei der Geburt' werden gesondert als eigene Positionen ausgewiesen"; Grund ist, dass an manchen Orten nach der Position der Spinalanästhesie abgerechnet wurde und das Fehlen einer eigenen Preiskategorie die Bereitschaft der Krankenhäuser zur Wehen-Schmerzlinderung verringerte |
-| <https://www.who.int/publications/i/item/WHO-RHR-15.02> | teilweise | WHO-Erklärung von 2015. Die Publikationsseite ist zugänglich, das Text-PDF wurde nicht wörtlich abgerufen; die zwei Sätze „auf Bevölkerungsebene sinkt die Mutter-Kind-Sterblichkeit, wenn die Kaiserschnittrate auf etwa 10% steigt, oberhalb von 10% zeigen sich keine Belege für eine weitere Verbesserung" und „man sollte sich bemühen, Bedürftigen einen Kaiserschnitt anzubieten, statt eine bestimmte Rate anzustreben" sind die Kernaussagen dieser Erklärung, vielfach übereinstimmend wiedergegeben, der Haupttext folgt ihnen und zitiert keine Zahlen, die über die Aussagen dieser Erklärung hinausgehen |
-| <https://guangdong.chinatax.gov.cn/gdsw/qysw_gkwj/2020-02/12/content_8e8c485d0db34b989531f3ba57cec5a9.shtml> | ja | Sozialversicherungsgesetz [社会保险法], Art. 54: Hat der Arbeitgeber die Mutterschaftsversicherung bezahlt, genießen seine Beschäftigten die Leistungen der Mutterschaftsversicherung, „die nicht erwerbstätige Ehefrau eines Beschäftigten genießt nach staatlicher Regelung die Leistungen für Mutterschaftsbehandlungskosten", die erforderlichen Mittel werden aus dem Mutterschaftsversicherungsfonds gezahlt; die Leistungen umfassen Mutterschaftsbehandlungskosten und Mutterschaftsgeld. Art. 56 drei Fallgestaltungen; Mutterschaftsgeld „wird nach dem durchschnittlichen Monatslohn der Beschäftigten des Arbeitgebers im Vorjahr berechnet und ausgezahlt" |
-| <https://www.gov.cn/guoqing/2021-10/29/content_5647619.htm> | ja | Gesetz über Mutter-Kind-Gesundheit [母婴保健法], Art. 23: Medizinische und Gesundheitseinrichtungen und Personen, die Hausgeburten durchführen, stellen nach den Vorschriften der Gesundheitsverwaltungsbehörde des Staatsrats eine einheitlich ausgestellte ärztliche Geburtsbescheinigung für Neugeborene aus |
-| <http://www.gov.cn/gongbao/content/2009/content_1371363.htm> | ja | Verwaltungsmaßnahmen für das Neugeborenen-Screening [新生儿疾病筛查管理办法], Art. 3 „Zu den landesweiten Krankheiten des Neugeborenen-Screenings gehören angeborene Schilddrüsenunterfunktion, Phenylketonurie und andere erbliche Stoffwechselkrankheiten Neugeborener sowie Hörstörungen"; Art. 10 bei positiven Fällen die Erziehungsberechtigten rechtzeitig zur Bestätigungsdiagnose benachrichtigen, bei Hörverdacht an ein Hörscreening-Zentrum überweisen; Art. 11 vor dem Screening wahrheitsgemäß über Gegenstand, Voraussetzungen, Verfahren, Sensitivität und Kosten informieren und die schriftliche Einwilligung einholen |
-| <https://www.gov.cn/zhengce/202409/content_6973567.htm> | ja | „Neugeborene können sich allein mit der ärztlichen Geburtsbescheinigung online versichern"; „nach der Entlassung des Neugeborenen können die Arztkosten unmittelbar erstattet werden"; die durchschnittliche Dauer der Versicherungsanmeldung und Beitragszahlung „von 28,7 Arbeitstagen zu Jahresbeginn auf 6,4 Arbeitstage verkürzt"; zuvor galt „erst Haushaltsregistrierung, dann Versicherung" und „erst selbst zahlen, dann erstatten" |
-| <http://www.gd.gov.cn/zwgk/wjk/zcfgk/content/post_2531969.html> | ja | Verordnung über die Haushaltsregistrierung [户口登记条例], Art. 7 „innerhalb eines Monats nach der Geburt des Säuglings melden der Haushaltsvorstand, Verwandte, der Erziehungsberechtigte oder ein Nachbar die Geburt bei der Haushaltsregistrierungsbehörde am gewöhnlichen Aufenthaltsort des Säuglings zur Eintragung an" |
+Platzierung (vom Nutzer bestätigt): **neuer Abschnitt 27**, Datei
+`book/27-schwangerschaft-und-geburt.md`, am Ende angehängt statt zwischen 18 und 20 eingefügt, um
+parallele Änderungen an Dateinamen und Ankerverweisen zu vermeiden. HIV wird auf zwei Stellen verteilt:
+Alltagsprävention und Test in Abschnitt 1, das 72-Stunden-Blockade-Medikament in Abschnitt 13 (beide
+gehören nicht zu diesem Kapitel und werden hier nicht nachgezogen; siehe Anhang unten).
 
-Nicht in den Haupttext aufgenommene Inhalte und Gründe:
+**Hinweis zur gelben Welle (Runde 10, 2026-10-01):** Die chinesischen Fundstellen der ersten Fassung
+sind in dieser Runde je Eintrag durch deutsche Primär- oder Amtsquellen ersetzt worden. Die folgende
+Tabelle dokumentiert, was ersetzt wurde und womit es belegt ist; die chinesischen URLs der ersten
+Fassung stehen nur noch in der Git-Historie.
 
-- **„Neugeborene, die sich innerhalb von 90 Tagen nach der Geburt versichern, genießen die Leistungen ab dem Tag der Geburt" — keine konkrete Tageszahl**. Diese Aussage ist weit verbreitet, aber in dieser Runde wurde weder auf der chinesischen Regierungswebsite noch in öffentlichen Dokumenten der staatlichen Krankenversicherungsbehörde eine wörtlich prüfbare landesweit einheitliche Formulierung gefunden; gefunden wurde nur die Formulierung der Pressekonferenz von 2024 „mit der ärztlichen Geburtsbescheinigung kann man sich online versichern, nach der Entlassung kann man unmittelbar erstatten". Deshalb schreibt der Haupttext nur den prüfbaren Teil und erklärt in der Anmerkung, dass die Tageszahlregelungen je nach Ort unterschiedlich sind und die örtliche Krankenversicherungsbehörde maßgeblich ist.
-- **Die konkrete Stufung der Fünf-Farben-Verwaltung der Schwangerschaftsrisikobewertung**. Die „Arbeitsnorm für die Bewertung und Verwaltung des Schwangerschaftsrisikos von Schwangeren und Wöchnerinnen [孕产妇妊娠风险评估与管理工作规范]" ist nicht in den Politikdokumentenbestand des Staatsrats aufgenommen (die Prüfung mit `searchfield=title` ergab weiterhin keinen Treffer), der wörtlich prüfbare Originaltext ist nicht zu bekommen, der Haupttext schreibt nur die qualitative Aussage „je früher das Mutterpass-Heft angelegt wird, desto früher wird die Schwangerschaftsrisikostufe ermittelt" und nennt keine Farben und keine zugehörige Behandlung.
-- **Die landesweite Verbreitungsrate der schmerzfreien Entbindung und die Kaiserschnittrate für China**. Es wurde keine wörtlich prüfbare offizielle Jahresstatistik gefunden, der Haupttext nennt sie nicht.
-- **Die konkrete Methode zum Zählen der Kindsbewegungen (wie oft pro Stunde, wie oft in 12 Stunden)**. Das formale Zählschema für Kindsbewegungen hat in großen randomisierten Studien keine Senkung der Sterblichkeit gezeigt, das ist nicht dasselbe wie „bei deutlich verminderten Kindsbewegungen zum Arzt", der Haupttext behält nur Letzteres (eingegliedert in die CDC-Liste in Nr. 7) und gibt kein Zählraster an.
-- Nr. 8 wird als B statt A eingestuft: Die Laiendarstellung der Gesundheitskommission Peking nennt die Handlungsschritte, erklärt aber nicht den Mechanismus des Nabelschnurvorfalls; der Mechanismus-Satz stammt von der Frauen- und Kinderklinik des Bezirks Shunyi, Peking (offizielle Website einer öffentlichen medizinischen Einrichtung), beide Materialien sind keine Leitlinie und keine Metaanalyse.
-- Die Nutzenhöhe von Nr. 10 wird als „mittel" statt „groß" festgelegt: Die WHO-Erklärung gibt die negative Schlussfolgerung „oberhalb von 10% keine weitere Verbesserung", nicht die Effektstärke „wie viel Sterblichkeit durch den Verzicht auf einen medizinisch nicht indizierten Kaiserschnitt gesenkt werden kann".
+## Sichtungspass (2026-10-01, vor der Überarbeitung)
 
-## Abschnitt 1, Nr. 28, 29 und Abschnitt 13, Nr. 37 (HIV)
+Grundlage: `review/kapitel/27.md` (erste Runde), `sichtung-restkapitel.md` §1 und §3 und die
+vollständige Kapiteldatei. Maßstab sind REQ-65 (deutsche Entsprechung statt Mitübersetzung), REQ-68
+(kein `元`, keine China-Statements im laufenden Text), REQ-70 (nur offen zugängliche Quellen) und
+REQ-72 (Sichtungspass vor dem Schreiben).
 
-| URL | Prüfung | Original-Zitat |
-|---|---|---|
-| <https://doi.org/10.1586/14737167.2016.1102635> (Europe PMC Abstract-Volltext) | ja | „Twenty-five studies with 10,676 HIV serodiscordant heterosexual couples were analyzed. The risk of HIV transmission was considerably lower among couples that were always using condoms compared to never-users (RR: 0.29, 95% CI: 0.20-0.43) or inconsistent users (RR: 0.23, 0.13-0.40)." „condoms reduce HIV transmission by more than 70% when used consistently" |
-| <https://doi.org/10.1097/QAD.0000000000001145> (Europe PMC Abstract-Volltext) | ja | „Trials with PrEP use more than 70% demonstrated the highest PrEP effectiveness (risk ratio = 0.30, 95% confidence interval: 0.21-0.45, P < 0.001) compared with placebo. Trials with low PrEP use did not show a significantly protective effect." |
-| <https://doi.org/10.1016/S0140-6736(19)30418-0> (Europe PMC Abstract-Volltext) | ja | PARTNER2: „782 provided 1593 eligible couple-years of follow-up" „couples reported condomless anal sex a total of 76 088 times" „15 new HIV infections occurred during eligible couple-years of follow-up, but none were phylogenetically linked" |
-| <https://www.who.int/news-room/fact-sheets/detail/hiv-aids> | ja | „People living with HIV who are taking ART and have an undetectable viral load will not transmit HIV to their sexual partners."; die Definitionen von PrEP/PEP |
-| <https://www.beijing.gov.cn/fuwu/bmfw/jhsyfwzdzx/sjazbr/fakp/202311/t20231110_3299397.html> | ja | „die vorbeugende Medikation möglichst innerhalb von 2 Stunden einnehmen, am besten innerhalb von 24 Stunden, spätestens jedoch nach 72 Stunden"; „28 Tage lang ununterbrochen einnehmen"; PrEP-Definition „eine biologische Präventionsmethode, bei der man durch Medikamenteneinnahme die Ansteckungswahrscheinlichkeit senkt, wenn man einem hohen HIV-Infektionsrisiko ausgesetzt ist"; die Medikation zur Prävention vor Exposition ist ein verschreibungspflichtiges Arzneimittel und sollte unter Anleitung von Fachpersonal eingenommen werden |
-| <https://cdcp.gd.gov.cn/jkjy/kpydjwjxz/content/post_3441820.html> | ja | Fensterphase: Nukleinsäure etwa 1 Woche, der Antigen-Antikörper-Kombinationstest der vierten Generation verkürzt sich gegenüber dem Antikörpertest um etwa 1 Woche (etwa 2 Wochen), Antikörper der dritten Generation etwa 3 Wochen; „es wird empfohlen, sich erst nach mindestens 2 Wochen testen zu lassen", „der Abstand zwischen den Tests beträgt in der Regel 2-4 Wochen"; nach dem letzten Risikokontakt „kann die überwiegende Mehrheit (über 99,99%) nach 3 Monaten eine HIV-Infektion ausschließen" |
-| <https://www.cqcdc.org/index.php?a=shows&catid=2270&id=3045> | ja | Chongqing „die Einrichtungen, die Medikamente zur HIV-Prävention vor und nach Exposition anbieten, sind auf 29 Ambulanzen in 26 Bezirken und Kreisen angewachsen" „überwiegend Ambulanzen der Infektionsabteilung von Krankenhäusern" „die Zahl der Ambulanzen mit rund um die Uhr verfügbarem Service hat bereits 14 erreicht"; „innerhalb von 72 Stunden ein bestimmtes antivirales Medikament einnehmen" „muss täglich und 28 Tage lang ununterbrochen eingenommen werden" |
-| <https://www.chinacdc.cn/jkyj/crb2/yl/azb/jswj_azb/202410/t20241027_302131.html> | teilweise | Die Seite des chinesischen CDC enthält nur die Bekanntmachung und die Beschreibung des Umfangs („deckt alle Aspekte der nichtberuflichen Postexpositionsprophylaxe gegen das HIV-Virus ab: Risikobewertung der HIV-Exposition, Bewertung der PEP-Anwendbarkeit und deren Durchführung, PEP-Adhärenzschulung und umfassende Intervention sowie PEP-Nachsorgeverwaltung"), die technischen Einzelheiten stehen im PDF-Anhang und wurden nicht wörtlich abgerufen. Deshalb werden die beiden Zahlen 72 Stunden / 28 Tage vorrangig mit der HIV-Präventions-Laiendarstellung der Stadtregierung Peking belegt, die Leitlinie als parallele Quelle aufgeführt |
+**Ergebnis: Gruppe ③ = 0, Klasse X = 0.** Fünf Einträge gehören zur Klasse **②** (deutscher Weg
+offen, Belegsuche entscheidet): **Nr. 11, 12, 14, 15, 16.** Die übrigen elf sind Klasse ①
+(china-gebundene Angabe, aber mit einer deutschen oder internationalen Fundstelle belegbar).
 
-Nr. 37 in Abschnitt 13 wird als B statt A eingestuft: Die Fristen und die Behandlungsdauer stammen aus offizieller Laiendarstellung und technischer Leitlinie (Entwurf), nicht aus einer randomisierten Studie; für PEP gibt es auch keine placebokontrollierte Studie und kann es nicht geben. Die Nachbeobachtungszeitpunkte (4. bis 6. Woche, 3 Monate) stehen in der Anmerkung mit dem Hinweis, dass die ärztliche Anordnung maßgeblich ist, sie sind nicht als geprüfte offizielle Zahlen markiert.
+| Nr. | Titel (Vorlage) | Klasse | Begründung in einer Zeile |
+|---|---|---|---|
+| 1 | Folsäure ab Kinderwunsch, 0,4 mg | ① | Chin. Yuan-Preis und kostenloses Staatsprogramm → deutsche Menge (Gesund ins Leben). |
+| 2 | Mutterpass anlegen, Vorsorge wahrnehmen | ① | Chin. Mutter-Kind-Heft und kommunale Liste → Mu-RL § 2/§ 9. |
+| 3 | HIV, Syphilis, Hepatitis B testen | ① | Chin. Mutter-Kind-Übertragungsprogramm → Mu-RL § 2/§ 4, § 24c SGB V. |
+| 4 | Keine Zigarette, kein Alkohol | ① | Keine China-Angabe; CDC-Beleg bleibt. |
+| 5 | ASS bei Präeklampsie-Risiko | ① | Chin. Yuan und Handelspräparat → AWMF 015-018, § 34 SGB V. |
+| 6 | Test auf Schwangerschaftsdiabetes | ① | Chin. Yuan-Preis für den Zuckertest → Mu-RL § 2 Abs. 11. |
+| 7 | Liste „sofort ins Krankenhaus" | ① | Keine China-Angabe; CDC/WHO bleiben. |
+| 8 | Fruchtwasserabgang, Hinlegen | ① | Chin. Anweisung „hinlegen, 120 rufen" → AWMF 015-083, Notruf 112. |
+| 9 | Schmerzfreie Geburt (PDA) | ① | Chin. Yuan und Abrechnungsreform 2024 → Cochrane, AWMF 015-083, § 24c SGB V. |
+| 10 | Keinen Kaiserschnitt ohne Indikation | ① | Keine China-Angabe; WHO 2015 bleibt. |
+| 11 | Krankenversicherungsstatus klären | **②** | Chin. Mutterschutzversicherung — **Belegsuche entscheidet**. |
+| 12 | Geburt beurkunden lassen | **②** | Chin. Geburtsbescheinigung/Haushaltsregistrierung — **Belegsuche entscheidet**. |
+| 13 | Neugeborenen- und Hörscreening | ① | Chin. Verwaltungsbestimmungen → Kinder-RL §§ 13/17/47/51. |
+| 14 | Kind bei der Krankenkasse anmelden | **②** | Chin. Einwohner-Krankenversicherung — **Belegsuche entscheidet**. |
+| 15 | Anmeldung beim Einwohnermeldeamt | **②** | Chin. Haushaltsregistrierung — **Belegsuche entscheidet**. |
+| 16 | Untersuchung nach der Geburt | **②** | Chin. „42-Tage-Kontrolle" — **Belegsuche entscheidet**. |
 
-Nr. 28 in Abschnitt 1 wird bei den Kosten mit „Durchhaltevermögen = etwas" bewertet: die Schwierigkeit liegt in der Anwendung bei jedem Mal, nicht im Geldausgeben. Nr. 29 wird bei den Kosten mit „Geld = 0, Durchhaltevermögen = etwas" bewertet: die Verordnung ist ausdrücklich kostenlos, das Durchhaltevermögen ist die „Bereitschaft, sich testen zu lassen". Nr. 37 in Abschnitt 13 wird bei den Kosten mit „Geld = viel" bewertet: eine Behandlungskur kostet über tausend 元 und wird in den meisten Regionen selbst getragen; in dieser Runde wurde keine landesweit einheitliche Kosten- oder Erstattungsregelung gefunden, der Haupttext schreibt „in den meisten Regionen selbst zu tragen" und gibt kein Raster außerhalb eines konkreten Betragsbereichs an.
+**Kapitelverdikt: gelb.** Alle fünf ②-Einträge ließen sich umstellen; 13 Einträge wurden geändert
+(Nr. 1, 2, 3, 5, 6, 8, 9, 11, 12, 13, 14, 15, 16), drei blieben unberührt (Nr. 4, 7, 10). Kein
+Eintrag gestrichen.
+
+**Kapitelweit.** `元` stand vor der Überarbeitung in fünf Einträgen (Nr. 1, 5, 6, 9, 14), dazu
+chinesische Regierungs-URLs (`gov.cn`, `jingjiang.gov.cn`, `wjw.*.gov.cn`,
+`guangdong.chinatax.gov.cn`, `gd.gov.cn`, `bch-syfy.cn`) in fast allen Quellenzeilen.
+
+## Überarbeitungsrunde (2026-10-01)
+
+Reihenfolge: erst die vier China-Vorsorgeeinträge mit Leitlinienbezug (Nr. 1, 2, 3, 5, 6, 8, 9, 13),
+dann die fünf ②-Einträge (Nr. 11, 12, 14, 15, 16), zuletzt die Gates. Jede neu gesetzte
+Quellenangabe wurde einzeln am offenen Volltext geprüft (REQ-70).
+
+### Änderungen je Eintrag — deutsche Fundstelle statt chinesischer
+
+| Nr. | Was ersetzt wurde (chinesische Fassung) | Deutscher Beleg (abgerufen) | Marker |
+|---|---|---|---|
+| 1 | Chin. Yuan-Preis und staatliches kostenloses Folsäure-Programm → Folsäure als Selbstzahler-Leistung; Mengen nach Netzwerk „Gesund ins Leben" (400 µg/Tag, 800 µg bei spätem Beginn); **`Geld=0` → `Geld=wenig`** | Netzwerk „Gesund ins Leben", „Folsäure, Jod und Co." — `gesund-ins-leben.de` | `Angepasst` |
+| 2 | Chin. Mutter-Kind-Gesundheitsheft und kommunale Leistungsliste → Mutterpass und Untersuchungstermine der Mutterschafts-Richtlinien (§ 2 Abs. 6/8/9, § 9 Abs. 1); Titel geändert | G-BA, Mu-RL (§§ 2, 9) — `g-ba.de` | `Angepasst` |
+| 3 | Chin. Programm zur Vorbeugung der Mutter-Kind-Übertragung und seine Rechtsnormen → HIV-, Lues- und HBsAg-Screening der Mu-RL (§ 2 Abs. 1, § 4 Abs. 1) als Kassenleistung (§ 24c SGB V); chin. Antidiskriminierungssatz entfernt; Titel geändert | G-BA, Mu-RL (§§ 2, 4); SGB V § 24c — `g-ba.de`, `gesetze-im-internet.de` | `Angepasst` |
+| 5 | Chin. Yuan-Preis und chin. Handelspräparat → AWMF-Leitlinie 015-018 (ASS 100–150 mg/Tag) und Rezeptfreiheit (§ 34 SGB V); Rezeptbehauptung korrigiert (`Geld=wenig` bleibt) | AWMF 015-018; SGB V § 34 Abs. 1 — `register.awmf.org`, `gesetze-im-internet.de` | `Angepasst` |
+| 6 | Chin. Yuan-Preis für den Zuckertest → Screening auf Schwangerschaftsdiabetes als Kassenleistung (Mu-RL § 2 Abs. 11, „24+0 bis 27+6 SSW"); **`Geld=wenig` → `Geld=0`** | G-BA, Mu-RL § 2 Abs. 11 — `g-ba.de` | `Angepasst` |
+| 8 | Chin. Anweisung „sofort hinlegen, Gesäß erhöhen, die 120 rufen" → AWMF 015-083: keine Empfehlung für das Hinlegen (Empfehlung 7.1, Grad B), Klinik mit Neugeborenenversorgung nach 24 h ohne Wehen (7.6, Grad A); Notruf 120 → 112; Titel geändert | AWMF 015-083; Bundesregierung, Euronotruf 112 — `register.awmf.org`, `bundesregierung.de` | `Angepasst` |
+| 9 | Chin. Yuan-Preis und Abrechnungsreform von 2024 (eigene Preisposten) → Schmerzlinderung als Teil der Kassenleistung Entbindung (§ 24c SGB V) und Angebotsempfehlung der AWMF 015-083 (6.11); **`Geld=wenig` → `Geld=0`** | Cochrane CD000331; AWMF 015-083 (6.10/6.11); SGB V § 24c — `doi.org`, `register.awmf.org`, `gesetze-im-internet.de` | `Angepasst` |
+| 11 (②) | Chin. Mutterschutzversicherung (Sozialversicherungsgesetz Art. 54/56), Mindestbeitragsmonate, Erstattung für die nicht erwerbstätige Ehefrau, Meldung außerhalb des Versicherungsorts → Leistungen bei Schwangerschaft und Mutterschaft (§§ 24c, 24d) und Familienversicherung (§ 10 SGB V), Mutterschaftsgeld (§ 24i); Titel geändert | SGB V §§ 24c, 24d, 10, 24i; Familienportal NRW — `gesetze-im-internet.de`, `familienportal.nrw` | `Angepasst` |
+| 12 (②) | Chin. Geburtsbescheinigung und Haushaltsregistrierung (Mutter-Kind-Gesetz Art. 23) → Beurkundung durch die Klinik (§§ 18, 20, 21 PStG) und Geburtsurkunde (§ 59 PStG); Gebühren; Titel geändert | PStG §§ 18, 20, 21, 59; Serviceportal Berlin, Geburtsurkunde — `gesetze-im-internet.de`, `service.berlin.de` | `Angepasst` |
+| 13 | Chin. Verwaltungsbestimmungen über das Neugeborenen-Screening → erweitertes Screening und Hörscreening der Kinder-RL (§§ 13, 17 Abs. 1, 47, 51 Abs. 2); chin. Einwilligungsverfahren (Art. 11) entfernt; **`Geld=wenig` → `Geld=0`** | G-BA, Kinder-RL — `g-ba.de` | `Angepasst` |
+| 14 (②) | Chin. Einwohner-Krankenversicherung mit Jahresbeitrag, Vorstrecken und Erstattung, Hotline 12393, Betrag über 10.000 元 → Familienversicherung des Kindes (§ 10 SGB V) ohne eigenen Beitrag; Titel geändert; **`Geld=wenig` → `Geld=0`** | SGB V § 10 Abs. 1; Familienportal NRW — `gesetze-im-internet.de`, `familienportal.nrw` | `Angepasst` |
+| 15 (②) | Chin. Haushaltsregistrierung bei der Polizeistation (Verordnung Art. 7, Frist ein Monat) → Anmeldung beim Einwohnermeldeamt (§ 17 BMG) und Steuer-Identifikationsnummer über das Melderegister (§ 139b Abs. 7 AO); Titel geändert | BMG § 17; AO § 139b Abs. 7 — `gesetze-im-internet.de` | `Angepasst` |
+| 16 (②) | Chin. Gesundheitskontrolle „42 Tage nach der Geburt" und Screening auf postpartale Depression → Mu-RL § 7: eine Untersuchung in der ersten Woche und eine etwa sechs Wochen nach der Geburt, dazu Hebammenhilfe (§ 24d SGB V); Depressionsscreening entfernt; Titel geändert | G-BA, Mu-RL § 7; SGB V § 24d — `g-ba.de`, `gesetze-im-internet.de` | `Angepasst` |
+
+**Marker-Zählung: 13 × `Angepasst`, 1 × `Länge` (keine), 0 × `Währung`.** In Nr. 10 wurde nur die
+WHO-Nummer in ASCII-Klammern gesetzt (CJK-Bereinigung), ohne sachliche Änderung und ohne Marker.
+Nr. 4 und Nr. 7 tragen keinen Marker.
+
+**Quellen-Ersetzung:** In allen geänderten Einträgen sind die chinesischen Regierungs-URLs
+**entfallen**; an ihre Stelle traten die deutschen/amtlichen Fundstellen. Aufsätze mit DOI
+(Cochrane, USPSTF) bleiben in ihrer Zitierform. Die Evidenzstufen bleiben unverändert (A, außer
+Nr. 8 = B).
+
+### Die geprüften offenen Belege
+
+Alle Seiten sind offen zugänglich (keine Bezahlschranke, keine Anmeldung), am 2026-10-01 abgerufen
+und im Volltext gelesen.
+
+- **Netzwerk „Gesund ins Leben", Folsäure, Jod und Co.** —
+  <https://www.gesund-ins-leben.de/fuer-familien/fit-durch-die-schwangerschaft/folsaeure-jod-und-co/>.
+  Trägt: „400 Mikrogramm Folsäure pro Tag als Supplement"; wer nicht mindestens vier Wochen vor der
+  Schwangerschaft begonnen hat, nimmt „800 Mikrogramm Folsäure pro Tag".
+- **G-BA, Mutterschafts-Richtlinien** (Mu-RL, iK 2023-12-19) —
+  <https://www.g-ba.de/downloads/62-492-3335/Mu-RL_2023-09-28_iK-2023-12-19.pdf>. Trägt: § 2 Abs. 1
+  (HIV-Antikörpertest mit Information und Einwilligung), § 2 Abs. 4 (Jodzufuhr: „in der Regel ist
+  eine zusätzliche Zufuhr von 100 bis 200 µg Jodid pro Tag notwendig"; Fußnote 2: „Dieser Hinweis
+  führt nicht automatisch zur Verordnungsfähigkeit von Jodid"), § 2 Abs. 6 (erste Untersuchung
+  früh), § 2 Abs. 8 (Abstand vier Wochen, letzte zwei Monate je zwei), § 2 Abs. 9 (drei
+  Ultraschalltermine), § 2 Abs. 11 (Screening auf Schwangerschaftsdiabetes „im Zeitraum zwischen
+  24+0 und 27+6 SSW"), § 4 Abs. 1 (Lues-Suchreaktion, HBsAg-Screening und Immunisierung des
+  Neugeborenen), § 7 Abs. 1 und Abs. 3 (Untersuchung in der ersten Woche, weitere etwa sechs Wochen
+  nach der Geburt), § 9 Abs. 1 (Mutterpass nach Anlage III).
+- **G-BA, Kinder-Richtlinie** (Kinder-RL, iK 2026-01-01) —
+  <https://www.g-ba.de/downloads/62-492-3998/Kinder-RL_2025-05-15_iK-2026-01-01.pdf>. Trägt: § 13
+  (Gegenstand des erweiterten Neugeborenen-Screenings), § 17 Abs. 1 (zwanzig Zielkrankheiten),
+  § 47 (Hörstörungen ab 35 dB, Diagnose bis Ende 3. Lebensmonat, Therapie bis Ende 6.), § 51 Abs. 2
+  (TEOAE oder AABR, bis 3. Lebenstag).
+- **AWMF 015-018, S2k-Leitlinie Hypertensive Erkrankungen in der Schwangerschaft** —
+  <https://register.awmf.org/de/leitlinien/detail/015-018>. Trägt: „Bei Frauen mit anamnestischem
+  Risiko … soll ab der Frühschwangerschaft (spätestens vor 16+0 SSW) mit der oralen Einnahme von
+  niedrig dosierter Acetylsalicylsäure (ASS: 100-150 mg/Tag vorzugsweise abends eingenommen)
+  begonnen werden."
+- **AWMF 015-083, S3-Leitlinie Vaginale Geburt am Termin** —
+  <https://register.awmf.org/assets/guidelines/015-083l_S3_Vaginale-Geburt-am-Termin_2021-03.pdf>.
+  Trägt: Empfehlung 7.1 „Es sollte keine Empfehlung für die Maßnahme des Hinlegens nach vorzeitigem
+  Blasensprung gegeben werden" (Grad B); Empfehlung 7.6 Klinik mit neonataler Versorgung nach 24 h
+  ohne Wehen (Grad A); Empfehlung 6.11 Angebot der Epiduralanalgesie (Grad B); § 6.10 (Überlegenheit
+  gegenüber Opioiden); § 7.30 (dick-grünes, zähes Fruchtwasser oder Mekoniumklumpen = signifikant).
+- **SGB V §§ 10, 24c, 24d, 24i, 34** — `gesetze-im-internet.de/sgb_5/__10.html` (Familienversicherung),
+  `.../__24c.html` (Leistungen bei Schwangerschaft und Mutterschaft), `.../__24d.html`
+  (Hebammenhilfe bis zwölf Wochen), `.../__24i.html` (Mutterschaftsgeld höchstens 13 Euro),
+  `.../__34.html` (nicht verschreibungspflichtige Arzneimittel ausgeschlossen).
+- **PStG §§ 18, 20, 21, 59** — `gesetze-im-internet.de/pstg/__18.html` (Anzeige binnen einer Woche),
+  `.../__20.html` (Anzeigepflicht des Einrichtungsträgers), `.../__21.html` (Geburtenregister),
+  `.../__59.html` (Inhalt der Geburtsurkunde).
+- **BMG § 17, AO § 139b Abs. 7** — `gesetze-im-internet.de/bmg/__17.html` (Anmeldung, Ausnahme für
+  Neugeborene), `.../ao_1977/__139b.html` (Übermittlung bei Speicherung einer Geburt).
+- **Familienportal Nordrhein-Westfalen, Familienversicherung** —
+  <https://www.familienportal.nrw/de/familienversicherung-der-gesetzlichen-krankenversicherung>.
+  Trägt: Familienangehörige lassen sich „unter bestimmten Voraussetzungen beitragsfrei
+  mitversichern"; „Die Familienversicherung für Ihre Angehörigen beantragen Sie bei Ihrer
+  gesetzlichen Krankenkasse." (Beleg für das Wort „beitragsfrei", das in § 10 SGB V nicht steht.)
+- **Serviceportal Berlin, Geburtsurkunde beantragen** — <https://service.berlin.de/dienstleistung/318960/>.
+  Trägt: Gebühr 0 für die Urkunde für Sozialversicherungszwecke, 12,00 Euro für die gewöhnliche
+  Geburtsurkunde.
+- **Presse- und Informationsamt der Bundesregierung, Euronotruf 112** —
+  <https://www.bundesregierung.de/breg-de/service/archiv-bundesregierung/112-euro-notrufnummer-2162906>.
+  Trägt: „Der Euronotruf ist überall in der EU kostenfrei erreichbar."; „Alle 112-Anrufe werden an die
+  Leitstelle vor Ort durchgestellt."
+
+### Nicht geändert
+
+- **Nr. 4** (keine Zigarette, kein Alkohol): keine China-Angabe, kein `元`. Beleg (US CDC) bleibt.
+- **Nr. 7** (Liste „sofort ins Krankenhaus"): keine China-Angabe. Belege (US CDC Hear Her, WHO) bleiben.
+- **Nr. 10** (keinen Kaiserschnitt ohne Indikation): keine China-Angabe. Beleg (WHO 2015) bleibt.
+  Einzige Änderung: die WHO-Nummer wurde in ASCII-Klammern gesetzt (CJK-Bereinigung).
+- **Evidenzstufen und Struktur** je Eintrag unverändert (REQ-27): A in Nr. 1, 2, 3, 4, 5, 6, 7, 9,
+  10, 11, 12, 13, 14, 15, 16; B in Nr. 8.
+- **`Zeit`, `Willenskraft`, `Nutzen`, `Bezug`** in allen 16 Einträgen unangetastet (REQ-26).
+
+### Kostenlabel (REQ-26)
+
+Aus einer chinesischen Selbstzahler-Position wurde teils eine deutsche Kassenleistung und umgekehrt:
+
+- **Nr. 1 `Geld=0` → `Geld=wenig`:** Folsäure ist ein Nahrungsergänzungsmittel und wird nicht von der
+  Kasse gezahlt (kein Fall des § 34 SGB V, sondern privat zu kaufen).
+- **Nr. 6 `Geld=wenig` → `Geld=0`**, **Nr. 9 `Geld=wenig` → `Geld=0`**, **Nr. 13 `Geld=wenig` →
+  `Geld=0`**, **Nr. 14 `Geld=wenig` → `Geld=0`:** alle vier sind in Deutschland Kassenleistung
+  (Mu-RL, § 24c SGB V, Kinder-RL).
+- **Nr. 5 bleibt `Geld=wenig`:** ASS ist rezeptfrei und über § 34 Abs. 1 SGB V von der
+  Kassenversorgung ausgeschlossen — aus der chin. Selbstzahler-Position wird also gerade keine
+  Kassenleistung.
+- Nr. 2, 3, 11, 12, 15, 16 stehen bereits auf `Geld=0`; `Zeit`, `Willenskraft`, `Nutzen`, `Bezug`
+  unangetastet.
+
+### Maschinelle Gates
+
+- `grep -c 元 book/27-schwangerschaft-und-geburt.md` = **0**;
+  `grep -cP '[\x{4e00}-\x{9fff}]'` = **0**.
+- `node tools/check-plain.mjs --stat`: **beanstandet 0** im Kapitel (buchweit: Länge 0, Satzlänge 0,
+  Jargon 0, neuezahl 0, Leerformel 0). Die buchweite Zeile zählt 628 Klartext-Zeilen.
+- `node tools/check-refs.mjs` wurde **nicht** ausgeführt (Parallelbetrieb; zentral am Wellenende).
+- `node tools/sync-stats.mjs` wurde **nicht** ausgeführt.
+
+## Anhang: HIV-Prävention in Abschnitt 1 und 13 (nicht Teil dieses Kapitels)
+
+Die Einträge zur HIV-Alltagsprävention und zum 72-Stunden-Blockade-Medikament gehören zu Abschnitt 1
+(Nr. 28, 29) und Abschnitt 13 (Nr. 37). Sie werden in dieser Welle von den zuständigen Kapiteln
+mitgeführt und hier **nicht** verändert. Die chinesischen Fundstellen der ersten Fassung dieser drei
+Einträge (Peking/Chongqing/Guangdong) stehen in der Git-Historie; maßgeblich sind die Prüfprotokolle
+der Abschnitte 1 und 13.
