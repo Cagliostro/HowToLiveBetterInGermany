@@ -6,7 +6,7 @@ import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { resolve, dirname, posix } from 'node:path';
 import { deflateRawSync } from 'node:zlib';
 import { Marked, Tokenizer } from 'marked';
-import { ROOT, REPO, SITE, TITLE, read, readBook, gitCommit, buildStamp, stripBackLink } from '../lib/book.mjs';
+import { ROOT, REPO, SITE, TITLE, EDITOR, ORIGINAL_AUTHOR, ORIGINAL_REPO, read, readBook, gitCommit, buildStamp, stripBackLink } from '../lib/book.mjs';
 
 const OUT = resolve(ROOT, process.argv[2] ?? 'dist/LebeBesser.epub');
 const RELEASE = `${REPO}/releases/download/epub-latest/LebeBesser.epub`;
@@ -163,6 +163,8 @@ ${navItems.map(navPoint).join('\n')}
 `;
 
 // ---------- Umschlag, OPF, Container ----------
+const HERKUNFT = `Deutsche Ausgabe, übersetzt und für Deutschland bearbeitet von ${EDITOR}. `
+  + `Vorlage: „HowToLiveBetter“ von ${ORIGINAL_AUTHOR} (${ORIGINAL_REPO}).`;
 const coverXhtml = wrap(TITLE, `<div class="cover"><img src="cover.png" alt="${esc(TITLE)}"/></div>\n`);
 const modified = NOW.toISOString().replace(/\.\d{3}Z$/, 'Z');
 const manifestPages = pages.map(p => `<item id="${p.file.replace('.xhtml', '')}" href="${p.file}" media-type="application/xhtml+xml"/>`);
@@ -172,9 +174,15 @@ const opf = `<?xml version="1.0" encoding="UTF-8"?>
 <dc:identifier id="pub-id">${BOOK_ID}</dc:identifier>
 <dc:title>${TITLE}</dc:title>
 <dc:language>de</dc:language>
-<dc:creator>eternity4719</dc:creator>
-<dc:description>${esc(description)}</dc:description>
+<!-- Herkunft der deutschen Ausgabe: Author = chinesisches Original, Beitragender mit der
+     Relator-Rolle „trl“ = Übersetzung und Bearbeitung für Deutschland. -->
+<dc:creator id="autor">${ORIGINAL_AUTHOR}</dc:creator>
+<meta refines="#autor" property="role" scheme="marc:relators">aut</meta>
+<dc:contributor id="bearbeiter">${EDITOR}</dc:contributor>
+<meta refines="#bearbeiter" property="role" scheme="marc:relators">trl</meta>
+<dc:description>${esc(`${description} ${HERKUNFT}`)}</dc:description>
 <dc:source>${REPO}</dc:source>
+<dc:source>${ORIGINAL_REPO}</dc:source>
 <dc:rights>CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)</dc:rights>
 <dc:date>${NOW.toISOString().slice(0, 10)}</dc:date>
 <meta property="dcterms:modified">${modified}</meta>

@@ -7,7 +7,7 @@
 import { writeFileSync, mkdirSync, statSync } from 'node:fs';
 import { resolve, dirname, posix, basename } from 'node:path';
 import { execFileSync } from 'node:child_process';
-import { ROOT, REPO, SITE, TITLE, read, readBook, gitCommit, buildStamp, stripBackLink } from '../lib/book.mjs';
+import { ROOT, REPO, SITE, TITLE, EDITOR, ORIGINAL_AUTHOR, ORIGINAL_REPO, read, readBook, gitCommit, buildStamp, stripBackLink } from '../lib/book.mjs';
 
 const OUT = resolve(ROOT, process.argv[2] ?? 'dist/LebeBesser.pdf');
 const WORK = resolve(ROOT, 'dist/pdf-build.md');
@@ -88,6 +88,7 @@ run(PANDOC, [
   '-V', `booktitle=${TITLE}`, '-V', `subtitle=${description}`,
   '-V', `builddate=${STAMP}`, '-V', `commit=${COMMIT.slice(0, 7) || 'unbekannt'}`,
   '-V', `site=${SITE}`, '-V', `repo=${REPO}`,
+  '-V', `editor=${EDITOR}`, '-V', `original=${ORIGINAL_AUTHOR}`, '-V', `originalrepo=${ORIGINAL_REPO}`,
   '-o', typFile, WORK,
 ]);
 const log = run(TYPST, ['compile', typFile, OUT, '--root', ROOT]);
