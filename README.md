@@ -120,6 +120,17 @@ Jede Empfehlung sieht so aus:
 - Anmerkung: Diese Empfehlung gilt nur für Raucher mit hohem Risiko. In derselben Studie hatten 24,2 % der Menschen mit Niedrigdosis-CT einen verdächtigen Befund, von ihnen war bei 96,4 % alles in Ordnung (falsch positiv). Wer nicht raucht, kauft sich mit dieser Untersuchung nur Angst
 ```
 
+## Hinweis
+
+Das hier sind allgemeine Hinweise, keine Beratung im Einzelfall. Was für dich richtig ist, hängt an deinen Umständen, und die kennt dieses Buch nicht.
+
+- **Gesundheit**: Ein Eintrag ersetzt keine ärztliche Untersuchung und keine laufende Behandlung. Nimm Medikamente weiter so, wie sie verordnet sind, und ändere das nicht wegen einer Zeile hier. Bei Beschwerden frage medizinisches Fachpersonal; bei akuter Gefahr gilt der Notruf 112. Für Schwangerschaft, kleine Kinder und Vorerkrankungen gilt das besonders.
+- **Recht, Steuern, Geld**: Wie dein Fall ausgeht, kann nur eine Anwältin oder ein Anwalt einschätzen, Steuerfragen eine Steuerberaterin oder ein Steuerberater; für Forderungen und Verträge helfen Verbraucherzentrale und Gewerkschaft. Die Einträge zeigen den Weg zu diesen Stellen, nicht das Ergebnis deines Falls. Eine Anlageberatung ist dieses Buch nicht.
+- **Stand**: Ämter, Leistungen, Beträge, Fristen und Preise ändern sich. Bei jedem Eintrag steht in der Spalte „Quellen", worauf sich die Angabe stützt und von wann sie ist; prüfe den heutigen Stand, bevor du dich darauf verlässt. Diese Fassung ist eine Übersetzung aus dem Chinesischen und keine amtliche Auskunft.
+- **KI-Assistent**: Was der Skill aus dem Buch antwortet, ist ebenso keine Beratung. Er gibt wieder, was im Buch steht, und nennt die Fundstelle.
+
+Alle Angaben sind sorgfältig geprüft, aber ohne Gewähr. Was du daraus machst, entscheidest du selbst.
+
 ## Selbst betreiben
 
 Die meisten brauchen keine eigene Installation: Die [Online-Suche](https://cagliostro.github.io/HowToLiveBetterInGermany/) ist fertig, für offline lädst du die [Einzeldatei (HTML)](https://github.com/Cagliostro/HowToLiveBetterInGermany/releases/download/epub-latest/LebeBesser.html), ein Doppelklick öffnet sie.

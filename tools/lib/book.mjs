@@ -14,6 +14,13 @@ export const SITE = 'https://cagliostro.github.io/HowToLiveBetterInGermany/';
 export const TITLE = 'Lebe besser: 606 Empfehlungen nach Kosten und Nutzen';
 export const RELEASE = `${REPO}/releases/download/epub-latest`;
 
+// Herkunft der deutschen Ausgabe. Sie steht in den Datei-Metadaten von EPUB und PDF (Autor,
+// Bearbeiter, Quelle); die Nennung in README und index.html ist davon unabhängig und wird von
+// tools/sync-stats.mjs nicht angefasst.
+export const ORIGINAL_AUTHOR = 'eternity4719';
+export const ORIGINAL_REPO = 'https://github.com/eternity4719/HowToLiveBetter';
+export const EDITOR = 'Sebastian Roekens';
+
 // Durchgehend LF an alle Builds: unter Windows mit core.autocrlf=true wird CRLF ausgecheckt,
 // dann findet das Offline-Skript mit '\n' als Nadel keinen einzigen Anker in index.html und
 // der lokale Build meldet „Anfang des Hauptskripts nicht gefunden" (CI läuft auf Linux, dort

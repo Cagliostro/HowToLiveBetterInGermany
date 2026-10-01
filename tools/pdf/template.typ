@@ -21,7 +21,10 @@ $--
 #set smartquote(enabled: false)
 
 // ---------- Layout ----------
-#set document(title: "$booktitle$", author: "eternity4719")
+// Autor = das chinesische Original, Bearbeiter = die deutsche Ausgabe; beide stehen auch auf dem Umschlag.
+// Ein einzelner Text statt einer Liste: die Autorenangabe der PDF-Metadaten ist ein Feld, und typst
+// kann hier lokal nicht geprüft werden (pandoc/typst fehlen) — die einfache Form ist die sichere.
+#set document(title: "$booktitle$", author: "$original$ (Original), $editor$ (deutsche Ausgabe)")
 #set text(
   // Libertinus Serif bringt typst mit und deckt den lateinischen Zeichensatz samt Umlauten und ß ab;
   // Noto Serif dient als Rückfall, falls es installiert ist
@@ -57,6 +60,11 @@ $--
   #image("/og.png", width: 100%)
   #v(1.2cm)
   #block(width: 80%)[#text(11.5pt, fill: luma(60))[$subtitle$]]
+  #v(0.6cm)
+  #block(width: 80%)[#text(9.5pt, fill: luma(90))[
+    Deutsche Ausgabe: übersetzt und für Deutschland bearbeitet von $editor$ \
+    Vorlage: „HowToLiveBetter“ von $original$ ($originalrepo$), CC BY 4.0
+  ]]
   #v(2cm)
   #text(10pt, fill: luma(90))[
     Erstellt am $builddate$ (Berliner Zeit) · Textstand Commit $commit$ \
