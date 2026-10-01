@@ -43,3 +43,63 @@ Die englischsprachige Literatur wurde durchweg über die Europe PMC REST-Schnitt
 - `book/06-die-negativliste.md`: die Hinfälligkeitserklärung zum Satz über die Kurzsichtigkeit wurde in einen Verweis auf diesen Abschnitt geändert.
 
 Die Nachprüfung der Zählwerte erfolgt wie bei Abschnitt 29, nach denselben Regeln wie `parse()` in index.html wird das ganze Buch neu gerechnet: Einträge 462, A 295·B 118·C 49, sehr hoch 81·hoch 231·mittel 150, http(s)-Links in den Zeilen `- Quellen:` und `- Anmerkung:` 881. Die Summe der drei Stufen und die Summe von A/B/C ergeben beide 462 und sind in sich stimmig.
+
+## Überarbeitung zur deutschen Fassung (2026-10-01, gelbe Welle, Runde 10)
+
+Auftrag: `review/ueberarbeitung/auftrag-gelbe-welle.md`. Ergebnis der Sichtung: gelb, Gruppe ② = 6
+(Nr. 3, 5, 7, 8, 10, 11), Gruppe ③ = 0. Ziel: alle china-gebundenen Angaben durch deutsche
+Fundstellen ersetzen, jede mit Beleg; die ②-Einträge durch die Belegsuche entscheiden.
+
+**Umgestellt:** Nr. 2 (nur Querverweis und Quellenzeile), 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 sowie die
+beiden Einleitungsabsätze. **Unverändert:** Nr. 1 (Stufe D, kein China-Bezug). **Kein Eintrag
+gestrichen, kein Eintrag ohne deutschen Beleg (X-Vorlagen = 0).** Marker: 12 × `Angepasst`.
+Ein Kostenlabel geändert: Nr. 13 `Geld=wenig` → `Geld=0` (Fissurenversiegelung ist Kassenleistung).
+
+### Ersetzungen je Eintrag
+
+| Nr. | Ersetzt wurde | Deutsche Fundstelle |
+|---|---|---|
+| Einleitung | chinesische Schulstufen „Grund- und Mittelschule" und der Namensbezug „Studienunterbrechung mit Erhalt des Studierendenstatus" in den Verweisbeschreibungen | Altersstufen 0–3, 3–6, Schulalter; Nr. 10 „Hausaufgaben, Schlaf und Bewegung", Nr. 11 „Schulzeit unterbrechen durch Beurlaubung" |
+| 2 | Querverweis auf „Studienunterbrechung/Studierendenstatus" | Beurlaubung, § 20 Abs. 3 BaySchO; AWMF-Leitlinie 151-002 ergänzt |
+| 3 | Verordnung Nr. 50 des Bildungsministeriums (Art. 21–23: Feststellungsmaßstab, Meldepflicht, sog. sofortige Untersuchung, Pflicht zur Polizeimeldung) | § 1631 Abs. 2 BGB (Recht auf gewaltfreie Erziehung), § 823 BGB, §§ 185, 223 StGB, Art. 86 BayEUG; Selbstanzeige nach § 158 StPO |
+| 4 | Vorgabe der Gesundheitskommission (国卫办妇幼函〔2023〕278) und die chinesische Regel zum Online-Unterricht | Deutsche Ophthalmologische Gesellschaft, PM vom 2022: 2 Stunden Tageslicht, 30 cm, Pause alle 30 Min. |
+| 5 | Alters- und Zeitstaffel aus 国卫医发〔2021〕29 | S2k-Leitlinie AWMF 027-075 (DGKJ), BZgA kindergesundheit-info.de, BVKJ „Bildschirmfrei bis 3" |
+| 6 | Gewichtseinheit „600 Grad" und die Kernaussagen aus 教基厅〔2025〕2 | Umrechnung in Dioptrien (−6 D = hohe Kurzsichtigkeit); DOG-PM zu den Folgeerkrankungen |
+| 7 | die chinesische jährliche Schüleruntersuchung | § 26 SGB V, Kinder-Richtlinie (U1–U9) und JGU-Richtlinie (J1) des G-BA, gesund.bund.de, Art. 80 BayEUG (Schuleingangsuntersuchung) |
+| 8 | chinesische Hotlines 12355/12356, Schulvorgaben und Beträge aus 教基厅〔2025〕2 | S3-Leitlinie AWMF 028-043, JGU-Richtlinie (J1), gesund.bund.de; Nummer gegen Kummer 116 111, Telefonseelsorge 116 123 |
+| 9 | Marktaufsichts-Bekanntmachung 2021 („Kurzsichtigkeit lässt sich nicht heilen", Liste irreführender Formulierungen) | §§ 3 und 11 HWG, § 5 UWG; dieselbe Aussage bei der DOG |
+| 10 | Schlaf-, Sport- und Ranking-Vorgaben aus 教基厅函〔2021〕11 und 教基厅〔2025〕2 | § 28 BaySchO (Hausaufgaben), Nationale Empfehlungen für Bewegung (BZgA/in-form.de) |
+| 11 | „Studienunterbrechung" aus 教基〔2025〕1 Art. 16 (Antrag, Genehmigung, höchstens 1 Jahr, Erhalt des Status) | § 20 Abs. 3 BaySchO (Beurlaubung), Art. 41 BayEUG (Klinikschule), Art. 37 Abs. 2 BayEUG (Rückstellung um ein Schuljahr) |
+| 12 | Behördenweg „Kontrollabstände der Gesundheitskommission" (国卫办妇幼函〔2023〕278) | DOG-PM (Refraktion mit weiten Pupillen, halbjährliche Kontrolle); § 33 SGB V (Sehhilfen bis 18) |
+| 13 | Betrag in 元 und Verweis auf kostenlose Programme örtlicher Zentren | § 22 Abs. 3 SGB V (Fissurenversiegelung der Molaren, 6.–18. Lebensjahr) |
+
+### Neue Quellen (alle offen, am 2026-10-01 je einmal geöffnet)
+
+§ 1631 Abs. 2 BGB, § 823 BGB, §§ 185/223 StGB, Art. 80/86/41/37 BayEUG, § 20/§ 28 BaySchO
+(gesetze-im-internet.de, gesetze-bayern.de); § 26 § 33 § 22 SGB V (gesetze-im-internet.de);
+§§ 3/11 HWG, § 5 UWG (gesetze-im-internet.de); G-BA Kinder-Richtlinie und JGU-Richtlinie
+(g-ba.de/richtlinien/15 bzw. /14); gesund.bund.de (Gesundheitsuntersuchungen Kinder und Jugendliche;
+Soforthilfe Jugend); AWMF-Register 027-075, 028-043, 151-002; DOG-Pressemeldung; BZgA
+kindergesundheit-info.de; in-form.de (Nationale Bewegungsempfehlungen); BVKJ-Pressemitteilung.
+
+### Offen geblieben
+
+- **Nr. 1 (Hodentorsion):** Eine aktuelle deutschsprachige Leitlinie existiert nicht. Die AWMF-Leitlinie
+  006-023 „Akutes Skrotum" ist abgelaufen (Stand 2015-08); die Zeitkurve stützt weiter Mellick 2019.
+- **Nr. 10:** Für Schlaflänge und gegen ein Noten-Ranking gibt es keine deutsche Vorschrift; der Text
+  sagt jetzt genau das (keine Schulvorgabe, nur Empfehlung). Damit ist der deutschen Rechtslage genügt.
+- **Nr. 11:** Die Bayern-Zitate stehen für das Landesrecht; die Beurlaubung hat in Bayern keine feste
+  Höchstdauer wie in NRW (ein Schuljahr). Der Text beansprucht daher keine feste Frist.
+
+### Kleine Schreibentscheidungen
+
+- **Einleitungssatz 2** nennt die drei Bezugsgrößen des Kapitels (Sterblichkeit/Gesundheit, Geld, Zeit)
+  und macht die drei Abschnittsverweise `Abschnitt 20` (Neugeborenes), `Abschnitt 18` (Geld/Zeit) und
+  die beiden Zeitbezüge (Nr. 10, Nr. 11) kenntlich. In Nr. 7 → Nr. 12 und Nr. 7 → Nr. 2 sind die Anker
+  in die Titel übernommen (`Augentropfen-Refraktion`, `Schulzeit unterbrechen`).
+- **Titel Nr. 7** trägt statt der erfundenen Jahresuntersuchung die drei echten Vorsorgewege
+  (U-Untersuchungen, Schuleingangsuntersuchung, J1). **Titel Nr. 8/11** wurden auf die deutsche
+  Handlung gezogen (Screening; Beurlaubung/Rückstellung), die Altersgrenze 12–18 bleibt in Titel und
+  Text. **Titel Nr. 12** „im Krankenhaus" → „zum Augenarzt".
+- **Nr. 13** trägt das Kostenlabel `Geld=0`; der deutsche Anspruch (§ 22 SGB V) erstreckt sich nur auf
+  die bleibenden Backenzähne, Milchzähne sind Selbstzahler — das steht in Kosten und Klartext.
