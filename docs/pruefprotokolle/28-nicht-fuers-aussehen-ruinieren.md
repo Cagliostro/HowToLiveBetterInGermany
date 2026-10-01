@@ -80,3 +80,55 @@ Einstufung der Kostenkennzeichnung: Nr. 1, 2 und 3 sind alle „etwas nicht tun"
 - Der Zusammenhang zwischen Social-Media-Nutzung und Körperunzufriedenheit wurde nicht geschrieben. Die Metaanalysen in diese Richtung sind meist Querschnittskorrelationen (r-Werte), der Effekt ist klein und die Kausalrichtung unklar; aufgenommen käme nur Stufe C heraus, was nicht zur Evidenzstärke der übrigen Einträge dieses Abschnitts passt. Das vom Nutzer genannte „folge nicht dem Trend" wurde stattdessen in der Einleitung des Abschnitts mit „die Entscheidung kommt meist aus dem Vergleich mit anderen" benannt, ohne einen eigenen Eintrag dafür.
 - Die Indikationen und der Missbrauch der GLP-1-Abnehmpräparate (Semaglutid und dergleichen) wurden nicht geschrieben. Der Bereich ändert sich schnell, die inländischen Indikationen und die Kassenzählung werden gerade angepasst, und Nr. 6 dieses Abschnitts deckt mit „auf Rezept + ärztliches Urteil" die Verhaltensempfehlung bereits ab; eine gesonderte Aufnahme erforderte die zusätzliche Prüfung der aktuellen Packungsbeilage und der Indikationszulassung und bleibt für später.
 - Es wurde kein amtlicher Musterfall für illegale Schönheitsmedizin beigefügt. CLAUDE.md verlangt Musterfälle nur für Abschnitt 9, für diesen Abschnitt sind sie nicht erforderlich; zudem liefert die Website des Ministeriums für öffentliche Sicherheit auf diesem Rechner durchgängig 521, eine Meldung aus erster Hand ist nicht zu bekommen.
+
+## Überarbeitung zur deutschen Fassung (2026-10-01, Bearbeiter, Kapitel-Issue)
+
+Diese Runde arbeitet die Kapiteldatei auf die deutsche Ausgabe um (REQ-65 ff., REQ-68, REQ-26). Die Abschnitte darüber dokumentieren die chinesische Herkunft der Belege (Stand 2026-09-08) und bleiben unverändert; hier stehen die deutschen Quellen, die die chinesischen Vorschriften an den betroffenen Stellen ersetzt haben.
+
+Ausgangslage: Urteil **gelb** (ein ②-Eintrag, Nr. 2, kein ③-Eintrag). China-Bezug trugen Nr. 2, 4, 5, 6, 7 (Vorschriften, Beträge, Behörden, Gift/Zulassung) sowie Nr. 8 (Betrag). Nr. 1 und Nr. 3 (Stufe D) waren frei von China-Bezug und blieben unverändert.
+
+### Geänderte Einträge und Ersetzungen
+
+| Nr. | Was ersetzt wurde | Beleg in Kurzform |
+|---|---|---|
+| 2 (②) | Chinesische Zulassungs- und Betriebsgenehmigungspflicht für Schönheitsmedizin (医疗美容服务管理办法, Art. 2, 8, 11, 16, 20, 24) und Strafgesetzbuch Art. 336 → deutscher Heilkunde- und Arztvorbehalt, Approbation, Aufklärung, Einwilligung | HeilprG §§ 1, 5; BÄO § 2; BGB §§ 630d, 630e |
+| 4 | Chinesische Marktaufsichts-Verfügung (Sibutramin/Phenolphthalein im Lebensmittel, Dok. 国食药监办〔2010〕432 号) → Ruhen der Zulassung und Verschreibungspflicht | BfArM-Rote-Hand-Brief 2010 (Sibutramin); AMVV Anlage 1 |
+| 5 | Chinesische Verordnung gegen Doping [反兴奋剂条例] (Art. 7, 9) → Verbot des Umgangs mit Dopingmitteln und Verschreibungspflicht | AntiDopG §§ 2, 4; AMVV Anlage 1 (Testosteron, Stanozolol, Metandienon und ihre Ester) |
+| 6 | Chinesische Arzneimittel- und Internetverkaufsvorschriften (药品经营和使用质量监督管理办法, 药品网络销售监督管理办法 Art. 8–10) → Apotheken- und Verschreibungspflicht; „im Krankenhaus" im Titel entfernt | AMG §§ 43, 48; AMVV § 1 |
+| 7 | Chinesische Internetverkaufsregel (Art. 9) → Apotheken- und Verschreibungspflicht | AMG § 43 Abs. 3; AMVV § 1 |
+| 8 | Chinesischer Anmeldebetrag (ein paar Dutzend 元) → psychotherapeutische Sprechstunde als Kassenleistung | § 92 Abs. 6a SGB V |
+| 1, 3 | nichts (kein China-Bezug) | — |
+
+Zusätzlich entfernt wurden die chinesischen Gesetzes- und Behördenbezeichnungen in eckigen Klammern (Nr. 2, 5, 6), die Restklammer 国食药监办〔2010〕432 号 samt 412-Fehlernotiz (Nr. 4) und der Ausdruck „im Land" (Nr. 7). Zwei Marker [Angepasst] nennen keine neue Quelle, weil sie nur eine Entfernung dokumentieren (Nr. 4: Lebensmittel-Zusatzverbot; Nr. 6/7/8: die Labelherabsetzung); für die Belege stehen dort BfArM bzw. AMVV.
+
+### Neue Quellen (jede am 2026-10-01 am offenen Volltext geöffnet, HTTP 200)
+
+| URL | Zitat aus dem Originaltext |
+|---|---|
+| <https://www.gesetze-im-internet.de/heilprg/__1.html> | § 1 Abs. 1 „Wer die Heilkunde, ohne als Arzt bestallt zu sein, ausüben will, bedarf dazu der Erlaubnis."; Abs. 2 „Ausübung der Heilkunde im Sinne dieses Gesetzes ist jede berufs- oder gewerbsmäßig vorgenommene Tätigkeit zur Feststellung, Heilung oder Linderung von Krankheiten, Leiden oder Körperschäden bei Menschen." |
+| <https://www.gesetze-im-internet.de/heilprg/__5.html> | § 5 „Wer, ohne zur Ausübung des ärztlichen Berufs berechtigt zu sein und ohne eine Erlaubnis nach § 1 zu besitzen, die Heilkunde ausübt, wird mit Freiheitsstrafe bis zu einem Jahr oder mit Geldstrafe bestraft." |
+| <https://www.gesetze-im-internet.de/b_o/__2.html> | § 2 Abs. 1 „Wer im Geltungsbereich dieses Gesetzes den ärztlichen Beruf ausüben will, bedarf der Approbation als Arzt." |
+| <https://www.gesetze-im-internet.de/bgb/__630d.html> | § 630d Abs. 1 „Vor Durchführung einer medizinischen Maßnahme, insbesondere eines Eingriffs in den Körper oder die Gesundheit, ist der Behandelnde verpflichtet, die Einwilligung des Patienten einzuholen. Ist der Patient einwilligungsunfähig, ist die Einwilligung eines hierzu Berechtigten einzuholen …" |
+| <https://www.gesetze-im-internet.de/bgb/__630e.html> | § 630e Abs. 1 „Der Behandelnde ist verpflichtet, den Patienten über sämtliche für die Einwilligung wesentlichen Umstände aufzuklären. Dazu gehören insbesondere Art, Umfang, Durchführung, zu erwartende Folgen und Risiken der Maßnahme sowie ihre Notwendigkeit, Dringlichkeit, Eignung und Erfolgsaussichten …" |
+| <https://www.bfarm.de/SharedDocs/Risikoinformationen/Pharmakovigilanz/DE/RHB/2010/rhb-sibutramin.html> | „Das BfArM informiert darüber, dass der Ausschuss für Humanarzneimittel (CHMP) der Europäischen Arzneimittelagentur (EMA) ein Ruhen der Zulassung für Sibutramin-haltige Arzneimittel für erforderlich hält."; „… zu dem Schluss, dass das Nutzen/Schaden-Verhältnis für Sibutramin insgesamt negativ ist. Er empfiehlt deshalb das Ruhen der Zulassung für alle Sibutramin-haltigen Arzneimittel." |
+| <https://www.gesetze-im-internet.de/amvv/anlage_1.html> | Anlage 1 enthält „Sibutramin", „Testosteron und seine Ester", „Stanozolol und seine Ester", „Metandienon und seine Ester". Phenolphthalein, Nandrolon und Oxandrolon sind dort **nicht** gelistet. |
+| <https://www.gesetze-im-internet.de/antidopg/__2.html> | § 2 („Unerlaubter Umgang mit Dopingmitteln, unerlaubte Anwendung von Dopingmethoden") Abs. 1 „Es ist verboten, ein Dopingmittel … herzustellen, … zu veräußern, an einen anderen abzugeben, zu verschreiben oder … in den Verkehr zu bringen …" |
+| <https://www.gesetze-im-internet.de/amg_1976/__43.html> | § 43 („Apothekenpflicht") Abs. 1 „… dürfen außer in den Fällen des § 47 berufs- oder gewerbsmäßig für den Endverbrauch nur in Apotheken und ohne behördliche Erlaubnis nicht im Wege des Versandes in den Verkehr gebracht werden …"; Abs. 3 „Auf Verschreibung dürfen Arzneimittel nur von Apotheken abgegeben werden." |
+| <https://www.gesetze-im-internet.de/amg_1976/__48.html> | § 48 („Verschreibungspflicht") Abs. 1 „Die folgenden Arzneimittel dürfen nur bei Vorliegen einer ärztlichen oder zahnärztlichen Verschreibung … an Verbraucher abgegeben werden …" |
+| <https://www.gesetze-im-internet.de/amvv/__1.html> | § 1 „Arzneimittel, 1. die in der Anlage 1 zu dieser Verordnung bestimmte Stoffe … sind …, dürfen nur bei Vorliegen einer ärztlichen, zahnärztlichen oder tierärztlichen Verschreibung … abgegeben werden." |
+| <https://www.gesetze-im-internet.de/sgb_5/__92.html> | § 92 Abs. 6a „Der Gemeinsame Bundesausschuss beschließt in den Richtlinien nach Satz 1 Regelungen zur Flexibilisierung des Therapieangebotes, insbesondere zur Einrichtung von psychotherapeutischen Sprechstunden, zur Förderung der frühzeitigen diagnostischen Abklärung und der Akutversorgung …" |
+
+### Kostenkennzeichnung (REQ-26)
+
+Nr. 6, 7 und 8 trugen aus der Vorlage chinesische Selbstzahler-Beträge (元). Auf der deutschen Seite sind die ärztliche Konsultation, die Blutkontrollen und die psychotherapeutische Sprechstunde Kassenleistungen; das Geld-Label wurde daher von `Geld=wenig` auf `Geld=0` gesetzt und die Änderung im jeweiligen [Angepasst]-Marker benannt. Der Betrag im Text wurde durch „für gesetzlich Versicherte kostenlos" ersetzt (Nr. 6 und 7) bzw. gestrichen (Nr. 8, dort Beleg § 92 Abs. 6a SGB V). Nr. 4 und 5 trugen bereits `Geld=0` und blieben. `Zeit`, `Willenskraft`, `Nutzen` und `Bezug` sind in allen Einträgen unangetastet.
+
+### Titel und Anker
+
+Nr. 2 wurde nachgeführt („… ob die Einrichtung eine Arztpraxis oder Klinik ist und ob die eingreifende Person Ärztin oder Arzt ist"). Das Ankerwort „Einrichtung" für den In-China-Verweis aus Nr. 3 („Prüf das vorher nach Nr. 2 … (Zulassung der Einrichtung und behandelnder Arzt)") bleibt damit erhalten; der Verweis selbst wurde nicht geändert (Nr. 3 ist Stufe D). Nr. 6 wurde nachgeführt und behält das Ankerwort „Rezept" für den Verweis aus Abschnitt 34. Nr. 1 und Nr. 4 behalten ihre Ankerwörter („Hungern" bzw. „Abnehmpräparate/Abnehmen").
+
+### Was offen blieb
+
+- **Phenolphthalein (Nr. 4, Anmerkung):** Der Satz „ursprünglich ein Abführmittel; dauerhaft zu viel stört die Elektrolyte und löst Herzrhythmusstörungen aus" stand in der Vorlage auf der chinesischen Aufsichtsseite. Phenolphthalein steht in Deutschland nicht in Anlage 1 der AMVV; eine offene amtliche deutsche Fundstelle für diese Nebenwirkungsaussage wurde in dieser Runde nicht gefunden. Der Satz blieb im Text; im Bericht als nicht belegbar geführt.
+- **Bezugsgröße Freiheit (Nr. 2):** Die Abschnittseinleitung nennt für die beiden Schönheitsmedizin-Einträge zusätzlich „persönliche Freiheit". Kein Kostenlabel trägt `Bezug=Freiheit` (alle `Bezug=Sterblichkeit`). Inhaltlich deckt Nr. 2 die strafrechtliche Seite ab (HeilprG § 5); da `Bezug` nach Auftrag unangetastet bleibt, ist das nicht im Label abgebildet. Zur Entscheidung für den Orchestrator.
+- **Anmerkungslängen:** Sieben von acht Anmerkungen liegen über 700 Zeichen (Nr. 1, 2, 4, 5, 6, 7, 8). Eine Kürzung wurde nicht vorgenommen — sie verlangte Umschichtung nach `docs/` bei unveränderter Evidenzlage (REQ-20 „Sinn steht über Länge"). Buchweite Regel.
+- **`docs/verweis-abgleich.md`:** Die Zeile zum Verweis auf Abschnitt 28, Nr. 2 zeigt noch den alten Zieltitel. Sie wird bei `node tools/sync-stats.mjs` (Wellenende, zentral) nachgezogen; `sync-stats` und `check-refs` wurden in dieser Runde auftragsgemäß nicht ausgeführt.
