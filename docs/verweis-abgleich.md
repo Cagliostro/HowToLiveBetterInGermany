@@ -631,7 +631,7 @@ Insgesamt 610 Verweise.
 | Fundstelle | Verweis | Ziel-Eintrag | Umfeld des Verweises |
 | --- | --- | --- | --- |
 | Nr. 3 | Abschnitt 20, Nr. 2 | Lass innerhalb von 24 Stunden nach der Geburt die erste Hepatitis-B-Impfung geben | …rt gleichzeitig die Hepatitis-B-Impfung und das Hepatitis-B-Immunglobulin bekommen (siehe … |
-| Nr. 11 | Abschnitt 18, Nr. 2 | Mutterschaftsurlaub 98 Tage, das Mutterschaftsgeld zahlt der Fonds der Mutterschutzversicherung nach dem durchschnittlichen Monatslohn der Beschäftigten des Betriebs im Vorjahr | … Zahl der Tage des Mutterschaftsurlaubs und das Mutterschaftsgeld berechnet werden, siehe … |
+| Nr. 11 | Abschnitt 18, Nr. 2 | Mutterschutz: sechs Wochen vor und acht Wochen nach der Geburt, das Mutterschaftsgeld zahlt die Krankenkasse | … Zahl der Tage des Mutterschaftsurlaubs und das Mutterschaftsgeld berechnet werden, siehe … |
 | Nr. 16 | Abschnitt 27, Nr. 7 | Lern diese Liste „sofort ins Krankenhaus" auswendig, sie gilt in der Schwangerschaft und im ganzen Jahr nach der Geburt | … In der Liste „sofort ins Krankenhaus" aus … |
 | Nr. 16 | Abschnitt 9, Nr. 20 | Kannst du ein geborenes Kind nicht großziehen, gibt es nur einen legalen Weg: die Registrierung beim Amt für Zivilangelegenheiten. Für Geld weggeben kann als Menschenhandel bestraft werden, Liegenlassen als Aussetzung | … Ist das Kind geboren und kannst du es wirklich nicht großziehen, steht der legale Weg in … |
 

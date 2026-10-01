@@ -1,3 +1,54 @@
+## Überarbeitung 2026-10, Zielrichtung Deutschland
+
+Bearbeitung nach `regelwerk-digest.md`. Inhaltlich überarbeitet wurden **6 der 10 Einträge** (Nr. 1, 2, 6, 7, 9, 10); bei Nr. 8 wurde nur die Quellenzeile ergänzt. Marker im Haupttext: `Währung` **1** (Nr. 7), `Angepasst` **5** (Nr. 1, 2, 6, 9, 10), `Länge: begründet` **0**. Die ausländischen Zahlen in Nr. 3, 4, 5 und 8 wurden gegen offene Quellen geprüft und blieben unverändert. Tore: `grep -c 元` = 0; `check-plain.mjs --stat` = 0 Beanstandungen; `check-refs.mjs --check` = bestanden.
+
+### ① Sichtungspass
+
+| Nr. | Klasse | Begründung (eine Zeile) |
+|---|---|---|
+| 1 | ② | Kern (Hochschule vor der Zahlung prüfen) trägt auch in Deutschland; Träger China (Liste des Zentrums für Auslandsstudium) offen ersetzbar über anabin/ZAB. |
+| 2 | ① | Reine US-Angabe (F-1-Frist); keine chinesische Zuständigkeit im Kern. Nur eine chinesische Klammer im laufenden Text entfernt. |
+| 3 | ① | Arbeitsstunden-Grenzen USA/Kanada/Großbritannien/Australien; reine Auslandsangabe. |
+| 4 | ① | Vollzeitstudium als Grundlage der Arbeitserlaubnis; reine Auslandsangabe. |
+| 5 | ① | US-Adressmeldung binnen 10 Tagen; reine Auslandsangabe. |
+| 6 | ② | Kern (amtliche Warnung vor der Abreise prüfen) trägt auch in Deutschland; Träger China (Warnungen des Bildungsministeriums) → Auswärtiges Amt. |
+| 7 | ② | Australische OSHC-Pflicht inhaltlich Auslandsangabe; chinesisch war nur die Währungsangabe (`元`). |
+| 8 | ① | UK-Visumgebühr und Gesundheitszuschlag; reine Auslandsangabe. |
+| 9 | ② | Kern (Anerkennung früh einplanen) trägt auch in Deutschland; Träger China (Zentrum für Auslandsstudium, 10–20 Arbeitstage) → ZAB Zeugnisbewertung. |
+| 10 | ② | Kern (Hochschule vor der Anmeldung prüfen) trägt auch in Deutschland; Träger China (verstärkte Prüfung, Antragssperren) → anabin-Status. |
+
+Kapitelurteil: **grün** (unverändert, wie in `sichtung-restkapitel.md`). Kein ③.
+
+### ② Je geändertem Eintrag: was ersetzt wurde und welche Quelle abgerufen wurde
+
+**Nr. 1** — Ersetzt: chinesisches Zentrum für Auslandsstudium und seine Liste anerkannter Hochschulen samt der zweiten Quelle (Informationsnetz des Bildungsministeriums zur Aufsicht über auslandsbezogene Bildung) → anabin-Datenbank mit den Status H+/H-/H+/- und Zeugnisbewertung der Zentralstelle für ausländisches Bildungswesen (ZAB) beim Sekretariat der KMK. Titel, Kosten-, Klartext-, Nutzen-, Quellen- und Anmerkungszeile angepasst.
+Abgerufen: <https://anabin.kmk.org/> (Startseite, Rechercheanleitung); <https://zab.kmk.org/de/zeugnisbewertung>. Nach der Titeländerung lief `check-refs.mjs --check` und ging durch.
+Gesperrt → offen: `WebFetch` auf `https://www.kmk.org/zab/…` gab 404; aufgelöst über `curl` auf `zab.kmk.org` und `anabin.kmk.org` (der Abruf von `anabin.kmk.org/anabin.html` lief in eine 301-Weiterleitung auf `http://anabin.kmk.org/`).
+
+**Nr. 2** — Ersetzt: nur die chinesische Bezeichnung des US-Verwaltungsverfahrensgesetzes im laufenden Text (`[行政程序法]` in der Nutzen-Zeile) entfernt; die deutsche Bezeichnung stand bereits daneben. Kein Betrag und keine Zuständigkeit geändert. Die F-1-Regel selbst und ihr Aussetzungsstand (Richter Saylor, D. Mass., nach 5 U.S.C. § 705; nächster Termin 2. Oktober 2026) wurden gegen die im Eintrag genannten Quellen geprüft und blieben unverändert. Quellenzeile unverändert.
+Gesperrt → offen: `ecfr.gov` und `federalregister.gov` leiteten auf `unblock.federalregister.gov` um (Bot-Sperre), `curl` auf eCFR gab 503; die Vorschriftentexte (8 CFR 214.2, 265.1) wurden über `govinfo.gov`-XML gelesen, die Gerichtsakte über `courtlistener.com`.
+
+**Nr. 6** — Ersetzt: Warnungen des chinesischen Bildungsministeriums zum Auslandsstudium (vier Warnnummern 2025) → Reise- und Sicherheitshinweise des Auswärtigen Amts einschließlich der Stufe Reisewarnung. Titel, Klartext-, Nutzen-, Quellen- und Anmerkungszeile angepasst; Kostenzeile unverändert.
+Abgerufen: <https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/reise-und-sicherheitshinweise>.
+
+**Nr. 7** — Ersetzt: nur die Währungsangabe. Kostenzeile von „einige Tausend bis über 10.000 元" auf „einige Hundert bis über tausend Euro"; Marker `Währung` (ohne Betragsangabe). Nutzen-, Klartext-, Quellen- und Anmerkungszeile unverändert; Quellenzeile weiter <https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500>.
+Gesperrt → offen: `WebFetch` auf `immi.homeaffairs.gov.au` gab 403 (Bot-Sperre); gelesen über `curl` mit Browser-Kennung. **Unsicherheit:** Für die OSHC gibt es keinen amtlich festgesetzten Preis (marktbestimmt), deshalb nennt die Kostenzeile nur eine Größenordnung ohne genauen Betrag.
+
+**Nr. 8** — Kein Inhalt geändert. Die Beträge (Visumgebühr 558 Pfund; Gesundheitszuschlag 776 Pfund pro Jahr, 1.035 Pfund für andere Kategorien; mehr als 6 Monate und weniger als 1 Jahr = volles Jahr) wurden gegen `gov.uk` geprüft und bestätigt. Die Quellenzeile wurde **um die Unterseite mit den Beträgen ergänzt**, weil die bisher verlinkte Übersichtsseite die Zahlen selbst nicht nennt.
+Abgerufen: <https://www.gov.uk/healthcare-immigration-application/how-much-pay> (ergänzt); die Übersichtsseite <https://www.gov.uk/healthcare-immigration-application> nennt keine Beträge.
+
+**Nr. 9** — Ersetzt: Anerkennung von Abschlüssen und Graden über die Online-Servicehalle des chinesischen Zentrums für Auslandsstudium (10 bis 20 Arbeitstage) → Zeugnisbewertung der Zentralstelle für ausländisches Bildungswesen (ZAB) beim Sekretariat der KMK (Gebühr 208 Euro, in der Regel drei Monate). Titel, Kosten-, Klartext-, Nutzen-, Quellen- und Anmerkungszeile angepasst; das Kostenlabel `Geld=wenig` bleibt (einmalig, in der Größenordnung bis rund 200 Euro; Muster Kapitel 01 Nr. 26).
+Abgerufen: <https://zab.kmk.org/de/zeugnisbewertung>; <https://zab.kmk.org/de/zeugnisbewertung/gebuehren> (208 Euro, Bearbeitung in der Regel drei Monate, Online-Antrag über das Nutzerkonto BundID).
+Gesperrt → offen: `WebFetch` auf `https://zab.kmk.org/de/app/zeugnisbewertung` gab 400; aufgelöst über `curl` auf `https://zab.kmk.org/de/zeugnisbewertung/{gebuehren,antrag,faq}`.
+**Fachliche Korrektur (2026-10-01):** Der Entwurf schloss die Nutzen-Zeile mit „Sie ist vor allem für geregelte Berufe und für die Einstufung nötig". Das widerspricht der ZAB-Seite: Die Zeugnisbewertung „berechtigt nicht … zum Arbeiten in einem reglementierten Beruf"; für einen reglementierten Beruf (Ärztin, Lehrer) ist zusätzlich die berufliche Anerkennung nötig. Der Satz wurde ersetzt durch: „Sie hilft Arbeitgebern und Behörden, deinen Abschluss einzuordnen. Für einen reglementierten Beruf wie Ärztin oder Lehrer reicht sie nicht, dort kommt die berufliche Anerkennung dazu." Gebühr (208 Euro) und Regeldauer (drei Monate) wurden gegen dieselben Seiten bestätigt und blieben unverändert. Beleg: <https://zab.kmk.org/de/zeugnisbewertung>.
+
+**Nr. 10** — Ersetzt: verstärkte Prüfung und Antragssperren des chinesischen Zentrums für Auslandsstudium (Bekanntmachung Nummer neun, 2025-10-28) → anabin-Status (H+, H-, H+/-) der Zentralstelle für ausländisches Bildungswesen (ZAB) beim Sekretariat der KMK. Titel, Kosten-, Klartext-, Nutzen-, Quellen- und Anmerkungszeile angepasst.
+Abgerufen: <https://anabin.kmk.org/rechercheanleitung-hochschule> (Statuswerte H+/H-/H+/-).
+
+**Unverändert:** Nr. 3, 4, 5 (und Nr. 8 inhaltlich). Alle drei sind reine Auslandsangaben; die Zahlen wurden gegen die offenen Quellen der jeweiligen Quellenzeile geprüft und sind unverändert gültig.
+
+---
+
 # Abschnitt 32 Studium im Ausland: Status, Arbeit, Versicherung und Anerkennung nach der Rückkehr · Prüfprotokoll (2026-09-18)
 
 Aufgabenherkunft: Repository-Issue #8, ein Leser fragt „gibt es Empfehlungen für Studierende in den üblichen Studienländern, zum Beispiel USA, Kanada, Großbritannien, Australien, welche Rechte hat man als Studierender und wie wahrt man sie".
