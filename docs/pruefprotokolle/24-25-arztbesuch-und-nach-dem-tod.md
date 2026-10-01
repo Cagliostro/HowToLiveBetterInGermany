@@ -45,3 +45,43 @@ Quelle ist das Allgemeine Büro des Staatsrats, „Mehrere Maßnahmen zur Beschl
 Von den sechs Einträgen in Abschnitt 24 haben vier die Bezugsgröße Geld und zwei die Bezugsgröße Zeit. Die Nutzenhöhe wird nach der Geld-Schwelle festgelegt: Selbstbehaltsschwelle und Unterschied der Erstattungsquote liegen beide in der Stufe von einigen Hundert bis einigen Tausend 元, festgelegt als „mittel"; kein Eintrag liegt in der Größenordnung von zehntausend 元, deshalb gibt es in diesem Abschnitt kein „groß". Die ersten drei Einträge in Abschnitt 25 vermeiden vorschriftswidrige Gebühren von einigen Hundert bis einigen Tausend 元, festgelegt als „mittel"; Nr. 4 betrifft das Guthaben des Wohnungsfonds und Sozialversicherungsleistungen und kann die Größenordnung von zehntausend 元 erreichen, festgelegt als „groß"; Nr. 5 hat die Bezugsgröße Freiheit (einschließlich personenbezogener Daten) und gehört wie die beiden Einträge in Abschnitt 14 zu dem Fall, auf den die Schwellen nicht passen, und wird nach Ermessen als „mittel" festgelegt.
 
 Die Kosten beider Abschnitte sind fast durchweg null, aber bei mehreren Einträgen wurde „Willenskraft = etwas" vermerkt: Schwierig ist nicht, die Regeln zu kennen, sondern im entscheidenden Moment bereit zu sein, zuerst zur Gemeindeeinrichtung zu gehen, und bei der Abwicklung einer Bestattung auf einer Preisliste auf seinem Recht zu bestehen.
+
+---
+
+## 5. Überarbeitung Runde 10 (rote Welle, Deutschland-Fassung, 2026-10-01) — nur Abschnitt 24
+
+Auftrag: `review/ueberarbeitung/auftrag-rote-welle.md`; Entscheidungen des Auftraggebers vom 2026-10-01. Abschnitt 24 hatte 12 Einträge, danach 10. Die chinesischen Normen sind aus der Quellen-Spalte entfernt und durch deutsche Normen ersetzt (REQ-65); die Datei enthält kein `元` und kein CJK-Zeichen mehr.
+
+### 5.1 Streichungen
+
+| alt Nr. | Kern | Grund | Nummerierung |
+| --- | --- | --- | --- |
+| 2 | Erstattungssatz je Krankenhausstufe, Abstand rund 10 Prozentpunkte | Die gesetzliche Krankenversicherung rechnet nicht nach Krankenhausstufe ab; kein Gegenstück | entfällt; alt 3 → neu 2, alle weiteren rücken um eins |
+| 4 | Genehmigung vor provinzübergreifender Behandlung, „Pooling-Region" | Die gesetzliche Krankenversicherung gilt bundesweit; keine Registrierung nötig | entfällt |
+
+Rutsch der Nummern: alt 3 → 2, alt 5 → 3, alt 6 → 4, alt 7 → 5, alt 8 → 6, alt 9 → 7, alt 10 → 8, alt 11 → 9, alt 12 → 10.
+
+REQ-20 geprüft: Der Eintrag zu Nr. 4 trug die Aussage „vorher nachfragen, ob die Behandlung am anderen Ort erstattet wird". Diese Aussage steht in der Deutschland-Fassung bereits in Abschnitt 7, Nr. 10 („Eine Registrierung für eine Behandlung außerhalb des Wohnorts brauchst du nicht"). Es ging damit nichts verloren; am Ort des Kapitels war nichts zu übernehmen. Der Eintrag zu Nr. 2 trug keine Aussage, die sich ohne das chinesische Stufensystem halten lässt.
+
+### 5.2 Umbau Nr. 1
+
+Aus der chinesischen Selbstbehaltschwelle (起付线) wurden Zuzahlung und Belastungsgrenze sowie das Hausarztprogramm. Fundstellen: § 61 SGB V (Zuzahlung: Arzneimittel 5 bis 10 Euro, Krankenhaus 10 Euro je Kalendertag), § 62 SGB V (Belastungsgrenze: 2 Prozent, für chronisch Kranke 1 Prozent), § 73b SGB V (hausarztzentrierte Versorgung, freiwillig). Die deutsche Fassung sagt ausdrücklich, dass es einen Selbstbehalt nicht gibt. Der `Geld`-Wert bleibt 0, weil der Arztbesuch nichts kostet.
+
+### 5.3 ②-Einträge und übrige Einträge — deutsche Fundstelle statt chinesischer Norm
+
+| neu Nr. | alt Nr. | ersetzt | deutsche Fundstelle |
+| --- | --- | --- | --- |
+| 2 | 3 | Überweisungszentrum der Klinik und reserviertes Terminkontingent (bis 2027) | § 75 Abs. 1a SGB V (Terminservicestelle 116117), § 73b SGB V |
+| 3 | 5 | Abbau der Klinikambulanz, Ausdehnung des Expertenteams/Expertengruppe auf die Basisversorgung | § 137f SGB V (strukturierte Behandlungsprogramme bei chronischen Krankheiten) |
+| 4 | 6 | Einsichts- und Kopierrecht nach Verordnung Nr. 701 (Art. 15, 16) | § 630g BGB (Einsicht und Abschrift, erste Abschrift unentgeltlich), § 630f BGB (Dokumentation, Aufbewahrung zehn Jahre) |
+| 5 | 7 | Versiegelung der Krankenakte nach Verordnung Nr. 701 (Art. 15, 24, 25) | § 630f und § 630h BGB (Dokumentationspflicht, Beweislast bei Dokumentationsmangel und grobem Behandlungsfehler), § 485 ZPO (selbständiges Beweisverfahren), § 66 SGB V (Gutachten des Medizinischen Dienstes über die Krankenkasse) |
+| 6 | 8 | Vierstufige Ersteinschätzung (Gesundheitskommission 2024, Beijing 2019) | § 120 Abs. 3b SGB V (qualifizierte und standardisierte Ersteinschätzung in der Notfallversorgung), G-BA-Ersteinschätzungs-Richtlinie |
+| 7 | 9 | Nothilfe-Fonds bei Krankheit (Staatsrat 2013), Notruf 120 | § 109 Abs. 4 SGB V (Behandlungspflicht des zugelassenen Krankenhauses), § 25 SGB XII (Erstattung des Nothelfers im Eilfall), § 6a AsylbLG (Parallelregelung für Asylbewerber); Notruf 112 |
+| 8 | 10 | Klassifizierung des Verletzungsgrads in 10 Stufen, Gutachtergebühr | § 152 SGB IX (Grad der Behinderung nach Zehnergraden, ab 20), § 2 SGB IX (Beeinträchtigung länger als sechs Monate), VersMedV (Versorgungsmedizinische Grundsätze); Kostenlabel Geld=wenig → Geld=0 |
+| 9 | 11 | Schwerbehindertenausweis beim Behindertenverband, sieben Arten mit Stufen 1 bis 4 | § 152 SGB IX (Ausweis über die Eigenschaft als schwerbehinderter Mensch), § 2 SGB IX (schwerbehindert ab Grad 50); Kostenlabel Geld=wenig → Geld=0 |
+| 10 | 12 | Neun Richtlinien (2021), Zufriedenheitsplattform und Leistungsbewertung | § 299a StGB (Bestechlichkeit im Gesundheitswesen), ärztliche Berufsordnung |
+
+Nicht belegbar und daher im Text nicht behauptet: eine deutsche Norm, die das „Versiegeln" der Krankenakte vorschreibt (die Akte wird über Abschrift und Beweislastregeln gesichert); eine amtliche Zahl der Dringlichkeitsstufen in der Notaufnahme (die G-BA-Ersteinschätzungs-Richtlinie wurde in ihrer Erstfassung 2023 von der Aufsicht beanstandet, der Text nennt daher kein Stufenzahl).
+
+### 5.4 Anker der Querverweise
+Die Titel, auf die andere Kapitel verweisen, tragen ihr Ankerwort weiter: Nr. 1 „Überweisung", Nr. 4 „Krankenakte, Untersuchungsberichte und Bilddaten", Nr. 6 „Ersteinschätzung"/„Notaufnahme", Nr. 8 „Behinderungsgrad", Nr. 9 „Schwerbehindertenausweis". Nur Abschnitt 24 angefasst; Prüfprotokoll-Abschnitte 1–4 bleiben als Stand 2026-09-07 erhalten.
