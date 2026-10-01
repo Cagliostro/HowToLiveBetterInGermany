@@ -3,7 +3,19 @@
 - **datum:** 2026-09-29
 - **basis:** `architektur.md`, `umsetzungsbericht.md`, `qa-code-bericht.md`, `qa-ui-bericht.md`
 - **Ziel-Repo:** `Cagliostro/HowToLiveBetterInGermany`, Branch `main`, Remote `origin`
-- **Arbeitsstand:** `HEAD = b875bfe`, darauf **142 offene Änderungen** (2 neu, 2 gelöscht, 41 geändert, 97 umbenannt+geändert)
+- **Arbeitsstand:** Commit `b6efd09` auf dem Branch `uebersetzung-de`, PR #1 gegen `main` offen.
+  `main` steht unverändert auf `b875bfe` — es ist noch **nichts veröffentlicht**.
+
+> **Nachtrag 2026-10-01.** Der Abschnitt oben beschreibt den Stand vom 2026-09-29 und ist als
+> Zeitdokument stehen geblieben. Seither sind die PRs **#45 bis #52** nach `main` gemergt (Kapitel
+> 01–06, die drei Wellen der Überarbeitungsrunde); `main` steht auf `3f94100`. **Die Website ist
+> trotzdem nicht online:** `https://cagliostro.github.io/HowToLiveBetterInGermany/` antwortet mit
+> **404 „Site not found"**, das Release **`epub-latest` existiert nicht**, und
+> `gh api repos/…/actions/runs` meldet weiter **`total_count: 0`** — der Workflow ist im Fork bis
+> heute **nie** gelaufen. Damit sind die Download-Links der README tot und EPUB/PDF/Offline gibt es
+> nicht. Der Befund unten („Die CI startet in diesem Fork nicht") ist also **unverändert aktuell**;
+> zusätzlich fehlt die einmalige Pages-Einstellung (manuelle Schritte 2 und 3). Beides sind
+> Oberflächen-Klicks des Rechteinhabers, kein Code-Problem.
 
 ---
 
@@ -108,6 +120,46 @@ Vor dem Commit prüfen, dass nichts Unerwünschtes mitkommt: `git status --short
 `dist/`, `.claude/`, `node_modules/` und sonstigen Erzeugungsresten sein (die `.gitignore` deckt
 sie ab, ein Blick kostet trotzdem nichts).
 
+### Befund vom 2026-09-29: Die CI startet in diesem Fork nicht
+
+Branch, Commit und PR sind ausgeführt (`b6efd09`, PR #1). **Der Workflow ist aber nicht angelaufen.**
+Belege, alle gegen `Cagliostro/HowToLiveBetterInGermany`:
+
+| Prüfung | Ergebnis |
+|---|---|
+| `gh api repos/…/actions/runs` → `total_count` | **0** — es hat dort noch nie ein Lauf stattgefunden |
+| `gh api repos/…/events` | `PullRequestEvent` und `PushEvent` sind da — die Ereignisse kommen an |
+| `gh workflow list` | „Elektronische Fassungen", `active` |
+| `gh api repos/…/actions/permissions` | `enabled: true`, `allowed_actions: all` |
+| Upstream `eternity4719/HowToLiveBetter` | **255 Läufe** — der Workflow selbst ist also in Ordnung |
+
+Die Trigger sind ebenfalls unversehrt: im Diff `e91118d → b875bfe` blieben `push` und `pull_request`
+samt `paths` unangetastet (nur `ads/**` entfiel, weil die Werbebanner entfernt wurden), und beide
+Ereignisse müssten greifen — `book/**`, `README.md`, `index.html` und `tools/**` sind sämtlich
+geändert. Dass der Push auf `uebersetzung-de` nichts auslöste, ist dagegen **richtig**: `push` gilt
+nur für `main`.
+
+**Wahrscheinlichste Ursache:** Der Workflow wurde vom Upstream geerbt — er liegt schon in `e91118d`,
+also vor dem deutschen Commit. GitHub führt in einem Fork keine geerbten Workflows aus, bevor sie
+einmal freigeschaltet wurden. Das ist ein Klick in der Oberfläche, kein Code-Problem:
+
+1. `https://github.com/Cagliostro/HowToLiveBetterInGermany/actions` öffnen.
+2. Erscheint der Hinweis „Workflows aren't being run on this forked repository", auf
+   **„I understand my workflows, go ahead and enable them"** klicken.
+3. Danach den PR erneut auslösen: entweder einen Commit auf `uebersetzung-de` schieben oder den PR
+   schließen und neu öffnen. Beides feuert `pull_request` und lässt den Veröffentlichungsschritt aus.
+
+> **Nicht** „Run workflow" benutzen. `workflow_dispatch` erfüllt
+> `if: github.event_name != 'pull_request'` **nicht** — der Veröffentlichungsschritt liefe mit,
+> verschiebt das Tag `epub-latest` und ersetzt die Anhänge im Release. Das ist bereits der
+> Produktiv-Deploy.
+
+Erst wenn dieser Lauf grün ist, ist ÜB-de-9 erledigt und der Prod-Schritt unten zu verantworten.
+
+Der Befund ist aus der API abgeleitet; die Oberflächeneinstellung selbst lässt sich von hier aus
+nicht einsehen. Läuft auch nach dem Freischalten nichts, ist die nächste Spur die
+Actions-Einstellung des Kontos.
+
 ---
 
 ## Deployment PROD — NUR NACH EXPLIZITER FREIGABE DURCH DEN USER
@@ -140,7 +192,7 @@ Zeit)" setzen, die drei Dateien mit `--clobber` ersetzen. **Nichts händisch hoc
 1. `gh run list --workflow book.yml --limit 1` → grün.
 2. `gh release view epub-latest` → drei Assets mit **aktuellem** Zeitstempel.
 3. `https://cagliostro.github.io/HowToLiveBetterInGermany/` neu laden (Seiten-Cache leeren,
-   `Cmd+Shift+R`): deutscher Titel, „630 Empfehlungen", die 34 Abschnitte.
+   `Cmd+Shift+R`): deutscher Titel, „606 Empfehlungen", die 34 Abschnitte.
 4. Einen der drei Download-Links aus der README anklicken und die Datei öffnen.
 5. Gegenprobe im Browser: Es darf **keine** Anfrage an `google-analytics.com` mehr gehen (ÜB-de-7).
 
@@ -210,5 +262,7 @@ sichern; die Artefakte der vergangenen Läufe liegen aber auf der Actions-Seite 
   Push auf `main`, nicht danach.
 - **Screenshots der QA** liegen in `qa/`; sie entstanden im Dunkelmodus, weil der Prüfrechner das
   vorgibt. Die Seite folgt damit korrekt `prefers-color-scheme`.
-- Kein Commit und kein Push sind bisher erfolgt. Der gesamte deutsche Stand liegt als Arbeitsbaum
-  über `HEAD = b875bfe`.
+- Commit und Push sind erfolgt: `b6efd09` auf dem Branch `uebersetzung-de`, PR #1 gegen `main`.
+  `main` steht weiter auf `b875bfe` — es ist **nichts veröffentlicht**.
+- **Die CI ist nicht angelaufen** (Abschnitt DEV oben). ÜB-de-9 ist damit noch offen und hängt an
+  einem Klick zum Freischalten der Fork-Workflows.

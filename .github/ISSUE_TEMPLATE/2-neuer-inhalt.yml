@@ -4,7 +4,7 @@ labels: ["Neuer Inhalt"]
 body:
   - type: markdown
     attributes:
-      value: Dieses Buch nimmt nur Empfehlungen auf, die „was kostet es, was bringt es" beantworten können; als Quellen werden nur Fachaufsätze und amtliche Dokumente angeführt. Übersetzungen bitte im eigenen Fork pflegen und nicht in dieses Repository aufnehmen, oben in der README kann ein Link stehen.
+      value: Dieses Buch nimmt nur Empfehlungen auf, die „was kostet es, was bringt es" beantworten können; als Quellen werden nur Fachaufsätze und amtliche Dokumente angeführt. Übersetzungen bitte im eigenen Fork pflegen und nicht in das Original-Repository aufnehmen, oben in der README kann ein Link stehen.
   - type: input
     id: topic
     attributes:

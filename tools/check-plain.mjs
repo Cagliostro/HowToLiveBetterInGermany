@@ -9,7 +9,7 @@
 //   node tools/check-plain.mjs --numbers  # zusätzlich Regel ③, für die Handprüfung
 //
 // Geprüft werden standardmäßig ①②④, Regel ③ nur mit --numbers. Sie meldet zu viel: Notrufnummern
-// (112, 116117) und Beispielbeträge in Rechts- und Geldabschnitten („1.000 元 geliehen") gelten
+// (112, 116117) und Beispielbeträge in Rechts- und Geldabschnitten („1.000 Euro geliehen") gelten
 // als neue Zahl, obwohl sie korrekt sind. Deshalb nicht in der CI.
 // Die vier Regeln:
 // ① Länge: höchstens 80 Wörter. Die chinesische Fassung misst in Zeichen (120); im Deutschen

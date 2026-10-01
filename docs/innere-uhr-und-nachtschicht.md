@@ -2,7 +2,7 @@
 
 # Wie der Körper die Zeit erkennt und warum die Nachtschicht schadet
 
-Dies ist die Langfassung von Abschnitt 2, Nr. 40 (Je länger du Nachtschicht arbeitest, desto höher das Herz-Kreislauf-Risiko). Der Eintrag im Haupttext macht nur die Rechnung; dieser Text erklärt den Hintergrund.
+Die Rechnung steht in Abschnitt 2, Nr. 40 (Je länger du Nachtschicht arbeitest, desto höher das Herz-Kreislauf-Risiko); hier steht der Hintergrund.
 
 Die Frage, die beantwortet werden soll: Kann der Körper wirklich wissen, wie spät es ist? Und wenn ja, warum ist die Nachtschicht nicht einfach „ein paar Nächte mehr durchhalten, dann gewöhnt man sich daran"?
 
@@ -138,7 +138,7 @@ Bekannt ist, dass die Fehlausrichtung schadet; das hat das Experiment in Kapitel
 
 Die beiden Gegenmaßnahmen oben enden, die eine bei Stoffwechsel- und Herz-Kreislauf-Werten, die andere beim Schlaf, und keine von ihnen reicht bis zur Erkrankung und zum Tod.
 
-## 9. Was dieser Text nicht behandelt
+## 9. Was an anderer Stelle steht
 
 Wie stark die Nachtschicht das Herz-Kreislauf-Risiko erhöht und wie sich das nach Jahren berechnet, steht in Abschnitt 2, Nr. 40 (Je länger du Nachtschicht arbeitest, desto höher das Herz-Kreislauf-Risiko).
 

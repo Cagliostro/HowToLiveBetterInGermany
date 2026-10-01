@@ -42,7 +42,7 @@ ${commitLine}- Neueste Fassung zum Herunterladen, Online-Suche, Rückmeldungen: 
 
 Links im Text, die auf andere Abschnitte im Buch zeigen, sind in Buchsprünge umgewandelt; Links auf Dateien wie die Prüfprotokolle oder die Lizenzen, die nicht mit ins Buch aufgenommen sind, wurden zu GitHub-Adressen.
 
-Der Text steht unter CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Weitergeben, bearbeiten und kommerziell nutzen ist erlaubt; die Herkunft „Lebe besser: 630 Empfehlungen nach Kosten und Nutzen" muss mit Link zum Repository genannt und Änderungen müssen gekennzeichnet werden.`;
+Der Text steht unter CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Weitergeben, bearbeiten und kommerziell nutzen ist erlaubt; die Herkunft „${TITLE}" muss mit Link zum Repository genannt und Änderungen müssen gekennzeichnet werden.`;
 }
 
 // ---------- Links: buchinterne zu Ankern, buchfremde zu absoluten Adressen ----------

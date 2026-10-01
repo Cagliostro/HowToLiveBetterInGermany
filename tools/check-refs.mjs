@@ -31,6 +31,15 @@
 // Beide Erweiterungen greifen nur bei genau dieser Fortsetzung; ein Eintragsverweis hinter einem
 // Paragrafenzitat («§ 823 BGB, siehe Nr. 5») wird weiter gefunden.
 //
+// Das Quellenfeld war für die Verweissuche ganz ausgenommen — richtig für die breite «Nr. X»-Suche
+// (dort stehen Normangaben wie «Verordnung Nr. 8», «§ 437 Nr. 1 BGB», «Mitteilung Nr. 005/2019»),
+// aber blind für echte Eintragsverweise, die dort vorkommen («Fama EF, French KR (2010). siehe
+// Nr. 17.» in Abschnitt 5). Seit 2026-10-01 wird dort nur die ausdrückliche Form «siehe|vgl.|
+// vergleiche Nr. N» gelesen; eine breite Suche über das ganze Feld brächte allein in Abschnitt 5
+// 9 harte und 9 schwache Fehlalarme (am 2026-10-01 gemessen). Diese Verweise stehen in der
+// Tabelle, sind aber von der Ankerpflicht befreit (siehe Anker-Schleife), weil eine Zitatzeile
+// selten ein Wort aus dem Zieltitel trägt.
+//
 // Zeilen werden einheitlich mit /\r?\n/ getrennt. Unter book/ sind die Zeilenenden gemischt
 // (CRLF und LF), und der Punkt in JS-Regexen matcht kein \r, obwohl \r als Zeilenende zählt.
 // Bliebe das \r stehen, fände /^### (\d+)\. (.*)$/ in einer CRLF-Datei keine einzige Überschrift.
@@ -226,10 +235,31 @@ for (const { f, dir, isDoc } of targets) {
     // Normstelle und wird nicht gescannt.
     if (isDoc) return;
 
+    // Das Quellenfeld bleibt für die breite Suche ausgenommen (dort stehen Normangaben wie
+    // «Verordnung Nr. 8», «§ 437 Nr. 1 BGB», «Mitteilung Nr. 005/2019», «AWMF-Register-Nr.
+    // 055-004»). Ein echter Eintragsverweis erscheint dort nur in der ausdrücklichen Form
+    // «siehe Nr. N» — und genau die wird hier zusätzlich gelesen. Eine breite Suche über das
+    // ganze Feld brächte schon in Abschnitt 5 Dutzende Normangaben als Fehlalarm (am 2026-10-01
+    // gemessen: 9 harte und 9 schwache Anker-Fehlalarme). Diese Verweise kommen in die
+    // Abgleichstabelle, damit ein Verrutschen im Diff sichtbar wird; auf einen Anker werden sie
+    // nicht geprüft (siehe Anker-Schleife unten), weil in der kurzen Zitatzeile meist kein Wort
+    // aus dem Zieltitel steht.
+    if (inEntry && /^- Quellen: /.test(line)) {
+      const qs = line.replace(new RegExp(`Abschnitt\\s*\\d+\\s*,?\\s*Nr\\.\\s*${SPEC}`, 'g'), '');
+      for (const m of qs.matchAll(new RegExp(`(?:siehe|vgl\\.?|vergleiche)\\s+Nr\\.\\s*(${SPEC})`, 'g'))) {
+        for (const [x, range] of nums(m[1])) {
+          const title = self.titles.get(x);
+          rows.push({ from: unit, range, quellen: true, ref: `Abschnitt ${num}, Nr. ${x}`, title, line: i + 1, ctx: ctxOf(qs, m.index), narrow: narrowOf(qs, m.index), after: afterOf(qs, m.index) });
+          if (!title) problems.push(`${f}:${i + 1} ${unit} verweist im Quellenfeld auf «Nr. ${x}» — der Abschnitt hat nur ${self.titles.size} Einträge`);
+        }
+      }
+    }
+
     // Innerhalb des Abschnitts: jede «Nr. X», unabhängig vom einleitenden Wort. Im Text steht
     // weit mehr als «siehe Nr. X» — auch «nach Nr. 1 vorgehen», «Methode wie Nr. 4» oder
     // «zwischen Nr. 4 und Nr. 7 wählen». Eine frühere Fassung kannte nur drei Einleitungen und
-    // übersah den Rest. Das Quellenfeld wird als ganze Zeile ausgelassen (nur Normangaben).
+    // übersah den Rest. Das Quellenfeld wird hier weiterhin als ganze Zeile ausgelassen; gelesen
+    // wird dort nur die ausdrückliche Form «siehe Nr. N» im Block darüber.
     if (inEntry && !FIELDS.test(line)) return;
     const stripped = line.replace(new RegExp(`Abschnitt\\s*\\d+\\s*,?\\s*Nr\\.\\s*${SPEC}`, 'g'), '');
     for (const m of stripped.matchAll(new RegExp(`Nr\\.\\s*(${SPEC})`, 'g'))) {
@@ -299,7 +329,11 @@ for (const { f, dir, isDoc } of targets) {
   // Messwerte stehen in der --suspect-Ausgabe, siehe dort).
   const WIDE = 8, NARROW = 6;
   for (const r of rows) {
-    if (!r.title || r.range) continue;
+    // Quellen-Verweise («siehe Nr. N» im Quellenfeld) sind von der Ankerprüfung befreit: die
+    // kurze Zitatzeile trägt meist keinen Titelwort-Anker, und die Anforderung würde den Text
+    // zur Klammerergänzung zwingen. Sie bleiben trotzdem in der Tabelle, ein Verrutschen fällt
+    // dort an der geänderten Ziel-Spalte auf.
+    if (!r.title || r.range || r.quellen) continue;
     const wide = r.ctx + r.after;
     const w = longest(wide, r.title);
     if (token(wide, r.title) || w >= WIDE) continue;
@@ -341,14 +375,18 @@ const body = [
   'ausschreiben. In der Spalte «Fundstelle» steht beim Eintrag «Nr. N», im Abschnittskopf',
   '«Abschnittskopf», im Langtext die letzte Zwischenüberschrift.',
   '',
+  'Das Quellenfeld wird nur auf die ausdrückliche Form «siehe Nr. N» geprüft; die breite «Nr. X»-',
+  'Suche lässt es aus, weil dort Normangaben stehen («Verordnung Nr. 8», «§ 437 Nr. 1 BGB»).',
+  'Solche Quellen-Verweise stehen in der Tabelle, sind aber von der Ankerpflicht befreit.',
+  '',
   'Die zweite Absicherung ist der **Anker**: im Umfeld jedes Verweises muss ein Wort stehen, das',
   'auch im Titel des Zieleintrags vorkommt («medizinische Hilfe siehe Nr. 11» — «medizinische',
   'Hilfe» ist der Anker), oder es wird ausdrücklich als «siehe Nr. 16 (Darlehen und Bürgschaft)»',
   'geschrieben. `node tools/check-refs.mjs --check` wertet einen Verweis ohne Anker als Fehler:',
-  'rutscht er, ist das im Tabellen-Diff nicht zu sehen, nur der Anker fängt ihn. Bereichsverweise',
-  '(«siehe Abschnitt 8, Nr. 11 bis 14») sind die Ausnahme: sie meinen einen ganzen Block von',
-  'Einträgen, für den sich nicht für jede Nummer ein Anker setzen lässt; hier trägt allein der',
-  'Diff.',
+  'rutscht er, ist das im Tabellen-Diff nicht zu sehen, nur der Anker fängt ihn. Ausgenommen sind',
+  'Bereichsverweise («siehe Abschnitt 8, Nr. 11 bis 14»), die einen ganzen Block von Einträgen',
+  'meinen, und Verweise im Quellenfeld: für beide lässt sich nicht für jede Nummer ein Anker',
+  'setzen; hier trägt allein der Diff.',
   '',
   'Ob ein Anker zählt, hängt von Länge und Abstand ab: die längste Buchstabenfolge, die sowohl im',
   'weiten Fenster als auch im Titel steht, muss mindestens 8 Zeichen lang sein, oder mindestens 6',

@@ -1,6 +1,6 @@
 ---
 name: lebensentscheidungen
-description: 'Beantwortet konkrete Lebensentscheidungen aus dem Text von „Lebe besser: 629 Empfehlungen nach Kosten und Nutzen" (github.com/Cagliostro/HowToLiveBetterInGermany) — soll ich das tun, lohnt es sich, was wähle ich, was tue ich bei einem Notfall zuerst, welche Leistung steht mir zu, mache ich mich damit strafbar. Erst die passenden Einträge heraussuchen, dann antworten, sortiert nach Kosten (Geld/Zeit/Willenskraft), Höhe des Nutzens und Evidenzstufe A/B/C; bei jedem Eintrag steht, aus welchem Abschnitt und welcher Nummer er stammt. Auslöser: soll ich, lohnt sich, oder lieber nicht, wie wähle ich, entscheide für mich, ist das strafbar, was steht mir zu, was zuerst, Kosten-Nutzen.'
+description: 'Beantwortet konkrete Lebensentscheidungen aus dem Text von „Lebe besser: 606 Empfehlungen nach Kosten und Nutzen" (github.com/Cagliostro/HowToLiveBetterInGermany) — soll ich das tun, lohnt es sich, was wähle ich, was tue ich bei einem Notfall zuerst, welche Leistung steht mir zu, mache ich mich damit strafbar. Erst die passenden Einträge heraussuchen, dann antworten, sortiert nach Kosten (Geld/Zeit/Willenskraft), Höhe des Nutzens und Evidenzstufe A/B/C; bei jedem Eintrag steht, aus welchem Abschnitt und welcher Nummer er stammt. Auslöser: soll ich, lohnt sich, oder lieber nicht, wie wähle ich, entscheide für mich, ist das strafbar, was steht mir zu, was zuerst, Kosten-Nutzen.'
 ---
 
 # Lebensentscheidungen: erst im Buch nachschlagen, dann antworten
@@ -11,7 +11,7 @@ Jemand fragt nach einer konkreten Sache im Leben. Zuerst die passenden Einträge
 
 **Nichts gefunden heißt: nicht antworten.** Jede Zahl, jeder Gesetzesverweis und jede Schlussfolgerung in der Antwort muss auf einen Eintrag im Text zurückführbar sein. Geht das nicht, sag offen, dass das Buch dazu nichts schreibt. Eine Alltagseinschätzung darfst du geben, aber nur mit dem Hinweis, dass sie nicht aus dem Buch stammt. Erfinde keine Zahlen, keine DOI und keine Paragrafennummern aus dem Gedächtnis.
 
-Das Buch teilt das, was zurückkommt, in vier Bezugsgrößen: Lebenszeit, Zeit und Kraft, Geld, persönliche Freiheit. **Die vier werden getrennt gerechnet und nicht ineinander umgerechnet** — „Gesamtsterblichkeit 12 % niedriger" und „500 元 im Jahr gespart" liegen nicht auf demselben Lineal.
+Das Buch teilt das, was zurückkommt, in vier Bezugsgrößen: Lebenszeit, Zeit und Kraft, Geld, persönliche Freiheit. **Die vier werden getrennt gerechnet und nicht ineinander umgerechnet** — „Gesamtsterblichkeit 12 % niedriger" und „500 Euro im Jahr gespart" liegen nicht auf demselben Lineal.
 
 ## Schritt 0: Prüfen, ob sofort gestoppt werden muss
 
@@ -63,7 +63,7 @@ Ein Eintrag sieht so aus:
 ```markdown
 ### 5. Das Speisesalz zu Hause durch natriumreduziertes Salz ersetzen (Kaliumsalz)
 <!-- Kostenlabel: Geld=0 Zeit=wenig Willenskraft=nein Nutzen=mittel Bezug=Sterblichkeit -->
-- Kosten: Ein Paket kostet ein paar 元 mehr als normales Salz.
+- Kosten: Ein Päckchen Kaliumsalz kostet im Handel etwa 4 bis 6 Euro, normales Salz ist ein Bruchteil davon.
 - Klartext: … die Wahrscheinlichkeit zu sterben war um etwa 12 % niedriger …
 - Nutzen: Schlaganfall etwa 14 % niedriger, Herz-Kreislauf-Ereignisse etwa 13 % niedriger, Gesamtsterblichkeit etwa 12 % niedriger
 - Evidenzstufe: A
@@ -102,7 +102,7 @@ Nach dem Sortieren so aufbauen:
 Beim Schreiben diese Regeln einhalten:
 
 - **Sag, wem der Nutzen zugutekommt.** Das Buch teilt die Begünstigten in vier Stufen, von hoch nach niedrig nach der Wahrscheinlichkeit, dass der Nutzen zum Absender zurückkommt: ① du selbst; ② Ehepartner und direkte Angehörige; ③ Freunde, Kollegen und übrige Verwandte; ④ Fremde. Bei Stufe ④ (einen Fremden retten, für jemanden bürgen, für jemanden Geld überweisen) gehören Nutzen und Risiko zusammen in die Antwort: hereingelegt werden, in ein Verfahren gezogen werden, Rache. Weder nur die Vorteile schreiben noch „kümmere dich um niemanden".
-- **„Das Recht steht auf deiner Seite" muss die Prozesskosten mitsagen.** Nur das Ergebnis zu nennen und den Weg dorthin nicht, macht aus der Erfolgsaussicht einen Nutzen. Dazu gehört: ob geklagt werden muss, wie lange es ungefähr dauert (erstinstanzliches Verfahren ab 6 Monaten, verlängerbar; beschleunigtes Verfahren 3 Monate), und wer die Anwaltskosten trägt — sie gehören nicht zu den Gerichtskosten, die Kostenübernahme der unterliegenden Partei umfasst sie nicht.
+- **„Das Recht steht auf deiner Seite" muss die Prozesskosten mitsagen.** Nur das Ergebnis zu nennen und den Weg dorthin nicht, macht aus der Erfolgsaussicht einen Nutzen. Dazu gehört: ob geklagt werden muss, wie lange es ungefähr dauert (das lässt sich nicht allgemein beziffern, im Einzelfall bei Gericht und Anwalt erfragen), und wer die Kosten trägt — in einem Zivilprozess trägt die unterlegene Partei in der Regel die Gerichtskosten und die gesetzlichen Gebühren und Auslagen des Anwalts der Gegenseite (§ 91 ZPO).
 - **Zahlen wörtlich aus dem Eintrag übernehmen**, keine abändern. Stehen dort Konfidenzintervall, Personengruppe und Jahr, bleiben sie. HR, RR und OR werden daneben im selben Satz als „etwa 28 % niedriger" ausgegeben, der Originalwert bleibt stehen. Keine Zahlen, Symptome oder Wirkmechanismen ergänzen, die im Eintrag nicht vorkommen.
 - **Umgangssprachlich**: schreib so, dass ein Erwachsener ohne Fachausbildung es in einem Durchgang versteht. Fachbegriffe einmal im selben Satz mit Alltagsworten erklären, Paragrafen auf „welche Folge hat das, was tue ich" herunterbrechen. Die Zeile „Quellen" unverändert übernehmen, damit nachprüfbar bleibt.
 - **Zurückhaltender Ton**, nicht belehren, keine Ausrufezeichen, Deutsch. Es ist die Sache des Nutzers, einen Rat nicht zu befolgen — nicht hinterherreden.
