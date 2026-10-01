@@ -51,7 +51,7 @@ export function readBook() {
     return lines.slice(a, b).join('\n');
   };
   // Zwischen den Zeilen mit einem Leerzeichen verbinden: im Chinesischen brauchte es keines, im
-  // Deutschen klebten die Sätze sonst aneinander („… geht es.630 Empfehlungen …").
+  // Deutschen klebten die Sätze sonst aneinander („… geht es.628 Empfehlungen …").
   const description = between('# Lebe besser', '[![')
     .split('\n').slice(1).map(l => l.replace(/<[^>]+>/g, '').trim()).filter(Boolean).join(' ');
   const frontMd = between('## Fragen, die dieses Buch beantwortet', '## Inhalt');

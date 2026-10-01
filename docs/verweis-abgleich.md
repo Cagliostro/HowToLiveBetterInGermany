@@ -788,7 +788,7 @@ Insgesamt 618 Verweise.
 | Fundstelle | Verweis | Ziel-Eintrag | Umfeld des Verweises |
 | --- | --- | --- | --- |
 | Wenn einem Fremden auf d | Abschnitt 13, Nr. 2 | Stürzt ein alter Mensch oder liegt jemand am Boden: erst in die Hocke gehen und ihn ansprechen, die 112 rufen, ihn nicht gleich hochziehen; unterlassene Hilfeleistung ist auch bei Fremden strafbar | …Dies ist die Langfassung von … |
-| Die möglichen Kosten, na | Abschnitt 19, Nr. 6 | Bei einer rechtswidrigen Kündigung klagst du innerhalb von drei Wochen beim Arbeitsgericht; das Gericht kann das Arbeitsverhältnis gegen eine Abfindung auflösen | …rechtswidrige Kündigung des Arbeitsvertrags, und die Entschädigung wird mit 2N gerechnet (… |
+| Die möglichen Kosten, na | Abschnitt 19, Nr. 6 | Bei einer rechtswidrigen Kündigung klagst du innerhalb von drei Wochen beim Arbeitsgericht; das Gericht kann das Arbeitsverhältnis gegen eine Abfindung auflösen | …e Kündigung des Arbeitsvertrags, und die Entschädigung ist die Verdopplung der Abfindung (… |
 | Die möglichen Kosten, na | Abschnitt 8, Nr. 16 | Beschimpfe und verleumde niemanden im Netz und verbreite nichts Ungeprüftes; bei einem Shitstorm erst Beweise sichern, dann die Polizei rufen | … Wie du selbst Beweise sicherst und Anzeige erstattest, siehe … |
 | Die möglichen Kosten, na | Abschnitt 1, Nr. 25 | Bei Depression oder Suizidgedanken die Telefonseelsorge anrufen, zu Hause keine Schlafmittel und keine Pflanzenschutzmittel horten | … die psychologische Beratungshotline 12356, siehe … |
 | Zwei Fälle, in denen „We | Abschnitt 8, Nr. 1 | Nach einem Verkehrsunfall zuerst anhalten, retten und die Polizei rufen, nicht wegfahren | … darum, wie ein Verkehrsunfall abzuwickeln ist und was bei Fahrerflucht zu tun ist, siehe … |
