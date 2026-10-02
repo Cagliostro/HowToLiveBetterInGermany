@@ -230,3 +230,64 @@ Alle Seiten offen zugänglich, ohne Anmeldung, am 2026-10-01 abgerufen und im Vo
   Wellenende (Auftrag §7).
 - `node tools/sync-stats.mjs` wurde **nicht** ausgeführt — die Statistik wird am Wellenende zentral
   geschrieben.
+
+## Zweite Prüfung (2026-10-02)
+
+Grundlage: GitHub-Issue #58 („Abschnitt 07 — Leben ohne Geld: Kulturelle Passung für Deutschland
+(zweite Prüfung)"), die Belegstellen wurden am Text verifiziert. Geändert wurde ausschließlich
+`book/07-leben-ohne-geld.md`.
+
+### Befunde und Umsetzung
+
+**1. „Arbeitsaufsicht" im Titel von Nr. 2 — erledigt.**
+- Befund trifft zu: Die Arbeitsaufsicht verfolgt keine privaten Lohnforderungen; der Nutzen nannte
+  bereits nur Mahnung (§§ 286/288 BGB), Zoll (§ 21 MiLoG) und Arbeitsgericht.
+- `book/07-leben-ohne-geld.md:17`: „Bei ausstehendem Lohn zuerst die Arbeitsaufsicht einschalten und
+  mahnen, dann beim Arbeitsgericht klagen …" → „Bei ausstehendem Lohn zuerst mahnen und
+  Verzugszinsen verlangen, dann beim Arbeitsgericht klagen …".
+- Anker erhalten: `book/08-lass-dich-nicht-hereinziehen.md:125` verweist auf „Abschnitt 7, Nr. 2
+  (bei ausstehendem Lohn zuerst mahnen, dann klagen)"; „ausstehendem Lohn", „mahnen" und „klagen"
+  stehen weiter im Titel.
+- Verweisbegriff in der Anmerkung zu Nr. 15 (`:155`): „Beschwerde bei der Arbeitsaufsicht" →
+  „Mahnung bei ausstehendem Lohn".
+- Marker Nr. 2 (`:19`) und Nr. 15 (`:149`) nachgeführt. Beleg: gesetze-im-internet.de.
+
+**2. Mahnverfahren § 688 ZPO → § 46a ArbGG — erledigt.**
+- Befund trifft zu: § 688 ZPO trägt die Überschrift „Zulässigkeit" und regelt den Mahnbescheid
+  allgemein; für Lohnforderungen läuft das Mahnverfahren vor dem Arbeitsgericht.
+- `:22` (Nutzen): „Den Mahnbescheid erlässt das Gericht ohne mündliche Verhandlung (§ 688 ZPO)." →
+  „Für Lohnforderungen ist das Arbeitsgericht auch für das Mahnverfahren zuständig (§ 46a ArbGG).
+  Den Mahnbescheid erlässt es ohne mündliche Verhandlung."
+- `:24` (Quellen): § 46a ArbGG ergänzt —
+  `Arbeitsgerichtsgesetz (ArbGG), § 46a (Mahnverfahren) <https://www.gesetze-im-internet.de/arbgg/__46a.html>`.
+  § 688 ZPO bleibt als allgemeine ZPO-Norm stehen.
+- Beleg (offen, am 2026-10-02 im Volltext gelesen): § 46a Abs. 1 ArbGG („Für das Mahnverfahren vor
+  den Gerichten für Arbeitssachen gelten die Vorschriften der Zivilprozeßordnung über das
+  Mahnverfahren … entsprechend"), Abs. 2 („Zuständig für die Durchführung des Mahnverfahrens ist das
+  Arbeitsgericht, das für die im Urteilsverfahren erhobene Klage zuständig sein würde").
+  <https://www.gesetze-im-internet.de/arbgg/__46a.html>
+
+**3. „Nothilfeeinrichtung" → „Notunterkunft" — erledigt.**
+- Befund trifft zu: „Nothilfeeinrichtung" ist die wörtliche Übertragung; der Angepasst-Kommentar zu
+  Nr. 4 übersetzt selbst mit „kommunale Notunterkünfte", Kosten und Klartext der betroffenen Einträge
+  sprachen bereits von „Notunterkunft".
+- `:37` (Titel Nr. 4), `:207` (Titel Nr. 21), `:210` (Klartext Nr. 21), `:214` (Anmerkung Nr. 21) und
+  `:155` (Anmerkung Nr. 15): „Nothilfeeinrichtung" → „Notunterkunft".
+- Marker Nr. 4 (`:39`) um „Titel geändert" ergänzt; Nr. 21 erhält erstmals einen Marker (`:209`).
+  Beleg: § 67 SGB XII (Hilfe zur Überwindung besonderer sozialer Schwierigkeiten), wie im Marker zu
+  Nr. 4; Quelle gesetze-im-internet.de (in Nr. 4 bereits geführt).
+
+### Nicht geändert
+
+- „Ticket nach Hause" (Titel Nr. 4) und „Übergangshilfe" (Nr. 6): nicht Teil der Befunde.
+- Evidenzstufen unverändert. Kostenlabel, `Zeit`, `Willenskraft`, `Nutzen`, `Bezug` unverändert; der
+  Nutzen-Kern von Nr. 2 inhaltlich unverändert, nur der Mahnverfahren-Hinweis korrigiert.
+
+### Maschinelle Gates (2026-10-02)
+
+- `grep -c 元 book/07-leben-ohne-geld.md` = **0**; `grep -cP '[\x{4e00}-\x{9fff}]'` = **0**;
+  `grep -c '^### '` = **21**; `grep -c '^<!-- Angepasst:'` = **21** (neu: Nr. 21).
+- `node tools/check-refs.mjs --check`: **bestanden**, alle 588 Verweise zeigen auf den richtigen
+  Eintrag und tragen einen Anker.
+- `node tools/check-plain.mjs`: 606 Klartext-Zeilen, **beanstandet 0**.
+- `node tools/sync-stats.mjs` wurde **nicht** ausgeführt (Wellenende, zentral).

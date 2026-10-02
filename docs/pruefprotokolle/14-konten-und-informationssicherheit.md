@@ -141,3 +141,51 @@ kein CJK, keine china-gebundene Aussage). Marker im Haupttext: **5 × `Angepasst
 - **Nr. 5, Nutzen-Zeile** führt den deutschen Nachweis der Nichtautorisierung auf § 675w BGB; das ist
   die belegte allgemeine Beweislastregel und deckt sich mit dem Titel („Den Beweis … schuldet die
   Bank"). Eine Sonderregel für nicht bankmäßige Zahlungsdienste wird nicht behauptet.
+
+## Zweite Prüfung (2026-10-02)
+
+Anlass: GitHub-Issue #65 (zweite Prüfung; Belegstellen am Text verifiziert). Beide Befunde wurden am
+Text geprüft, beide treffen zu. Geändert wurde nur `book/14-konten-und-informationssicherheit.md`.
+
+### Befund 1 — chinesische Plattformbeispiele
+
+- **Verifiziert (Nr. 6, Zeile 61):** wörtlich „Diesen Zugang gibt es in WeChat, Alipay, in der E-Mail
+  sowie in Apple- und Android-Konten." WeChat und Alipay sind chinesische Dienste und für
+  deutschsprachige Leser unübliche Beispiele.
+- **Gesetzt:** „Diesen Zugang gibt es in der E-Mail sowie in Google-, Apple- und Microsoft-Konten."
+  Beleg, dass die Empfehlung (angemeldete Geräte/Sitzungen prüfen, unbekannte abmelden) deutsche
+  Konten betrifft: Bundesamt für Sicherheit in der Informationstechnik (BSI) und ProPK, Checkliste
+  „Gehacktes E-Mail-Konto" (`bsi.bund.de/dok/1185096`, Pressemitteilung vom 28.10.2025, am 2026-10-02
+  geladen): „alle aktiven Sitzungen beenden"; Warnzeichen sind „Anmeldungen über neue Geräte".
+- **Zusätzlich gefunden, gleiche Fehlerklasse (Nr. 2, Zeile 23):** „WeChat-Favoriten" → „Chatverlauf".
+  Beleg: die im Eintrag bereits zitierte CISA-Empfehlung „Use Strong Passwords".
+- Nr. 2 und Nr. 6 tragen jetzt je einen `Angepasst`-Marker unter der Kostenlabel-Zeile.
+
+### Befund 2 — Aussage zur Gesichtserkennung
+
+- **Verifiziert (Nr. 9, Zeile 91):** wörtlich „Am häufigsten verlangen Wohnanlagen, Mietplattformen,
+  Fitnessstudios und Hotels ein Gesichtsbild von dir." Diese Häufigkeitsliste setzt chinesische
+  Verhältnisse voraus und ist für Deutschland nicht belegbar.
+- **Geprüft:** Das im Eintrag zitierte DSK-„Positionspapier zur biometrischen Analyse" (tlfdi.de,
+  Version 1.0, Stand 3. April 2019, am 2026-10-02 im Volltext gelesen) nennt als typischen
+  Anwendungsfall die Zutrittskontrolle (Abschnitt 5.3.3: „Kontrolle eines physischen Zutritts zu
+  Räumen oder Gebäuden", typisches Merkmal Gesichtsform). Für die konkrete Liste als „am häufigsten"
+  gibt es keine deutsche Primärquelle.
+- **Gesetzt (auf den belegbaren Kern gekürzt):** „Ein typischer Fall ist die Zutrittskontrolle, also
+  der Zugang zu Räumen und Gebäuden." Die Häufigkeitsaussage entfällt; es wird nichts erfunden. Kein
+  „zu prüfen" nötig, weil der Kern belegt ist. Der Marker zu Nr. 9 benennt den gekürzten Beispielsatz.
+
+### Prüfläufe
+
+- `grep -c 元` in der Kapiteldatei = **0**; CJK-Suche = **0**.
+- `node tools/check-plain.mjs --stat` = **beanstandet 0**.
+- `node tools/check-refs.mjs --check` = **bestanden** (588 Verweise). Keine Titeländerung, kein
+  Verweis betroffen.
+- Marker im Haupttext jetzt **7 × `Angepasst`** (vorher 5; Nr. 2 und Nr. 6 neu, Nr. 9 ergänzt).
+
+### Offene Punkte
+
+- Der frühere offene Punkt „Nr. 2 und Nr. 6 nennen chinesische Plattformen …" ist mit dieser Runde
+  erledigt.
+- Eine deutsche Rangfolge, wo Gesichtserkennung am häufigsten verlangt wird, ist nicht belegt und
+  wurde deshalb nicht durch eine erfundene Liste ersetzt.

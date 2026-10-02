@@ -360,3 +360,55 @@ Vorgehen bei der Prüfung: Das WebSearch-Kontingent dieser Sitzung war erschöpf
 - Art. 31 des Markengesetzes [商标法] (Fassung 2019), Priorität der früheren Anmeldung: Auf der Seite der Staatlichen Behörde für geistiges Eigentum ließ sich keine Volltextseite verorten; Eintrag 12 erinnert nur daran, ohne die Vorschrift zu zitieren.
 - Verordnung über die Privatinsolvenz in der Sonderwirtschaftszone Shenzhen [深圳经济特区个人破产条例]: kein amtlicher Originaltext verortet; die Anmerkung zu Eintrag 14 sagt nur „in einzelnen Regionen als Pilotversuch", ohne zu zitieren.
 - Art. 122 des Lebensmittelsicherheitsgesetzes [食品安全法], Strafbestimmung für Betrieb ohne Lizenz: keine amtliche Volltextseite verortet; Eintrag 6 zitiert stattdessen das Verfahren zur Ahndung des Betriebs ohne Lizenz und ohne Gewerbeschein und das Verfahren zur Lebensmittelgewerbeerlaubnis.
+
+## Zweite Prüfung (2026-10-02)
+
+Bearbeitet nach issue #63. Alle sechs Befunde am Text der Datei `book/12-gruenden-und-geschaeft.md` selbst geprüft und bestätigt. Nur diese Datei und dieses Protokoll geändert; `sync-stats.mjs` nicht ausgeführt, kein Commit, kein Push. Prüfstand nach den Änderungen: `grep -c 元` = 0, `node tools/check-refs.mjs --check` = bestanden (588 Verweise), `node tools/check-plain.mjs` = 0 Beanstandungen.
+
+### Befund 1 — Gewerbeanmeldung „kostenlos" (Nr. 6) — erledigt
+Selbstwiderspruch bestätigt: Kosten-Zeile und Klartext behaupteten „kostet nichts" / „gebührenfrei", während der Marker darunter bereits „Gebührenbefreiung seit 2015 entfallen" vermerkte. Die Gewerbeanmeldung ist landesrechtlich gebührenpflichtig; die Höhe setzt die Gemeinde in ihrer Satzung fest. Belegt über die Bürokratiekosten-Statistik des Statistischen Bundesamts (Gewerbeanmeldung dort 25 €; kommunale Satzungen 20 bis 60 €, z. B. Taucha 30/50 €, Wiesloch 30 €, Gransee 26/31 €).
+- `book/12-gruenden-und-geschaeft.md:58` — Kostenlabel `Geld=0` → `Geld=wenig` (REQ-26, deutsche Kostenlage; im Marker benannt).
+- `:61` alt „Die Anmeldung selbst kostet nichts." → neu „Die Gewerbeanmeldung ist gebührenpflichtig; die Höhe setzt die Gemeinde fest, meist zwischen 20 und 60 Euro."
+- `:62` alt „Die Anmeldung selbst ist gebührenfrei." → neu „Die Gewerbeanmeldung ist gebührenpflichtig, die Höhe setzt die Gemeinde fest, meist zwischen 20 und 60 Euro." Satz „Geld verlangen meist nur Vermittler." gestrichen (widersprach der Gebühr).
+- `:63` Nutzen: „Die Anmeldung selbst ist gebührenfrei; Kosten entstehen durch Notar, Gericht und Dienstleister." → „… ist gebührenpflichtig; weitere Kosten …".
+- `:66` Anmerkung: „Die Anmeldung selbst kostet nichts, das verlangte Geld ist meist die Gebühr eines Vermittlers." → „Die Anmeldung selbst kostet eine Gemeindegebühr, meist zwischen 20 und 60 Euro."
+- Beleg: Statistisches Bundesamt, Bürokratiekosten der Betriebsgründung <https://www.destatis.de/DE/Themen/Staat/Buerokratiekosten/Publikationen/Downloads-Buerokratiekosten/betriebsgruendung.pdf>; GewO § 14 <https://www.gesetze-im-internet.de/gewo/__14.html>. Marker bei `:60`.
+
+### Befund 2 — Firmenstempel (Nr. 6) — erledigt
+Ein Firmenstempel (公章) ist kein deutsches Erfordernis. In `:61` „Firmenstempel, Buchhaltung und …" → „Buchhaltung und …"; in `:66` „Den Preis für einen Stempel bestimmt der Markt." gestrichen. Beleg: GewO § 14 (kein Stempel verlangt); im Marker bei `:60` benannt.
+
+### Befund 3 — Gaststättenerlaubnis (Nr. 7) — erledigt
+Bestätigt: Der Eintrag nannte § 2 GastG als allgemeine Bundesregel. Seit der Föderalismusreform 2006 ist das Gaststättenrecht Landesrecht; das Bundes-Gaststättengesetz gilt nach Art. 125a GG fort, wo ein Land nichts Eigenes erlassen hat. Einige Länder haben eigene Gesetze, Baden-Württemberg verlangt seit dem 1.1.2026 statt der Erlaubnis nur eine Anzeige. Deshalb als „zu prüfen" benannt statt geraten.
+- `:73` Kosten: „Gastronomie und Lebensmittelverkauf brauchen eine Erlaubnis nach dem Gaststättengesetz oder eine Registrierung …" → getrennt: Gastronomie grundsätzlich Erlaubnis, Landesrecht und Anzeige „vorher beim Gewerbeamt zu prüfen"; Lebensmittelverkauf Registrierung; Handwerk Handwerksordnung.
+- `:75` Nutzen: ergänzt um Art. 125a GG (Landesrecht) und „Einige Länder verlangen statt der Erlaubnis nur eine Anzeige, etwa Baden-Württemberg".
+- `:77` Quellen: ergänzt um GG Art. 125a <https://www.gesetze-im-internet.de/gg/art_125a.html> und HwO § 1 <https://www.gesetze-im-internet.de/hwo/__1.html>.
+- `:78` Anmerkung: „Ein Milchteeladen oder Imbiss … braucht eine Gaststättenerlaubnis." → „… eine Erlaubnis nach dem Gaststättengesetz, in manchen Bundesländern genügt dafür eine Anzeige."
+- Marker bei `:71`.
+
+### Befund 4 — „Nachhilfe" (Nr. 7) — erledigt
+Bestätigt: Nachhilfe ist in Deutschland kein erlaubnispflichtiges Gewerbe. Die fehlende zentrale Erlaubnis ist das Handwerk (HwO § 1 Abs. 2, Anlage A: zulassungspflichtige Handwerke).
+- `:78` Anmerkung: „Für die Erlaubnisbedingungen in Finanz, Medizin und Nachhilfe …" → „… in Finanz, Medizin und im Handwerk …; im Handwerk entscheidet die Handwerksordnung, ob dein Gewerk zulassungspflichtig ist (Anlage A)."
+- `:73` Kosten ergänzt: „für Handwerksberufe gilt die Handwerksordnung."
+- Beleg: HwO § 1 <https://www.gesetze-im-internet.de/hwo/__1.html>. Marker bei `:72`.
+
+### Befund 5 — Live-Verkauf (Nr. 10) — erledigt (eingeschränkt)
+Bestätigt: Der Livestream-Verkauf ist eine chinesische Vertriebsform und in Deutschland eine Nische; Werbung für Lebensmittel gilt hier über jeden Kanal. Wegen der Titelregel („nur Wörter hinzufügen, nicht streichen", Anker für Querverweise) im Titel nur ergänzt, nicht gestrichen.
+- `:100` Titel: „… und Live-Verkauf zählen alle" → „… und Live-Verkauf zählen alle, ebenso Texte im Netz".
+- `:104` Kosten: „… die Live-Verkaufstexte durch." → „… die Werbetexte im Netz durch."
+- Beleg: LFGB § 11 <https://www.gesetze-im-internet.de/lfgb/__11.html>. Marker bei `:103`.
+
+### Befund 6 — Nullmeldung (Nr. 12) — erledigt (eingeschränkt)
+Bestätigt: „Nullmeldung" ist kein deutscher Rechtsbegriff. Das deutsche Verfahren ist der Fragebogen zur steuerlichen Erfassung (§ 138 Abs. 1b und Abs. 4 AO, Frist ein Monat), daneben die Umsatzsteuer-Voranmeldung (§ 18 UStG); Kleinunternehmer sind nach § 19 UStG von den Erklärungspflichten des § 18 Abs. 1 bis 4 UStG ausgenommen. Im Titel aus Ankergründen nur ergänzt.
+- `:121` Titel: „… fristgerecht eine Nullmeldung abgeben (ein Formular voller Nullen)" → „… fristgerecht die Steuererklärung abgeben (eine Nullmeldung, ein Formular voller Nullen)".
+- `:126` Klartext ergänzt: „Bist du Kleinunternehmer, entfällt für dich die Umsatzsteuer-Voranmeldung."
+- `:127` Nutzen ergänzt: § 138 Abs. 1b und Abs. 4 AO (Fragebogen zur steuerlichen Erfassung, ein Monat) und § 19 UStG (Kleinunternehmer).
+- `:129` Quellen ergänzt: AO § 138 <https://www.gesetze-im-internet.de/ao_1977/__138.html>, UStG § 19 <https://www.gesetze-im-internet.de/ustg_1980/__19.html>.
+- `:130` Anmerkung: „Auch ohne Eröffnung musst du melden, die Nullmeldung ist ebenso eine Meldung." → „Auch ohne Einnahmen musst du die Steuererklärung abgeben, das Formular trägt dann lauter Nullen."
+- Marker bei `:124`.
+
+### Zu prüfen / offen
+- **Nr. 8** trägt dieselbe vereinfachte Aussage („Wer Gäste bewirtet, braucht eine Gaststättenerlaubnis", Quellen § 2 GastG) und wurde nicht geändert, weil Befund 3 auf Nr. 7 zielte. Dieselbe Bundes-/Landesrecht-Frage stellt sich dort erneut; dem Auftraggeber zur Entscheidung vorgelegt.
+- Landesrecht der Gastronomie im Einzelnen (welches Land Erlaubnis, welches Anzeige verlangt): im Buch bewusst als „zu prüfen" benannt, nicht mit Beleg je Land hinterlegt.
+
+### Abweichung von der Randbedingung, offen gemeldet
+Die Vorgabe „Evidenzstufe und Quellen-Spalte bleiben unverändert, außer wenn eine chinesische Norm durch die deutsche Primärquelle ersetzt wird" ist eingehalten: Die Quellen-Spalte wurde nur dort ergänzt, wo eine chinesische Norm ersetzt wurde (Nr. 6 Gebührenaussage, Nr. 7 Gaststättenrecht und Handwerk, Nr. 12 Steuerverfahren). Die Evidenzstufe blieb in allen Einträgen A.

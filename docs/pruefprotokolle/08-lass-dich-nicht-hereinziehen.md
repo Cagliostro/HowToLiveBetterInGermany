@@ -229,3 +229,60 @@ selbst blieb.
   Ausgangsempfehlung (Telefonat mitschneiden) ist in Deutschland nicht haltbar. Der Eintrag wurde
   auf „schriftliche Zusammenfassung / bestätigte E-Mail als Beleg" umgestellt und als X-Vorlage in
   den Bericht aufgenommen (`review/ueberarbeitung/08.md`).
+
+---
+
+# Zweite Prüfung (2026-10-02)
+
+Vier Befunde aus issue #59, jeder am Text geprüft.
+
+## Befund 1 — Rückholung einer Überweisung (Nr. 2)
+
+- Beanstandet: die Pauschalaussage „Solange das Geld noch auf dem Konto der Gegenseite liegt, kann
+  die Bank die Überweisung noch zurückholen" (Klartext) bzw. „kann deine Bank es festhalten" (Nutzen).
+- Geprüft und bestätigt: Nach § 675p BGB ist ein Zahlungsauftrag unwiderruflich, sobald er dem
+  Zahlungsdienstleister des Zahlers zugeht; ein Widerruf danach setzt eine Vereinbarung und die
+  Zustimmung des Zahlungsempfängers voraus (§ 675p Abs. 4). § 675u BGB gibt einen Erstattungsanspruch
+  nur bei nicht autorisierten Zahlungen; wer die Überweisung selbst freigibt (Autorisierung nach
+  § 675j Abs. 1), hat keinen Anspruch auf Erstattung. Eine Rückholung einer ausgeführten Überweisung
+  hängt damit von der Empfängerbank ab.
+- Geändert: Nr. 2, Klartext (Zeile 21) und Nutzen (Zeile 22). Alt: „Solange das Geld noch auf dem
+  Konto der Gegenseite liegt, kann die Bank die Überweisung noch zurückholen." Neu: „Solange deine
+  Bank den Auftrag nicht ausgeführt hat, kann sie ihn stoppen. Danach lässt sich das Geld nur mit
+  Zustimmung der Empfängerbank zurückholen." Quellen ergänzt um § 675j Abs. 1, § 675p und § 675u BGB;
+  die Anmerkung entsprechend nachgezogen.
+- Belege: `gesetze-im-internet.de/bgb/__675j.html`, `__675p.html`, `__675u.html`.
+
+## Befund 2 — Notwehr-Formulierung (Nr. 11)
+
+- Beanstandet: „Greift sie gerade an, tötet, raubt, vergewaltigt oder entführt, gilt auch eine
+  Verletzung oder Tötung nicht als Überschreitung" las sich wie ein Freibrief.
+- Geprüft und bestätigt: § 32 StGB setzt einen gegenwärtigen rechtswidrigen Angriff voraus und deckt
+  nur die erforderliche Verteidigung. Die Aufzählung ist gestrichen.
+- Geändert: Nr. 11, Klartext (Zeile 111). Neu steht dort, dass die Verteidigung nur so weit reichen
+  darf wie der Angriff, das Mittel nötig sein muss und nur der Angreifer selbst angegriffen werden
+  darf. Die Nutzen-Spalte trug Erforderlichkeit und die Grenze beim geringfügigen Angriff bereits und
+  blieb unverändert.
+- Beleg: `gesetze-im-internet.de/stgb/__32.html`.
+
+## Befund 3 — Werkswohnung (Nr. 20)
+
+- Geprüft: Der Satz behandelt „das Haus auf den Namen einer Firma als Werkswohnung laufen lassen und
+  das Geld an Verwandte schieben" als im Netz kursierende Praxis und stellt klar, dass § 288 StGB
+  genau das Veräußern und Beiseiteschaffen meint. Firmeneigentum an Wohnraum (Werkswohnung) gibt es
+  auch in Deutschland, und die Aussage behauptet keine Lücke, sondern widerlegt sie.
+- Ergebnis: gegenstandslos, keine Änderung.
+
+## Befund 4 — Verweis (Nr. 37)
+
+- Geprüft (nicht geändert, wie beauftragt): Zeile 375 verweist auf „Abschnitt 9, Nr. 20 (Unfall
+  erfinden, Schaden übertreiben)". Nr. 20 in Abschnitt 9 trägt den Titel „Erfinde keinen Unfall und
+  übertreibe keinen Schaden für die Schadensregelung … (Versicherungsbetrug)". Der Verweis trifft den
+  richtigen Eintrag; die frühere Fassung (Nr. 21, „Verkauf kein eigenes Organ") ist damit korrigiert.
+  Die Ankerwörter „Unfall" und „Schaden" stehen im Zieltitel.
+- Beleg: `book/09-rechtliche-rote-linien.md`, Nr. 20.
+
+## Prüfmaßstab
+
+- `node tools/check-refs.mjs --check` ausgeführt: bestanden.
+- `grep -c 元 book/08-lass-dich-nicht-hereinziehen.md`: 0.

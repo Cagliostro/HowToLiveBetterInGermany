@@ -190,7 +190,7 @@ Die Abschnitte oben wurden am 2026-09-07 unter der damaligen Nummerierung geschr
 
 ### Stand nach der Umstellung
 
-44 Einträge, **ein Eintrag entfallen** (Nr. 39, Auslandsanlagen/QDII — Entscheidung des Auftraggebers vom 2026-10-01, siehe unten). 42 Kennzeichnungen: 41 × `<!-- Angepasst: … -->` und 1 × `<!-- Währung: Yuan in Euro übernommen -->`. `元` kommt in der ganzen Datei nicht mehr vor (Prüfmaßstab `grep -c 元` = 0); chinesische Zeichen stehen nur noch in den Zeilen `- Quellen:`, wo sie Literaturangabe und keine Inhaltsaussage sind. Verweiszahl nach der Streichung: **610** (vorher 613; die drei abgezogenen Stellen sind die ausgehenden Verweise des gestrichenen Eintrags).
+44 Einträge, **ein Eintrag entfallen** (Nr. 39, Auslandsanlagen/QDII — Entscheidung des Auftraggebers vom 2026-10-01, siehe unten). 42 Kennzeichnungen: 41 × `<!-- Angepasst: … -->` und 1 × `<!-- Währung: Yuan in Euro übernommen -->`. `元` kommt in der ganzen Datei nicht mehr vor (Prüfmaßstab `grep -c 元` = 0). In der Runde vom 2026-10-02 (siehe unten) sind auch die chinesischen Schriftzeichen aus den Zeilen `- Quellen:` verschwunden; der damalige Zwischenstand („chinesische Zeichen nur noch in den Zeilen `- Quellen:`") gilt nicht mehr — heute enthält die Datei **kein einziges chinesisches Schriftzeichen** mehr. Verweiszahl nach der Streichung: **610** (vorher 613; die drei abgezogenen Stellen sind die ausgehenden Verweise des gestrichenen Eintrags).
 
 ### Entscheidungen, die nicht im Marker stehen
 
@@ -232,3 +232,66 @@ Die Nutzen-Zeile dieses Kapitels trug in 36 der 44 Einträge am Satzende den Zus
 **Nebenbefund — drei weitere Nutzen-Zeilen ohne Schlusspunkt (Nr. 17, 18, 19).** Bei der Kontrolle fielen drei Nutzen-Zeilen auf, die weder mit einem Punkt noch mit einer Herkunftsklammer endeten („… die Mehrheit der aktiven Fonds besser", „… entfällt er oft", „… holt es dir zurück"). Sie standen nicht in diesem Diff; der Schlusspunkt wurde nachgezogen.
 
 **Buchweiter Befund, nicht in dieser Runde behoben:** Die Nutzen-Zeile endet buchweit uneinheitlich — von 629 Zeilen schließen 207 mit einem Punkt, 199 mit einer Herkunftsklammer `(…)` und 223 ohne jedes Schlusszeichen. Dasselbe Bild zeigt **das chinesische Original**: von 630 `收益`-Zeilen enden 254 mit einer Herkunftsklammer `（…）`, 92 mit `。` und die übrigen ohne. Die deutsche Fassung bildet diese Uneinheitlichkeit nach; sie ist **nicht** durch die Überarbeitungsrunde entstanden — schon im Übersetzungsstand `b875bfe` hatten die Nutzen-Zeilen von Kapitel 01 26 punktlose von 34. Anders als die Klartext-Zeile, die `tools/check-plain.mjs` maschinell prüft und die deshalb buchweit 629 von 629 mit einem Punkt schließt, unterliegt die Nutzen-Zeile keiner Prüfung. **Entscheidung offen** — ob die Nutzen-Zeile am Ende der Runde buchweit auf einen Schlusspunkt vereinheitlicht wird, ist eine eigene Frage und berührt alle 34 Kapitel; sie gehört nicht in ein einzelnes Kapitel.
+
+## Zweite Prüfung (2026-10-02)
+
+**Auftrag (Issue #77).** Die Spalte `- Quellen:` führte in 37 der 44 Einträge ausschließlich chinesische Primärquellen — 82 `.cn`-Links (`gov.cn`, `npc.gov.cn`, `csrc.gov.cn`, `nhsa.gov.cn`, `samr.gov.cn`, `spp.gov.cn`, `lotto.gov.cn`, `jrgz.tj.gov.cn` …), überwiegend Gesetze, Staatsratsverordnungen und Behörden-Seiten —, während `Klartext` und `Nutzen` bereits deutsches Recht nennen. Umzustellen auf die im Text bzw. im Marker `<!-- Angepasst: … -->` genannte deutsche/EU-Primärquelle. **Jede neu gesetzte URL einzeln geprüft** (offen erreichbar, enthält die genannte Norm). Kein neuer Marker, keine Änderung an `Klartext`/`Nutzen`/`Kosten`/`Anmerkung`/`Evidenzstufe` — nur die `- Quellen:`-Zeile.
+
+**Ergebnis.** 37 Einträge umgestellt (Nr. 1–10, 12–14, 16, 18, 20, 22–36, 39–44). **Eine** chinesische Quelle bleibt: **Nr. 6** (Rede von Guo Shuqing auf dem Lujiazui-Forum 2018), weil die Aussage des Eintrags an dieser Rede hängt; die Quelle trägt jetzt den Zusatz „ (Angabe des Originals; chinesische Regelung)". Die sieben Einträge Nr. 11, 15, 17, 19, 21, 37, 38 tragen anglo-amerikanische Studien und hatten nie eine chinesische Quelle; sie blieben unberührt. Die Datei enthält nach dieser Runde **kein chinesisches Schriftzeichen** und **keinen `.cn`-Link mehr außer dem einen in Nr. 6**.
+
+Zuordnung je Eintrag. Abkürzung: `gii/…` = `https://www.gesetze-im-internet.de/…`. „geprüft" = einzeln abgerufen, HTTP 200 und Norm im Seitentitel/Text bestätigt.
+
+| Nr. | chinesische Quelle ersetzt durch | Beleg-URL | geprüft |
+|---|---|---|---|
+| 1 | BGB § 309 Nr. 9; § 312k | `gii/bgb/__309.html`; `__312k.html` | ja |
+| 2 | EStG § 46 Abs. 2 Nr. 8; AO § 149 Abs. 2; § 169 Abs. 2; EStG § 9a Nr. 1 Buchst. a; § 10c | `gii/estg/__46.html`; `ao_1977/__149.html`; `ao_1977/__169.html`; `estg/__9a.html`; `estg/__10c.html` | ja |
+| 3 | WoPG § 3; § 2a | `gii/wopg/__3.html`; `wopg/__2a.html` | ja |
+| 4 | TKG 2021 § 59; § 56; Bundesnetzagentur | `gii/tkg_2021/__59.html`; `tkg_2021/__56.html`; `https://www.bundesnetzagentur.de/DE/Fachthemen/Telekommunikation/start.html` | ja |
+| 5 | Deutscher Lottoblock, Jahresbilanz 2025; GlüStV 2021 § 15; § 18 | `https://www.lottoindeutschland.de/presse/solides-jahr-fuer-das-glueck-2025`; `https://www.gesetze-bayern.de/Content/Pdf/StVGlueStV2021-15`; `…-18` | ja |
+| 6 | KWG § 32 Abs. 1; § 37 Abs. 4; BaFin — **Guo-Shuqing-Rede bleibt** | `gii/kredwg/__32.html`; `kredwg/__37.html`; `https://www.bafin.de/`; `https://jrgz.tj.gov.cn/…` (Zusatz) | ja |
+| 7 | BGB § 492 Abs. 2; EGBGB Art. 247 § 1 | `gii/bgb/__492.html`; `bgbeg/art_247__1.html` | ja |
+| 8 | BGB § 106; § 110; § 312j Abs. 3; § 356 Abs. 6 | `gii/bgb/__106.html`; `__110.html`; `__312j.html`; `__356.html` | ja |
+| 9 | BGB § 104 Nr. 1; § 106; § 107; § 108; § 110; § 812 Abs. 1 | `gii/bgb/__104.html`; `__106.html`; `__107.html`; `__108.html`; `__110.html`; `__812.html` | ja |
+| 10 | Polizeiliche Kriminalprävention: Betrug; Notruf 110/Online-Wache | `https://www.polizei-beratung.de/themen-und-tipps/betrug/`; `https://www.polizei-beratung.de/` | ja |
+| 12 | SGB V § 129; § 130a Abs. 8; § 35; § 35a; § 31 Abs. 3 Satz 4; GKV-Spitzenverband; EMA-Bioäquivalenz-Leitlinie | `gii/sgb_5/__129.html`; `__130a.html`; `__35.html`; `__35a.html`; `__31.html`; `https://www.gkv-spitzenverband.de/`; `https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-investigation-bioequivalence-rev1_en.pdf` | ja |
+| 13 | SGB V § 10 (Familienversicherung) | `gii/sgb_5/__10.html` | ja |
+| 14 | Destatis Entgelte Trinkwasser (tw-08); TrinkwV § 1 | `https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Umwelt/Wasserwirtschaft/Tabellen/tw-08-entgelt-trinkwasserversorgung-tarifgeb-nach-tariftypen-2020-2022-land-bund.html`; `gii/trinkwv_2023/__1.html`; `https://www.umweltbundesamt.de/umwelttipps-fuer-den-alltag/essen-trinken/trinkwasser` | ja |
+| 16 | BGB § 491; § 492 Abs. 1; § 495 Abs. 1; § 355 | `gii/bgb/__491.html`; `__492.html`; `__495.html`; `__355.html` | ja |
+| 18 | PRIIPs-VO (EU) Nr. 1286/2014 Art. 5 + Anhang; Fama/French (2010) — „siehe Nr. 17" | `https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32014R1286`; `https://doi.org/10.1111/j.1540-6261.2010.01598.x` | ja (s. Hinweis) |
+| 20 | EStG § 10a; § 84; § 85; § 10 Abs. 1 Nr. 2 Buchst. b | `gii/estg/__10a.html`; `__84.html`; `__85.html`; `__10.html` | ja |
+| 22 | BGB § 651r; § 651t; § 650f; InsO § 38 | `gii/bgb/__651r.html`; `__651t.html`; `__650f.html`; `inso/__38.html` | ja |
+| 23 | BGB § 355 Abs. 2; § 356 Abs. 2/3/5; § 357 Abs. 1/4/5; § 312g Abs. 2 | `gii/bgb/__355.html`; `__356.html`; `__357.html`; `__312g.html` | ja |
+| 24 | Tversky/Kahneman (1974); PAngV § 11 Abs. 1 + 4 | `https://doi.org/10.1126/science.185.4157.1124`; `gii/pangv_2022/__11.html` | ja (s. Hinweis) |
+| 25 | VVG § 153; DeckRV § 2; VVG § 169 Abs. 3 + 5 | `gii/vvg_2008/__153.html`; `deckrv_2016/__2.html`; `vvg_2008/__169.html` | ja |
+| 26 | PflVG § 1; § 4 Abs. 2; § 6; § 30 | `gii/pflvg/__1.html`; `__4.html`; `__6.html`; `__30.html` | ja |
+| 27 | EinSiG § 8 Abs. 1 + 2; § 7 Abs. 3 | `gii/einsig/__8.html`; `einsig/__7.html` | ja |
+| 28 | BGB § 502 Abs. 2 + 3; § 489 Abs. 1 Nr. 2 | `gii/bgb/__502.html`; `__489.html` | ja |
+| 29 | BGB § 249; UWG § 5; § 8; Anhang Nr. 23c; DDG § 7 Abs. 1; VO (EU) 2022/2065 Art. 6/9/16 | `gii/bgb/__249.html`; `uwg_2004/__5.html`; `__8.html`; `uwg_2004/anhang.html`; `ddg/__7.html`; `https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32022R2065` | ja (s. Hinweis) |
+| 30 | VO (EU) 2022/2065 Art. 30; DDG § 5; BGB § 312g Abs. 2 | `https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32022R2065`; `gii/ddg/__5.html`; `bgb/__312g.html` | ja (s. Hinweis) |
+| 31 | BGB § 437; § 438; § 823 Abs. 1; § 253 Abs. 2; ProdHaftG § 1; § 11; ZPO § 91; lebensmittelwarnung.de | `gii/bgb/__437.html`; `__438.html`; `__823.html`; `__253.html`; `prodhaftg/__1.html`; `prodhaftg/__11.html`; `zpo/__91.html`; `https://www.lebensmittelwarnung.de/` | ja |
+| 32 | Safety Gate Jahresbericht 2024; Safety Gate; VO (EU) 2017/1369; EPREL | `https://ec.europa.eu/commission/presscorner/detail/en/ip_25_1064`; `https://ec.europa.eu/safety-gate/`; `https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32017R1369`; `https://eprel.ec.europa.eu/` | ja (s. Hinweis) |
+| 33 | UStG § 12 Abs. 1; § 25c Abs. 1 + 2; GewO § 34 Abs. 1; PfandlV § 5; § 9; § 10 Abs. 1; § 11 Abs. 1 | `gii/ustg_1980/__12.html`; `__25c.html`; `gewo/__34.html`; `pfandlv/__5.html`; `__9.html`; `__10.html`; `__11.html` | ja |
+| 34 | AkkStelleG § 1 Abs. 1; § 2 Abs. 2; § 6 Abs. 1; DAkkS; StGB § 267; § 263 | `gii/akkstelleg/__1.html`; `__2.html`; `__6.html`; `https://www.dakks.de/`; `gii/stgb/__267.html`; `__263.html` | ja |
+| 35 | BGB § 355 Abs. 2; § 356 Abs. 2 + 3; § 312g Abs. 1 + 2; § 357 Abs. 1/4/5; § 357a Abs. 1; § 434 Abs. 2; § 437 Nr. 1 + 2; §§ 104, 106, 108, 110; UWG § 5 Abs. 1; StGB § 284 Abs. 1 | `gii/bgb/__355.html`; `__356.html`; `__312g.html`; `__357.html`; `__357a.html`; `__434.html`; `__437.html`; `__104.html`; `__106.html`; `__108.html`; `__110.html`; `uwg_2004/__5.html`; `stgb/__284.html` | ja |
+| 36 | LMIV (VO (EU) Nr. 1169/2011) Art. 9 Abs. 1, Art. 18 Abs. 1 + Anh. VII C, Art. 44 Abs. 1 Buchst. a; LMIDV § 4 Abs. 2–4; LMZDV § 5 | `https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32011R1169`; `gii/lmidv/__4.html`; `lmzdv/__5.html` | ja (s. Hinweis) |
+| 39 | BaFin-Erstversicherungsstatistik | `https://www.bafin.de/DE/PublikationenDaten/Statistiken/Erstversicherung/erstversicherung_node.html` | ja |
+| 40 | VVG § 150 Abs. 1–4 | `gii/vvg_2008/__150.html` | ja |
+| 41 | VVG § 152 Abs. 1; § 8 Abs. 1 + 2; § 9 Abs. 1; § 152 Abs. 2 + 3; § 169 Abs. 3 + 5 | `gii/vvg_2008/__152.html`; `__8.html`; `__9.html`; `__169.html` | ja |
+| 42 | GewO § 34d Abs. 1; § 11a; VVG §§ 6, 61, 62, 63; VVG-InfoV § 4 Abs. 1; EinSiG § 8 Abs. 1; VVG § 169; § 152 + § 8 | `gii/gewo/__34.html`; `gewo/__11a.html`; `vvg_2008/__6.html`; `__61.html`; `__62.html`; `__63.html`; `vvg-infov/__4.html`; `einsig/__8.html`; `vvg_2008/__169.html`; `__152.html` | ja |
+| 43 | RDG § 3; § 10 Abs. 1 Nr. 1; GewO § 34d Abs. 2; VVG § 59 Abs. 4; § 214; § 165 | `gii/rdg/__3.html`; `__10.html`; `gewo/__34.html`; `vvg_2008/__59.html`; `__214.html`; `__165.html` | ja |
+| 44 | VVG § 159 Abs. 1 + 2; § 160 Abs. 1–3; § 150 Abs. 2; BGB §§ 1922, 1967; § 195 + § 199 Abs. 1 | `gii/vvg_2008/__159.html`; `__160.html`; `__150.html`; `bgb/__1922.html`; `__1967.html`; `__195.html`; `__199.html` | ja |
+
+### Belegprüfung und Vorbehalte
+
+- **gesetze-im-internet.de (Regelfall).** Alle 106 zitierten Seiten dieses Abschnitts wurden einzeln mit Browser-User-Agent abgerufen: **HTTP 200**, und der Seitentitel nennt jeweils die zitierte Norm (z. B. „§ 32 KWG – Einzelnorm", „§ 2a WoPG 1996 – Einzelnorm", „Art 247 § 1 EGBGB – Einzelnorm"). Die Seite `uwg_2004/anhang.html` enthält nachweislich die Nummer 23c (gefälschte Bewertungen).
+- **eur-lex (Vorbehalt).** Die vier Unionsverordnungen (PRIIPs 1286/2014, DSA 2022/2065, Energieverbrauchskennzeichnung 2017/1369, LMIV 1169/2011) verweisen auf `https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:…`. Der automatisierte Abruf liefert dort HTTP **202** mit leerem Rumpf (AWS-WAF-/JS-Prüfung) — der Inhalt ließ sich maschinell **nicht** bestätigen. Die URLs sind die amtlichen Fundstellen und im Browser regulär erreichbar; die Angaben (Artikel, Anhänge) wurden gegen den Verordnungstext geprüft, nicht gegen eine automatisierte Abfrage.
+- **doi.org (Vorbehalt).** Die DOI-Auflösungen (u. a. Tversky/Kahneman 1974 in Nr. 24) liefern automatisierten Abrufen HTTP 403 (Bot-Schutz); sie sind offene, regulär im Browser erreichbare Literaturverweise.
+- **gluecksspiel / gesetze-bayern.de.** Die beiden GlüStV-PDFs (§ 15, § 18) sind direkt ladbar (HTTP 200); der Text wurde im PDF nachgewiesen („Reinertrag", „Gewinnsumme" in § 15; „25 Prozent", „Reinertrag" in § 18). Die JS-gerenderte `Content/Document`-Ansicht liefert per `curl` keinen Normtext und wurde daher nicht verwendet.
+- **Inhaltsdiskrepanz GlüStV § 15 / § 18 (Nr. 5) — Hinweis, nicht behoben** (die `Nutzen`-Zeile ist nach Auftrag unberührt): Der Marker nennt „Glücksspielstaatsvertrag 2021 §§ 15, 18". § 15 regelt „Spielplan, Kalkulation und Durchführung der Veranstaltung" (u. a. **mindestens 30 Prozent** des Reinertrags für die Gewinnsumme), § 18 „Kleine Lotterien" (**mindestens 25 Prozent**, Höchstbetrag 40.000 € Einnahmen). Die Quellenangabe beschreibt die Normen sachlich korrekt; die `Nutzen`-Zeile ordnet die Zahlen dagegen Sportwetten und virtuellen Automatenspielen zu. Diese Zuordnung stammt aus der früheren Umstellung und ist hier nicht Gegenstand des Auftrags.
+- **Nicht in die Quellen übernommen:** chinesische Fließtext-Verweise früherer Beleglisten (Zhihu/WeChat/Sohu u. Ä.) entfielen ersatzlos; es wurde kein solcher Link neu gesetzt.
+
+### Gates
+
+- `node tools/check-refs.mjs --check` → **bestanden**: „alle 590 Verweise zeigen auf den richtigen Eintrag und tragen einen Anker" (Exit 0). Die Quellen-Zeilen werden vom Eintragsverweis-Scan ausgenommen; Paragrafenzitate mit Nummer („§ 309 Nr. 9", „§ 46 Abs. 2 Nr. 8 EStG", „§ 2 Nr. 1") lösen keine Fehlmeldung aus.
+- `grep -c 元 book/05-kein-geld-verschwenden.md` → **0**.
+- Zusätzlich `grep -cP '[\x{4e00}-\x{9fff}]' book/05-kein-geld-verschwenden.md` → **0** (kein chinesisches Schriftzeichen mehr).

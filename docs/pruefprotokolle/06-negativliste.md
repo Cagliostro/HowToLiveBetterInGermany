@@ -199,3 +199,32 @@ Erläuterung der Prüfmethode: doi.org liefert durchweg eine 302-Weiterleitung; 
 - Luftreiniger/Wasserfilter: nicht geprüft und keine Evidenz für harte Endpunkte gefunden, deshalb nicht aufgenommen.
 - Frühaufstehen an sich: lässt sich von der Regelmäßigkeit des Schlafs schwer trennen, keine direkte Vergleichsevidenz gefunden, deshalb nicht aufgenommen.
 - Multitasking/Pomodoro: keine direkte Evidenz, auf Anweisung nicht aufgenommen.
+
+## Zweite Prüfung (2026-10-02) — Issues #57 und #78
+
+Bearbeitet wurde ausschließlich `book/06-die-negativliste.md`. Kein `sync-stats.mjs`, kein Commit.
+
+### Issue #57 — chinesische Produktnamen in den Titeln
+- **Nr. 10, Titel** (früher Zeile 96): „… Nahrungsergänzungsmittel, **Kräuterpasten** und Stärkungsmittel …" → „… Nahrungsergänzungsmittel, **Homöopathie, Schüßler-Salze** und Stärkungsmittel …". „Kräuterpasten" (膏方) ist ein chinesisches Produkt; die Ersatzwörter stammen aus den im Issue genannten hiesigen Beispielen (Homöopathie, Schüßler-Salze). Es wurden nur Wörter ergänzt/ersetzt; alle übrigen Ankerwörter (Nahrungsergänzungsmittel, Stärkungsmittel) bleiben.
+- **Nr. 22, Titel** (früher Zeile 212): „… Kristalle, Armketten, **Pixiu-Figuren** und Ähnliches …" → „… Kristalle, Armketten, **Glücksbringer** und Ähnliches …". „Pixiu" (貔貅) ist ein chinesisches Glückssymbol und im deutschen Sprachraum unbekannt; „Glücksbringer" ist die im Buch (README/Abschnittsbeschreibung) ohnehin verwendete Bezeichnung.
+- Beide Titeländerungen wurden in den bereits vorhandenen `Angepasst`-Marker des jeweiligen Eintrags aufgenommen (Nr. 10 und Nr. 22), weil sich mit dem Titel die Anpassung ändert (Regel: Titeländerung → Marker unter der Kostenlabel-Zeile).
+- **Offen zur Entscheidung:** „Kräuterpaste" steht weiter in der Anmerkung von Nr. 10 („handfester als eine Kräuterpaste") und „Pixiu" in der Nutzen-Zeile von Nr. 22 („einem Pixiu, einer kleinen Glücksfigur"), beide außerhalb des im Issue bezeichneten Titelbereichs. Da die Vorgabe sich auf die Titel bezog, wurden diese Zeilen nicht angetastet und dem Auftraggeber vorgelegt.
+
+### Issue #78 — sechs `.cn`-Quellen bei fünf Einträgen entfernt
+In der Spalte „Quellen" wurden alle chinesischen Fundstellen gestrichen. Die übrigen (nicht-chinesischen) Quellen und die Evidenzstufen blieben unverändert.
+
+| Nr. | entfernte Quelle | Ersatz |
+|---|---|---|
+| 10 | samr.gov.cn (SAMR 2019, Gesundheitslebensmittel-Kennzeichnung) | **neu:** Verordnung (EG) Nr. 1924/2006 (HCVO), <https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32006R1924> |
+| 15 | spp.gov.cn (Oberste Volksstaatsanwaltschaft 2026, Fall Xi/Henan) | keiner nötig — § 263 StGB und die EVZ-Warnung tragen den Eintrag |
+| 17 | flk.npc.gov.cn (献血法 Art. 2, 9, 14) und gov.cn (NHC-Mitteilung 08.01.2024) | keiner nötig — § 10 TFG und die Hämotherapie-Richtlinie tragen den Eintrag |
+| 18 | nhc.gov.cn (NHC 2017, grundlegende öffentliche Gesundheitsdienste) | keiner nötig — § 25 SGB V und die beiden G-BA-Richtlinien tragen den Eintrag |
+| 22 | samr.gov.cn (SAMR 2026, Fall Sihui/Guangdong) | keiner nötig — § 5 und § 8 UWG tragen den Eintrag |
+
+**URL-Prüfung (REQ-70):** Die einzige neu gesetzte Adresse ist der EUR-Lex-Link zur HCVO. `curl -L` gibt **HTTP 202** mit leerem Rumpf zurück (EUR-Lex liefert automatisierten Abrufen eine Bot-/JS-Seite, keine Bezahlschranke und keine Anmeldung); der Abruf per WebFetch liefert aus demselben Grund keinen Text. Die Zuordnung wurde unabhängig bestätigt: **CELEX 32006R1924 = Verordnung (EG) Nr. 1924/2006 des Europäischen Parlaments und des Rates vom 20. Dezember 2006 über nährwert- und gesundheitsbezogene Angaben über Lebensmittel** (ABl. L 404 vom 30.12.2006, S. 9). Die Adresse ist die kanonische, offen zugängliche EUR-Lex-Fassung. Alle übrigen Quellen sind unverändert und in der ersten Runde geprüft.
+
+**Hinweis zum Issue-Wortlaut:** Die #78-Tabelle nennt für Nr. 22 „neben gesetze-im-internet.de (§ 263 StGB)". In Nr. 22 steht tatsächlich **§ 5 und § 8 UWG**; § 263 StGB gehört zu Nr. 15 (Wahrsagerei). Da der Auftrag „die bereits vorhandene gesetze-im-internet.de-Norm" lautet, blieb die vorhandene UWG-Norm stehen; § 263 StGB wurde **nicht** in Nr. 22 eingesetzt (er wäre dort inhaltlich falsch).
+
+**Prüfmaßstäbe:** `node tools/check-refs.mjs --check` → bestanden (590 Verweise, alle mit Anker; die Anker der zwei Verweise auf Nr. 10 — „Werbesprüche", „Nahrungsergänzungsmitteln" — bleiben erhalten). `grep -c 元 book/06-die-negativliste.md` → **0**. `grep -n "\.cn"` → **kein Treffer** mehr. **Linkbilanz (ohne `sync-stats.mjs`):** −6 chinesische Adressen, +1 HCVO → −5 Links; TODO unverändert.
+
+**Hinweis zum Dateinamen:** Die Aufgabe nennt `docs/pruefprotokolle/06-die-negativliste.md`; das Prüfprotokoll des Abschnitts heißt tatsächlich `06-negativliste.md`. Der Abschnitt wurde dort ergänzt.

@@ -85,3 +85,33 @@ Nicht belegbar und daher im Text nicht behauptet: eine deutsche Norm, die das �
 
 ### 5.4 Anker der Querverweise
 Die Titel, auf die andere Kapitel verweisen, tragen ihr Ankerwort weiter: Nr. 1 „Überweisung", Nr. 4 „Krankenakte, Untersuchungsberichte und Bilddaten", Nr. 6 „Ersteinschätzung"/„Notaufnahme", Nr. 8 „Behinderungsgrad", Nr. 9 „Schwerbehindertenausweis". Nur Abschnitt 24 angefasst; Prüfprotokoll-Abschnitte 1–4 bleiben als Stand 2026-09-07 erhalten.
+
+---
+
+## Zweite Prüfung (2026-10-02)
+
+Gegenstand: **Issue #69** („Abschnitt 24 — Arztbesuche: kulturelle Passung für Deutschland, zweite Prüfung"), ein Befund. Geändert wurde ausschließlich `book/24-arztbesuche.md`. Die an anderer Stelle vorgenommene Verweiskorrektur in Zeile 105 („Abschnitt 8, Nr. 40" → „Nr. 39") bleibt unangetastet.
+
+### Befund: „Überweisung als Zugang" im Titel von Nr. 2 — erledigt
+
+**Befund geprüft, trifft zu.** `book/24-arztbesuche.md:17` (Titel Nr. 2) lautete: „Willst du zum Facharzt oder in eine Klinik, geh über die Überweisung des Hausarztes oder die Terminservicestelle 116117, nicht über bezahlte Terminvermittler". Das „geh über die Überweisung des Hausarztes" lässt die Überweisung als Zugangsvoraussetzung erscheinen. In Deutschland ist die Überweisung keine solche Voraussetzung: § 76 SGB V trägt die Überschrift „Freie Arztwahl" und lässt die Versicherten unter den zur vertragsärztlichen Versorgung zugelassenen Ärzten frei wählen. Ein Bezug auf die Überweisung ist in Absatz 1 nicht enthalten.
+
+**Erledigt — Änderung (Titel Nr. 2, nur Wörter hinzugefügt, nichts gestrichen):**
+
+- alt (`:17`): „Willst du zum Facharzt oder in eine Klinik, geh über die Überweisung des Hausarztes oder die Terminservicestelle 116117, nicht über bezahlte Terminvermittler"
+- neu (`:17`): „Willst du zum Facharzt oder in eine Klinik, geh über die Überweisung des Hausarztes oder die Terminservicestelle 116117, nicht über bezahlte Terminvermittler; die Überweisung ist ein Weg, keine Pflicht, und die freie Arztwahl bleibt dir"
+
+**Beleg (offen zugängliche Primärquelle, am 2026-10-02 im Volltext gelesen):** § 76 SGB V, Überschrift „Freie Arztwahl", Absatz 1: Die Versicherten können unter den zugelassenen Ärzten frei wählen; eine Überweisung erscheint dort nicht als Zugangsvoraussetzung.
+<https://www.gesetze-im-internet.de/sgb_5/__76.html>
+
+**Anker erhalten:** Auf „Abschnitt 24, Nr. 2" zeigt kein Querverweis (geprüft in `docs/verweis-abgleich.md`; die Abschnittsverweise treffen Nr. 1, 4, 5, 6, 8, 9 und 10). Die Wörter „Facharzt", „Klinik", „Überweisung", „Hausarzt", „Terminservicestelle", „116117" und „bezahlte Terminvermittler" stehen weiter im Titel.
+
+**Marker:** Die bestehende `<!-- Angepasst: … -->`-Zeile unter der Kostenlabel-Zeile wurde am Ende um „Titel geschärft: Überweisung als Weg, keine Pflicht, freie Arztwahl (§ 76 SGB V)" ergänzt; es bleibt bei einer Markerzeile je Eintrag.
+
+**Unverändert:** Kosten, Klartext, Nutzen, Anmerkung, Evidenzstufe A, Quellen und Kostenlabel von Nr. 2. Die übrigen Einträge des Abschnitts wurden nicht angefasst.
+
+### Maschinelle Gates (2026-10-02)
+
+- `grep -c 元 book/24-arztbesuche.md` = **0**; CJK-Suche (`[\x{4e00}-\x{9fff}]`) = **0**.
+- `node tools/check-refs.mjs --check`: **bestanden**, alle 588 Verweise zeigen auf den richtigen Eintrag und tragen einen Anker.
+- `node tools/sync-stats.mjs` wurde **nicht** ausgeführt (Auftrag: kein Lauf in dieser Runde).

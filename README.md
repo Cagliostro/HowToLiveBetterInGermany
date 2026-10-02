@@ -12,7 +12,7 @@ Du musst nicht alles umsetzen: Das hier ist eine nach Kosten und Nutzen sortiert
 [![Online-Suche](https://img.shields.io/badge/Online--Suche-hier%20%C3%B6ffnen-3451b2?style=flat-square)](https://cagliostro.github.io/HowToLiveBetterInGermany/)
 [![Empfehlungen](https://img.shields.io/badge/Empfehlungen-606-18794e?style=flat-square)](#inhalt)
 [![Evidenzstufen](https://img.shields.io/badge/Evidenzstufen-A%20397%20%C2%B7%20B%20158%20%C2%B7%20C%2051-915930?style=flat-square)](#evidenzstufen)
-![Quellen](https://img.shields.io/badge/Quellen-1517%20Links-565a5f?style=flat-square)
+![Quellen](https://img.shields.io/badge/Quellen-1603%20Links-565a5f?style=flat-square)
 [![Lizenz](https://img.shields.io/badge/Lizenz-CC%20BY%204.0-565a5f?style=flat-square)](#lizenz)
 
 ### [Zur Online-Suche](https://cagliostro.github.io/HowToLiveBetterInGermany/) · [Die KI antwortet nach dem Buch (Skill)](skills/lebensentscheidungen/README.md)
@@ -47,7 +47,7 @@ Der Skill für KI-Assistenten läuft in Claude Code und Codex. Nach der Installa
 </td></tr>
 </table>
 
-<sub>Andere Sprachen und Zusatzwerkzeuge werden von anderen gepflegt und können hinterherhinken. Maßgeblich ist der chinesische Originaltext in seinem Repository.</sub>
+<sub>Andere Sprachen und Zusatzwerkzeuge werden von anderen gepflegt und können hinterherhinken. Für sie bleibt der chinesische Originaltext in seinem Repository maßgeblich.</sub>
 
 </div>
 
@@ -182,7 +182,7 @@ Jede Empfehlung trägt eine Evidenzstufe:
 | B | Es gibt Studien, aber keine genaue Zahl; oder es trägt nur eine kleine Stichprobe bzw. eine einzelne Studie |
 | C | Die Erfahrung des Autors oder eine allgemein anerkannte Praxis, ohne direkte Fachliteratur |
 
-Von den 606 Empfehlungen des Buchs haben 397 die Stufe A, 158 die Stufe B und 51 die Stufe C. Weitere 59 sind als Streitfall markiert. Streitige A- und B-Einträge sind mit „Streitfall" markiert und führen die Gegenevidenz auf. Alle Quellen sind Originalarbeiten (Fachaufsätze mit DOI- oder PubMed-Link, oder Berichte amtlicher Stellen wie dem Robert Koch-Institut, dem Gemeinsamen Bundesausschuss oder dem Statistischen Bundesamt), keine Wiedergabe aus zweiter Hand. Eine Zahl, die sich nicht sicher belegen ließ, wurde durch die deutsche Angabe mit Beleg ersetzt oder der Eintrag gestrichen; keine Aussage steht mit einem offenen Prüfvermerk im Text.
+Von den 606 Empfehlungen des Buchs haben 397 die Stufe A, 158 die Stufe B und 51 die Stufe C. Weitere 58 sind als Streitfall markiert. Streitige A- und B-Einträge sind mit „Streitfall" markiert und führen die Gegenevidenz auf. Alle Quellen sind Originalarbeiten (Fachaufsätze mit DOI- oder PubMed-Link, oder Berichte amtlicher Stellen wie dem Robert Koch-Institut, dem Gemeinsamen Bundesausschuss oder dem Statistischen Bundesamt), keine Wiedergabe aus zweiter Hand. Eine Zahl, die sich nicht sicher belegen ließ, wurde durch die deutsche Angabe mit Beleg ersetzt oder der Eintrag gestrichen; keine Aussage steht mit einem offenen Prüfvermerk im Text.
 
 ## Kosten-Nutzen-Stufen
 
@@ -247,7 +247,7 @@ Der Text verwendet möglichst Alltagssprache, aber beim Zitieren von Studien kom
 
 ## Inhalt
 
-1. [Nicht früh sterben](book/01-nicht-frueh-sterben.md): Tod durch äußere Ursachen, Gas und Vergiftungen, Impfungen, Screening, der Zeitverlauf einer psychischen Krise und von Suizidgedanken, was nach einer Rettung bleibt, das Jahr nach einem schweren Sturz, die Rechnung der verbliebenen Niere nach dem Verkauf einer Niere, die Notfallausrüstung der Familie, sichtbares Blut im Urin und andere Signale, die abgeklärt gehören. Bezugsgröße: Gesamtsterblichkeit oder eine bestimmte Todesursache. Langtext: [Notfallausrüstung für die Familie](docs/notfallausruestung.md).
+1. [Nicht früh sterben](book/01-nicht-frueh-sterben.md): Tod durch äußere Ursachen, Gas und Vergiftungen, Impfungen, Screening, der Zeitverlauf einer psychischen Krise und von Suizidgedanken, was nach einer Rettung bleibt, das Jahr nach einem schweren Sturz, die Notfallausrüstung der Familie, sichtbares Blut im Urin und andere Signale, die abgeklärt gehören. Bezugsgröße: Gesamtsterblichkeit oder eine bestimmte Todesursache. Langtext: [Notfallausrüstung für die Familie](docs/notfallausruestung.md).
 2. [Nicht langsam sterben](book/02-nicht-langsam-sterben.md): Rauchen und Alkohol, Bewegung, Schlaf, Ernährung (natriumreduziertes Salz, Nüsse, Vollkorn, verarbeitetes Fleisch, loses selbstgepresstes Erdnussöl, Pflanzenöl statt Schweineschmalz), langes Sitzen, dazu konkrete Wege aus dem Rauchen und dem Alkohol (Raucherentwöhnungsmittel, der Tag des Aufhörens, Entwöhnungsambulanz und Hotline, E-Zigarette, Alkoholentzug nie allein durchstehen), die Länge des Mittagsschlafs, wie du nach zu wenig Schlaf aufholst, die Rechnung der Nachtschichtjahre. Bezugsgröße: Gesamtsterblichkeit oder eine bestimmte Todesursache. Langtext: [Innere Uhr und Nachtschicht](docs/innere-uhr-und-nachtschicht.md).
 3. [Keine Energie verschwenden](book/03-keine-energie-verschwenden.md): Schlaf, Unterbrechungen, Multitasking, Entscheidungsmüdigkeit, Schulden gegenüber anderen, welche Erwartung du mitbringen solltest, wenn du mit Behörden zu tun hast. Bezugsgröße: Kraft und Zeit.
 4. [Keine Zeit verschwenden](book/04-keine-zeit-verschwenden.md): Dinge ohne Ertrag, versunkene Kosten, Aufschieben (die Erklärung über das Gefühl, die Umgebung ändern, Verpflichtungsvorrichtungen, wie lange eine Gewohnheit braucht, Selbsthilfematerial), Besprechungen, Pendeln. Bezugsgröße: Zeit.

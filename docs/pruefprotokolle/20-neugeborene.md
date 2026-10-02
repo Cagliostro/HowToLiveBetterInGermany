@@ -122,3 +122,45 @@ und im Volltext gelesen.
   (Nr. 2 wurde neu betitelt); gleiches für die Kontextspalte des Verweises in Nr. 12 auf Nr. 4. Der
   Anker des Nr.-2-Verweises („Hepatitis-B-Impfung") steht im neuen Titel. Die generierte Datei wurde
   nicht von Hand geändert.
+
+## Zweite Prüfung (2026-10-02)
+
+Anlass: GitHub-Issue #68 (zweite Prüfung; Belegstelle am Text verifiziert). Der Befund wurde am Text
+geprüft, er trifft zu. Geändert wurde nur `book/20-neugeborene.md`.
+
+### Befund — chinesische Beispiele bei den großen Anschaffungen
+
+- **Verifiziert (Nr. 11):** In der Anmerkung stand wörtlich „Wochenbett-Zentren, Frühförderkurse und
+  Baby-Schwimmbäder"; im Klartext derselben Nr. stand „Bei großen Beträgen wie Wochenbett-Zentren und
+  Frühförderkursen". Wochenbett-Zentren (月子中心) sind eine chinesische Einrichtung und in
+  Deutschland kaum verbreitet; eine „Frühförderung" ist hier der kostenfreie öffentlich-rechtliche
+  Anspruch für Kinder mit Behinderung nach § 46 SGB IX und kein privat bezahlter Kurs.
+- **Geprüft und belegt:** Familienportal des Bundes (Bundesministerium für Familie, Senioren, Frauen
+  und Jugend), „Wer hilft mir nach der Geburt?" — nennt als Kursangebote nach der Geburt wörtlich
+  „Babymassage, Babyschwimmen und Babygymnastik", dazu „Rückbildungsgymnastik oder
+  Beckenbodentraining", „Stilltreffs beziehungsweise Stillgruppen" und „angeleitetes Spielen und
+  Bewegung mit Babys".
+  <https://familienportal.de/familienportal/lebenslagen/schwangerschaft-geburt/gesundheit-und-beratung/wer-hilft-mir-nach-der-geburt--126020>
+  — am 2026-10-02 geladen, offen zugänglich (keine Bezahlschranke, keine Anmeldung).
+- **Gesetzt:** Klartext „Bei großen Beträgen wie Babykursen für Babymassage oder Babyschwimmen warte
+  erst 24 Stunden und entscheide dann." Anmerkung „Babykurse wie Babymassage, Babyschwimmen und
+  Babygymnastik empfiehlt dieses Buch weder noch lehnt es sie ab." Die Empfehlung bleibt (Reihenfolge
+  leihen, gebraucht, neu; 24-Stunden-Bedenkpause), nur die Beispiele sind deutsche.
+- Der frühere `Währung`-Marker der Nr. 11 ist durch einen `Angepasst`-Marker ersetzt, der beide
+  Änderungen benennt (Beispiele und Währung). Evidenzstufe (C) und Quellen-Spalte bleiben unverändert;
+  in der Quellen-Spalte stand keine chinesische Norm, der Beleg steht im Marker nach REQ-67.
+
+### Prüfläufe
+
+- `grep -c 元` in der Kapiteldatei = **0**; CJK-Suche (`grep -cP '[\x{4e00}-\x{9fff}]'`) = **0**.
+- `node tools/check-plain.mjs` = **beanstandet 0** (buchweit: Länge 0, Satzlänge 0, Jargon 0,
+  neuezahl 0, Leerformel 0).
+- `node tools/check-refs.mjs --check` = **bestanden** (588 Verweise). Keine Titeländerung, kein
+  Verweis betroffen.
+- Marker im Kapitel jetzt **8 × `Angepasst`** (Nr. 1 weiterhin `Währung`); Nr. 11 trägt keinen
+  `Währung`-Marker mehr.
+
+### Offene Punkte
+
+- Keine. Der Befund ist erledigt. `node tools/sync-stats.mjs` und die Nachführung von
+  `docs/verweis-abgleich.md` laufen wie verabredet zentral am Wellenende, nicht hier.

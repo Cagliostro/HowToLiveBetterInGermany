@@ -282,3 +282,97 @@ aus dem Titel von Nr. 21.
 
 Geprüft: `grep -c 元` = 0, CJK (U+4E00–U+9FFF) = 0, `check-plain.mjs` für Abschnitt 13 = 0 Beanstandungen.
 Nachverifikation 2026-10-01 nach den zwei Korrekturen erneut geprüft: unverändert 0 / 0 / 0.
+
+## Zweite Prüfung (2026-10-02)
+
+Issues #64, vier Befunde zu Abschnitt 13, jeder am Text geprüft. Alle Ersetzungen liegen ausschließlich in
+`book/13-notfaelle.md`; der Marker wurde jeweils direkt unter der Kostenlabel-Zeile ergänzt. Die Belege sind
+offen zugänglich (Kassenärztliche Vereinigungen/116117.de, BfR, KWF, BfN/Rote-Liste-Zentrum) und wurden mit
+WebFetch am Original geprüft. `node tools/check-refs.mjs --check` lief nach den Titeländerungen durch (590
+Verweise, bestanden); `node tools/check-plain.mjs` meldet für Abschnitt 13 weiter 0 Beanstandungen.
+
+| Nr. | Befund | Ergebnis | Fundstelle |
+|---|---|---|---|
+| 6 | „augenärztliche Notaufnahme" als deutsche Einrichtung | Titel additiv um den deutschen Weg ergänzt, Kosten angepasst; Klartext unverändert | `book/13-notfaelle.md:55,57,58` |
+| 19 | US-Statistik ohne deutsche Zahl | deutsche BfR-Zahl ergänzt (Klartext, Nutzen, Quellen) | `book/13-notfaelle.md:182,184,185,187` |
+| 27 | „Wüste, Steppe" für Deutschland kaum einschlägig | Titel additiv um „Wald" ergänzt, Anmerkung um Wald/Moor und Rettungspunkte | `book/13-notfaelle.md:260,262,268` |
+| 31 | Bärenverhalten, Bären in Deutschland | Titel additiv um „Wölfe" ergänzt, Anmerkung um den BfN-Status; Klartext unverändert | `book/13-notfaelle.md:300,302,308` |
+
+### Nr. 6 — „augenärztliche Notaufnahme" (Befund 1)
+
+- Befund: Der Titel endete auf „… noch am selben Tag in die augenärztliche Notaufnahme". Eine eigene
+  augenärztliche Notaufnahme kennt das deutsche Versorgungssystem nicht; zuständig sind die Augenklinik und
+  der augenärztliche Bereitschaftsdienst.
+- Geprüft: Der Titelanker „augenärztliche Notaufnahme" muss erhalten bleiben (Verweis in
+  `book/06-die-negativliste.md:162` sowie die Regel, Titel nur zu ergänzen). Der deutsche Weg wurde deshalb
+  ergänzt und nicht ersetzt.
+- Ersetzt/ergänzt: Titel „… noch am selben Tag in die augenärztliche Notaufnahme, in Deutschland heißt das
+  Augenklinik oder augenärztlicher Bereitschaftsdienst über die 116117"; Kosten „In der Augenklinik oder beim
+  augenärztlichen Bereitschaftsdienst wird der Augendruck gemessen und die Vorderkammer untersucht …".
+- Beleg: Der ärztliche Bereitschaftsdienst ist bundesweit unter der kostenfreien 116117 erreichbar,
+  lebensbedrohlich über die 112 (<https://www.116117.de/de/aerztlicher-bereitschaftsdienst.php>, geöffnet);
+  die Kassenärztlichen Vereinigungen führen einen augenärztlichen Bereitschaftsdienst
+  (<https://www.kvbb.de/patienten/bereitschaftsdienst/fachaerztlich>, geöffnet: Überschrift „Augenärztlicher
+  Bereitschaftsdienst", „unter der bundesweiten kostenfreien Rufnummer 116117"); dass schwere Augennotfälle
+  wie das akute Glaukom in der Augenklinik versorgt werden, nennt die Augenklinik des Klinikums Bremen
+  (<https://www.sjs-bremen.de/unsere-kompetenzen/augenheilkunde/augenaerztlicher-notdienst.html>, geöffnet:
+  „akutes Glaukom (Grüner Star)" unter den stationär zu behandelnden Fällen, Bereitschaftsdienst „über die
+  bundesweite Rufnummer 116 117").
+- Marker: `book/13-notfaelle.md:57` (ergänzt). Quellen- und Evidenzspalte unverändert, weil keine chinesische
+  Norm ersetzt wurde (die Wuhan-Zahlen waren bereits in einer früheren Runde ersetzt).
+- Klartext unverändert (41 Wörter); er nannte den Begriff nicht.
+
+### Nr. 19 — fehlende deutsche CO-Zahl (Befund 2)
+
+- Befund: Die Nutzen-Zeile nannte nur US-Zahlen (über 400 Tote); die deutsche Zahl fehlte.
+- Geprüft: Es gibt eine überprüfbare amtliche deutsche Angabe. Das BfR schreibt wörtlich: „Kohlenmonoxid
+  verursacht in Deutschland jedes Jahr mehrere tausend Vergiftungen, darunter mehrere hundert Todesfälle"
+  (Presseinformation Nr. 38/2022 vom 13.10.2022, <https://www.bfr.bund.de/presseinformation/kohlenmonoxid-unsichtbare-gefahr-beim-heizen-mit-holz/>, geöffnet).
+  Die Zahl ist ausgeschrieben (keine Ziffer), die Klartext-Ziffernregel greift damit nicht.
+- Ersetzt/ergänzt: Klartext-Schlusssatz „In den USA sterben jedes Jahr über 400 Menschen an einer
+  Kohlenmonoxidvergiftung." → „In Deutschland sterben daran jedes Jahr mehrere hundert Menschen."; Nutzen um
+  einen deutschen Satz ergänzt; Quellen um die BfR-Angabe ergänzt (US-Zahl durch deutsche Primärquelle
+  ersetzt, daher zulässig).
+- Marker: `book/13-notfaelle.md:182` (ergänzt). Evidenzstufe B unverändert.
+- Klartext jetzt 69 Wörter (vorher 72), längster Satz 23.
+
+### Nr. 27 — „Wüste, Steppe" (Befund 3)
+
+- Befund: „Wüste, Steppe" ist für Deutschland kaum einschlägig.
+- Geprüft: Das deutsche Gegenstück ist der große zusammenhängende Wald und das Moor, in dem Wege sich kreuzen
+  und der Empfang aussetzt. Dort gibt es forstliche Rettungspunkte: „definierte Orte in räumlicher Nähe zum
+  Wald", markiert „mit fest im Wald montierten Schildern oder virtuell, d.h. als reine Koordinatenangabe", die
+  das Auffinden des Unfallorts erleichtern; „Das KWF sammelt bundesweit die Informationen zu Rettungspunkten"
+  (Kuratorium für Waldarbeit und Forsttechnik e.V., <https://kwf2020.kwf-online.de/rettungspunkte>, geöffnet).
+- Ersetzt/ergänzt: Titel additiv „Verläufst du dich in Wüste, Steppe, Wald oder menschenleerem Gebiet …";
+  Anmerkung um die zwei Sätze zu Wald/Moor und Rettungspunkten ergänzt. Klartext und Nutzen unverändert.
+- Marker: `book/13-notfaelle.md:262` (ergänzt). Quellen- und Evidenzspalte unverändert (keine chinesische Norm
+  ersetzt; das Beidou-Gerät war bereits früher entfernt), Beleg steht im Marker. Evidenzstufe C unverändert.
+- Klartext unverändert (65 Wörter).
+
+### Nr. 31 — Bärenverhalten (Befund 4)
+
+- Befund: Der Eintrag behandelt vor allem Bärenverhalten; Bären sind in Deutschland kaum einschlägig.
+- Geprüft: Das Bundesamt für Naturschutz führt den Braunbären in der Roten Liste als „Ausgestorben oder
+  verschollen"; der letzte Nachweis liegt im 19. Jahrhundert, und im Jahr 2006 wanderte „ein einzelner Bär von
+  Italien her nach Bayern ein" und „wurde im Rahmen einer Ausnahmegenehmigung letal entnommen"
+  (Rote-Liste-Zentrum, <https://www.rote-liste-zentrum.de/detailseite/?species_uuid=9cae61e9-1348-4c3d-8802-89ba301fab93>, geöffnet).
+- Ersetzt/ergänzt: Titel additiv „Triffst du auf Bären, Wölfe, Wildschweine oder eine Horde wilder Hunde …";
+  Anmerkung um den deutschen Status ergänzt. Der Klartext bleibt bärenbezogen, weil er die Nutzen-Zeile (NPS-
+  Wortlaut) widerspiegelt und mit 79 von 80 Wörtern am Limit steht; kein Grund für eine Längenausnahme, daher
+  keine Änderung.
+- Marker: `book/13-notfaelle.md:302` (ergänzt). Quellen- und Evidenzspalte unverändert (die chinesische
+  Tollwut-Vorschrift war bereits früher entfernt), Beleg steht im Marker. Evidenzstufe B unverändert.
+- Klartext unverändert (79 Wörter).
+
+### Offene Punkte
+
+- Nr. 6: Es gibt keine einzelne Bundes-Seite, die „augenärztlicher Bereitschaftsdienst" und „Augenklinik"
+  gemeinsam nennt. Der Marker fasst deshalb zwei offene Quellen zusammen (116117.de für die bundesweite
+  Nummer, KV Berlin für den augenärztlichen Dienst, Klinikum Bremen für die Augenklinik bei schweren Fällen).
+- Nr. 31: Der Klartext bleibt aus Längen- und Spiegelgründen rein bärenbezogen; die deutsche Einordnung steht
+  in Titel und Anmerkung. Falls der Auftraggeber den Klartext deutsch ausgerichtet haben will, wäre das eine
+  eigene Runde (Kürzung der Bärenstellen nötig).
+
+Erneut geprüft 2026-10-02: `grep -c 元` = 0, `check-refs.mjs --check` bestanden (590 Verweise),
+`check-plain.mjs` für Abschnitt 13 = 0 Beanstandungen. Kein `sync-stats.mjs`, kein Commit, kein Push.

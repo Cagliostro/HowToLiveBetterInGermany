@@ -91,7 +91,10 @@ const RANGE = /^\s*(\d+)\s*(?:bis)\s*(?:Nr\.\s*)?(\d+)\s*$/;
 // an der geänderten Titelspalte auf.
 const nums = s => {
   const out = [];
-  for (const part of s.split(/,|\s+und\s+/)) {
+  for (const raw of s.split(/,|\s+und\s+/)) {
+    // Die SPEC lässt hinter «und» ein zweites «Nr.» zu («11 und Nr. 14»); hier wird es entfernt,
+    // sonst macht Number(«Nr. 14») daraus NaN und der Verweis fällt still weg.
+    const part = raw.replace(/^\s*Nr\.\s*/, '');
     const r = RANGE.exec(part);
     if (r) {
       const [a, b] = [Number(r[1]), Number(r[2])];
@@ -115,6 +118,7 @@ const out = [];
 const problems = [];
 const suspects = [];
 const weak = [];
+const bracketLoose = [];
 let total = 0;
 
 // Abkürzungspunkte sind keine Satzenden. Vor dem Zerschneiden werden sie durch einen
@@ -226,7 +230,7 @@ for (const { f, dir, isDoc } of targets) {
       const target = sections.get(Number(m[1]));
       for (const [x, range] of nums(m[2])) {
         const title = target?.titles.get(x);
-        rows.push({ from: unit, range, ref: `Abschnitt ${m[1]}, Nr. ${x}`, title, line: i + 1, ctx: ctxOf(line, m.index), narrow: narrowOf(line, m.index), after: afterOf(line, m.index) });
+        rows.push({ from: unit, range, ref: `Abschnitt ${m[1]}, Nr. ${x}`, title, line: i + 1, ctx: ctxOf(line, m.index), narrow: narrowOf(line, m.index), after: afterOf(line, m.index), sec: Number(m[1]), nr: x });
         if (!title) problems.push(`${f}:${i + 1} ${unit} verweist auf «Abschnitt ${m[1]}, Nr. ${x}» — diesen Eintrag gibt es in dem Abschnitt nicht`);
       }
     }
@@ -249,7 +253,7 @@ for (const { f, dir, isDoc } of targets) {
       for (const m of qs.matchAll(new RegExp(`(?:siehe|vgl\\.?|vergleiche)\\s+Nr\\.\\s*(${SPEC})`, 'g'))) {
         for (const [x, range] of nums(m[1])) {
           const title = self.titles.get(x);
-          rows.push({ from: unit, range, quellen: true, ref: `Abschnitt ${num}, Nr. ${x}`, title, line: i + 1, ctx: ctxOf(qs, m.index), narrow: narrowOf(qs, m.index), after: afterOf(qs, m.index) });
+          rows.push({ from: unit, range, quellen: true, ref: `Abschnitt ${num}, Nr. ${x}`, title, line: i + 1, ctx: ctxOf(qs, m.index), narrow: narrowOf(qs, m.index), after: afterOf(qs, m.index), sec: num, nr: x });
           if (!title) problems.push(`${f}:${i + 1} ${unit} verweist im Quellenfeld auf «Nr. ${x}» — der Abschnitt hat nur ${self.titles.size} Einträge`);
         }
       }
@@ -292,7 +296,7 @@ for (const { f, dir, isDoc } of targets) {
       if (/^\s*(?:von|aus)\s+\d{4}\b/.test(stripped.slice(m.index + m[0].length))) continue;
       for (const [x, range] of nums(m[1])) {
         const title = self.titles.get(x);
-        rows.push({ from: unit, range, ref: `Abschnitt ${num}, Nr. ${x}`, title, line: i + 1, ctx: ctxOf(stripped, m.index), narrow: narrowOf(stripped, m.index), after: afterOf(stripped, m.index) });
+        rows.push({ from: unit, range, ref: `Abschnitt ${num}, Nr. ${x}`, title, line: i + 1, ctx: ctxOf(stripped, m.index), narrow: narrowOf(stripped, m.index), after: afterOf(stripped, m.index), sec: num, nr: x });
         // Ein Verweis über die Eintragszahl des Abschnitts hinaus ist meist eine Normstelle,
         // die als Eintragsverweis gelesen wurde. Zur Sichtung ausgeben.
         if (!title) problems.push(`${f}:${i + 1} ${unit} verweist auf «Nr. ${x}» — der Abschnitt hat nur ${self.titles.size} Einträge (vielleicht eine Normstelle)`);
@@ -328,7 +332,48 @@ for (const { f, dir, isDoc } of targets) {
   // Teilstrecken-Fenster genügen 6. Beide Werte sind gegen Abschnitt 15 kalibriert (die
   // Messwerte stehen in der --suspect-Ausgabe, siehe dort).
   const WIDE = 8, NARROW = 6;
+
+  // Klammer-Anker gegen den Zieltitel halten: «siehe Nr. 16 (Darlehen und Bürgschaft)» — die
+  // Wörter in der Klammer stammen aus dem Titel des Zieleintrags. Die Umfeldsuche unten fängt
+  // einen verrutschten Verweis nicht, wenn die eingefügte Nummer die Referenz auf den
+  // nächstfolgenden Eintrag geschoben hat und der Satz dort zufällig wieder Ankerwörter trifft:
+  // am 2026-10-01 meldete `--check` «bestanden», obwohl drei Verweise in den Abschnitten 8 und 9
+  // genau so verrutscht waren (Abschnitt 9 Nr. 21 statt 20, Abschnitt 8 Nr. 28 statt 27 und
+  // Nr. 38 statt 37) — Nummer und Klammer waren stehen geblieben, nur der Zieleintrag war ein
+  // anderer.
+  // Nicht jede Klammer ist ein Anker; viele sind freie Umschreibungen für den Leser und passen zu
+  // keinem Titel wörtlich (58 solche Stellen, gemessen am 2026-10-01). Deshalb greift die harte
+  // Prüfung nur, wenn die Klammerwörter stattdessen auf den **Nachbareintrag** passen — das ist
+  // das Muster des Verrutschens. Die übrigen Abweichungen stehen als Hinweis in `--suspect`.
+  const BRACKET = /^\s*\(([^)]*)\)/;
+  const BRACKET_STOP = new Set(['und', 'oder', 'für', 'eine', 'einen', 'einer', 'eines', 'in', 'im',
+    'der', 'die', 'das', 'dem', 'den', 'des', 'zur', 'zum', 'von', 'mit', 'bei', 'auf', 'aus',
+    'nach', 'vor', 'über', 'siehe', 'nicht', 'sich', 'dann', 'wenn', 'auch']);
+  const bracketWordsOf = after => {
+    const b = BRACKET.exec(after);
+    if (!b) return null;
+    return b[1].split(/[^A-Za-zÄÖÜäöüß0-9]+/)
+      .filter(w => w.length >= 4 && !/^\d+$/.test(w) && !BRACKET_STOP.has(w.toLowerCase()));
+  };
+
   for (const r of rows) {
+    // Klammer-Anker prüfen, bevor die Ankerprüfung unten greift: sie läuft auch für Verweise,
+    // die über das Umfeld einen Anker haben (und deshalb unten durchgehen würden).
+    if (r.title && !r.range && r.after) {
+      const words = bracketWordsOf(r.after);
+      if (words && words.length && !words.some(w => longest(w, r.title) >= 4)) {
+        const sect = sections.get(r.sec);
+        const neighbour = sect && [r.nr - 1, r.nr + 1]
+          .filter(n => sect.titles.has(n))
+          .find(n => words.some(w => longest(w, sect.titles.get(n)) >= 6));
+        if (neighbour != null) {
+          problems.push(`${f}:${r.line} ${r.from} → „${r.ref}" Klammer-Anker «${words.join(' ')}» passt zum Nachbareintrag Nr. ${neighbour} (${sect.titles.get(neighbour).slice(0, 40)}…) statt zum Zieleintrag — der Verweis ist vermutlich um eins verrutscht`);
+        } else {
+          bracketLoose.push(`${f}:${r.line} ${r.from} → „${r.ref}" Klammer-Anker «${words.join(' ')}» steht nicht wörtlich im Zieltitel (${r.title.slice(0, 40)}…)`);
+        }
+      }
+    }
+
     // Quellen-Verweise («siehe Nr. N» im Quellenfeld) sind von der Ankerprüfung befreit: die
     // kurze Zitatzeile trägt meist keinen Titelwort-Anker, und die Anforderung würde den Text
     // zur Klammerergänzung zwingen. Sie bleiben trotzdem in der Tabelle, ein Verrutschen fällt
@@ -426,8 +471,14 @@ if (process.argv.includes('--suspect') && weak.length) {
   console.log('');
 }
 
+if (process.argv.includes('--suspect') && bracketLoose.length) {
+  console.log(`Klammer-Anker trifft den Zieltitel nicht wörtlich (${bracketLoose.length} Stellen; meist eine freie Umschreibung, kein Fehler — ein Verrutschen auf den Nachbareintrag würde dagegen als Fehler gemeldet):`);
+  for (const s of bracketLoose) console.log('  ' + s);
+  console.log('');
+}
+
 if (CHECK_ONLY) {
-  const fatal = problems.filter(p => p.includes('diesen Eintrag gibt es in dem Abschnitt nicht') || p.includes('verweist auf sich selbst') || p.includes('relativen Verweis'));
+  const fatal = problems.filter(p => p.includes('diesen Eintrag gibt es in dem Abschnitt nicht') || p.includes('verweist auf sich selbst') || p.includes('relativen Verweis') || p.includes('Klammer-Anker'));
   for (const p of fatal) console.log('  ' + p);
   // Eine nackte Nummer (im Umfeld kein Wort, das zum Ziel-Titel passt) ist ebenfalls ein Fehler:
   // rutscht so ein Verweis, sieht es niemand. Die Behebung ist ein Anker — «siehe Nr. 16

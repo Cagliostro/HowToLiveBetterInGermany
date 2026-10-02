@@ -168,3 +168,54 @@ Was konkret geändert wurde:
 Länge nach der Änderung (Maßstab: Klartext 2–4 Sätze, 50–70 Wörter, Grenze 80; Anmerkung 900 Zeichen = Signal): Klartext 4 Sätze / 52 Wörter, längster Satz 18 Wörter; Anmerkung 776 Zeichen, kein Link; Eintrag 9 Zeilen (Grenze 10).
 
 **Was der Beleg nicht hergibt und deshalb nicht geschrieben wurde:** Die BfR-Seite gruppiert die Höchstgehalte unter „Nüsse/Saaten, Trockenfrüchte, Getreide und -erzeugnisse, Mais, Reis, Gewürze, Säuglings- und Kleinkindernahrung, Rohmilch" — **Raps, Sonnenblume und Olive stehen dort nicht als eigene Gruppe**. Ein Satz „Rapsöl, Sonnenblumenöl und Olivenöl bilden kein Aflatoxin" wäre über den Beleg hinausgegangen und wurde verworfen; der Klartext listet stattdessen genau die Lebensmittelgruppen, für die die Verordnung Höchstgehalte setzt, und nennt Rapsöl nur als das, was die DGE tatsächlich empfiehlt. Aus demselben Grund steht Sonnenblumenöl nicht mehr im Text — die DGE nennt es nicht.
+
+## Zweite Prüfung (2026-10-02) — Issue #56 (Abschnitt 02) und Issue #79 (Kohortenquellen)
+
+Auftrag: die Befunde der Issues #56 und #79 ausschließlich in `book/02-nicht-langsam-sterben.md`. Maßstab sind die Zielrichtung und die Regeln aus `CLAUDE.md` (REQ-70 nur offene Primärquellen, REQ-68 kein `元`, REQ-66/67 `Angepasst`-Marker unter dem Kostenlabel, Titel nur Wörter hinzufügen, Klartext 2–4 Sätze / 50–70 Wörter, höchstens 10 Zeilen je Eintrag). Kein `sync-stats.mjs`, kein Commit.
+
+### Issue #79 — die China-Kohorten dieses Abschnitts (Äquivalenzsuche)
+
+Jede der fünf genannten Quellen wurde mit WebSearch auf eine deutsche/europäische Primärquelle zur **selben Frage** geprüft; die Kandidaten wurden anschließend mit dem Europe-PMC-REST-Datensatz (`resultType=core`) auf Titel, Jahr, DOI/PMID und **offenen Volltext** geprüft.
+
+| Stelle | Bisherige chinesische Quelle | Ergebnis der Äquivalenzsuche | Umgesetzt |
+|---|---|---|---|
+| Nr. 26 Tee — Nutzen `:248`, Quellen `:250` | Wang X u. a. (2020), China-PAR, DOI 10.1177/2047487319894685 | Eine europäische Primärkohorte zur selben Frage (Tee → Sterblichkeit) **gibt es**: Inoue-Choi M u. a. (2022), UK Biobank, Annals of Internal Medicine 175(9):1201-1211, DOI 10.7326/M22-0041, PMID 36037472, **offener Volltext PMC10623338** (HTTP 200). 498.043 Personen, Median 11,2 Jahre; HR 2–3 Tassen 0,87 (0,84–0,91), 4–5 Tassen 0,88, 6–7 Tassen 0,88; invers für Herz-Kreislauf, ischämische Herzkrankheit, Schlaganfall. | **ersetzt** (Quellen-Spalte, Nutzen- und Klartext-Zahlen, Marker) |
+| Nr. 1 Rauchen — Quellen `:14` | Chen Z u. a. (2015), Lancet, DOI 10.1016/S0140-6736(15)00340-2 | Eine deutsche prospektive Kohorte in ausreichender Größe gibt es nicht; `gbe-bund.de` rechnet die tabak-attributable Sterblichkeit mit US-Daten (CPS II). Die nächsten europäischen Belege beantworten eine andere Frage: das CHANCES-Konsortium ist eine **gepoolte** Analyse (Gesamtmortalität aktuell vs. nie 2,03, 1,77–2,32), Pirie u. a. (2013, UK Million Women) betrifft nur Frauen. Beide würden den Stadt-Land-Vergleich (1,65/1,22) und die Rauchstopp-Aussage verlieren. | **bleibt**, Hinweis „Population chinesisch" in der Anmerkung `:16`; dem Auftraggeber vorgelegt |
+| Nr. 30 feste Brennstoffe — Quellen `:291` | Yu K u. a. (2018), JAMA, DOI 10.1001/jama.2018.2151 | **Keine** europäische Kohorte zu Hausbrand von Kohle/Holz → Sterblichkeit gefunden (Kochen mit Kohle/Holz ist in Europa kaum verbreitet). | **bleibt**, Hinweis „Population chinesisch" in der Anmerkung `:290`; Nutzen-Wortlaut `:289` ohne „In China" |
+| Nr. 41 Erdnussöl — Quellen `:395` | Lei J u. a. (2024), DOI 10.3389/fpubh.2024.1484414; Zhong Y u. a. (2024), DOI 10.1080/16549716.2024.2336312 | **Keine** europäische Kohorte zu Aflatoxin in selbstgepresstem Öl → Geburtsausgänge/Leberwerte gefunden; Aflatoxin ist in der EU ein Regelungs-, kein Kohortenthema. | **bleiben**, Hinweis „Population chinesisch" in der Anmerkung `:396` |
+
+**Zur Auswahl bei Tee.** Für dieselbe Frage gibt es auch europäische Belege mit **gegenteiligem** Ergebnis: die EPIC-NL-Kohorte (de Koning Gans u. a. 2010, DOI 10.1161/ATVBAHA.109.201939) fand keine Sterblichkeitsbeziehung. Die Wahl der europäischen Quelle entscheidet hier also über die Aussage. Genommen wurde die UK Biobank, weil sie die **Frage des Eintrags** (Tee-Menge → Gesamt- und Herz-Kreislauf-/Schlaganfall-Sterblichkeit) direkt und offen beantwortet; die gegenteilige europäische Evidenz ist in der Anmerkung als Streitfall erhalten (gepoolte europäische Kohorten: 1,12 bzw. 1,00).
+
+### Issue #56 — die Befunde
+
+| Stelle | Befund | Umgesetzt (alt → neu) |
+|---|---|---|
+| `:248` Nutzen (Tee) | China-Statistik (China-PAR, 100.900 Personen) | geändert → UK Biobank, 498.043 Personen, 11,2 Jahre, HR 0,87/0,88 (s. o.) |
+| `:250` Quellen (Tee) | China-PAR-Fundstelle | geändert → Inoue-Choi u. a. (2022), PMC10623338 (offen); die übrigen Quellen bleiben |
+| `:251` Anmerkung (Tee) | „unter den chinesischen Männern …" | geändert → „Teetrinker unterscheiden sich in anderen Gewohnheiten von Nichttinkern"; Bevölkerungs-Vergleich bleibt als Streitfall |
+| `:287` Nutzen (feste Brennstoffe) | „In China gibt es eine Studie …" | geändert → „Eine Studie zu chronischen Krankheiten begleitete Menschen langfristig …"; Hinweis „Population chinesisch" in `:290` |
+| `:234` Titel (Vollkorn) | Leitbild „weißer polierter Reis" | geändert, nur Wörter ergänzt → „Einen Teil des weißen Mehls, **Weißbrots** und weißen polierten Reises durch Vollkorn ersetzen"; Kosten `:238` und Beleg DGE (2024) |
+| `:143` Kosten (Schlägersport) | „Platzgebühr je Mal ein paar Euro" | geändert → deutscher Vereinsbeitrag (10–30 Euro/Monat, 70–250 Euro/Jahr) und Hallenmiete; Marker `:143`; das `Währung`-Label ist entfallen, weil der Betrag neu gesetzt ist |
+| `:47`/`:52`/`:53` (Rauchfrei-Telefon) | Träger der BZgA | geändert → das **Bundesinstitut für Öffentliche Gesundheit (BIÖG, früher BZgA)**, Sitz Köln; Telefonnummer 0800 8 31 31 31 und Beratungszeiten unverändert. Beleg: <https://www.bioeg.de/> und <https://rauchfrei-info.de/aufhoeren/unterstuetzung-beim-rauchstopp/telefonberatung/> (beide offen, HTTP 200) |
+
+### Weitere Änderungen an Nr. 26 (nicht in #56 genannt)
+
+- Zwei **„In China"** aus den Schimmelpilz-Sätzen der Anmerkung `:253` entfernt („Eine Untersuchung prüfte 158 Proben dunklen Tees", „Auf die übrige Trinkmenge gerechnet"). Die **Messwerte bleiben stehen** (158 Proben, 2 mit Aflatoxin, 352 Proben/16 Gifte) nach der Kapitelregel „Studiendaten und Messwerte bleiben stehen"; entfernt wurde nur die China-Angabe. Grund: `CLAUDE.md` Zeile 12 („Keine China-Angaben im laufenden Text", gilt für Kosten, Klartext, Nutzen und Anmerkung).
+- Die chinesischen Fundstellen der Schimmelpilz-Untersuchungen (Cui 2020, Zhou 2022) **bleiben** in der Quellen-Spalte, weil ihre Zahlen nicht ersetzt wurden (`CLAUDE.md` Zeile 11).
+
+### Marker (Stand)
+
+- **Nr. 1**: `Währung`-Marker (Beträge) **und** neuer `Angepasst`-Marker (Bevölkerungsherkunft in die Anmerkung verschoben).
+- **Nr. 5**: bestehender `Angepasst`-Marker aktualisiert (BZgA → BIÖG).
+- **Nr. 15**: das `Währung`-Label ist durch einen `Angepasst`-Marker ersetzt (der Betrag ist neu gesetzt, nicht nur umgerechnet).
+- **Nr. 25**: neuer `Angepasst`-Marker (Leitbild weißer Reis → Weißmehl/Weißbrot).
+- **Nr. 26**: bestehender `Angepasst`-Marker erweitert (China-PAR → UK Biobank).
+- **Nr. 30**: bestehender `Angepasst`-Marker erweitert (Bevölkerungsherkunft aus dem Nutzen-Text entfernt).
+- Kein `元` im ganzen Abschnitt (0).
+
+### Gate-Ergebnisse
+
+- `node tools/check-refs.mjs --check` → „Verweisprüfung bestanden: alle 590 Verweise zeigen auf den richtigen Eintrag und tragen einen Anker" (Exit 0). Der Abschnitt hat weiterhin 42 Einträge und 406 Zeilen; kein Eintrag überschreitet die 10-Zeilen-Grenze.
+- `grep -c 元 book/02-nicht-langsam-sterben.md` → **0**.
+- `node tools/check-plain.mjs book/02-nicht-langsam-sterben.md` → 607 Klartext-Zeilen, 0 Beanstandungen (nur zur Kontrolle).
+- `sync-stats.mjs` wurde auftragsgemäß **nicht** ausgeführt (Zahlen in README/index.html/og.html bleiben stehen).

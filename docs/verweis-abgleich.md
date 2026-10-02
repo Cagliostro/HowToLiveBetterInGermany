@@ -37,7 +37,7 @@ Verweis «… des Darlehens siehe Nr. 15 dieses Abschnitts» auf den neuen Eintr
 selbst erklären» verrutscht, und ein zwei Teilstrecken entferntes «Sie zahlen selbst» hatte
 den Anker gespielt; `--check` meldete damals «bestanden».
 
-Insgesamt 585 Verweise.
+Insgesamt 586 Verweise.
 
 ## 01-nicht-frueh-sterben
 
@@ -56,7 +56,7 @@ Insgesamt 585 Verweise.
 | Nr. 29 | Abschnitt 2, Nr. 1 | Raucherentwöhnung, je früher, desto besser | … Rauchen aufhören siehe … |
 | Nr. 29 | Abschnitt 2, Nr. 33 | Den BMI zwischen 20 und 25 halten und bei Übergewicht abnehmen | …ören siehe Abschnitt 2, Nr. 1 (Rauchen aufhören, je früher, desto besser), Abnehmen siehe … |
 | Nr. 29 | Abschnitt 1, Nr. 7 | Blutdruck messen, bei hohem Wert mit Medikamenten auf den Zielwert senken | …, Abnehmen siehe Abschnitt 2, Nr. 33 (den BMI zwischen 20 und 25 halten), Blutdruck siehe … |
-| Nr. 29 | Abschnitt 28, Nr. 4 | Kauf keine Abnehmpräparate, die schnelles Abnehmen versprechen — keine Schlankheitspillen, Diätkaffee, Schlankheitsbonbons und Enzympflaumen | …n solche Wirkstoffe oft heimlich bei, in unbekannter Dosis, wie du sie erkennst, steht in … |
+| Nr. 29 | Abschnitt 28, Nr. 4 | Kauf keine Abnehmpräparate, die schnelles Abnehmen versprechen — keine Schlankheitspillen, Diätkaffee, Abnehm-Kapseln, Fatburner und Detox-Tees | …n solche Wirkstoffe oft heimlich bei, in unbekannter Dosis, wie du sie erkennst, steht in … |
 | Nr. 30 | Abschnitt 13, Nr. 38 | Vielleicht hast du dich mit HIV angesteckt: hol dir binnen 72 Stunden die Blockermedikamente, je früher, desto besser | … Was nach einer bereits erfolgten Exposition zu tun ist, siehe … |
 | Nr. 31 | Abschnitt 27, Nr. 3 | Lass bei der ersten Vorsorgeuntersuchung gleich auf HIV, Syphilis und Hepatitis B testen, die Behandlung ist auch bei einem Befund kostenlos | …ung in der Schwangerschaft und die Unterbrechung der Übertragung von der Mutter stehen in … |
 | Nr. 32 | Abschnitt 1, Nr. 25 | Bei Depression oder Suizidgedanken die Telefonseelsorge anrufen, zu Hause keine Schlafmittel und keine Pflanzenschutzmittel horten | … Das Entfernen tödlicher Mittel und die Telefonseelsorge siehe … |
@@ -70,9 +70,6 @@ Insgesamt 585 Verweise.
 | Nr. 34 | Abschnitt 13, Nr. 11 | Ein Bein schwillt plötzlich an und spannt, es schmerzt auf Druck: bald zum Arzt; kommt plötzliche Atemnot oder Brustschmerz dazu, sofort die 112 rufen | … Tiefe Venenthrombose und Lungenembolie siehe … |
 | Nr. 34 | Abschnitt 1, Nr. 32 | Wenn ein Suizidgedanke aufkommt, sag es zuerst einer Person in deiner Nähe und gib diese paar Minuten aus der Hand | … Was tun, wenn der Gedanke aufkommt, siehe … |
 | Nr. 34 | Abschnitt 1, Nr. 33 | „Gerettet" ist keine Absicherung: nach einer Vergiftung mit Pflanzenschutzmitteln oder Kohlenmonoxid rettet die Notaufnahme das Leben, nicht Lunge und Gehirn | … Die Folgen einer Vergiftung siehe … |
-| Nr. 35 | Abschnitt 9, Nr. 21 | Verkauf kein eigenes Organ und hilf niemandem, einen Spender zu finden: Der Handel ist verboten, das Geld wird eingezogen, und eine Spende ist nur unter engen Voraussetzungen erlaubt | …nkung auf Angehörige bei einer legalen Spende, die Geldstrafen und die Strafbarkeit siehe … |
-| Nr. 35 | Abschnitt 16, Nr. 1 | Nimm die Medikamente nach ärztlicher Anordnung vollständig ein und hör nicht auf, wenn du dich besser fühlst | … Wer schon dialysiert werden muss, für den siehe … |
-| Nr. 35 | Abschnitt 16, Nr. 2 | Für die Behandlung deiner chronischen Krankheit musst du nichts anmelden; freiwillig kannst du in ein Disease-Management-Programm eintreten | … Wer schon dialysiert werden muss, für den siehe … |
 
 ## 02-nicht-langsam-sterben
 
@@ -181,7 +178,7 @@ Insgesamt 585 Verweise.
 | Nr. 31 | Abschnitt 8, Nr. 22 | Bei Betrug beim Online-Kauf oder im Second-Hand-Handel zuerst die Plattform, dann die Polizei, dann rechnen, ob sich eine Klage lohnt | … Ob sich eine Klage bei einem kleinen Streitwert überhaupt lohnt, steht in … |
 | Nr. 31 | Abschnitt 12, Nr. 8 | Bei Lebensmitteln zuerst die eigene Stufe bestimmen: Herstellung und Gastronomie brauchen eine Zulassung oder Erlaubnis, der Verkauf wird registriert | … das steht in … |
 | Nr. 31 | Abschnitt 12, Nr. 9 | In Tüten verkauft heißt vorverpacktes Lebensmittel: Herstellungsdatum, Haltbarkeitsdatum und Zutatenliste müssen aufs Etikett | … das steht in … |
-| Nr. 31 | Abschnitt 12, Nr. 10 | Normale Lebensmittel dürfen nicht heilend wirken: Etikett, Beschreibung, Werbung und Live-Verkauf zählen alle | … das steht in … |
+| Nr. 31 | Abschnitt 12, Nr. 10 | Normale Lebensmittel dürfen nicht heilend wirken: Etikett, Beschreibung, Werbung und Live-Verkauf zählen alle, ebenso Texte im Netz | … das steht in … |
 | Nr. 31 | Abschnitt 12, Nr. 11 | Bei Lebensmitteln gibt es eine Strafgrenze: verkauftes krankes Fleisch oder über dem Grenzwert reicht für die Straftat, beigemischte giftige Stoffe kosten fünf Jahre ab dem ersten Fall | … das steht in … |
 | Nr. 34 | Abschnitt 5, Nr. 32 | Prüf vor dem Kauf großer Dinge das CE-Zeichen, das EU-Energielabel und die Warnliste der EU für gefährliche Produkte | … Die allgemeine Prüfmethode vor dem Kauf großer Dinge siehe … |
 | Nr. 34 | Abschnitt 5, Nr. 29 | Verlass dich beim Onlinekauf auf die Regeln der Plattform und das Gesetz, nicht auf die Streamer und die „guten Bewertungen" | … An wen du dich bei einem Problem im Livestream wendest, siehe … |
@@ -193,13 +190,13 @@ Insgesamt 585 Verweise.
 | Nr. 37 | Abschnitt 5, Nr. 15 | Handle Aktien nicht häufig | … Dieser Eintrag betrifft „verkaufen oder nicht", … |
 | Nr. 37 | Abschnitt 5, Nr. 19 | Setz das Geld nicht auf eine Aktie, eine Plattform, ein Haus | … seine tatsächliche Wirkung ist, dass du mehr Geld auf diese eine Aktie setzt, siehe … |
 | Nr. 38 | Abschnitt 5, Nr. 15 | Handle Aktien nicht häufig | … In dieser Marktphase tauschten Haushaltskonten im Jahr fast 18 Mal aus, in … |
-| Nr. 39 | Abschnitt 7, Nr. 20 | Vor einer schweren Krankheit zusätzlich zur gesetzlichen Krankenversicherung eine Zusatzversicherung oder Krankentagegeld abschließen — achte auf die Bedingungen | … Einjährige Krankenversicherung siehe … |
+| Nr. 39 | Abschnitt 7, Nr. 20 | Vor einer schweren Krankheit zusätzlich zur gesetzlichen Krankenversicherung eine Zusatzversicherung oder Krankentagegeld abschließen — achte auf die Bedingungen | … Zusatzversicherung oder Krankentagegeld siehe … |
 | Nr. 39 | Abschnitt 21, Nr. 4 | Kauf eine Versicherung mit Auslandsbehandlung und medizinischem Rücktransport, nicht nur eine Flugverspätungsversicherung | … Wer ins Ausland geht, siehe … |
 | Nr. 39 | Abschnitt 5, Nr. 26 | Kauf die Kfz-Haftpflichtversicherung mit hoher Deckungssumme: Die gesetzliche Mindestdeckung von 7,5 Millionen Euro für Personenschäden ist nur die Untergrenze | … Wer ein Auto hat, siehe … |
 | Nr. 39 | Abschnitt 5, Nr. 40 | Lebt jemand in der Familie von deinem Einkommen, versichere zuerst den, der das Geld verdient, mit einer Risikolebensversicherung, nicht zuerst das Kind | … Wo jemand in der Familie von deinem Einkommen lebt, siehe … |
 | Nr. 39 | Abschnitt 7, Nr. 9 | Gesetzliche Krankenversicherung: die Beiträge nicht abreißen lassen, Familienmitglieder sind beitragsfrei | …sicherung, sie wird nicht nach diesem Verfahren abgewogen, sie wird weiter gezahlt, siehe … |
 | Nr. 39 | Abschnitt 5, Nr. 27 | Spar zuerst einen Notgroschen für 3 bis 6 Monate Lebenskosten an und halte ihn dort, wo du jederzeit herankommst | … Womit kleine Verluste aufgefangen werden, siehe … |
-| Nr. 40 | Abschnitt 7, Nr. 20 | Vor einer schweren Krankheit zusätzlich zur gesetzlichen Krankenversicherung eine Zusatzversicherung oder Krankentagegeld abschließen — achte auf die Bedingungen | … Zur wahrheitsgemäßen Angabe und zur garantierten Verlängerung siehe … |
+| Nr. 40 | Abschnitt 7, Nr. 20 | Vor einer schweren Krankheit zusätzlich zur gesetzlichen Krankenversicherung eine Zusatzversicherung oder Krankentagegeld abschließen — achte auf die Bedingungen | … Zur wahrheitsgemäßen Angabe des Gesundheitszustands und zu den Bedingungen siehe … |
 | Nr. 41 | Abschnitt 5, Nr. 25 | Bei Versicherungen zuerst die Risiko-Variante kaufen und „Rückzahlung" und „Dividende" als nicht garantierten Teil betrachten | …tallebensversicherung ist viel Geld eingezahlt, da lohnt sich die Frist am meisten, siehe … |
 | Nr. 42 | Abschnitt 5, Nr. 41 | Bereust du eine abgeschlossene Lebensversicherung mit über einem Jahr Laufzeit, trittst du innerhalb der Widerrufsfrist zurück, die Prämie kommt fast vollständig zurück | … Wer schon unterschrieben hat, kann innerhalb der Widerrufsfrist zurücktreten, siehe … |
 | Nr. 42 | Abschnitt 5, Nr. 43 | Willst du zurücktreten, mach es selbst bei der Versicherung, nicht über einen „Rücktrittsvermittler"; fühlst du dich getäuscht, beschwere dich erst beim Versicherer und sonst beim Versicherungsombudsmann | … Wie du dich beschwerst, wenn du dich getäuscht fühlst, siehe … |
@@ -221,9 +218,9 @@ Insgesamt 585 Verweise.
 | Nr. 10 | Abschnitt 1, Nr. 19 | Ab 50 zum Darmkrebs-Screening, immunchemischer Stuhltest auf verborgenes Blut oder Darmspiegelung | … Die Krebsfrüherkennung, die zum Alter passt, begleite ihn einmal dorthin, siehe … |
 | Nr. 10 | Abschnitt 17, Nr. 7 | Wenn ein alter Mensch in der Familie dauerhaft bettlägerig oder schwer pflegebedürftig ist, beantrage bei der Pflegekasse die Pflegeversicherung; sie gilt nicht nur für alte Menschen | …der alte Mensch dauerhaft bettlägerig, siehe zu Dekubitus-Vorsorge und Pflegeversicherung … |
 | Nr. 10 | Abschnitt 17, Nr. 8 | Ist jemand zu Hause dauerhaft bettlägerig, behandle den Dekubitus als Feind Nummer eins: elektrische Wechseldruckmatratze, regelmäßiges Umlagern, jeden Tag die vorstehenden Knochen ansehen | …der alte Mensch dauerhaft bettlägerig, siehe zu Dekubitus-Vorsorge und Pflegeversicherung … |
-| Nr. 10 | Abschnitt 17, Nr. 5 | Finger weg von jeder „Altersvorsorge-Investition", bei der alte Menschen vorher zahlen: Karte kaufen, einen Pflegeheimplatz kaufen, Seniorenwohnung kaufen, Reisen und Wohnen im Alter und Produkte für alte Menschen kaufen sind derselbe Betrug | …, bei denen du vorher zahlst, die andere sind Mittel, die die Medikamente ersetzen, siehe … |
+| Nr. 10 | Abschnitt 17, Nr. 5 | Finger weg von jeder „Altersvorsorge-Investition", bei der alte Menschen vorher zahlen: Karte kaufen, einen Pflegeheimplatz kaufen, Seniorenwohnung kaufen, Reisen und Wohnen im Alter und Produkte für alte Menschen kaufen und ein Abo für Pflegehilfsmittel abschließen sind derselbe Betrug | …, bei denen du vorher zahlst, die andere sind Mittel, die die Medikamente ersetzen, siehe … |
 | Nr. 16 | Abschnitt 19, Nr. 11 | Schäden durch Staub, Lärm und chemische Giftstoffe sind nicht rückgängig zu machen: Schutzausrüstung muss die Firma stellen, Arbeit ohne Schutzmaßnahmen darfst du ablehnen | …gegen schützen eine Schutzbrille und ein Schild, nicht eine Blaulichtfilter-Brille, siehe … |
-| Nr. 16 | Abschnitt 13, Nr. 6 | Ein Auge ist gespannt und schmerzt, ist rot, um Lampen ein Regenbogenring, dazu Kopfschmerz, Übelkeit und Erbrechen: noch am selben Tag in die augenärztliche Notaufnahme | … geh noch am selben Tag in die augenärztliche Notaufnahme, siehe … |
+| Nr. 16 | Abschnitt 13, Nr. 6 | Ein Auge ist gespannt und schmerzt, ist rot, um Lampen ein Regenbogenring, dazu Kopfschmerz, Übelkeit und Erbrechen: noch am selben Tag in die augenärztliche Notaufnahme, in Deutschland heißt das Augenklinik oder augenärztlicher Bereitschaftsdienst über die 116117 | … geh noch am selben Tag in die augenärztliche Notaufnahme, siehe … |
 | Nr. 16 | Abschnitt 30, Nr. 4 | Lass dein Kind täglich 2 Stunden draußen sein, das ist derzeit die einzige Maßnahme gegen Kurzsichtigkeit, die durch einen verlosten Versuch gestützt ist | … Wie Kinder und Jugendliche Kurzsichtigkeit vermeiden, siehe … |
 | Nr. 16 | Abschnitt 30, Nr. 12 | Wird eine Sehschwäche festgestellt, geh zur Refraktion mit weiten Pupillen zum Augenarzt und danach in den genannten Abständen zur Kontrolle | … Wie Kinder und Jugendliche Kurzsichtigkeit vermeiden, siehe … |
 | Nr. 16 | Abschnitt 30, Nr. 9 | Kauf keine Produkte und Leistungen, die versprechen, „Kurzsichtigkeit zu heilen" oder „die Werte zu senken" | … Wie Kinder und Jugendliche Kurzsichtigkeit vermeiden, siehe … |
@@ -271,7 +268,7 @@ Insgesamt 585 Verweise.
 | Nr. 10 | Abschnitt 24, Nr. 9 | Bleiben nach der Behandlung tatsächlich Funktionsstörungen zurück, beantrage beim Versorgungsamt den Schwerbehindertenausweis | … die Notfallbehandlung zuerst steht in … |
 | Nr. 20 | Abschnitt 5, Nr. 39 | Versichere nur die Verluste, die du nicht tragen kannst; die Verluste, die du trägst, deckst du mit dem Notgroschen | … Welche Verluste sich mit einer Versicherung abdecken lassen, siehe … |
 | Nr. 20 | Abschnitt 7, Nr. 9 | Gesetzliche Krankenversicherung: die Beiträge nicht abreißen lassen, Familienmitglieder sind beitragsfrei | … Zahl zuerst den Beitrag zur Krankenkasse (gesetzliche Krankenversicherung siehe … |
-| Nr. 21 | Abschnitt 7, Nr. 4 | Wenn du nicht mehr weiterweißt, geh in die Nothilfeeinrichtung; dort gibt es Essen, Unterkunft und ein Ticket nach Hause | … Die Nothilfeeinrichtung aus … |
+| Nr. 21 | Abschnitt 7, Nr. 4 | Wenn du nicht mehr weiterweißt, geh in die Notunterkunft; dort gibt es Essen, Unterkunft und ein Ticket nach Hause | … Die Notunterkunft aus … |
 
 ## 08-lass-dich-nicht-hereinziehen
 
@@ -290,8 +287,8 @@ Insgesamt 585 Verweise.
 | Nr. 11 | Abschnitt 8, Nr. 10 | Bei einem Streit zuerst die Polizei rufen und nicht zuschlagen, wer zuerst zuschlägt, verliert fast immer | … Die Standardbewegung bleibt, zurückweichen und die Polizei rufen, wie in … |
 | Nr. 11 | Abschnitt 8, Nr. 5 | Bei einer Anschuldigung oder Vorladung zuerst einen Anwalt nehmen, nichts privat regeln und keine Aufzeichnungen löschen | … Vor der ersten förmlichen Vernehmung durch die Polizei einen Anwalt nehmen, siehe … |
 | Nr. 11 | Abschnitt 8, Nr. 34 | Wurdest du in Haft genommen und dann das Verfahren eingestellt oder freigesprochen, kannst du Entschädigung für die Haft verlangen | …der Freispruch erteilt, kannst du für die Tage in Haft Haftentschädigung verlangen, siehe … |
-| Nr. 12 | Abschnitt 7, Nr. 2 | Bei ausstehendem Lohn zuerst die Arbeitsaufsicht einschalten und mahnen, dann beim Arbeitsgericht klagen — ein Urteil heißt noch nicht bezahlt | … Wie du ausstehenden Lohn durchsetzt, steht in … |
-| Nr. 12 | Abschnitt 9, Nr. 15 | Verleih deinen Ausweis nicht, benutze keinen fremden Ausweis und eröffne mit fremden Papieren keine Konten und kaufe keine Tickets | … Die rote Linie beim Eintreiben steht in … |
+| Nr. 12 | Abschnitt 7, Nr. 2 | Bei ausstehendem Lohn zuerst mahnen und Verzugszinsen verlangen, dann beim Arbeitsgericht klagen — ein Urteil heißt noch nicht bezahlt | … Wie du ausstehenden Lohn durchsetzt, steht in … |
+| Nr. 12 | Abschnitt 9, Nr. 14 | Beim Eintreiben von Schulden: niemanden festhalten, niemanden einsperren und nicht bis in die Wohnung folgen und dort hängen bleiben | … Die rote Linie beim Eintreiben steht in … |
 | Nr. 13 | Abschnitt 8, Nr. 14 | Wenn der Gedanke „ich nehme jemanden mit" oder „gemeinsam sterben" auftaucht, behandle es als Notfall: geh vom Ort weg, gib Auto- und Messerschlüssel ab und ruf die Telefonseelsorge an | … Wenn der Gedanke schon so weit ist, siehe … |
 | Nr. 14 | Abschnitt 1, Nr. 25 | Bei Depression oder Suizidgedanken die Telefonseelsorge anrufen, zu Hause keine Schlafmittel und keine Pflanzenschutzmittel horten | … Wer sich selbst etwas antun will, siehe … |
 | Nr. 14 | Abschnitt 3, Nr. 19 | Wenn du niedergeschlagen bist, tu zuerst die Dinge mit dem besten Kosten-Nutzen-Verhältnis: in Bewegung kommen, Sonnenlicht tanken, rechtzeitig schlafen, mit jemandem reden, die Telefonseelsorge anrufen | … Was bei gedrückter Stimmung zuerst hilft, steht in … |
@@ -319,7 +316,7 @@ Insgesamt 585 Verweise.
 | Nr. 35 | Abschnitt 8, Nr. 31 | Nach Sex oder Nacktchat: Verlangt die andere Seite mit einer Anzeige, Fotos oder einem Hinweis an deinen Arbeitgeber Geld, gib keinen Cent, lösch keine Aufzeichnung und ruf sofort die Polizei | … Wenn die andere Seite mit einem Druckmittel Geld von dir fordert, siehe … |
 | Nr. 36 | Abschnitt 14, Nr. 8 | Du hast das Recht, deine personenbezogenen Daten einzusehen, zu kopieren, zu berichtigen und zu löschen, und kannst bei Ablehnung klagen | … du von der Plattform die Löschung deiner personenbezogenen Daten verlangen willst, siehe … |
 | Nr. 36 | Abschnitt 8, Nr. 16 | Beschimpfe und verleumde niemanden im Netz und verbreite nichts Ungeprüftes; bei einem Shitstorm erst Beweise sichern, dann die Polizei rufen | … Erstens nicht zurückschimpfen, das machen aus dir den Bestraften aus … |
-| Nr. 37 | Abschnitt 9, Nr. 21 | Verkauf kein eigenes Organ und hilf niemandem, einen Spender zu finden: Der Handel ist verboten, das Geld wird eingezogen, und eine Spende ist nur unter engen Voraussetzungen erlaubt | …adens, ist ebenfalls eine Straftat und zählt Helfer, die falsch aussagen, mit dazu, siehe … |
+| Nr. 37 | Abschnitt 9, Nr. 20 | Erfinde keinen Unfall und übertreibe keinen Schaden für die Schadensregulierung: das ist Versicherungsbetrug, und wer für dich aussagt, repariert oder begutachtet, zählt mit | …adens, ist ebenfalls eine Straftat und zählt Helfer, die falsch aussagen, mit dazu, siehe … |
 | Nr. 37 | Abschnitt 8, Nr. 14 | Wenn der Gedanke „ich nehme jemanden mit" oder „gemeinsam sterben" auftaucht, behandle es als Notfall: geh vom Ort weg, gib Auto- und Messerschlüssel ab und ruf die Telefonseelsorge an | … Den Impuls, einem Familienmitglied zu schaden, behandle wie einen Notfall, siehe … |
 | Nr. 37 | Abschnitt 8, Nr. 15 | Wenn jemand aus deinem Umfeld „niemand soll es gut haben" oder „ich nehme das Kind mit" sagt, halt es nicht für Gerede: nimm die Warnung ernst, hol sofort Hilfe und verheimliche sie nicht | … Den Impuls, einem Familienmitglied zu schaden, behandle wie einen Notfall, siehe … |
 | Nr. 38 | Abschnitt 8, Nr. 2 | Bei einem entdeckten Betrug sofort 110 anrufen, die Bank verständigen und die Zahlung stoppen lassen, nicht selbst nachforschen | … Das Sperrverfahren nach einem Betrug steht in … |
@@ -343,7 +340,7 @@ Insgesamt 585 Verweise.
 | Nr. 7 | Abschnitt 8, Nr. 8 | Verleih niemandem Bankkarte, Handykarte oder Zahlungskonto, Geld für andere durchlaufen zu lassen ist kein Nebenjob | … Zum Verkauf von Karten und Konten siehe … |
 | Nr. 7 | Abschnitt 9, Nr. 15 | Verleih deinen Ausweis nicht, benutze keinen fremden Ausweis und eröffne mit fremden Papieren keine Konten und kaufe keine Tickets | … Zum Verkauf von Karten und Konten siehe  (Bank- und Handykarten nicht verleihen) und … |
 | Nr. 14 | Abschnitt 8, Nr. 18 | Beim Verleihen von Geld einen klaren Schuldschein schreiben; bevor du für jemanden bürgst, überleg dir, ob du bereit bist, seine Schulden zu zahlen | … Wie du einen Schuldschein schreibst, siehe … |
-| Nr. 15 | Abschnitt 8, Nr. 28 | Schlepp bei der Ein- und Ausreise für Fremde nichts mit und nimm keine Pakete unbekannter Herkunft an | … Die Folgen dieser beiden Fälle siehe … |
+| Nr. 15 | Abschnitt 8, Nr. 27 | Werde kein vorgeschobener Geschäftsführer und verleih deinen Namen nicht für eine Firmengründung | … Die Folgen dieser beiden Fälle siehe … |
 | Nr. 15 | Abschnitt 8, Nr. 8 | Verleih niemandem Bankkarte, Handykarte oder Zahlungskonto, Geld für andere durchlaufen zu lassen ist kein Nebenjob | … Die Folgen dieser beiden Fälle siehe … |
 | Nr. 18 | Abschnitt 8, Nr. 10 | Bei einem Streit zuerst die Polizei rufen und nicht zuschlagen, wer zuerst zuschlägt, verliert fast immer | …er, der zuerst zuschlägt, fast immer verliert, und wo die Grenze der Notwehr liegt, siehe … |
 | Nr. 18 | Abschnitt 8, Nr. 11 | Gegen einen Angriff, dem du nicht ausweichen kannst, darfst du dich wehren, aber nur gegen den Angreifer, und du hörst auf, wenn er aufhört | … Die Rechnung für ein Zuschlagen aus aufgestauter Wut siehe … |
@@ -354,19 +351,18 @@ Insgesamt 585 Verweise.
 | Nr. 19 | Abschnitt 27, Nr. 16 | Überspring die Untersuchung in den ersten Wochen nach der Geburt nicht | …olle 42 Tage nach der Geburt ist zugleich ein Screening auf postpartale Depression, siehe … |
 | Nr. 19 | Abschnitt 1, Nr. 25 | Bei Depression oder Suizidgedanken die Telefonseelsorge anrufen, zu Hause keine Schlafmittel und keine Pflanzenschutzmittel horten | … Bei Suizidgedanken ruf die Telefonseelsorge unter 0800 111 0 111 oder 116 123, siehe … |
 | Nr. 20 | Abschnitt 5, Nr. 26 | Kauf die Kfz-Haftpflichtversicherung mit hoher Deckungssumme: Die gesetzliche Mindestdeckung von 7,5 Millionen Euro für Personenschäden ist nur die Untergrenze | … Wie du eine Kfz-Versicherung richtig abschließt, siehe … |
-| Nr. 20 | Abschnitt 8, Nr. 38 | Verlang bei der Anzeige den schriftlichen Eingangsnachweis, bei Einstellung einen Bescheid: binnen 2 Wochen Beschwerde, dann Antrag auf gerichtliche Entscheidung | …ehörigen versichert und dann absichtlich tötet, wird wegen mehrerer Taten bestraft, siehe … |
+| Nr. 20 | Abschnitt 8, Nr. 37 | „Erst für jemanden eine Versicherung abschließen, dann handeln" ist rechtlich von vornherein verschlossen: kein Cent ist zu holen, die Strafe läuft als Tötung plus Versicherungsmissbrauch | …ehörigen versichert und dann absichtlich tötet, wird wegen mehrerer Taten bestraft, siehe … |
 | Nr. 20 | Abschnitt 5, Nr. 13 | Melde Ehepartner und Kinder bei der Krankenkasse zur Familienversicherung an, dann sind sie beitragsfrei mitversichert | … Die Krankenversicherung folgt eigenen Regeln, siehe die Anmerkung zu … |
-| Nr. 21 | Abschnitt 1, Nr. 35 | Nicht „eine Niere weniger macht nichts" gegen Geld tauschen: die verbliebene arbeitet für zwei, 86 % der Nierenverkäufer sagen später, ihre Gesundheit sei schlechter | … Was der Körper nach der Entnahme einer Niere zahlt, siehe … |
 | Nr. 21 | Abschnitt 9, Nr. 5 | Wenn dich jemand zum „Aufhübschen von Unterlagen" für einen Kredit oder zu einer Beteiligung am Kreditbetrag holen will: mach in keinem Fall mit | … Die Fallen von Onlinekrediten und Krediten über „Aufhübschen von Unterlagen" siehe … |
 
 ## 10-liebe-und-ehe
 
 | Fundstelle | Verweis | Ziel-Eintrag | Umfeld des Verweises |
 | --- | --- | --- | --- |
-| Nr. 4 | Abschnitt 10, Nr. 15 | Frag beim emotionalen Wert nicht nur, ob er da ist. Schau auf die Qualität der Beziehung | … Dieselbe Sache behandelt der Eintrag zur Beziehungsqualität (… |
+| Nr. 4 | Abschnitt 10, Nr. 15 | Frag beim emotionalen Wert nicht nur, ob er da ist, sondern ob der andere dir seelische Unterstützung gibt. Schau auf die Qualität der Beziehung | … Dieselbe Sache behandelt der Eintrag zur Beziehungsqualität (… |
 | Nr. 12 | Abschnitt 8, Nr. 18 | Beim Verleihen von Geld einen klaren Schuldschein schreiben; bevor du für jemanden bürgst, überleg dir, ob du bereit bist, seine Schulden zu zahlen | … Die Regeln zu Schuldschein und Bürgschaft stehen in … |
 | Nr. 17 | Abschnitt 10, Nr. 8 | Rechne den Gesundheitsnutzen mit, aber mit Abschlag, weil es Beobachtungsdaten sind | … Er geht aber nicht automatisch in deinen Gesundheitsnutzen (… |
-| Nr. 17 | Abschnitt 10, Nr. 15 | Frag beim emotionalen Wert nicht nur, ob er da ist. Schau auf die Qualität der Beziehung | …ber nicht automatisch in deinen Gesundheitsnutzen (Nr. 8) oder in die Beziehungsqualität (… |
+| Nr. 17 | Abschnitt 10, Nr. 15 | Frag beim emotionalen Wert nicht nur, ob er da ist, sondern ob der andere dir seelische Unterstützung gibt. Schau auf die Qualität der Beziehung | …ber nicht automatisch in deinen Gesundheitsnutzen (Nr. 8) oder in die Beziehungsqualität (… |
 | Nr. 17 | Abschnitt 10, Nr. 9 | Rechne die Zeitrechnung als „unbezahlte Arbeit". Klärt die Aufteilung, bevor ihr heiratet | … Die Zeitrechnung (… |
 | Nr. 17 | Abschnitt 10, Nr. 10 | Schau in der Geldrechnung zuerst auf die gesetzliche Regel und entscheide dann über einen Ehevertrag | … Die Zeitrechnung (Nr. 9), die Geldrechnung (… |
 | Nr. 17 | Abschnitt 10, Nr. 11 | Wenn Eltern beim Hauskauf Geld geben, halt gleich bei der Überweisung schriftlich fest, ob es ein Darlehen oder eine Schenkung ist | … Die Zeitrechnung (Nr. 9), die Geldrechnung (… |
@@ -397,7 +393,7 @@ Insgesamt 585 Verweise.
 | Nr. 8 | Abschnitt 12, Nr. 6 | Vor der Registrierung Name, Geschäftssitz, Geschäftsbereich und Stammkapital festlegen; sind die Unterlagen vollständig, gibt es den Gewerbeschein sofort | … Rechtsform und Gewerbeanmeldung siehe … |
 | Nr. 8 | Abschnitt 12, Nr. 7 | Branchen mit Erlaubnispflicht: ohne Erlaubnis nicht eröffnen | … Geschäftsbereich festlegen), ob ein anderer Geschäftszweig eine Erlaubnis braucht, siehe … |
 | Nr. 9 | Abschnitt 5, Nr. 31 | Wirst du durch ein unsicheres Lebensmittel geschädigt, sichere zuerst die Beweise und verlange Ersatz | … wie viel Ersatz ein Käufer verlangen kann, steht in … |
-| Nr. 10 | Abschnitt 6, Nr. 10 | Gib kein großes Geld für Nahrungsergänzungsmittel, Kräuterpasten und Stärkungsmittel aus, um „den Körper in Ordnung zu bringen" | … Wie ein Käufer solche Werbesprüche erkennt, siehe … |
+| Nr. 10 | Abschnitt 6, Nr. 10 | Gib kein großes Geld für Nahrungsergänzungsmittel, Homöopathie, Schüßler-Salze und Stärkungsmittel aus, um „den Körper in Ordnung zu bringen" | … Wie ein Käufer solche Werbesprüche erkennt, siehe … |
 | Nr. 11 | Abschnitt 12, Nr. 8 | Bei Lebensmitteln zuerst die eigene Stufe bestimmen: Herstellung und Gastronomie brauchen eine Zulassung oder Erlaubnis, der Verkauf wird registriert | … Mach es nach der Methode aus … |
 | Nr. 11 | Abschnitt 12, Nr. 8 | Bei Lebensmitteln zuerst die eigene Stufe bestimmen: Herstellung und Gastronomie brauchen eine Zulassung oder Erlaubnis, der Verkauf wird registriert | … Die einfachste Verteidigung sind immer noch die Schritte aus … |
 | Nr. 12 | Abschnitt 12, Nr. 23 | Bei Verlust geordnet aussteigen: wenn die einfache Löschung geht, löschen; bei Überschuldung in die Insolvenz; nichts liegen lassen | … das Finanzamt die Besteuerungsgrundlagen und setzt einen Verspätungszuschlag fest, siehe … |
@@ -406,7 +402,7 @@ Insgesamt 585 Verweise.
 | Nr. 19 | Abschnitt 12, Nr. 21 | Bilder auf Ware, Verpackung, Etikett und Werbebild entweder selbst machen oder lizenzieren; Farbe ändern und Symbol hinzufügen gilt nicht als „geändert" | …en bei fremden Marken und Bildern siehe Nr. 20 (Belege beim Wareneinkauf aufbewahren) und … |
 | Nr. 20 | Abschnitt 12, Nr. 21 | Bilder auf Ware, Verpackung, Etikett und Werbebild entweder selbst machen oder lizenzieren; Farbe ändern und Symbol hinzufügen gilt nicht als „geändert" | … Fremde Bilder siehe … |
 | Nr. 21 | Abschnitt 12, Nr. 19 | Nach dem Muster zuerst die Serienliste abarbeiten, dann über den Start reden | … Vor der Produktion die Marke prüfen, siehe … |
-| Nr. 23 | Abschnitt 12, Nr. 12 | Mit dem Gewerbeschein beginnt die Meldepflicht: auch ohne Einnahmen fristgerecht eine Nullmeldung abgeben (ein Formular voller Nullen) | … Wer den Insolvenzantrag verschleppt, macht sich strafbar, siehe … |
+| Nr. 23 | Abschnitt 12, Nr. 12 | Mit dem Gewerbeschein beginnt die Meldepflicht: auch ohne Einnahmen fristgerecht die Steuererklärung abgeben (eine Nullmeldung, ein Formular voller Nullen) | … Wer den Insolvenzantrag verschleppt, macht sich strafbar, siehe … |
 
 ## 13-notfaelle
 
@@ -466,6 +462,8 @@ Insgesamt 585 Verweise.
 
 | Fundstelle | Verweis | Ziel-Eintrag | Umfeld des Verweises |
 | --- | --- | --- | --- |
+| Nr. 6 | Abschnitt 8, Nr. 23 | Große Schenkungen in der Liebe und in der Ehe: vor der Übergabe nachdenken, danach sind sie in der Regel nicht zurückzuholen | … zur Beweissicherung und zum Verwendungszweck siehe entsprechend die beiden Einträge in … |
+| Nr. 6 | Abschnitt 8, Nr. 18 | Beim Verleihen von Geld einen klaren Schuldschein schreiben; bevor du für jemanden bürgst, überleg dir, ob du bereit bist, seine Schulden zu zahlen | … zur Beweissicherung und zum Verwendungszweck siehe entsprechend die beiden Einträge in … |
 | Nr. 7 | Abschnitt 15, Nr. 6 | Vor der Unterschrift Eigentumsnachweis und Belastungen prüfen. Alle Zahlungen per Überweisung mit Verwendungszweck | … Alle Zahlungen per Überweisung mit Verwendungszweck, siehe … |
 
 ## 16-leben-mit-chronischer-krankheit
@@ -486,6 +484,7 @@ Insgesamt 585 Verweise.
 | Nr. 4 | Abschnitt 17, Nr. 3 | Das Geld der alten Menschen auf ein eigenes Konto legen und für große Ausgaben eine Regel mit doppelter Bestätigung festlegen | … Verwende sie zusammen mit … |
 | Nr. 5 | Abschnitt 8, Nr. 2 | Bei einem entdeckten Betrug sofort 110 anrufen, die Bank verständigen und die Zahlung stoppen lassen, nicht selbst nachforschen | … Ist das Geld schon gezahlt, ruf nach … |
 | Nr. 5 | Abschnitt 17, Nr. 3 | Das Geld der alten Menschen auf ein eigenes Konto legen und für große Ausgaben eine Regel mit doppelter Bestätigung festlegen | … nutze ihn zusammen mit der Regel zur doppelten Bestätigung aus … |
+| Nr. 5 | Abschnitt 17, Nr. 4 | Gib dem alten Menschen einen Satz, den er jederzeit als Ausrede benutzen kann | … dagegen hilft der Ausrede-Satz aus … |
 | Nr. 5 | Abschnitt 17, Nr. 6 | Außer der Immobilienrente lass jedes andere „Haus zu Geld" bleiben und verpfände nie die Wohnung für eine Geldanlage | … „Haus zu Geld" ist ein anderer Weg, siehe … |
 | Nr. 6 | Abschnitt 8, Nr. 17 | Lies das Papier vor der Unterschrift zu Ende, unterschreibe nicht für andere und nicht auf leeren Blättern | … Die allgemeinen Regeln zum Unterschreiben und zu leeren Verträgen stehen in … |
 | Nr. 6 | Abschnitt 8, Nr. 2 | Bei einem entdeckten Betrug sofort 110 anrufen, die Bank verständigen und die Zahlung stoppen lassen, nicht selbst nachforschen | …ehen in Abschnitt 8, Nr. 17, wie du nach einem Betrug die Zahlung stoppen lässt, steht in … |
@@ -493,6 +492,7 @@ Insgesamt 585 Verweise.
 | Nr. 8 | Abschnitt 13, Nr. 11 | Ein Bein schwillt plötzlich an und spannt, es schmerzt auf Druck: bald zum Arzt; kommt plötzliche Atemnot oder Brustschmerz dazu, sofort die 112 rufen | …willt plötzlich ein Bein an, geh nach den Regeln für eine tiefe Venenthrombose vor, siehe … |
 | Nr. 8 | Abschnitt 1, Nr. 34 | Nach einem Sturz aus der Höhe nicht auf „ein paar Tage liegen, dann geht es wieder" setzen: die meisten in der Traumaintensivstation überleben, der Preis zählt in Jahren | …r Höhe oder eine schwere Verletzung und die Bettlägerigkeit in den Jahren danach steht in … |
 | Nr. 8 | Abschnitt 17, Nr. 7 | Wenn ein alter Mensch in der Familie dauerhaft bettlägerig oder schwer pflegebedürftig ist, beantrage bei der Pflegekasse die Pflegeversicherung; sie gilt nicht nur für alte Menschen | … Welche Pflegeleistungen die Pflegeversicherung übernimmt, steht in … |
+| Nr. 9 | Abschnitt 17, Nr. 7 | Wenn ein alter Mensch in der Familie dauerhaft bettlägerig oder schwer pflegebedürftig ist, beantrage bei der Pflegekasse die Pflegeversicherung; sie gilt nicht nur für alte Menschen | … Was die Pflegeversicherung zahlt, steht in … |
 
 ## 19-arbeitsverhaeltnis-und-arbeitsunfall
 
@@ -505,14 +505,15 @@ Insgesamt 585 Verweise.
 | Nr. 8 | Abschnitt 7, Nr. 3 | Wenn du dir einen Prozess nicht leisten kannst, beantrage Rechtshilfe — Lohnklagen, Unterhalt und Arbeitsunfälle fallen ohnehin darunter | … den Weg zur Durchsetzung siehe … |
 | Nr. 8 | Abschnitt 11, Nr. 7 | Beim Ausscheiden keinen Quellcode, keine Kundenliste und keine technischen Dokumente mitnehmen, nichts in die private Cloud hochladen, beim nächsten Arbeitgeber nicht wiederverwenden | …ode, Kundenlisten und technische Dokumente der Firma mit, das Risiko beim Mitnehmen siehe … |
 | Nr. 9 | Abschnitt 19, Nr. 7 | Unterschreib keine Eigenkündigung „aus persönlichen Gründen"; sie kostet dich die Abfindung und das Arbeitslosengeld | … das ist ein weiterer Grund für … |
-| Nr. 9 | Abschnitt 11, Nr. 12 | Bei Produkten mit GPL und anderem Open-Source-Code die Lizenz einhalten oder die Lizenz wechseln, nicht auf „das kümmert niemanden" setzen | … Zahlt sie nicht, kannst du dich an einen Anwalt wenden, siehe … |
+| Nr. 9 | Abschnitt 11, Nr. 10 | Bei einem Wettbewerbsverbot nach dem Ausscheiden gilt: höchstens zwei Jahre und nur mit monatlicher Karenzentschädigung. Ohne berechtigtes Interesse ist die Klausel unverbindlich | … Zahlt sie nicht, kannst du dich an einen Anwalt wenden, siehe … |
 | Nr. 9 | Abschnitt 7, Nr. 1 | Bei Arbeitslosigkeit zuerst online Arbeitslosengeld beantragen | … Antragsunterlagen und den Online-Zugang siehe … |
 | Nr. 9 | Abschnitt 19, Nr. 7 | Unterschreib keine Eigenkündigung „aus persönlichen Gründen"; sie kostet dich die Abfindung und das Arbeitslosengeld | …erschreibt, bekommt nicht nur keine Abfindung, sondern riskiert auch die Sperrzeit, siehe … |
 | Nr. 10 | Abschnitt 19, Nr. 12 | Beim Arbeitsunfall und beim Unfall auf dem Weg zur Arbeit ist das Erste die Anerkennung; meldet die Firma nicht, meldest du selbst | …t selbst läuft später als Versicherungsfall in der gesetzlichen Unfallversicherung, siehe … |
 | Nr. 11 | Abschnitt 13, Nr. 21 | Spritzt Chemikalie wie Säure oder Lauge auf den Körper: sofort die verunreinigten Kleider ausziehen und mit viel fließendem Wasser spülen, das Auge mit gespreizten Lidern spülen, die Spülzeit voll einhalten, bevor du gehst | … Die Behandlung, wenn Chemikalien auf den Körper spritzen, siehe … |
 | Nr. 11 | Abschnitt 19, Nr. 10 | Vor einer Stelle mit Staub, Lärm oder Chemikalien: der Arbeitgeber muss dich über die Gefahr unterrichten; die arbeitsmedizinische Vorsorge ordnet er an und bezahlt sie | … Deshalb ist die arbeitsmedizinische Vorsorge so wichtig, siehe … |
 | Nr. 13 | Abschnitt 13, Nr. 4 | Plötzlicher Drehschwindel und unsicheres Stehen, Doppeltsehen, ein schwarz werdendes Auge oder ein Finger, der die eigene Nasenspitze nicht findet: ebenfalls wie einen Schlaganfall behandeln und die 112 rufen | … Bei Herzinfarkt und Schlaganfall zählt jede Minute, siehe … |
-| Nr. 15 | Abschnitt 24, Nr. 10 | Dank dem Arzt, der dich gerettet hat, über einen Dankbrief und die Klinikbewertung, nicht über einen Umschlag: Verboten sind die Geschenke, nicht der Dank | … Den Grad der Behinderung und den Schwerbehindertenausweis regelt … |
+| Nr. 15 | Abschnitt 24, Nr. 8 | Die Feststellung des Behinderungsgrads erst nach Abschluss der Behandlung machen lassen, zu früh wird er zu niedrig bewertet | … Den Grad der Behinderung und den Schwerbehindertenausweis regelt … |
+| Nr. 15 | Abschnitt 19, Nr. 9 | Nach dem Ausscheiden sofort zwei Dinge erledigen: arbeitsuchend melden und Arbeitslosengeld beantragen, und das Wettbewerbsverbot prüfen | … Den Grad der Behinderung und den Schwerbehindertenausweis regelt  (Behinderungsgrad) und … |
 | Nr. 17 | Abschnitt 8, Nr. 41 | Passiert vor Ort etwas, fotografier zuerst die Totale, dann die Lagen zueinander, zuletzt Schaden und Verletzung, lösch Originalbild und Originalvideo nicht | … ab heute aufschreiben, Aufnahmen siehe … |
 | Nr. 17 | Abschnitt 7, Nr. 3 | Wenn du dir einen Prozess nicht leisten kannst, beantrage Rechtshilfe — Lohnklagen, Unterhalt und Arbeitsunfälle fallen ohnehin darunter | …, die Anwaltskosten trägst du selbst, bei geringem Einkommen hilft die Rechtshilfe, siehe … |
 | Nr. 17 | Abschnitt 1, Nr. 25 | Bei Depression oder Suizidgedanken die Telefonseelsorge anrufen, zu Hause keine Schlafmittel und keine Pflanzenschutzmittel horten | … 0800 111 0 111 oder 116 123, siehe … |
@@ -598,7 +599,7 @@ Insgesamt 585 Verweise.
 | Nr. 8 | Abschnitt 24, Nr. 4 | Bewahr nach jedem Arztbesuch Krankenakte, Untersuchungsberichte und Bilddaten selbst in einer Kopie auf | …Begutachtung Krankenakte, Operationsberichte und Kontrollbilder vollständig bereit, siehe … |
 | Nr. 9 | Abschnitt 7, Nr. 8 | Mit Schwerbehindertenausweis die beiden Zuschüsse für Menschen mit Behinderung beantragen | …orteile, Ermäßigungen im Nahverkehr, Hilfsmittel und Unterstützung am Arbeitsplatz, siehe … |
 | Nr. 9 | Abschnitt 24, Nr. 8 | Die Feststellung des Behinderungsgrads erst nach Abschluss der Behandlung machen lassen, zu früh wird er zu niedrig bewertet | …inderung der Erwerbsfähigkeit bei einem Arbeitsunfall sind drei verschiedene Dinge, siehe … |
-| Nr. 10 | Abschnitt 8, Nr. 40 | Halt Vereinbarungen bei Telefonaten schriftlich fest: Das heimliche Mitschneiden eines Gesprächs ist strafbar | …trafrecht, ein Umschlag an Ermittler oder Vollstrecker ist Bestechung im Amt und steht in … |
+| Nr. 10 | Abschnitt 8, Nr. 39 | Steck Ermittelnden und Vollstreckenden kein Geld und keine Karten zu: Bestechung wird auch für den Geber bestraft, bei Bestechung von Richtern sogar strenger | …trafrecht, ein Umschlag an Ermittler oder Vollstrecker ist Bestechung im Amt und steht in … |
 | Nr. 10 | Abschnitt 24, Nr. 5 | Bei Zweifeln an der Behandlung sofort eine vollständige Abschrift der Krankenakte sichern und die Dokumentation prüfen lassen | … Hast du Zweifel an der Behandlung selbst, sichere sofort die Krankenakte, siehe … |
 | Nr. 10 | Abschnitt 24, Nr. 4 | Bewahr nach jedem Arztbesuch Krankenakte, Untersuchungsberichte und Bilddaten selbst in einer Kopie auf | …ne vollständige Abschrift der Krankenakte sichern), und bewahre die Unterlagen auf, siehe … |
 
@@ -624,7 +625,7 @@ Insgesamt 585 Verweise.
 | --- | --- | --- | --- |
 | Nr. 1 | Abschnitt 2, Nr. 33 | Den BMI zwischen 20 und 25 halten und bei Übergewicht abnehmen | … Den Zusammenhang zwischen BMI und Sterblichkeit siehe … |
 | Nr. 3 | Abschnitt 28, Nr. 2 | Prüf vor Spritze, Fadenlifting und Operation zwei Dinge: ob die Einrichtung eine Arztpraxis oder Klinik ist und ob die eingreifende Person Ärztin oder Arzt ist | … Prüf das vorher nach … |
-| Nr. 5 | Abschnitt 28, Nr. 4 | Kauf keine Abnehmpräparate, die schnelles Abnehmen versprechen — keine Schlankheitspillen, Diätkaffee, Schlankheitsbonbons und Enzympflaumen | … Die Beurteilung läuft wie bei den Abnehmprodukten (… |
+| Nr. 5 | Abschnitt 28, Nr. 4 | Kauf keine Abnehmpräparate, die schnelles Abnehmen versprechen — keine Schlankheitspillen, Diätkaffee, Abnehm-Kapseln, Fatburner und Detox-Tees | … Die Beurteilung läuft wie bei den Abnehmprodukten (… |
 | Nr. 6 | Abschnitt 28, Nr. 5 | Nimm keine anabolen Steroide („Muskelspritzen", „Tabletten") für den Muskelaufbau | … Für die Steroide und die Geschlechtshormone aus … |
 | Nr. 6 | Abschnitt 28, Nr. 7 | Geschlechtshormone nur auf ärztliches Rezept und mit regelmäßigen Kontrollen — nichts online kaufen, die Dosis nicht selbst erhöhen | … Für die Steroide und die Geschlechtshormone aus … |
 
@@ -650,8 +651,8 @@ Insgesamt 585 Verweise.
 | Nr. 9 | Abschnitt 29, Nr. 8 | Steht die Trauer nach einem halben Jahr noch still und läuft das Leben nicht weiter, mach einen Termin in der psychotherapeutischen Sprechstunde, in der psychiatrischen Institutsambulanz oder beim Facharzt für Psychiatrie | … Prüf also zuerst … |
 | Nr. 9 | Abschnitt 29, Nr. 4 | Ist ein Angehöriger durch Suizid, Unfall oder Gewalttat gestorben, verlass dich nicht aufs Aushalten, such von dir aus professionelle Hilfe | … Menschen mit hohem Risiko wie in … |
 | Nr. 9 | Abschnitt 29, Nr. 8 | Steht die Trauer nach einem halben Jahr noch still und läuft das Leben nicht weiter, mach einen Termin in der psychotherapeutischen Sprechstunde, in der psychiatrischen Institutsambulanz oder beim Facharzt für Psychiatrie | … (durch Suizid oder Gewalttat ein Angehöriger) und Menschen, die schon feststecken wie in … |
-| Nr. 10 | Abschnitt 8, Nr. 25 | Vor der Heirat den Familienstand des anderen prüfen; wer unter dem Deckmantel der Ehe Geld ergaunert, wird nach dem Betrugstatbestand verfolgt | … Wie du das Vermögen vor der Ehe und Zuschüsse der Eltern regelst, steht in … |
-| Nr. 10 | Abschnitt 8, Nr. 23 | Große Schenkungen in der Liebe und in der Ehe: vor der Übergabe nachdenken, danach sind sie in der Regel nicht zurückzuholen | …nd Zuschüsse der Eltern regelst, steht in Abschnitt 8, Nr. 25 (Voreheliches Vermögen) und … |
+| Nr. 10 | Abschnitt 8, Nr. 24 | Voreheliches Vermögen ist kein Problem, aber den Namenszusatz im Grundbuch und Zuschüsse der Eltern vorher schriftlich klären | … Wie du das Vermögen vor der Ehe und Zuschüsse der Eltern regelst, steht in … |
+| Nr. 10 | Abschnitt 8, Nr. 23 | Große Schenkungen in der Liebe und in der Ehe: vor der Übergabe nachdenken, danach sind sie in der Regel nicht zurückzuholen | …nd Zuschüsse der Eltern regelst, steht in Abschnitt 8, Nr. 24 (Voreheliches Vermögen) und … |
 | Nr. 10 | Abschnitt 10, Nr. 10 | Schau in der Geldrechnung zuerst auf die gesetzliche Regel und entscheide dann über einen Ehevertrag | … Wann ein Ehevertrag sinnvoll ist, steht in … |
 | Nr. 10 | Abschnitt 10, Nr. 12 | Große Schulden, die ein Ehepartner allein aufnimmt, werden nicht automatisch deine, wenn du nicht unterschreibst und sie nicht bestätigst | … Schulden, die ein Partner allein aufnimmt, stehen in … |
 | Nr. 11 | Abschnitt 1, Nr. 25 | Bei Depression oder Suizidgedanken die Telefonseelsorge anrufen, zu Hause keine Schlafmittel und keine Pflanzenschutzmittel horten | …ann die Telefonseelsorge geschaltet wurde und wie lange sie täglich besetzt ist, steht in … |
@@ -715,7 +716,7 @@ Insgesamt 585 Verweise.
 | Nr. 4 | Abschnitt 16, Nr. 1 | Nimm die Medikamente nach ärztlicher Anordnung vollständig ein und hör nicht auf, wenn du dich besser fühlst | … Die eigenen chronischen Erkrankungen des pflegenden Angehörigen nicht absetzen, siehe … |
 | Nr. 5 | Abschnitt 17, Nr. 8 | Ist jemand zu Hause dauerhaft bettlägerig, behandle den Dekubitus als Feind Nummer eins: elektrische Wechseldruckmatratze, regelmäßiges Umlagern, jeden Tag die vorstehenden Knochen ansehen | …us bei dauerhafter Bettlägerigkeit, Wechseldruckmatratze und regelmäßiges Umlagern, siehe … |
 | Nr. 5 | Abschnitt 33, Nr. 7 | Frag beim Behindertenverband und bei der Teilhabeberatung alles auf einmal ab, was an den Schwerbehindertenausweis anknüpft | … Wie du den Zuschuss für grundlegende Hilfsmittel beantragst, siehe … |
-| Nr. 6 | Abschnitt 6, Nr. 10 | Gib kein großes Geld für Nahrungsergänzungsmittel, Kräuterpasten und Stärkungsmittel aus, um „den Körper in Ordnung zu bringen" | … Diese Werbesprüche sind bei Nahrungsergänzungsmitteln derselbe Weg, siehe … |
+| Nr. 6 | Abschnitt 6, Nr. 10 | Gib kein großes Geld für Nahrungsergänzungsmittel, Homöopathie, Schüßler-Salze und Stärkungsmittel aus, um „den Körper in Ordnung zu bringen" | … Diese Werbesprüche sind bei Nahrungsergänzungsmitteln derselbe Weg, siehe … |
 | Nr. 6 | Abschnitt 5, Nr. 29 | Verlass dich beim Onlinekauf auf die Regeln der Plattform und das Gesetz, nicht auf die Streamer und die „guten Bewertungen" | … willst dein Geld zurück, geh nach den Regeln für Onlinekauf und Vorauszahlung vor, siehe … |
 | Nr. 7 | Abschnitt 7, Nr. 8 | Mit Schwerbehindertenausweis die beiden Zuschüsse für Menschen mit Behinderung beantragen | …en mit Behinderung in Not und das Pflegegeld für Menschen mit schwerer Behinderung, siehe … |
 | Nr. 7 | Abschnitt 33, Nr. 8 | Beantrage für ein Kind mit Behinderung oder Autismus bis zur Einschulung Frühförderung und Eingliederungshilfe | … Zweitens die Rehabilitationshilfe für Kinder, siehe … |

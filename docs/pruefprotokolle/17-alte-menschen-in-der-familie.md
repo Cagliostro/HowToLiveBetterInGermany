@@ -219,3 +219,99 @@ gelesen.
   Wellen-Orchestrator prüft zentral am Wellenende). Die Anker wurden von Hand geprüft (siehe oben).
 - `node tools/sync-stats.mjs` wurde **nicht** ausgeführt — die Statistik wird am Wellenende zentral
   geschrieben.
+
+## Zweite Prüfung (2026-10-02)
+
+Gegenstand: **Issue #66** („Abschnitt 17 — Alte Menschen in der Familie", zweite Prüfung, Belegstellen
+am Text verifiziert), drei Befunde. Geändert wurde ausschließlich
+`book/17-alte-menschen-in-der-familie.md`. Das Protokoll listet die Stellen mit Vorher/Nachher und
+Beleg.
+
+| Befund | Status | Datei:Zeile | alt → neu | Beleg |
+|---|---|---|---|---|
+| Betrugsprodukte (Nr. 5): chinesische statt deutsche Muster | erledigt | `book/17-alte-menschen-in-der-familie.md:45,49,50,53` | Liste der fünf chinesischen Betrugsformen → um die deutschen Muster „Kapitalanlage", „Abo für Pflegehilfsmittel" und „Enkeltrick" ergänzt | StGB §§ 263, 264a; SGB XI § 40 Abs. 2 — gesetze-im-internet.de; polizei-beratung.de; verbraucherzentrale.sh |
+| Anrede (Nr. 3, Anmerkung): ungrammatische Wiedergabe | erledigt | `book/17-alte-menschen-in-der-familie.md:34` | „das Geld der Familie führen wir gemeinsam Buch" → „wir kümmern uns gemeinsam um das Geld der Familie" | REQ-68; deutsche Alltagsformulierung |
+| Lücke: Elternunterhalt fehlt | erledigt | `book/17-alte-menschen-in-der-familie.md:85-92` (neu, Nr. 9) | — → neuer Eintrag Nr. 9 | §§ 1601, 1602, 1603 BGB; § 94 SGB XII — gesetze-im-internet.de |
+
+### Nr. 5 — Betrugsliste
+
+- **Befund geprüft, trifft zu.** Die Liste („Karten für Pflegeleistungen, Pflegeheimplätze,
+  Seniorenwohnungen, Reisen und Wohnen im Alter, Produkte für alte Menschen") ist die wörtliche
+  Übertragung der fünf Erscheinungsformen des chinesischen Risikohinweises des Ministeriums für
+  Zivilangelegenheiten (2023; Quelle und Wortlaut siehe
+  `docs/pruefprotokolle/nachtrag-altersvorsorge-betrug.md`). Für Deutschland fehlten die üblichen
+  Muster: der Anlagebetrug stand nur im Rechtsbeleg, „Abo für Pflegehilfsmittel" (Pflegebox) und der
+  Enkeltrick kamen nicht vor.
+- **Ergänzt (Titel, Klartext, Nutzen, Quellen, Anmerkung):** Der Titel nennt zusätzlich „und ein Abo
+  für Pflegehilfsmittel abschließen"; Klartext und Nutzen führen die Liste jetzt mit „angepriesene
+  Kapitalanlagen" und „Abos für Pflegehilfsmittel". Der Nutzen benennt den Erstattungsanspruch
+  (Pflegekasse monatlich bis zu 42 Euro, § 40 Abs. 2 SGB XI) und den Enkeltrick mit den
+  Polizeiratschlägen; die Anmerkung verweist dafür auf den Ausrede-Satz aus Nr. 4.
+- **Anker erhalten:** Die Verweisstelle `book/06-die-negativliste.md:104` zielt auf „Abschnitt 17,
+  Nr. 5"; der Titel trägt die Ankerwörter „Altersvorsorge-Investition" und „vorher zahlen" weiter.
+- **Marker:** Die bestehende `Angepasst`-Zeile (Zeile 47) wurde um den Zusatz „Liste um die in
+  Deutschland üblichen Muster Kapitalanlage, Abo für Pflegehilfsmittel (§ 40 Abs. 2 SGB XI) und
+  Enkeltrick ergänzt, Titel mitgezogen" erweitert. Es bleibt bei **einem** Marker je Eintrag.
+- **Neue Quellen (offen zugänglich, am 2026-10-02 im Volltext gelesen):**
+  - SGB XI § 40 Abs. 2 — „monatlich den Betrag von 42 Euro nicht übersteigen".
+    <https://www.gesetze-im-internet.de/sgb_11/__40.html>
+  - Polizeiliche Kriminalprävention, Enkeltrick — Täter geben sich als Verwandte aus („Rate mal, wer
+    hier spricht"), ein Bote holt Bargeld ab; Rat: Namen einfordern, unter bekannter Nummer
+    zurückrufen, kein Geld an Unbekannte, im Zweifel die 110.
+    <https://www.polizei-beratung.de/themen-und-tipps/betrug/enkeltrick/>
+  - Verbraucherzentrale Schleswig-Holstein, Pressemitteilung vom 28.04.2025 — untergeschobene Verträge
+    (Pflegeboxen, bis zu 42 Euro monatlich über die Kasse); Rat: sofort auflegen, Vertrag widerrufen,
+    Pflegekasse informieren.
+    <https://www.verbraucherzentrale.sh/pressemitteilungen/vorsicht-vor-betrugsanrufen-rund-um-pflegeleistungen-verbraucherzentrale-gibt-tipps-zum-schutz-106647>
+- **Unverändert:** Evidenzstufe A, `<!-- Kostenlabel: … -->`, die Zeile „Kosten".
+
+### Nr. 3 — Anrede
+
+- **Befund geprüft, trifft zu (Wortlaut).** „das Geld der Familie führen wir gemeinsam Buch" ist kein
+  korrektes Deutsch; die freigestellte Ergänzung passt nicht zu „Buch führen". Die Empfehlung selbst
+  (nicht als Misstrauen formulieren, sondern als gemeinsame Sorge) bleibt und gilt für Deutschland
+  unverändert.
+- **Ersetzt (Anmerkung, Zeile 34):** „Formuliere es als ‚das Geld der Familie führen wir gemeinsam
+  Buch'" → „Formuliere es als ‚wir kümmern uns gemeinsam um das Geld der Familie'".
+- **Unverändert:** Evidenzstufe C, Quellen („Erfahrung des Autors"), Kostenlabel; kein Marker (eine
+  Sprachkorrektur, keine Zielrichtungsänderung).
+
+### Neu Nr. 9 — Elternunterhalt (neuer Eintrag am Abschnittsende)
+
+- **Befund geprüft, trifft zu.** Der deutsche Elternunterhalt (Kinder haften für die Pflegekosten der
+  Eltern) fehlte im Abschnitt ganz.
+- **Neu angelegt (Zeilen 85–92),** angehängt hinter Nr. 8, damit sich die Nummern 1 bis 8 nicht
+  verschieben. Pflichtzeilen vollständig: Empfehlung/Titel, Kostenlabel, Kosten, Klartext, Nutzen,
+  Evidenzstufe, Quellen, Anmerkung. Kein `Angepasst`-Marker (keine Vorlage ersetzt, der Eintrag ist
+  deutsch-spezifisch neu).
+- **Kostenlabel:** `Geld=0 Zeit=wenig Willenskraft=nein Nutzen=hoch Bezug=Geld`. Nutzen „hoch", weil
+  der zurückzuholende Betrag weit über der Schwelle liegt, ab der eine Klage wirtschaftlich sinnvoll
+  ist.
+- **Belege (offen zugänglich, am 2026-10-02 im Volltext gelesen):** BGB § 1601 („Verwandte in gerader
+  Linie sind verpflichtet, einander Unterhalt zu gewähren"); § 1602 Abs. 1 (Bedürftigkeit); § 1603
+  (Leistungsfähigkeit, „ohne Gefährdung seines angemessenen Unterhalts"); SGB XII § 94 (Übergang des
+  Unterhaltsanspruchs auf den Sozialhilfeträger), § 94 Abs. 1a (Jahreseinkommensgrenze 100.000 Euro —
+  Ansprüche gegenüber Kindern bleiben unberücksichtigt, „es sei denn, deren jährliches Gesamteinkommen
+  … beträgt jeweils mehr als 100 000 Euro").
+- **Wechselseitige Verweise:** Der Eintrag verweist auf „Nr. 7 in diesem Abschnitt"
+  (Pflegeversicherung), Ankerwort im Zielsatz vorhanden.
+
+### Maschinelle Gates (2026-10-02)
+
+- `grep -c '^### '` = **9** (vorher 8) — **ein Eintrag kam hinzu (Nr. 9)**; `grep -c '^<!-- Angepasst:'`
+  = **5** (unverändert; der Marker von Nr. 5 wurde erweitert, Nr. 9 trägt keinen).
+- `grep -c 元 book/17-alte-menschen-in-der-familie.md` = **0**; `grep -cP '[\x{4e00}-\x{9fff}]'` =
+  **0**.
+- `node tools/check-refs.mjs --check`: **bestanden** — „alle 590 Verweise zeigen auf den richtigen
+  Eintrag und tragen einen Anker" (588 → 590, **+2**: Nr. 5 → Nr. 4 und neuer Nr. 9 → Nr. 7).
+- `node tools/check-plain.mjs --stat`: 607 Klartext-Zeilen, **beanstandet 0** (Länge 0, Satzlänge 0,
+  Jargon 0, neuezahl 0, Leerformel 0).
+- `node tools/sync-stats.mjs` wurde **nicht** ausgeführt (Randbedingung des Auftrags).
+
+### Offen
+
+- **Ein Eintrag kam hinzu** (Nr. 9, Elternunterhalt). Für die spätere Statistik-Synchronisierung zu
+  vermerken: Abschnitt 17 zählt jetzt **9 statt 8 Einträge**. `sync-stats.mjs` läuft am Wellenende
+  zentral.
+- Die **`README.md`**, Katalogzeile zu Abschnitt 17, nennt weiterhin die chinesischen Leistungs- und
+  Verfahrensnamen; sie wurde **nicht** angefasst (außerhalb des Auftrags).
