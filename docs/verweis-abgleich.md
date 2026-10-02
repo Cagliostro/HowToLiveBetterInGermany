@@ -37,7 +37,7 @@ Verweis «… des Darlehens siehe Nr. 15 dieses Abschnitts» auf den neuen Eintr
 selbst erklären» verrutscht, und ein zwei Teilstrecken entferntes «Sie zahlen selbst» hatte
 den Anker gespielt; `--check` meldete damals «bestanden».
 
-Insgesamt 602 Verweise.
+Insgesamt 595 Verweise.
 
 ## 01-nicht-frueh-sterben
 
@@ -54,8 +54,8 @@ Insgesamt 602 Verweise.
 | Nr. 28 | Abschnitt 1, Nr. 29 | Abnehmen, Rauchen aufhören, Blutdruck und Blutzucker in den Griff bekommen, dann bessert sich die erektile Funktion | … Wie du es besserst, steht in … |
 | Nr. 28 | Abschnitt 1, Nr. 27 | Sichtbares Blut im Urin, auch ohne Schmerzen und auch wenn es am nächsten Tag weg ist, einmal abklären lassen | … Bei … |
 | Nr. 29 | Abschnitt 2, Nr. 1 | Raucherentwöhnung, je früher, desto besser | … Rauchen aufhören siehe … |
-| Nr. 29 | Abschnitt 2, Nr. 33 | Den BMI zwischen 20 und 25 halten und bei Übergewicht abnehmen | …ören siehe Abschnitt 2, Nr. 1 (Rauchen aufhören, je früher, desto besser), Abnehmen siehe … |
-| Nr. 29 | Abschnitt 1, Nr. 7 | Blutdruck messen, bei hohem Wert mit Medikamenten auf den Zielwert senken | …, Abnehmen siehe Abschnitt 2, Nr. 33 (den BMI zwischen 20 und 25 halten), Blutdruck siehe … |
+| Nr. 29 | Abschnitt 2, Nr. 32 | Den BMI zwischen 20 und 25 halten und bei Übergewicht abnehmen | …ören siehe Abschnitt 2, Nr. 1 (Rauchen aufhören, je früher, desto besser), Abnehmen siehe … |
+| Nr. 29 | Abschnitt 1, Nr. 7 | Blutdruck messen, bei hohem Wert mit Medikamenten auf den Zielwert senken | …, Abnehmen siehe Abschnitt 2, Nr. 32 (den BMI zwischen 20 und 25 halten), Blutdruck siehe … |
 | Nr. 29 | Abschnitt 28, Nr. 4 | Kauf keine Abnehmpräparate, die schnelles Abnehmen versprechen — keine Schlankheitspillen, Diätkaffee, Abnehm-Kapseln, Fatburner und Detox-Tees | …n solche Wirkstoffe oft heimlich bei, in unbekannter Dosis, wie du sie erkennst, steht in … |
 | Nr. 30 | Abschnitt 13, Nr. 38 | Vielleicht hast du dich mit HIV angesteckt: hol dir binnen 72 Stunden die Blockermedikamente, je früher, desto besser | … Was nach einer bereits erfolgten Exposition zu tun ist, siehe … |
 | Nr. 31 | Abschnitt 27, Nr. 3 | Lass bei der ersten Vorsorgeuntersuchung gleich auf HIV, Syphilis und Hepatitis B testen, die Behandlung ist auch bei einem Befund kostenlos | …ung in der Schwangerschaft und die Unterbrechung der Übertragung von der Mutter stehen in … |
@@ -84,27 +84,27 @@ Insgesamt 602 Verweise.
 | Nr. 3 | Abschnitt 2, Nr. 5 | Beim Rauchfrei-Telefon anrufen und nach Kursen in der Nähe fragen | … Kombiniere es deshalb mit Nr. 4 (einen Tag zum Aufhören festlegen) und … |
 | Nr. 5 | Abschnitt 2, Nr. 3 | Raucherentwöhnung nicht nur mit Aushalten, sondern zuerst Medikamente holen: die Erfolgsquote mehr als verdoppeln | … Welche Medikamente dazu gehören, steht in … |
 | Nr. 6 | Abschnitt 2, Nr. 3 | Raucherentwöhnung nicht nur mit Aushalten, sondern zuerst Medikamente holen: die Erfolgsquote mehr als verdoppeln | … Von der Reihenfolge her probiere zuerst … |
-| Nr. 11 | Abschnitt 2, Nr. 14 | Wöchentlich insgesamt 150–300 Minuten mäßig intensive Bewegung, zügiges Gehen genügt | … Dieser Eintrag und … |
-| Nr. 13 | Abschnitt 2, Nr. 39 | Nach einer durchwachten Nacht in der nächsten Nacht den Schlaf nachholen, nicht bis zum Wochenende aufschieben | … Wie du nach durchwachten Nächten aufholst, steht in … |
-| Nr. 14 | Abschnitt 2, Nr. 11 | Täglich 7000–8000 Schritte gehen | … Von diesem Eintrag und … |
-| Nr. 20 | Abschnitt 2, Nr. 22 | Wer weniger trinken will, zählt zuerst, wie viel er in einer Woche trinkt, und spricht dann ein paar Minuten mit dem Arzt | … Wie du weniger trinken kannst, steht in … |
-| Nr. 20 | Abschnitt 2, Nr. 21 | Wer täglich trinkt und beim Absetzen zittert und Herzrasen bekommt, setzt nicht selbst ab | … Wer täglich trinkt, darf nicht selbst hart absetzen, siehe … |
-| Nr. 21 | Abschnitt 2, Nr. 20 | Wenig oder gar keinen Alkohol trinken | … Wie viel Trinken pro Woche viel ist, steht in … |
-| Nr. 21 | Abschnitt 2, Nr. 22 | Wer weniger trinken will, zählt zuerst, wie viel er in einer Woche trinkt, und spricht dann ein paar Minuten mit dem Arzt | … wie du weniger trinken kannst, in … |
-| Nr. 22 | Abschnitt 2, Nr. 21 | Wer täglich trinkt und beim Absetzen zittert und Herzrasen bekommt, setzt nicht selbst ab | … Wer schon Entzugserscheinungen hat, siehe … |
-| Nr. 26 | Abschnitt 2, Nr. 31 | Heißes erst abkühlen lassen, keine kochend heißen Getränke wie Tee, Suppe und Kaffee trinken | … zur Temperatur heißer Getränke siehe … |
-| Nr. 29 | Abschnitt 2, Nr. 7 | Keine zuckergesüßten Getränke; die Umstellung auf zuckerfrei löst das Problem auch nicht | …tens überschneidet sie sich stark mit zuckergesüßten Getränken und verarbeitetem Fleisch (… |
-| Nr. 29 | Abschnitt 2, Nr. 19 | Weniger verarbeitetes Fleisch (Schinken, Speck, Wurst, Corned Beef) | …tens überschneidet sie sich stark mit zuckergesüßten Getränken und verarbeitetem Fleisch (… |
-| Nr. 29 | Abschnitt 2, Nr. 7 | Keine zuckergesüßten Getränke; die Umstellung auf zuckerfrei löst das Problem auch nicht | … Schaff also zuerst … |
-| Nr. 29 | Abschnitt 2, Nr. 19 | Weniger verarbeitetes Fleisch (Schinken, Speck, Wurst, Corned Beef) | … Schaff also zuerst … |
-| Nr. 33 | Abschnitt 6, Nr. 26 | Erwarte nicht, dass Frühstück oder 16:8-Kurzzeitfasten dir beim Gewichthalten helfen, wähle Essenszeiten, die du lange durchhältst | …8-Kurzzeitfasten bringen keinen zusätzlichen Vorteil, siehe … |
-| Nr. 38 | Abschnitt 3, Nr. 11 | Schlaf am Nachmittag bei Müdigkeit 10 Minuten, nicht eine halbe Stunde | … Wie kurzer Mittagsschlaf erfrischt, steht in … |
-| Nr. 38 | Abschnitt 2, Nr. 13 | Etwa 7 Stunden pro Nacht schlafen, feste Schlafenszeiten | … Wie lange du nachts schläfst, in … |
-| Nr. 39 | Abschnitt 3, Nr. 2 | Steh zu einer festen Zeit auf, auch am Wochenende | … Den Eintrag zum auch am Wochenende festen Aufstehen findest du in … |
-| Nr. 39 | Abschnitt 2, Nr. 13 | Etwa 7 Stunden pro Nacht schlafen, feste Schlafenszeiten | … er hängt selbst mit Herz-Kreislauf-Erkrankungen zusammen, siehe … |
-| Nr. 40 | Abschnitt 2, Nr. 1 | Raucherentwöhnung, je früher, desto besser | … Raucherentwöhnung siehe … |
-| Nr. 40 | Abschnitt 2, Nr. 12 | Bei Bluthochdruck und hohen Blutfetten die Medikamente nach ärztlicher Anweisung regelmäßig nehmen, nicht selbst absetzen | …sem Abschnitt (Raucherentwöhnung, je früher, desto besser), Blutdruck und Blutfette siehe … |
-| Nr. 40 | Abschnitt 2, Nr. 39 | Nach einer durchwachten Nacht in der nächsten Nacht den Schlaf nachholen, nicht bis zum Wochenende aufschieben | … Medikamente regelmäßig nehmen), wie du den Schlaf nach der Nachtschicht nachholst, siehe … |
+| Nr. 10 | Abschnitt 2, Nr. 13 | Wöchentlich insgesamt 150–300 Minuten mäßig intensive Bewegung, zügiges Gehen genügt | … Dieser Eintrag und … |
+| Nr. 12 | Abschnitt 2, Nr. 38 | Nach einer durchwachten Nacht in der nächsten Nacht den Schlaf nachholen, nicht bis zum Wochenende aufschieben | … Wie du nach durchwachten Nächten aufholst, steht in … |
+| Nr. 13 | Abschnitt 2, Nr. 10 | Täglich 7000–8000 Schritte gehen | … Von diesem Eintrag und … |
+| Nr. 19 | Abschnitt 2, Nr. 21 | Wer weniger trinken will, zählt zuerst, wie viel er in einer Woche trinkt, und spricht dann ein paar Minuten mit dem Arzt | … Wie du weniger trinken kannst, steht in … |
+| Nr. 19 | Abschnitt 2, Nr. 20 | Wer täglich trinkt und beim Absetzen zittert und Herzrasen bekommt, setzt nicht selbst ab | … Wer täglich trinkt, darf nicht selbst hart absetzen, siehe … |
+| Nr. 20 | Abschnitt 2, Nr. 19 | Wenig oder gar keinen Alkohol trinken | … Wie viel Trinken pro Woche viel ist, steht in … |
+| Nr. 20 | Abschnitt 2, Nr. 21 | Wer weniger trinken will, zählt zuerst, wie viel er in einer Woche trinkt, und spricht dann ein paar Minuten mit dem Arzt | … wie du weniger trinken kannst, in … |
+| Nr. 21 | Abschnitt 2, Nr. 20 | Wer täglich trinkt und beim Absetzen zittert und Herzrasen bekommt, setzt nicht selbst ab | … Wer schon Entzugserscheinungen hat, siehe … |
+| Nr. 25 | Abschnitt 2, Nr. 30 | Heißes erst abkühlen lassen, keine kochend heißen Getränke wie Tee, Suppe und Kaffee trinken | … zur Temperatur heißer Getränke siehe … |
+| Nr. 28 | Abschnitt 2, Nr. 7 | Keine zuckergesüßten Getränke; die Umstellung auf zuckerfrei löst das Problem auch nicht | …tens überschneidet sie sich stark mit zuckergesüßten Getränken und verarbeitetem Fleisch (… |
+| Nr. 28 | Abschnitt 2, Nr. 19 | Wenig oder gar keinen Alkohol trinken | …tens überschneidet sie sich stark mit zuckergesüßten Getränken und verarbeitetem Fleisch (… |
+| Nr. 28 | Abschnitt 2, Nr. 7 | Keine zuckergesüßten Getränke; die Umstellung auf zuckerfrei löst das Problem auch nicht | … Schaff also zuerst … |
+| Nr. 28 | Abschnitt 2, Nr. 19 | Wenig oder gar keinen Alkohol trinken | … Schaff also zuerst … |
+| Nr. 32 | Abschnitt 6, Nr. 26 | Erwarte nicht, dass Frühstück oder 16:8-Kurzzeitfasten dir beim Gewichthalten helfen, wähle Essenszeiten, die du lange durchhältst | …8-Kurzzeitfasten bringen keinen zusätzlichen Vorteil, siehe … |
+| Nr. 37 | Abschnitt 3, Nr. 11 | Schlaf am Nachmittag bei Müdigkeit 10 Minuten, nicht eine halbe Stunde | … Wie kurzer Mittagsschlaf erfrischt, steht in … |
+| Nr. 37 | Abschnitt 2, Nr. 12 | Etwa 7 Stunden pro Nacht schlafen, feste Schlafenszeiten | … Wie lange du nachts schläfst, in … |
+| Nr. 38 | Abschnitt 3, Nr. 2 | Steh zu einer festen Zeit auf, auch am Wochenende | … Den Eintrag zum auch am Wochenende festen Aufstehen findest du in … |
+| Nr. 38 | Abschnitt 2, Nr. 12 | Etwa 7 Stunden pro Nacht schlafen, feste Schlafenszeiten | … er hängt selbst mit Herz-Kreislauf-Erkrankungen zusammen, siehe … |
+| Nr. 39 | Abschnitt 2, Nr. 1 | Raucherentwöhnung, je früher, desto besser | … Raucherentwöhnung siehe … |
+| Nr. 39 | Abschnitt 2, Nr. 11 | Bei Bluthochdruck und hohen Blutfetten die Medikamente nach ärztlicher Anweisung regelmäßig nehmen, nicht selbst absetzen | …sem Abschnitt (Raucherentwöhnung, je früher, desto besser), Blutdruck und Blutfette siehe … |
+| Nr. 39 | Abschnitt 2, Nr. 38 | Nach einer durchwachten Nacht in der nächsten Nacht den Schlaf nachholen, nicht bis zum Wochenende aufschieben | … Medikamente regelmäßig nehmen), wie du den Schlaf nach der Nachtschicht nachholst, siehe … |
 
 ## 03-keine-energie-verschwenden
 
@@ -113,15 +113,14 @@ Insgesamt 602 Verweise.
 | Abschnittskopf | Abschnitt 3, Nr. 20 | Behandle Polizisten, Ärzte und Schalterangestellte als Menschen, die nach Regeln arbeiten, nicht als Rollen: Was Dinge voranbringt, sind Papiere und Fristen, nicht Gefühle | … … |
 | Abschnittskopf | Abschnitt 3, Nr. 15 | Behandle Gedanken wie „es wird sicher schlimmer" als Symptom, nicht als Tatsache | … … |
 | Abschnittskopf | Abschnitt 3, Nr. 23 | Behandle den Gedanken „andere verlangen von mir Perfektion" als Symptom, nicht als Tatsache | … Nr. 15 (Gedanken wie „es wird sicher schlimmer" als Symptom sehen) und … |
-| Nr. 2 | Abschnitt 2, Nr. 39 | Nach einer durchwachten Nacht in der nächsten Nacht den Schlaf nachholen, nicht bis zum Wochenende aufschieben | … Wie du nach gelegentlichem Wachbleiben aufholst, siehe … |
+| Nr. 2 | Abschnitt 2, Nr. 38 | Nach einer durchwachten Nacht in der nächsten Nacht den Schlaf nachholen, nicht bis zum Wochenende aufschieben | … Wie du nach gelegentlichem Wachbleiben aufholst, siehe … |
 | Nr. 4 | Abschnitt 3, Nr. 3 | Schlaf jede Nacht 7 bis 8 Stunden und halte 6 Stunden nicht für genug | … Was du durch weniger Koffein zurückbekommst, ist Schlafdauer, und das addiert sich zu … |
 | Nr. 6 | Abschnitt 3, Nr. 1 | Schalte unnötige Benachrichtigungen aus und leg das Handy bei der Arbeit aus dem Blickfeld | … Bei der zweiten hilft nur, sie zusammen mit … |
 | Nr. 6 | Abschnitt 3, Nr. 5 | Bearbeite E-Mails und Nachrichten nur ein paar feste Male am Tag im Stapel | …r zweiten hilft nur, sie zusammen mit Nr. 1 (unnötige Benachrichtigungen ausschalten) und … |
 | Nr. 9 | Abschnitt 3, Nr. 3 | Schlaf jede Nacht 7 bis 8 Stunden und halte 6 Stunden nicht für genug | … Was das Aufbleiben selbst kostet, siehe … |
-| Nr. 11 | Abschnitt 2, Nr. 38 | Den Mittagsschlaf auf eine halbe Stunde begrenzen, nicht über eine Stunde, und wenn du unbedingt ein bis zwei Stunden brauchst, die Ursache abklären lassen | …n mit höherer Sterblichkeit und höherem Risiko für koronare Herzkrankheit zusammen, siehe … |
+| Nr. 11 | Abschnitt 2, Nr. 37 | Den Mittagsschlaf auf eine halbe Stunde begrenzen, nicht über eine Stunde, und wenn du unbedingt ein bis zwei Stunden brauchst, die Ursache abklären lassen | …n mit höherer Sterblichkeit und höherem Risiko für koronare Herzkrankheit zusammen, siehe … |
 | Nr. 19 | Abschnitt 1, Nr. 25 | Bei Depression oder Suizidgedanken die Telefonseelsorge anrufen, zu Hause keine Schlafmittel und keine Pflanzenschutzmittel horten | … ruf zuerst die Telefonseelsorge an (siehe … |
 | Nr. 20 | Abschnitt 24, Nr. 6 | Bei akut schweren Verletzungen oder Erkrankungen direkt zum Ersteinschätzungstisch der Notaufnahme, nicht am Anmeldetisch anstehen | … In der Notaufnahme wird nach Schweregrad eingeteilt, nicht nach Ankunftszeit (… |
-| Nr. 20 | Abschnitt 24, Nr. 10 | Dank dem Arzt, der dich gerettet hat, über einen Dankbrief und die Klinikbewertung, nicht über einen Umschlag: Verboten sind die Geschenke, nicht der Dank | … Willst du einem Arzt danken, nimm einen Dankbrief und die Zufriedenheitsbewertung (… |
 | Nr. 20 | Abschnitt 8, Nr. 39 | Steck Ermittelnden und Vollstreckenden kein Geld und keine Karten zu: Bestechung wird auch für den Geber bestraft, bei Bestechung von Richtern sogar strenger | …t gegenüber Ermittlern und Vollstreckern Bestechung, ausdrücklich mit erschwerter Strafe (… |
 | Nr. 21 | Abschnitt 4, Nr. 15 | Für Kurzvideos und zielloses Scrollen eine harte Obergrenze setzen | … Die Rechnung über die gesamte Bildschirmzeit steht in … |
 | Nr. 21 | Abschnitt 4, Nr. 16 | Kein Fernsehen und keine Ticker-News; die nötigen Informationen zu festen Zeiten gesammelt anschauen | … Die Rechnung über die gesamte Bildschirmzeit steht in … |
@@ -240,7 +239,7 @@ Insgesamt 602 Verweise.
 | Nr. 19 | Abschnitt 16, Nr. 9 | Nimm nach der Diagnose Gicht dauerhaft harnsäuresenkende Medikamente und halte die Blut-Harnsäure dauerhaft unter 360 µmol/L | … Bevor du es wirklich anfängst, lass zuerst diesen Genotyp bestimmen, siehe … |
 | Nr. 21 | Abschnitt 16, Nr. 8 | Wenn du schon einmal einen Nierenstein hattest, trink täglich 2,5–3 Liter Wasser und halte das Salz unter 6 Gramm | … Der Eintrag zum Wassertrinken siehe … |
 | Nr. 22 | Abschnitt 5, Nr. 33 | Bei Schmuck, teuren Uhren und Sammlerspielzeug rechne mit „dem ausgegebenen Geld", nicht mit „dem gesparten Geld" | …Wie du Material und Zertifikat prüfst und warum es sich als Geldanlage nicht lohnt, siehe … |
-| Nr. 22 | Abschnitt 5, Nr. 34 | Bei Schmuck und Jade nur einen Prüfbericht einer akkreditierten Stelle akzeptieren und die Stelle im Verzeichnis der Akkreditierungsstelle prüfen | …Wie du Material und Zertifikat prüfst und warum es sich als Geldanlage nicht lohnt, siehe … |
+| Nr. 22 | Abschnitt 5, Nr. 34 | Bei Schmuck und Edelsteinen nur einen Prüfbericht einer akkreditierten Stelle akzeptieren und die Stelle im Verzeichnis der Akkreditierungsstelle prüfen | …Wie du Material und Zertifikat prüfst und warum es sich als Geldanlage nicht lohnt, siehe … |
 | Nr. 22 | Abschnitt 6, Nr. 15 | Gib kein Geld für Wahrsagerei, Tarot und Sternzeichen, um Entscheidungen zu treffen | … Geld für Wahrsagerei siehe … |
 | Nr. 23 | Abschnitt 6, Nr. 24 | Gib kein zusätzliches Geld für Wohnung, Auto und Bekanntenkreis aus, um „im Umfeld eine Stufe höher zu steigen" | … Das Budget, das für „eine Stufe besser als die anderen" draufgeht, siehe … |
 | Nr. 24 | Abschnitt 4, Nr. 18 | Bei der Wahl der Wohnung zuerst auf die Pendelzeit achten und den einfachen Weg verkürzen | … Wonach sich die Wahl des Wohnorts richten soll, siehe … |
@@ -250,9 +249,9 @@ Insgesamt 602 Verweise.
 | Nr. 25 | Abschnitt 4, Nr. 10 | Was du brauchst, in Reichweite legen, Unerwünschtes wegräumen, nicht auf die Selbstbeherrschung im Moment setzen | …domisierte Studien gestützt ist, sind Änderungen der Umgebung und der Formulierung, siehe … |
 | Nr. 25 | Abschnitt 4, Nr. 1 | Den Vorsatz in „um wie viel Uhr, wo, und wenn etwas passiert, dann mache ich was" umschreiben | …er Umgebung und der Formulierung, siehe Abschnitt 4, Nr. 10 (Unerwünschtes wegräumen) und … |
 | Nr. 26 | Abschnitt 1, Nr. 23 | Auf Helicobacter pylori testen, bei positivem Befund eradizieren | …obacter pylori und die langfristige Einnahme von Schmerzmitteln, was zu prüfen ist, siehe … |
-| Nr. 26 | Abschnitt 2, Nr. 28 | Täglich fünf Portionen (etwa 400 g) Obst und Gemüse essen | … Wer das Gewicht steuern will, für den ist belegt, was und wie viel man isst, siehe … |
-| Nr. 26 | Abschnitt 2, Nr. 29 | Weniger hochverarbeitete Lebensmittel (Chips, Instantnudeln, Gebäck, Fertiggerichte) | …nd wie viel man isst, siehe Abschnitt 2, Nr. 28 (täglich fünf Portionen Obst und Gemüse), … |
-| Nr. 26 | Abschnitt 2, Nr. 33 | Den BMI zwischen 20 und 25 halten und bei Übergewicht abnehmen | …rtionen Obst und Gemüse), Abschnitt 2, Nr. 29 (weniger hochverarbeitete Lebensmittel) und … |
+| Nr. 26 | Abschnitt 2, Nr. 27 | Täglich fünf Portionen (etwa 400 g) Obst und Gemüse essen | … Wer das Gewicht steuern will, für den ist belegt, was und wie viel man isst, siehe … |
+| Nr. 26 | Abschnitt 2, Nr. 28 | Weniger hochverarbeitete Lebensmittel (Chips, Instantnudeln, Gebäck, Fertiggerichte) | …nd wie viel man isst, siehe Abschnitt 2, Nr. 27 (täglich fünf Portionen Obst und Gemüse), … |
+| Nr. 26 | Abschnitt 2, Nr. 32 | Den BMI zwischen 20 und 25 halten und bei Übergewicht abnehmen | …rtionen Obst und Gemüse), Abschnitt 2, Nr. 28 (weniger hochverarbeitete Lebensmittel) und … |
 | Nr. 26 | Abschnitt 28, Nr. 1 | Steuere dein Gewicht nicht mit extremem Hungern, Fasten oder Erbrechen — willst du abnehmen, dann über mehr Bewegung | … Extremes Fasten und selbst herbeigeführtes Erbrechen sind etwas anderes, siehe … |
 | Nr. 26 | Abschnitt 6, Nr. 20 | Lass die Gallenblase nicht vorbeugend entfernen, nur weil der Check-up Gallenblasensteine zeigt und du nie Schmerzen hattest | … tun ist, wenn der Check-up Gallenblasensteine zeigt, aber nie Schmerzen auftraten, siehe … |
 
@@ -323,7 +322,6 @@ Insgesamt 602 Verweise.
 | Nr. 37 | Abschnitt 8, Nr. 15 | Wenn jemand aus deinem Umfeld „niemand soll es gut haben" oder „ich nehme das Kind mit" sagt, halt es nicht für Gerede: nimm die Warnung ernst, hol sofort Hilfe und verheimliche sie nicht | … Den Impuls, einem Familienmitglied zu schaden, behandle wie einen Notfall, siehe … |
 | Nr. 38 | Abschnitt 8, Nr. 2 | Bei einem entdeckten Betrug sofort 110 anrufen, die Bank verständigen und die Zahlung stoppen lassen, nicht selbst nachforschen | … Das Sperrverfahren nach einem Betrug steht in … |
 | Nr. 38 | Abschnitt 8, Nr. 36 | Wirst du online gemobbt: erst Schutz an, erst Beweise sichern, dann unter Plattform, einstweiliger Verfügung und Strafantrag einen der drei Wege wählen | … Online-Mobbing steht in … |
-| Nr. 39 | Abschnitt 24, Nr. 10 | Dank dem Arzt, der dich gerettet hat, über einen Dankbrief und die Klinikbewertung, nicht über einen Umschlag: Verboten sind die Geschenke, nicht der Dank | … Der Umschlag im Krankenhaus folgt einem anderen Regelwerk, siehe … |
 | Nr. 39 | Abschnitt 8, Nr. 38 | Verlang bei der Anzeige den schriftlichen Eingangsnachweis, bei Einstellung einen Bescheid: binnen 2 Wochen Beschwerde, dann Antrag auf gerichtliche Entscheidung | … Verlangt die andere Seite wirklich einen Vorteil, geh über den Weg aus … |
 | Nr. 40 | Abschnitt 19, Nr. 8 | Sichere vor dem Ausscheiden Lohnabrechnungen, Anwesenheitsnachweise, Arbeitsvertrag, Sozialversicherungsauszug und Chatverläufe | … Was du vor dem Ausscheiden sichern solltest, steht in … |
 | Nr. 40 | Abschnitt 8, Nr. 16 | Beschimpfe und verleumde niemanden im Netz und verbreite nichts Ungeprüftes; bei einem Shitstorm erst Beweise sichern, dann die Polizei rufen | …ffentlichen der Worte eines anderen kann Streit über Privatsphäre und Ruf auslösen, siehe … |
@@ -355,7 +353,6 @@ Insgesamt 602 Verweise.
 | Nr. 20 | Abschnitt 5, Nr. 26 | Kauf die Kfz-Haftpflichtversicherung mit hoher Deckungssumme: Die gesetzliche Mindestdeckung von 7,5 Millionen Euro für Personenschäden ist nur die Untergrenze | … Wie du eine Kfz-Versicherung richtig abschließt, siehe … |
 | Nr. 20 | Abschnitt 8, Nr. 37 | „Erst für jemanden eine Versicherung abschließen, dann handeln" ist rechtlich von vornherein verschlossen: kein Cent ist zu holen, die Strafe läuft als Tötung plus Versicherungsmissbrauch | …ehörigen versichert und dann absichtlich tötet, wird wegen mehrerer Taten bestraft, siehe … |
 | Nr. 20 | Abschnitt 5, Nr. 13 | Melde Ehepartner und Kinder bei der Krankenkasse zur Familienversicherung an, dann sind sie beitragsfrei mitversichert | … Die Krankenversicherung folgt eigenen Regeln, siehe die Anmerkung zu … |
-| Nr. 21 | Abschnitt 9, Nr. 5 | Wenn dich jemand zum „Aufhübschen von Unterlagen" für einen Kredit oder zu einer Beteiligung am Kreditbetrag holen will: mach in keinem Fall mit | … Die Fallen von Onlinekrediten und Krediten über „Aufhübschen von Unterlagen" siehe … |
 
 ## 10-liebe-und-ehe
 
@@ -433,10 +430,9 @@ Insgesamt 602 Verweise.
 | Nr. 21 | Abschnitt 13, Nr. 20 | Nach versehentlicher Einnahme von Reinigungsmittel, Pestizid oder Medikament nicht zuerst Erbrechen auslösen, sondern mit der Flasche sofort zum Arzt; in Auge oder Haut gelangt, zehn Minuten mit viel klarem Wasser spülen, bei Säure oder Lauge 20 Minuten | … Haushaltsreiniger und versehentliche Einnahme siehe … |
 | Nr. 23 | Abschnitt 13, Nr. 22 | Bei Hitze Schwindel, Übelkeit, kein Schwitzen oder Bewusstseinstrübung: sofort in den Schatten bringen, ausziehen und mit Wasser kühlen; wer nicht bei Bewusstsein ist, bekommt kein Wasser, die 112 rufen | … … |
 | Nr. 25 | Abschnitt 1, Nr. 12 | Kinder in Wassernähe nicht aus den Augen lassen, beim Bootfahren und beim wilden Baden eine Rettungsweste tragen | … wie man vorbeugt, siehe … |
-| Nr. 31 | Abschnitt 13, Nr. 13 | Bei einem Biss oder Kratzer von Hund oder Katze, der die Haut verletzt: zuerst 15 Minuten abwechselnd mit Seifenwasser und fließendem Wasser spülen und noch am selben Tag zur Impfung | … Bei einem Hundebiss siehe … |
 | Nr. 36 | Abschnitt 8, Nr. 32 | Wirst du mit erfundenen Tatsachen einer Straftat beschuldigt, kannst du verlangen, dass er verfolgt wird: die falsche Verdächtigung steht unter Strafe | … privaten Fotos oder einem Nacktchat-Video Geld, ist es umgekehrt, gib keinen Cent, siehe … |
 | Nr. 37 | Abschnitt 8, Nr. 10 | Bei einem Streit zuerst die Polizei rufen und nicht zuschlagen, wer zuerst zuschlägt, verliert fast immer | … Wirst du selbst in einen Konflikt hineingezogen, siehe … |
-| Nr. 37 | Abschnitt 13, Nr. 36 | Verlangt ein Fremder im Gelände Geld von dir: gib ihm das Geld, wehre dich nicht, merke seine Kennzeichen, erstatte nach dem Entkommen Anzeige | … Verlangt ein Fremder Geld, siehe … |
+| Nr. 37 | Abschnitt 13, Nr. 36 | Verlangt ein Fremder Geld von dir: gib ihm das Geld, wehre dich nicht, merke seine Kennzeichen, erstatte danach Anzeige | … Verlangt ein Fremder Geld, siehe … |
 | Nr. 37 | Abschnitt 13, Nr. 39 | Hast du dich bei einer Rettung verletzt: die gesetzliche Unfallversicherung greift wie bei einem Arbeitsunfall, den Schaden ersetzt dir der Gerettete | …mder Geld, siehe Nr. 36 in diesem Abschnitt, das Geld nach einer Rettungsverletzung siehe … |
 | Nr. 38 | Abschnitt 1, Nr. 30 | Beim Geschlechtsverkehr immer ein Kondom benutzen, keine Spritzen mit anderen teilen | …e Blockermedikamente sind nur eine Rettung, zur Vorbeugung im Alltag und zum Testen siehe … |
 | Nr. 38 | Abschnitt 1, Nr. 31 | Nach einer Risikosituation einmal auf HIV testen lassen, beim Gesundheitsamt anonym und vertraulich | …e Blockermedikamente sind nur eine Rettung, zur Vorbeugung im Alltag und zum Testen siehe … |
@@ -480,7 +476,7 @@ Insgesamt 602 Verweise.
 | Nr. 8 | Abschnitt 1, Nr. 27 | Sichtbares Blut im Urin, auch ohne Schmerzen und auch wenn es am nächsten Tag weg ist, einmal abklären lassen | … Blut im Urin ohne Schmerzen hat andere Ursachen, die abgeklärt werden müssen, siehe … |
 | Nr. 9 | Abschnitt 6, Nr. 19 | Fang nicht mit harnsäuresenkenden Medikamenten an, nur weil der Check-up eine erhöhte Harnsäure zeigt und du nie Schmerzen hattest | …bei der Untersuchung erhöhter Harnsäurewert ohne je einen Anfall ist etwas anderes, siehe … |
 | Nr. 9 | Abschnitt 2, Nr. 7 | Keine zuckergesüßten Getränke; die Umstellung auf zuckerfrei löst das Problem auch nicht | … Zuckergesüßte Getränke und Alkohol siehe … |
-| Nr. 9 | Abschnitt 2, Nr. 20 | Wenig oder gar keinen Alkohol trinken | … Zuckergesüßte Getränke und Alkohol siehe … |
+| Nr. 9 | Abschnitt 2, Nr. 19 | Wenig oder gar keinen Alkohol trinken | … Zuckergesüßte Getränke und Alkohol siehe … |
 
 ## 17-alte-menschen-in-der-familie
 
@@ -559,7 +555,7 @@ Insgesamt 602 Verweise.
 | --- | --- | --- | --- |
 | Abschnittskopf | Abschnitt 3, Nr. 19 | Wenn du niedergeschlagen bist, tu zuerst die Dinge mit dem besten Kosten-Nutzen-Verhältnis: in Bewegung kommen, Sonnenlicht tanken, rechtzeitig schlafen, mit jemandem reden, die Telefonseelsorge anrufen | … … |
 | Nr. 4 | Abschnitt 8, Nr. 29 | Ein Hund muss an die Leine: Ohne Leine haftest du verschuldensunabhängig (ob du schuld bist oder nicht) und bis zum Ende | … Wie es ist, für andere etwas mitzunehmen, steht in … |
-| Nr. 4 | Abschnitt 22, Nr. 3 | Wenn dir im Lokal jemand etwas reicht, geh sofort. Jemanden gewähren lassen oder etwas bereitstellen ist kein Freundschaftsdienst | …emand unbekanntes Pulver, Tabletten oder eine E-Zigaretten-Kartusche herausholt, steht in … |
+| Nr. 4 | Abschnitt 22, Nr. 3 | Wenn dir im Lokal jemand Drogen anbietet oder etwas zum Probieren reicht, geh sofort. Nichts anzunehmen ist kein Freundschaftsdienst | … Was du tun sollst, wenn im Lokal jemand Drogen anbietet, steht in … |
 | Nr. 6 | Abschnitt 3, Nr. 19 | Wenn du niedergeschlagen bist, tu zuerst die Dinge mit dem besten Kosten-Nutzen-Verhältnis: in Bewegung kommen, Sonnenlicht tanken, rechtzeitig schlafen, mit jemandem reden, die Telefonseelsorge anrufen | … Das ist die Ausführung von … |
 | Nr. 9 | Abschnitt 3, Nr. 16 | Reduziere Beziehungen, die dir Kraft rauben, und lerne, Bitten abzulehnen, die du nicht annehmen willst | … Das steht nicht im Widerspruch zu … |
 
@@ -615,9 +611,6 @@ Insgesamt 602 Verweise.
 | Nr. 8 | Abschnitt 24, Nr. 4 | Bewahr nach jedem Arztbesuch Krankenakte, Untersuchungsberichte und Bilddaten selbst in einer Kopie auf | …Begutachtung Krankenakte, Operationsberichte und Kontrollbilder vollständig bereit, siehe … |
 | Nr. 9 | Abschnitt 7, Nr. 8 | Mit Schwerbehindertenausweis die beiden Zuschüsse für Menschen mit Behinderung beantragen | …orteile, Ermäßigungen im Nahverkehr, Hilfsmittel und Unterstützung am Arbeitsplatz, siehe … |
 | Nr. 9 | Abschnitt 24, Nr. 8 | Die Feststellung des Behinderungsgrads erst nach Abschluss der Behandlung machen lassen, zu früh wird er zu niedrig bewertet | …inderung der Erwerbsfähigkeit bei einem Arbeitsunfall sind drei verschiedene Dinge, siehe … |
-| Nr. 10 | Abschnitt 8, Nr. 39 | Steck Ermittelnden und Vollstreckenden kein Geld und keine Karten zu: Bestechung wird auch für den Geber bestraft, bei Bestechung von Richtern sogar strenger | …trafrecht, ein Umschlag an Ermittler oder Vollstrecker ist Bestechung im Amt und steht in … |
-| Nr. 10 | Abschnitt 24, Nr. 5 | Bei Zweifeln an der Behandlung sofort eine vollständige Abschrift der Krankenakte sichern und die Dokumentation prüfen lassen | … Hast du Zweifel an der Behandlung selbst, sichere sofort die Krankenakte, siehe … |
-| Nr. 10 | Abschnitt 24, Nr. 4 | Bewahr nach jedem Arztbesuch Krankenakte, Untersuchungsberichte und Bilddaten selbst in einer Kopie auf | …ne vollständige Abschrift der Krankenakte sichern), und bewahre die Unterlagen auf, siehe … |
 
 ## 25-nach-dem-tod
 
@@ -639,7 +632,7 @@ Insgesamt 602 Verweise.
 
 | Fundstelle | Verweis | Ziel-Eintrag | Umfeld des Verweises |
 | --- | --- | --- | --- |
-| Nr. 1 | Abschnitt 2, Nr. 33 | Den BMI zwischen 20 und 25 halten und bei Übergewicht abnehmen | … Den Zusammenhang zwischen BMI und Sterblichkeit siehe … |
+| Nr. 1 | Abschnitt 2, Nr. 32 | Den BMI zwischen 20 und 25 halten und bei Übergewicht abnehmen | … Den Zusammenhang zwischen BMI und Sterblichkeit siehe … |
 | Nr. 3 | Abschnitt 28, Nr. 2 | Prüf vor Spritze, Fadenlifting und Operation zwei Dinge: ob die Einrichtung eine Arztpraxis oder Klinik ist und ob die eingreifende Person Ärztin oder Arzt ist | … Prüf das vorher nach … |
 | Nr. 5 | Abschnitt 28, Nr. 4 | Kauf keine Abnehmpräparate, die schnelles Abnehmen versprechen — keine Schlankheitspillen, Diätkaffee, Abnehm-Kapseln, Fatburner und Detox-Tees | … Die Beurteilung läuft wie bei den Abnehmprodukten (… |
 | Nr. 6 | Abschnitt 28, Nr. 5 | Nimm keine anabolen Steroide („Muskelspritzen", „Tabletten") für den Muskelaufbau | … Für die Steroide und die Geschlechtshormone aus … |
@@ -800,11 +793,11 @@ Insgesamt 602 Verweise.
 
 | Fundstelle | Verweis | Ziel-Eintrag | Umfeld des Verweises |
 | --- | --- | --- | --- |
-| Wie der Körper die Zeit  | Abschnitt 2, Nr. 40 | Je länger du Nachtschicht arbeitest, desto höher das Herz-Kreislauf-Risiko; wechsle früh, wenn du kannst | …Die Rechnung steht in … |
+| Wie der Körper die Zeit  | Abschnitt 2, Nr. 39 | Je länger du Nachtschicht arbeitest, desto höher das Herz-Kreislauf-Risiko; wechsle früh, wenn du kannst | …Die Rechnung steht in … |
 | 2. Diese Uhr wird durch  | Abschnitt 3, Nr. 2 | Steh zu einer festen Zeit auf, auch am Wochenende | …Das ist auch der Grund, warum … |
-| 9. Was an anderer Stelle | Abschnitt 2, Nr. 40 | Je länger du Nachtschicht arbeitest, desto höher das Herz-Kreislauf-Risiko; wechsle früh, wenn du kannst | …schicht das Herz-Kreislauf-Risiko erhöht und wie sich das nach Jahren berechnet, steht in … |
-| 9. Was an anderer Stelle | Abschnitt 2, Nr. 39 | Nach einer durchwachten Nacht in der nächsten Nacht den Schlaf nachholen, nicht bis zum Wochenende aufschieben | …Wie du nach einer durchwachten Nacht den Schlaf nachholst, steht in … |
-| 9. Was an anderer Stelle | Abschnitt 2, Nr. 13 | Etwa 7 Stunden pro Nacht schlafen, feste Schlafenszeiten | …Wie lange du nachts schläfst und ob der Tagesablauf regelmäßig ist, steht in … |
+| 9. Was an anderer Stelle | Abschnitt 2, Nr. 39 | Je länger du Nachtschicht arbeitest, desto höher das Herz-Kreislauf-Risiko; wechsle früh, wenn du kannst | …schicht das Herz-Kreislauf-Risiko erhöht und wie sich das nach Jahren berechnet, steht in … |
+| 9. Was an anderer Stelle | Abschnitt 2, Nr. 38 | Nach einer durchwachten Nacht in der nächsten Nacht den Schlaf nachholen, nicht bis zum Wochenende aufschieben | …Wie du nach einer durchwachten Nacht den Schlaf nachholst, steht in … |
+| 9. Was an anderer Stelle | Abschnitt 2, Nr. 12 | Etwa 7 Stunden pro Nacht schlafen, feste Schlafenszeiten | …Wie lange du nachts schläfst und ob der Tagesablauf regelmäßig ist, steht in … |
 | 9. Was an anderer Stelle | Abschnitt 3, Nr. 2 | Steh zu einer festen Zeit auf, auch am Wochenende | …Morgenlicht und festes Aufstehen stehen in … |
 
 ## docs/notfallausruestung
