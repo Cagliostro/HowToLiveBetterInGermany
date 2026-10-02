@@ -200,7 +200,7 @@ Insgesamt 595 Verweise.
 | Nr. 42 | Abschnitt 5, Nr. 41 | Bereust du eine abgeschlossene Lebensversicherung mit über einem Jahr Laufzeit, trittst du innerhalb der Widerrufsfrist zurück, die Prämie kommt fast vollständig zurück | … Wer schon unterschrieben hat, kann innerhalb der Widerrufsfrist zurücktreten, siehe … |
 | Nr. 42 | Abschnitt 5, Nr. 43 | Willst du zurücktreten, mach es selbst bei der Versicherung, nicht über einen „Rücktrittsvermittler"; fühlst du dich getäuscht, beschwere dich erst beim Versicherer und sonst beim Versicherungsombudsmann | … Wie du dich beschwerst, wenn du dich getäuscht fühlst, siehe … |
 | Nr. 43 | Abschnitt 5, Nr. 41 | Bereust du eine abgeschlossene Lebensversicherung mit über einem Jahr Laufzeit, trittst du innerhalb der Widerrufsfrist zurück, die Prämie kommt fast vollständig zurück | … Selbst in der Widerrufsfrist zurücktreten, siehe … |
-| Nr. 44 | Abschnitt 25, Nr. 9 | Die Konten des Verstorbenen gehen auf die Erben über; die Behandlungsakte dürfen die Angehörigen einsehen | … Nach einem Todesfall die Gelder an den verschiedenen Stellen einzeln abholen, siehe … |
+| Nr. 44 | Abschnitt 25, Nr. 9 | Die Konten des Verstorbenen gehen auf die Erben über; die Behandlungsakte dürfen die Angehörigen einsehen | … Nach einem Todesfall die Konten bei den verschiedenen Stellen klären, siehe … |
 | Nr. 44 | Abschnitt 29, Nr. 13 | Mach den Tod nicht zum Weg, Schulden zu tilgen: Die Lebensversicherung zahlt in den ersten drei Jahren nicht, ein Arbeitsunfall wird nicht anerkannt, und die Schulden gehen trotzdem zuerst vom Nachlass ab | … Dass der Weg „mit dem Tod Schulden tilgen" nicht funktioniert, siehe … |
 
 ## 06-die-negativliste
@@ -264,7 +264,7 @@ Insgesamt 595 Verweise.
 | Nr. 7 | Abschnitt 7, Nr. 10 | Bei schwerer Krankheit zuerst Krankenversicherung, Krankengeld und Härtefallhilfe — keine Online-Kredite anfassen | …ng siehe Nr. 9), bei schwerer Krankheit hilft die Härtefallhilfe (schwere Krankheit siehe … |
 | Nr. 7 | Abschnitt 7, Nr. 3 | Wenn du dir einen Prozess nicht leisten kannst, beantrage Rechtshilfe — Lohnklagen, Unterhalt und Arbeitsunfälle fallen ohnehin darunter | …hilft die Härtefallhilfe (schwere Krankheit siehe Nr. 10), und es gibt Rechtshilfe (siehe … |
 | Nr. 9 | Abschnitt 7, Nr. 1 | Bei Arbeitslosigkeit zuerst online Arbeitslosengeld beantragen | …ld bezieht, ist krankenversichert, ohne selbst Beiträge zu zahlen (Arbeitslosengeld siehe … |
-| Nr. 10 | Abschnitt 24, Nr. 9 | Bleiben nach der Behandlung tatsächlich Funktionsstörungen zurück, beantrage beim Versorgungsamt den Schwerbehindertenausweis | … die Notfallbehandlung zuerst steht in … |
+| Nr. 10 | Abschnitt 24, Nr. 7 | Ohne Geld, ohne Ausweis, ohne klare Angabe, wer du bist: die Notfallbehandlung muss trotzdem zuerst kommen | … die Notfallbehandlung zuerst steht in … |
 | Nr. 20 | Abschnitt 5, Nr. 39 | Versichere nur die Verluste, die du nicht tragen kannst; die Verluste, die du trägst, deckst du mit dem Notgroschen | … Welche Verluste sich mit einer Versicherung abdecken lassen, siehe … |
 | Nr. 20 | Abschnitt 7, Nr. 9 | Gesetzliche Krankenversicherung: die Beiträge nicht abreißen lassen, Familienmitglieder sind beitragsfrei | … Zahl zuerst den Beitrag zur Krankenkasse (gesetzliche Krankenversicherung siehe … |
 | Nr. 21 | Abschnitt 7, Nr. 4 | Wenn du nicht mehr weiterweißt, geh in die Notunterkunft; dort gibt es Essen, Unterkunft und ein Ticket nach Hause | … Die Notunterkunft aus … |
@@ -441,7 +441,7 @@ Insgesamt 595 Verweise.
 | Nr. 39 | Abschnitt 7, Nr. 3 | Wenn du dir einen Prozess nicht leisten kannst, beantrage Rechtshilfe — Lohnklagen, Unterhalt und Arbeitsunfälle fallen ohnehin darunter | … Wie man Rechtshilfe beantragt, siehe … |
 | Nr. 39 | Abschnitt 13, Nr. 14 | Nach einer Verbrennung oder Verbrühung sofort 20 Minuten mit kühlem fließendem Wasser spülen, keine Zahnpasta und keine Sojasauce auftragen | … Verbrennungen und Verbrühungen siehe … |
 | Nr. 39 | Abschnitt 13, Nr. 13 | Bei einem Biss oder Kratzer von Hund oder Katze, der die Haut verletzt: zuerst 15 Minuten abwechselnd mit Seifenwasser und fließendem Wasser spülen und noch am selben Tag zur Impfung | …erbrennungen und Verbrühungen siehe Nr. 14, ein Hundebiss und die Tollwutversorgung siehe … |
-| Nr. 40 | Abschnitt 24, Nr. 8 | Die Feststellung des Behinderungsgrads erst nach Abschluss der Behandlung machen lassen, zu früh wird er zu niedrig bewertet | … der Stufe, die sofort in den Schockraum kommt, geh nicht am Anmeldetisch anstehen (siehe … |
+| Nr. 40 | Abschnitt 24, Nr. 6 | Bei akut schweren Verletzungen oder Erkrankungen direkt zum Ersteinschätzungstisch der Notaufnahme, nicht am Anmeldetisch anstehen | … der Stufe, die sofort in den Schockraum kommt, geh nicht am Anmeldetisch anstehen (siehe … |
 | Nr. 40 | Abschnitt 13, Nr. 12 | Bei einer starken Blutung zuerst mit der Hand kräftig auf die Wunde drücken; lässt sich eine Blutung an Armen oder Beinen so nicht stillen, ein Tourniquet anlegen und gleichzeitig die 112 rufen | … Wie man eine starke Blutung drückt und ein Tourniquet anlegt, siehe … |
 | Nr. 41 | Abschnitt 24, Nr. 8 | Die Feststellung des Behinderungsgrads erst nach Abschluss der Behandlung machen lassen, zu früh wird er zu niedrig bewertet | …ine Feststellung des Behinderungsgrads und ein Schwerbehindertenausweis nötig sind, siehe … |
 | Nr. 41 | Abschnitt 24, Nr. 9 | Bleiben nach der Behandlung tatsächlich Funktionsstörungen zurück, beantrage beim Versorgungsamt den Schwerbehindertenausweis | …ine Feststellung des Behinderungsgrads und ein Schwerbehindertenausweis nötig sind, siehe … |
@@ -626,7 +626,7 @@ Insgesamt 595 Verweise.
 | Nr. 2 | Abschnitt 27, Nr. 16 | Überspring die Untersuchung in den ersten Wochen nach der Geburt nicht | … Was die Kontrolle nach der Geburt umfasst, steht in … |
 | Nr. 11 | Abschnitt 18, Nr. 2 | Mutterschutz: sechs Wochen vor und acht Wochen nach der Geburt, das Mutterschaftsgeld zahlt die Krankenkasse | … Wie das Mutterschaftsgeld berechnet wird und wie lange die Schutzfristen dauern, siehe … |
 | Nr. 16 | Abschnitt 27, Nr. 7 | Lern diese Liste „sofort ins Krankenhaus" auswendig, sie gilt in der Schwangerschaft und im ganzen Jahr nach der Geburt | … In der Liste „sofort ins Krankenhaus" aus … |
-| Nr. 16 | Abschnitt 9, Nr. 20 | Erfinde keinen Unfall und übertreibe keinen Schaden für die Schadensregulierung: das ist Versicherungsbetrug, und wer für dich aussagt, repariert oder begutachtet, zählt mit | … Ist das Kind geboren und kannst du es wirklich nicht großziehen, steht der legale Weg in … |
+| Nr. 16 | Abschnitt 9, Nr. 19 | Kannst du ein geborenes Kind nicht großziehen, gibt es nur einen legalen Weg: die Adoption über Jugendamt und Familiengericht. Für Geld weggeben kann als Kinderhandel bestraft werden, Liegenlassen als Aussetzung | … Ist das Kind geboren und kannst du es wirklich nicht großziehen, steht der legale Weg in … |
 
 ## 28-nicht-fuers-aussehen-ruinieren
 

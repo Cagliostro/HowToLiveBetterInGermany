@@ -171,6 +171,7 @@ Grundlage: GitHub-Issue #60 („Abschnitt 09 — Rechtliche rote Linien: kulture
 - Befund trifft zu: Mahjong ist das Beispiel der Vorlage; § 284/285 StGB knüpfen an das unerlaubte Glücksspiel an, nicht an ein einzelnes Spiel. Aus Ankergründen durfte der Titel nur ergänzt werden, deshalb bleibt Mahjong stehen und die hierzulande geläufigen Karten- und Würfelspiele kommen hinzu.
 - `:117`: „Mahjong und Karten darfst du spielen …" → „Mahjong, Karten- und Würfelspiele darfst du spielen …".
 - Marker `:119` nachgeführt („Titel geändert"). Beleg: § 284, § 285 StGB, im Quellenapparat des Eintrags geführt.
+- **Nachtrag (2026-10-02, Korrekturleser-Runde):** Mahjong wurde doch aus dem Titel gestrichen — `:117` lautet jetzt „Karten- und Würfelspiele darfst du spielen …". Die frühere Anker-Begründung ist entfallen: kein Verweis in `book/` oder `docs/` zeigt auf „Abschnitt 9, Nr. 12".
 
 **4. Wildtier in Nr. 13, Titel — erledigt.**
 - Befund trifft zu: „Iss kein Wildtier" ist die chinesische Verzehr-Regel. In Deutschland ist Fleisch jagdbarer Wildarten ein übliches Lebensmittel; beschränkt sind die besonders geschützten Arten.
