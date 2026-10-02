@@ -37,7 +37,7 @@ Verweis «… des Darlehens siehe Nr. 15 dieses Abschnitts» auf den neuen Eintr
 selbst erklären» verrutscht, und ein zwei Teilstrecken entferntes «Sie zahlen selbst» hatte
 den Anker gespielt; `--check` meldete damals «bestanden».
 
-Insgesamt 586 Verweise.
+Insgesamt 602 Verweise.
 
 ## 01-nicht-frueh-sterben
 
@@ -269,6 +269,8 @@ Insgesamt 586 Verweise.
 | Nr. 20 | Abschnitt 5, Nr. 39 | Versichere nur die Verluste, die du nicht tragen kannst; die Verluste, die du trägst, deckst du mit dem Notgroschen | … Welche Verluste sich mit einer Versicherung abdecken lassen, siehe … |
 | Nr. 20 | Abschnitt 7, Nr. 9 | Gesetzliche Krankenversicherung: die Beiträge nicht abreißen lassen, Familienmitglieder sind beitragsfrei | … Zahl zuerst den Beitrag zur Krankenkasse (gesetzliche Krankenversicherung siehe … |
 | Nr. 21 | Abschnitt 7, Nr. 4 | Wenn du nicht mehr weiterweißt, geh in die Notunterkunft; dort gibt es Essen, Unterkunft und ein Ticket nach Hause | … Die Notunterkunft aus … |
+| Nr. 23 | Abschnitt 7, Nr. 22 | Lass dein Girokonto in ein Pfändungsschutzkonto umwandeln, dann bleibt bei einer Pfändung der Grundfreibetrag frei | …ohn, sondern das Konto gepfändet, greift zusätzlich der Schutz des Pfändungsschutzkontos (… |
+| Nr. 24 | Abschnitt 7, Nr. 22 | Lass dein Girokonto in ein Pfändungsschutzkonto umwandeln, dann bleibt bei einer Pfändung der Grundfreibetrag frei | … Wer zuerst eine Pfändung abwehren will, richtet das Pfändungsschutzkonto ein (… |
 
 ## 08-lass-dich-nicht-hereinziehen
 
@@ -465,6 +467,10 @@ Insgesamt 586 Verweise.
 | Nr. 6 | Abschnitt 8, Nr. 23 | Große Schenkungen in der Liebe und in der Ehe: vor der Übergabe nachdenken, danach sind sie in der Regel nicht zurückzuholen | … zur Beweissicherung und zum Verwendungszweck siehe entsprechend die beiden Einträge in … |
 | Nr. 6 | Abschnitt 8, Nr. 18 | Beim Verleihen von Geld einen klaren Schuldschein schreiben; bevor du für jemanden bürgst, überleg dir, ob du bereit bist, seine Schulden zu zahlen | … zur Beweissicherung und zum Verwendungszweck siehe entsprechend die beiden Einträge in … |
 | Nr. 7 | Abschnitt 15, Nr. 6 | Vor der Unterschrift Eigentumsnachweis und Belastungen prüfen. Alle Zahlungen per Überweisung mit Verwendungszweck | … Alle Zahlungen per Überweisung mit Verwendungszweck, siehe … |
+| Nr. 8 | Abschnitt 15, Nr. 1 | Die Kaution ist begrenzt und getrennt anzulegen. Schäden muss der Vermieter binnen sechs Monaten geltend machen | … Die Kaution ist davon getrennt, siehe … |
+| Nr. 12 | Abschnitt 15, Nr. 13 | Leg bei Ein- und Auszug ein Übergabeprotokoll an und fotografier jede Wohnung | … Dokumentier beim Auszug den Zustand, das stützt dich im Streit, siehe … |
+| Nr. 14 | Abschnitt 37, Nr. 7 | Wer wenig verdient, bekommt Beratungshilfe und Prozesskostenhilfe bezahlt | … Wer wenig verdient, kann stattdessen Beratungshilfe beantragen (… |
+| Nr. 15 | Abschnitt 15, Nr. 7 | Beim Gebrauchtkauf läuft der Kaufpreis über den Notar, nicht über den Makler | …edarf der notariellen Beurkundung (§ 311b BGB), der Kaufpreis läuft über den Notar, siehe … |
 
 ## 16-leben-mit-chronischer-krankheit
 
@@ -493,6 +499,15 @@ Insgesamt 586 Verweise.
 | Nr. 8 | Abschnitt 1, Nr. 34 | Nach einem Sturz aus der Höhe nicht auf „ein paar Tage liegen, dann geht es wieder" setzen: die meisten in der Traumaintensivstation überleben, der Preis zählt in Jahren | …r Höhe oder eine schwere Verletzung und die Bettlägerigkeit in den Jahren danach steht in … |
 | Nr. 8 | Abschnitt 17, Nr. 7 | Wenn ein alter Mensch in der Familie dauerhaft bettlägerig oder schwer pflegebedürftig ist, beantrage bei der Pflegekasse die Pflegeversicherung; sie gilt nicht nur für alte Menschen | … Welche Pflegeleistungen die Pflegeversicherung übernimmt, steht in … |
 | Nr. 9 | Abschnitt 17, Nr. 7 | Wenn ein alter Mensch in der Familie dauerhaft bettlägerig oder schwer pflegebedürftig ist, beantrage bei der Pflegekasse die Pflegeversicherung; sie gilt nicht nur für alte Menschen | … Was die Pflegeversicherung zahlt, steht in … |
+| Nr. 10 | Abschnitt 17, Nr. 1 | Solange der alte Mensch klar im Kopf ist, bestimme schriftlich den künftigen Betreuer | … Die Patientenverfügung ergänzt die Vorsorgevollmacht, siehe … |
+| Nr. 12 | Abschnitt 17, Nr. 1 | Solange der alte Mensch klar im Kopf ist, bestimme schriftlich den künftigen Betreuer | … Die Form beantwortet nicht die Frage, wen du einsetzt, siehe … |
+
+## 18-kinder-grossziehen
+
+| Fundstelle | Verweis | Ziel-Eintrag | Umfeld des Verweises |
+| --- | --- | --- | --- |
+| Nr. 7 | Abschnitt 18, Nr. 8 | Elterngeld Plus verdoppelt den Zeitraum zum halben Satz. Bei Teilzeit beider Eltern kommt der Partnerschaftsbonus dazu | … rechne das vorher durch, siehe … |
+| Nr. 8 | Abschnitt 18, Nr. 1 | Rechne zuerst ein, was du bekommen kannst: Kindergeld von 259 Euro im Monat für jedes Kind | … Was Kindergeld hinzufügt, steht in … |
 
 ## 19-arbeitsverhaeltnis-und-arbeitsunfall
 
@@ -519,6 +534,7 @@ Insgesamt 586 Verweise.
 | Nr. 17 | Abschnitt 1, Nr. 25 | Bei Depression oder Suizidgedanken die Telefonseelsorge anrufen, zu Hause keine Schlafmittel und keine Pflanzenschutzmittel horten | … 0800 111 0 111 oder 116 123, siehe … |
 | Nr. 17 | Abschnitt 19, Nr. 7 | Unterschreib keine Eigenkündigung „aus persönlichen Gründen"; sie kostet dich die Abfindung und das Arbeitslosengeld | …hendem Lohn oder fehlender Sozialversicherungsbeiträge zum Gehen gedrängt wird, geht nach … |
 | Nr. 17 | Abschnitt 19, Nr. 8 | Sichere vor dem Ausscheiden Lohnabrechnungen, Anwesenheitsnachweise, Arbeitsvertrag, Sozialversicherungsauszug und Chatverläufe | …iträge zum Gehen gedrängt wird, geht nach Nr. 7 (keine Eigenkündigung unterschreiben) und … |
+| Nr. 21 | Abschnitt 19, Nr. 1 | Überstunden bezahlt nur der Tarif- oder Arbeitsvertrag; die Arbeitszeit ist gesetzlich begrenzt; zahlt die Firma nicht, beschwer dich bei der Arbeitsschutzbehörde | … dafür ist der Umfang zu belegen, siehe … |
 
 ## 20-neugeborene
 
@@ -748,6 +764,26 @@ Insgesamt 586 Verweise.
 | Nr. 4 | Abschnitt 20, Nr. 6 | Gib keinem Kind unter 1 Jahr Honig | …dass Honig besser wirkte als Placebo, aber Honig gibst du keinem Kind unter 1 Jahr, siehe … |
 | Nr. 4 | Abschnitt 34, Nr. 1 | Sieh auf die Inhaltsstoffliste, bevor du zwei Erkältungs- oder Schmerzmittel zusammen nimmst: Paracetamol darf nur in einem davon stecken | … zusammen mit einem Fiebersenker genommen ist das eine Doppelung, siehe … |
 | Nr. 5 | Abschnitt 27, Nr. 5 | Nimm bei hohem Präeklampsie-Risiko ab der 12. Schwangerschaftswoche täglich eine Tablette niedrig dosiertes Aspirin | … Niedrig dosiertes Aspirin gegen Präeklampsie, siehe … |
+
+## 35-steuern
+
+| Fundstelle | Verweis | Ziel-Eintrag | Umfeld des Verweises |
+| --- | --- | --- | --- |
+| Nr. 4 | Abschnitt 18, Nr. 1 | Rechne zuerst ein, was du bekommen kannst: Kindergeld von 259 Euro im Monat für jedes Kind | … Das Kindergeld selbst steht in … |
+| Nr. 7 | Abschnitt 37, Nr. 1 | Jeder Bescheid trägt eine Rechtsbehelfsbelehrung; sie nennt Frist und Stelle, bei der du dich wehren kannst | … Wie du gegen Bescheide allgemein vorgehst, steht in … |
+
+## 36-strassenverkehr
+
+| Fundstelle | Verweis | Ziel-Eintrag | Umfeld des Verweises |
+| --- | --- | --- | --- |
+| Nr. 3 | Abschnitt 37, Nr. 2 | Widerspruch bei der Behörde: schriftlich binnen eines Monats, du musst ihn nicht begründen | … Wie du gegen Bescheide allgemein vorgehst, steht in … |
+
+## 37-behoerdenbescheide-anfechten
+
+| Fundstelle | Verweis | Ziel-Eintrag | Umfeld des Verweises |
+| --- | --- | --- | --- |
+| Nr. 1 | Abschnitt 35, Nr. 7 | Prüf den Steuerbescheid Zeile für Zeile und leg bei Fehlern binnen eines Monats Einspruch ein | …kt gehst du über Widerspruch und Klage vor, nach einem Steuerbescheid über den Einspruch (… |
+| Nr. 1 | Abschnitt 36, Nr. 3 | Gegen einen Bußgeldbescheid legst du binnen zwei Wochen Einspruch ein; danach wird er rechtskräftig | …bschnitt 35, Nr. 7) und nach einem Bußgeldbescheid über den Einspruch binnen zwei Wochen (… |
 
 ## docs/anhalten-bei-fremdem-notfall
 
