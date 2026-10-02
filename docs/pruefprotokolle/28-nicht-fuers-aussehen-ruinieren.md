@@ -132,3 +132,24 @@ Nr. 2 wurde nachgeführt („… ob die Einrichtung eine Arztpraxis oder Klinik 
 - **Bezugsgröße Freiheit (Nr. 2):** Die Abschnittseinleitung nennt für die beiden Schönheitsmedizin-Einträge zusätzlich „persönliche Freiheit". Kein Kostenlabel trägt `Bezug=Freiheit` (alle `Bezug=Sterblichkeit`). Inhaltlich deckt Nr. 2 die strafrechtliche Seite ab (HeilprG § 5); da `Bezug` nach Auftrag unangetastet bleibt, ist das nicht im Label abgebildet. Zur Entscheidung für den Orchestrator.
 - **Anmerkungslängen:** Sieben von acht Anmerkungen liegen über 700 Zeichen (Nr. 1, 2, 4, 5, 6, 7, 8). Eine Kürzung wurde nicht vorgenommen — sie verlangte Umschichtung nach `docs/` bei unveränderter Evidenzlage (REQ-20 „Sinn steht über Länge"). Buchweite Regel.
 - **`docs/verweis-abgleich.md`:** Die Zeile zum Verweis auf Abschnitt 28, Nr. 2 zeigt noch den alten Zieltitel. Sie wird bei `node tools/sync-stats.mjs` (Wellenende, zentral) nachgezogen; `sync-stats` und `check-refs` wurden in dieser Runde auftragsgemäß nicht ausgeführt.
+
+## Zweite Prüfung (2026-10-02)
+
+Anlass: **Issue #72** (zweite Prüfung) zu Nr. 4, Zeile 37: „Schlankheitsbonbons" und „Enzympflaumen" (酵素梅) seien chinesische Produkte; für die deutsche Fassung prüfen und übertragen.
+
+**Befund am Text geprüft — trifft zu.** „Schlankheitsbonbons" (减肥糖) und „Enzympflaumen" (酵素梅) sind Produktformen des chinesischen Abnehm-Marktes; ein deutschsprachiger Leser in Deutschland trifft sie so nicht an. Die übrigen Beispiele des Titels („Schlankheitspillen", „Diätkaffee") sind verständliche deutsche Produktarten und bleiben.
+
+**Änderung (nur `book/28-nicht-fuers-aussehen-ruinieren.md`):** Die zwei chinesischen Produktnamen sind im Titel durch deutsche Produktarten ersetzt. Nr. 4 trug bereits einen `Angepasst`-Marker (chinesische Marktaufsichtsverfügung → BfArM/AMVV); die neue Ersetzung ist an denselben Marker angehängt, damit weiterhin genau eine Markerzeile direkt unter der `Kostenlabel`-Zeile steht.
+
+| Stelle | alt | neu |
+|---|---|---|
+| Titel (Anker „Abnehmpräparate"/„Abnehmen" erhalten) | …keine Schlankheitspillen, Diätkaffee, **Schlankheitsbonbons und Enzympflaumen** | …keine Schlankheitspillen, Diätkaffee, **Abnehm-Kapseln, Fatburner und Detox-Tees** |
+| Marker | …→ Ruhen der Zulassung und Verschreibungspflicht — BfArM-Rote-Hand-Brief 2010; AMVV Anlage 1 | …→ Ruhen der Zulassung und Verschreibungspflicht; chinesische Produktbeispiele Schlankheitsbonbons und Enzympflaumen → deutsche Produktarten Abnehm-Kapseln, Fatburner und Detox-Tees — BfArM-Rote-Hand-Brief 2010; AMVV Anlage 1; BVL-Pressemitteilung „Schlankheitsmittel versprechen viel – helfen aber nur wenig" (2017) |
+| Anmerkung (Folge der Titeländerung) | Was als „Kaffee", „**Bonbon**", „**Pflaume**" oder „Mahlzeitenersatz" verkauft wird … | Was als „Kaffee", „**Kapsel**", „**Tee**" oder „Mahlzeitenersatz" verkauft wird … |
+| Quellen (Belegergänzung) | … AMVV Anlage 1 (Sibutramin). | … AMVV Anlage 1 (Sibutramin).; Bundesamt für Verbraucherschutz und Lebensmittelsicherheit (BVL) (2017). Schlankheitsmittel versprechen viel – helfen aber nur wenig. |
+
+Die Anmerkung trug dieselben zwei Produktnamen in deutscher Einzelwortform („Bonbon", „Pflaume"); nach der Titeländerung wären sie ohne Bezug geblieben. Sie sind parallel zu den neuen Produktarten ersetzt. Klartext, Nutzen und Evidenzstufe sind unverändert; die Kosten-Zeile und das Kostenlabel bleiben gleich. Keine China-Angabe, kein `元`.
+
+**Beleg (offen, ohne Bezahlschranke, am 2026-10-02 geöffnet):** Bundesamt für Verbraucherschutz und Lebensmittelsicherheit (BVL), Pressemitteilung „Schlankheitsmittel versprechen viel – helfen aber nur wenig", 02.01.2017, <https://www.bvl.bund.de/SharedDocs/Pressemitteilungen/01_lebensmittel/2017/2017_01_02_PI_schlankheitsmittel.html>. Wörtlich: „Schlankheitsmittel werden oft in arzneimitteltypischer Form als Tabletten, Kapseln oder in Pulverform … unter der Bezeichnung Nahrungsergänzungsmittel (NEM) auf den Markt gebracht"; „Aufgussgetränke, die als „Slimming Tea" oder „Weight loss coffee" angeboten wurden" (Kapseln → Abnehm-Kapseln, Pulver → Fatburner-Pulver, Aufgussgetränke → Detox-Tees). Ergänzend dieselbe Behörde zur Kombination mit Koffein in Schlankheitsmitteln: <https://www.bvl.bund.de/SharedDocs/Fachmeldungen/01_lebensmittel/2021/2021_09_27_Expertenkommission_Synephrin.html>. Der Eintrag nennt nur allgemeine Produktarten, keine Marke.
+
+**Verweise:** `node tools/check-refs.mjs --check` nach der Titeländerung ausgeführt: „Verweisprüfung bestanden: alle 588 Verweise zeigen auf den richtigen Eintrag und tragen einen Anker". Die Anker der Verweise auf Nr. 4 („Abnehmpräparate"/„Abnehmen", u. a. Abschnitt 1 Nr. 29 und Abschnitt 28 Nr. 5) liegen im unveränderten Titelteil.

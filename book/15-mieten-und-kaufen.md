@@ -60,7 +60,7 @@ Bezugsgröße: Geld. Beim Mieten geht das Geld am ehesten bei der Kaution und be
 - Klartext: Am häufigsten verliert man alles auf zwei Wegen. Erstens geht die Miete an jemanden, der nicht Eigentümer ist. Zweitens ist die Wohnung längst bei der Bank beliehen und wird später beschlagnahmt. Prüf vor der Unterschrift beim Grundbuchamt Eigentum und Belastungen. Zahl alles per Überweisung und schreib als Verwendungszweck „Miete für Wohnung X, Monat Y". Bei Streit ist das ein direkter Beweis.
 - Nutzen: Die zwei häufigsten Fälle von Totalverlust: Die Miete geht an jemanden, der nicht Eigentümer ist; oder die Wohnung ist längst bei der Bank beliehen und wird später beschlagnahmt. Schreib bei der Überweisung als Verwendungszweck „Miete für Wohnung X, Monat Y". Bei Streit ist das ein direkter Beweis
 - Evidenzstufe: C
-- Quellen: Erfahrung des Autors, keine direkte Literatur; zur Beweissicherung und zum Verwendungszweck siehe entsprechend die beiden Einträge zu Brautpreis und Schuldschein in Abschnitt 8
+- Quellen: Erfahrung des Autors, keine direkte Literatur; zur Beweissicherung und zum Verwendungszweck siehe entsprechend die beiden Einträge in Abschnitt 8, Nr. 23 und Nr. 18 (Schenkungen in der Liebe und Ehe, Schuldschein)
 - Anmerkung: Eigentumsangaben kannst du beim örtlichen Grundbuchamt prüfen. Lass bei der Unterschrift den Vermieter persönlich kommen. Kann er nicht kommen, verlang eine schriftliche Vollmacht. Bei Untervermietung durch einen Zweitmieter brauchst du die schriftliche Zustimmung des Eigentümers. Achte bei der Besichtigung auf nachträglich eingebaute Trennwände, ein Fenster im Zimmer und die Belastbarkeit der Stromleitung
 
 ### 7. Beim Gebrauchtkauf läuft der Kaufpreis über den Notar, nicht über den Makler

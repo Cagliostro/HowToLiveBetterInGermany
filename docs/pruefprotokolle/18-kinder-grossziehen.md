@@ -89,3 +89,76 @@ Alle Seiten von `gesetze-im-internet.de`, offen, ohne Anmeldung, am 2026-10-01 a
 - `node tools/check-plain.mjs --stat`: 629 Klartext-Zeilen, **beanstandet 0** (Länge 0, Satzlänge 0, Jargon 0, neuezahl 0, Leerformel 0).
 - `node tools/check-refs.mjs --check`: **bestanden**, **610** Verweise, alle mit Anker; der Verweis auf Abschnitt 18, Nr. 2 ist darunter.
 - `node tools/sync-stats.mjs` wurde **nicht** ausgeführt — die Statistik wird am Wellenende zentral geschrieben.
+
+## Zweite Prüfung (2026-10-02)
+
+Gegenstand: **Issue #67** („Abschnitt 18 — Kinder großziehen: Kulturelle Passung für Deutschland
+(zweite Prüfung)"), ein Befund. Geändert wurde ausschließlich `book/18-kinder-grossziehen.md`
+(Nr. 6); der Bericht nennt die Stelle mit Vorher/Nachher und Beleg.
+
+| Befund | Status | Datei:Zeile | alt → neu | Beleg |
+|---|---|---|---|---|
+| „Kind = Altersabsicherung" („Kinder als Absicherung fürs Alter", chinesische Norm) | erledigt | `book/18-kinder-grossziehen.md:60` (Klartext) und `:61` (Nutzen) | „… musst du getrennt rechnen, denn dabei wettest du darauf, dass ein anderer Mensch zwanzig Jahre später das Geld hat und es auch will." → „… musst du getrennt rechnen, denn Pflegeversicherung und Grundsicherung decken Pflege und Lebensabend. Ein Kind muss dir nur dann Unterhalt zahlen, wenn es über 100.000 Euro im Jahr verdient." (Nutzen stellt die deutsche Rechtslage daneben) | §§ 1601, 1603 BGB; §§ 41, 94 SGB XII; § 1 SGB XI — gesetze-im-internet.de |
+
+### Nr. 6 — „Kinder als Absicherung fürs Alter"
+
+- **Befund geprüft, trifft zu:** Die Aussage „Kinder als Absicherung fürs Alter" ist eine
+  chinesische Norm (Kinder tragen den Lebensabend der Eltern). Für Deutschland trägt sie in dieser
+  Form nicht: Den Lebensabend sichern die gesetzliche Rente und, wenn sie nicht reicht, die
+  Grundsicherung im Alter (§§ 41 ff. SGB XII); die Pflege deckt die soziale Pflegeversicherung
+  (§ 1 SGB XI). Kinder sind ihren Eltern zwar zum Unterhalt verpflichtet (§ 1601 BGB), aber nur,
+  wenn sie leistungsfähig sind (§ 1603 BGB); bei der Sozialhilfe werden Kinder erst herangezogen,
+  wenn ihr Jahreseinkommen 100.000 Euro übersteigt (§ 94 Abs. 1a SGB XII, Angehörigen-Entlastungsgesetz).
+  Die Empfehlung „getrennt rechnen" bleibt, der Grund wird von „der andere Mensch hat das Geld und
+  will es" auf die deutsche Rechtslage gestellt.
+- **Ersetzt (Klartext):** „… denn dabei wettest du darauf, dass ein anderer Mensch zwanzig Jahre
+  später das Geld hat und es auch will." → „… denn Pflegeversicherung und Grundsicherung decken
+  Pflege und Lebensabend. Ein Kind muss dir nur dann Unterhalt zahlen, wenn es über 100.000 Euro im
+  Jahr verdient."
+- **Ersetzt (Nutzen):** die Schlussfolgerung „… denn das setzt voraus, dass ein anderer Mensch
+  zwanzig Jahre später das Geld hat und es auch will" → deutsche Rechtslage mit Normzitaten.
+- **Ergänzt (Quellen):** BGB §§ 1601, 1603; SGB XII §§ 41, 94; SGB XI § 1 (vorher nur „Erfahrung des
+  Autors"). Zusatzbelege zur deutschen Rechtslage, die Empfehlung selbst bleibt Erfahrungswissen.
+- **Neu gesetzter Marker:** direkt unter der Kostenlabel-Zeile (Zeile 58).
+- **Unverändert:** Titel (keine China-Angabe, kein Wort gestrichen — kein Querverweis hängt an Nr. 6),
+  Kosten, Anmerkung, Kostenlabel, **Evidenzstufe C** (die Empfehlung ist Erfahrungswissen; die
+  deutschen Normen sind Zusatzbelege, keine quantitativen Studien — Muster Abschnitt 10 Nr. 17).
+
+### Der Hinweis „Elternunterhalt in Abschnitt 17"
+
+Der Issue-Text verweist auf „den Hinweis zum Elternunterhalt in Abschnitt 17". Ein solcher Eintrag
+oder Hinweis steht in Abschnitt 17 (noch) nicht (`grep -rn "Elternunterhalt" book/` = 0 Treffer).
+Der Befund wurde deshalb allein aus den deutschen Primärquellen belegt; Abschnitt 17 ist nicht
+Gegenstand dieses Auftrags und blieb unangetastet.
+
+### Die geprüften offenen Belege
+
+Alle Seiten von `gesetze-im-internet.de`, offen, ohne Anmeldung, am 2026-10-02 abgerufen.
+
+- **BGB § 1601** — <https://www.gesetze-im-internet.de/bgb/__1601.html>. Wörtlich: „Verwandte in
+  gerader Linie sind verpflichtet, einander Unterhalt zu gewähren."
+- **BGB § 1603** — <https://www.gesetze-im-internet.de/bgb/__1603.html>. Leistungsfähigkeit: nicht
+  unterhaltspflichtig, wer „ohne Gefährdung seines angemessenen Unterhalts" nicht zahlen kann.
+- **SGB XII § 41** — <https://www.gesetze-im-internet.de/sgb_12/__41.html>. Grundsicherung im Alter:
+  Leistungsberechtigte „wegen Alters, wenn sie die Altersgrenze erreicht haben".
+- **SGB XII § 94 Abs. 1a** — <https://www.gesetze-im-internet.de/sgb_12/__94.html>. Überleitung von
+  Unterhaltsansprüchen gegen Kinder: ausgeschlossen, solange das „jährliche Gesamteinkommen" das der
+  unterhaltspflichtigen Person „100 000 Euro (Jahreseinkommensgrenze)" nicht übersteigt.
+- **SGB XI § 1** — <https://www.gesetze-im-internet.de/sgb_11/__1.html>. Die soziale
+  Pflegeversicherung dient „zur sozialen Absicherung des Risikos der Pflegebedürftigkeit".
+
+### Gates nach der zweiten Prüfung
+
+- `grep -c 元 book/18-kinder-grossziehen.md` = **0**; `grep -cP '[\x{4e00}-\x{9fff}]'` = **0**;
+  `grep -c '^### '` = **6**.
+- `grep -c "^<!-- Angepasst:" book/18-kinder-grossziehen.md` = **5** (vorher 4; +1 durch Nr. 6).
+  Alle stehen direkt unter der Kostenlabel-Zeile.
+- `node tools/check-plain.mjs --stat`: 606 Klartext-Zeilen, **beanstandet 0**; `--numbers` für
+  Abschnitt 18 ohne Beanstandung (die Zahl 100.000 steht auch in der Nutzen-Zeile).
+- `node tools/check-refs.mjs --check`: **bestanden** — „alle 588 Verweise zeigen auf den richtigen
+  Eintrag und tragen einen Anker" (keine Titeländerung, kein Verweis zeigt auf Nr. 6).
+- `node tools/sync-stats.mjs` wurde **nicht** ausgeführt (Randbedingung des Auftrags).
+
+### Offen
+
+**Keine.** Der Befund ließ sich belegen und wurde umgesetzt.

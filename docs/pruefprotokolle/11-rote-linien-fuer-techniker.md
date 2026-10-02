@@ -135,3 +135,54 @@ geöffnet; Zitate wurden aus dem Volltext übernommen.
   stützt sich auf § 202a, § 303a, § 303b, § 263a StGB (wie schon in der ersten Runde ohne Fall).
 - **Nr. 2 (nur den Bildschirm lesende Cheat-Hilfe):** keine gefestigte Rechtsprechung; die Anmerkung
   benennt das offen.
+
+---
+
+# Teil 3 — Zweite Prüfung (2026-10-02)
+
+## Zweite Prüfung (2026-10-02)
+
+**Befund (issue #62), am Text verifiziert.** `book/11-rote-linien-fuer-techniker.md:90` (Eintrag 9,
+Kosten-Zeile): „Hol dir vor der Teilnahme am SRC eines Herstellers oder an einem Crowd-Test eine
+Unterlage … Ein SRC ist ein Sicherheits-Notfallzentrum, das der Hersteller selbst betreibt und das
+Sicherheitslücken von außen annimmt." Der Befund trifft zu. „SRC" (Security Response Center) und das
+im selben Satz genannte 众测/Crowd-Test sind die Melde- und Testinfrastruktur chinesischer Hersteller.
+Für deutschsprachige Leser ist „SRC" ohne Erklärung nicht verständlich; die wörtliche Übertragung
+„Sicherheits-Notfallzentrum" erklärt den Begriff nur unzureichend. Die Stelle ist damit zugleich ein
+China-Bezug im laufenden Text (Zielrichtung dieser Ausgabe).
+
+**Erledigt — Änderung (Nr. 9, Kosten-Zeile), alt → neu:**
+
+- alt: „Hol dir vor der Teilnahme am SRC eines Herstellers oder an einem Crowd-Test eine Unterlage, in
+  der Erlaubnisbereich, Zielliste und testbarer Zeitraum stehen. Ein SRC ist ein
+  Sicherheits-Notfallzentrum, das der Hersteller selbst betreibt und das Sicherheitslücken von außen
+  annimmt."
+- neu: „Hol dir vor der Teilnahme an einem Bug-Bounty-Programm eines Herstellers eine Unterlage, in der
+  Erlaubnisbereich, Zielliste und testbarer Zeitraum stehen. Ein Bug-Bounty-Programm ist die
+  Meldestelle des Herstellers für Sicherheitslücken von außen."
+
+**Beleg (offen zugängliche amtliche Quelle):** BSI, „Leitlinie des BSI zum Coordinated Vulnerability
+Disclosure (CVD)-Prozess", Version 1.0 vom 01.12.2022, BSI – CERT-Bund. Wörtlich: „Wenn Hersteller
+Bug-Bounty-Programme anbieten, sollten Sicherheitsforschende die vom Hersteller formulierten
+Bedingungen genauestens erfassen. Bei Unklarheiten sind Rückfragen an den Hersteller sowie ggfs. an
+einen spezialisierten Anwalt empfehlenswert, bevor mit den Tests begonnen wird." Und: „Durch die
+Etablierung von finanzieller Entlohnung (Bug-Bounty-Programm) für Schwachstellenfindende können
+Hersteller Ihre Anerkennung ausdrücken und eine positive Anreizstruktur schaffen."
+PDF: <https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/CVD/CVD-Leitlinie.pdf> (Host
+`bsi.bund.de`; offline geprüft über `pdftotext`). Der Beleg stützt beide Teile der Anpassung: den
+Begriff „Bug-Bounty-Programm"/„Meldestelle des Herstellers" und die Aufforderung, sich vorher die
+Bedingungen des Herstellers zu holen.
+
+**Marker.** Die bestehende `<!-- Angepasst: … -->`-Zeile von Nr. 9 wurde am Ende um „Chinesisches SRC
+und Crowd-Test → Bug-Bounty-Programm (Hersteller-Meldestelle) — bsi.bund.de" ergänzt. Eine
+Markerzeile je Eintrag bleibt die Konvention: im ganzen Buch gibt es **keine** zwei
+aufeinanderfolgenden `Angepasst`-Zeilen, daher wurde nicht verlängert, sondern zusammengeführt.
+
+**Unverändert:** Eintragstitel (Anker), `<!-- Kostenlabel: … -->`, Evidenzstufe A, die Spalten Nutzen
+und Quellen, Klartext und Anmerkung. Es wurde **keine** chinesische Norm ersetzt, deshalb bleibt die
+Quellen-Spalte unberührt.
+
+**Prüfläufe.** `grep -c 元` für die Kapiteldatei = **0**; CJK-Suche in der Kapiteldatei = **0**;
+„SRC" und „Crowd-Test" kommen im Kapitel nicht mehr vor. Es wurde **kein** Eintragstitel geändert,
+daher war `node tools/check-refs.mjs --check` nach dem Auftrag nicht erforderlich. `sync-stats.mjs`
+wurde **nicht** ausgeführt (Auftrag: kein Lauf in dieser Runde).

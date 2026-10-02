@@ -462,3 +462,134 @@ berichtigt, einer ist begründet abgelehnt.
   Leerformel 0) · `check-plain --numbers` führt Kapitel 01 nicht · `check-refs --check` bestanden
   (622 Verweise, Exit 0) · `grep -c 元` = 0 · 0 CJK-Zeichen · 36 Einträge. Unverändert offen: die
   „Manuell zu klären"-Zeile zu `book/31-wege-nach-achtzehn.md:150` gehört nicht zu diesem Kapitel.
+
+## Zweite Prüfung (2026-10-02) — die Befunde aus Issue #55
+
+Grundlage sind ausschließlich die Befunde des GitHub-Issues #55, bearbeitet nur in
+`book/01-nicht-frueh-sterben.md`. Für die zitierten chinesischen Populationen (Nr. 14, Nr. 23, Nr. 34)
+gilt die Entscheidungsregel des Auftraggebers vom 2026-10-02 (Issue #79): Gibt es zu derselben Frage
+eine deutsche oder europäische Primärquelle, tritt sie an die Stelle der chinesischen; gibt es keine,
+bleiben Studie und Zahlen stehen, und die Anmerkung benennt die chinesische Population kurz und ohne
+Wertung. Erfunden wurde keine Ersatzstudie. Es wurden nur offen zugängliche Primärquellen geprüft
+(gesetze-im-internet.de, RKI, AWMF/DGVS, BMJ/PMC). Kein `sync-stats.mjs`, kein Commit, kein Push.
+
+### Nr. 10 — Kindersitz: Altersgrenze auf die deutsche Grenze gestellt (Zeile 96, 98, 100)
+- **Befund trifft zu.** Titel alt: „Für Kinder **unter 4 Jahren** einen Kindersitz benutzen, nicht auf
+  dem Arm halten". Titel neu: „Für Kinder **unter 12 Jahren, die kleiner als 150 cm sind**, einen
+  Kindersitz benutzen, nicht auf dem Arm halten".
+- **Beleg (Wortlaut abgerufen):** § 21 Abs. 1a StVO — „Kinder bis zum vollendeten 12. Lebensjahr, **die**
+  kleiner als 150 cm sind, dürfen in Kraftfahrzeugen … nur mitgenommen werden, wenn
+  Rückhalteeinrichtungen für Kinder benutzt werden …"
+  <https://www.gesetze-im-internet.de/stvo_2013/__21.html>.
+- **Abweichung vom Issue benannt:** Issue #55 paraphrasiert „Kinder bis 12 Jahre **oder** unter 150 cm".
+  Der amtliche Wortlaut verknüpft beide Bedingungen mit „die" (kumulativ): Die Sitzpflicht gilt, solange
+  das Kind jünger als 12 Jahre **und** kleiner als 150 cm ist; sie endet mit dem 12. Geburtstag **oder**
+  bei 150 cm. Der Titel folgt dem Wortlaut, nicht der Vereinigung „oder" des Issues.
+- **Klartext** (Satz ergänzt, jetzt 4 Sätze / 65 Wörter): „In Deutschland muss ein Kind unter 12 Jahren,
+  das kleiner als 150 cm ist, im Kindersitz mitfahren."
+- **Kennzeichnung:** Der bisherige `Währung`-Marker ist durch einen `Angepasst`-Marker ersetzt (er nennt
+  jetzt die Altersgrenze **und** die übernommenen Euro-Beträge). Anker der Querverweise durch
+  `check-refs --check` bestätigt.
+
+### Nr. 14 — Hepatitis B: Ortsangabe „Qidong" aus Klartext und Nutzen entfernt (Zeile 140, 141, 144)
+- **Befund trifft zu.** Klartext: „In der 30 Jahre langen Studie **aus Qidong** wurden …" → „In einer
+  30 Jahre langen Studie wurden …". Nutzen: „Die Studie **aus Qidong** hat Gruppen zufällig eingeteilt …"
+  → „Die Studie hat Gruppen zufällig eingeteilt …".
+- **Äquivalenzprüfung:** Frage ist die Neugeborenen-Impfung gegen Hepatitis B mit Endpunkt primäres
+  Leberkarzinom nach 30 Jahren (Studie Qu C et al. 2014, PLoS Medicine, DOI 10.1371/journal.pmed.1001774,
+  gesucht: HBV neonatal vaccination liver cancer long-term follow-up, Deutschland/Europa). **Keine
+  deutsche oder europäische Primärquelle mit denselben Endpunkten gefunden** — Deutschland impft seit
+  1995, eine 30-Jahres-Kohorte mit Leberkarzinom-Endpunkt existiert dafür nicht. Die Studie und ihre
+  Zahlen bleiben.
+- **Anmerkung:** Satz ergänzt „Die Studie lief in China, die Werte gelten also für eine chinesische
+  Bevölkerung." Die **Quellen-Spalte bleibt unverändert** (die Publikation trägt „Qidong" im Titel; sie
+  ist die zitierte Primärquelle, nicht der Herkunftsnachweis einer ersetzten Zahl).
+
+### Nr. 23 — Helicobacter pylori: Ortsangabe „Linqu in Shandong" entfernt, chinesische Familien-Mitbehandlung gestrichen (Zeile 230, 231, 234)
+- **Befund trifft zu.** Klartext: „In der Studie **aus Linqu in Shandong**, die 22 Jahre lang
+  beobachtete …" → „In einer 22 Jahre langen Studie hatten …". Nutzen: „Die randomisierte Studie **aus
+  Linqu in Shandong** beobachtete 22 Jahre lang." → „Die randomisierte Studie beobachtete 22 Jahre lang."
+- **Äquivalenzprüfung:** Frage ist Eradikation von H. pylori mit den Endpunkten Magenkrebs-Inzidenz und
+  -Mortalität nach 22 Jahren (Studie Li WQ et al. 2019, BMJ, DOI 10.1136/bmj.l5016). Europäische
+  Eradikationsstudien existieren (GISTAR/Lettland, HPSS, PRISMA), **aber keine mit denselben
+  veröffentlichten Endpunkten über 22 Jahre** → Studie und Zahlen bleiben.
+- **Familien-Screening (Zeile 234):** Der Satz „Nach der Eradikation kann eine erneute Infektion
+  vorkommen, **deshalb lassen sich die Familienmitglieder zusammen testen und behandeln**" beschreibt
+  eine chinesische Praxis. Eine deutsche Entsprechung ließ sich nicht mit offenem Volltext belegen →
+  nach der Regel „lässt sich keine deutsche Entsprechung belegen, ist die Wahl umstellen oder streichen"
+  **gestrichen** (kein Inhaltsverlust der belegten Aussage: „Nach der Eradikation kann eine erneute
+  Infektion vorkommen." bleibt). Stattdessen Satz ergänzt „Die Studie lief in China, die Werte gelten
+  also für eine chinesische Bevölkerung."
+- **Hinweis ohne Änderung:** Die **Kosten-Zeile** (Atemtest 30 bis 60 Euro, Eradikation 50 bis 150 Euro)
+  war nicht Teil von Issue #55 und ist unverändert geblieben.
+
+### Nr. 27 und Nr. 28 — Selbstzahlerpreise durch die Kassenleistung ersetzt (Zeile 267–269, 277–279)
+- **Befund trifft zu.** Nr. 27 Kosten alt: „Die Urinuntersuchung kostet ein paar Euro, der Ultraschall der
+  Harnorgane 50 bis 150 Euro. Hält der Arzt es für nötig, kommt eine Blasenspiegelung dazu, ein paar
+  Hundert Euro." → neu: „Die gesetzliche Krankenkasse zahlt die Abklärung, wenn der Arzt sie für nötig
+  hält. Dazu kommen die Wege zu den Terminen und das Warten auf das Ergebnis."
+- Nr. 28 Kosten alt: „Die Anmeldung kostet ein paar Euro. Blutdruck messen, Blut abnehmen für Blutzucker
+  und Blutfette, 50 bis 150 Euro. Ein Weg ins Krankenhaus, ein paar Tage auf das Ergebnis warten." → neu:
+  „Die gesetzliche Krankenkasse zahlt die Abklärung, wenn der Arzt sie für nötig hält. Ein Weg in die
+  Praxis und ein paar Tage Warten auf das Ergebnis." (Die chinesische Anmeldegebühr entfällt.)
+- **Beleg:** § 27 Abs. 1 SGB V — Anspruch auf Krankenbehandlung, „wenn sie notwendig ist, um eine
+  Krankheit zu erkennen" <https://www.gesetze-im-internet.de/sgb_5/__27.html>.
+- **Kostenlabel:** bei beiden `Geld=wenig` → `Geld=0` (Regel: der `Geld`-Wert folgt der deutschen
+  Kostensituation). Die bisherigen `Währung`-Marker sind durch `Angepasst`-Marker ersetzt, die die
+  Labeländerung mit Beleg benennen. `Zeit`, `Willenskraft`, `Nutzen`, `Bezug` unverändert.
+
+### Nr. 34 — Sturz aus der Höhe: Ortsangabe „im Süden von Xinjiang" entfernt (Zeile 338, 341, 344)
+- **Befund trifft zu.** Nutzen: „Eine Traumaintensivstation **im Süden von Xinjiang** hat eine Statistik
+  geführt." → „Eine Traumaintensivstation hat eine Statistik geführt." Anmerkung: „… eines einzigen
+  Krankenhauses **in China, die Zahlen gelten für eine chinesische Bevölkerung**."
+- **Äquivalenzprüfung:** Frage ist der Verlauf nach einem Sturz aus der Höhe auf einer
+  Traumaintensivstation (Studie Chen Y et al. 2025, Int J Emerg Med, DOI 10.1186/s12245-025-00959-4).
+  Für die Untergruppe „Rückkehr an den Arbeitsplatz" ist bereits die deutsche Quelle Simmel et al. 2020
+  zitiert; **eine deutsche oder europäische Primärquelle mit denselben Endpunkten gibt es nicht** →
+  Studie und Zahlen bleiben. Quellen-Spalte unverändert.
+
+### Nr. 35 — Nierenhandel: **zur Entscheidung vorgelegt, unverändert**
+- Der Titel führt „**86 % der Nierenverkäufer** sagen später, ihre Gesundheit sei schlechter". Diese 86 %
+  stammen aus einer Erhebung in **Chennai, Indien** (Goyal et al. 2002, JAMA, DOI
+  10.1001/jama.288.13.1589, in der Quellen-Spalte zitiert), **nicht** aus einer chinesischen Population.
+  Die Entscheidungsregel des Auftraggebers betrifft chinesische Populationen und greift hier nicht.
+- Die Titelwortregel erlaubt nur das **Hinzufügen** von Wörtern, ein Ländernname im Titel („in Indien")
+  widerspräche zudem der Zielrichtung dieser Ausgabe. Deshalb wurde nichts geändert und die Stelle zur
+  Entscheidung vorgelegt (Muster der Stufe X).
+
+### Zur Entscheidung vorgelegte Textstellen
+- **Nr. 35, Titelzeile** — „86 % der Nierenverkäufer …" (indische Population im Titel). Vorschlag:
+  entweder unverändert lassen oder das Land im Titel ergänzen; Streichen ist nach REQ-69 nicht möglich.
+- **Nr. 14, Nr. 23, Nr. 34, Anmerkung** — die chinesische Population wird in der Anmerkung benannt. Das
+  folgt der Entscheidungsregel vom 2026-10-02 (Issue #79). Die ältere Fassung der Regel „keine
+  China-Angaben im laufenden Text" schloss die Anmerkung ein; hier wurde der jüngeren, spezielleren
+  Regel der Vorrang gegeben. Zur Kenntnis vorgelegt.
+- **Nr. 23, Kosten-Zeile** — Atemtest 30 bis 60 Euro, Eradikation 50 bis 150 Euro; nicht Teil von Issue
+  #55, unverändert.
+
+### Maschinell nach der zweiten Prüfung
+- `check-plain` 0 Beanstandungen (Länge 0, Satzlänge 0, Jargon 0, neuezahl 0, Leerformel 0);
+  `check-plain --numbers` führt Kapitel 01 nicht. (Der Zähler läuft über alle `book/`-Dateien; weitere
+  Kapitel werden parallel bearbeitet, die Gesamtzahl bewegt sich dadurch.)
+- `check-refs --check` bestanden (590 Verweise, Exit 0) — die Titeländerung in Nr. 10 hat den Anker der
+  Querverweise nicht zerstört.
+- `grep -c 元` = 0 · 0 CJK-Zeichen · 36 Einträge · **32 `Angepasst`- und 2 `Währung`-Marker** (vorher
+  28 und 6; die vier reinen Währungsmarker der Einträge Nr. 10, Nr. 23, Nr. 27 und Nr. 28 wurden zu
+  `Angepasst`-Markern, weil dort mehr als nur die Währung geändert ist) · 363 Zeilen.
+- Geänderte Klartext-Wortzahlen (Grenze 80): Nr. 10 = 65 · Nr. 14 = 60 · Nr. 23 = 41 · Nr. 27 = 54 ·
+  Nr. 28 = 52 · Nr. 34 = 71 (unverändert). Nr. 23 liegt mit 41 Wörtern unter dem Zielwert 50, weil die
+  Ortsangabe entfiel; die Aussage ist vollständig.
+
+### Nachtrag 2026-10-02: Nr. 35 (Nierenverkauf) gestrichen (Auftraggeber-Entscheidung)
+- Der unter „Zur Entscheidung vorgelegte Textstellen" geführte Eintrag wurde auf die Entscheidung des
+  Auftraggebers hin **ganz gestrichen**. Begründung des Auftraggebers: „Niemand in Deutschland würde das
+  machen — das hat überhaupt keine Relevanz hier." Die Empfehlung selbst, gegen Geld eine Niere zu
+  verkaufen, betrifft den deutschen Leser nicht; ein Ersatzverhalten ist daraus nicht abzuleiten.
+- Ausgeführt: der Eintragsblock (Titel, Kostenlabel, Kosten, Klartext, Nutzen, Evidenzstufe A, Quellen,
+  Anmerkung) ist entfernt; die vorherige Nr. 36 (herrenlose Strahlungsquelle) rückt auf **Nr. 35** nach.
+  Kapitel 01 hat jetzt **35 Einträge** (vorher 36).
+- Der einzige Fremdverweis auf den gestrichenen Eintrag stand in Abschnitt 9, Nr. 21 (Anmerkung, „Was der
+  Körper nach der Entnahme einer Niere zahlt …"); er ist mitentfernt. Die Katalogzeilen in `README.md`
+  und `CLAUDE.md` sind von Hand angeglichen.
+- Durchgezogen: `check-refs --check` bestanden (586 Verweise) · `check-plain` 0 Beanstandungen ·
+  `sync-stats.mjs` (Einträge 606 · A 397 · B 158 · C 51 · Streitfälle 58 · Quellenlinks 1603, og.png neu).

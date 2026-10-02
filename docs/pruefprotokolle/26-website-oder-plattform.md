@@ -118,3 +118,95 @@ Alle Seiten sind offen zugänglich, ohne Anmeldung, am 2026-10-01 abgerufen und 
 - **Normberichtigung Nr. 7:** Der Auftrag nennt „§ 2 Abs. 2 DDG". Das ist keine Anonymitätsnorm; § 2 DDG regelt „Europäisches Sitzland". Die richtige Trägernorm ist **§ 19 Abs. 2 TDDDG** (früher TTDSG), dort steht der Anonymitätsgrundsatz wörtlich. Der Eintrag belegt die korrekte Norm; die Abweichung ist hiermit vermerkt.
 - **Abrufwerkzeug:** `eur-lex.europa.eu` liefert über den Abrufweg nur eine leere Seite. Für DSA und DSGVO wurden deshalb **amtliche deutsche PDF-Fassungen** offener Stellen verwendet (Medienanstalt Hamburg/Schleswig-Holstein für die DSA, Hamburgischer Datenschutzbeauftragter für die DSGVO). Beide sind offen zugänglich und tragen den behaupteten Text. Wenn der Wellen-Orchestrator `eur-lex.europa.eu` als kanonische Fundstelle verlangt, sind die Links austauschbar.
 - **Nr. 9 (Serverwahl):** Evidenzstufe C, Erfahrungseinschätzung. Die Euro-Preise bleiben Größenordnungen ohne amtliche Quelle; der Marker nennt das. Ein Nachweis über Anbietertarife als offene Primärquelle wurde nicht gefunden und wird nicht aus dem Gedächtnis erfunden.
+
+## Zweite Prüfung (2026-10-02)
+
+Gegenstand: **Issue #71** („Abschnitt 26 — Website oder Plattform: Kulturelle Passung für Deutschland,
+zweite Prüfung"), ein Befund. Geändert wurde ausschließlich `book/26-website-oder-plattform.md`; der
+Bericht listet die Stellen mit Vorher/Nachher und Beleg.
+
+### Befund: „Keine Lizenz" im Titel und Klartext von Nr. 2 — erledigt
+
+**Befund geprüft, trifft zu.** `book/26-website-oder-plattform.md:17` (Titel Nr. 2) und `:21`
+(Klartext) stellten die deutsche Rechtslage als Negation der chinesischen ICP-Registrierung dar
+(„Eine Website braucht keine Lizenz", „Für eine Website brauchst du hier keine Lizenz"). Die Aussage
+ist sachlich richtig, trägt für deutschsprachige Leser aber keinen eigenen Inhalt; sie wird auf die
+positiven deutschen Pflichten umgestellt — Impressumspflicht, Gewerbeanmeldung bei Gewerblichkeit und
+Datenschutz.
+
+**Erledigt — Änderungen, alt → neu:**
+
+- Titel (`:17`, nur Wörter hinzugefügt, nichts gestrichen):
+  - alt: „Eine Website braucht keine Lizenz; wer sie gewerblich betreibt, meldet das Gewerbe an und
+    gibt ein Impressum an"
+  - neu: „Eine Website braucht keine Lizenz; wer sie gewerblich betreibt, meldet das Gewerbe an und
+    gibt ein Impressum an; außerdem musst du den Datenschutz beachten"
+  - Hinweis zur Randbedingung „Titel nur ergänzen, nicht streichen": Der Wortlaut des Titels bleibt
+    vollständig erhalten, ergänzt wird allein die dritte deutsche Pflicht (Datenschutz). So bleibt
+    der Titel-Anker erhalten (Muster wie bei der zweiten Prüfung zu Abschnitt 24, Nr. 2).
+- Klartext (`:21`):
+  - alt: „Für eine Website brauchst du hier keine Lizenz. Wer mit der Website Geld einnimmt,
+    betreibt ein Gewerbe und meldet es beim Gewerbeamt an. Für einzelne Gewerbe ist zusätzlich eine
+    Erlaubnis nötig. Eine geschäftliche Website muss ein Impressum mit Name, Anschrift und Kontakt
+    bereithalten."
+  - neu: „Ob du für deine Website etwas anmelden musst, hängt davon ab, ob du damit Geld einnimmst.
+    Wer mit der Website Geld einnimmt, betreibt ein Gewerbe und meldet es beim Gewerbeamt an. Eine
+    geschäftliche Website muss ein Impressum mit Name, Anschrift und Kontakt leicht erkennbar
+    bereithalten. Sobald du über die Seite Nutzerdaten erhebst, musst du die Nutzer darüber
+    informieren und den Datenschutz beachten."
+  - Länge: 4 Sätze, 62 Wörter (Zielwert 50–70, Grenze 80); längster Satz 17 Wörter (Grenze 30).
+- Nutzen (`:22`):
+  - alt (erster Satz): „In Deutschland gibt es kein Lizenz- oder Registrierungssystem für
+    Websites."
+  - neu: Der Satz ist gestrichen; der Nutzen beginnt mit der Pflicht („Wer ein Gewerbe beginnt, muss
+    es bei der zuständigen Behörde anzeigen (§ 14 Abs. 1 GewO)."). **Ergänzt** am Ende: „Wer über den
+    Dienst personenbezogene Daten erhebt, muss die Betroffenen darüber informieren (Artikel 13 Abs. 1
+    der Verordnung (EU) 2016/679)."
+  - REQ-20: Kein Inhaltsverlust — die tragende Aussage (kein Lizenzsystem, dafür Anmelde- und
+    Informationspflichten) steht jetzt positiv in den Pflichten selbst.
+- Marke (`:19`): Die bestehende `Angepasst`-Zeile wurde am Ende um „; zweite Prüfung: Negation „keine
+  Lizenz" auf die positiven deutschen Pflichten umgestellt, Datenschutz Art. 13 DSGVO ergänzt — …"
+  erweitert; es bleibt bei **einer** Markerzeile direkt unter der Kostenlabel-Zeile.
+- Quellen (`:24`, Belegergänzung): DSGVO Art. 13 Abs. 1 ergänzt —
+  `Datenschutz-Grundverordnung (DSGVO). Artikel 13 Abs. 1 (Informationspflicht bei der Datenerhebung)
+  <https://www.datenschutz-hamburg.de/fileadmin/user_upload/HmbBfDI/Datenschutz/Gesetzte_Datenschutz/DSGVO_konsolidierte_Fassung.pdf>`
+  (dieselbe amtliche offene Fassung wie in Nr. 8 dieses Abschnitts).
+
+### Normprüfung: § 5 DDG oder noch § 5 TMG?
+
+**Ergebnis: § 5 DDG ist die richtige Fundstelle; § 5 TMG ist überholt** (der Eintrag führte bereits § 5
+DDG, das ist bestätigt).
+
+- **§ 5 DDG trägt die Impressumspflicht.** `https://www.gesetze-im-internet.de/ddg/__5.html` — § 5
+  DDG, Überschrift „Allgemeine Informationspflichten"; Abs. 1 verlangt für geschäftsmäßige digitale
+  Dienste, Name, Anschrift und Angaben zur schnellen Kontaktaufnahme „leicht erkennbar und unmittelbar
+  erreichbar … ständig verfügbar" zu halten (am 2026-10-02 im Volltext gelesen).
+- **Das DDG gilt seit dem 14. Mai 2024.** `https://www.gesetze-im-internet.de/ddg/BJNR0950B0024.html`
+  — „Digitale-Dienste-Gesetz vom 6. Mai 2024 (BGBl. 2024 I Nr. 149)"; „Es tritt gem. Art. 37 Abs. 1
+  dieses G am 14.5.2024 in Kraft."
+- **Das TMG ist auf gesetze-im-internet.de nicht mehr geführt.** `https://www.gesetze-im-internet.de/tmg/__5.html`
+  und `https://www.gesetze-im-internet.de/tmg/` liefern am 2026-10-02 **HTTP 404** — das außer Kraft
+  getretene TMG wird dort nicht mehr veröffentlicht. Die Impressumspflicht steht damit in § 5 DDG,
+  nicht mehr in § 5 TMG.
+
+### Nicht geändert
+
+- Kosten (`:20`), Evidenzstufe A (`:23`) und Anmerkung (`:25`) von Nr. 2 unverändert.
+- Kostenlabel (`:18`) unverändert: `Geld=wenig Zeit=viel Willenskraft=nein Nutzen=hoch Bezug=Freiheit`
+  (`Zeit`, `Willenskraft`, `Nutzen`, `Bezug` unberührt; keine Anpassung der Kostenlage).
+- Alle übrigen acht Einträge des Abschnitts und der Lizenzblock sind unangetastet.
+
+### Maschinelle Gates (2026-10-02)
+
+- `node tools/check-refs.mjs --check`: **bestanden** — „alle 590 Verweise zeigen auf den richtigen
+  Eintrag und tragen einen Anker" (nach der Titeländerung in Nr. 2).
+- `node tools/check-plain.mjs --stat`: 607 Klartext-Zeilen, **beanstandet 0** (Länge 0, Satzlänge 0,
+  Jargon 0, neuezahl 0, Leerformel 0).
+- `grep -c 元 book/26-website-oder-plattform.md` = **0**; CJK-Suche (`[\x{4e00}-\x{9fff}]`) = **0**.
+- `grep -c '^### '` = **9** (Einträge unverändert 1–9); `grep -c 'Angepasst:'` = **9**.
+- `node tools/sync-stats.mjs` wurde **nicht** ausgeführt (Randbedingung des Auftrags; Wellenende,
+  zentral).
+
+### Offen
+
+**Keine.** Der Befund ließ sich belegen und wurde umgesetzt.

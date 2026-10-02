@@ -149,3 +149,48 @@ Alle unter `gesetze-im-internet.de` abgerufen, jeweils am Tag der Überarbeitung
 - `grep -c '^<!-- Angepasst:'` = **21**; `^<!-- Währung:` = **0**; `^<!-- Länge:` = **0**.
 - `http` in den Anmerkungs-Zeilen = **0**.
 - `node tools/check-plain.mjs --stat` = buchweit **beanstandet 1** (Abschnitt 23, Nr. 1); **in `book/09-rechtliche-rote-linien.md` = 0 Beanstandungen**.
+
+## Zweite Prüfung (2026-10-02)
+
+Grundlage: GitHub-Issue #60 („Abschnitt 09 — Rechtliche rote Linien: kulturelle Passung für Deutschland, zweite Prüfung"). Alle fünf Befunde wurden am Text der Datei `book/09-rechtliche-rote-linien.md` selbst geprüft. Geändert wurden ausschließlich diese Datei und dieses Protokoll; `sync-stats.mjs` wurde nicht ausgeführt, kein Commit, kein Push. Die Titel wurden nur um Wörter ergänzt, kein Ankerwort gestrichen; Kostenlabel, `Zeit`, `Willenskraft`, `Nutzen`, `Bezug` und die Evidenzstufen blieben unverändert.
+
+### Befunde und Umsetzung
+
+**1. Titel Nr. 1 (Katastrophen/Seuchen) — erledigt.**
+- Befund trifft zu: Der Titel beschrieb nur das Weiterleiten ungeprüfter Meldungen. Die einschlägigen Normen erfassen etwas anderes — nämlich das Vortäuschen einer Straftat (§ 145d), das Vortäuschen einer bevorstehenden schweren Straftat (§ 126 Abs. 2) und den Missbrauch von Notrufen oder das Vortäuschen eines Unglücksfalls (§ 145); das bloße Weiterleiten ohne Meldung an eine Stelle ist nach dem Klartext gerade nicht strafbar.
+- `book/09-rechtliche-rote-linien.md:7`: „… deren Echtheit du nicht kennst; bearbeite keine Bilder …" → „… deren Echtheit du nicht kennst; täusche keine Straftat und keinen Notfall vor, bearbeite keine Bilder …" (nur ergänzt).
+- Marker `:9` nachgeführt („Titel geändert"). Beleg (offen, am 2026-10-02 im Volltext gelesen): § 145d StGB trägt die Überschrift „Vortäuschen einer Straftat", Abs. 1: „Wer wider besseres Wissen einer Behörde oder einer zur Entgegennahme von Anzeigen zuständigen Stelle vortäuscht …". <https://www.gesetze-im-internet.de/stgb/__145d.html>; § 126 und § 145 StGB sind im Quellenapparat des Eintrags geführt.
+
+**2. „Ansehen" in Nr. 3, Klartext — erledigt.**
+- Befund trifft zu: „Das eigene Ansehen für sich ist in Deutschland nicht strafbar" ist ein wörtlicher Lehnsatz; das Substantiv „Ansehen" liest sich als „Ruf/Ehre", gemeint ist das private Anschauen.
+- `:31`: „Das eigene Ansehen für sich ist in Deutschland nicht strafbar." → „Pornografie für sich allein anzusehen ist in Deutschland nicht strafbar." Der Folgesatz nennt unverändert § 184 StGB.
+- Marker `:29` nachgeführt („Klartext präzisiert").
+- Abweichung von der Vorgabe, offen gemeldet: Der im Auftrag als Beispiel genannte § 185 StGB (Beleidigung) ist hier nicht einschlägig — der Eintrag betrifft Pornografie, nicht den Angriff auf die Ehre; § 185 in einen Pornografie-Eintrag zu setzen wäre ein sachlicher Fehler. Die Aussage wurde deshalb auf die tatsächlich tragende Norm bezogen: § 184 StGB zieht die Linie bei der Verbreitung, nicht beim privaten Ansehen. Beleg: <https://www.gesetze-im-internet.de/stgb/__184.html> (im Quellenapparat des Eintrags geführt).
+
+**3. Mahjong in Nr. 12, Titel — erledigt (eingeschränkt).**
+- Befund trifft zu: Mahjong ist das Beispiel der Vorlage; § 284/285 StGB knüpfen an das unerlaubte Glücksspiel an, nicht an ein einzelnes Spiel. Aus Ankergründen durfte der Titel nur ergänzt werden, deshalb bleibt Mahjong stehen und die hierzulande geläufigen Karten- und Würfelspiele kommen hinzu.
+- `:117`: „Mahjong und Karten darfst du spielen …" → „Mahjong, Karten- und Würfelspiele darfst du spielen …".
+- Marker `:119` nachgeführt („Titel geändert"). Beleg: § 284, § 285 StGB, im Quellenapparat des Eintrags geführt.
+
+**4. Wildtier in Nr. 13, Titel — erledigt.**
+- Befund trifft zu: „Iss kein Wildtier" ist die chinesische Verzehr-Regel. In Deutschland ist Fleisch jagdbarer Wildarten ein übliches Lebensmittel; beschränkt sind die besonders geschützten Arten.
+- `:127`: „Iss kein Wildtier und kaufe …" → „Iss kein Wildtier geschützter Arten und kaufe …" (nur ergänzt, der Kern geschützte Arten, Artenschutzrecht bleibt).
+- Marker `:129` nachgeführt („Titel geändert"). Beleg (offen, am 2026-10-02 im Volltext gelesen): § 44 Abs. 1 BNatSchG (Zugriffsverbote: „wild lebenden Tieren der besonders geschützten Arten nachzustellen, sie zu fangen, zu verletzen oder zu töten"), Abs. 2 (Besitz- und Vermarktungsverbote). <https://www.gesetze-im-internet.de/bnatschg_2009/__44.html>
+
+**5. Die zwei Verweise (`:155`, `:205`) — geprüft, sie stimmen; nicht erneut geändert.**
+- `:155` „siehe Abschnitt 8, Nr. 27 und 8 (nicht vorgeschobener Geschäftsführer werden, keine Bankkarten verleihen)": Nr. 27 in Abschnitt 8 heißt „Werde kein vorgeschobener Geschäftsführer und verleih deinen Namen nicht für eine Firmengründung", Nr. 8 heißt „Verleih niemandem Bankkarte, Handykarte oder Zahlungskonto …". Beide Ziele stimmen, beide Anker („vorgeschobener Geschäftsführer", „Bankkarten") stehen im Verweis.
+- `:205` „siehe Abschnitt 8, Nr. 37 (für jemanden eine Versicherung abschließen, dann handeln)": Nr. 37 heißt „„Erst für jemanden eine Versicherung abschließen, dann handeln" ist rechtlich von vornherein verschlossen …". Ziel und Anker stimmen.
+- Beide Verweise entsprechen der in dieser Runde gesetzten Fassung und wurden nicht angetastet.
+
+### Nicht geändert
+
+- Kein Eintragskern, keine Zahl und keine Quellenangabe ersetzt; die vier Textänderungen sind rein additiv beziehungsweise eine Klartext-Präzisierung.
+- Die übrigen Einträge des Abschnitts blieben unberührt.
+
+### Maschinelle Gates (2026-10-02)
+
+- `grep -c 元 book/09-rechtliche-rote-linien.md` = **0**; `grep -cP '[\x{4e00}-\x{9fff}]'` = **0** (keine CJK-Zeichen).
+- `grep -c '^### '` = **21**; `grep -c '^<!-- Angepasst:'` = **21**; `^<!-- Währung:` = **0**.
+- `node tools/check-refs.mjs --check`: **bestanden**, alle 590 Verweise zeigen auf den richtigen Eintrag und tragen einen Anker.
+- `node tools/check-plain.mjs --stat`: 607 Klartext-Zeilen, **beanstandet 0** (Länge 0, Satzlänge 0, Jargon 0, neuezahl 0, Leerformel 0).
+- `node tools/sync-stats.mjs` wurde **nicht** ausgeführt (Auftrag).

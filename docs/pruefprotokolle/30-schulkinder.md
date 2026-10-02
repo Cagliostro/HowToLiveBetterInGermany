@@ -103,3 +103,61 @@ kindergesundheit-info.de; in-form.de (Nationale Bewegungsempfehlungen); BVKJ-Pre
   Text. **Titel Nr. 12** „im Krankenhaus" → „zum Augenarzt".
 - **Nr. 13** trägt das Kostenlabel `Geld=0`; der deutsche Anspruch (§ 22 SGB V) erstreckt sich nur auf
   die bleibenden Backenzähne, Milchzähne sind Selbstzahler — das steht in Kosten und Klartext.
+
+## Zweite Prüfung (2026-10-02)
+
+Anlass: GitHub-Issue #79, Abschnitt „3. Zweiter Fall: China-Kohorten in internationalen Journals".
+Betroffen ist nur die Quellenzeile von **Nr. 4** (Zeit im Freien gegen Kurzsichtigkeit), die die
+Studie He M et al. (2015), JAMA, zitiert — ein verloster Versuch an Grundschulen in Guangzhou.
+Auftraggeber-Entscheidung für diese fünf China-Kohorten: **„Ersetzen, wo möglich."**
+
+**Ergebnis der Belegsuche: NEIN — es gibt keinen deutschen oder europäischen Primärbeleg zur
+selben Frage.** Eine aktuelle systematische Übersichtsarbeit der RCTs zu Schul-Interventionen für
+mehr Zeit im Freien (Kido, 2025) schließt fünf Versuche mit 10.733 Grundschulkindern ein und hält
+ausdrücklich fest, dass **alle eingeschlossenen RCTs in Asien (China und Taiwan)** liefen, die
+Wirkung auf europäische Breiten also nicht belegt ist; sie fordert entsprechende europäische
+Versuche erst als nächsten Schritt. Zwei gezielte Suchen (Web, 2026-10-02) fanden ebenfalls keinen
+deutschen oder europäischen RCT; die europäische Literatur zur Frage ist beobachtend (etwa
+Jahreszeit-/Lichtstudien) und stützt die Empfehlung, ist aber kein Primärbeleg. Deshalb bleibt **He
+2015 als Primärbeleg** stehen; die deutsche Einordnung (DOG) tritt daneben, ersetzt ihn nicht.
+Damit kein Eintrag ohne deutschen Beleg: innerhalb der Zielrichtung dieser Ausgabe nicht
+anwendbar, weil die Aussage („Aufenthalt im Freien senkt die Häufigkeit neuer Kurzsichtigkeit")
+selbst der chinesische Befund ist und keine chinesische Norm/Zuständigkeit.
+
+**Umgesetzt (Nr. 4):**
+- **Klartext** (Nr. 4): „In dem Versuch bekam die erste Klasse der Grundschule …" →
+  „In dem Versuch **im chinesischen Guangzhou** bekam die erste Klasse der Grundschule …". Damit
+  steht die Population dort, wo die meisten Leser nur hinsehen; der Klartext bleibt mit dem Marker
+  „steht für sich" vereinbar (66 Wörter, längster Satz 20 Wörter).
+- **`Angepasst`-Marker** (Nr. 4): ergänzt um „der zitierte verloste Versuch ist die
+  Guangzhou-Kohorte des Originals und bleibt als Primärbeleg stehen". Der Marker weist die
+  chinesische Population damit als Angabe des Originals aus.
+- **Nutzen** (Nr. 4): unverändert — nennt „12 Grundschulen in Guangzhou" bereits, jetzt zusätzlich
+  durch den Klartext gedeckt.
+- **Quellen** (Nr. 4) und **Titel**: unverändert (He 2015 bleibt Primärbeleg, DOG steht daneben;
+  keine Wörter gestrichen, Anker erhalten).
+
+**Geprüfte Belege (HTTP, 2026-10-02):**
+- DOG-Pressemitteilung „Kindliche Kurzsichtigkeit bremsen" (2022):
+  `https://dog.org/pressemeldungen/kindliche-kurzsichtigkeit-bremsen-was-funktioniert-was-nicht-was-wir-bisher-wissen`
+  → **200**. Die zugehörige PDF-Fassung
+  (`https://dog.org/wp-content/uploads/sites/11/2022/11/PM-DOG-_Kurzsichtigkeit_aufhalten_2022_F.pdf`,
+  aus der Seite verlinkt) wurde im Volltext gelesen und belegt die zwei Aussagen der Nutzen-Zeile:
+  „Wir empfehlen daher zwei Stunden Aufenthalt pro Tag im Freien" und „zwei Stunden pro Tag draußen
+  spielen, **das halbiert das Risiko** für Kurzsichtigkeit … vermutlich bis ins junge
+  Erwachsenenalter" (dort auch 30 cm Leseabstand und Pause jede halbe Stunde — die Angaben der
+  Anmerkung).
+- He M et al. (2015), JAMA, DOI `https://doi.org/10.1001/jama.2015.10803` → der DOI-Abruf per Skript
+  antwortet **403** (Bot-Sperre); der Studientitel „…Among Children **in China**" und die
+  Guangzhou-Population sind bereits über Nutzen-Zeile und Prüfprotokoll (2026-09-09) belegt; die
+  Angabe wird nicht neu gesetzt, sondern bleibt unverändert.
+- Übersichtsarbeit Kido 2025 (NIEBP-Zusammenfassung, offen):
+  `https://www.niebp.com/le-risorse/cerca-su-database/22-elenco-schede/41-dettaglio-scheda.html?idscheda=b692e0e897192764f7f790516d564c17`
+  → offen zugänglich; hält fest: alle eingeschlossenen RCTs in China und Taiwan, europäische
+  Versuche fehlen.
+
+**Prüfungen:**
+- `node tools/check-refs.mjs --check` → bestanden, 590 Verweise (unverändert; kein Titel geändert).
+- `node tools/check-plain.mjs` → 0 Beanstandungen.
+- `grep -c 元 book/*.md` → für jede Datei 0. `book/30-schulkinder.md` enthält keine CJK-Zeichen.
+- Kein `sync-stats.mjs` in dieser Aufgabe (reine Textänderung ohne Zählwert-/Titeländerung).

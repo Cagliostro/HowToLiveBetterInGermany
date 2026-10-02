@@ -174,3 +174,75 @@ Fall, in dem der Originalbezug stehen bleiben musste.
 - `node tools/check-refs.mjs --check` wurde **nicht** ausgeführt (Parallelbetrieb; die Wellenprüfung
   erfolgt zentral).
 - `node tools/sync-stats.mjs` wurde **nicht** ausgeführt.
+
+## Zweite Prüfung (2026-10-02)
+
+Gegenstand: **Issue #61** („Abschnitt 10 — Liebe und Heirat: Kulturelle Passung für Deutschland
+(zweite Prüfung)"), drei Befunde. Geändert wurde ausschließlich `book/10-liebe-und-ehe.md`; der
+Bericht listet die drei Stellen mit Vorher/Nachher und Beleg.
+
+| Befund | Status | Datei:Zeile | alt → neu | Beleg |
+|---|---|---|---|---|
+| „Seit 2003" (Jahr der chinesischen Abschaffung der Pflicht-Eheuntersuchung) | erledigt | `book/10-liebe-und-ehe.md:141` | „Seit 2003 ist die Untersuchung vor der Ehe kein Pflichtschritt mehr" → „Eine Pflichtuntersuchung vor der Ehe gibt es in Deutschland nicht" | §§ 1303–1310 BGB, § 25 SGB V — gesetze-im-internet.de |
+| „Emotionaler Wert" (情绪价值, direkte Übertragung ohne Erklärung) | erledigt | `book/10-liebe-und-ehe.md:143` (Titel Nr. 15) | „… nicht nur, ob er da ist." → „… nicht nur, ob er da ist, sondern ob der andere dir seelische Unterstützung gibt." | REQ-68; deutsche Wiedergabe „seelische Unterstützung" wie in `docs/lohnt-sich-heiraten.md` |
+| „Heiratsdruck" (逼婚 als gesellschaftliche Norm) | erledigt | `book/10-liebe-und-ehe.md:164` (Kosten Nr. 17) | „Beruhigung, Ansehen, das Ende des Heiratsdrucks." → „Beruhigung, Ansehen, dass sie nicht mehr drängen." | REQ-68; deckungsgleich mit dem Klartext desselben Eintrags und `docs/lohnt-sich-heiraten.md` („kein weiteres Drängen auf die Heirat") |
+
+### Nr. 14 — „Seit 2003"
+
+- **Befund geprüft, trifft zu:** Der Satz nennt das Jahr der chinesischen Abschaffung der
+  Pflicht-Eheuntersuchung; in Deutschland gab es nie eine solche Pflicht. Klartext und Nutzen des
+  Eintrags sagen das bereits („Eine Untersuchungspflicht vor der Ehe gibt es in Deutschland nicht").
+- **Ersetzt (Anmerkung):** „Seit 2003 ist die Untersuchung vor der Ehe kein Pflichtschritt mehr; ob
+  du hingehst, ist freiwillig." → „Eine Pflichtuntersuchung vor der Ehe gibt es in Deutschland
+  nicht; ob du hingehst, ist freiwillig."
+- **Beleg:** Die Eheschließung richtet sich nach §§ 1303–1310 BGB und verlangt keinen
+  Gesundheitsnachweis; die Gesundheitsuntersuchung ist nach § 25 SGB V eine freiwillige
+  Kassenleistung. <https://www.gesetze-im-internet.de/bgb/__1310.html>,
+  <https://www.gesetze-im-internet.de/sgb_5/__25.html>.
+- **Marker:** Der bestehende Marker unter der Kostenlabel-Zeile wurde erweitert („samt Jahresangabe
+  2003", „deutsche Rechtslage: keine Pflichtuntersuchung vor der Ehe (§§ 1303–1310 BGB)"). Es bleibt
+  bei **einem** Marker direkt unter der Kostenlabel-Zeile.
+- **Unverändert:** Evidenzstufe B, Quellen, Kostenlabel.
+
+### Nr. 15 — „Emotionaler Wert"
+
+- **Befund geprüft, trifft zu:** „emotionaler Wert" ist die wörtliche Übertragung von 情绪价值 und
+  wird im Text nicht erklärt. Der Anker der Querverweise (Nr. 4 und Nr. 17 verweisen über
+  „Beziehungsqualität" auf diesen Eintrag) bleibt über „Qualität der Beziehung" erhalten.
+- **Ergänzt (Titel, nur Wörter hinzugefügt, nichts gestrichen):** „Frag beim emotionalen Wert nicht
+  nur, ob er da ist." → „Frag beim emotionalen Wert nicht nur, ob er da ist, sondern ob der andere
+  dir seelische Unterstützung gibt."
+- **Beleg:** Das Projekt gibt 情绪价值 an anderer Stelle mit „seelische Unterstützung" wieder
+  (`docs/lohnt-sich-heiraten.md`: „ob der andere dir seelische Unterstützung geben kann"); der
+  Marker nennt REQ-68.
+- **Neu gesetzter Marker:** `Angepasst: China-Begriff „emotionaler Wert" mit „seelische
+  Unterstützung" erklärt (REQ-68)`, direkt unter der Kostenlabel-Zeile.
+- **Unverändert:** Evidenzstufe B (Streitfall), Quellen, Kostenlabel.
+
+### Nr. 17 — „Heiratsdruck"
+
+- **Befund geprüft, trifft zu:** „Heiratsdruck" überträgt 逼婚 als gesellschaftliche Norm, die in
+  dieser Form auf Deutschland nicht passt. Die deutsche Alltagsformulierung liegt im Projekt schon
+  vor.
+- **Ersetzt (Kosten):** „… welcher Nutzen den Älteren gehört: Beruhigung, Ansehen, das Ende des
+  Heiratsdrucks." → „… Beruhigung, Ansehen, dass sie nicht mehr drängen."
+- **Beleg:** Deckungsgleich mit dem Klartext desselben Eintrags („dass sie nicht mehr drängen") und
+  mit `docs/lohnt-sich-heiraten.md` („kein weiteres Drängen auf die Heirat"); der Marker nennt
+  REQ-68. „Beruhigung" und „Ansehen" bleiben unangetastet (nicht Gegenstand des Befunds).
+- **Neu gesetzter Marker:** `Angepasst: China-Begriff „Heiratsdruck" → „dass sie nicht mehr
+  drängen" (REQ-68)`, direkt unter der Kostenlabel-Zeile.
+- **Unverändert:** Evidenzstufe C, Quellen, Kostenlabel.
+
+### Gates nach der zweiten Prüfung
+
+- `grep -c "^<!-- Angepasst:" book/10-liebe-und-ehe.md` = **13** (vorher 11; +2 durch Nr. 15 und
+  Nr. 17). Alle stehen direkt unter der Kostenlabel-Zeile.
+- `grep -c 元 book/10-liebe-und-ehe.md` = **0**; `grep -cP '[\x{4e00}-\x{9fff}]'` = **0**.
+- `node tools/check-refs.mjs --check`: **bestanden** — „alle 588 Verweise zeigen auf den richtigen
+  Eintrag und tragen einen Anker" (nach der Titeländerung in Nr. 15).
+- `node tools/check-plain.mjs` wurde nicht erneut ausgeführt (kein Klartext geändert).
+- `node tools/sync-stats.mjs` wurde **nicht** ausgeführt (Randbedingung des Auftrags).
+
+### Offen
+
+**Keine.** Alle drei Befunde ließen sich belegen und wurden umgesetzt.

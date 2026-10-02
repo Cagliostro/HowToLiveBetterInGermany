@@ -103,13 +103,13 @@ Bezugsgröße: Säuglingssterblichkeit und Geld. Dieser Abschnitt behandelt nur 
 
 ### 11. Geh bei großen Anschaffungen in der Reihenfolge „leihen, gebraucht kaufen, neu kaufen" vor und kaufe nicht alles auf einmal
 <!-- Kostenlabel: Geld=wenig Zeit=wenig Willenskraft=etwas Nutzen=mittel Bezug=Geld -->
-<!-- Währung: Yuan in Euro übernommen -->
+<!-- Angepasst: chinesische Beispiele Wochenbett-Zentren und Frühförderkurse → deutsche Babykurse Babymassage, Babyschwimmen und Babygymnastik; Yuan-Beträge in Euro übernommen — Familienportal des Bundes, „Wer hilft mir nach der Geburt?" -->
 - Kosten: kostet nichts extra, das Gesparte liegt meist im Bereich von mehreren hundert Euro. Schwierig ist, sich zu beherrschen und nicht alles auf einmal anzuschaffen
-- Klartext: Kinderwagen, Babybett, Puckdecken und Spielzeug werden nur kurz gebraucht, gebraucht gibt es davon viel. Frag zuerst jemanden, ob du es leihen kannst, sonst kauf es gebraucht, und erst wenn das nicht geht, kauf es neu; meist sparst du damit mehrere hundert Euro. Kindersitz und Matratze kauf nicht gebraucht, den Schaden an einem Sitz nach einem Unfall sieht man mit dem Auge nicht. Bei großen Beträgen wie Wochenbett-Zentren und Frühförderkursen warte erst 24 Stunden und entscheide dann.
+- Klartext: Kinderwagen, Babybett, Puckdecken und Spielzeug werden nur kurz gebraucht, gebraucht gibt es davon viel. Frag zuerst jemanden, ob du es leihen kannst, sonst kauf es gebraucht, und erst wenn das nicht geht, kauf es neu; meist sparst du damit mehrere hundert Euro. Kindersitz und Matratze kauf nicht gebraucht, den Schaden an einem Sitz nach einem Unfall sieht man mit dem Auge nicht. Bei großen Beträgen wie Babykursen für Babymassage oder Babyschwimmen warte erst 24 Stunden und entscheide dann.
 - Nutzen: Kinderwagen, Babybett, Puckdecken und Spielzeug werden alle nur kurz genutzt, auf dem Gebrauchtmarkt ist das Angebot viel größer als die Nachfrage. Was du wirklich nicht weglassen kannst und auch nicht gebraucht kaufen solltest, sind zwei Dinge: Kindersitz und Matratze. Den Schaden an der Struktur eines Kindersitzes nach einem Unfall sieht man mit dem Auge nicht
 - Evidenzstufe: C
 - Quellen: Erfahrung des Autors, keine direkte Literatur; die Evidenz zum Kindersitz siehe Abschnitt 1, zum Impulskauf siehe Abschnitt 5
-- Anmerkung: Wochenbett-Zentren, Frühförderkurse und Baby-Schwimmbäder empfiehlt dieses Buch weder noch lehnt es sie ab. Sie sind aber alle ein großer Betrag, den man ausgeben kann oder auch nicht, und dafür gilt die 24-Stunden-Bedenkpause aus Abschnitt 5
+- Anmerkung: Babykurse wie Babymassage, Babyschwimmen und Babygymnastik empfiehlt dieses Buch weder noch lehnt es sie ab. Sie sind aber alle ein großer Betrag, den man ausgeben kann oder auch nicht, und dafür gilt die 24-Stunden-Bedenkpause aus Abschnitt 5
 
 ### 12. Hat das Kind ein schweres Ekzem oder eine Ei-Allergie, meide Erdnüsse nicht, sondern gib sie nach ärztlicher Anleitung früh dazu, aber niemals eine ganze Nuss
 <!-- Kostenlabel: Geld=wenig Zeit=wenig Willenskraft=nein Nutzen=hoch Bezug=Sterblichkeit -->

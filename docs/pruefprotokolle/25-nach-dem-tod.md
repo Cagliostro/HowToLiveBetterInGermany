@@ -82,3 +82,32 @@ blieben unangetastet. Alle Einträge tragen Evidenzstufe A wie zuvor.
   `TODO`/„noch zu prüfen" 0.
 - `check-refs.mjs` wurde nach Auftrag §8 **nicht** ausgeführt (macht der Wellen-Orchestrator am
   Wellenende).
+
+## Zweite Prüfung (2026-10-02)
+
+**Befund aus GitHub-Issue #70 am Text geprüft: trifft zu.** Die Klartext-Zeile von Nr. 8 stellte
+die Ehe als die einzige Voraussetzung der Witwen-/Witwerrente dar; § 46 SGB VI verlangt darüber
+hinaus die allgemeine Wartezeit sowie (für die große Rente) Kindererziehung, eine Altersgrenze oder
+Erwerbsminderung.
+
+- Betroffen: Nr. 8 (Nachlass, Witwen-/Witwerrente, Unfallversicherung), Klartext und Nutzen.
+- Alt (Klartext, Zeile 83): „Wer verheiratet war, kann als Witwe oder Witwer eine Rente beantragen."
+- Neu (Klartext, Zeile 83): „Eine Witwen- oder Witwerrente bekommst du nicht durch die Ehe allein.
+  Der Verstorbene muss die Wartezeit erfüllt haben; dauerhaft gezahlt wird sie nur bei
+  Kindererziehung, ab dem 47. Lebensjahr oder bei Erwerbsminderung."
+- Neu (Nutzen, Zeile 84): Die zweite Nutzen-Zeile nennt die Voraussetzungen des § 46 SGB VI
+  (allgemeine Wartezeit; kleine Rente höchstens 24 Monate; große Rente bei Erziehung eines Kindes
+  unter 18 Jahren, ab dem 47. Lebensjahr oder bei Erwerbsminderung). Die Nutzen-Zeile wurde
+  mitgezogen, weil der Klartext nach CLAUDE.md nur verwenden darf, was in Titel, Kosten und Nutzen
+  steht — die Voraussetzungen gehören damit an die Nutzen-Zeile, nicht nur in den Klartext.
+- Beleg: § 46 Abs. 1 und 2 SGB VI <https://www.gesetze-im-internet.de/sgb_6/__46.html> (offener
+  Volltext, am 2026-10-02 geprüft, HTTP 200).
+- Bewusst **nicht** aufgenommen: die Anrechnung eigenen Einkommens. Sie steht nicht in § 46 SGB VI,
+  sondern in § 97 SGB VI; die Quellen-Spalte darf nach Auftrag nur um § 46 SGB VI ergänzt werden,
+  deshalb bleibt sie hier weg.
+- Evidenzstufe (A) und Quellen-Spalte unverändert — § 46 SGB VI war dort bereits verlinkt
+  (Zeile 86). Kostenlabel unverändert. Kein neuer `Angepasst`-Marker; der bestehende Marker
+  (Zeile 81) nennt § 46 SGB VI bereits. Titel unverändert, daher kein `check-refs`-Lauf nötig.
+- Maschinell: `node tools/check-plain.mjs` = 0 Beanstandungen (Klartext Nr. 8: 75 Wörter, längster
+  Satz 21 Wörter); `--numbers` beanstandet Nr. 8 nicht; `grep -c 元` = 0 und CJK = 0.
+  `node tools/check-refs.mjs --check` (nur prüfende Variante) = bestanden, 588 Verweise.
