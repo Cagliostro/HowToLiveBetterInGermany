@@ -2,7 +2,7 @@
 
 # Wie der Körper die Zeit erkennt und warum die Nachtschicht schadet
 
-Die Rechnung steht in Abschnitt 2, Nr. 40 (Je länger du Nachtschicht arbeitest, desto höher das Herz-Kreislauf-Risiko); hier steht der Hintergrund.
+Die Rechnung steht in Abschnitt 2, Nr. 39 (Je länger du Nachtschicht arbeitest, desto höher das Herz-Kreislauf-Risiko); hier steht der Hintergrund.
 
 Die Frage, die beantwortet werden soll: Kann der Körper wirklich wissen, wie spät es ist? Und wenn ja, warum ist die Nachtschicht nicht einfach „ein paar Nächte mehr durchhalten, dann gewöhnt man sich daran"?
 
@@ -140,10 +140,10 @@ Die beiden Gegenmaßnahmen oben enden, die eine bei Stoffwechsel- und Herz-Kreis
 
 ## 9. Was an anderer Stelle steht
 
-Wie stark die Nachtschicht das Herz-Kreislauf-Risiko erhöht und wie sich das nach Jahren berechnet, steht in Abschnitt 2, Nr. 40 (Je länger du Nachtschicht arbeitest, desto höher das Herz-Kreislauf-Risiko).
+Wie stark die Nachtschicht das Herz-Kreislauf-Risiko erhöht und wie sich das nach Jahren berechnet, steht in Abschnitt 2, Nr. 39 (Je länger du Nachtschicht arbeitest, desto höher das Herz-Kreislauf-Risiko).
 
-Wie du nach einer durchwachten Nacht den Schlaf nachholst, steht in Abschnitt 2, Nr. 39 (Nach einer durchwachten Nacht in der nächsten Nacht den Schlaf nachholen).
+Wie du nach einer durchwachten Nacht den Schlaf nachholst, steht in Abschnitt 2, Nr. 38 (Nach einer durchwachten Nacht in der nächsten Nacht den Schlaf nachholen).
 
-Wie lange du nachts schläfst und ob der Tagesablauf regelmäßig ist, steht in Abschnitt 2, Nr. 13 (Etwa 7 Stunden pro Nacht schlafen, feste Schlafenszeiten).
+Wie lange du nachts schläfst und ob der Tagesablauf regelmäßig ist, steht in Abschnitt 2, Nr. 12 (Etwa 7 Stunden pro Nacht schlafen, feste Schlafenszeiten).
 
 Morgenlicht und festes Aufstehen stehen in Abschnitt 3, Nr. 2 (Steh zu einer festen Zeit auf, auch am Wochenende).
